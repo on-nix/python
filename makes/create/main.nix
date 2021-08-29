@@ -1,11 +1,12 @@
 { __nixpkgs__
 , makePythonPypiEnvironment
 , makeScript
+, outputs
 , ...
 }:
 makeScript {
   entrypoint = ./entrypoint.sh;
-  name = "pypi-fetch";
+  name = "fetch";
   replace = {
     __argPy36__ = __nixpkgs__.python36;
     __argPy37__ = __nixpkgs__.python37;
@@ -17,5 +18,6 @@ makeScript {
     __nixpkgs__.jq
     __nixpkgs__.poetry
     __nixpkgs__.yj
+    outputs."/fetch"
   ];
 }

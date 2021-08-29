@@ -5,7 +5,7 @@
 }:
 makeScript {
   entrypoint = ./entrypoint.sh;
-  name = "pypi-fetch";
+  name = "fetch";
   searchPaths.bin = [
     __nixpkgs__.curl
     __nixpkgs__.jq

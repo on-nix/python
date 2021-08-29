@@ -5,7 +5,6 @@ function main {
   local project="${2}"
   local version="${3:-}"
 
-  local out="pkgs/${project}/${version}"
   local pyproject_toml='{
     "build-system": {
       "build-backend": "poetry.core.masonry.api",
@@ -54,8 +53,10 @@ function main {
     && jq -erS '[.package[] | {key: .name, value: .version}] | from_entries' \
       < poetry.lock.json > closure.json \
     && popd \
+    && out="pkgs/${project}/${version}" \
     && mkdir -p "${out}" \
-    && copy "${tmp}/closure.json" "${out}/closure-${python_version}.json"
+    && copy "${tmp}/closure.json" "${out}/closure-${python_version}.json" \
+    && fetch "${project}" "${version}"
 }
 
 main "${@}"
