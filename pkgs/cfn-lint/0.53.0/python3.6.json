@@ -1,8 +1,8 @@
 {
   "attrs": "21.2.0",
   "aws-sam-translator": "1.38.0",
-  "boto3": "1.18.31",
-  "botocore": "1.21.31",
+  "boto3": "1.18.32",
+  "botocore": "1.21.32",
   "cfn-lint": "0.53.0",
   "decorator": "4.4.2",
   "importlib-metadata": "4.8.1",
@@ -18,7 +18,7 @@
   "pyyaml": "5.4.1",
   "s3transfer": "0.5.0",
   "six": "1.16.0",
-  "typing-extensions": "3.10.0.1",
+  "typing-extensions": "3.10.0.2",
   "urllib3": "1.26.6",
   "zipp": "3.5.0"
 }

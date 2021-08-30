@@ -5,4 +5,9 @@ _:
   @just --list
 
 test:
-  nix-build --option sandbox true -A __all__
+  nix-build \
+    --attr __all__ \
+    --option cores 0 \
+    --option sandbox true \
+    --option max-jobs auto \
+    default.nix

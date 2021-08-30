@@ -1,0 +1,12 @@
+[
+  {
+    "name": "importlib_resources-3.3.1-py2.py3-none-any.whl",
+    "sha256": "42068585cc5e8c2bf0a17449817401102a5125cbfbb26bb0f43cde1568f6f2df",
+    "url": "https://files.pythonhosted.org/packages/8d/94/2f6ceee0c4e63bff0177c07e68d27c937a19f6bc77c4739755b49f5adb04/importlib_resources-3.3.1-py2.py3-none-any.whl"
+  },
+  {
+    "name": "importlib_resources-3.3.1.tar.gz",
+    "sha256": "0ed250dbd291947d1a298e89f39afcc477d5a6624770503034b72588601bcc05",
+    "url": "https://files.pythonhosted.org/packages/e1/bf/b40e6ecb611fa3be5b0ecae7b37ae1fa0d8df3146477ec0a554e8f62c976/importlib_resources-3.3.1.tar.gz"
+  }
+]

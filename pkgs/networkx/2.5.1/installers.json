@@ -1,0 +1,12 @@
+[
+  {
+    "name": "networkx-2.5.1-py3-none-any.whl",
+    "sha256": "0635858ed7e989f4c574c2328380b452df892ae85084144c73d8cd819f0c4e06",
+    "url": "https://files.pythonhosted.org/packages/f3/b7/c7f488101c0bb5e4178f3cde416004280fd40262433496830de8a8c21613/networkx-2.5.1-py3-none-any.whl"
+  },
+  {
+    "name": "networkx-2.5.1.tar.gz",
+    "sha256": "109cd585cac41297f71103c3c42ac6ef7379f29788eb54cb751be5a663bb235a",
+    "url": "https://files.pythonhosted.org/packages/b0/21/adfbf6168631e28577e4af9eb9f26d75fe72b2bb1d33762a5f2c425e6c2a/networkx-2.5.1.tar.gz"
+  }
+]

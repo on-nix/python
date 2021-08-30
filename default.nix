@@ -19,12 +19,13 @@ let
           (a: b: (builtins.compareVersions a b) > 0)
           (builtins.attrNames versions));
     in
-    # All versions
-    (nixpkgs.lib.mapAttrs'
-      (version: value: { name = "${project}-${version}"; inherit value; })
-      (versions)) //
-    # Latest version
-    { "${project}" = versions.${latest}; };
+    if versions == { }
+    then { }
+    else
+      ((nixpkgs.lib.mapAttrs'
+        (version: value: { name = "${project}-${version}"; inherit value; })
+        (versions)) //
+      { "${project}" = versions.${latest}; });
 
 
   buildProjectVersions = pythonVersion: project:
@@ -38,19 +39,35 @@ let
   buildProjectVersion = pythonVersion: project: version:
     let
       name = "python${pythonVersion}-${project}-${version}";
-      closure = pkgsSrc + "/${project}/${version}/closure-${pythonVersion}.json";
-      links = pkgsSrc + "/${project}/${version}/files.json";
+
+      closurePath =
+        pkgsSrc + "/${project}/${version}/python${pythonVersion}.json";
+      closure = makes.fromJsonFile closurePath;
+
+      links = builtins.foldl'
+        (links: project:
+          let
+            version = closure.${project};
+            projectLinksPath =
+              pkgsSrc + "/${project}/${version}/installers.json";
+            projectLinks = makes.fromJsonFile projectLinksPath;
+          in
+          links ++ projectLinks)
+        [ ]
+        (builtins.attrNames closure);
 
       venv = makes.makePythonPypiEnvironment {
         inherit name;
-        sourcesYaml = makes.toFileYaml "${name}-sources.yaml" {
-          closure = makes.fromJsonFile closure;
-          links = makes.fromJsonFile links;
+        sourcesRaw = {
+          inherit closure;
+          inherit links;
           python = pythonVersion;
         };
       };
     in
-    { "${version}" = venv; };
+    if builtins.pathExists closurePath
+    then { "${version}" = venv; }
+    else { };
 
 
   makeEnv =
