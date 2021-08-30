@@ -19,6 +19,16 @@ Packaging every package on PyPI.
 
 ## Using
 
+### Available packages
+
+Checkout the [pkgs](./pkgs) folder, for example:
+- `"awscli"`
+- `"awscli-1.20.31"`
+
+The format is in general like this:
+- `"project"`: Latest version.
+- `"project-version"`: A specific version.
+
 ### Importing
 
 In order to use this repository you need to import it
