@@ -89,9 +89,11 @@ let
 
   ls = dir: builtins.attrNames (builtins.readDir dir);
   makes =
-    let src = nixpkgs.fetchzip {
-      url = "https://github.com/fluidattacks/makes/archive/5c973a6031a5858200d1524d8248401d5922a38b.tar.gz";
-      sha256 = "02kf2qikvlqib5vqrcz0zdwkm90wpw9j60m02170gvy2n115g0x8";
+    let src = nixpkgs.fetchFromGitHub {
+      owner = "fluidattacks";
+      repo = "makes";
+      rev = "37acf1438aacdcbe610091a50d4b0415803b73c0";
+      sha256 = "1f21zcyz7bw98x1y6sbqcxy02lqvg9mqv3jmcsqm53frb22a3hag";
     };
     in import "${src}/src/args/agnostic.nix" { };
 in

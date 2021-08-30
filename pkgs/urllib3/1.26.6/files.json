@@ -1,0 +1,12 @@
+[
+  {
+    "name": "urllib3-1.26.6-py2.py3-none-any.whl",
+    "sha256": "39fb8672126159acb139a7718dd10806104dec1e2f0f6c88aab05d17df10c8d4",
+    "url": "https://files.pythonhosted.org/packages/5f/64/43575537846896abac0b15c3e5ac678d787a4021e906703f1766bfb8ea11/urllib3-1.26.6-py2.py3-none-any.whl"
+  },
+  {
+    "name": "urllib3-1.26.6.tar.gz",
+    "sha256": "f57b4c16c62fa2760b7e3d97c35b255512fb6b59a259730f36ba32ce9f8e342f",
+    "url": "https://files.pythonhosted.org/packages/4f/5a/597ef5911cb8919efe4d86206aa8b2658616d676a7088f0825ca08bd7cb8/urllib3-1.26.6.tar.gz"
+  }
+]
