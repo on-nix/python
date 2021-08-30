@@ -59,7 +59,7 @@ nixpkgsPython.makeEnv {
 }
 ```
 
-Valid `pythonVersion`s are: `3.6`, `3.7` and `3.8`.
+Valid `pythonVersion`s are: `3.6`, `3.7`, `3.8` and `3.9`.
 
 ---
 
