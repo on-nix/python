@@ -1,0 +1,12 @@
+[
+  {
+    "name": "aiobotocore-1.0.4-py3-none-any.whl",
+    "sha256": "1e89ef97c52eb77d89c7c4a9130cab162ae3b89d2709c6e45da30824163ed8d3",
+    "url": "https://files.pythonhosted.org/packages/b2/82/7914c3e3db9d18e893ac0d6e60e7bfea597435e519b367c67f94602a6984/aiobotocore-1.0.4-py3-none-any.whl"
+  },
+  {
+    "name": "aiobotocore-1.0.4.tar.gz",
+    "sha256": "4103d90b9e162176203dc5295124b15f56c37eee0ddbcddc6929760443714ff8",
+    "url": "https://files.pythonhosted.org/packages/96/43/8674a7144e137e5130fb80fab8a3ad1c8c841e0d4dd15dab846f4a45730a/aiobotocore-1.0.4.tar.gz"
+  }
+]

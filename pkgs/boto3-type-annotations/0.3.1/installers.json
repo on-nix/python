@@ -1,0 +1,12 @@
+[
+  {
+    "name": "boto3_type_annotations-0.3.1-py3-none-any.whl",
+    "sha256": "52e007ac2ab792abee42aaac3019c2acc9781a84e79e1283a5bc64164225435e",
+    "url": "https://files.pythonhosted.org/packages/96/7f/9477016e1bfd5b87ce9fcbadd3363ca3b7eb07ed2fe43137588a44dfc06c/boto3_type_annotations-0.3.1-py3-none-any.whl"
+  },
+  {
+    "name": "boto3_type_annotations-0.3.1.tar.gz",
+    "sha256": "e5682093d035e935c8189f24c601ef6eaccedfcd1e642ba7922429d093b1b885",
+    "url": "https://files.pythonhosted.org/packages/9f/f1/fd99a0d0e52fe26ffaf601cce72757e740a45e0d08d942cdedf4935dcd0f/boto3_type_annotations-0.3.1.tar.gz"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "anyio": "3.3.0",
+  "idna": "3.2",
+  "sniffio": "1.2.0",
+  "starlette": "0.16.0",
+  "typing-extensions": "3.10.0.1"
+}

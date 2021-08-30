@@ -1,0 +1,12 @@
+[
+  {
+    "name": "mirakuru-2.4.1-py3-none-any.whl",
+    "sha256": "097324abe7479b3e6a8b745d0e3980664c8f6d3aec06cdeff8fc38cb2c9abc93",
+    "url": "https://files.pythonhosted.org/packages/05/d6/932f10602e8f2b193c96c3b5571bf56f261006a7900fc5f1399a9d46af19/mirakuru-2.4.1-py3-none-any.whl"
+  },
+  {
+    "name": "mirakuru-2.4.1.tar.gz",
+    "sha256": "7025d121d2f04e957bd6ae3239531d60ebba787839c89d6052479beb58b0cd0b",
+    "url": "https://files.pythonhosted.org/packages/ae/02/d8d05c536bc0a48def6509f540728152a5418611cf7184d7dad442bdd431/mirakuru-2.4.1.tar.gz"
+  }
+]

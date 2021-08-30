@@ -1,0 +1,11 @@
+{
+  "certifi": "2021.5.30",
+  "charset-normalizer": "2.0.4",
+  "delighted": "4.1.0",
+  "idna": "3.2",
+  "requests": "2.26.0",
+  "six": "1.16.0",
+  "tzdata": "2021.1",
+  "tzlocal": "3.0",
+  "urllib3": "1.26.6"
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "xmltodict-0.12.0-py2.py3-none-any.whl",
+    "sha256": "8bbcb45cc982f48b2ca8fe7e7827c5d792f217ecf1792626f808bf41c3b86051",
+    "url": "https://files.pythonhosted.org/packages/28/fd/30d5c1d3ac29ce229f6bdc40bbc20b28f716e8b363140c26eff19122d8a5/xmltodict-0.12.0-py2.py3-none-any.whl"
+  },
+  {
+    "name": "xmltodict-0.12.0.tar.gz",
+    "sha256": "50d8c638ed7ecb88d90561beedbf720c9b4e851a9fa6c47ebd64e99d166d8a21",
+    "url": "https://files.pythonhosted.org/packages/58/40/0d783e14112e064127063fbf5d1fe1351723e5dfe9d6daad346a305f6c49/xmltodict-0.12.0.tar.gz"
+  }
+]

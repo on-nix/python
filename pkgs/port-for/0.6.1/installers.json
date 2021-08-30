@@ -1,0 +1,12 @@
+[
+  {
+    "name": "port_for-0.6.1-py3-none-any.whl",
+    "sha256": "93cbb9a01c2f64914868f81b49ae618c53fd32ef3231fd2144d3f2b62b58821f",
+    "url": "https://files.pythonhosted.org/packages/4c/0b/72655ed8906f86f6603b52eae8aaf6ac7e9ce45f545d9be3bcd609aee0dd/port_for-0.6.1-py3-none-any.whl"
+  },
+  {
+    "name": "port-for-0.6.1.tar.gz",
+    "sha256": "aa5dedbc138c614d4cc9d1ff2a56a348f6d98b21a35497987fc60c0b2959f6e4",
+    "url": "https://files.pythonhosted.org/packages/86/cf/a9c8c08576e4448e86e1c4cedc28154023d153a66939dfae34f460828e8e/port-for-0.6.1.tar.gz"
+  }
+]

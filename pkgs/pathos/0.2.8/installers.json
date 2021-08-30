@@ -1,0 +1,12 @@
+[
+  {
+    "name": "pathos-0.2.8-py2.py3-none-any.whl",
+    "sha256": "789ae53487e5f9393fcc2b9703188a1b97f20206c429654134a7152f591bafe7",
+    "url": "https://files.pythonhosted.org/packages/23/6b/7ffe02bdb5f5cf4b2290cc906b415dde7c886dbb11928dda40d39e6654dd/pathos-0.2.8-py2.py3-none-any.whl"
+  },
+  {
+    "name": "pathos-0.2.8.zip",
+    "sha256": "1f0f27a90f7ab66c423ba796529000fde9360d17b2d8e50097641ff405fc6f15",
+    "url": "https://files.pythonhosted.org/packages/66/74/2630ffec903fe3cb712f2c8a538d55422298a31461ff5370e9c6b97a93de/pathos-0.2.8.zip"
+  }
+]

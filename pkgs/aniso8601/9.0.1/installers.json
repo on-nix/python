@@ -1,0 +1,12 @@
+[
+  {
+    "name": "aniso8601-9.0.1-py2.py3-none-any.whl",
+    "sha256": "1d2b7ef82963909e93c4f24ce48d4de9e66009a21bf1c1e1c85bdd0812fe412f",
+    "url": "https://files.pythonhosted.org/packages/e3/04/e97c12dc034791d7b504860acfcdd2963fa21ae61eaca1c9d31245f812c3/aniso8601-9.0.1-py2.py3-none-any.whl"
+  },
+  {
+    "name": "aniso8601-9.0.1.tar.gz",
+    "sha256": "72e3117667eedf66951bb2d93f4296a56b94b078a8a95905a052611fb3f1b973",
+    "url": "https://files.pythonhosted.org/packages/cb/72/be3db445b03944bfbb2b02b82d00cb2a2bcf96275c4543f14bf60fa79e12/aniso8601-9.0.1.tar.gz"
+  }
+]

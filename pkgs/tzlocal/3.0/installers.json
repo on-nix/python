@@ -1,0 +1,12 @@
+[
+  {
+    "name": "tzlocal-3.0-py3-none-any.whl",
+    "sha256": "c736f2540713deb5938d789ca7c3fc25391e9a20803f05b60ec64987cf086559",
+    "url": "https://files.pythonhosted.org/packages/99/73/0b78b979e457bde19266130929b1fceee7c31a2d68169048b34e997c5665/tzlocal-3.0-py3-none-any.whl"
+  },
+  {
+    "name": "tzlocal-3.0.tar.gz",
+    "sha256": "f4e6e36db50499e0d92f79b67361041f048e2609d166e93456b50746dc4aef12",
+    "url": "https://files.pythonhosted.org/packages/89/e7/5fc01b31d9df0b914d5bbbea6f5d80ff76c6b5cf11bf23a8beca8407a0f1/tzlocal-3.0.tar.gz"
+  }
+]

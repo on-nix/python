@@ -1,0 +1,12 @@
+[
+  {
+    "name": "aioboto3-8.0.3-py2.py3-none-any.whl",
+    "sha256": "b3fd112406dac77cbc4ec6457bd53bff6fb9ef13d58e440a66bd60e405d229ef",
+    "url": "https://files.pythonhosted.org/packages/ed/c6/baa60289d1c8c04f7680f56ed08f1a0d2887af961003cb7c73c9a99847e8/aioboto3-8.0.3-py2.py3-none-any.whl"
+  },
+  {
+    "name": "aioboto3-8.0.3.tar.gz",
+    "sha256": "1650a9c478d2d11cf7d48a2b72754b27713154675084d0c837c8d99ff8b070fc",
+    "url": "https://files.pythonhosted.org/packages/5e/a3/f6dcb8047438a85352d54ad75270139810ce1111ccabc489bc7dec65c7a1/aioboto3-8.0.3.tar.gz"
+  }
+]

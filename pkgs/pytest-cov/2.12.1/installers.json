@@ -1,0 +1,12 @@
+[
+  {
+    "name": "pytest_cov-2.12.1-py2.py3-none-any.whl",
+    "sha256": "261bb9e47e65bd099c89c3edf92972865210c36813f80ede5277dceb77a4a62a",
+    "url": "https://files.pythonhosted.org/packages/ba/84/576b071aef9ac9301e5c0ff35d117e12db50b87da6f12e745e9c5f745cc2/pytest_cov-2.12.1-py2.py3-none-any.whl"
+  },
+  {
+    "name": "pytest-cov-2.12.1.tar.gz",
+    "sha256": "261ceeb8c227b726249b376b8526b600f38667ee314f910353fa318caa01f4d7",
+    "url": "https://files.pythonhosted.org/packages/63/3a/747e953051fd6eb5fb297907a825aad43d94c556d3b9938fc21f3172879f/pytest-cov-2.12.1.tar.gz"
+  }
+]

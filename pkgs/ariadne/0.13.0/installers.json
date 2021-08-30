@@ -1,0 +1,12 @@
+[
+  {
+    "name": "ariadne-0.13.0-py3-none-any.whl",
+    "sha256": "56bc3609a0512920f06e9312f8ea6db3c8e4a7cd77f31fbed388f5dba6d589c0",
+    "url": "https://files.pythonhosted.org/packages/01/cb/21a3da1d78187167f12b39c6eca3758594c3092f6b60d06fd11bc3a0e5cc/ariadne-0.13.0-py3-none-any.whl"
+  },
+  {
+    "name": "ariadne-0.13.0.tar.gz",
+    "sha256": "e00abd7eb5869b59a638f1e3a7743445bf387236048cf1b0eb9d7c506dcd37c5",
+    "url": "https://files.pythonhosted.org/packages/84/ea/0bb669650a0193db886535598db5412959934a4a05167250ff9b75775842/ariadne-0.13.0.tar.gz"
+  }
+]

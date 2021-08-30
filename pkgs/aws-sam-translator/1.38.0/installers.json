@@ -1,0 +1,17 @@
+[
+  {
+    "name": "aws_sam_translator-1.38.0-py2-none-any.whl",
+    "sha256": "dc6b816bb5cfd9709299f9b263fc0cf5ae60aca4166d1c90413ece651f1556bb",
+    "url": "https://files.pythonhosted.org/packages/6f/4a/89dbc4b81fe9d27f90dffa2854f43509fec1a80cb6c8b125cf103a244a0f/aws_sam_translator-1.38.0-py2-none-any.whl"
+  },
+  {
+    "name": "aws_sam_translator-1.38.0-py3-none-any.whl",
+    "sha256": "ee7c7c5e44ec67202622ca877140545496527ffcc45da3beeda966f007443a88",
+    "url": "https://files.pythonhosted.org/packages/8c/1f/d4faff82fb4523cec93f6cd4cdd95084aab7012311e3743f48d7bcfc0d35/aws_sam_translator-1.38.0-py3-none-any.whl"
+  },
+  {
+    "name": "aws-sam-translator-1.38.0.tar.gz",
+    "sha256": "0ecadda9cf5ab2318f57f1253181a2151e4c53cd35d21717a923c075a5a65cb6",
+    "url": "https://files.pythonhosted.org/packages/77/42/30a9106f3e712f530cc93f8510364cde417b42acb6b64096a7b34eb0c1b8/aws-sam-translator-1.38.0.tar.gz"
+  }
+]

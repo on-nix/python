@@ -1,0 +1,12 @@
+[
+  {
+    "name": "aioboto3-9.2.0-py3-none-any.whl",
+    "sha256": "9065a3467768bca40dcc96e765adc4095c0f9dec9b90cbb88aea198d8d2838d7",
+    "url": "https://files.pythonhosted.org/packages/44/97/6ee9ff74b1cdf5125ebb5938a9b117d58288c19f29500703d57b4fe7bb1a/aioboto3-9.2.0-py3-none-any.whl"
+  },
+  {
+    "name": "aioboto3-9.2.0.tar.gz",
+    "sha256": "4835680bc9ddad8f0b5339a99c6be7ab65b8e17a9a33b7715fc2d4f301680e5a",
+    "url": "https://files.pythonhosted.org/packages/e5/9c/94eb5a663118d547787403404e73b4bb6d7f9ebd7eb14f54116a2b31b7c8/aioboto3-9.2.0.tar.gz"
+  }
+]

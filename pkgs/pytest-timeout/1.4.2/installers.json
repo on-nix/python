@@ -1,0 +1,12 @@
+[
+  {
+    "name": "pytest_timeout-1.4.2-py2.py3-none-any.whl",
+    "sha256": "541d7aa19b9a6b4e475c759fd6073ef43d7cdc9a92d95644c260076eb257a063",
+    "url": "https://files.pythonhosted.org/packages/46/df/97cc0b5b8b53da0e265acd0aeecfc0c279e950a029acd2d7b4e54b00b25f/pytest_timeout-1.4.2-py2.py3-none-any.whl"
+  },
+  {
+    "name": "pytest-timeout-1.4.2.tar.gz",
+    "sha256": "20b3113cf6e4e80ce2d403b6fb56e9e1b871b510259206d40ff8d609f48bda76",
+    "url": "https://files.pythonhosted.org/packages/fd/f2/4202dea92b48712481e46bc6fb9122fd76baac727333858c69be5d19dfc5/pytest-timeout-1.4.2.tar.gz"
+  }
+]

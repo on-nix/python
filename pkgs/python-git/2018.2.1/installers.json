@@ -1,0 +1,12 @@
+[
+  {
+    "name": "python_git-2018.2.1-py3-none-any.whl",
+    "sha256": "87ef4aef32a65f44e301cff42e5d5f660a2ba8d6b9d7c021faedbb9028a57ba9",
+    "url": "https://files.pythonhosted.org/packages/f0/6f/664d1dce126168f4fb91e74e8f7bd26db72f0b2a49b0fa1c9f9742daf1ca/python_git-2018.2.1-py3-none-any.whl"
+  },
+  {
+    "name": "python-git-2018.2.1.tar.gz",
+    "sha256": "2da0a75b562bc966d8a3bc1d6a2f8fd9f0fb3a3d3f2eff2239213bcc400bde82",
+    "url": "https://files.pythonhosted.org/packages/a5/c6/645f405c8dd3094b85b0f01916517ba025ab8855b252e2a73fec51947f09/python-git-2018.2.1.tar.gz"
+  }
+]

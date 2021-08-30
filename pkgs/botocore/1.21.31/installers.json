@@ -1,0 +1,12 @@
+[
+  {
+    "name": "botocore-1.21.31-py3-none-any.whl",
+    "sha256": "8bc35ae34256cac76828ab96c80bc6653b942f85ad1898e7e265196fe92b659e",
+    "url": "https://files.pythonhosted.org/packages/60/9c/58569911efe366f7ee1ee294ebeceba06d0e73780038749afd27595ed03f/botocore-1.21.31-py3-none-any.whl"
+  },
+  {
+    "name": "botocore-1.21.31.tar.gz",
+    "sha256": "58cd315e2ae0971acdb3d7cda9c9c36b41c73181f41943a7443812d6d3c9ad18",
+    "url": "https://files.pythonhosted.org/packages/97/d0/89774e883441090c386be4ffa50320adde526b266f0b50d5df9725dad301/botocore-1.21.31.tar.gz"
+  }
+]

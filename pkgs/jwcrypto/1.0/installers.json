@@ -1,0 +1,12 @@
+[
+  {
+    "name": "jwcrypto-1.0-py2.py3-none-any.whl",
+    "sha256": "db93a656d9a7a35dda5a68deb5c9f301f4e60507d8aef1559e0637b9ac497137",
+    "url": "https://files.pythonhosted.org/packages/a1/3e/ce28e5f4024f6c497f9ddf29a3052eb160b2ea17309ddca4a2c6ca1fdee6/jwcrypto-1.0-py2.py3-none-any.whl"
+  },
+  {
+    "name": "jwcrypto-1.0.tar.gz",
+    "sha256": "f88816eb0a41b8f006af978ced5f171f33782525006cdb055b536a40f4d46ac9",
+    "url": "https://files.pythonhosted.org/packages/06/3d/5b9ee0232c05f4b461da9e6a844a9cc9d6a70a80ef5a2a99947d53f1f5f1/jwcrypto-1.0.tar.gz"
+  }
+]

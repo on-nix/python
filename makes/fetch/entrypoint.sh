@@ -41,10 +41,10 @@ function main {
           --arg sha256 "${sha256}" \
           --arg url "${url}" \
           '.[0] | . += [{
-                name: $name,
-                sha256: $sha256,
-                url: $url
-              }]' \
+            name: $name,
+            sha256: $sha256,
+            url: $url
+          }]' \
           sources.json \
           > sources2.json \
         && mv sources2.json sources.json \
@@ -52,7 +52,7 @@ function main {
     done \
     && popd \
     && mkdir -p "${out}" \
-    && copy "${tmp}/sources.json" "${out}/files.json"
+    && copy "${tmp}/sources.json" "${out}/installers.json"
 }
 
 main "${@}"

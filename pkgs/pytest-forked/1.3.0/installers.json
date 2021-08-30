@@ -1,0 +1,12 @@
+[
+  {
+    "name": "pytest_forked-1.3.0-py2.py3-none-any.whl",
+    "sha256": "dc4147784048e70ef5d437951728825a131b81714b398d5d52f17c7c144d8815",
+    "url": "https://files.pythonhosted.org/packages/9d/88/77eeb091b4fa79f28c08718f6e6ebff5827d9d1c1dd9974218ddfbe031ee/pytest_forked-1.3.0-py2.py3-none-any.whl"
+  },
+  {
+    "name": "pytest-forked-1.3.0.tar.gz",
+    "sha256": "6aa9ac7e00ad1a539c41bec6d21011332de671e938c7637378ec9710204e37ca",
+    "url": "https://files.pythonhosted.org/packages/62/92/2d418d7b0c9d68a2e885b66d7f6805f9678ce56ad2b3a77669437b2d139a/pytest-forked-1.3.0.tar.gz"
+  }
+]

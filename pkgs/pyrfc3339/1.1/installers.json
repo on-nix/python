@@ -1,0 +1,12 @@
+[
+  {
+    "name": "pyRFC3339-1.1-py2.py3-none-any.whl",
+    "sha256": "67196cb83b470709c580bb4738b83165e67c6cc60e1f2e4f286cfcb402a926f4",
+    "url": "https://files.pythonhosted.org/packages/c1/7a/725f5c16756ec6211b1e7eeac09f469084595513917ea069bc023c40a5e2/pyRFC3339-1.1-py2.py3-none-any.whl"
+  },
+  {
+    "name": "pyRFC3339-1.1.tar.gz",
+    "sha256": "81b8cbe1519cdb79bed04910dd6fa4e181faf8c88dff1e1b987b5f7ab23a5b1a",
+    "url": "https://files.pythonhosted.org/packages/00/52/75ea0ae249ba885c9429e421b4f94bc154df68484847f1ac164287d978d7/pyRFC3339-1.1.tar.gz"
+  }
+]

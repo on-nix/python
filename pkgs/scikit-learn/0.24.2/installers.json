@@ -1,0 +1,127 @@
+[
+  {
+    "name": "scikit_learn-0.24.2-cp36-cp36m-macosx_10_13_x86_64.whl",
+    "sha256": "d5bf9c863ba4717b3917b5227463ee06860fc43931dc9026747de416c0a10fee",
+    "url": "https://files.pythonhosted.org/packages/68/c6/5ed3f5b4eb2b0f99ec2e8f9bd2030020083323a42da5afa9f9a29e50ede6/scikit_learn-0.24.2-cp36-cp36m-macosx_10_13_x86_64.whl"
+  },
+  {
+    "name": "scikit_learn-0.24.2-cp36-cp36m-manylinux1_i686.whl",
+    "sha256": "5beaeb091071625e83f5905192d8aecde65ba2f26f8b6719845bbf586f7a04a1",
+    "url": "https://files.pythonhosted.org/packages/f9/79/b079ba4ac2c99bfdc1951ef8eba0f17d3f825d7cebb8a695d3455f48cca0/scikit_learn-0.24.2-cp36-cp36m-manylinux1_i686.whl"
+  },
+  {
+    "name": "scikit_learn-0.24.2-cp36-cp36m-manylinux1_x86_64.whl",
+    "sha256": "06ffdcaaf81e2a3b1b50c3ac6842cfb13df2d8b737d61f64643ed61da7389cde",
+    "url": "https://files.pythonhosted.org/packages/f5/ef/bcd79e8d59250d6e8478eb1290dc6e05be42b3be8a86e3954146adbc171a/scikit_learn-0.24.2-cp36-cp36m-manylinux1_x86_64.whl"
+  },
+  {
+    "name": "scikit_learn-0.24.2-cp36-cp36m-manylinux2010_i686.whl",
+    "sha256": "fec42690a2eb646b384eafb021c425fab48991587edb412d4db77acc358b27ce",
+    "url": "https://files.pythonhosted.org/packages/5a/51/25762691545dc028fb74b56aba39e6bce7ffe6947da1d8b9530d22732c85/scikit_learn-0.24.2-cp36-cp36m-manylinux2010_i686.whl"
+  },
+  {
+    "name": "scikit_learn-0.24.2-cp36-cp36m-manylinux2010_x86_64.whl",
+    "sha256": "5ff3e4e4cf7592d36541edec434e09fb8ab9ba6b47608c4ffe30c9038d301897",
+    "url": "https://files.pythonhosted.org/packages/d3/eb/d0e658465c029feb7083139d9ead51000742e88b1fb7f1504e19e1b4ce6e/scikit_learn-0.24.2-cp36-cp36m-manylinux2010_x86_64.whl"
+  },
+  {
+    "name": "scikit_learn-0.24.2-cp36-cp36m-manylinux2014_aarch64.whl",
+    "sha256": "3cbd734e1aefc7c5080e6b6973fe062f97c26a1cdf1a991037ca196ce1c8f427",
+    "url": "https://files.pythonhosted.org/packages/15/cd/c2061d9050d4f19da2849e54161fb5b420d39236b08f4d51cc3e90de2d7f/scikit_learn-0.24.2-cp36-cp36m-manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "scikit_learn-0.24.2-cp37-cp37m-macosx_10_13_x86_64.whl",
+    "sha256": "49ec0b1361da328da9bb7f1a162836028e72556356adeb53342f8fae6b450d47",
+    "url": "https://files.pythonhosted.org/packages/04/79/306714443069278702eaf767e82c0a619d7e93119fa9d7b075ccc7dd4801/scikit_learn-0.24.2-cp37-cp37m-macosx_10_13_x86_64.whl"
+  },
+  {
+    "name": "scikit_learn-0.24.2-cp37-cp37m-manylinux1_i686.whl",
+    "sha256": "f18c3ed484eeeaa43a0d45dc2efb4d00fc6542ccdcfa2c45d7b635096a2ae534",
+    "url": "https://files.pythonhosted.org/packages/5a/7c/6b2c392934b85310ba4e89156f214ea7cf5e3cceae2d754cf7c2f93c3ee5/scikit_learn-0.24.2-cp37-cp37m-manylinux1_i686.whl"
+  },
+  {
+    "name": "scikit_learn-0.24.2-cp37-cp37m-manylinux1_x86_64.whl",
+    "sha256": "cdf24c1b9bbeb4936456b42ac5bd32c60bb194a344951acb6bfb0cddee5439a4",
+    "url": "https://files.pythonhosted.org/packages/6f/6b/10881b09340d69d4a941e5624bfbf1ba853be8cdf2141077e66dda0b088e/scikit_learn-0.24.2-cp37-cp37m-manylinux1_x86_64.whl"
+  },
+  {
+    "name": "scikit_learn-0.24.2-cp37-cp37m-manylinux2010_i686.whl",
+    "sha256": "d177fe1ff47cc235942d628d41ee5b1c6930d8f009f1a451c39b5411e8d0d4cf",
+    "url": "https://files.pythonhosted.org/packages/5a/2c/24e405dc6188fae037f36e03e706da7d06001849a17edb03db917796c404/scikit_learn-0.24.2-cp37-cp37m-manylinux2010_i686.whl"
+  },
+  {
+    "name": "scikit_learn-0.24.2-cp37-cp37m-manylinux2010_x86_64.whl",
+    "sha256": "f3ec00f023d84526381ad0c0f2cff982852d035c921bbf8ceb994f4886c00c64",
+    "url": "https://files.pythonhosted.org/packages/a8/eb/a48f25c967526b66d5f1fa7a984594f0bf0a5afafa94a8c4dbc317744620/scikit_learn-0.24.2-cp37-cp37m-manylinux2010_x86_64.whl"
+  },
+  {
+    "name": "scikit_learn-0.24.2-cp37-cp37m-manylinux2014_aarch64.whl",
+    "sha256": "ae19ac105cf7ce8c205a46166992fdec88081d6e783ab6e38ecfbe45729f3c39",
+    "url": "https://files.pythonhosted.org/packages/f3/78/b4aa1db778c2eb4a2e7ee0df84461ecb1bb2019031fd08723bd4c923452f/scikit_learn-0.24.2-cp37-cp37m-manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "scikit_learn-0.24.2-cp38-cp38-macosx_10_13_x86_64.whl",
+    "sha256": "90a297330f608adeb4d2e9786c6fda395d3150739deb3d42a86d9a4c2d15bc1d",
+    "url": "https://files.pythonhosted.org/packages/bf/6c/31c623a656ab66e938b2432cb8e41dc5497dec670ff07e1e74989ee0ab77/scikit_learn-0.24.2-cp38-cp38-macosx_10_13_x86_64.whl"
+  },
+  {
+    "name": "scikit_learn-0.24.2-cp38-cp38-manylinux1_i686.whl",
+    "sha256": "f1d2108e770907540b5248977e4cff9ffaf0f73d0d13445ee938df06ca7579c6",
+    "url": "https://files.pythonhosted.org/packages/89/ac/5760aed927165f5b1e0b7543e804f6b29b768f8992e5255fdb3495b09bde/scikit_learn-0.24.2-cp38-cp38-manylinux1_i686.whl"
+  },
+  {
+    "name": "scikit_learn-0.24.2-cp38-cp38-manylinux1_x86_64.whl",
+    "sha256": "1eec963fe9ffc827442c2e9333227c4d49749a44e592f305398c1db5c1563393",
+    "url": "https://files.pythonhosted.org/packages/23/87/5eb251917dc7d42119565a3a8a1937f8186399c9df8fbb1537ced97c0499/scikit_learn-0.24.2-cp38-cp38-manylinux1_x86_64.whl"
+  },
+  {
+    "name": "scikit_learn-0.24.2-cp38-cp38-manylinux2010_i686.whl",
+    "sha256": "2db429090b98045d71218a9ba913cc9b3fe78e0ba0b6b647d8748bc6d5a44080",
+    "url": "https://files.pythonhosted.org/packages/8a/e2/7d0a3f450d3a99c1a2f3485084e437b1d0ad69d5ded89def17e644bd8e10/scikit_learn-0.24.2-cp38-cp38-manylinux2010_i686.whl"
+  },
+  {
+    "name": "scikit_learn-0.24.2-cp38-cp38-manylinux2010_x86_64.whl",
+    "sha256": "62214d2954377fcf3f31ec867dd4e436df80121e7a32947a0b3244f58f45e455",
+    "url": "https://files.pythonhosted.org/packages/36/dd/06b6f0ad7b86c3edc3a02d255f3fcc98e444a847cea10b3a0182251ca7b6/scikit_learn-0.24.2-cp38-cp38-manylinux2010_x86_64.whl"
+  },
+  {
+    "name": "scikit_learn-0.24.2-cp38-cp38-manylinux2014_aarch64.whl",
+    "sha256": "8fac72b9688176922f9f54fda1ba5f7ffd28cbeb9aad282760186e8ceba9139a",
+    "url": "https://files.pythonhosted.org/packages/35/ed/4bac8cc77baa335f31e1ea7dd91fc3b0793df755192aa384c7ca4dee4841/scikit_learn-0.24.2-cp38-cp38-manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "scikit_learn-0.24.2-cp39-cp39-macosx_10_13_x86_64.whl",
+    "sha256": "48f273836e19901ba2beecd919f7b352f09310ce67c762f6e53bc6b81cacf1f0",
+    "url": "https://files.pythonhosted.org/packages/c6/6a/41fe5034d4f85c24aea9b7dca1f070bcca2ec29251d0624e87436bf5a2c0/scikit_learn-0.24.2-cp39-cp39-macosx_10_13_x86_64.whl"
+  },
+  {
+    "name": "scikit_learn-0.24.2-cp39-cp39-manylinux1_i686.whl",
+    "sha256": "a2a47449093dcf70babc930beba2ca0423cb7df2fa5fd76be5260703d67fa574",
+    "url": "https://files.pythonhosted.org/packages/02/7a/1ec25170b09942fd099110ba213ec9e09b1e9e0a5aeeb5596e42a7e9dd9d/scikit_learn-0.24.2-cp39-cp39-manylinux1_i686.whl"
+  },
+  {
+    "name": "scikit_learn-0.24.2-cp39-cp39-manylinux1_x86_64.whl",
+    "sha256": "0e71ce9c7cbc20f6f8b860107ce15114da26e8675238b4b82b7e7cd37ca0c087",
+    "url": "https://files.pythonhosted.org/packages/13/ac/7ea73841bbed1f1c60f6e960dc9bbf1401f84926ef9db69cfce07d61127a/scikit_learn-0.24.2-cp39-cp39-manylinux1_x86_64.whl"
+  },
+  {
+    "name": "scikit_learn-0.24.2-cp39-cp39-manylinux2010_i686.whl",
+    "sha256": "2754c85b2287333f9719db7f23fb7e357f436deed512db3417a02bf6f2830aa5",
+    "url": "https://files.pythonhosted.org/packages/82/42/397ba53eab6062b8a4e2a0a7681aed66e3e7912e59628aae592376209ffd/scikit_learn-0.24.2-cp39-cp39-manylinux2010_i686.whl"
+  },
+  {
+    "name": "scikit_learn-0.24.2-cp39-cp39-manylinux2010_x86_64.whl",
+    "sha256": "7be1b88c23cfac46e06404582215a917017cd2edaa2e4d40abe6aaff5458f24b",
+    "url": "https://files.pythonhosted.org/packages/04/e2/b43d4205124dd4c1f14606b2e2d78303db993c6653a90bf11dd0ffe23b5b/scikit_learn-0.24.2-cp39-cp39-manylinux2010_x86_64.whl"
+  },
+  {
+    "name": "scikit_learn-0.24.2-cp39-cp39-manylinux2014_aarch64.whl",
+    "sha256": "4e6198675a6f9d333774671bd536668680eea78e2e81c0b19e57224f58d17f37",
+    "url": "https://files.pythonhosted.org/packages/bf/48/76f46db8936adf6a279daa82341f53b89cac01f40c683a3f22bc9a4362a5/scikit_learn-0.24.2-cp39-cp39-manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "scikit-learn-0.24.2.tar.gz",
+    "sha256": "d14701a12417930392cd3898e9646cf5670c190b933625ebe7511b1f7d7b8736",
+    "url": "https://files.pythonhosted.org/packages/05/04/507280f20fafc8bc94b41e0592938c6f4a910d0e066be7c8ff1299628f5d/scikit-learn-0.24.2.tar.gz"
+  }
+]

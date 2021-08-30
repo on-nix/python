@@ -1,0 +1,9 @@
+{
+  "certifi": "2021.5.30",
+  "charset-normalizer": "2.0.4",
+  "idna": "3.2",
+  "requests": "2.26.0",
+  "responses": "0.13.4",
+  "six": "1.16.0",
+  "urllib3": "1.26.6"
+}

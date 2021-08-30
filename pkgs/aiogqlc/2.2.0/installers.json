@@ -1,0 +1,12 @@
+[
+  {
+    "name": "aiogqlc-2.2.0-py3-none-any.whl",
+    "sha256": "9a74b4e0e86067688fc9ed0b17a3ac32f44cd2529d4dd3e3b0ede085fc8ab1ab",
+    "url": "https://files.pythonhosted.org/packages/3d/e4/1e3686fd427d311da594a6657f56409c9970079a6aed277c5869f101083c/aiogqlc-2.2.0-py3-none-any.whl"
+  },
+  {
+    "name": "aiogqlc-2.2.0.tar.gz",
+    "sha256": "7981c7ce2f3c8cdec74539c99a7116e647d96861aec56ba5a7903499bc0638c7",
+    "url": "https://files.pythonhosted.org/packages/b3/3a/b78dfcf86dc02d6c218d1449ef81daf0c2e6791f2a13bf1de9c7fbb55b87/aiogqlc-2.2.0.tar.gz"
+  }
+]

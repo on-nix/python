@@ -1,0 +1,147 @@
+[
+  {
+    "name": "multidict-5.1.0-cp36-cp36m-macosx_10_14_x86_64.whl",
+    "sha256": "b7993704f1a4b204e71debe6095150d43b2ee6150fa4f44d6d966ec356a8d61f",
+    "url": "https://files.pythonhosted.org/packages/a4/2f/003fa5ed3c1bcb23c53a5b5c663b67dbc71706733d823eea7e0125647968/multidict-5.1.0-cp36-cp36m-macosx_10_14_x86_64.whl"
+  },
+  {
+    "name": "multidict-5.1.0-cp36-cp36m-manylinux1_i686.whl",
+    "sha256": "9dd6e9b1a913d096ac95d0399bd737e00f2af1e1594a787e00f7975778c8b2bf",
+    "url": "https://files.pythonhosted.org/packages/83/cb/1a087a149884331ab16609f0bc2c76b2055c52b370256e9f561d64905d48/multidict-5.1.0-cp36-cp36m-manylinux1_i686.whl"
+  },
+  {
+    "name": "multidict-5.1.0-cp36-cp36m-manylinux2014_aarch64.whl",
+    "sha256": "f21756997ad8ef815d8ef3d34edd98804ab5ea337feedcd62fb52d22bf531281",
+    "url": "https://files.pythonhosted.org/packages/bd/e2/b2223435490f7dad27e5580f4eaf305da8cb3d9f02d89d79653744104937/multidict-5.1.0-cp36-cp36m-manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "multidict-5.1.0-cp36-cp36m-manylinux2014_i686.whl",
+    "sha256": "1ab820665e67373de5802acae069a6a05567ae234ddb129f31d290fc3d1aa56d",
+    "url": "https://files.pythonhosted.org/packages/b9/e0/33a12b19af6dc2205b22094a02e4e3b41bc7cb3185701cee45ece6dc70f9/multidict-5.1.0-cp36-cp36m-manylinux2014_i686.whl"
+  },
+  {
+    "name": "multidict-5.1.0-cp36-cp36m-manylinux2014_ppc64le.whl",
+    "sha256": "9436dc58c123f07b230383083855593550c4d301d2532045a17ccf6eca505f6d",
+    "url": "https://files.pythonhosted.org/packages/04/9a/7842e171a47d175740f31212f73cffed551d8431787dc944e76345f27141/multidict-5.1.0-cp36-cp36m-manylinux2014_ppc64le.whl"
+  },
+  {
+    "name": "multidict-5.1.0-cp36-cp36m-manylinux2014_s390x.whl",
+    "sha256": "830f57206cc96ed0ccf68304141fec9481a096c4d2e2831f311bde1c404401da",
+    "url": "https://files.pythonhosted.org/packages/0c/bf/b941cc5ce697482c95a62f1d42b0393656859a3dde920af774885df35ed6/multidict-5.1.0-cp36-cp36m-manylinux2014_s390x.whl"
+  },
+  {
+    "name": "multidict-5.1.0-cp36-cp36m-manylinux2014_x86_64.whl",
+    "sha256": "2e68965192c4ea61fff1b81c14ff712fc7dc15d2bd120602e4a3494ea6584224",
+    "url": "https://files.pythonhosted.org/packages/a1/35/b22524d6b9cacfb4c5eff413a069bbc17c6ea628e54da5c6c989998ced5f/multidict-5.1.0-cp36-cp36m-manylinux2014_x86_64.whl"
+  },
+  {
+    "name": "multidict-5.1.0-cp37-cp37m-macosx_10_14_x86_64.whl",
+    "sha256": "46c73e09ad374a6d876c599f2328161bcd95e280f84d2060cf57991dec5cfe76",
+    "url": "https://files.pythonhosted.org/packages/bf/1f/6ccb2f678e6d147cc6eec00a5b8615f9fa8d8a8271cc98a2ffa0343c9063/multidict-5.1.0-cp37-cp37m-macosx_10_14_x86_64.whl"
+  },
+  {
+    "name": "multidict-5.1.0-cp37-cp37m-manylinux1_i686.whl",
+    "sha256": "018132dbd8688c7a69ad89c4a3f39ea2f9f33302ebe567a879da8f4ca73f0d0a",
+    "url": "https://files.pythonhosted.org/packages/ba/c7/d9b05562d18311184d09dcf829bf3ac4aee3ff7267fdb95d7fbe5706fb11/multidict-5.1.0-cp37-cp37m-manylinux1_i686.whl"
+  },
+  {
+    "name": "multidict-5.1.0-cp37-cp37m-manylinux2014_aarch64.whl",
+    "sha256": "4b186eb7d6ae7c06eb4392411189469e6a820da81447f46c0072a41c748ab73f",
+    "url": "https://files.pythonhosted.org/packages/76/2a/5f4a5df17716e5424455974fe93e0f4bc6adc99c15ab5e34f39fb7736b92/multidict-5.1.0-cp37-cp37m-manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "multidict-5.1.0-cp37-cp37m-manylinux2014_i686.whl",
+    "sha256": "3a041b76d13706b7fff23b9fc83117c7b8fe8d5fe9e6be45eee72b9baa75f348",
+    "url": "https://files.pythonhosted.org/packages/97/a1/7106a7a6e4cd8335d31b82f2f8b9a09ed29c630bc163df8488782424621d/multidict-5.1.0-cp37-cp37m-manylinux2014_i686.whl"
+  },
+  {
+    "name": "multidict-5.1.0-cp37-cp37m-manylinux2014_ppc64le.whl",
+    "sha256": "051012ccee979b2b06be928a6150d237aec75dd6bf2d1eeeb190baf2b05abc93",
+    "url": "https://files.pythonhosted.org/packages/b1/57/dd2d6ee9254d38354c554dd496b3819fabf89fa0ba1907bafbe4de893958/multidict-5.1.0-cp37-cp37m-manylinux2014_ppc64le.whl"
+  },
+  {
+    "name": "multidict-5.1.0-cp37-cp37m-manylinux2014_s390x.whl",
+    "sha256": "6a4d5ce640e37b0efcc8441caeea8f43a06addace2335bd11151bc02d2ee31f9",
+    "url": "https://files.pythonhosted.org/packages/f7/8d/6fc4653f78f9a14ce49eabf8b5fda64744346d3c04c92ef1ba1d6533cd15/multidict-5.1.0-cp37-cp37m-manylinux2014_s390x.whl"
+  },
+  {
+    "name": "multidict-5.1.0-cp37-cp37m-manylinux2014_x86_64.whl",
+    "sha256": "5cf3443199b83ed9e955f511b5b241fd3ae004e3cb81c58ec10f4fe47c7dce37",
+    "url": "https://files.pythonhosted.org/packages/7c/a6/4123b8165acbe773d1a8dc8e3f0d1edea16d29f7de018eda769abb56bd30/multidict-5.1.0-cp37-cp37m-manylinux2014_x86_64.whl"
+  },
+  {
+    "name": "multidict-5.1.0-cp38-cp38-macosx_10_14_x86_64.whl",
+    "sha256": "54fd1e83a184e19c598d5e70ba508196fd0bbdd676ce159feb412a4a6664f952",
+    "url": "https://files.pythonhosted.org/packages/6e/e6/750db6c54cd3c7830501ce6aae2418d4648ac1d7f8ac39e71658543e95dc/multidict-5.1.0-cp38-cp38-macosx_10_14_x86_64.whl"
+  },
+  {
+    "name": "multidict-5.1.0-cp38-cp38-manylinux1_i686.whl",
+    "sha256": "0e3c84e6c67eba89c2dbcee08504ba8644ab4284863452450520dad8f1e89b79",
+    "url": "https://files.pythonhosted.org/packages/d2/96/ed8c2c1809196e98c53fb485b68859741de5451cc5f9246c388268db538d/multidict-5.1.0-cp38-cp38-manylinux1_i686.whl"
+  },
+  {
+    "name": "multidict-5.1.0-cp38-cp38-manylinux2014_aarch64.whl",
+    "sha256": "dc862056f76443a0db4509116c5cd480fe1b6a2d45512a653f9a855cc0517456",
+    "url": "https://files.pythonhosted.org/packages/8e/9e/31994e42cc7ced49241b1437f7831a01c2240c28c4210de60d6e7899d1bb/multidict-5.1.0-cp38-cp38-manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "multidict-5.1.0-cp38-cp38-manylinux2014_i686.whl",
+    "sha256": "0e929169f9c090dae0646a011c8b058e5e5fb391466016b39d21745b48817fd7",
+    "url": "https://files.pythonhosted.org/packages/0d/5c/1d10e9c8be8b875e173a7b7840104ae108e0e9018a7720d4131b64e1162e/multidict-5.1.0-cp38-cp38-manylinux2014_i686.whl"
+  },
+  {
+    "name": "multidict-5.1.0-cp38-cp38-manylinux2014_ppc64le.whl",
+    "sha256": "d81eddcb12d608cc08081fa88d046c78afb1bf8107e6feab5d43503fea74a635",
+    "url": "https://files.pythonhosted.org/packages/cb/d2/d23828d9b5f34d81807303d7850779f27893ef8790275a8ee5006bb21b46/multidict-5.1.0-cp38-cp38-manylinux2014_ppc64le.whl"
+  },
+  {
+    "name": "multidict-5.1.0-cp38-cp38-manylinux2014_s390x.whl",
+    "sha256": "585fd452dd7782130d112f7ddf3473ffdd521414674c33876187e101b588738a",
+    "url": "https://files.pythonhosted.org/packages/32/79/7de539ed1c0e33de247caf02bf513a5ee02cab4a1023789ce2c6021c9783/multidict-5.1.0-cp38-cp38-manylinux2014_s390x.whl"
+  },
+  {
+    "name": "multidict-5.1.0-cp38-cp38-manylinux2014_x86_64.whl",
+    "sha256": "37e5438e1c78931df5d3c0c78ae049092877e5e9c02dd1ff5abb9cf27a5914ea",
+    "url": "https://files.pythonhosted.org/packages/86/6d/176bed53e4575edfb016f405d991c70144f2d00c0c9b00d686954fc6ba4b/multidict-5.1.0-cp38-cp38-manylinux2014_x86_64.whl"
+  },
+  {
+    "name": "multidict-5.1.0-cp39-cp39-macosx_10_14_x86_64.whl",
+    "sha256": "b797515be8743b771aa868f83563f789bbd4b236659ba52243b735d80b29ed93",
+    "url": "https://files.pythonhosted.org/packages/05/4b/ade8dc9ab5b9f5927b7aa3daa0c540998f86a9d1598fb2e9f27a00b8fbe8/multidict-5.1.0-cp39-cp39-macosx_10_14_x86_64.whl"
+  },
+  {
+    "name": "multidict-5.1.0-cp39-cp39-manylinux1_i686.whl",
+    "sha256": "d5c65bdf4484872c4af3150aeebe101ba560dcfb34488d9a8ff8dbcd21079647",
+    "url": "https://files.pythonhosted.org/packages/a0/0b/2b28fa8de1951d275f2b55c2d04bb185870a50ad47e759cc61f173199a29/multidict-5.1.0-cp39-cp39-manylinux1_i686.whl"
+  },
+  {
+    "name": "multidict-5.1.0-cp39-cp39-manylinux2014_aarch64.whl",
+    "sha256": "b47a43177a5e65b771b80db71e7be76c0ba23cc8aa73eeeb089ed5219cdbe27d",
+    "url": "https://files.pythonhosted.org/packages/07/10/0be4ac5cb42a820766732860664d7f7590386902ad265471d4064f7bd152/multidict-5.1.0-cp39-cp39-manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "multidict-5.1.0-cp39-cp39-manylinux2014_i686.whl",
+    "sha256": "806068d4f86cb06af37cd65821554f98240a19ce646d3cd24e1c33587f313eb8",
+    "url": "https://files.pythonhosted.org/packages/31/cb/8fe413969e7df45ce7cadb644f6a0827554f21ffeb86fcf9577d7a6204d6/multidict-5.1.0-cp39-cp39-manylinux2014_i686.whl"
+  },
+  {
+    "name": "multidict-5.1.0-cp39-cp39-manylinux2014_ppc64le.whl",
+    "sha256": "46dd362c2f045095c920162e9307de5ffd0a1bfbba0a6e990b344366f55a30c1",
+    "url": "https://files.pythonhosted.org/packages/4d/8f/c46b4da31c8b1362f1c9788efc1dac1db8675e12752136734f85f870e58c/multidict-5.1.0-cp39-cp39-manylinux2014_ppc64le.whl"
+  },
+  {
+    "name": "multidict-5.1.0-cp39-cp39-manylinux2014_s390x.whl",
+    "sha256": "ace010325c787c378afd7f7c1ac66b26313b3344628652eacd149bdd23c68841",
+    "url": "https://files.pythonhosted.org/packages/00/16/f4b77814e96be92c9c374fec9ce99ddad4356e7b26b0535117b265835bff/multidict-5.1.0-cp39-cp39-manylinux2014_s390x.whl"
+  },
+  {
+    "name": "multidict-5.1.0-cp39-cp39-manylinux2014_x86_64.whl",
+    "sha256": "ecc771ab628ea281517e24fd2c52e8f31c41e66652d07599ad8818abaad38cda",
+    "url": "https://files.pythonhosted.org/packages/20/ac/ed5b78f2fb5420882cff10fddccd9c2d1edda2ac155ada2fe21dc15d48d3/multidict-5.1.0-cp39-cp39-manylinux2014_x86_64.whl"
+  },
+  {
+    "name": "multidict-5.1.0.tar.gz",
+    "sha256": "25b4e5f22d3a37ddf3effc0710ba692cfc792c2b9edfb9c05aefe823256e84d5",
+    "url": "https://files.pythonhosted.org/packages/1c/74/e8b46156f37ca56d10d895d4e8595aa2b344cff3c1fb3629ec97a8656ccb/multidict-5.1.0.tar.gz"
+  }
+]

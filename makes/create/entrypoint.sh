@@ -55,7 +55,7 @@ function main {
     && popd \
     && out="pkgs/${project}/${version}" \
     && mkdir -p "${out}" \
-    && copy "${tmp}/closure.json" "${out}/closure-${python_version}.json" \
+    && copy "${tmp}/closure.json" "${out}/python${python_version}.json" \
     && fetch "${project}" "${version}"
 }
 

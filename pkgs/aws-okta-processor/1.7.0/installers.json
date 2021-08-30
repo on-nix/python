@@ -1,0 +1,12 @@
+[
+  {
+    "name": "aws_okta_processor-1.7.0-py2.py3-none-any.whl",
+    "sha256": "751ce223f618d1ea1a6758c6296506cab08ed2f692ee9156fb6f259178ce4995",
+    "url": "https://files.pythonhosted.org/packages/a4/b8/f3cf85877f8c5e3dae68dc351e02d1d47d92565bed14cfab17b402d09d2b/aws_okta_processor-1.7.0-py2.py3-none-any.whl"
+  },
+  {
+    "name": "aws_okta_processor-1.7.0.tar.gz",
+    "sha256": "b7ee5a167bd1e4ffff0e08a6a2d538bcd47d864cbc35b65947f2dfb53a305a4f",
+    "url": "https://files.pythonhosted.org/packages/b7/7f/f243fde08e0febf724adbff52a7c9e4acc506e0be4711f82081394fa2392/aws_okta_processor-1.7.0.tar.gz"
+  }
+]

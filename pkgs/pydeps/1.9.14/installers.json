@@ -1,0 +1,12 @@
+[
+  {
+    "name": "pydeps-1.9.14-py3-none-any.whl",
+    "sha256": "84b7f9b007545e1a3b55eb844c7819e493a6c98f54418487381e374c294357a0",
+    "url": "https://files.pythonhosted.org/packages/b9/db/196d85adea420d271fc093858ed885a5d5f2ab56683855d4db98f967b51e/pydeps-1.9.14-py3-none-any.whl"
+  },
+  {
+    "name": "pydeps-1.9.14.tar.gz",
+    "sha256": "bc8a737709279b3a8ab60b7b1e0e99b990e98ac29ceeccc44aa9f2d0b32b4769",
+    "url": "https://files.pythonhosted.org/packages/07/7c/ec6e86fe969323c146867d905b2715372ef1a5850575316e09d0c91f9f7b/pydeps-1.9.14.tar.gz"
+  }
+]

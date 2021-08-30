@@ -1,0 +1,12 @@
+[
+  {
+    "name": "dill-0.3.4-py2.py3-none-any.whl",
+    "sha256": "7e40e4a70304fd9ceab3535d36e58791d9c4a776b38ec7f7ec9afc8d3dca4d4f",
+    "url": "https://files.pythonhosted.org/packages/b6/c3/973676ceb86b60835bb3978c6db67a5dc06be6cfdbd14ef0f5a13e3fc9fd/dill-0.3.4-py2.py3-none-any.whl"
+  },
+  {
+    "name": "dill-0.3.4.zip",
+    "sha256": "9f9734205146b2b353ab3fec9af0070237b6ddae78452af83d2fca84d739e675",
+    "url": "https://files.pythonhosted.org/packages/57/b7/c4aa04a27040e6a3b09f5a652976ead00b66504c014425a7aad887aa8d7f/dill-0.3.4.zip"
+  }
+]

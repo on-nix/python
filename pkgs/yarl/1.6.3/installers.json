@@ -1,0 +1,147 @@
+[
+  {
+    "name": "yarl-1.6.3-cp36-cp36m-macosx_10_14_x86_64.whl",
+    "sha256": "0355a701b3998dcd832d0dc47cc5dedf3874f966ac7f870e0f3a6788d802d434",
+    "url": "https://files.pythonhosted.org/packages/46/b4/b86acfa17f68b6dfb2240e2d2ac1986a97f7cde0edaaee74a34b7fe051a2/yarl-1.6.3-cp36-cp36m-macosx_10_14_x86_64.whl"
+  },
+  {
+    "name": "yarl-1.6.3-cp36-cp36m-manylinux1_i686.whl",
+    "sha256": "bafb450deef6861815ed579c7a6113a879a6ef58aed4c3a4be54400ae8871478",
+    "url": "https://files.pythonhosted.org/packages/19/02/4407051d870ae599236a544d0a9ce2e46f04f1c7dc921783a970421cfa05/yarl-1.6.3-cp36-cp36m-manylinux1_i686.whl"
+  },
+  {
+    "name": "yarl-1.6.3-cp36-cp36m-manylinux2014_aarch64.whl",
+    "sha256": "547f7665ad50fa8563150ed079f8e805e63dd85def6674c97efd78eed6c224a6",
+    "url": "https://files.pythonhosted.org/packages/e3/b0/68cf4a25f50d198f39cca4a18376cb9b73d1d2e5cb6c3dc3d1822ef0d2e2/yarl-1.6.3-cp36-cp36m-manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "yarl-1.6.3-cp36-cp36m-manylinux2014_i686.whl",
+    "sha256": "63f90b20ca654b3ecc7a8d62c03ffa46999595f0167d6450fa8383bab252987e",
+    "url": "https://files.pythonhosted.org/packages/f1/ce/f5799b06915aa0bd63644af43eca86358e9e7e67aa175d14a0baca349e42/yarl-1.6.3-cp36-cp36m-manylinux2014_i686.whl"
+  },
+  {
+    "name": "yarl-1.6.3-cp36-cp36m-manylinux2014_ppc64le.whl",
+    "sha256": "97b5bdc450d63c3ba30a127d018b866ea94e65655efaf889ebeabc20f7d12406",
+    "url": "https://files.pythonhosted.org/packages/55/81/db11c259e3b9dc4b5636d5688691c28ecf86b6679a404bcbbdedcf49afb5/yarl-1.6.3-cp36-cp36m-manylinux2014_ppc64le.whl"
+  },
+  {
+    "name": "yarl-1.6.3-cp36-cp36m-manylinux2014_s390x.whl",
+    "sha256": "d8d07d102f17b68966e2de0e07bfd6e139c7c02ef06d3a0f8d2f0f055e13bb76",
+    "url": "https://files.pythonhosted.org/packages/f1/5f/c6225e9859de54549e9007c193369216e88faac1df1d263ba30951371493/yarl-1.6.3-cp36-cp36m-manylinux2014_s390x.whl"
+  },
+  {
+    "name": "yarl-1.6.3-cp36-cp36m-manylinux2014_x86_64.whl",
+    "sha256": "15263c3b0b47968c1d90daa89f21fcc889bb4b1aac5555580d74565de6836366",
+    "url": "https://files.pythonhosted.org/packages/da/08/52b26b44bce7b818b410aee37c5e424c9ea420c557bca97dc2adac29b151/yarl-1.6.3-cp36-cp36m-manylinux2014_x86_64.whl"
+  },
+  {
+    "name": "yarl-1.6.3-cp37-cp37m-macosx_10_14_x86_64.whl",
+    "sha256": "ce3beb46a72d9f2190f9e1027886bfc513702d748047b548b05dab7dfb584d2e",
+    "url": "https://files.pythonhosted.org/packages/1d/89/dc936cc5bcb25aa43620f9291f9728c6300213bbfae1b3a18fd9f0aa71c1/yarl-1.6.3-cp37-cp37m-macosx_10_14_x86_64.whl"
+  },
+  {
+    "name": "yarl-1.6.3-cp37-cp37m-manylinux1_i686.whl",
+    "sha256": "2ce4c621d21326a4a5500c25031e102af589edb50c09b321049e388b3934eec3",
+    "url": "https://files.pythonhosted.org/packages/c5/03/84451c7720c32914137fb0d72042efe0d52fb74b49dba8f4bf276e79528c/yarl-1.6.3-cp37-cp37m-manylinux1_i686.whl"
+  },
+  {
+    "name": "yarl-1.6.3-cp37-cp37m-manylinux2014_aarch64.whl",
+    "sha256": "d26608cf178efb8faa5ff0f2d2e77c208f471c5a3709e577a7b3fd0445703ac8",
+    "url": "https://files.pythonhosted.org/packages/ba/62/c979e0829c8d7f058785d709bd2da34d5b8bc331c74b155a548533648a4f/yarl-1.6.3-cp37-cp37m-manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "yarl-1.6.3-cp37-cp37m-manylinux2014_i686.whl",
+    "sha256": "4c5bcfc3ed226bf6419f7a33982fb4b8ec2e45785a0561eb99274ebbf09fdd6a",
+    "url": "https://files.pythonhosted.org/packages/14/6b/9a3a862582f123312e98e4fa95630ad8371bb6dd740eaa80024f4ea39d0f/yarl-1.6.3-cp37-cp37m-manylinux2014_i686.whl"
+  },
+  {
+    "name": "yarl-1.6.3-cp37-cp37m-manylinux2014_ppc64le.whl",
+    "sha256": "4736eaee5626db8d9cda9eb5282028cc834e2aeb194e0d8b50217d707e98bb5c",
+    "url": "https://files.pythonhosted.org/packages/f4/69/24ae7a128699fadb4c716604d148a25c5097414791b1c4ba7df11c4283b6/yarl-1.6.3-cp37-cp37m-manylinux2014_ppc64le.whl"
+  },
+  {
+    "name": "yarl-1.6.3-cp37-cp37m-manylinux2014_s390x.whl",
+    "sha256": "68dc568889b1c13f1e4745c96b931cc94fdd0defe92a72c2b8ce01091b22e35f",
+    "url": "https://files.pythonhosted.org/packages/52/ea/deff026651fc7f3393c6c9715155f28a17c39ae4203de573dffc05239c0c/yarl-1.6.3-cp37-cp37m-manylinux2014_s390x.whl"
+  },
+  {
+    "name": "yarl-1.6.3-cp37-cp37m-manylinux2014_x86_64.whl",
+    "sha256": "7356644cbed76119d0b6bd32ffba704d30d747e0c217109d7979a7bc36c4d970",
+    "url": "https://files.pythonhosted.org/packages/f1/62/046834c5fc998c88ab2ef722f5d42122230a632212c8afa76418324f53ff/yarl-1.6.3-cp37-cp37m-manylinux2014_x86_64.whl"
+  },
+  {
+    "name": "yarl-1.6.3-cp38-cp38-macosx_10_14_x86_64.whl",
+    "sha256": "e46fba844f4895b36f4c398c5af062a9808d1f26b2999c58909517384d5deda2",
+    "url": "https://files.pythonhosted.org/packages/df/34/2cc202b4bb8196c3de4a47fa3c1f9eb5ac1934f76832af940bbe9ae58a20/yarl-1.6.3-cp38-cp38-macosx_10_14_x86_64.whl"
+  },
+  {
+    "name": "yarl-1.6.3-cp38-cp38-manylinux1_i686.whl",
+    "sha256": "31ede6e8c4329fb81c86706ba8f6bf661a924b53ba191b27aa5fcee5714d18ec",
+    "url": "https://files.pythonhosted.org/packages/3a/ba/0e16e528db22139a6b7e4d9b63f0e6c235670bfc03ac2b9db77c83a1e961/yarl-1.6.3-cp38-cp38-manylinux1_i686.whl"
+  },
+  {
+    "name": "yarl-1.6.3-cp38-cp38-manylinux2014_aarch64.whl",
+    "sha256": "fcbb48a93e8699eae920f8d92f7160c03567b421bc17362a9ffbbd706a816f71",
+    "url": "https://files.pythonhosted.org/packages/b4/ed/29c1bf9919cc52c43cf7506c60478fbe34419a3c601bc1df55cc3ad55dc0/yarl-1.6.3-cp38-cp38-manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "yarl-1.6.3-cp38-cp38-manylinux2014_i686.whl",
+    "sha256": "72a660bdd24497e3e84f5519e57a9ee9220b6f3ac4d45056961bf22838ce20cc",
+    "url": "https://files.pythonhosted.org/packages/0e/80/a26b4b07e83e133732db4cff622e24c3310ac05061e450502b64ca2b5681/yarl-1.6.3-cp38-cp38-manylinux2014_i686.whl"
+  },
+  {
+    "name": "yarl-1.6.3-cp38-cp38-manylinux2014_ppc64le.whl",
+    "sha256": "324ba3d3c6fee56e2e0b0d09bf5c73824b9f08234339d2b788af65e60040c959",
+    "url": "https://files.pythonhosted.org/packages/57/a7/c0f0065f9d94c716a8ff7859f7d91b7cf671c1ccaa5191c8dc07e855fafc/yarl-1.6.3-cp38-cp38-manylinux2014_ppc64le.whl"
+  },
+  {
+    "name": "yarl-1.6.3-cp38-cp38-manylinux2014_s390x.whl",
+    "sha256": "e6b5460dc5ad42ad2b36cca524491dfcaffbfd9c8df50508bddc354e787b8dc2",
+    "url": "https://files.pythonhosted.org/packages/38/96/fd4eeccdb5aef46992bd4c19b99510cd5bec39c185051273e1b87bf2c32e/yarl-1.6.3-cp38-cp38-manylinux2014_s390x.whl"
+  },
+  {
+    "name": "yarl-1.6.3-cp38-cp38-manylinux2014_x86_64.whl",
+    "sha256": "6d6283d8e0631b617edf0fd726353cb76630b83a089a40933043894e7f6721e2",
+    "url": "https://files.pythonhosted.org/packages/28/48/fdce6d8323b58799541eddfb37123d6d18ad762899ca64b82ed767ae2bf8/yarl-1.6.3-cp38-cp38-manylinux2014_x86_64.whl"
+  },
+  {
+    "name": "yarl-1.6.3-cp39-cp39-macosx_10_14_x86_64.whl",
+    "sha256": "329412812ecfc94a57cd37c9d547579510a9e83c516bc069470db5f75684629e",
+    "url": "https://files.pythonhosted.org/packages/df/1a/b42134bfc27f6e47eb80110e7488812429538d2faf8e61b5aa0a4ac1c8bc/yarl-1.6.3-cp39-cp39-macosx_10_14_x86_64.whl"
+  },
+  {
+    "name": "yarl-1.6.3-cp39-cp39-manylinux1_i686.whl",
+    "sha256": "c49ff66d479d38ab863c50f7bb27dee97c6627c5fe60697de15529da9c3de724",
+    "url": "https://files.pythonhosted.org/packages/74/15/eb0df606ffcf4fc8e6c1f885307b111c9248c7b096ab4a963f5b86e26245/yarl-1.6.3-cp39-cp39-manylinux1_i686.whl"
+  },
+  {
+    "name": "yarl-1.6.3-cp39-cp39-manylinux2014_aarch64.whl",
+    "sha256": "f040bcc6725c821a4c0665f3aa96a4d0805a7aaf2caf266d256b8ed71b9f041c",
+    "url": "https://files.pythonhosted.org/packages/2e/3f/ee68e6bc5dc1ba1fabac07dee0908f698a16c3ec7db5222a70a6edbf45d6/yarl-1.6.3-cp39-cp39-manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "yarl-1.6.3-cp39-cp39-manylinux2014_i686.whl",
+    "sha256": "d5c32c82990e4ac4d8150fd7652b972216b204de4e83a122546dce571c1bdf25",
+    "url": "https://files.pythonhosted.org/packages/f3/7d/2c308c37ea7365af6719e0a784a1d5ce4ed3a0f4fb1fbd23e2db34c7b5df/yarl-1.6.3-cp39-cp39-manylinux2014_i686.whl"
+  },
+  {
+    "name": "yarl-1.6.3-cp39-cp39-manylinux2014_ppc64le.whl",
+    "sha256": "d597767fcd2c3dc49d6eea360c458b65643d1e4dbed91361cf5e36e53c1f8c96",
+    "url": "https://files.pythonhosted.org/packages/54/1f/4583126c455c5a9cbfec55ccf18716ea8a3b10d253afa97a68c2576ec4f6/yarl-1.6.3-cp39-cp39-manylinux2014_ppc64le.whl"
+  },
+  {
+    "name": "yarl-1.6.3-cp39-cp39-manylinux2014_s390x.whl",
+    "sha256": "8aa3decd5e0e852dc68335abf5478a518b41bf2ab2f330fe44916399efedfae0",
+    "url": "https://files.pythonhosted.org/packages/8f/1a/c28ab6769d8df14c533b95ef13a4382359ce621d05ae9bd76b48db13e728/yarl-1.6.3-cp39-cp39-manylinux2014_s390x.whl"
+  },
+  {
+    "name": "yarl-1.6.3-cp39-cp39-manylinux2014_x86_64.whl",
+    "sha256": "73494d5b71099ae8cb8754f1df131c11d433b387efab7b51849e7e1e851f07a4",
+    "url": "https://files.pythonhosted.org/packages/34/49/16107b7f6dc647d356ffe9c8a17cbe61267447d1893a05f1edeaf50034fa/yarl-1.6.3-cp39-cp39-manylinux2014_x86_64.whl"
+  },
+  {
+    "name": "yarl-1.6.3.tar.gz",
+    "sha256": "8a9066529240171b68893d60dca86a763eae2139dd42f42106b03cf4b426bf10",
+    "url": "https://files.pythonhosted.org/packages/97/e7/af7219a0fe240e8ef6bb555341a63c43045c21ab0392b4435e754b716fa1/yarl-1.6.3.tar.gz"
+  }
+]

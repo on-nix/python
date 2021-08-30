@@ -1,0 +1,167 @@
+[
+  {
+    "name": "cffi-1.14.6-cp27-cp27m-macosx_10_9_x86_64.whl",
+    "sha256": "22b9c3c320171c108e903d61a3723b51e37aaa8c81255b5e7ce102775bd01e2c",
+    "url": "https://files.pythonhosted.org/packages/fd/c5/8983a249cb521c5e153f2f4a33442fca9db1fc0a9da2a1edcef9311c8ab3/cffi-1.14.6-cp27-cp27m-macosx_10_9_x86_64.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp27-cp27m-manylinux1_i686.whl",
+    "sha256": "f0c5d1acbfca6ebdd6b1e3eded8d261affb6ddcf2186205518f1428b8569bb99",
+    "url": "https://files.pythonhosted.org/packages/a4/f8/13be6a83cb36f82fbcb1c0cbb4617952b421999779f4a1b4c94eeb740943/cffi-1.14.6-cp27-cp27m-manylinux1_i686.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp27-cp27m-manylinux1_x86_64.whl",
+    "sha256": "99f27fefe34c37ba9875f224a8f36e31d744d8083e00f520f133cab79ad5e819",
+    "url": "https://files.pythonhosted.org/packages/d4/eb/18e5aa4171f2b0b8e3c73f1850f2d9d39dff3ff3ba1fc8625a932877c968/cffi-1.14.6-cp27-cp27m-manylinux1_x86_64.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp27-cp27mu-manylinux1_i686.whl",
+    "sha256": "ed38b924ce794e505647f7c331b22a693bee1538fdf46b0222c4717b42f744e7",
+    "url": "https://files.pythonhosted.org/packages/e2/78/1f4e97873a03ef4742f94629acac9f4a3f5fbd0f3d863f46f56484941c1e/cffi-1.14.6-cp27-cp27mu-manylinux1_i686.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp27-cp27mu-manylinux1_x86_64.whl",
+    "sha256": "e22dcb48709fc51a7b58a927391b23ab37eb3737a98ac4338e2448bef8559b33",
+    "url": "https://files.pythonhosted.org/packages/74/f5/f0cb35e78044bf19309e635b20550bf3443322e0ff2ff09e6732c0ed0851/cffi-1.14.6-cp27-cp27mu-manylinux1_x86_64.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp35-cp35m-macosx_10_9_x86_64.whl",
+    "sha256": "aedb15f0a5a5949ecb129a82b72b19df97bbbca024081ed2ef88bd5c0a610534",
+    "url": "https://files.pythonhosted.org/packages/8c/4f/111d4da6f0fd2f042bad4d66b97dd7e7554a8eebae00ffcfa6dcfdb61ea4/cffi-1.14.6-cp35-cp35m-macosx_10_9_x86_64.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp35-cp35m-manylinux1_i686.whl",
+    "sha256": "48916e459c54c4a70e52745639f1db524542140433599e13911b2f329834276a",
+    "url": "https://files.pythonhosted.org/packages/cd/1b/49a77db63a7cfb5ad19ae98e7af9700fd357a06c58638d437ee3fa2c6243/cffi-1.14.6-cp35-cp35m-manylinux1_i686.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp35-cp35m-manylinux1_x86_64.whl",
+    "sha256": "f627688813d0a4140153ff532537fbe4afea5a3dffce1f9deb7f91f848a832b5",
+    "url": "https://files.pythonhosted.org/packages/42/2e/3c765955eef06835253802b36afca233b86bdedabf584327bb2d7ed4ee23/cffi-1.14.6-cp35-cp35m-manylinux1_x86_64.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp36-cp36m-macosx_10_9_x86_64.whl",
+    "sha256": "e8c6a99be100371dbb046880e7a282152aa5d6127ae01783e37662ef73850d8f",
+    "url": "https://files.pythonhosted.org/packages/62/84/16fcb8ed5d3347c14612e6dee2f577ab7de951696c6210bbf0c912015867/cffi-1.14.6-cp36-cp36m-macosx_10_9_x86_64.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp36-cp36m-manylinux1_i686.whl",
+    "sha256": "19ca0dbdeda3b2615421d54bef8985f72af6e0c47082a8d26122adac81a95872",
+    "url": "https://files.pythonhosted.org/packages/95/2b/8b8268227a9ae38418d04c745449a56ed550fa52a58e3ee25914e42eb4cc/cffi-1.14.6-cp36-cp36m-manylinux1_i686.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp36-cp36m-manylinux1_x86_64.whl",
+    "sha256": "d950695ae4381ecd856bcaf2b1e866720e4ab9a1498cba61c602e56630ca7195",
+    "url": "https://files.pythonhosted.org/packages/f2/cd/3f5f059fed635d71047fa9ce507635088f982ab280fc24cde91d9afb9c1c/cffi-1.14.6-cp36-cp36m-manylinux1_x86_64.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+    "sha256": "e9dc245e3ac69c92ee4c167fbdd7428ec1956d4e754223124991ef29eb57a09d",
+    "url": "https://files.pythonhosted.org/packages/cf/7a/29571270ca3f59e5dfba88afb03d7a9d77eeeb8084cfb6574042c2eae777/cffi-1.14.6-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp36-cp36m-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl",
+    "sha256": "a8661b2ce9694ca01c529bfa204dbb144b275a31685a075ce123f12331be790b",
+    "url": "https://files.pythonhosted.org/packages/7d/b0/e2c59728e943d0992e4f06ce6e0e31d3585593945767fc372142f5dac060/cffi-1.14.6-cp36-cp36m-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp36-cp36m-manylinux_2_17_s390x.manylinux2014_s390x.whl",
+    "sha256": "b315d709717a99f4b27b59b021e6207c64620790ca3e0bde636a6c7f14618abb",
+    "url": "https://files.pythonhosted.org/packages/83/7c/6bb2bccff1510f828767a5eba833fbefa0a0d8c31851c62934c138dd999b/cffi-1.14.6-cp36-cp36m-manylinux_2_17_s390x.manylinux2014_s390x.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp37-cp37m-macosx_10_9_x86_64.whl",
+    "sha256": "4373612d59c404baeb7cbd788a18b2b2a8331abcc84c3ba40051fcd18b17a4d5",
+    "url": "https://files.pythonhosted.org/packages/a2/4e/6225779f1ccb7916cd6c640ca4dbe6e0ce1452952bb822d66d5e875a6f53/cffi-1.14.6-cp37-cp37m-macosx_10_9_x86_64.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp37-cp37m-manylinux1_i686.whl",
+    "sha256": "f10afb1004f102c7868ebfe91c28f4a712227fe4cb24974350ace1f90e1febbf",
+    "url": "https://files.pythonhosted.org/packages/93/17/44f77675734781577a7c01d6a2d83179f92badc30795017f96dfab257d4c/cffi-1.14.6-cp37-cp37m-manylinux1_i686.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp37-cp37m-manylinux1_x86_64.whl",
+    "sha256": "fd4305f86f53dfd8cd3522269ed7fc34856a8ee3709a5e28b2836b2db9d4cd69",
+    "url": "https://files.pythonhosted.org/packages/46/5e/2f5f83be1586e04f4f14b32c48aafb29197355cca8f62d430f915706fafa/cffi-1.14.6-cp37-cp37m-manylinux1_x86_64.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+    "sha256": "6d6169cb3c6c2ad50db5b868db6491a790300ade1ed5d1da29289d73bbe40b56",
+    "url": "https://files.pythonhosted.org/packages/7c/d7/027b40eab051119083fa64be7f86c40fc96643c627fd5068462b88f72111/cffi-1.14.6-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp37-cp37m-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl",
+    "sha256": "5d4b68e216fc65e9fe4f524c177b54964af043dde734807586cf5435af84045c",
+    "url": "https://files.pythonhosted.org/packages/e5/e5/405c3f471e73566f3595dfe2995a8b7c17959af32f74f7f2a3912e9cf088/cffi-1.14.6-cp37-cp37m-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp37-cp37m-manylinux_2_17_s390x.manylinux2014_s390x.whl",
+    "sha256": "33791e8a2dc2953f28b8d8d300dde42dd929ac28f974c4b4c6272cb2955cb762",
+    "url": "https://files.pythonhosted.org/packages/a0/3e/b06957d67801efa45837d65b23fd155095adf6ada21550c52c0f3552b597/cffi-1.14.6-cp37-cp37m-manylinux_2_17_s390x.manylinux2014_s390x.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp38-cp38-macosx_10_9_x86_64.whl",
+    "sha256": "ba6f2b3f452e150945d58f4badd92310449876c4c954836cfb1803bdd7b422f0",
+    "url": "https://files.pythonhosted.org/packages/ca/e1/015e2ae23230d9de8597e9ad8c0b81d5ac181f08f2e6e75774b7f5301677/cffi-1.14.6-cp38-cp38-macosx_10_9_x86_64.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp38-cp38-manylinux1_i686.whl",
+    "sha256": "64fda793737bc4037521d4899be780534b9aea552eb673b9833b01f945904c2e",
+    "url": "https://files.pythonhosted.org/packages/1f/e3/33394dcef4264f5a20249bd9dbd9375743bc97291a264470e630fa01ddf9/cffi-1.14.6-cp38-cp38-manylinux1_i686.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp38-cp38-manylinux1_x86_64.whl",
+    "sha256": "9f3e33c28cd39d1b655ed1ba7247133b6f7fc16fa16887b120c0c670e35ce346",
+    "url": "https://files.pythonhosted.org/packages/80/a8/1562ce87c8cb8c736cbef40bc235f4a2ac7835822c231f717e3064dfcc93/cffi-1.14.6-cp38-cp38-manylinux1_x86_64.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+    "sha256": "26bb2549b72708c833f5abe62b756176022a7b9a7f689b571e74c8478ead51dc",
+    "url": "https://files.pythonhosted.org/packages/91/ac/e0181c9402f5897be54bbddc87ca1c6ae4d2c562cfebc19959843d9ef438/cffi-1.14.6-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp38-cp38-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl",
+    "sha256": "eb687a11f0a7a1839719edd80f41e459cc5366857ecbed383ff376c4e3cc6afd",
+    "url": "https://files.pythonhosted.org/packages/30/69/cb013027404d6508d53005038eacb09e707a9fec0cbbd893c79461acc35a/cffi-1.14.6-cp38-cp38-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp38-cp38-manylinux_2_17_s390x.manylinux2014_s390x.whl",
+    "sha256": "d2ad4d668a5c0645d281dcd17aff2be3212bc109b33814bbb15c4939f44181cc",
+    "url": "https://files.pythonhosted.org/packages/a5/30/d0d23e56afef51ca18de6b7099cf8b595cb5e90c50cc3fa44d1fac68e405/cffi-1.14.6-cp38-cp38-manylinux_2_17_s390x.manylinux2014_s390x.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp39-cp39-macosx_10_9_x86_64.whl",
+    "sha256": "06c54a68935738d206570b20da5ef2b6b6d92b38ef3ec45c5422c0ebaf338d4d",
+    "url": "https://files.pythonhosted.org/packages/54/39/cc4587c7c179a545a454c2252a64a8ab0d76b28f347e66caa825c7b36ae6/cffi-1.14.6-cp39-cp39-macosx_10_9_x86_64.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp39-cp39-manylinux1_i686.whl",
+    "sha256": "f174135f5609428cc6e1b9090f9268f5c8935fddb1b25ccb8255a2d50de6789e",
+    "url": "https://files.pythonhosted.org/packages/6b/a9/c95f5cca87cdda74f544ecb7d9cdf3eb3eae883e210f3994677086528352/cffi-1.14.6-cp39-cp39-manylinux1_i686.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp39-cp39-manylinux1_x86_64.whl",
+    "sha256": "f3ebe6e73c319340830a9b2825d32eb6d8475c1dac020b4f0aa774ee3b898d1c",
+    "url": "https://files.pythonhosted.org/packages/be/2a/6d266eea47dbb2d872bbd1b8954a2d167668481ff34ebb70ffdd1113eeab/cffi-1.14.6-cp39-cp39-manylinux1_x86_64.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+    "sha256": "3c8d896becff2fa653dc4438b54a5a25a971d1f4110b32bd3068db3722c80202",
+    "url": "https://files.pythonhosted.org/packages/d9/0a/c441c3f0ecb791c0b6b67b5df841bb50c46d5a7d088895abe9322375e8e0/cffi-1.14.6-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl",
+    "sha256": "4922cd707b25e623b902c86188aca466d3620892db76c0bdd7b99a3d5e61d35f",
+    "url": "https://files.pythonhosted.org/packages/79/bb/f05a6b0129ff445286e9ad76235eb479dae16917df7388ed549d3d99d136/cffi-1.14.6-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+  },
+  {
+    "name": "cffi-1.14.6-cp39-cp39-manylinux_2_17_s390x.manylinux2014_s390x.whl",
+    "sha256": "c9e005e9bd57bc987764c32a1bee4364c44fdc11a3cc20a40b93b444984f2b87",
+    "url": "https://files.pythonhosted.org/packages/00/b8/a127ffae2de749e0c0e3e10fc76a4f110abae64dbeb4b89247dfb6de7cab/cffi-1.14.6-cp39-cp39-manylinux_2_17_s390x.manylinux2014_s390x.whl"
+  },
+  {
+    "name": "cffi-1.14.6.tar.gz",
+    "sha256": "c9a875ce9d7fe32887784274dd533c57909b7b1dcadcc128a2ac21331a9765dd",
+    "url": "https://files.pythonhosted.org/packages/2e/92/87bb61538d7e60da8a7ec247dc048f7671afe17016cd0008b3b710012804/cffi-1.14.6.tar.gz"
+  }
+]

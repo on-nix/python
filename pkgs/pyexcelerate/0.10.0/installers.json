@@ -1,0 +1,12 @@
+[
+  {
+    "name": "PyExcelerate-0.10.0-py3-none-any.whl",
+    "sha256": "fd6dad4737ec5fdf72f10142faa65b49fda6df316222e06aba09ebfa99701467",
+    "url": "https://files.pythonhosted.org/packages/6f/b2/18a7b5416b5988ad35f6a21e411345f16e17a042ba1ea407d737db6786eb/PyExcelerate-0.10.0-py3-none-any.whl"
+  },
+  {
+    "name": "PyExcelerate-0.10.0.tar.gz",
+    "sha256": "f2ec2547c9f9114606e21981d2f97246e0bb14edd5395d5212339267ea4b9fe2",
+    "url": "https://files.pythonhosted.org/packages/35/9b/545bd8829b63b50ac7a177e6669209618c1b8ac8f0f7e8f167234852e6f8/PyExcelerate-0.10.0.tar.gz"
+  }
+]

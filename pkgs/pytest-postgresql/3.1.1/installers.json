@@ -1,0 +1,12 @@
+[
+  {
+    "name": "pytest_postgresql-3.1.1-py3-none-any.whl",
+    "sha256": "4dc29241d5ab673b4e11f4464a6c8f714210ad6e82b7f5fa4ce0beb7c924cab3",
+    "url": "https://files.pythonhosted.org/packages/69/85/78175c9a0f94aeb9049fa04a27e040bac889726d4a077a1889be660ddeb9/pytest_postgresql-3.1.1-py3-none-any.whl"
+  },
+  {
+    "name": "pytest-postgresql-3.1.1.tar.gz",
+    "sha256": "b690548d1c1df7ca933a50b32c565fe59925a4ddee49fe7683daf20c708bf644",
+    "url": "https://files.pythonhosted.org/packages/17/b7/fa5e1298943ee863a06799b86b7209fd06787f6d80545a4d5e191a23d1ce/pytest-postgresql-3.1.1.tar.gz"
+  }
+]

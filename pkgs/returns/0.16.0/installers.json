@@ -1,0 +1,12 @@
+[
+  {
+    "name": "returns-0.16.0-py3-none-any.whl",
+    "sha256": "3b7544f7b8c5aac8da3469b6ce34ed8878c993f0443d47f133cef2d38b08bc2a",
+    "url": "https://files.pythonhosted.org/packages/ff/e6/c66f2dfd12cd47e0efb54c0aefd35f0bbad0242fbaefe52310ebf71f010b/returns-0.16.0-py3-none-any.whl"
+  },
+  {
+    "name": "returns-0.16.0.tar.gz",
+    "sha256": "ac717aaf1de89c87988c9c7cd57ce0bb06f726bd0f37c8915a53fa8ec8f800b7",
+    "url": "https://files.pythonhosted.org/packages/52/ad/a312c66697e1be62dc50144ad491ec43ee08c0f4090a635c8a34c88cbd3a/returns-0.16.0.tar.gz"
+  }
+]

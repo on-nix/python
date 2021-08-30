@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Deprecated-1.2.12-py2.py3-none-any.whl",
+    "sha256": "08452d69b6b5bc66e8330adde0a4f8642e969b9e1702904d137eeb29c8ffc771",
+    "url": "https://files.pythonhosted.org/packages/fb/73/994edfcba74443146c84b91921fcc269374354118d4f452fb0c54c1cbb12/Deprecated-1.2.12-py2.py3-none-any.whl"
+  },
+  {
+    "name": "Deprecated-1.2.12.tar.gz",
+    "sha256": "6d2de2de7931a968874481ef30208fd4e08da39177d61d3d4ebdf4366e7dbca1",
+    "url": "https://files.pythonhosted.org/packages/52/ab/30ae1f10e27385b3d2a4120b8edbcb187ba9ae2c4daf811f4f823aa4f0e2/Deprecated-1.2.12.tar.gz"
+  }
+]

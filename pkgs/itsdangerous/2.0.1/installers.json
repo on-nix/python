@@ -1,0 +1,12 @@
+[
+  {
+    "name": "itsdangerous-2.0.1-py3-none-any.whl",
+    "sha256": "5174094b9637652bdb841a3029700391451bd092ba3db90600dea710ba28e97c",
+    "url": "https://files.pythonhosted.org/packages/9c/96/26f935afba9cd6140216da5add223a0c465b99d0f112b68a4ca426441019/itsdangerous-2.0.1-py3-none-any.whl"
+  },
+  {
+    "name": "itsdangerous-2.0.1.tar.gz",
+    "sha256": "9e724d68fc22902a1435351f84c3fb8623f303fffcc566a4cb952df8c572cff0",
+    "url": "https://files.pythonhosted.org/packages/58/66/d6c5859dcac92b442626427a8c7a42322068c5cd5d4a463ce78b93f730b7/itsdangerous-2.0.1.tar.gz"
+  }
+]

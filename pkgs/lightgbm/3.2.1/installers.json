@@ -1,0 +1,22 @@
+[
+  {
+    "name": "lightgbm-3.2.1-py3-none-macosx_10_14_x86_64.macosx_10_15_x86_64.macosx_11_0_x86_64.whl",
+    "sha256": "79719706046faf708d9436cd989e9c61696ceb1c5fbaf1257ae9c2fa7bcff686",
+    "url": "https://files.pythonhosted.org/packages/68/b3/4d8fc4708ae3bbe04778fa795f509f30c9af638245b929fb7de46b28b0a1/lightgbm-3.2.1-py3-none-macosx_10_14_x86_64.macosx_10_15_x86_64.macosx_11_0_x86_64.whl"
+  },
+  {
+    "name": "lightgbm-3.2.1-py3-none-manylinux1_x86_64.whl",
+    "sha256": "b4c158f3026cdf5087a047945686a38b6a1e0f761627907fd959cb7afc2743b3",
+    "url": "https://files.pythonhosted.org/packages/18/b2/fff8370f48549ce223f929fe8cab4ee6bf285a41f86037d91312b48ed95b/lightgbm-3.2.1-py3-none-manylinux1_x86_64.whl"
+  },
+  {
+    "name": "lightgbm-3.2.1-py3-none-manylinux2014_aarch64.whl",
+    "sha256": "95b0f1c8fec232be2995502151f8a168e30e7fd9a8e89d835ca5919820cd9033",
+    "url": "https://files.pythonhosted.org/packages/15/2e/8522657a347997589ab6ff687195bfb3a20ac4abd8a7206570dcb1ec00fb/lightgbm-3.2.1-py3-none-manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "lightgbm-3.2.1.tar.gz",
+    "sha256": "bd98e3b501b4c24dc127f4ad93e467f42923fe3eefa99e143b5b93158f024395",
+    "url": "https://files.pythonhosted.org/packages/7a/6d/db0f5effd3f7982632111f37fcd2fa386b8407f1ff58ef30b71d65e1a444/lightgbm-3.2.1.tar.gz"
+  }
+]

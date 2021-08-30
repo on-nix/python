@@ -1,0 +1,14 @@
+{
+  "async-generator": "1.10",
+  "certifi": "2021.5.30",
+  "charset-normalizer": "2.0.4",
+  "contextvars": "2.4",
+  "h11": "0.12.0",
+  "httpcore": "0.13.3",
+  "httpx": "0.19.0",
+  "idna": "3.2",
+  "immutables": "0.16",
+  "rfc3986": "1.5.0",
+  "sniffio": "1.2.0",
+  "typing-extensions": "3.10.0.1"
+}

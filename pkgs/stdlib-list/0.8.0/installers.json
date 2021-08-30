@@ -1,0 +1,12 @@
+[
+  {
+    "name": "stdlib_list-0.8.0-py3-none-any.whl",
+    "sha256": "2ae0712a55b68f3fbbc9e58d6fa1b646a062188f49745b495f94d3310a9fdd3e",
+    "url": "https://files.pythonhosted.org/packages/7a/b1/52f59dcf31ead2f0ceff8976288449608d912972b911f55dff712cef5719/stdlib_list-0.8.0-py3-none-any.whl"
+  },
+  {
+    "name": "stdlib-list-0.8.0.tar.gz",
+    "sha256": "a1e503719720d71e2ed70ed809b385c60cd3fb555ba7ec046b96360d30b16d9f",
+    "url": "https://files.pythonhosted.org/packages/bb/01/237cea071fd305f162ebbe1db18a59b56b0b5fdff19533c9a1beea0bdee7/stdlib-list-0.8.0.tar.gz"
+  }
+]

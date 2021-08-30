@@ -1,0 +1,4 @@
+{
+  "dataclasses": "0.8",
+  "werkzeug": "2.0.1"
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "watchtower-1.0.6-py3-none-any.whl",
+    "sha256": "2859275df4ad71b005b983613dd64cabbda61f9fdd3db7600753fc465090119d",
+    "url": "https://files.pythonhosted.org/packages/7a/a0/14e398acf529c4cee18b66b53c37bdd076152ade58afd9225f5d86e1fc9f/watchtower-1.0.6-py3-none-any.whl"
+  },
+  {
+    "name": "watchtower-1.0.6.tar.gz",
+    "sha256": "5eb5d78e730e1016e166b14a79a02d1b939cf1a58f2d559ff4f7c6f953284ebf",
+    "url": "https://files.pythonhosted.org/packages/f6/5c/377deed8c70d2df2f8834ff2c56c6c1b365d381e12492e90704603a00824/watchtower-1.0.6.tar.gz"
+  }
+]

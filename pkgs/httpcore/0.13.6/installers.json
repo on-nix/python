@@ -1,0 +1,12 @@
+[
+  {
+    "name": "httpcore-0.13.6-py3-none-any.whl",
+    "sha256": "db4c0dcb8323494d01b8c6d812d80091a31e520033e7b0120883d6f52da649ff",
+    "url": "https://files.pythonhosted.org/packages/b4/94/8c136dbfac58456395dab9eb71e156cd14e0449f013f6c9c007e3ef4a160/httpcore-0.13.6-py3-none-any.whl"
+  },
+  {
+    "name": "httpcore-0.13.6.tar.gz",
+    "sha256": "b0d16f0012ec88d8cc848f5a55f8a03158405f4bca02ee49bc4ca2c1fda49f3e",
+    "url": "https://files.pythonhosted.org/packages/41/08/f5f998964b4c60944ae1aad4b0d377d76c4c564c689ac780cfe3c88a46e6/httpcore-0.13.6.tar.gz"
+  }
+]

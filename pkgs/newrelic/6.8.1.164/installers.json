@@ -1,0 +1,67 @@
+[
+  {
+    "name": "newrelic-6.8.1.164-cp27-cp27m-manylinux1_x86_64.whl",
+    "sha256": "878d0c2d1ee23b59e886dcf19db3ab45633a07cbd2ac60d06ed17818e6805417",
+    "url": "https://files.pythonhosted.org/packages/cb/7a/cb93ecbfde26f1571a4784c3fb76a3624f63bd5f5a4190bd5c0ee9e56ab4/newrelic-6.8.1.164-cp27-cp27m-manylinux1_x86_64.whl"
+  },
+  {
+    "name": "newrelic-6.8.1.164-cp27-cp27m-manylinux2010_x86_64.whl",
+    "sha256": "91624670b54c13741217da90d438bfae6ee0c07904c4b9689bcc097f12234e22",
+    "url": "https://files.pythonhosted.org/packages/30/53/60d9afc284a41c4e33013219a736ffd3a9777e18d45bad465401988bb48c/newrelic-6.8.1.164-cp27-cp27m-manylinux2010_x86_64.whl"
+  },
+  {
+    "name": "newrelic-6.8.1.164-cp27-cp27mu-manylinux1_x86_64.whl",
+    "sha256": "ac8a6dbf7244639249a8046646cbf35a603d4b0fbcfb3ae8bb2bef6f0cdef26e",
+    "url": "https://files.pythonhosted.org/packages/5e/29/dbec88f3e51881f4f26f70bd52e472cdc5ee23976c51ec98fac01e99fca0/newrelic-6.8.1.164-cp27-cp27mu-manylinux1_x86_64.whl"
+  },
+  {
+    "name": "newrelic-6.8.1.164-cp27-cp27mu-manylinux2010_x86_64.whl",
+    "sha256": "0eccccf768d01b1dd1d03dd3a7f74da3d207a61db6512fa677a025a5cc543288",
+    "url": "https://files.pythonhosted.org/packages/04/f5/315b20f61898491546f2a4997471b09403aaeeee7e8a2e59b984dd52670d/newrelic-6.8.1.164-cp27-cp27mu-manylinux2010_x86_64.whl"
+  },
+  {
+    "name": "newrelic-6.8.1.164-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+    "sha256": "0bf89d3e2866e7266ec1b444382a8216135fafcd318e74b88dcb1abbc2af4bb1",
+    "url": "https://files.pythonhosted.org/packages/32/71/207aea9856820ede3fd6ee5562e2d18ad5ffb718de10e8c48748c56ca067/newrelic-6.8.1.164-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "newrelic-6.8.1.164-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
+    "sha256": "ce8fd19ab1049a2f70a11f79f27043a0d547945c7b3e0c50d0a859ddea5233a7",
+    "url": "https://files.pythonhosted.org/packages/c1/55/e9dd3b62a4bb49ef1949aba1817943e4a6154a054752959d673b23150737/newrelic-6.8.1.164-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
+  },
+  {
+    "name": "newrelic-6.8.1.164-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+    "sha256": "ae4594ea9abe7f24ba24972780374d691505000d3883a7bcc94d645093357436",
+    "url": "https://files.pythonhosted.org/packages/ad/5f/ce7c15658438b6ba4fd5893d369c45d48755cd0c7d739d65c6777d909f12/newrelic-6.8.1.164-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "newrelic-6.8.1.164-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
+    "sha256": "3d276c1e325e4256f53c1bf5e9efa3904a57e8659068e4cec02290d94de01261",
+    "url": "https://files.pythonhosted.org/packages/7d/63/471ac2eb44c26fdc84ccd417dc5b5a95eca8ab6bd0f3bd6565cb0c5fef3c/newrelic-6.8.1.164-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
+  },
+  {
+    "name": "newrelic-6.8.1.164-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+    "sha256": "4aae3c862200fc9cee2198dfed43de9343bfb2576dc6ad3ef0ac8333a5ade084",
+    "url": "https://files.pythonhosted.org/packages/27/1d/690b383dcda0d9e1c20098d15e116d7d6d15a13544b49887e583a84849f7/newrelic-6.8.1.164-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "newrelic-6.8.1.164-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
+    "sha256": "57d39e99faccc46adeff38123844bc8b3baa23ad08fee8b245ebce6f68c5f225",
+    "url": "https://files.pythonhosted.org/packages/d5/3b/6ee0674428bdea5768c0b0b15ff6ce39bd19d7c56aa08dedaf109dbe8454/newrelic-6.8.1.164-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
+  },
+  {
+    "name": "newrelic-6.8.1.164-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+    "sha256": "9379355a2ffa980729b1765a9a45989732c9ab2e614732a306fbff4d2c3669ab",
+    "url": "https://files.pythonhosted.org/packages/8d/66/a636e69cb3625e09e39e028068fa1b0e31847cd0eca3e4b0c00c88cafbb6/newrelic-6.8.1.164-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "newrelic-6.8.1.164-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
+    "sha256": "9917a17fb66216cbc04967cd0da78a3d532b70e25ae71b7e46e8cc341126b400",
+    "url": "https://files.pythonhosted.org/packages/8e/dd/a9d9d2987523bd1723db466067939f8be163ddb297f46ca8970d83143d8a/newrelic-6.8.1.164-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
+  },
+  {
+    "name": "newrelic-6.8.1.164.tar.gz",
+    "sha256": "09a7706d32f5516059608bdc0309e014e700016184a91fdba3857eb0c6d584a4",
+    "url": "https://files.pythonhosted.org/packages/47/dc/e2d439ef14d4c38a7dab2c34ea498c541077ecf2b18a740aca8727c2ac84/newrelic-6.8.1.164.tar.gz"
+  }
+]

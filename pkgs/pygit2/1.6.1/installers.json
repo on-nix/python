@@ -1,0 +1,67 @@
+[
+  {
+    "name": "pygit2-1.6.1-cp36-cp36m-macosx_10_9_x86_64.whl",
+    "sha256": "547429774c11f5bc9d20a49aa86e4bd13c90a55140504ef05f55cf424470ee34",
+    "url": "https://files.pythonhosted.org/packages/40/bc/e8854aaf082137c9b1682505958e816df7edd9ce24b29f9b03d9a8265c79/pygit2-1.6.1-cp36-cp36m-macosx_10_9_x86_64.whl"
+  },
+  {
+    "name": "pygit2-1.6.1-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+    "sha256": "4e75865d7b6fc161d93b16f10365eaad353cd546e302a98f2de2097ddea1066b",
+    "url": "https://files.pythonhosted.org/packages/c3/20/4494d26e19d4a0d968b1273935100f9d86d1a7a9511cc22ed711e9eb6e1c/pygit2-1.6.1-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "pygit2-1.6.1-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "sha256": "be4a64b6090308ffd1c82e2dd4316cb79483715387b13818156d516134a5b17c",
+    "url": "https://files.pythonhosted.org/packages/99/a1/4bc542815d4492c8f947e0e59e1c5316571815fa5c70045e42a7c90663e9/pygit2-1.6.1-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  },
+  {
+    "name": "pygit2-1.6.1-cp37-cp37m-macosx_10_9_x86_64.whl",
+    "sha256": "9c1d96c66fb6e69ec710078a73c19edff420bc1db430caa9e03a825eede3f25c",
+    "url": "https://files.pythonhosted.org/packages/6e/a6/a9a014c11c1fd6d7e00fcf06e45edbc36eeddaa90246eaf3dff2e2b4c04b/pygit2-1.6.1-cp37-cp37m-macosx_10_9_x86_64.whl"
+  },
+  {
+    "name": "pygit2-1.6.1-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+    "sha256": "454d42550fa6a6cd0e6a6ad9ab3f3262135fd157f57bad245ce156c36ee93370",
+    "url": "https://files.pythonhosted.org/packages/9b/00/b8867dab49979819ae425ca8de1e84581649ca822a87025c205efab67855/pygit2-1.6.1-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "pygit2-1.6.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "sha256": "ce0827b77dd2f8a3465bdc181c4e65f27dd12dbd92635c038e58030cc90c2de0",
+    "url": "https://files.pythonhosted.org/packages/16/ef/e32789e87cb7e9fba86aca668acae6379e65865d6eda524474e8694939ff/pygit2-1.6.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  },
+  {
+    "name": "pygit2-1.6.1-cp38-cp38-macosx_10_9_x86_64.whl",
+    "sha256": "0e1e02c28983ddc004c0f54063f3e46fca388225d468e32e16689cfb750e0bd6",
+    "url": "https://files.pythonhosted.org/packages/ef/88/e1d80c6e097e7a5852f0c9a3ec48b9df0d10e67a56bedc2b0f73eeb9c42b/pygit2-1.6.1-cp38-cp38-macosx_10_9_x86_64.whl"
+  },
+  {
+    "name": "pygit2-1.6.1-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+    "sha256": "e5dadc4844feb76cde5cc9a37656326a361dd8b5c8e8f8674dcd4a5ecf395db3",
+    "url": "https://files.pythonhosted.org/packages/4f/7b/7e21384a499d885bff14fb68ef38e9ff846044d7793dd2c1cddfd2cac132/pygit2-1.6.1-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "pygit2-1.6.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "sha256": "ef07458e4172a31318663295083b43f957d611145738ff56aa76db593542a6e8",
+    "url": "https://files.pythonhosted.org/packages/b4/60/d7810bdead2558ec948d6074049ddb8c947f7d15c3acbcc849613eff8af8/pygit2-1.6.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  },
+  {
+    "name": "pygit2-1.6.1-cp39-cp39-macosx_10_9_x86_64.whl",
+    "sha256": "b9b88b7e9a5286a71be0b6c307f0523c9606aeedff6b61eb9c440e18817fa641",
+    "url": "https://files.pythonhosted.org/packages/61/a8/d41a57bdcb11bb4d394464fbbac836eec0e1bdd09027773ec9aaa86c56ba/pygit2-1.6.1-cp39-cp39-macosx_10_9_x86_64.whl"
+  },
+  {
+    "name": "pygit2-1.6.1-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+    "sha256": "ac12d32b714c3383ebccffee5eb6aff0b69a2542a40a664fd5ad370afcb28ee7",
+    "url": "https://files.pythonhosted.org/packages/e5/28/79c7dde148e0f12c0b008c69860120595a932e5701ac7f58972f6e9370e4/pygit2-1.6.1-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "pygit2-1.6.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "sha256": "fe682ed6afd2ab31127f6a502cf3e002dc1cc8d26c36a5d49dfd180250351eb6",
+    "url": "https://files.pythonhosted.org/packages/b1/53/fb62339f0663c5382e2952dfe20d6ebc1a0b33a0db205a44d8742bc75144/pygit2-1.6.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  },
+  {
+    "name": "pygit2-1.6.1.tar.gz",
+    "sha256": "c3303776f774d3e0115c1c4f6e1fc35470d15f113a7ae9401a0b90acfa1661ac",
+    "url": "https://files.pythonhosted.org/packages/6b/23/a8c5b726a58282fe2cadcc63faaddd4be147c3c8e0bd38b233114adf98fd/pygit2-1.6.1.tar.gz"
+  }
+]

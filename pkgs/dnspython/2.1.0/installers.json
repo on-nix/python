@@ -1,0 +1,12 @@
+[
+  {
+    "name": "dnspython-2.1.0-py3-none-any.whl",
+    "sha256": "95d12f6ef0317118d2a1a6fc49aac65ffec7eb8087474158f42f26a639135216",
+    "url": "https://files.pythonhosted.org/packages/f5/2d/ae9e172b4e5e72fa4b3cfc2517f38b602cc9ba31355f9669c502b4e9c458/dnspython-2.1.0-py3-none-any.whl"
+  },
+  {
+    "name": "dnspython-2.1.0.zip",
+    "sha256": "e4a87f0b573201a0f3727fa18a516b055fd1107e0e5477cded4a2de497df1dd4",
+    "url": "https://files.pythonhosted.org/packages/13/27/5277de856f605f3429d752a39af3588e29d10181a3aa2e2ee471d817485a/dnspython-2.1.0.zip"
+  }
+]

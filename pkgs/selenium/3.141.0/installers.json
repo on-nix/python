@@ -1,0 +1,12 @@
+[
+  {
+    "name": "selenium-3.141.0-py2.py3-none-any.whl",
+    "sha256": "2d7131d7bc5a5b99a2d9b04aaf2612c411b03b8ca1b1ee8d3de5845a9be2cb3c",
+    "url": "https://files.pythonhosted.org/packages/80/d6/4294f0b4bce4de0abf13e17190289f9d0613b0a44e5dd6a7f5ca98459853/selenium-3.141.0-py2.py3-none-any.whl"
+  },
+  {
+    "name": "selenium-3.141.0.tar.gz",
+    "sha256": "deaf32b60ad91a4611b98d8002757f29e6f2c2d5fcaf202e1c9ad06d6772300d",
+    "url": "https://files.pythonhosted.org/packages/ed/9c/9030520bf6ff0b4c98988448a93c04fcbd5b13cd9520074d8ed53569ccfe/selenium-3.141.0.tar.gz"
+  }
+]

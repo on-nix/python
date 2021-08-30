@@ -1,0 +1,12 @@
+[
+  {
+    "name": "pynamodb-5.1.0-py3-none-any.whl",
+    "sha256": "8a38fa76522878ef1a8a0b62e6dcc1f883af73182a6c30a050481d316f589d34",
+    "url": "https://files.pythonhosted.org/packages/db/46/5cdbe9d446649a6d6c100f309366c3c41207807acfd00bcd4e37a8e230bb/pynamodb-5.1.0-py3-none-any.whl"
+  },
+  {
+    "name": "pynamodb-5.1.0.tar.gz",
+    "sha256": "7f351d70b9f4da95ea2d7e50299640e4c46c83b7b24bea5daf110acd2e5aef2b",
+    "url": "https://files.pythonhosted.org/packages/73/29/34a6fccfc6ecec90fcb7340d5068556204c3ad9c1110bddb92e957643ae1/pynamodb-5.1.0.tar.gz"
+  }
+]

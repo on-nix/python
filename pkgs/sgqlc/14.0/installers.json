@@ -1,0 +1,12 @@
+[
+  {
+    "name": "sgqlc-14.0-py3-none-any.whl",
+    "sha256": "0242ab86d391953283359cf734808359e981acaf52e117504d28b7fc15e439dd",
+    "url": "https://files.pythonhosted.org/packages/f3/ac/648e82870db608b3d175a56de16c16b78220b3bb76d156c97b1cc60db81d/sgqlc-14.0-py3-none-any.whl"
+  },
+  {
+    "name": "sgqlc-14.0.tar.gz",
+    "sha256": "5d85835d0a9e1e0dd3350a804004d8c5c5ba40f30f32e3bc5d6e2b544f06fe0a",
+    "url": "https://files.pythonhosted.org/packages/93/b5/f75ab9d55472ab019eaf11d9512b0c0d71a1f93f68f267c820ecf44f313e/sgqlc-14.0.tar.gz"
+  }
+]

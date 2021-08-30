@@ -1,0 +1,12 @@
+[
+  {
+    "name": "confuse-1.5.0-py2.py3-none-any.whl",
+    "sha256": "00685b37f6ae849f805b707cf7d1e8609be6c9d8fd4c45ef01c5e765d9cba5e3",
+    "url": "https://files.pythonhosted.org/packages/ec/13/dae6eb3d7e40d5c79e2b6fba4192c84e8390c82e02e1c8ad4a8c4224f292/confuse-1.5.0-py2.py3-none-any.whl"
+  },
+  {
+    "name": "confuse-1.5.0.tar.gz",
+    "sha256": "92fbca1c70611120ea722372e0c071c0d342a75f796b4bde4bf0348ea49f022e",
+    "url": "https://files.pythonhosted.org/packages/51/c7/f94ebe5583dc8482daa8f8fdc49739e27cad3ba0f860e42192fe00ab9191/confuse-1.5.0.tar.gz"
+  }
+]

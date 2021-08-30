@@ -1,0 +1,19 @@
+{
+  "atomicwrites": "1.4.0",
+  "attrs": "21.2.0",
+  "colorama": "0.4.4",
+  "importlib-metadata": "4.8.1",
+  "iniconfig": "1.1.1",
+  "mirakuru": "2.4.1",
+  "packaging": "21.0",
+  "pluggy": "0.13.1",
+  "port-for": "0.6.1",
+  "psutil": "5.8.0",
+  "py": "1.10.0",
+  "pyparsing": "2.4.7",
+  "pytest": "6.2.4",
+  "pytest-postgresql": "3.1.1",
+  "toml": "0.10.2",
+  "typing-extensions": "3.10.0.1",
+  "zipp": "3.5.0"
+}

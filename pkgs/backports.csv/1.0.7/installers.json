@@ -1,0 +1,12 @@
+[
+  {
+    "name": "backports.csv-1.0.7-py2.py3-none-any.whl",
+    "sha256": "21f6e09bab589e6c1f877edbc40277b65e626262a86e69a70137db714eaac5ce",
+    "url": "https://files.pythonhosted.org/packages/8e/26/a6bd68f13e0f38fbb643d6e497fc3462be83a0b6c4d43425c78bb51a7291/backports.csv-1.0.7-py2.py3-none-any.whl"
+  },
+  {
+    "name": "backports.csv-1.0.7.tar.gz",
+    "sha256": "1277dfff73130b2e106bf3dd347adb3c5f6c4340882289d88f31240da92cbd6d",
+    "url": "https://files.pythonhosted.org/packages/79/0c/d0eaa9380189a292121acab65199ac95b9209b45006ad8aa5266abd36943/backports.csv-1.0.7.tar.gz"
+  }
+]

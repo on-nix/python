@@ -1,0 +1,12 @@
+[
+  {
+    "name": "python_gitlab-2.10.1-py3-none-any.whl",
+    "sha256": "581a219759515513ea9399e936ed7137437cfb681f52d2641626685c492c999d",
+    "url": "https://files.pythonhosted.org/packages/1b/90/eed6dd7eda176cb6e7300e27f9f7f94ac917df9dc1bb1553924af271f01a/python_gitlab-2.10.1-py3-none-any.whl"
+  },
+  {
+    "name": "python-gitlab-2.10.1.tar.gz",
+    "sha256": "7afa7d7c062fa62c173190452265a30feefb844428efc58ea5244f3b9fc0d40f",
+    "url": "https://files.pythonhosted.org/packages/4f/47/5c51420baf1ea3141d7da32a0a92541a5073491c8da8bd309e9ca52c5e8d/python-gitlab-2.10.1.tar.gz"
+  }
+]

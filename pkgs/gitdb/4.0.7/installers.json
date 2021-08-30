@@ -1,0 +1,12 @@
+[
+  {
+    "name": "gitdb-4.0.7-py3-none-any.whl",
+    "sha256": "6c4cc71933456991da20917998acbe6cf4fb41eeaab7d6d67fbc05ecd4c865b0",
+    "url": "https://files.pythonhosted.org/packages/ea/e8/f414d1a4f0bbc668ed441f74f44c116d9816833a48bf81d22b697090dba8/gitdb-4.0.7-py3-none-any.whl"
+  },
+  {
+    "name": "gitdb-4.0.7.tar.gz",
+    "sha256": "96bf5c08b157a666fec41129e6d327235284cca4c81e92109260f353ba138005",
+    "url": "https://files.pythonhosted.org/packages/34/fe/9265459642ab6e29afe734479f94385870e8702e7f892270ed6e52dd15bf/gitdb-4.0.7.tar.gz"
+  }
+]

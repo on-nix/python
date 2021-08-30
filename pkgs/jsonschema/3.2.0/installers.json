@@ -1,0 +1,12 @@
+[
+  {
+    "name": "jsonschema-3.2.0-py2.py3-none-any.whl",
+    "sha256": "4e5b3cf8216f577bee9ce139cbe72eca3ea4f292ec60928ff24758ce626cd163",
+    "url": "https://files.pythonhosted.org/packages/c5/8f/51e89ce52a085483359217bc72cdbf6e75ee595d5b1d4b5ade40c7e018b8/jsonschema-3.2.0-py2.py3-none-any.whl"
+  },
+  {
+    "name": "jsonschema-3.2.0.tar.gz",
+    "sha256": "c8a85b28d377cc7737e46e2d9f2b4f44ee3c0e1deac6bf46ddefc7187d30797a",
+    "url": "https://files.pythonhosted.org/packages/69/11/a69e2a3c01b324a77d3a7c0570faa372e8448b666300c4117a516f8b1212/jsonschema-3.2.0.tar.gz"
+  }
+]

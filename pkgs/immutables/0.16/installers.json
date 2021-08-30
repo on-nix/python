@@ -1,0 +1,97 @@
+[
+  {
+    "name": "immutables-0.16-cp36-cp36m-macosx_10_9_x86_64.whl",
+    "sha256": "acbfa79d44228d96296279068441f980dc63dbed52522d9227ff9f4d96c6627e",
+    "url": "https://files.pythonhosted.org/packages/9c/25/5b2245d167bf0c3c93b8e2675fd51a9bbf053e5a8e503d6968f396c24868/immutables-0.16-cp36-cp36m-macosx_10_9_x86_64.whl"
+  },
+  {
+    "name": "immutables-0.16-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+    "sha256": "29c9ed003eacb92e630ef200e31f47236c2139b39476894f7963b32bd39bafa3",
+    "url": "https://files.pythonhosted.org/packages/68/b8/123e4d501467b638dfc5e7de56a3a07edcc0ecd2c5c2aaa743dfccd701d7/immutables-0.16-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "immutables-0.16-cp36-cp36m-manylinux_2_5_i686.manylinux1_i686.whl",
+    "sha256": "0a396314b9024fa55bf83a27813fd76cf9f27dce51f53b0f19b51de035146251",
+    "url": "https://files.pythonhosted.org/packages/3d/15/0808a48bef0c3cb6c873733676fc80dd8abe1a2fd8e3f2a8218f54f57da7/immutables-0.16-cp36-cp36m-manylinux_2_5_i686.manylinux1_i686.whl"
+  },
+  {
+    "name": "immutables-0.16-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.whl",
+    "sha256": "4a2a71678348fb95b13ca108d447f559a754c41b47bd1e7e4fb23974e735682d",
+    "url": "https://files.pythonhosted.org/packages/4f/ae/0b6a1d3643099d63c6eb122b2299d535162c8600c11409eeebe47aa3b4c8/immutables-0.16-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.whl"
+  },
+  {
+    "name": "immutables-0.16-cp37-cp37m-macosx_10_9_x86_64.whl",
+    "sha256": "fcf678a3074613119385a02a07c469ec5130559f5ea843c85a0840c80b5b71c6",
+    "url": "https://files.pythonhosted.org/packages/a7/84/b7b8582ecfe31f74dbaaee6e4c61c1711e19b8746edde8c89442b1c29a59/immutables-0.16-cp37-cp37m-macosx_10_9_x86_64.whl"
+  },
+  {
+    "name": "immutables-0.16-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+    "sha256": "a307eb0984eb43e815dcacea3ac50c11d00a936ecf694c46991cd5a23bcb0ec0",
+    "url": "https://files.pythonhosted.org/packages/05/bc/d262568584e7228aa73233cd53fccf6eaf9b243f23f09e0abd76f05c6f3c/immutables-0.16-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "immutables-0.16-cp37-cp37m-manylinux_2_5_i686.manylinux1_i686.whl",
+    "sha256": "7a58825ff2254e2612c5a932174398a4ea8fbddd8a64a02c880cc32ee28b8820",
+    "url": "https://files.pythonhosted.org/packages/fb/ed/2900fd781fb4a1392eae93de9204a54025bacd0da066fc907a65ee357faf/immutables-0.16-cp37-cp37m-manylinux_2_5_i686.manylinux1_i686.whl"
+  },
+  {
+    "name": "immutables-0.16-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl",
+    "sha256": "798b095381eb42cf40db6876339e7bed84093e5868018a9e73d8e1f7ab4bb21e",
+    "url": "https://files.pythonhosted.org/packages/eb/93/2e90d574c57aa92cce5088178a1ac74f9743c6ed0a23a05d520afcb08b82/immutables-0.16-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl"
+  },
+  {
+    "name": "immutables-0.16-cp38-cp38-macosx_10_9_universal2.whl",
+    "sha256": "d59beef203a3765db72b1d0943547425c8318ecf7d64c451fd1e130b653c2fbb",
+    "url": "https://files.pythonhosted.org/packages/5b/1c/67fb7b4099176d5fd977d2f365d422b49c362939982ac64abed7a3a0e26c/immutables-0.16-cp38-cp38-macosx_10_9_universal2.whl"
+  },
+  {
+    "name": "immutables-0.16-cp38-cp38-macosx_10_9_x86_64.whl",
+    "sha256": "0020aaa4010b136056c20a46ce53204e1407a9e4464246cb2cf95b90808d9161",
+    "url": "https://files.pythonhosted.org/packages/07/4d/3ce6063c0223472fa3c543b9bab88ad3d81f2b8354e1e81d12db34895018/immutables-0.16-cp38-cp38-macosx_10_9_x86_64.whl"
+  },
+  {
+    "name": "immutables-0.16-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+    "sha256": "edd9f67671555af1eb99ad3c7550238487dd7ac0ac5205b40204ed61c9a922ac",
+    "url": "https://files.pythonhosted.org/packages/f6/72/b65557983006a85c8aca8e0e9ddbb1b4b54bfd04b1a518bdc99036dcf7e9/immutables-0.16-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "immutables-0.16-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.whl",
+    "sha256": "298a301f85f307b4c056a0825eb30f060e64d73605e783289f3df37dd762bab8",
+    "url": "https://files.pythonhosted.org/packages/ca/a1/e3066c2c76b18a1432d9a2902df0a8a563cedb7809c5b6ef3da8fa25d073/immutables-0.16-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.whl"
+  },
+  {
+    "name": "immutables-0.16-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl",
+    "sha256": "b779617f5b94486bfd0f22162cd72eb5f2beb0214a14b75fdafb7b2c908ed0cb",
+    "url": "https://files.pythonhosted.org/packages/dd/c9/4a9e524f549c37c8b1d3d0ef3bf54f59c2c7b6e41b72fbfba00e03e4de71/immutables-0.16-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl"
+  },
+  {
+    "name": "immutables-0.16-cp39-cp39-macosx_10_9_universal2.whl",
+    "sha256": "aa7bf572ae1e006104c584be70dc634849cf0dc62f42f4ee194774f97e7fd17d",
+    "url": "https://files.pythonhosted.org/packages/04/de/0937876adb9afb411a1839358ccedcfb300561a755ef27e051f63bfad4b2/immutables-0.16-cp39-cp39-macosx_10_9_universal2.whl"
+  },
+  {
+    "name": "immutables-0.16-cp39-cp39-macosx_10_9_x86_64.whl",
+    "sha256": "50793a44ba0d228ed8cad4d0925e00dfd62ea32f44ddee8854f8066447272d05",
+    "url": "https://files.pythonhosted.org/packages/6b/c5/31edb928bdfa2d6861c0a86ff4c33bcc6bb7b3070498746004d1e6d43ad8/immutables-0.16-cp39-cp39-macosx_10_9_x86_64.whl"
+  },
+  {
+    "name": "immutables-0.16-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+    "sha256": "799621dcdcdcbb2516546a40123b87bf88de75fe7459f7bd8144f079ace6ec3e",
+    "url": "https://files.pythonhosted.org/packages/a9/cc/975220a5ed64781e7d24044b7c4f4f815ff71b54f12109a8fd4f207421e5/immutables-0.16-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "immutables-0.16-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.whl",
+    "sha256": "7bcf52aeb983bd803b7c6106eae1b2d9a0c7ab1241bc6b45e2174ba2b7283031",
+    "url": "https://files.pythonhosted.org/packages/de/a8/e63cb44405b1aa8b6eb0d0fd68c2b97dbe9b5dd7b5568afb20e462e065a5/immutables-0.16-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.whl"
+  },
+  {
+    "name": "immutables-0.16-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl",
+    "sha256": "734c269e82e5f307fb6e17945953b67659d1731e65309787b8f7ba267d1468f2",
+    "url": "https://files.pythonhosted.org/packages/ec/5c/87b722cf32a0eeca31ee897de99845fb27831b5a6ea587416684872d1a9f/immutables-0.16-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl"
+  },
+  {
+    "name": "immutables-0.16.tar.gz",
+    "sha256": "d67e86859598eed0d926562da33325dac7767b7b1eff84e232c22abea19f4360",
+    "url": "https://files.pythonhosted.org/packages/45/e5/743bc53f6ff11de2eb1dc29eef92693a51ded22039affb7316391dad67f5/immutables-0.16.tar.gz"
+  }
+]

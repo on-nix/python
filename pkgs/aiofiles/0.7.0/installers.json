@@ -1,0 +1,12 @@
+[
+  {
+    "name": "aiofiles-0.7.0-py3-none-any.whl",
+    "sha256": "c67a6823b5f23fcab0a2595a289cec7d8c863ffcb4322fb8cd6b90400aedfdbc",
+    "url": "https://files.pythonhosted.org/packages/e7/61/007ac6f27fe1c2dc44d3a62f429a8440de1601428b4d0291eae1a3494d1f/aiofiles-0.7.0-py3-none-any.whl"
+  },
+  {
+    "name": "aiofiles-0.7.0.tar.gz",
+    "sha256": "a1c4fc9b2ff81568c83e21392a82f344ea9d23da906e4f6a52662764545e19d4",
+    "url": "https://files.pythonhosted.org/packages/06/f0/af90f3fb4066b0707b6a5af3ffd5fd9b3809bbb52f0153a3c7550e594de3/aiofiles-0.7.0.tar.gz"
+  }
+]

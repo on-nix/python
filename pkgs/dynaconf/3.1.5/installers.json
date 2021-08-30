@@ -1,0 +1,12 @@
+[
+  {
+    "name": "dynaconf-3.1.5-py2.py3-none-any.whl",
+    "sha256": "98f0e5d861e945c1b06ed33844b9341e6412bc121c1a9ea88668df7891d8f308",
+    "url": "https://files.pythonhosted.org/packages/e4/fa/2df0334c020d0629b486f13866ae231b25b1d5f83f1835397ccd47f6961a/dynaconf-3.1.5-py2.py3-none-any.whl"
+  },
+  {
+    "name": "dynaconf-3.1.5.tar.gz",
+    "sha256": "40979cc454d8533fada490dc0945a1dbf5ea96f95dc9113f8a3b3053670fd569",
+    "url": "https://files.pythonhosted.org/packages/c2/22/a6decf6ee4ec4db858ac7127b056d38961ec0fe9a0a160c84f2d08c4527a/dynaconf-3.1.5.tar.gz"
+  }
+]

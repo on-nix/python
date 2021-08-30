@@ -1,0 +1,182 @@
+[
+  {
+    "name": "simplejson-3.17.5-cp27-cp27m-macosx_10_9_x86_64.whl",
+    "sha256": "376023f51edaf7290332dacfb055bc00ce864cb013c0338d0dea48731f37e42f",
+    "url": "https://files.pythonhosted.org/packages/e8/64/8f619136a810107595b996a5a1dca831ac7f70adcccb6c4a6dea469e9404/simplejson-3.17.5-cp27-cp27m-macosx_10_9_x86_64.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp27-cp27m-manylinux1_i686.whl",
+    "sha256": "b2a5688606dffbe95e1347a05b77eb90489fe337edde888e23bbb7fd81b0d93b",
+    "url": "https://files.pythonhosted.org/packages/ae/5a/3746d326c52ddd1098682480a967e1cded34bc78796bdb16153dfe4e6bec/simplejson-3.17.5-cp27-cp27m-manylinux1_i686.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp27-cp27m-manylinux1_x86_64.whl",
+    "sha256": "3ba82f8b421886f4a2311c43fb98faaf36c581976192349fef2a89ed0fcdbdef",
+    "url": "https://files.pythonhosted.org/packages/36/64/2388103af590476d61c3c4b0c31c0c4335d4ed256c6b92608a04cb0d30db/simplejson-3.17.5-cp27-cp27m-manylinux1_x86_64.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp27-cp27m-manylinux2010_i686.whl",
+    "sha256": "7332f7b06d42153255f7bfeb10266141c08d48cc1a022a35473c95238ff2aebc",
+    "url": "https://files.pythonhosted.org/packages/e4/37/f577b58f5b2af7a9ca5ee394901cc26aae98a109c0a61db6bba9b6ade03a/simplejson-3.17.5-cp27-cp27m-manylinux2010_i686.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp27-cp27m-manylinux2010_x86_64.whl",
+    "sha256": "c2d5334d935af711f6d6dfeec2d34e071cdf73ec0df8e8bd35ac435b26d8da97",
+    "url": "https://files.pythonhosted.org/packages/ba/bb/f1b741d5d59df25b4e0448908c5d545aac7cadddc14df6f0862e5bc86971/simplejson-3.17.5-cp27-cp27m-manylinux2010_x86_64.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp27-cp27mu-manylinux1_i686.whl",
+    "sha256": "417b7e119d66085dc45bdd563dcb2c575ee10a3b1c492dd3502a029448d4be1c",
+    "url": "https://files.pythonhosted.org/packages/e5/1a/e02d7026685d8078828f1a502206529454b65c008c07d2dc7eaf9c96fe0d/simplejson-3.17.5-cp27-cp27mu-manylinux1_i686.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp27-cp27mu-manylinux1_x86_64.whl",
+    "sha256": "42b7c7264229860fe879be961877f7466d9f7173bd6427b3ba98144a031d49fb",
+    "url": "https://files.pythonhosted.org/packages/07/bd/694493858960987ced8f52cf5945acdde41aa299fb5656c0b65ab7fcc7f3/simplejson-3.17.5-cp27-cp27mu-manylinux1_x86_64.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp27-cp27mu-manylinux2010_i686.whl",
+    "sha256": "5fe8c6dcb9e6f7066bdc07d3c410a2fca78c0d0b4e0e72510ffd20a60a20eb8e",
+    "url": "https://files.pythonhosted.org/packages/9d/98/303e6beecbc82a7e2b5160b91650002ff26d309ff9541358ebfc6930633b/simplejson-3.17.5-cp27-cp27mu-manylinux2010_i686.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp27-cp27mu-manylinux2010_x86_64.whl",
+    "sha256": "b92fbc2bc549c5045c8233d954f3260ccf99e0f3ec9edfd2372b74b350917752",
+    "url": "https://files.pythonhosted.org/packages/26/a4/04763ad3095adefb2161ae9d1de747714f116664525525e2793333f33cf7/simplejson-3.17.5-cp27-cp27mu-manylinux2010_x86_64.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp310-cp310-macosx_10_9_universal2.whl",
+    "sha256": "5f7f53b1edd4b23fb112b89208377480c0bcee45d43a03ffacf30f3290e0ed85",
+    "url": "https://files.pythonhosted.org/packages/2e/0a/a0e219f1156818405cb260ed91ae3ccc29a23c8a5213079bfb38883a321d/simplejson-3.17.5-cp310-cp310-macosx_10_9_universal2.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp310-cp310-macosx_10_9_x86_64.whl",
+    "sha256": "40ece8fa730d1a947bff792bcc7824bd02d3ce6105432798e9a04a360c8c07b0",
+    "url": "https://files.pythonhosted.org/packages/b8/c1/6469287dcd63558ddcd3bd8d9a2d0a007ac29b94e0e1f07a762009c6eec4/simplejson-3.17.5-cp310-cp310-macosx_10_9_x86_64.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp310-cp310-macosx_11_0_arm64.whl",
+    "sha256": "10defa88dd10a0a4763f16c1b5504e96ae6dc68953cfe5fc572b4a8fcaf9409b",
+    "url": "https://files.pythonhosted.org/packages/93/c6/36d71656c750d71e99b555a7ddc64352ed6e1a5c4259caacc18786165321/simplejson-3.17.5-cp310-cp310-macosx_11_0_arm64.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+    "sha256": "aa86cfdeb118795875855589934013e32895715ec2d9e8eb7a59be3e7e07a7e1",
+    "url": "https://files.pythonhosted.org/packages/72/07/4b509d0861eff32013819acf9d096b33516feb50f888df9807b9b81be674/simplejson-3.17.5-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp310-cp310-manylinux_2_5_i686.manylinux1_i686.manylinux_2_12_i686.manylinux2010_i686.whl",
+    "sha256": "ce66f730031b9b3683b2fc6ad4160a18db86557c004c3d490a29bf8d450d7ab9",
+    "url": "https://files.pythonhosted.org/packages/ea/ea/7d402a8f92ffc314eab47e1fe1f97ed6d9734bfe98851a25c4d021de0504/simplejson-3.17.5-cp310-cp310-manylinux_2_5_i686.manylinux1_i686.manylinux_2_12_i686.manylinux2010_i686.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
+    "sha256": "352c11582aa1e49a2f0f7f7d8fd5ec5311da890d1354287e83c63ab6af857cf5",
+    "url": "https://files.pythonhosted.org/packages/2c/8d/317a7ac49b7dd1c1c3d8a9cb4f91aebd7e73d5d5153def32190d8f3cce34/simplejson-3.17.5-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp36-cp36m-macosx_10_9_x86_64.whl",
+    "sha256": "ade09aa3c284d11f39640aebdcbb748e1996f0c60504f8c4a0c5a9fec821e67a",
+    "url": "https://files.pythonhosted.org/packages/f5/a5/892c1505eb5d56c08df4adf306afef1ff4f48b709206826317f91b89c75f/simplejson-3.17.5-cp36-cp36m-macosx_10_9_x86_64.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+    "sha256": "87572213965fd8a4fb7a97f837221e01d8fddcfb558363c671b8aa93477fb6a2",
+    "url": "https://files.pythonhosted.org/packages/c3/c9/0fa6f8a812bef3885701d626ca11b84d3b6d111e44fd1ac2971e649507cf/simplejson-3.17.5-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp36-cp36m-manylinux_2_5_i686.manylinux1_i686.manylinux_2_12_i686.manylinux2010_i686.whl",
+    "sha256": "2b59acd09b02da97728d0bae8ff48876d7efcbbb08e569c55e2d0c2e018324f5",
+    "url": "https://files.pythonhosted.org/packages/d5/8c/e0d7a9b169a1bf0465dbf2b89e22ddf9ef24abe874db10175d555c403ad9/simplejson-3.17.5-cp36-cp36m-manylinux_2_5_i686.manylinux1_i686.manylinux_2_12_i686.manylinux2010_i686.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
+    "sha256": "e29b9cea4216ec130df85d8c36efb9985fda1c9039e4706fb30e0fb6a67602ff",
+    "url": "https://files.pythonhosted.org/packages/61/84/646d5238bddd2e436a9a6bacd260ef85626825ebe359ef807adf259c9233/simplejson-3.17.5-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp37-cp37m-macosx_10_9_x86_64.whl",
+    "sha256": "f13c48cc4363829bdfecc0c181b6ddf28008931de54908a492dc8ccd0066cd60",
+    "url": "https://files.pythonhosted.org/packages/b2/22/fdde0c86995cc49480e60c62d3344be3a7c0af0c4d4b0d203a39ee4490a3/simplejson-3.17.5-cp37-cp37m-macosx_10_9_x86_64.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+    "sha256": "4a6943816e10028eeed512ea03be52b54ea83108b408d1049b999f58a760089b",
+    "url": "https://files.pythonhosted.org/packages/14/7c/ca581db5d4785736539fac165cc0089735715ee0de23dc1c5399e4520b5f/simplejson-3.17.5-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp37-cp37m-manylinux_2_5_i686.manylinux1_i686.manylinux_2_12_i686.manylinux2010_i686.whl",
+    "sha256": "3d72aa9e73134dacd049a2d6f9bd219f7be9c004d03d52395831611d66cedb71",
+    "url": "https://files.pythonhosted.org/packages/ff/04/d363e14f688bfa7e93b7db7def21cebba7fb88231dc0ff9c3f68f5c5e984/simplejson-3.17.5-cp37-cp37m-manylinux_2_5_i686.manylinux1_i686.manylinux_2_12_i686.manylinux2010_i686.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
+    "sha256": "5b94df70bd34a3b946c0eb272022fb0f8a9eb27cad76e7f313fedbee2ebe4317",
+    "url": "https://files.pythonhosted.org/packages/51/46/a37c6ac51b4eb3c9e965fc5d3120ccbd04344d4ad07a8aa1a5cfb2c8e8f0/simplejson-3.17.5-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp38-cp38-macosx_10_9_universal2.whl",
+    "sha256": "78c6f0ed72b440ebe1892d273c1e5f91e55e6861bea611d3b904e673152a7a4c",
+    "url": "https://files.pythonhosted.org/packages/df/a6/190d7e91eaa45aaf0cb82f02a939092179c210dfdaa4f15eb8076584baf6/simplejson-3.17.5-cp38-cp38-macosx_10_9_universal2.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp38-cp38-macosx_10_9_x86_64.whl",
+    "sha256": "36b08b886027eac67e7a0e822e3a5bf419429efad7612e69501669d6252a21f2",
+    "url": "https://files.pythonhosted.org/packages/ae/86/712b7de0697ae1790630ce80d70ae10c276635affefead770565e9e26d52/simplejson-3.17.5-cp38-cp38-macosx_10_9_x86_64.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp38-cp38-macosx_11_0_arm64.whl",
+    "sha256": "fe1c33f78d2060719d52ea9459d97d7ae3a5b707ec02548575c4fbed1d1d345b",
+    "url": "https://files.pythonhosted.org/packages/08/e7/c144dbea4e98655fc7b13a5464e258b516468f98af7eace4b47f387fc6dc/simplejson-3.17.5-cp38-cp38-macosx_11_0_arm64.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+    "sha256": "140eb58809f24d843736edb8080b220417e22c82ac07a3dfa473f57e78216b5f",
+    "url": "https://files.pythonhosted.org/packages/38/13/507ae3c85b411b5186e53b7fa2cda532dd00129d24b4941037eb873e3a8e/simplejson-3.17.5-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.manylinux_2_12_i686.manylinux2010_i686.whl",
+    "sha256": "7c9b30a2524ae6983b708f12741a31fbc2fb8d6fecd0b6c8584a62fd59f59e09",
+    "url": "https://files.pythonhosted.org/packages/51/cb/af393824b96d47b0b4a6571ee73061871b3ec1005419aac544e347a62650/simplejson-3.17.5-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.manylinux_2_12_i686.manylinux2010_i686.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
+    "sha256": "24e413bd845bd17d4d72063d64e053898543fb7abc81afeae13e5c43cef9c171",
+    "url": "https://files.pythonhosted.org/packages/24/39/1464d5db8793be65c96bb025b22f94cd0a9179e4773444a19c7df7f10d4a/simplejson-3.17.5-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp39-cp39-macosx_10_9_universal2.whl",
+    "sha256": "457d9cfe7ece1571770381edccdad7fc255b12cd7b5b813219441146d4f47595",
+    "url": "https://files.pythonhosted.org/packages/e5/f2/c794b9feb1df2b3ab3119b1352d165dc2d3ac7eb46cf1538943534857dec/simplejson-3.17.5-cp39-cp39-macosx_10_9_universal2.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp39-cp39-macosx_10_9_x86_64.whl",
+    "sha256": "fa843ee0d34c7193f5a816e79df8142faff851549cab31e84b526f04878ac778",
+    "url": "https://files.pythonhosted.org/packages/f8/27/5075bb74fc63e78b75e29c9f9874d2a4c25ec4237791dc13b0137e4d7ad4/simplejson-3.17.5-cp39-cp39-macosx_10_9_x86_64.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp39-cp39-macosx_11_0_arm64.whl",
+    "sha256": "e2cc4b68e59319e3de778325e34fbff487bfdb2225530e89995402989898d681",
+    "url": "https://files.pythonhosted.org/packages/4f/15/d8fe1dffc4ecc273ec8d7739f82347e8478cdeafb4c22dc3dcc8069c9c69/simplejson-3.17.5-cp39-cp39-macosx_11_0_arm64.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+    "sha256": "e90d2e219c3dce1500dda95f5b893c293c4d53c4e330c968afbd4e7a90ff4a5b",
+    "url": "https://files.pythonhosted.org/packages/66/59/dcea8e992638a7c6447aa20d8d9134a7a11e612c7f2551afb6327bcf5929/simplejson-3.17.5-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_12_i686.manylinux2010_i686.whl",
+    "sha256": "917f01db71d5e720b731effa3ff4a2c702a1b6dacad9bcdc580d86a018dfc3ca",
+    "url": "https://files.pythonhosted.org/packages/fc/31/e819aeba575486ced94ad1d9052e9e06ca87e516cd06b3f68d68136c8804/simplejson-3.17.5-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_12_i686.manylinux2010_i686.whl"
+  },
+  {
+    "name": "simplejson-3.17.5-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
+    "sha256": "07707ba69324eaf58f0c6f59d289acc3e0ed9ec528dae5b0d4219c0d6da27dc5",
+    "url": "https://files.pythonhosted.org/packages/ca/bd/90414daecccf065702af5721a47f1455de3e7c4c49268d40f18b695b22e3/simplejson-3.17.5-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
+  },
+  {
+    "name": "simplejson-3.17.5.tar.gz",
+    "sha256": "91cfb43fb91ff6d1e4258be04eee84b51a4ef40a28d899679b9ea2556322fb50",
+    "url": "https://files.pythonhosted.org/packages/01/52/41c71718f941c9a5abebfaa24e3c14e3c0229327b7ebd21348989845ed8f/simplejson-3.17.5.tar.gz"
+  }
+]

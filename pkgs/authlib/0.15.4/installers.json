@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Authlib-0.15.4-py2.py3-none-any.whl",
+    "sha256": "d9fe5edb59801b16583faa86f88d798d99d952979b9616d5c735b9170b41ae2c",
+    "url": "https://files.pythonhosted.org/packages/08/8b/620a5ca21892520b0abdf3f6300ef0133d956a38565396c2fa487bf57e6f/Authlib-0.15.4-py2.py3-none-any.whl"
+  },
+  {
+    "name": "Authlib-0.15.4.tar.gz",
+    "sha256": "37df3a2554bc6fe0da3cc6848c44fac2ae40634a7f8fc72543947f4330b26464",
+    "url": "https://files.pythonhosted.org/packages/f2/24/09b67e9cffa426f3df4d6a3e12155ea35d3382549fd723e8e1aa40a56006/Authlib-0.15.4.tar.gz"
+  }
+]

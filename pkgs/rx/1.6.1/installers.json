@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Rx-1.6.1-py2.py3-none-any.whl",
+    "sha256": "7357592bc7e881a95e0c2013b73326f704953301ab551fbc8133a6fadab84105",
+    "url": "https://files.pythonhosted.org/packages/33/0f/5ef4ac78e2a538cc1b054eb86285fe0bf7a5dbaeaac2c584757c300515e2/Rx-1.6.1-py2.py3-none-any.whl"
+  },
+  {
+    "name": "Rx-1.6.1.tar.gz",
+    "sha256": "13a1d8d9e252625c173dc795471e614eadfe1cf40ffc684e08b8fff0d9748c23",
+    "url": "https://files.pythonhosted.org/packages/25/d7/9bc30242d9af6a9e9bf65b007c56e17b7dc9c13f86e440b885969b3bbdcf/Rx-1.6.1.tar.gz"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "httplib2-0.19.1-py3-none-any.whl",
+    "sha256": "2ad195faf9faf079723f6714926e9a9061f694d07724b846658ce08d40f522b4",
+    "url": "https://files.pythonhosted.org/packages/15/dc/d14bce03f4bfd0214b90a3f556d7c96f75bb94ad597c816a641b962f22e9/httplib2-0.19.1-py3-none-any.whl"
+  },
+  {
+    "name": "httplib2-0.19.1.tar.gz",
+    "sha256": "0b12617eeca7433d4c396a100eaecfa4b08ee99aa881e6df6e257a7aad5d533d",
+    "url": "https://files.pythonhosted.org/packages/ed/cd/533a1e9e04671bcee5d2854b4f651a3fab9586d698de769d93b05ee2bff1/httplib2-0.19.1.tar.gz"
+  }
+]

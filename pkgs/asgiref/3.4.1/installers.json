@@ -1,0 +1,12 @@
+[
+  {
+    "name": "asgiref-3.4.1-py3-none-any.whl",
+    "sha256": "ffc141aa908e6f175673e7b1b3b7af4fdb0ecb738fc5c8b88f69f055c2415214",
+    "url": "https://files.pythonhosted.org/packages/fe/66/577f32b54c50dcd8dec38447258e82ed327ecb86820d67ae7b3dea784f13/asgiref-3.4.1-py3-none-any.whl"
+  },
+  {
+    "name": "asgiref-3.4.1.tar.gz",
+    "sha256": "4ef1ab46b484e3c706329cedeff284a5d40824200638503f5768edb6de7d58e9",
+    "url": "https://files.pythonhosted.org/packages/07/93/3618b68b4ba6b54bc97b5fd7d90e4981471edfaf51c8321a29a3c76cf47c/asgiref-3.4.1.tar.gz"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "pytest_freezegun-0.4.2-py2.py3-none-any.whl",
+    "sha256": "5318a6bfb8ba4b709c8471c94d0033113877b3ee02da5bfcd917c1889cde99a7",
+    "url": "https://files.pythonhosted.org/packages/9e/09/0bdd7d24b9d21453ad3364ae1efbd65082045bb6081b5fd5eade91a9b644/pytest_freezegun-0.4.2-py2.py3-none-any.whl"
+  },
+  {
+    "name": "pytest-freezegun-0.4.2.zip",
+    "sha256": "19c82d5633751bf3ec92caa481fb5cffaac1787bd485f0df6436fd6242176949",
+    "url": "https://files.pythonhosted.org/packages/f0/e3/c39d7c3d3afef5652f19323f3483267d7e6b0d9911c3867e10d6e2d3c9ae/pytest-freezegun-0.4.2.zip"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "idna-3.2-py3-none-any.whl",
+    "sha256": "14475042e284991034cb48e06f6851428fb14c4dc953acd9be9a5e95c7b6dd7a",
+    "url": "https://files.pythonhosted.org/packages/d7/77/ff688d1504cdc4db2a938e2b7b9adee5dd52e34efbd2431051efc9984de9/idna-3.2-py3-none-any.whl"
+  },
+  {
+    "name": "idna-3.2.tar.gz",
+    "sha256": "467fbad99067910785144ce333826c71fb0e63a425657295239737f7ecd125f3",
+    "url": "https://files.pythonhosted.org/packages/cb/38/4c4d00ddfa48abe616d7e572e02a04273603db446975ab46bbcd36552005/idna-3.2.tar.gz"
+  }
+]

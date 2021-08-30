@@ -1,0 +1,12 @@
+{
+  "certifi": "2021.5.30",
+  "charset-normalizer": "2.0.4",
+  "gql": "2.0.0",
+  "graphql-core": "2.3.2",
+  "idna": "3.2",
+  "promise": "2.3",
+  "requests": "2.26.0",
+  "rx": "1.6.1",
+  "six": "1.16.0",
+  "urllib3": "1.26.6"
+}

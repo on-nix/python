@@ -1,0 +1,147 @@
+[
+  {
+    "name": "aiohttp-3.7.4.post0-cp36-cp36m-macosx_10_14_x86_64.whl",
+    "sha256": "3cf75f7cdc2397ed4442594b935a11ed5569961333d49b7539ea741be2cc79d5",
+    "url": "https://files.pythonhosted.org/packages/27/12/972e2da7fd85ace03b37ef35f5a42f53e69ae1ae96d391fd565d047ab2bc/aiohttp-3.7.4.post0-cp36-cp36m-macosx_10_14_x86_64.whl"
+  },
+  {
+    "name": "aiohttp-3.7.4.post0-cp36-cp36m-manylinux1_i686.whl",
+    "sha256": "4b302b45040890cea949ad092479e01ba25911a15e648429c7c5aae9650c67a8",
+    "url": "https://files.pythonhosted.org/packages/11/e9/3d036dc23aa3d27a439e5167aa379b86eef54d3ac163e2d2be307b318894/aiohttp-3.7.4.post0-cp36-cp36m-manylinux1_i686.whl"
+  },
+  {
+    "name": "aiohttp-3.7.4.post0-cp36-cp36m-manylinux2014_aarch64.whl",
+    "sha256": "fe60131d21b31fd1a14bd43e6bb88256f69dfc3188b3a89d736d6c71ed43ec95",
+    "url": "https://files.pythonhosted.org/packages/e7/15/19b71232cefd5f433d8a1dc4f9a3c560cefd199620bec83ff17dfa5325f1/aiohttp-3.7.4.post0-cp36-cp36m-manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "aiohttp-3.7.4.post0-cp36-cp36m-manylinux2014_i686.whl",
+    "sha256": "393f389841e8f2dfc86f774ad22f00923fdee66d238af89b70ea314c4aefd290",
+    "url": "https://files.pythonhosted.org/packages/23/76/5edd678a864ef72c5afd9448c61f564b1a53af470d04e98c66ac4a193a28/aiohttp-3.7.4.post0-cp36-cp36m-manylinux2014_i686.whl"
+  },
+  {
+    "name": "aiohttp-3.7.4.post0-cp36-cp36m-manylinux2014_ppc64le.whl",
+    "sha256": "c6e9dcb4cb338d91a73f178d866d051efe7c62a7166653a91e7d9fb18274058f",
+    "url": "https://files.pythonhosted.org/packages/2a/fb/6351764c1d81f9f0c993c7a2d25e34b5a4fc9bcff1c77ac99e712e207c4d/aiohttp-3.7.4.post0-cp36-cp36m-manylinux2014_ppc64le.whl"
+  },
+  {
+    "name": "aiohttp-3.7.4.post0-cp36-cp36m-manylinux2014_s390x.whl",
+    "sha256": "5df68496d19f849921f05f14f31bd6ef53ad4b00245da3195048c69934521809",
+    "url": "https://files.pythonhosted.org/packages/95/be/94734e9659c433bcbde3c18b13472262a86b6c567f533a4469bef0327fda/aiohttp-3.7.4.post0-cp36-cp36m-manylinux2014_s390x.whl"
+  },
+  {
+    "name": "aiohttp-3.7.4.post0-cp36-cp36m-manylinux2014_x86_64.whl",
+    "sha256": "0563c1b3826945eecd62186f3f5c7d31abb7391fedc893b7e2b26303b5a9f3fe",
+    "url": "https://files.pythonhosted.org/packages/31/28/7b49246d7825c61e1a14306ab050e8eec48fcf5b009b19c8f6ea4e312467/aiohttp-3.7.4.post0-cp36-cp36m-manylinux2014_x86_64.whl"
+  },
+  {
+    "name": "aiohttp-3.7.4.post0-cp37-cp37m-macosx_10_14_x86_64.whl",
+    "sha256": "230a8f7e24298dea47659251abc0fd8b3c4e38a664c59d4b89cca7f6c09c9e87",
+    "url": "https://files.pythonhosted.org/packages/5b/df/5fddeee4eb5864474c2d4e44e0895a39ef4bd7789782d52848ed5d025461/aiohttp-3.7.4.post0-cp37-cp37m-macosx_10_14_x86_64.whl"
+  },
+  {
+    "name": "aiohttp-3.7.4.post0-cp37-cp37m-manylinux1_i686.whl",
+    "sha256": "2e19413bf84934d651344783c9f5e22dee452e251cfd220ebadbed2d9931dbf0",
+    "url": "https://files.pythonhosted.org/packages/26/aa/1b7ca137f7065a7f56ac03f8abfc07382fec3d9f12a38d8a885c5f7d3826/aiohttp-3.7.4.post0-cp37-cp37m-manylinux1_i686.whl"
+  },
+  {
+    "name": "aiohttp-3.7.4.post0-cp37-cp37m-manylinux2014_aarch64.whl",
+    "sha256": "e4b2b334e68b18ac9817d828ba44d8fcb391f6acb398bcc5062b14b2cbeac970",
+    "url": "https://files.pythonhosted.org/packages/b3/0e/a300924d2d3fcd88a26146716506f73a3a1216c6247c4466ad21346ffd61/aiohttp-3.7.4.post0-cp37-cp37m-manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "aiohttp-3.7.4.post0-cp37-cp37m-manylinux2014_i686.whl",
+    "sha256": "d012ad7911653a906425d8473a1465caa9f8dea7fcf07b6d870397b774ea7c0f",
+    "url": "https://files.pythonhosted.org/packages/a3/66/71719c7fcd6847fa0aa0b0c2c95928c2e30cd1eec0edc919f41a992ab9dc/aiohttp-3.7.4.post0-cp37-cp37m-manylinux2014_i686.whl"
+  },
+  {
+    "name": "aiohttp-3.7.4.post0-cp37-cp37m-manylinux2014_ppc64le.whl",
+    "sha256": "40eced07f07a9e60e825554a31f923e8d3997cfc7fb31dbc1328c70826e04cde",
+    "url": "https://files.pythonhosted.org/packages/c4/d7/ada8fe09cde1ef3579031283ff59e673756f5bd4bdd0f1674f263d86b367/aiohttp-3.7.4.post0-cp37-cp37m-manylinux2014_ppc64le.whl"
+  },
+  {
+    "name": "aiohttp-3.7.4.post0-cp37-cp37m-manylinux2014_s390x.whl",
+    "sha256": "209b4a8ee987eccc91e2bd3ac36adee0e53a5970b8ac52c273f7f8fd4872c94c",
+    "url": "https://files.pythonhosted.org/packages/c0/7d/f38eb9997f24b6133aa6fb7a9e11d1af24b52d685aea653d723367ff2602/aiohttp-3.7.4.post0-cp37-cp37m-manylinux2014_s390x.whl"
+  },
+  {
+    "name": "aiohttp-3.7.4.post0-cp37-cp37m-manylinux2014_x86_64.whl",
+    "sha256": "14762875b22d0055f05d12abc7f7d61d5fd4fe4642ce1a249abdf8c700bf1fd8",
+    "url": "https://files.pythonhosted.org/packages/88/c0/5890b4c8b04a79b7360e8fe4490feb0bb3ab179743f199f0e6220cebd568/aiohttp-3.7.4.post0-cp37-cp37m-manylinux2014_x86_64.whl"
+  },
+  {
+    "name": "aiohttp-3.7.4.post0-cp38-cp38-macosx_10_14_x86_64.whl",
+    "sha256": "547da6cacac20666422d4882cfcd51298d45f7ccb60a04ec27424d2f36ba3eaf",
+    "url": "https://files.pythonhosted.org/packages/85/36/8637de18f5b91c84942b36d5d47b74befb8b41af6574520f1ba23fae59c0/aiohttp-3.7.4.post0-cp38-cp38-macosx_10_14_x86_64.whl"
+  },
+  {
+    "name": "aiohttp-3.7.4.post0-cp38-cp38-manylinux1_i686.whl",
+    "sha256": "af9aa9ef5ba1fd5b8c948bb11f44891968ab30356d65fd0cc6707d989cd521df",
+    "url": "https://files.pythonhosted.org/packages/33/9c/355a3b7fd23335726b1e84ac87dbe4b6744b664977b56316329e0048d070/aiohttp-3.7.4.post0-cp38-cp38-manylinux1_i686.whl"
+  },
+  {
+    "name": "aiohttp-3.7.4.post0-cp38-cp38-manylinux2014_aarch64.whl",
+    "sha256": "64322071e046020e8797117b3658b9c2f80e3267daec409b350b6a7a05041213",
+    "url": "https://files.pythonhosted.org/packages/c2/09/3c014ef067296cf0d842ef37e89ea771f3e7a6476180b4189a5aab77614c/aiohttp-3.7.4.post0-cp38-cp38-manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "aiohttp-3.7.4.post0-cp38-cp38-manylinux2014_i686.whl",
+    "sha256": "bb437315738aa441251214dad17428cafda9cdc9729499f1d6001748e1d432f4",
+    "url": "https://files.pythonhosted.org/packages/11/a7/037b565866667fcf29b960347f7577f5b131815c7ae986c8cd28c82319ec/aiohttp-3.7.4.post0-cp38-cp38-manylinux2014_i686.whl"
+  },
+  {
+    "name": "aiohttp-3.7.4.post0-cp38-cp38-manylinux2014_ppc64le.whl",
+    "sha256": "e54962802d4b8b18b6207d4a927032826af39395a3bd9196a5af43fc4e60b009",
+    "url": "https://files.pythonhosted.org/packages/a0/7b/d317bb70c4161389b4c38579e766d52b6d00fb0a45ef479bdd46aeb2fa4f/aiohttp-3.7.4.post0-cp38-cp38-manylinux2014_ppc64le.whl"
+  },
+  {
+    "name": "aiohttp-3.7.4.post0-cp38-cp38-manylinux2014_s390x.whl",
+    "sha256": "a00bb73540af068ca7390e636c01cbc4f644961896fa9363154ff43fd37af2f5",
+    "url": "https://files.pythonhosted.org/packages/4b/a0/e7a51d38a31df52ae50d42c42e717178ac005c7b3a76764ce2752ed1e376/aiohttp-3.7.4.post0-cp38-cp38-manylinux2014_s390x.whl"
+  },
+  {
+    "name": "aiohttp-3.7.4.post0-cp38-cp38-manylinux2014_x86_64.whl",
+    "sha256": "79ebfc238612123a713a457d92afb4096e2148be17df6c50fb9bf7a81c2f8013",
+    "url": "https://files.pythonhosted.org/packages/a6/76/f18138b0ff84fcd939667a2efc2e1b49c871299f9091f84c06bb4c350c01/aiohttp-3.7.4.post0-cp38-cp38-manylinux2014_x86_64.whl"
+  },
+  {
+    "name": "aiohttp-3.7.4.post0-cp39-cp39-macosx_10_14_x86_64.whl",
+    "sha256": "7b18b97cf8ee5452fa5f4e3af95d01d84d86d32c5e2bfa260cf041749d66360b",
+    "url": "https://files.pythonhosted.org/packages/62/c5/49ce62949ab0381300c718cc3934a91c13d23abe72bbb28daffe169660d7/aiohttp-3.7.4.post0-cp39-cp39-macosx_10_14_x86_64.whl"
+  },
+  {
+    "name": "aiohttp-3.7.4.post0-cp39-cp39-manylinux1_i686.whl",
+    "sha256": "15492a6368d985b76a2a5fdd2166cddfea5d24e69eefed4630cbaae5c81d89bd",
+    "url": "https://files.pythonhosted.org/packages/c5/62/56354d114074e17a288ba89c3897d6e1965239f0e8def510cb78e04ff6fa/aiohttp-3.7.4.post0-cp39-cp39-manylinux1_i686.whl"
+  },
+  {
+    "name": "aiohttp-3.7.4.post0-cp39-cp39-manylinux2014_aarch64.whl",
+    "sha256": "bdb230b4943891321e06fc7def63c7aace16095be7d9cf3b1e01be2f10fba439",
+    "url": "https://files.pythonhosted.org/packages/8b/9e/970be81ea38c4fff3e5a77cad58c38dfc94645712ad9125eca4ff50ddb21/aiohttp-3.7.4.post0-cp39-cp39-manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "aiohttp-3.7.4.post0-cp39-cp39-manylinux2014_i686.whl",
+    "sha256": "cffe3ab27871bc3ea47df5d8f7013945712c46a3cc5a95b6bee15887f1675c22",
+    "url": "https://files.pythonhosted.org/packages/ba/09/5412357e129dda648d1ff53a5db292e9a183184855a72eb86f3a516a854a/aiohttp-3.7.4.post0-cp39-cp39-manylinux2014_i686.whl"
+  },
+  {
+    "name": "aiohttp-3.7.4.post0-cp39-cp39-manylinux2014_ppc64le.whl",
+    "sha256": "f881853d2643a29e643609da57b96d5f9c9b93f62429dcc1cbb413c7d07f0e1a",
+    "url": "https://files.pythonhosted.org/packages/ff/1c/5f301a7dd87d667e0b11f6305ff58fcf5910f7a29f23d857c1f9afc56ae4/aiohttp-3.7.4.post0-cp39-cp39-manylinux2014_ppc64le.whl"
+  },
+  {
+    "name": "aiohttp-3.7.4.post0-cp39-cp39-manylinux2014_s390x.whl",
+    "sha256": "a5ca29ee66f8343ed336816c553e82d6cade48a3ad702b9ffa6125d187e2dedb",
+    "url": "https://files.pythonhosted.org/packages/6c/8f/24dd62e54153fe2b0838891629ef70f86bfdd774585f2a05c115cc54d3bf/aiohttp-3.7.4.post0-cp39-cp39-manylinux2014_s390x.whl"
+  },
+  {
+    "name": "aiohttp-3.7.4.post0-cp39-cp39-manylinux2014_x86_64.whl",
+    "sha256": "17c073de315745a1510393a96e680d20af8e67e324f70b42accbd4cb3315c9fb",
+    "url": "https://files.pythonhosted.org/packages/34/40/2b3295eb6f66209d1b2ad6ef34ebdf1cb1675c62f8697a8fe7c4f11d2838/aiohttp-3.7.4.post0-cp39-cp39-manylinux2014_x86_64.whl"
+  },
+  {
+    "name": "aiohttp-3.7.4.post0.tar.gz",
+    "sha256": "493d3299ebe5f5a7c66b9819eacdcfbbaaf1a8e84911ddffcdc48888497afecf",
+    "url": "https://files.pythonhosted.org/packages/99/f5/90ede947a3ce2d6de1614799f5fea4e93c19b6520a59dc5d2f64123b032f/aiohttp-3.7.4.post0.tar.gz"
+  }
+]

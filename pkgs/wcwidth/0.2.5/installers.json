@@ -1,0 +1,12 @@
+[
+  {
+    "name": "wcwidth-0.2.5-py2.py3-none-any.whl",
+    "sha256": "beb4802a9cebb9144e99086eff703a642a13d6a0052920003a230f3294bbe784",
+    "url": "https://files.pythonhosted.org/packages/59/7c/e39aca596badaf1b78e8f547c807b04dae603a433d3e7a7e04d67f2ef3e5/wcwidth-0.2.5-py2.py3-none-any.whl"
+  },
+  {
+    "name": "wcwidth-0.2.5.tar.gz",
+    "sha256": "c4d647b99872929fdb7bdcaa4fbe7f01413ed3d98077df798530e5b04f116c83",
+    "url": "https://files.pythonhosted.org/packages/89/38/459b727c381504f361832b9e5ace19966de1a235d73cdbdea91c771a1155/wcwidth-0.2.5.tar.gz"
+  }
+]

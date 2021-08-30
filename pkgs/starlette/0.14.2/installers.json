@@ -1,0 +1,12 @@
+[
+  {
+    "name": "starlette-0.14.2-py3-none-any.whl",
+    "sha256": "3c8e48e52736b3161e34c9f0e8153b4f32ec5d8995a3ee1d59410d92f75162ed",
+    "url": "https://files.pythonhosted.org/packages/15/34/db1890f442a1cd3a2c761f4109a0eb4e63503218d70a8c8e97faa09a5500/starlette-0.14.2-py3-none-any.whl"
+  },
+  {
+    "name": "starlette-0.14.2.tar.gz",
+    "sha256": "7d49f4a27f8742262ef1470608c59ddbc66baf37c148e938c7038e6bc7a998aa",
+    "url": "https://files.pythonhosted.org/packages/3a/06/ded663a1ddea8b11a2027d88ff0e757f9cdb812310f18bee33ef7270112f/starlette-0.14.2.tar.gz"
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "name": "lxml-4.6.3-cp27-cp27m-macosx_10_9_x86_64.whl",
+    "sha256": "df7c53783a46febb0e70f6b05df2ba104610f2fb0d27023409734a3ecbb78fb2",
+    "url": "https://files.pythonhosted.org/packages/0d/d4/7796da16ef390a2bb115771cd2252e3c90afc8999760b640d4833b616aed/lxml-4.6.3-cp27-cp27m-macosx_10_9_x86_64.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp27-cp27m-manylinux1_i686.whl",
+    "sha256": "1b7584d421d254ab86d4f0b13ec662a9014397678a7c4265a02a6d7c2b18a75f",
+    "url": "https://files.pythonhosted.org/packages/f4/b2/bdbe31df8c626c3326422a7aea16d9a6b2cb99bcc7d37eb7386829f68abc/lxml-4.6.3-cp27-cp27m-manylinux1_i686.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp27-cp27m-manylinux1_x86_64.whl",
+    "sha256": "079f3ae844f38982d156efce585bc540c16a926d4436712cf4baee0cce487a3d",
+    "url": "https://files.pythonhosted.org/packages/88/2d/14be07c60f077f48cef29f8ef349608f78341d82261bc67cca93665d1a28/lxml-4.6.3-cp27-cp27m-manylinux1_x86_64.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp27-cp27mu-manylinux1_i686.whl",
+    "sha256": "7728e05c35412ba36d3e9795ae8995e3c86958179c9770e65558ec3fdfd3724f",
+    "url": "https://files.pythonhosted.org/packages/d7/83/c2f7d6ecbb3f12216349080962743299b3be8dac571c68bf859f7bcb6dc5/lxml-4.6.3-cp27-cp27mu-manylinux1_i686.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp27-cp27mu-manylinux1_x86_64.whl",
+    "sha256": "4bff24dfeea62f2e56f5bab929b4428ae6caba2d1eea0c2d6eb618e30a71e6d4",
+    "url": "https://files.pythonhosted.org/packages/ec/62/829a719f945f5b99516e25ffdc9053dddf4a5b0825bf28c97ac9a15ad2cb/lxml-4.6.3-cp27-cp27mu-manylinux1_x86_64.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp310-cp310-manylinux_2_12_i686.manylinux2010_i686.manylinux_2_24_i686.whl",
+    "sha256": "64812391546a18896adaa86c77c59a4998f33c24788cadc35789e55b727a37f4",
+    "url": "https://files.pythonhosted.org/packages/34/19/af0c27e71fec1f8ef9bdc0015f6958ee7dee5c9562b13aaf6eb8770499c7/lxml-4.6.3-cp310-cp310-manylinux_2_12_i686.manylinux2010_i686.manylinux_2_24_i686.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl",
+    "sha256": "c1a40c06fd5ba37ad39caa0b3144eb3772e813b5fb5b084198a985431c2f1e8d",
+    "url": "https://files.pythonhosted.org/packages/24/b7/e596382ac7cc6b9574dba3979f9f52f5bb1b5f5816fc2643ccad23ae692c/lxml-4.6.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp35-cp35m-manylinux1_i686.whl",
+    "sha256": "74f7d8d439b18fa4c385f3f5dfd11144bb87c1da034a466c5b5577d23a1d9b51",
+    "url": "https://files.pythonhosted.org/packages/7c/c2/4647a7d1c5ab20d5ebe826f20978d87bc6b5027dfda0672ad6d1ddb79e68/lxml-4.6.3-cp35-cp35m-manylinux1_i686.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp35-cp35m-manylinux1_x86_64.whl",
+    "sha256": "f90ba11136bfdd25cae3951af8da2e95121c9b9b93727b1b896e3fa105b2f586",
+    "url": "https://files.pythonhosted.org/packages/0a/12/ec66192d5eca20a92302af5a6ce6147d96dc4b65050e9b0509180adf6252/lxml-4.6.3-cp35-cp35m-manylinux1_x86_64.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp35-cp35m-manylinux2010_i686.whl",
+    "sha256": "4c61b3a0db43a1607d6264166b230438f85bfed02e8cff20c22e564d0faff354",
+    "url": "https://files.pythonhosted.org/packages/c8/ae/9346f8da17dadcbd2d07b6da75be528e982c11634b28d2b8629e2ca6d639/lxml-4.6.3-cp35-cp35m-manylinux2010_i686.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp35-cp35m-manylinux2014_x86_64.whl",
+    "sha256": "5c8c163396cc0df3fd151b927e74f6e4acd67160d6c33304e805b84293351d16",
+    "url": "https://files.pythonhosted.org/packages/b5/e6/407ad93ca2b165c68c7ee12028b2185aea9c869bdb240ca573a98adfe026/lxml-4.6.3-cp35-cp35m-manylinux2014_x86_64.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp36-cp36m-macosx_10_9_x86_64.whl",
+    "sha256": "d2e35d7bf1c1ac8c538f88d26b396e73dd81440d59c1ef8522e1ea77b345ede4",
+    "url": "https://files.pythonhosted.org/packages/85/3d/a6a5f7e0dcabefb5f0cc66b0e6e707dafee91255493a2954100e254af26f/lxml-4.6.3-cp36-cp36m-macosx_10_9_x86_64.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp36-cp36m-manylinux1_i686.whl",
+    "sha256": "289e9ca1a9287f08daaf796d96e06cb2bc2958891d7911ac7cae1c5f9e1e0ee3",
+    "url": "https://files.pythonhosted.org/packages/58/8a/4ef50caea4861c2cd02c5ae6550e5858b92a4d98a3222423c2000365f51e/lxml-4.6.3-cp36-cp36m-manylinux1_i686.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp36-cp36m-manylinux1_x86_64.whl",
+    "sha256": "bccbfc27563652de7dc9bdc595cb25e90b59c5f8e23e806ed0fd623755b6565d",
+    "url": "https://files.pythonhosted.org/packages/1f/1d/a4485412268b38043a6c0f873245b5d9315c6615bcf44776759a2605dca5/lxml-4.6.3-cp36-cp36m-manylinux1_x86_64.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp36-cp36m-manylinux2010_i686.whl",
+    "sha256": "d916d31fd85b2f78c76400d625076d9124de3e4bda8b016d25a050cc7d603f24",
+    "url": "https://files.pythonhosted.org/packages/6c/c4/57f1b2ad4c2d2a71b72196ae7279340fd5ed85b326bffff16059e552a0c8/lxml-4.6.3-cp36-cp36m-manylinux2010_i686.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp36-cp36m-manylinux2014_aarch64.whl",
+    "sha256": "820628b7b3135403540202e60551e741f9b6d3304371712521be939470b454ec",
+    "url": "https://files.pythonhosted.org/packages/eb/0c/041e8b139ceec54c0ae1ee48c494bc10173ba5a4e8b8d8bf33045ccede85/lxml-4.6.3-cp36-cp36m-manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp36-cp36m-manylinux2014_x86_64.whl",
+    "sha256": "c47ff7e0a36d4efac9fd692cfa33fbd0636674c102e9e8d9b26e1b93a94e7617",
+    "url": "https://files.pythonhosted.org/packages/53/b2/2fb24ff277d351822a3087e18aea41a20942f6557a3c864dda67ebecf8c7/lxml-4.6.3-cp36-cp36m-manylinux2014_x86_64.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp37-cp37m-macosx_10_9_x86_64.whl",
+    "sha256": "efd7a09678fd8b53117f6bae4fa3825e0a22b03ef0a932e070c0bdbb3a35e654",
+    "url": "https://files.pythonhosted.org/packages/1e/3e/f0abc15d5dac50939bccc589aae336d5ead4c72e7ad1039a2e0f3630ea92/lxml-4.6.3-cp37-cp37m-macosx_10_9_x86_64.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp37-cp37m-manylinux1_i686.whl",
+    "sha256": "efac139c3f0bf4f0939f9375af4b02c5ad83a622de52d6dfa8e438e8e01d0eb0",
+    "url": "https://files.pythonhosted.org/packages/d3/dd/b12adb0064c907571f37256871bd6dfd36e099d1243af2f752cf27827a4d/lxml-4.6.3-cp37-cp37m-manylinux1_i686.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp37-cp37m-manylinux1_x86_64.whl",
+    "sha256": "0fbcf5565ac01dff87cbfc0ff323515c823081c5777a9fc7703ff58388c258c3",
+    "url": "https://files.pythonhosted.org/packages/cf/4d/6537313bf58fe22b508f08cf3eb86b29b6f9edf68e00454224539421073b/lxml-4.6.3-cp37-cp37m-manylinux1_x86_64.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp37-cp37m-manylinux2010_i686.whl",
+    "sha256": "36108c73739985979bf302006527cf8a20515ce444ba916281d1c43938b8bb96",
+    "url": "https://files.pythonhosted.org/packages/d2/91/87c892e5ab2d4ea620b4f7a2a0fe6e0cefa8f728b73f2fc4605f19698117/lxml-4.6.3-cp37-cp37m-manylinux2010_i686.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp37-cp37m-manylinux2014_aarch64.whl",
+    "sha256": "122fba10466c7bd4178b07dba427aa516286b846b2cbd6f6169141917283aae2",
+    "url": "https://files.pythonhosted.org/packages/61/87/f73c6aaf4e8cadc1ace6c436589e1bb5df60dca060e7cba744a48ece2b44/lxml-4.6.3-cp37-cp37m-manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp37-cp37m-manylinux2014_x86_64.whl",
+    "sha256": "cdaf11d2bd275bf391b5308f86731e5194a21af45fbaaaf1d9e8147b9160ea92",
+    "url": "https://files.pythonhosted.org/packages/30/c0/d0526314971fc661b083ab135747dc68446a3022686da8c16d25fcf6ef07/lxml-4.6.3-cp37-cp37m-manylinux2014_x86_64.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp38-cp38-macosx_10_9_x86_64.whl",
+    "sha256": "b007cbb845b28db4fb8b6a5cdcbf65bacb16a8bd328b53cbc0698688a68e1caa",
+    "url": "https://files.pythonhosted.org/packages/87/ff/784d03f79daa7e59cf685a7ffedd2ab6acddd5e6af18f236e75c84e0e19d/lxml-4.6.3-cp38-cp38-macosx_10_9_x86_64.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp38-cp38-manylinux1_i686.whl",
+    "sha256": "76fa7b1362d19f8fbd3e75fe2fb7c79359b0af8747e6f7141c338f0bee2f871a",
+    "url": "https://files.pythonhosted.org/packages/d1/83/a83fafce8a41ad4517e60d9c0555563c165c54d545417143767300658a16/lxml-4.6.3-cp38-cp38-manylinux1_i686.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp38-cp38-manylinux1_x86_64.whl",
+    "sha256": "26e761ab5b07adf5f555ee82fb4bfc35bf93750499c6c7614bd64d12aaa67927",
+    "url": "https://files.pythonhosted.org/packages/e5/d7/2d8b9e1d4fe05b8b72b3d2345d5a741b005640681482502b5ce3d8f020d4/lxml-4.6.3-cp38-cp38-manylinux1_x86_64.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp38-cp38-manylinux2010_i686.whl",
+    "sha256": "e1cbd3f19a61e27e011e02f9600837b921ac661f0c40560eefb366e4e4fb275e",
+    "url": "https://files.pythonhosted.org/packages/dc/6e/a166f586ddc87291f0f6111001eb9b26b436d82729c7a6777eae4ef0c072/lxml-4.6.3-cp38-cp38-manylinux2010_i686.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp38-cp38-manylinux2014_aarch64.whl",
+    "sha256": "66e575c62792c3f9ca47cb8b6fab9e35bab91360c783d1606f758761810c9791",
+    "url": "https://files.pythonhosted.org/packages/e4/86/ce700aa79423cc6a7b7619efe224811c9d3f136739825f869739c3f45356/lxml-4.6.3-cp38-cp38-manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp38-cp38-manylinux2014_x86_64.whl",
+    "sha256": "1b38116b6e628118dea5b2186ee6820ab138dbb1e24a13e478490c7db2f326ae",
+    "url": "https://files.pythonhosted.org/packages/4c/30/8d712990f7f3806d08e54d82ac414cb723f1c1dfaf5831307e94ef8a1392/lxml-4.6.3-cp38-cp38-manylinux2014_x86_64.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp39-cp39-macosx_10_9_x86_64.whl",
+    "sha256": "ce256aaa50f6cc9a649c51be3cd4ff142d67295bfc4f490c9134d0f9f6d58ef0",
+    "url": "https://files.pythonhosted.org/packages/b8/74/a71f7ad72e8db54ce899efab84507b801660750cbbfa6a39e6717557d36a/lxml-4.6.3-cp39-cp39-macosx_10_9_x86_64.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp39-cp39-manylinux1_i686.whl",
+    "sha256": "7610b8c31688f0b1be0ef882889817939490a36d0ee880ea562a4e1399c447a1",
+    "url": "https://files.pythonhosted.org/packages/07/a1/01481822e261dde8b4a5a84dab15d24799d6a427cc388709a80cc2790f6f/lxml-4.6.3-cp39-cp39-manylinux1_i686.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp39-cp39-manylinux1_x86_64.whl",
+    "sha256": "f8380c03e45cf09f8557bdaa41e1fa7c81f3ae22828e1db470ab2a6c96d8bc23",
+    "url": "https://files.pythonhosted.org/packages/39/06/cbcdb6a3e31ca583d85c621cbd1c450c1913256cbf0dbbb3ffaecc8e25fd/lxml-4.6.3-cp39-cp39-manylinux1_x86_64.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp39-cp39-manylinux2010_i686.whl",
+    "sha256": "3082c518be8e97324390614dacd041bb1358c882d77108ca1957ba47738d9d59",
+    "url": "https://files.pythonhosted.org/packages/bc/af/3bbe20a8e1062e020c7d991baea62fbff257c89f2e013e4c1f47b2987931/lxml-4.6.3-cp39-cp39-manylinux2010_i686.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp39-cp39-manylinux2014_aarch64.whl",
+    "sha256": "884ab9b29feaca361f7f88d811b1eea9bfca36cf3da27768d28ad45c3ee6f969",
+    "url": "https://files.pythonhosted.org/packages/ca/b7/3b9df778b175985bb628a31cb1d954811d8530d50458be4115d1ee471a27/lxml-4.6.3-cp39-cp39-manylinux2014_aarch64.whl"
+  },
+  {
+    "name": "lxml-4.6.3-cp39-cp39-manylinux2014_x86_64.whl",
+    "sha256": "6f12e1427285008fd32a6025e38e977d44d6382cf28e7201ed10d6c1698d2a9a",
+    "url": "https://files.pythonhosted.org/packages/19/d9/a69c6aff5673554df48120565a14a50eaa41d29ae03b02faa0b023666318/lxml-4.6.3-cp39-cp39-manylinux2014_x86_64.whl"
+  },
+  {
+    "name": "lxml-4.6.3.tar.gz",
+    "sha256": "39b78571b3b30645ac77b95f7c69d1bffc4cf8c3b157c435a34da72e78c82468",
+    "url": "https://files.pythonhosted.org/packages/e5/21/a2e4517e3d216f0051687eea3d3317557bde68736f038a3b105ac3809247/lxml-4.6.3.tar.gz"
+  }
+]
