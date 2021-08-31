@@ -109,8 +109,8 @@ let
     let src = nixpkgs.fetchFromGitHub {
       owner = "fluidattacks";
       repo = "makes";
-      rev = "37acf1438aacdcbe610091a50d4b0415803b73c0";
-      sha256 = "1f21zcyz7bw98x1y6sbqcxy02lqvg9mqv3jmcsqm53frb22a3hag";
+      rev = "767979d2c1fc7fdebaf85ea322ed7487227a639a";
+      sha256 = "07bcn6nc7k4l1iz7ipcm7wknwqiv0ypsxaq6rzlzh1fa0q1iq62q";
     };
     in import "${src}/src/args/agnostic.nix" { };
 in
