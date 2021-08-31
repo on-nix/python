@@ -5,6 +5,9 @@ function main {
   local project="${2}"
   local version="${3:-}"
 
+  local out
+  local project_endpoint
+  local projects
   local pyproject_toml='{
     "build-system": {
       "build-backend": "poetry.core.masonry.api",
@@ -20,6 +23,9 @@ function main {
       }
     }
   }'
+  local python
+  local tmp
+  local versions
 
   : \
     && case "${python_version}" in
@@ -53,10 +59,28 @@ function main {
     && jq -erS '[.package[] | {key: .name, value: .version}] | from_entries' \
       < poetry.lock.json > closure.json \
     && popd \
-    && out="pkgs/${project}/${version}" \
+    && out="${PWD}/pkgs/${project}/${version}" \
     && mkdir -p "${out}" \
     && copy "${tmp}/closure.json" "${out}/python${python_version}.json" \
-    && fetch "${project}" "${version}"
+    && pushd "${tmp}" \
+    && jq -er 'to_entries[].key' \
+      < "${out}/python${python_version}.json" > projects.lst \
+    && jq -er 'to_entries[].value' \
+      < "${out}/python${python_version}.json" > versions.lst \
+    && mapfile -t projects < projects.lst \
+    && mapfile -t versions < versions.lst \
+    && popd \
+    && for ((index = 0; index < "${#projects[@]}"; index++)); do
+      : \
+        && project="${projects[$index]}" \
+        && version="${versions[$index]}" \
+        && if ! test -e "pkgs/${project}/${version}/installers.json"; then
+          fetch "${project}" "${version}"
+        fi \
+        && if ! test -e "pkgs/${project}/${version}/python${python_version}.json"; then
+          main "${python_version}" "${project}" "${version}"
+        fi
+    done
 }
 
 main "${@}"

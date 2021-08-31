@@ -6,7 +6,11 @@ function main {
 
   local cwd="${PWD}"
   local out="pkgs/${project}/${version}"
+  local name
   local project_endpoint="https://pypi.org/pypi/${project}/${version}/json"
+  local sha256
+  local tmp
+  local url
 
   : \
     && info Project: "${project}" \
