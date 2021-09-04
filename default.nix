@@ -48,6 +48,7 @@ let
         ({
           patchClosure = closure: closure;
           patchInstallers = installers: installers;
+          searchPaths = _: { };
         }) //
         (if builtins.pathExists setupGlobalPath
         then import setupGlobalPath else { }) //
@@ -71,9 +72,11 @@ let
       # Post-processed inputs
       closure = setup.patchClosure closureRaw;
       installers = setup.patchInstallers installersRaw;
+      searchPaths = setup.searchPaths { inherit nixpkgs; };
 
       venv = makes.makePythonPypiEnvironment {
         inherit name;
+        inherit searchPaths;
         sourcesRaw = {
           inherit closure;
           links = installers;
