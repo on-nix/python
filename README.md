@@ -15,19 +15,20 @@ Packaging every package on PyPI.
   The package + its python dependencies + its OS/Lib dependencies.
 - :heavy_check_mark:
   All [active python releases][PYTHON_RELEASES] (`3.6`, `3.7`, `3.8`, `3.9`)
-- :heavy_check_mark: Minimal maintainer dedication
 
 ## Using
 
 ### Available packages
 
-Checkout the [pkgs](./pkgs) folder, for example:
-- `"awscli"`
+Checkout the [pkgs](./pkgs) folder,
+each entry represents a package and its available versions,
+for example:
+- `"awscli"`, or
 - `"awscli-1.20.31"`
 
 The format is in general like this:
-- `"project"`: Latest version.
-- `"project-version"`: A specific version.
+- `"project"`: To reference the latest version.
+- `"project-version"`: To reference a specific version.
 
 ### Importing
 
@@ -63,9 +64,10 @@ Example:
 ```nix
 nixpkgsPython.makeEnv {
   pkgs = [
-    "attrs"
+    "awscli" # Latest
+    "requests-2.26.0" # Version 2.26.0
   ];
-  pythonVersion = "3.7";
+  pythonVersion = "3.9";
 }
 ```
 
