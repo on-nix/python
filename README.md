@@ -21,9 +21,9 @@ That can be installed with the [Nix][NIX] package manager.
   - :heavy_check_mark: Linux x86-64
   - :construction: MacOS x86-64
 - Performance:
-  - :heavy_check_mark: We **always** pick [Wheels](https://pythonwheels.com/).
+  - :heavy_check_mark: We **always** pick [Wheels][PYTHON_WHEELS].
   - :heavy_check_mark: A highly granular cache
-  - :construction: Available on [Cachix](https://www.cachix.org/)
+  - :heavy_check_mark: Available on [Cachix][CACHIX_NIXPKGS_PYTHON]
 
 ## Using
 
@@ -73,8 +73,8 @@ Example:
 ```nix
 nixpkgsPython.makeEnv {
   pkgs = [
-    "awscli-1.20.31" # Version
-    "requests" # Latest
+    "awscli-1.20.31" # Version 1.20.32 of `awscli`
+    "requests" # Latest version of `requests`
   ];
   pythonVersion = "3.9";
 }
@@ -106,11 +106,17 @@ $ python -c 'import requests; print(requests.__version__)'
 
 ```
 
-# Contributing
+### Using the binary cache
+
+You can configure [nixpkgs-python's binary cache][CACHIX_NIXPKGS_PYTHON]
+to speed up your builds.
 
 ---
 
+[CACHIX]: https://www.cachix.org/
+[CACHIX_NIXPKGS_PYTHON]: https://app.cachix.org/cache/nixpkgs-python
 [NIX]: https://nixos.org/
 [PYPI]: https://pypi.org/
 [PYTHON]: https://www.python.org/
 [PYTHON_RELEASES]: https://www.python.org/downloads/
+[PYTHON_WHEELS]: https://pythonwheels.com/
