@@ -72,7 +72,7 @@ Example:
 
 ```nix
 nixpkgsPython.makeEnv {
-  name = "hello-world"; # Be creative!
+  name = "example"; # Be creative!
   pkgs = [
     "awscli-1.20.31" # Version `1.20.32` of `awscli`
     "requests" # Latest version of `requests`
@@ -83,7 +83,7 @@ nixpkgsPython.makeEnv {
 
 Valid `pythonVersion`s are: `3.6`, `3.7`, `3.8` and `3.9`.
 
-The output is a small setup script that you can `source`.
+The output contains a setup script that you can `source`.
 For instance:
 
 ```bash
@@ -91,7 +91,7 @@ For instance:
 $ nix-build /path/to/my/env.nix
 
 # Source it's output
-$ source ./result
+$ source ./result/setup
 ```
 
 Dependencies are not available in this shell !! :rocket:

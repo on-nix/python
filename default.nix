@@ -304,7 +304,10 @@ let
     in
     makeDerivation {
       builder = ''
-        ln -s $envOut/template $out
+        mkdir $out
+        mkdir $out/nix-support
+        ln -s $envOut/template $out/setup
+        ln -s $envOut/template $out/nix-support/setup-hook
 
         if test -n "$envTest"; then
           source $out
@@ -324,10 +327,15 @@ let
     , pythonVersion
     }:
     makeDerivation {
-      builder = "ln -s $envOut/template $out";
+      builder = ''
+        mkdir $out
+        mkdir $out/nix-support
+        ln -s $envOut/template $out/setup
+        ln -s $envOut/template $out/nix-support/setup-hook
+      '';
       env.envOut = makeSearchPaths {
         source = builtins.map
-          (project: builtProjects.${pythonVersion}.${project})
+          (project: "${builtProjects.${pythonVersion}.${project}}/setup")
           (pkgs);
       };
       name = "python${pythonVersion}-env-for-${name}";
