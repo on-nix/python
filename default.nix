@@ -1,7 +1,10 @@
-{ nixpkgs ? import <nixpkgs> { }
-}:
 let
+  sources = import ./nix/sources.nix;
+  makes = import "${sources.makes}/src/args/agnostic.nix" { };
+  nixpkgs = import sources.nixpkgs { };
+
   inherit (makes) attrsMapToList;
+  inherit (makes) fromJsonFile;
   inherit (makes) mapAttrsToList;
   inherit (makes) makeDerivation;
   inherit (makes) makeSearchPaths;
@@ -69,7 +72,7 @@ let
       );
 
       # Raw inputs
-      closureRaw = makes.fromJsonFile closurePath;
+      closureRaw = fromJsonFile closurePath;
       installersRaw = builtins.foldl'
         (installers: project:
           let
@@ -77,7 +80,7 @@ let
             projectInstallersPath = pkgsSrc + "/${project}/${version}/installers.json";
             projectInstallersRaw = builtins.map
               (enrichInstaller project version)
-              (makes.fromJsonFile projectInstallersPath);
+              (fromJsonFile projectInstallersPath);
             projectInstaller =
               let
                 installer =
@@ -289,28 +292,23 @@ let
         source = bootstraped;
       };
     in
-    out;
+    makeDerivation {
+      builder = "ln -s $envOut/template $out";
+      env.envOut = out;
+      inherit name;
+    };
 
   makeEnv =
     { pkgs
     , pythonVersion
     }:
-    makes.makeSearchPaths {
+    makeSearchPaths {
       source = builtins.map
         (project: builtProjects.${pythonVersion}.${project})
         (pkgs);
     };
 
   ls = dir: builtins.attrNames (builtins.readDir dir);
-
-  makes =
-    let src = nixpkgs.fetchFromGitHub {
-      owner = "fluidattacks";
-      repo = "makes";
-      rev = "767979d2c1fc7fdebaf85ea322ed7487227a639a";
-      sha256 = "07bcn6nc7k4l1iz7ipcm7wknwqiv0ypsxaq6rzlzh1fa0q1iq62q";
-    };
-    in import "${src}/src/args/agnostic.nix" { };
 
   builtProjects = builtins.listToAttrs (builtins.map
     (pythonVersion: {
