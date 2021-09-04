@@ -174,6 +174,7 @@ let
     in
     installer // meta // {
       inherit project;
+      project503 = builtins.replaceStrings [ "-" "_" "." ] [ "-" "-" "-" ] project;
       inherit version;
       path = nixpkgs.fetchurl installer;
     };
@@ -227,7 +228,7 @@ let
 
           (builtins.map
             (installer: {
-              name = "${installer.project}/index.html";
+              name = "${installer.project503}/index.html";
               path = builtins.toFile "${installer.project}-index.haml" ''
                 <!DOCTYPE html><html><body>
                   <a href="./${installer.name}">${installer.name}</a>
@@ -238,7 +239,7 @@ let
 
           (builtins.map
             (installer: {
-              name = "${installer.project}/${installer.name}";
+              name = "${installer.project503}/${installer.name}";
               path = installer.path;
             })
             installers)
