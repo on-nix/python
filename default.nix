@@ -1,6 +1,15 @@
 { nixpkgs ? import <nixpkgs> { }
 }:
 let
+  inherit (nixpkgs.lib.lists) findFirst;
+  inherit (nixpkgs.stdenv) isDarwin;
+  inherit (nixpkgs.stdenv) isi686;
+  inherit (nixpkgs.stdenv) isLinux;
+  inherit (nixpkgs.stdenv) isx86_64;
+  inherit (nixpkgs.lib.lists) optional;
+  inherit (nixpkgs.lib.lists) optionals;
+  inherit (nixpkgs.lib.strings) splitString;
+
   pythonVersions = [ "3.6" "3.7" "3.8" "3.9" ];
 
   pkgsSrc = ./pkgs;
@@ -61,9 +70,27 @@ let
           let
             version = closure.${project};
             projectInstallersPath = pkgsSrc + "/${project}/${version}/installers.json";
-            projectInstallers = makes.fromJsonFile projectInstallersPath;
+            projectInstallersRaw = makes.fromJsonFile projectInstallersPath;
+            projectInstaller =
+              let
+                installer =
+                  if builtins.length projectInstallersRaw == 1
+                  then builtins.head projectInstallersRaw
+                  else
+                    findFirst (installer: installer != null) null (builtins.map
+                      (predicate: findFirst predicate null projectInstallersRaw)
+                      (installersPriority pythonVersion));
+                installerNames = builtins.map (i: i.name) projectInstallersRaw;
+              in
+              if installer == null
+              then
+                abort ''
+                  Unable to guess installer for python${pythonVersion} from:
+                  ${builtins.concatStringsSep "\n- " installerNames}
+                ''
+              else installer;
           in
-          installers ++ projectInstallers)
+          installers ++ [ projectInstaller ])
         [ ]
         (builtins.attrNames closure);
 
@@ -85,6 +112,65 @@ let
     if builtins.pathExists closurePath
     then { "${version}" = venv; }
     else { };
+
+  installersPriority = pythonVersion: [
+    (installer:
+      let
+        abis = [ "none" ]
+          ++ (optionals (pythonVersion == "3.6") [ "abi3" "cp36" "cp36m" ])
+          ++ (optionals (pythonVersion == "3.7") [ "abi3" "cp37" "cp37m" ])
+          ++ (optionals (pythonVersion == "3.8") [ "abi3" "cp38" "cp38m" ])
+          ++ (optionals (pythonVersion == "3.9") [ "abi3" "cp39" "cp39m" ]);
+
+        archs = [ "any" ]
+          ++ (optional (isDarwin) "macosx_10_9_universal2")
+          ++ (optional (isDarwin && isx86_64) "macosx_10_9_x86_64")
+          ++ (optional (isDarwin && isx86_64) "macosx_10_14_x86_64")
+          ++ (optional (isDarwin && isi686) "macosx_10_9_i686")
+          ++ (optional (isDarwin && isi686) "macosx_10_14_i686")
+          ++ (optional (isLinux && isx86_64) "manylinux1_x86_64")
+          ++ (optional (isLinux && isx86_64) "manylinux_2_24_x86_64")
+          ++ (optional (isLinux && isx86_64) "manylinux2010_x86_64")
+          ++ (optional (isLinux && isx86_64) "manylinux2014_x86_64")
+          ++ (optional (isLinux && isi686) "manylinux1_i686")
+          ++ (optional (isLinux && isi686) "manylinux_2_24_i686")
+          ++ (optional (isLinux && isi686) "manylinux2010_i686")
+          ++ (optional (isLinux && isi686) "manylinux2014_i686");
+
+        pys = [ "any" ]
+          ++ (optionals (pythonVersion == "3.6") [ "cp36" "py3" "py36" "3.6" ])
+          ++ (optionals (pythonVersion == "3.7") [ "cp37" "py3" "py37" "3.7" ])
+          ++ (optionals (pythonVersion == "3.8") [ "cp38" "py3" "py38" "3.8" ])
+          ++ (optionals (pythonVersion == "3.9") [ "cp39" "py3" "py39" "3.9" ]);
+
+        matches = required: available:
+          builtins.any (elem: builtins.elem elem available) required;
+
+        src = builtins.match "(.*?)-(.*).(tar.gz|zip)" installer.name;
+        whl = builtins.match "(.*?)-(.*)-(.*?)-(.*?)-(.*?).whl" installer.name;
+        meta =
+          if src != null
+          then {
+            ext = builtins.elemAt src 2;
+            type = "src";
+          }
+          else if whl != null
+          then {
+            abis = splitString "." (builtins.elemAt whl 3);
+            archs = splitString "." (builtins.elemAt whl 4);
+            pys = splitString "." (builtins.elemAt whl 2);
+            type = "whl";
+          }
+          else abort "Unable to parse installer: ${installer.name}";
+      in
+      meta.type == "whl"
+      && matches meta.abis abis
+      && matches meta.archs archs
+      && (
+        (matches meta.abis [ "abi3" ]) ||
+        (matches meta.pys pys)
+      ))
+  ];
 
   makeEnv =
     { pkgs
