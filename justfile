@@ -7,7 +7,7 @@ _:
 test:
   nix-build \
     --attr __all__ \
-    --option cores 0 \
+    --option cores 1 \
     --option sandbox true \
     --option max-jobs auto \
     --show-trace \

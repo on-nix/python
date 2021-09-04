@@ -1,0 +1,12 @@
+[
+  {
+    "name": "httpx-0.19.0-py3-none-any.whl",
+    "sha256": "9bd728a6c5ec0a9e243932a9983d57d3cc4a87bb4f554e1360fce407f78f9435",
+    "url": "https://files.pythonhosted.org/packages/5a/81/df33561b97b951e8e6becf809847a61420288064ae281700b7f9a04fd1e0/httpx-0.19.0-py3-none-any.whl"
+  },
+  {
+    "name": "httpx-0.19.0.tar.gz",
+    "sha256": "92ecd2c00c688b529eda11cedb15161eaf02dee9116712f621c70d9a40b2cdd0",
+    "url": "https://files.pythonhosted.org/packages/5f/38/9a1fa043d8c04e2f3e2639c1adf6b1cf8afa6daf8640cebcdb86067dec17/httpx-0.19.0.tar.gz"
+  }
+]
