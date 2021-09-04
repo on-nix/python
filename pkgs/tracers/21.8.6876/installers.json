@@ -1,0 +1,12 @@
+[
+  {
+    "name": "tracers-21.8.6876-py3-none-any.whl",
+    "sha256": "162102069e463b12dc1991688a58a9def1790ba4029c3a72790ea54f73a14160",
+    "url": "https://files.pythonhosted.org/packages/44/59/632eefa787e2bcb59bb1ea5c1229e8d64e4672ef82e230ddf3afc1701fc3/tracers-21.8.6876-py3-none-any.whl"
+  },
+  {
+    "name": "tracers-21.8.6876.tar.gz",
+    "sha256": "4e63593715b13a9d8c9aa23b1f0d04f4696c6005544b4e40f335f9466f897cab",
+    "url": "https://files.pythonhosted.org/packages/dc/0b/63b60b15ba76dd93d2c286cc34324fbaf354e397bf3110a789eb507f1379/tracers-21.8.6876.tar.gz"
+  }
+]
