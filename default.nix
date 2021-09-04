@@ -1,6 +1,11 @@
 { nixpkgs ? import <nixpkgs> { }
 }:
 let
+  inherit (makes) attrsMapToList;
+  inherit (makes) mapAttrsToList;
+  inherit (makes) makeDerivation;
+  inherit (makes) makeSearchPaths;
+  inherit (makes) toFileLst;
   inherit (nixpkgs.lib.lists) findFirst;
   inherit (nixpkgs.stdenv) isDarwin;
   inherit (nixpkgs.stdenv) isi686;
@@ -99,14 +104,12 @@ let
       installers = setup.patchInstallers installersRaw;
       searchPaths = setup.searchPaths { inherit nixpkgs; };
 
-      venv = makes.makePythonPypiEnvironment {
+      venv = makePythonEnv {
+        inherit closure;
+        inherit installers;
         inherit name;
+        inherit pythonVersion;
         inherit searchPaths;
-        sourcesRaw = {
-          inherit closure;
-          links = installers;
-          python = pythonVersion;
-        };
       };
     in
     if builtins.pathExists closurePath
@@ -171,6 +174,73 @@ let
         (matches meta.pys pys)
       ))
   ];
+
+  makePythonEnv =
+    { closure
+    , installers
+    , name
+    , pythonVersion
+    , searchPaths ? { }
+    }:
+    let
+      python = builtins.getAttr pythonVersion {
+        "3.6" = nixpkgs.python36;
+        "3.7" = nixpkgs.python37;
+        "3.8" = nixpkgs.python38;
+        "3.9" = nixpkgs.python39;
+      };
+
+      bootstraped = builtins.concatLists [
+        [ (makeSearchPaths searchPaths) ]
+      ];
+
+      pypiEnvironment = makeDerivation {
+        builder = ''
+          mirror=file://$PWD/mirror
+          pypi-mirror create -d $envInstallers -m mirror
+          python -m venv "$out"
+          source $out/bin/activate
+          HOME=. python -m pip install \
+            --index-url $mirror \
+            --no-compile \
+            --no-deps \
+            --quiet \
+            --upgrade pip
+          HOME=. python -m pip install \
+            --index-url $mirror \
+            --no-compile \
+            --no-deps \
+            --quiet \
+            --requirement $envClosure
+        '';
+        env = {
+          envClosure = toFileLst "closure.lst"
+            (attrsMapToList (req: version: "${req}==${version}") closure);
+          envInstallers = nixpkgs.linkFarm name (builtins.map
+            (installer: { name = installer.name; path = nixpkgs.fetchurl installer; })
+            (installers ++ [{
+              name = "pip-21.2.4-py3-none-any.whl";
+              sha256 = "fa9ebb85d3fd607617c0c44aca302b1b45d87f9c2a1649b46c26167ca4296323";
+              url = "https://files.pythonhosted.org/packages/ca/31/b88ef447d595963c01060998cb329251648acf4a067721b0452c45527eb8/pip-21.2.4-py3-none-any.whl";
+            }]));
+        };
+        inherit name;
+        searchPaths = {
+          bin = [ makes.__nixpkgs__.pypi-mirror python ];
+          source = bootstraped;
+        };
+      };
+
+      out = makeSearchPaths {
+        bin = [ pypiEnvironment ];
+        pythonPackage36 = optional (pythonVersion == "3.6") pypiEnvironment;
+        pythonPackage37 = optional (pythonVersion == "3.7") pypiEnvironment;
+        pythonPackage38 = optional (pythonVersion == "3.8") pypiEnvironment;
+        pythonPackage39 = optional (pythonVersion == "3.9") pypiEnvironment;
+        source = bootstraped;
+      };
+    in
+    "${out}/template";
 
   makeEnv =
     { pkgs
