@@ -319,7 +319,7 @@ let
     name = out.name;
   };
 
-  __all__ = nixpkgs.linkFarm "nixpkgs-python"
+  __tests__ = nixpkgs.linkFarm "nixpkgs-python"
     (builtins.map
       (pythonVersion: {
         name = pythonVersion;
@@ -330,7 +330,7 @@ let
       })
       pythonVersions);
 in
-builtProjects // {
-  inherit __all__;
+{
+  inherit __tests__;
   inherit makeEnv;
 }
