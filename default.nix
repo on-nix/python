@@ -88,6 +88,7 @@ let
                       (predicate: findFirst predicate null projectInstallersRaw)
                       [
                         (isSupportedWheel pythonVersion)
+                        (isSupportedSrc)
                       ]);
               in
               if installer == null
@@ -185,6 +186,9 @@ let
       (isSupported installer.abis [ "abi3" ]) ||
         (isSupported installer.pys supportedPythonImplementations.${pythonVersion})
     ));
+  isSupportedSrc =
+    (installer: installer.type == "src"
+      && installer.ext == "tar.gz");
 
   makePythonEnv =
     { closure
