@@ -1,0 +1,12 @@
+[
+  {
+    "name": "s3transfer-0.4.2-py2.py3-none-any.whl",
+    "sha256": "9b3752887a2880690ce628bc263d6d13a3864083aeacff4890c1c9839a5eb0bc",
+    "url": "https://files.pythonhosted.org/packages/63/d0/693477c688348654ddc21dcdce0817653a294aa43f41771084c25e7ff9c7/s3transfer-0.4.2-py2.py3-none-any.whl"
+  },
+  {
+    "name": "s3transfer-0.4.2.tar.gz",
+    "sha256": "cb022f4b16551edebbb31a377d3f09600dbada7363d8c5db7976e7f47732e1b2",
+    "url": "https://files.pythonhosted.org/packages/27/90/f467e516a845cf378d85f0a51913c642e31e2570eb64b352c4dc4c6cbfc7/s3transfer-0.4.2.tar.gz"
+  }
+]
