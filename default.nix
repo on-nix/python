@@ -292,21 +292,17 @@ let
         source = bootstraped;
       };
     in
-    makeDerivation {
-      builder = "ln -s $envOut/template $out";
-      env.envOut = out;
-      inherit name;
-    };
+    flattenTemplate out;
 
   makeEnv =
     { pkgs
     , pythonVersion
     }:
-    makeSearchPaths {
+    flattenTemplate (makeSearchPaths {
       source = builtins.map
         (project: builtProjects.${pythonVersion}.${project})
         (pkgs);
-    };
+    });
 
   ls = dir: builtins.attrNames (builtins.readDir dir);
 
@@ -316,6 +312,12 @@ let
       value = buildProjects pythonVersion;
     })
     (pythonVersions));
+
+  flattenTemplate = out: makeDerivation {
+    builder = "ln -s $envOut/template $out";
+    env.envOut = out;
+    name = out.name;
+  };
 
   __all__ = nixpkgs.linkFarm "nixpkgs-python"
     (builtins.map
