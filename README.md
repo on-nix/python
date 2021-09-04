@@ -21,7 +21,7 @@ That can be installed with the [Nix][NIX] package manager.
   - :heavy_check_mark: Linux x86-64
   - :construction: MacOS x86-64
 - Performance:
-  - :heavy_check_mark: We **always** pick [Wheels][PYTHON_WHEELS].
+  - :heavy_check_mark: We **always** pick [Wheels][PYTHON_WHEELS]
   - :heavy_check_mark: A highly granular cache
   - :heavy_check_mark: Available on [Cachix][CACHIX_NIXPKGS_PYTHON]
 
@@ -72,7 +72,7 @@ Example:
 
 ```nix
 nixpkgsPython.makeEnv {
-  name = "example"; # Be creative!
+  name = "example";
   pkgs = [
     "awscli-1.20.31" # Version `1.20.32` of `awscli`
     "requests" # Latest version of `requests`

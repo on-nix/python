@@ -167,7 +167,7 @@ let
 
   enrichInstaller = project: version: installer:
     let
-      src = builtins.match "(.*?)-(.*).(tar.gz|zip)" installer.name;
+      src = builtins.match "(.*?)-(.*).(tar.bz2|tar.gz|zip)" installer.name;
       whl = builtins.match "(.*?)-(.*)-(.*?)-(.*?)-(.*?).whl" installer.name;
       meta =
         if whl != null
@@ -310,7 +310,7 @@ let
         ln -s $envOut/template $out/nix-support/setup-hook
 
         if test -n "$envTest"; then
-          source $out
+          source $out/setup
           python $envTest
         fi
       '';
