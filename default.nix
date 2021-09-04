@@ -40,27 +40,43 @@ let
     let
       name = "python${pythonVersion}-${project}-${version}";
 
-      closurePath =
-        pkgsSrc + "/${project}/${version}/python${pythonVersion}.json";
-      closure = makes.fromJsonFile closurePath;
+      closurePath = pkgsSrc + "/${project}/${version}/python${pythonVersion}.json";
+      setupGlobalPath = pkgsSrc + "/${project}/setup.nix";
+      setupVersionPath = pkgsSrc + "/${project}/${version}/setup.nix";
 
-      links = builtins.foldl'
-        (links: project:
+      setup = (
+        ({
+          patchClosure = closure: closure;
+          patchInstallers = installers: installers;
+        }) //
+        (if builtins.pathExists setupGlobalPath
+        then import setupGlobalPath else { }) //
+        (if builtins.pathExists setupVersionPath
+        then import setupVersionPath else { })
+      );
+
+      # Raw inputs
+      closureRaw = makes.fromJsonFile closurePath;
+      installersRaw = builtins.foldl'
+        (installers: project:
           let
             version = closure.${project};
-            projectLinksPath =
-              pkgsSrc + "/${project}/${version}/installers.json";
-            projectLinks = makes.fromJsonFile projectLinksPath;
+            projectInstallersPath = pkgsSrc + "/${project}/${version}/installers.json";
+            projectInstallers = makes.fromJsonFile projectInstallersPath;
           in
-          links ++ projectLinks)
+          installers ++ projectInstallers)
         [ ]
         (builtins.attrNames closure);
+
+      # Post-processed inputs
+      closure = setup.patchClosure closureRaw;
+      installers = setup.patchInstallers installersRaw;
 
       venv = makes.makePythonPypiEnvironment {
         inherit name;
         sourcesRaw = {
           inherit closure;
-          inherit links;
+          links = installers;
           python = pythonVersion;
         };
       };
@@ -73,7 +89,6 @@ let
   makeEnv =
     { pkgs
     , pythonVersion
-    ,
     }:
     makes.makeSearchPaths {
       source = builtins.map

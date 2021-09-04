@@ -10,4 +10,5 @@ test:
     --option cores 0 \
     --option sandbox true \
     --option max-jobs auto \
+    --show-trace \
     default.nix
