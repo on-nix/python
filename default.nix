@@ -75,7 +75,9 @@ let
           let
             version = closure.${project};
             projectInstallersPath = pkgsSrc + "/${project}/${version}/installers.json";
-            projectInstallersRaw = makes.fromJsonFile projectInstallersPath;
+            projectInstallersRaw = builtins.map
+              (installer: installer // (parseInstaller installer))
+              (makes.fromJsonFile projectInstallersPath);
             projectInstaller =
               let
                 installer =
@@ -84,14 +86,16 @@ let
                   else
                     findFirst (installer: installer != null) null (builtins.map
                       (predicate: findFirst predicate null projectInstallersRaw)
-                      (installersPriority pythonVersion));
-                installerNames = builtins.map (i: i.name) projectInstallersRaw;
+                      [
+                        (isSupportedWheel pythonVersion)
+                      ]);
               in
               if installer == null
               then
                 abort ''
                   Unable to guess installer for python${pythonVersion} from:
-                  ${builtins.concatStringsSep "\n- " installerNames}
+                  ${builtins.concatStringsSep "\n- "
+                    (builtins.map (i: i.name) projectInstallersRaw)}
                 ''
               else installer;
           in
@@ -116,64 +120,65 @@ let
     then { "${version}" = venv; }
     else { };
 
-  installersPriority = pythonVersion: [
-    (installer:
-      let
-        abis = [ "none" ]
-          ++ (optionals (pythonVersion == "3.6") [ "abi3" "cp36" "cp36m" ])
-          ++ (optionals (pythonVersion == "3.7") [ "abi3" "cp37" "cp37m" ])
-          ++ (optionals (pythonVersion == "3.8") [ "abi3" "cp38" "cp38m" ])
-          ++ (optionals (pythonVersion == "3.9") [ "abi3" "cp39" "cp39m" ]);
+  supportedArchs = [ "any" ]
+    ++ (optional (isDarwin) "macosx_10_9_universal2")
+    ++ (optional (isDarwin && isx86_64) "macosx_10_9_x86_64")
+    ++ (optional (isDarwin && isx86_64) "macosx_10_14_x86_64")
+    ++ (optional (isDarwin && isi686) "macosx_10_9_i686")
+    ++ (optional (isDarwin && isi686) "macosx_10_14_i686")
+    ++ (optional (isLinux && isx86_64) "manylinux1_x86_64")
+    ++ (optional (isLinux && isx86_64) "manylinux_2_24_x86_64")
+    ++ (optional (isLinux && isx86_64) "manylinux2010_x86_64")
+    ++ (optional (isLinux && isx86_64) "manylinux2014_x86_64")
+    ++ (optional (isLinux && isi686) "manylinux1_i686")
+    ++ (optional (isLinux && isi686) "manylinux_2_24_i686")
+    ++ (optional (isLinux && isi686) "manylinux2010_i686")
+    ++ (optional (isLinux && isi686) "manylinux2014_i686");
 
-        archs = [ "any" ]
-          ++ (optional (isDarwin) "macosx_10_9_universal2")
-          ++ (optional (isDarwin && isx86_64) "macosx_10_9_x86_64")
-          ++ (optional (isDarwin && isx86_64) "macosx_10_14_x86_64")
-          ++ (optional (isDarwin && isi686) "macosx_10_9_i686")
-          ++ (optional (isDarwin && isi686) "macosx_10_14_i686")
-          ++ (optional (isLinux && isx86_64) "manylinux1_x86_64")
-          ++ (optional (isLinux && isx86_64) "manylinux_2_24_x86_64")
-          ++ (optional (isLinux && isx86_64) "manylinux2010_x86_64")
-          ++ (optional (isLinux && isx86_64) "manylinux2014_x86_64")
-          ++ (optional (isLinux && isi686) "manylinux1_i686")
-          ++ (optional (isLinux && isi686) "manylinux_2_24_i686")
-          ++ (optional (isLinux && isi686) "manylinux2010_i686")
-          ++ (optional (isLinux && isi686) "manylinux2014_i686");
+  supportedAbis = {
+    "3.6" = [ "none" "abi3" "cp36" "cp36m" ];
+    "3.7" = [ "none" "abi3" "cp37" "cp37m" ];
+    "3.8" = [ "none" "abi3" "cp38" "cp38m" ];
+    "3.9" = [ "none" "abi3" "cp39" "cp39m" ];
+  };
 
-        pys = [ "any" ]
-          ++ (optionals (pythonVersion == "3.6") [ "cp36" "py3" "py36" "3.6" ])
-          ++ (optionals (pythonVersion == "3.7") [ "cp37" "py3" "py37" "3.7" ])
-          ++ (optionals (pythonVersion == "3.8") [ "cp38" "py3" "py38" "3.8" ])
-          ++ (optionals (pythonVersion == "3.9") [ "cp39" "py3" "py39" "3.9" ]);
+  supportedPythonImplementations = {
+    "3.6" = [ "any" "cp36" "py3" "py36" "3.6" ];
+    "3.7" = [ "any" "cp37" "py3" "py37" "3.7" ];
+    "3.8" = [ "any" "cp38" "py3" "py38" "3.8" ];
+    "3.9" = [ "any" "cp39" "py3" "py39" "3.9" ];
+  };
 
-        matches = required: available:
-          builtins.any (elem: builtins.elem elem available) required;
+  isSupported = required: supported:
+    builtins.any (elem: builtins.elem elem supported) required;
 
-        src = builtins.match "(.*?)-(.*).(tar.gz|zip)" installer.name;
-        whl = builtins.match "(.*?)-(.*)-(.*?)-(.*?)-(.*?).whl" installer.name;
-        meta =
-          if src != null
-          then {
-            ext = builtins.elemAt src 2;
-            type = "src";
-          }
-          else if whl != null
-          then {
-            abis = splitString "." (builtins.elemAt whl 3);
-            archs = splitString "." (builtins.elemAt whl 4);
-            pys = splitString "." (builtins.elemAt whl 2);
-            type = "whl";
-          }
-          else abort "Unable to parse installer: ${installer.name}";
-      in
-      meta.type == "whl"
-      && matches meta.abis abis
-      && matches meta.archs archs
+  parseInstaller = installer:
+    let
+      src = builtins.match "(.*?)-(.*).(tar.gz|zip)" installer.name;
+      whl = builtins.match "(.*?)-(.*)-(.*?)-(.*?)-(.*?).whl" installer.name;
+    in
+    if whl != null
+    then {
+      abis = splitString "." (builtins.elemAt whl 3);
+      archs = splitString "." (builtins.elemAt whl 4);
+      pys = splitString "." (builtins.elemAt whl 2);
+      type = "whl";
+    }
+    else if src != null
+    then {
+      ext = builtins.elemAt src 2;
+      type = "src";
+    }
+    else abort "Unable to parse installer: ${installer.name}";
+
+  isSupportedWheel = pythonVersion:
+    (installer: installer.type == "whl"
+      && isSupported installer.abis supportedAbis.${pythonVersion}
+      && isSupported installer.archs supportedArchs
       && (
-        (matches meta.abis [ "abi3" ]) ||
-        (matches meta.pys pys)
-      ))
-  ];
+      (isSupported installer.abis [ "abi3" ]) ||
+        (isSupported installer.pys supportedPythonImplementations.${pythonVersion})
+    ));
 
   makePythonEnv =
     { closure
@@ -194,35 +199,47 @@ let
         [ (makeSearchPaths searchPaths) ]
       ];
 
-      pypiEnvironment = makeDerivation {
+      # mirror =
+      #   let
+      #     makeProjectIndex = installer: builtins.toFile "${installer.name}-index.html" ''
+      #       <
+      #     '';
+      #     nixpkgs.linkFarm "mirror-for-${name}" [
+      #     {
+      #     name = "index.html";
+      #     path = builtins.toFile "index.html" "";
+      #     }
+      #     ];
+
+      venv = makeDerivation {
         builder = ''
           mirror=file://$PWD/mirror
-          pypi-mirror create -d $envInstallers -m mirror
+          # pypi-mirror create -d $envInstallers -m mirror
           python -m venv "$out"
-          source $out/bin/activate
-          HOME=. python -m pip install \
-            --index-url $mirror \
-            --no-compile \
-            --no-deps \
-            --quiet \
-            --upgrade pip
-          HOME=. python -m pip install \
-            --index-url $mirror \
-            --no-compile \
-            --no-deps \
-            --quiet \
-            --requirement $envClosure
+          # source $out/bin/activate
+          # HOME=. python -m pip install \
+          #   --index-url $mirror \
+          #   --no-compile \
+          #   --no-deps \
+          #   --quiet \
+          #   --upgrade pip
+          # HOME=. python -m pip install \
+          #   --index-url $mirror \
+          #   --no-compile \
+          #   --no-deps \
+          #   --quiet \
+          #   --requirement $envClosure
         '';
         env = {
-          envClosure = toFileLst "closure.lst"
-            (attrsMapToList (req: version: "${req}==${version}") closure);
-          envInstallers = nixpkgs.linkFarm name (builtins.map
-            (installer: { name = installer.name; path = nixpkgs.fetchurl installer; })
-            (installers ++ [{
-              name = "pip-21.2.4-py3-none-any.whl";
-              sha256 = "fa9ebb85d3fd607617c0c44aca302b1b45d87f9c2a1649b46c26167ca4296323";
-              url = "https://files.pythonhosted.org/packages/ca/31/b88ef447d595963c01060998cb329251648acf4a067721b0452c45527eb8/pip-21.2.4-py3-none-any.whl";
-            }]));
+          # envClosure = toFileLst "closure.lst"
+          #   (attrsMapToList (req: version: "${req}==${version}") closure);
+          # envInstallers = nixpkgs.linkFarm name (builtins.map
+          #   (installer: { name = installer.name; path = nixpkgs.fetchurl installer; })
+          #   (installers ++ [{
+          #     name = "pip-21.2.4-py3-none-any.whl";
+          #     sha256 = "fa9ebb85d3fd607617c0c44aca302b1b45d87f9c2a1649b46c26167ca4296323";
+          #     url = "https://files.pythonhosted.org/packages/ca/31/b88ef447d595963c01060998cb329251648acf4a067721b0452c45527eb8/pip-21.2.4-py3-none-any.whl";
+          #   }]));
         };
         inherit name;
         searchPaths = {
@@ -231,16 +248,17 @@ let
         };
       };
 
-      out = makeSearchPaths {
-        bin = [ pypiEnvironment ];
-        pythonPackage36 = optional (pythonVersion == "3.6") pypiEnvironment;
-        pythonPackage37 = optional (pythonVersion == "3.7") pypiEnvironment;
-        pythonPackage38 = optional (pythonVersion == "3.8") pypiEnvironment;
-        pythonPackage39 = optional (pythonVersion == "3.9") pypiEnvironment;
-        source = bootstraped;
-      };
+      # out = makeSearchPaths {
+      #   bin = [ venv ];
+      #   pythonPackage36 = optional (pythonVersion == "3.6") venv;
+      #   pythonPackage37 = optional (pythonVersion == "3.7") venv;
+      #   pythonPackage38 = optional (pythonVersion == "3.8") venv;
+      #   pythonPackage39 = optional (pythonVersion == "3.9") venv;
+      #   source = bootstraped;
+      # };
     in
-    "${out}/template";
+    # "${out}/template";
+    venv;
 
   makeEnv =
     { pkgs
