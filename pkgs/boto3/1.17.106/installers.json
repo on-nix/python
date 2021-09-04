@@ -1,0 +1,12 @@
+[
+  {
+    "name": "boto3-1.17.106-py2.py3-none-any.whl",
+    "sha256": "231b2023f4fe12af679afa7d893534ce2703db2318a8fa51fc7876890760f352",
+    "url": "https://files.pythonhosted.org/packages/d2/20/e579b5d7b72162461236133b837eae51d4fab290f3286e020b3be544447f/boto3-1.17.106-py2.py3-none-any.whl"
+  },
+  {
+    "name": "boto3-1.17.106.tar.gz",
+    "sha256": "c0740378b913ca53f5fc0dba91e99a752c5a30ae7b58a0c5e54e3e2a68df26c5",
+    "url": "https://files.pythonhosted.org/packages/4d/67/f27c22aad4221ac647a239f2f56fa7d86d8a09b21ad80744784fe371d1cf/boto3-1.17.106.tar.gz"
+  }
+]
