@@ -72,8 +72,9 @@ Example:
 
 ```nix
 nixpkgsPython.makeEnv {
+  name = "hello-world"; # Be creative!
   pkgs = [
-    "awscli-1.20.31" # Version 1.20.32 of `awscli`
+    "awscli-1.20.31" # Version `1.20.32` of `awscli`
     "requests" # Latest version of `requests`
   ];
   pythonVersion = "3.9";

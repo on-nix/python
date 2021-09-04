@@ -58,6 +58,8 @@ let
       closurePath = pkgsSrc + "/${project}/${version}/python${pythonVersion}.json";
       setupGlobalPath = pkgsSrc + "/${project}/setup.nix";
       setupVersionPath = pkgsSrc + "/${project}/${version}/setup.nix";
+      testGlobalPath = pkgsSrc + "/${project}/test.py";
+      testVersionPath = pkgsSrc + "/${project}/${version}/test.py";
 
       setup = (
         ({
@@ -70,6 +72,12 @@ let
         (if builtins.pathExists setupVersionPath
         then import setupVersionPath else { })
       );
+      test =
+        if builtins.pathExists testVersionPath
+        then testVersionPath
+        else if builtins.pathExists testGlobalPath
+        then testGlobalPath
+        else null;
 
       # Raw inputs
       closureRaw = fromJsonFile closurePath;
@@ -118,6 +126,7 @@ let
         inherit name;
         inherit pythonVersion;
         inherit searchPaths;
+        inherit test;
       };
     in
     if builtins.pathExists closurePath
@@ -200,6 +209,7 @@ let
     , name
     , pythonVersion
     , searchPaths ? { }
+    , test
     }:
     let
       python = builtins.getAttr pythonVersion {
@@ -292,17 +302,36 @@ let
         source = bootstraped;
       };
     in
-    flattenTemplate out;
+    makeDerivation {
+      builder = ''
+        ln -s $envOut/template $out
+
+        if test -n "$envTest"; then
+          source $out
+          python $envTest
+        fi
+      '';
+      env = {
+        envOut = out;
+        envTest = test;
+      };
+      inherit name;
+    };
 
   makeEnv =
-    { pkgs
+    { name
+    , pkgs
     , pythonVersion
     }:
-    flattenTemplate (makeSearchPaths {
-      source = builtins.map
-        (project: builtProjects.${pythonVersion}.${project})
-        (pkgs);
-    });
+    makeDerivation {
+      builder = "ln -s $envOut/template $out";
+      env.envOut = makeSearchPaths {
+        source = builtins.map
+          (project: builtProjects.${pythonVersion}.${project})
+          (pkgs);
+      };
+      name = "python${pythonVersion}-env-for-${name}";
+    };
 
   ls = dir: builtins.attrNames (builtins.readDir dir);
 
@@ -313,17 +342,12 @@ let
     })
     (pythonVersions));
 
-  flattenTemplate = out: makeDerivation {
-    builder = "ln -s $envOut/template $out";
-    env.envOut = out;
-    name = out.name;
-  };
-
   __tests__ = nixpkgs.linkFarm "nixpkgs-python"
     (builtins.map
       (pythonVersion: {
         name = pythonVersion;
         path = makeEnv {
+          name = pythonVersion;
           pkgs = builtins.attrNames builtProjects.${pythonVersion};
           inherit pythonVersion;
         };
@@ -333,4 +357,8 @@ in
 {
   inherit __tests__;
   inherit makeEnv;
+  python36 = builtProjects."3.6";
+  python37 = builtProjects."3.7";
+  python38 = builtProjects."3.8";
+  python39 = builtProjects."3.9";
 }
