@@ -76,7 +76,7 @@ let
             version = closure.${project};
             projectInstallersPath = pkgsSrc + "/${project}/${version}/installers.json";
             projectInstallersRaw = builtins.map
-              (installer: installer // (parseInstaller installer))
+              (enrichInstaller project version)
               (makes.fromJsonFile projectInstallersPath);
             projectInstaller =
               let
@@ -152,24 +152,30 @@ let
   isSupported = required: supported:
     builtins.any (elem: builtins.elem elem supported) required;
 
-  parseInstaller = installer:
+  enrichInstaller = project: version: installer:
     let
       src = builtins.match "(.*?)-(.*).(tar.gz|zip)" installer.name;
       whl = builtins.match "(.*?)-(.*)-(.*?)-(.*?)-(.*?).whl" installer.name;
+      meta =
+        if whl != null
+        then {
+          abis = splitString "." (builtins.elemAt whl 3);
+          archs = splitString "." (builtins.elemAt whl 4);
+          pys = splitString "." (builtins.elemAt whl 2);
+          type = "whl";
+        }
+        else if src != null
+        then {
+          ext = builtins.elemAt src 2;
+          type = "src";
+        }
+        else abort "Unable to parse installer: ${installer.name}";
     in
-    if whl != null
-    then {
-      abis = splitString "." (builtins.elemAt whl 3);
-      archs = splitString "." (builtins.elemAt whl 4);
-      pys = splitString "." (builtins.elemAt whl 2);
-      type = "whl";
-    }
-    else if src != null
-    then {
-      ext = builtins.elemAt src 2;
-      type = "src";
-    }
-    else abort "Unable to parse installer: ${installer.name}";
+    installer // meta // {
+      inherit project;
+      inherit version;
+      path = nixpkgs.fetchurl installer;
+    };
 
   isSupportedWheel = pythonVersion:
     (installer: installer.type == "whl"
@@ -199,66 +205,86 @@ let
         [ (makeSearchPaths searchPaths) ]
       ];
 
-      # mirror =
-      #   let
-      #     makeProjectIndex = installer: builtins.toFile "${installer.name}-index.html" ''
-      #       <
-      #     '';
-      #     nixpkgs.linkFarm "mirror-for-${name}" [
-      #     {
-      #     name = "index.html";
-      #     path = builtins.toFile "index.html" "";
-      #     }
-      #     ];
+      mirror = installers:
+        let
+          projects = builtins.map
+            (installer: "<a href=/${installer.project}/>${installer.project}</a>")
+            (installers);
+        in
+        nixpkgs.linkFarm "mirror-for-${name}" (builtins.concatLists [
+          [{
+            name = "index.html";
+            path = builtins.toFile "index.html" ''
+              <!DOCTYPE html><html><body>
+                ${builtins.concatStringsSep "" projects}
+              </body></html>
+            '';
+          }]
+
+          (builtins.map
+            (installer: {
+              name = "${installer.project}/index.html";
+              path = builtins.toFile "${installer.project}-index.haml" ''
+                <!DOCTYPE html><html><body>
+                  <a href="./${installer.name}">${installer.name}</a>
+                </body></html>
+              '';
+            })
+            (installers))
+
+          (builtins.map
+            (installer: {
+              name = "${installer.project}/${installer.name}";
+              path = installer.path;
+            })
+            installers)
+        ]);
 
       venv = makeDerivation {
         builder = ''
-          mirror=file://$PWD/mirror
-          # pypi-mirror create -d $envInstallers -m mirror
           python -m venv "$out"
-          # source $out/bin/activate
-          # HOME=. python -m pip install \
-          #   --index-url $mirror \
-          #   --no-compile \
-          #   --no-deps \
-          #   --quiet \
-          #   --upgrade pip
-          # HOME=. python -m pip install \
-          #   --index-url $mirror \
-          #   --no-compile \
-          #   --no-deps \
-          #   --quiet \
-          #   --requirement $envClosure
+          source $out/bin/activate
+          HOME=. python -m pip install \
+            --index-url file://$envMirror \
+            --no-compile \
+            --no-deps \
+            --quiet \
+            --upgrade pip
+          HOME=. python -m pip install \
+            --index-url file://$envMirror \
+            --no-compile \
+            --no-deps \
+            --quiet \
+            --requirement $envClosure
         '';
         env = {
-          # envClosure = toFileLst "closure.lst"
-          #   (attrsMapToList (req: version: "${req}==${version}") closure);
-          # envInstallers = nixpkgs.linkFarm name (builtins.map
-          #   (installer: { name = installer.name; path = nixpkgs.fetchurl installer; })
-          #   (installers ++ [{
-          #     name = "pip-21.2.4-py3-none-any.whl";
-          #     sha256 = "fa9ebb85d3fd607617c0c44aca302b1b45d87f9c2a1649b46c26167ca4296323";
-          #     url = "https://files.pythonhosted.org/packages/ca/31/b88ef447d595963c01060998cb329251648acf4a067721b0452c45527eb8/pip-21.2.4-py3-none-any.whl";
-          #   }]));
+          envClosure = toFileLst "closure.lst"
+            (attrsMapToList (req: version: "${req}==${version}") closure);
+          envMirror = mirror (installers ++ [
+            (enrichInstaller "pip" "21.2.4" {
+              name = "pip-21.2.4-py3-none-any.whl";
+              sha256 = "fa9ebb85d3fd607617c0c44aca302b1b45d87f9c2a1649b46c26167ca4296323";
+              url = "https://files.pythonhosted.org/packages/ca/31/b88ef447d595963c01060998cb329251648acf4a067721b0452c45527eb8/pip-21.2.4-py3-none-any.whl";
+            })
+          ]);
         };
         inherit name;
         searchPaths = {
-          bin = [ makes.__nixpkgs__.pypi-mirror python ];
+          bin = [ python ];
           source = bootstraped;
         };
       };
 
-      # out = makeSearchPaths {
-      #   bin = [ venv ];
-      #   pythonPackage36 = optional (pythonVersion == "3.6") venv;
-      #   pythonPackage37 = optional (pythonVersion == "3.7") venv;
-      #   pythonPackage38 = optional (pythonVersion == "3.8") venv;
-      #   pythonPackage39 = optional (pythonVersion == "3.9") venv;
-      #   source = bootstraped;
-      # };
+      out = makeSearchPaths {
+        bin = [ venv ];
+        pythonPackage36 = optional (pythonVersion == "3.6") venv;
+        pythonPackage37 = optional (pythonVersion == "3.7") venv;
+        pythonPackage38 = optional (pythonVersion == "3.8") venv;
+        pythonPackage39 = optional (pythonVersion == "3.9") venv;
+        source = bootstraped;
+      };
     in
-    # "${out}/template";
-    venv;
+    out;
 
   makeEnv =
     { pkgs
