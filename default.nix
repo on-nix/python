@@ -323,7 +323,7 @@ let
 
   makeEnv =
     { name
-    , pkgs
+    , projects
     , pythonVersion
     }:
     makeDerivation {
@@ -336,7 +336,7 @@ let
       env.envOut = makeSearchPaths {
         source = builtins.map
           (project: "${builtProjects.${pythonVersion}.${project}}/setup")
-          (pkgs);
+          (projects);
       };
       name = "python${pythonVersion}-env-for-${name}";
     };
@@ -356,7 +356,7 @@ let
         name = pythonVersion;
         path = makeEnv {
           name = pythonVersion;
-          pkgs = builtins.attrNames builtProjects.${pythonVersion};
+          projects = builtins.attrNames builtProjects.${pythonVersion};
           inherit pythonVersion;
         };
       })
