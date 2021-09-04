@@ -1,15 +1,15 @@
 { nixpkgs ? import <nixpkgs> { }
 }:
 let
-  pkgsSrc = ./pkgs;
+  pythonVersions = [ "3.6" "3.7" "3.8" "3.9" ];
 
+  pkgsSrc = ./pkgs;
 
   buildProjects = pythonVersion:
     builtins.foldl'
       (projects: project: projects // (buildProject pythonVersion project))
       { }
       (ls pkgsSrc);
-
 
   buildProject = pythonVersion: project:
     let
@@ -27,14 +27,12 @@ let
         (versions)) //
       { "${project}" = versions.${latest}; });
 
-
   buildProjectVersions = pythonVersion: project:
     builtins.foldl'
       (versions: version:
         versions // (buildProjectVersion pythonVersion project version))
       { }
       (ls (pkgsSrc + "/${project}"));
-
 
   buildProjectVersion = pythonVersion: project: version:
     let
@@ -88,7 +86,6 @@ let
     then { "${version}" = venv; }
     else { };
 
-
   makeEnv =
     { pkgs
     , pythonVersion
@@ -99,30 +96,8 @@ let
         (pkgs);
     };
 
-  builtProjects = {
-    "3.6" = buildProjects "3.6";
-    "3.7" = buildProjects "3.7";
-    "3.8" = buildProjects "3.8";
-    "3.9" = buildProjects "3.9";
-  };
-
-  __all__ =
-    let
-      makeEnvFor = pythonVersion:
-        makeEnv {
-          pkgs = builtins.attrNames builtProjects.${pythonVersion};
-          inherit pythonVersion;
-        };
-    in
-    nixpkgs.linkFarm "nixpkgs-python"
-      (builtins.map
-        (pythonVersion: {
-          name = pythonVersion;
-          path = makeEnvFor pythonVersion;
-        })
-        [ "3.6" "3.7" "3.8" "3.9" ]);
-
   ls = dir: builtins.attrNames (builtins.readDir dir);
+
   makes =
     let src = nixpkgs.fetchFromGitHub {
       owner = "fluidattacks";
@@ -131,12 +106,26 @@ let
       sha256 = "07bcn6nc7k4l1iz7ipcm7wknwqiv0ypsxaq6rzlzh1fa0q1iq62q";
     };
     in import "${src}/src/args/agnostic.nix" { };
+
+  builtProjects = builtins.listToAttrs (builtins.map
+    (pythonVersion: {
+      name = pythonVersion;
+      value = buildProjects pythonVersion;
+    })
+    (pythonVersions));
+
+  __all__ = nixpkgs.linkFarm "nixpkgs-python"
+    (builtins.map
+      (pythonVersion: {
+        name = pythonVersion;
+        path = makeEnv {
+          pkgs = builtins.attrNames builtProjects.${pythonVersion};
+          inherit pythonVersion;
+        };
+      })
+      pythonVersions);
 in
-{
+builtProjects // {
   inherit __all__;
   inherit makeEnv;
-  python36Packages = builtProjects."3.6";
-  python37Packages = builtProjects."3.7";
-  python38Packages = builtProjects."3.8";
-  python39Packages = builtProjects."3.9";
 }
