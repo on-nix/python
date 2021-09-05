@@ -1,1 +1,1 @@
-import gitpython
+import git
