@@ -5,6 +5,7 @@ _:
   @just --list
 
 build ATTR:
+  cachix use nixpkgs-python
   nix-build \
     --attr '{{ATTR}}' \
     --option cores 1 \
