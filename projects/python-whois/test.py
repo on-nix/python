@@ -1,1 +1,1 @@
-import python_whois
+import whois

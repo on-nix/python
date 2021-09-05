@@ -1,1 +1,1 @@
-import python_hcl2
+import hcl2

@@ -1,1 +1,1 @@
-import python_magic
+import magic

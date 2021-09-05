@@ -1,1 +1,1 @@
-import redis_py_cluster
+import rediscluster

@@ -1,1 +1,1 @@
-import python_jose
+import jose
