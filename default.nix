@@ -56,6 +56,7 @@ let
       name = "python${pythonVersion}-${project}-${version}";
 
       closurePath = projectsSrc + "/${project}/${version}/python${pythonVersion}.json";
+      installersPath = projectsSrc + "/${project}/${version}/installers.json";
       setupGlobalPath = projectsSrc + "/${project}/setup.nix";
       setupVersionPath = projectsSrc + "/${project}/${version}/setup.nix";
       testGlobalPath = projectsSrc + "/${project}/test.py";
@@ -63,9 +64,7 @@ let
 
       setup = (
         ({
-          bootstrapped = [ ];
           patchClosure = closure: closure;
-          patchInstallers = installers: installers;
           searchPaths = _: { };
         }) //
         (if builtins.pathExists setupGlobalPath
@@ -80,55 +79,43 @@ let
         then testGlobalPath
         else null;
 
-      # Raw inputs
-      closureRaw = fromJsonFile closurePath;
-      installersRaw = builtins.foldl'
-        (installers: project:
-          let
-            version = closure.${project};
-            projectInstallersPath = projectsSrc + "/${project}/${version}/installers.json";
-            projectInstallersRaw = builtins.map
-              (enrichInstaller project version)
-              (fromJsonFile projectInstallersPath);
-            projectInstaller =
-              let
-                installer =
-                  if builtins.length projectInstallersRaw == 1
-                  then builtins.head projectInstallersRaw
-                  else
-                    findFirst (installer: installer != null) null (builtins.map
-                      (predicate: findFirst predicate null projectInstallersRaw)
-                      [
-                        (isSupportedWheel pythonVersion)
-                        (isSupportedSrc)
-                      ]);
-              in
-              if installer == null
-              then
-                abort ''
-                  Unable to guess installer for python${pythonVersion} from:
-                  ${builtins.concatStringsSep "\n- "
-                    (builtins.map (i: i.name) projectInstallersRaw)}
-                ''
-              else installer;
-          in
-          installers ++ [ projectInstaller ])
-        [ ]
-        (builtins.attrNames closure);
+      closure = builtins.removeAttrs (fromJsonFile closurePath) [ project ];
+      installers = builtins.map
+        (enrichInstaller project version)
+        (fromJsonFile installersPath);
+      installer =
+        let
+          installer =
+            findFirst (installer: installer != null) null (builtins.map
+              (predicate: findFirst predicate null installers)
+              [
+                (isSupportedWheel pythonVersion)
+                (isSupportedSrc)
+              ]);
+        in
+        if installer == null
+        then
+          abort ''
+            Python${pythonVersion} installer not found:
+            ${builtins.concatStringsSep "\n"
+              (builtins.map (i: i.name) installers)}
+          ''
+        else installer;
 
-      # Post-processed inputs
-      bootstrapped = setup.bootstrapped;
-      closure = setup.patchClosure closureRaw;
-      installers = setup.patchInstallers installersRaw;
-      searchPaths = setup.searchPaths { inherit nixpkgs; };
+      propagated = builtins.concatLists [
+        [ (makeSearchPaths (setup.searchPaths { inherit nixpkgs; })) ]
+
+        (builtins.attrValues (builtins.mapAttrs
+          (project: version:
+            "${builtProjects.${pythonVersion}."${project}-${version}"}/setup")
+          (setup.patchClosure closure)))
+      ];
 
       venv = makePythonEnv {
-        inherit bootstrapped;
-        inherit closure;
-        inherit installers;
+        inherit installer;
         inherit name;
+        inherit propagated;
         inherit pythonVersion;
-        inherit searchPaths;
         inherit test;
       };
     in
@@ -157,7 +144,6 @@ let
     "3.8" = [ "none" "abi3" "cp38" "cp38m" ];
     "3.9" = [ "none" "abi3" "cp39" "cp39m" ];
   };
-
   supportedPythonImplementations = {
     "3.6" = [ "any" "cp36" "py3" "py36" "3.6" ];
     "3.7" = [ "any" "cp37" "py3" "py37" "3.7" ];
@@ -167,6 +153,17 @@ let
 
   isSupported = required: supported:
     builtins.any (elem: builtins.elem elem supported) required;
+  isSupportedWheel = pythonVersion:
+    (installer: installer.type == "whl"
+      && isSupported installer.abis supportedAbis.${pythonVersion}
+      && isSupported installer.archs supportedArchs
+      && (
+      (isSupported installer.abis [ "abi3" ]) ||
+        (isSupported installer.pys supportedPythonImplementations.${pythonVersion})
+    ));
+  isSupportedSrc =
+    (installer: installer.type == "src"
+      && installer.ext == "tar.gz");
 
   enrichInstaller = project: version: installer:
     let
@@ -194,25 +191,11 @@ let
       path = nixpkgs.fetchurl installer;
     };
 
-  isSupportedWheel = pythonVersion:
-    (installer: installer.type == "whl"
-      && isSupported installer.abis supportedAbis.${pythonVersion}
-      && isSupported installer.archs supportedArchs
-      && (
-      (isSupported installer.abis [ "abi3" ]) ||
-        (isSupported installer.pys supportedPythonImplementations.${pythonVersion})
-    ));
-  isSupportedSrc =
-    (installer: installer.type == "src"
-      && installer.ext == "tar.gz");
-
   makePythonEnv =
-    { bootstrapped
-    , closure
-    , installers
+    { installer
     , name
+    , propagated
     , pythonVersion
-    , searchPaths ? { }
     , test
     }:
     let
@@ -223,75 +206,54 @@ let
         "3.9" = nixpkgs.python39;
       };
 
-      propagated = builtins.concatLists [
-        (builtins.map
-          (project: "${builtProjects.${pythonVersion}.${project}}/setup")
-          (bootstrapped))
-        [ (makeSearchPaths searchPaths) ]
+      mirror = installer: nixpkgs.linkFarm "mirror-for-${installer.name}" [
+        {
+          name = "index.html";
+          path = builtins.toFile "index.html" ''
+            <html><body>
+              <a href=/${installer.project}/>${installer.project}</a>
+            </body></html>
+          '';
+        }
+        {
+          name = "${installer.project503}/${installer.name}";
+          path = installer.path;
+        }
+        {
+          name = "${installer.project503}/index.html";
+          path = builtins.toFile "${installer.project}-index.html" ''
+            <html><body>
+              <a href="./${installer.name}">${installer.name}</a>
+            </body></html>
+          '';
+        }
       ];
-
-      mirror = installers:
-        let
-          projects = builtins.map
-            (installer: "<a href=/${installer.project}/>${installer.project}</a>")
-            (installers);
-        in
-        nixpkgs.linkFarm "mirror-for-${name}" (builtins.concatLists [
-          [{
-            name = "index.html";
-            path = builtins.toFile "index.html" ''
-              <!DOCTYPE html><html><body>
-                ${builtins.concatStringsSep "" projects}
-              </body></html>
-            '';
-          }]
-
-          (builtins.map
-            (installer: {
-              name = "${installer.project503}/index.html";
-              path = builtins.toFile "${installer.project}-index.haml" ''
-                <!DOCTYPE html><html><body>
-                  <a href="./${installer.name}">${installer.name}</a>
-                </body></html>
-              '';
-            })
-            (installers))
-
-          (builtins.map
-            (installer: {
-              name = "${installer.project503}/${installer.name}";
-              path = installer.path;
-            })
-            installers)
-        ]);
 
       venv = makeDerivation {
         builder = ''
-          python -m venv "$out"
+          python -m venv $out
           source $out/bin/activate
           HOME=. python -m pip install \
-            --index-url file://$envMirror \
+            --index-url file://$envMirrorPip \
             --no-compile \
             --no-deps \
             --quiet \
             --upgrade pip
           HOME=. python -m pip install \
-            --index-url file://$envMirror \
+            --disable-pip-version-check \
+            --index-url file://$envMirrorInstaller \
             --no-compile \
             --no-deps \
             --quiet \
-            --requirement $envClosure
+            ${installer.project}==${installer.version}
         '';
         env = {
-          envClosure = toFileLst "closure.lst"
-            (attrsMapToList (req: version: "${req}==${version}") closure);
-          envMirror = mirror (installers ++ [
-            (enrichInstaller "pip" "21.2.4" {
-              name = "pip-21.2.4-py3-none-any.whl";
-              sha256 = "fa9ebb85d3fd607617c0c44aca302b1b45d87f9c2a1649b46c26167ca4296323";
-              url = "https://files.pythonhosted.org/packages/ca/31/b88ef447d595963c01060998cb329251648acf4a067721b0452c45527eb8/pip-21.2.4-py3-none-any.whl";
-            })
-          ]);
+          envMirrorInstaller = mirror installer;
+          envMirrorPip = mirror (enrichInstaller "pip" "21.2.4" {
+            name = "pip-21.2.4-py3-none-any.whl";
+            sha256 = "fa9ebb85d3fd607617c0c44aca302b1b45d87f9c2a1649b46c26167ca4296323";
+            url = "https://files.pythonhosted.org/packages/ca/31/b88ef447d595963c01060998cb329251648acf4a067721b0452c45527eb8/pip-21.2.4-py3-none-any.whl";
+          });
         };
         inherit name;
         searchPaths = {
