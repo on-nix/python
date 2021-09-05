@@ -65,13 +65,8 @@ let
         ({
           extraInstallers = { };
           patchClosure = closure: closure;
-          phaseClean = ''
-            rm -rf $out/lib/python${pythonVersion}/site-packages/_distutils_hack
-            rm -rf $out/lib/python${pythonVersion}/site-packages/distutils-precedence.pth
-            rm -rf $out/lib/python${pythonVersion}/site-packages/pkg_resources
-            rm -rf $out/lib/python${pythonVersion}/site-packages/setuptools
-            rm -rf $out/lib/python${pythonVersion}/site-packages/setuptools*.dist-info
-          '';
+          cleanPkgResources = true;
+          cleanSetuptools = true;
           searchPathsBuild = _: { };
           searchPathsRuntime = _: { };
         }) //
@@ -97,6 +92,19 @@ let
         (makePypiInstaller pythonVersion project version)
       ];
 
+      cleanPhase = builtins.concatStringsSep "" [
+        (if setup.cleanSetuptools then ''
+          rm -rf $out/lib/python${pythonVersion}/site-packages/_distutils_hack
+          rm -rf $out/lib/python${pythonVersion}/site-packages/distutils-precedence.pth
+        '' else "")
+        (if setup.cleanPkgResources then ''
+          rm -rf $out/lib/python${pythonVersion}/site-packages/pkg_resources
+        '' else "")
+        (if setup.cleanSetuptools then ''
+          rm -rf $out/lib/python${pythonVersion}/site-packages/setuptools
+          rm -rf $out/lib/python${pythonVersion}/site-packages/setuptools*.dist-info
+        '' else "")
+      ];
       propagated = builtins.attrValues (builtins.mapAttrs
         (project: version: builtProjects.${pythonVersion}."${project}-${version}")
         (setup.patchClosure closure));
@@ -144,7 +152,7 @@ let
           rm -rf $out/lib/python${pythonVersion}/site-packages/__pycache__
           rm -rf $out/lib/python${pythonVersion}/site-packages/easy_install.py
 
-          ${setup.phaseClean}
+          ${cleanPhase}
 
           echo
           echo $out
