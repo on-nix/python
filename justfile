@@ -8,6 +8,7 @@ test:
   nix-build \
     --attr __tests__ \
     --option cores 1 \
+    --option keep-going true \
     --option max-jobs auto \
     --option sandbox true \
     --show-trace \
