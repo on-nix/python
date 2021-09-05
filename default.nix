@@ -60,6 +60,13 @@ let
       testGlobalPath = projectsSrc + "/${project}/test.py";
       testVersionPath = projectsSrc + "/${project}/${version}/test.py";
 
+      name = "python${pythonVersion}-${installer.project}-${installer.version}";
+      python = builtins.getAttr pythonVersion {
+        "3.6" = nixpkgs.python36;
+        "3.7" = nixpkgs.python37;
+        "3.8" = nixpkgs.python38;
+        "3.9" = nixpkgs.python39;
+      };
       setup = (
         ({
           patchClosure = closure: closure;
@@ -114,13 +121,64 @@ let
       searchPathsRuntime = makeSearchPaths
         (setup.searchPathsRuntime searchPathsArgs);
 
-      venv = makePythonEnv {
-        inherit installer;
-        inherit propagated;
-        inherit pythonVersion;
-        inherit searchPathsBuild;
-        inherit searchPathsRuntime;
-        inherit test;
+      venvRaw = makeDerivation {
+        builder = ''
+          python -m venv $out
+          source $out/bin/activate
+          HOME=. python -m pip install \
+            --index-url file://$envMirrorPip \
+            --no-compile \
+            --no-deps \
+            --quiet \
+            --upgrade pip
+          HOME=. python -m pip install \
+            --disable-pip-version-check \
+            --index-url file://$envMirrorInstaller \
+            --no-compile \
+            --no-deps \
+            --quiet \
+            ${installer.project}==${installer.version}
+        '';
+        env = {
+          envMirrorInstaller = makePypiMirror installer;
+          envMirrorPip = makePypiMirror (enrichInstaller "pip" "21.2.4" {
+            name = "pip-21.2.4-py3-none-any.whl";
+            sha256 = "fa9ebb85d3fd607617c0c44aca302b1b45d87f9c2a1649b46c26167ca4296323";
+            url = "https://files.pythonhosted.org/packages/ca/31/b88ef447d595963c01060998cb329251648acf4a067721b0452c45527eb8/pip-21.2.4-py3-none-any.whl";
+          });
+        };
+        inherit name;
+        searchPaths = {
+          bin = [ python ];
+          source = [ searchPathsBuild ];
+        };
+      };
+
+      venvSetup = makeSearchPaths {
+        bin = [ venvRaw ];
+        pythonPackage36 = optional (pythonVersion == "3.6") venvRaw;
+        pythonPackage37 = optional (pythonVersion == "3.7") venvRaw;
+        pythonPackage38 = optional (pythonVersion == "3.8") venvRaw;
+        pythonPackage39 = optional (pythonVersion == "3.9") venvRaw;
+        source = propagated ++ [ searchPathsRuntime ];
+      };
+      venv = makeDerivation {
+        builder = ''
+          mkdir $out
+          mkdir $out/nix-support
+          ln -s $envVenvSetup/template $out/setup
+          ln -s $envVenvSetup/template $out/nix-support/setup-hook
+
+          if test -n "$envTest"; then
+            source $out/setup
+            python $envTest
+          fi
+        '';
+        env = {
+          envVenvSetup = venvSetup;
+          envTest = test;
+        };
+        inherit name;
       };
     in
     if builtins.pathExists closurePath
@@ -195,84 +253,6 @@ let
       path = nixpkgs.fetchurl installer;
     };
 
-  makePythonEnv =
-    { installer
-    , propagated
-    , pythonVersion
-    , searchPathsBuild
-    , searchPathsRuntime
-    , test
-    }:
-    let
-      name = "python${pythonVersion}-${installer.project}-${installer.version}";
-
-      python = builtins.getAttr pythonVersion {
-        "3.6" = nixpkgs.python36;
-        "3.7" = nixpkgs.python37;
-        "3.8" = nixpkgs.python38;
-        "3.9" = nixpkgs.python39;
-      };
-
-      venv = makeDerivation {
-        builder = ''
-          python -m venv $out
-          source $out/bin/activate
-          HOME=. python -m pip install \
-            --index-url file://$envMirrorPip \
-            --no-compile \
-            --no-deps \
-            --quiet \
-            --upgrade pip
-          HOME=. python -m pip install \
-            --disable-pip-version-check \
-            --index-url file://$envMirrorInstaller \
-            --no-compile \
-            --no-deps \
-            --quiet \
-            ${installer.project}==${installer.version}
-        '';
-        env = {
-          envMirrorInstaller = makePypiMirror installer;
-          envMirrorPip = makePypiMirror (enrichInstaller "pip" "21.2.4" {
-            name = "pip-21.2.4-py3-none-any.whl";
-            sha256 = "fa9ebb85d3fd607617c0c44aca302b1b45d87f9c2a1649b46c26167ca4296323";
-            url = "https://files.pythonhosted.org/packages/ca/31/b88ef447d595963c01060998cb329251648acf4a067721b0452c45527eb8/pip-21.2.4-py3-none-any.whl";
-          });
-        };
-        inherit name;
-        searchPaths = {
-          bin = [ python ];
-          source = [ searchPathsBuild ];
-        };
-      };
-
-      out = makeSearchPaths {
-        bin = [ venv ];
-        pythonPackage36 = optional (pythonVersion == "3.6") venv;
-        pythonPackage37 = optional (pythonVersion == "3.7") venv;
-        pythonPackage38 = optional (pythonVersion == "3.8") venv;
-        pythonPackage39 = optional (pythonVersion == "3.9") venv;
-        source = propagated ++ [ searchPathsRuntime ];
-      };
-    in
-    makeDerivation {
-      builder = ''
-        mkdir $out
-        mkdir $out/nix-support
-        ln -s $envOut/template $out/setup
-        ln -s $envOut/template $out/nix-support/setup-hook
-
-        if test -n "$envTest"; then
-          source $out/setup
-          python $envTest
-        fi
-      '';
-      env = {
-        envOut = out;
-        envTest = test;
-      };
-      inherit name;
-    };
   makePypiMirror = installer: nixpkgs.linkFarm "mirror-for-${installer.name}" [
     {
       name = "index.html";

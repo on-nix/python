@@ -1,1 +1,1 @@
-import pyyaml
+import yaml
