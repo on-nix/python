@@ -1,1 +1,1 @@
-import python_git
+import pygit
