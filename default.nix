@@ -109,8 +109,7 @@ let
         else installer;
 
       propagated = builtins.attrValues (builtins.mapAttrs
-        (project: version:
-          "${builtProjects.${pythonVersion}."${project}-${version}"}/setup")
+        (project: version: builtProjects.${pythonVersion}."${project}-${version}")
         (setup.patchClosure closure));
       searchPathsArgs = {
         inherit nixpkgs;
@@ -167,6 +166,7 @@ let
           mkdir $out
           mkdir $out/nix-support
           ln -s $envVenvSetup/template $out/setup
+          ln -s $envVenvSetup/template $out/template
           ln -s $envVenvSetup/template $out/nix-support/setup-hook
 
           if test -n "$envTest"; then
@@ -289,11 +289,12 @@ let
         mkdir $out
         mkdir $out/nix-support
         ln -s $envOut/template $out/setup
+        ln -s $envOut/template $out/template
         ln -s $envOut/template $out/nix-support/setup-hook
       '';
       env.envOut = makeSearchPaths {
         source = builtins.map
-          (project: "${builtProjects.${pythonVersion}.${project}}/setup")
+          (project: builtProjects.${pythonVersion}.${project})
           (projects);
       };
       name = "python${pythonVersion}-env-for-${name}";
