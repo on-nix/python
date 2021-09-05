@@ -1,1 +1,1 @@
-import protobuf3_to_dict
+import protobuf_to_dict
