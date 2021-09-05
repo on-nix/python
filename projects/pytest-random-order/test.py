@@ -1,1 +1,1 @@
-import pytest_random_order
+import random_order

@@ -1,1 +1,1 @@
-import pyjwt
+import jwt

@@ -1,1 +1,1 @@
-import pytest_xdist
+import xdist
