@@ -360,7 +360,7 @@ let
     })
     (pythonVersions));
 
-  __tests__ = nixpkgs.linkFarm "nixpkgs-python"
+  __all__ = nixpkgs.linkFarm "nixpkgs-python"
     (builtins.map
       (pythonVersion: {
         name = pythonVersion;
@@ -386,7 +386,7 @@ Please consider starring, funding or contributing to the project!
 
 ''
 {
-  inherit __tests__;
+  inherit __all__;
   inherit makeEnv;
   python36 = builtProjects."3.6";
   python37 = builtProjects."3.7";

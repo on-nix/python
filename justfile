@@ -6,7 +6,7 @@ _:
 
 build ATTR:
   nix-build \
-    --attr {{ATTR}} \
+    --attr '{{ATTR}}' \
     --option cores 1 \
     --option keep-going true \
     --option max-jobs auto \
@@ -18,18 +18,3 @@ build ATTR:
     CACHIX_AUTH_TOKEN="${CACHIX_NIXPKGS_PYTHON_TOKEN}" \
     cachix push -c 9 nixpkgs-python result*; \
   fi
-
-test:
-  just build __tests__
-
-test36:
-  just build python36
-
-test37:
-  just build python37
-
-test38:
-  just build python38
-
-test39:
-  just build python39
