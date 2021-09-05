@@ -3,12 +3,9 @@ let
   makes = import "${sources.makes}/src/args/agnostic.nix" { };
   nixpkgs = import sources.nixpkgs { };
 
-  inherit (makes) attrsMapToList;
   inherit (makes) fromJsonFile;
-  inherit (makes) mapAttrsToList;
   inherit (makes) makeDerivation;
   inherit (makes) makeSearchPaths;
-  inherit (makes) toFileLst;
   inherit (nixpkgs.lib.lists) findFirst;
   inherit (nixpkgs.stdenv) isDarwin;
   inherit (nixpkgs.stdenv) isi686;
@@ -31,10 +28,9 @@ let
   buildProject = pythonVersion: project:
     let
       versions = buildProjectVersions pythonVersion project;
-      latest = builtins.head
-        (builtins.sort
-          (a: b: (builtins.compareVersions a b) > 0)
-          (builtins.attrNames versions));
+      latest = builtins.head (builtins.sort
+        (a: b: (builtins.compareVersions a b) > 0)
+        (builtins.attrNames versions));
     in
     if versions == { }
     then { }
@@ -46,8 +42,7 @@ let
 
   buildProjectVersions = pythonVersion: project:
     builtins.foldl'
-      (versions: version:
-        versions // (buildProjectVersion pythonVersion project version))
+      (versions: version: versions // (buildProjectVersion pythonVersion project version))
       { }
       (ls (projectsSrc + "/${project}"));
 
@@ -132,7 +127,6 @@ let
           source = [ searchPathsBuild ];
         };
       };
-
       venvSetup = makeSearchPaths {
         bin = [ venvRaw ];
         pythonPackage36 = optional (pythonVersion == "3.6") venvRaw;
@@ -179,7 +173,6 @@ let
     ++ (optional (isLinux && isi686) "manylinux_2_24_i686")
     ++ (optional (isLinux && isi686) "manylinux2010_i686")
     ++ (optional (isLinux && isi686) "manylinux2014_i686");
-
   supportedAbis = {
     "3.6" = [ "none" "abi3" "cp36" "cp36m" ];
     "3.7" = [ "none" "abi3" "cp37" "cp37m" ];
@@ -242,13 +235,12 @@ let
       installers = builtins.map
         (enrichInstaller project version)
         (fromJsonFile installersPath);
-      installer =
-        findFirst (installer: installer != null) null (builtins.map
-          (predicate: findFirst predicate null installers)
-          [
-            (isSupportedWheel pythonVersion)
-            (isSupportedSrc)
-          ]);
+      installer = findFirst (installer: installer != null) null (builtins.map
+        (predicate: findFirst predicate null installers)
+        [
+          (isSupportedWheel pythonVersion)
+          (isSupportedSrc)
+        ]);
     in
     if installer == null
     then
@@ -269,14 +261,12 @@ let
         '';
       })
       (installers))
-
     ++ (builtins.map
       (installer: {
         name = "${installer.project503}/${installer.name}";
         path = installer.path;
       })
       (installers))
-
     ++ [{
       name = "index.html";
       path =
