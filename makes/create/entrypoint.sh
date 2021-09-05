@@ -59,7 +59,7 @@ function main {
     && jq -erS '[.package[] | {key: .name, value: .version}] | from_entries' \
       < poetry.lock.json > closure.json \
     && popd \
-    && out="${PWD}/pkgs/${project}/${version}" \
+    && out="${PWD}/projects/${project}/${version}" \
     && mkdir -p "${out}" \
     && copy "${tmp}/closure.json" "${out}/python${python_version}.json" \
     && pushd "${tmp}" \
@@ -74,10 +74,10 @@ function main {
       : \
         && project="${projects[$index]}" \
         && version="${versions[$index]}" \
-        && if ! test -e "pkgs/${project}/${version}/installers.json"; then
+        && if ! test -e "projects/${project}/${version}/installers.json"; then
           fetch "${project}" "${version}"
         fi \
-        && if ! test -e "pkgs/${project}/${version}/python${python_version}.json"; then
+        && if ! test -e "projects/${project}/${version}/python${python_version}.json"; then
           main "${python_version}" "${project}" "${version}"
         fi
     done
