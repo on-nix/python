@@ -53,8 +53,6 @@ let
 
   buildProjectVersion = pythonVersion: project: version:
     let
-      name = "python${pythonVersion}-${project}-${version}";
-
       closurePath = projectsSrc + "/${project}/${version}/python${pythonVersion}.json";
       installersPath = projectsSrc + "/${project}/${version}/installers.json";
       setupGlobalPath = projectsSrc + "/${project}/setup.nix";
@@ -65,7 +63,8 @@ let
       setup = (
         ({
           patchClosure = closure: closure;
-          searchPaths = _: { };
+          searchPathsBuild = _: { };
+          searchPathsRuntime = _: { };
         }) //
         (if builtins.pathExists setupGlobalPath
         then import setupGlobalPath else { }) //
@@ -102,20 +101,25 @@ let
           ''
         else installer;
 
-      propagated = builtins.concatLists [
-        [ (makeSearchPaths (setup.searchPaths { inherit nixpkgs; })) ]
-
-        (builtins.attrValues (builtins.mapAttrs
-          (project: version:
-            "${builtProjects.${pythonVersion}."${project}-${version}"}/setup")
-          (setup.patchClosure closure)))
-      ];
+      propagated = builtins.attrValues (builtins.mapAttrs
+        (project: version:
+          "${builtProjects.${pythonVersion}."${project}-${version}"}/setup")
+        (setup.patchClosure closure));
+      searchPathsArgs = {
+        inherit nixpkgs;
+        nixpkgsPython = builtProjects.${pythonVersion};
+      };
+      searchPathsBuild = makeSearchPaths
+        (setup.searchPathsBuild searchPathsArgs);
+      searchPathsRuntime = makeSearchPaths
+        (setup.searchPathsRuntime searchPathsArgs);
 
       venv = makePythonEnv {
         inherit installer;
-        inherit name;
         inherit propagated;
         inherit pythonVersion;
+        inherit searchPathsBuild;
+        inherit searchPathsRuntime;
         inherit test;
       };
     in
@@ -193,12 +197,15 @@ let
 
   makePythonEnv =
     { installer
-    , name
     , propagated
     , pythonVersion
+    , searchPathsBuild
+    , searchPathsRuntime
     , test
     }:
     let
+      name = "python${pythonVersion}-${installer.project}-${installer.version}";
+
       python = builtins.getAttr pythonVersion {
         "3.6" = nixpkgs.python36;
         "3.7" = nixpkgs.python37;
@@ -235,7 +242,7 @@ let
         inherit name;
         searchPaths = {
           bin = [ python ];
-          source = propagated;
+          source = [ searchPathsBuild ];
         };
       };
 
@@ -245,7 +252,7 @@ let
         pythonPackage37 = optional (pythonVersion == "3.7") venv;
         pythonPackage38 = optional (pythonVersion == "3.8") venv;
         pythonPackage39 = optional (pythonVersion == "3.9") venv;
-        source = propagated;
+        source = propagated ++ [ searchPathsRuntime ];
       };
     in
     makeDerivation {

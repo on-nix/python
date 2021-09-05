@@ -1,5 +1,5 @@
 {
-  searchPaths = { nixpkgs, ... }: {
+  searchPathsRuntime = { nixpkgs, ... }: {
     rpath = [ nixpkgs.gcc.cc.lib ];
   };
 }

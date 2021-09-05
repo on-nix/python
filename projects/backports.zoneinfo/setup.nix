@@ -3,7 +3,7 @@
     setuptools = "57.4.0";
     wheel = "0.37.0";
   };
-  searchPaths = { nixpkgs, ... }: {
+  searchPathsBuild = { nixpkgs, ... }: {
     bin = [ nixpkgs.gcc ];
   };
 }
