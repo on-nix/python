@@ -320,6 +320,17 @@ let
       })
       pythonVersions);
 in
+builtins.trace ''
+
+
+Nixpkgs Python!
+
+Found a bug? Are we missing a feature?
+Let us know here: https://github.com/kamadorueda/nixpkgs-python/issues
+
+Please consider starring and contributing to the project!
+
+''
 {
   inherit __tests__;
   inherit makeEnv;
