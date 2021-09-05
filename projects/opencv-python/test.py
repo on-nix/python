@@ -1,1 +1,1 @@
-import opencv_python
+import cv2
