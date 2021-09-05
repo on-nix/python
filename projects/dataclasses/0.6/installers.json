@@ -1,0 +1,12 @@
+[
+  {
+    "name": "dataclasses-0.6-py3-none-any.whl",
+    "sha256": "454a69d788c7fda44efd71e259be79577822f5e3f53f029a22d08004e951dc9f",
+    "url": "https://files.pythonhosted.org/packages/26/2f/1095cdc2868052dd1e64520f7c0d5c8c550ad297e944e641dbf1ffbb9a5d/dataclasses-0.6-py3-none-any.whl"
+  },
+  {
+    "name": "dataclasses-0.6.tar.gz",
+    "sha256": "6988bd2b895eef432d562370bb707d540f32f7360ab13da45340101bc2307d84",
+    "url": "https://files.pythonhosted.org/packages/59/e4/2f921edfdf1493bdc07b914cbea43bc334996df4841a34523baf73d1fb4f/dataclasses-0.6.tar.gz"
+  }
+]

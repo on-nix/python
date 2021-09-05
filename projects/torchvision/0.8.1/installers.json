@@ -1,0 +1,32 @@
+[
+  {
+    "name": "torchvision-0.8.1-cp36-cp36m-macosx_10_9_x86_64.whl",
+    "sha256": "80b1c6d0a97e86454c15cf9f1afcf0751761273b7687c3d0910336ea87cca8d4",
+    "url": "https://files.pythonhosted.org/packages/c4/35/9b48a8bae532cb634ec718b722bf83c31efecd82abc078c60a71c942fdf7/torchvision-0.8.1-cp36-cp36m-macosx_10_9_x86_64.whl"
+  },
+  {
+    "name": "torchvision-0.8.1-cp36-cp36m-manylinux1_x86_64.whl",
+    "sha256": "307daa1daa4cc1a2380dd26f81d3a9670535fff8927f1049dc76d4e47253fb8e",
+    "url": "https://files.pythonhosted.org/packages/e7/43/aaa740c406b1832adc6ff9d5e71c23fd2af2ebd436c42d76d85809ec8be9/torchvision-0.8.1-cp36-cp36m-manylinux1_x86_64.whl"
+  },
+  {
+    "name": "torchvision-0.8.1-cp37-cp37m-macosx_10_9_x86_64.whl",
+    "sha256": "b58262a2bd2d419d94d7bf8aaa3a532b9283f4995e766723cc4cc3a52d8883c8",
+    "url": "https://files.pythonhosted.org/packages/0c/6f/7e3e9e51c770e83046699e4a4842712471a96c7aefe83054b7c9087c20b1/torchvision-0.8.1-cp37-cp37m-macosx_10_9_x86_64.whl"
+  },
+  {
+    "name": "torchvision-0.8.1-cp37-cp37m-manylinux1_x86_64.whl",
+    "sha256": "95b0ce59e631e2c97e6069dff126a43232cca859b18a1b505e5b02dd1a65dd0f",
+    "url": "https://files.pythonhosted.org/packages/a3/39/a9caac0deb027feec2cdd7cc40b2a598256d3f50050c80f349c030f915f2/torchvision-0.8.1-cp37-cp37m-manylinux1_x86_64.whl"
+  },
+  {
+    "name": "torchvision-0.8.1-cp38-cp38-macosx_10_9_x86_64.whl",
+    "sha256": "469e0b831bfe17c46159966b5dc7ba09c87eaeecbed6f9a4d6ec4e691b0c8827",
+    "url": "https://files.pythonhosted.org/packages/19/7e/b0d2218bf2f3b101793cb9cb2f40d92c834630dd4ee19a6474d219e83b0c/torchvision-0.8.1-cp38-cp38-macosx_10_9_x86_64.whl"
+  },
+  {
+    "name": "torchvision-0.8.1-cp38-cp38-manylinux1_x86_64.whl",
+    "sha256": "337820e680e5193872903369d8177d5ea681e7156d370d89d487b0e0f1e56238",
+    "url": "https://files.pythonhosted.org/packages/05/b5/d088df4f7ae6c095a51d85bfe1e7d13ac8650e282f0d903a720fa439b83a/torchvision-0.8.1-cp38-cp38-manylinux1_x86_64.whl"
+  }
+]

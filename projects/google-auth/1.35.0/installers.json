@@ -1,0 +1,12 @@
+[
+  {
+    "name": "google_auth-1.35.0-py2.py3-none-any.whl",
+    "sha256": "997516b42ecb5b63e8d80f5632c1a61dddf41d2a4c2748057837e06e00014258",
+    "url": "https://files.pythonhosted.org/packages/fb/7a/1b3eb54caee1b8c73c2c3645f78a382eca4805a301a30c64a078e736e446/google_auth-1.35.0-py2.py3-none-any.whl"
+  },
+  {
+    "name": "google-auth-1.35.0.tar.gz",
+    "sha256": "b7033be9028c188ee30200b204ea00ed82ea1162e8ac1df4aa6ded19a191d88e",
+    "url": "https://files.pythonhosted.org/packages/9a/97/bf2edc87092301da1936b0df4d9d60e5f4287b6910b7d8f5cc0ea796d620/google-auth-1.35.0.tar.gz"
+  }
+]

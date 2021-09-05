@@ -29,7 +29,7 @@ That can be installed with the [Nix][NIX] package manager.
 
 ### Available projects
 
-Checkout the [pkgs](./pkgs) folder,
+Checkout the [projects](./projects) folder,
 each entry represents a project and its available versions,
 for example:
 - `"awscli"`, or

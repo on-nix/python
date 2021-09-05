@@ -1,0 +1,12 @@
+[
+  {
+    "name": "seaborn-0.11.2-py3-none-any.whl",
+    "sha256": "85a6baa9b55f81a0623abddc4a26b334653ff4c6b18c418361de19dbba0ef283",
+    "url": "https://files.pythonhosted.org/packages/10/5b/0479d7d845b5ba410ca702ffcd7f2cd95a14a4dfff1fde2637802b258b9b/seaborn-0.11.2-py3-none-any.whl"
+  },
+  {
+    "name": "seaborn-0.11.2.tar.gz",
+    "sha256": "cf45e9286d40826864be0e3c066f98536982baf701a7caa386511792d61ff4f6",
+    "url": "https://files.pythonhosted.org/packages/58/81/51b7ee560a1b01d5c47cae22bfed4e79f1529a08cdff950506097b0d51e1/seaborn-0.11.2.tar.gz"
+  }
+]

@@ -20,13 +20,13 @@ let
 
   pythonVersions = [ "3.6" "3.7" "3.8" "3.9" ];
 
-  pkgsSrc = ./pkgs;
+  projectsSrc = ./projects;
 
   buildProjects = pythonVersion:
     builtins.foldl'
       (projects: project: projects // (buildProject pythonVersion project))
       { }
-      (ls pkgsSrc);
+      (ls projectsSrc);
 
   buildProject = pythonVersion: project:
     let
@@ -49,20 +49,21 @@ let
       (versions: version:
         versions // (buildProjectVersion pythonVersion project version))
       { }
-      (ls (pkgsSrc + "/${project}"));
+      (ls (projectsSrc + "/${project}"));
 
   buildProjectVersion = pythonVersion: project: version:
     let
       name = "python${pythonVersion}-${project}-${version}";
 
-      closurePath = pkgsSrc + "/${project}/${version}/python${pythonVersion}.json";
-      setupGlobalPath = pkgsSrc + "/${project}/setup.nix";
-      setupVersionPath = pkgsSrc + "/${project}/${version}/setup.nix";
-      testGlobalPath = pkgsSrc + "/${project}/test.py";
-      testVersionPath = pkgsSrc + "/${project}/${version}/test.py";
+      closurePath = projectsSrc + "/${project}/${version}/python${pythonVersion}.json";
+      setupGlobalPath = projectsSrc + "/${project}/setup.nix";
+      setupVersionPath = projectsSrc + "/${project}/${version}/setup.nix";
+      testGlobalPath = projectsSrc + "/${project}/test.py";
+      testVersionPath = projectsSrc + "/${project}/${version}/test.py";
 
       setup = (
         ({
+          bootstrapped = [ ];
           patchClosure = closure: closure;
           patchInstallers = installers: installers;
           searchPaths = _: { };
@@ -85,7 +86,7 @@ let
         (installers: project:
           let
             version = closure.${project};
-            projectInstallersPath = pkgsSrc + "/${project}/${version}/installers.json";
+            projectInstallersPath = projectsSrc + "/${project}/${version}/installers.json";
             projectInstallersRaw = builtins.map
               (enrichInstaller project version)
               (fromJsonFile projectInstallersPath);
@@ -116,11 +117,13 @@ let
         (builtins.attrNames closure);
 
       # Post-processed inputs
+      bootstrapped = setup.bootstrapped;
       closure = setup.patchClosure closureRaw;
       installers = setup.patchInstallers installersRaw;
       searchPaths = setup.searchPaths { inherit nixpkgs; };
 
       venv = makePythonEnv {
+        inherit bootstrapped;
         inherit closure;
         inherit installers;
         inherit name;
@@ -204,7 +207,8 @@ let
       && installer.ext == "tar.gz");
 
   makePythonEnv =
-    { closure
+    { bootstrapped
+    , closure
     , installers
     , name
     , pythonVersion
@@ -219,7 +223,10 @@ let
         "3.9" = nixpkgs.python39;
       };
 
-      bootstraped = builtins.concatLists [
+      propagated = builtins.concatLists [
+        (builtins.map
+          (project: "${builtProjects.${pythonVersion}.${project}}/setup")
+          (bootstrapped))
         [ (makeSearchPaths searchPaths) ]
       ];
 
@@ -289,7 +296,7 @@ let
         inherit name;
         searchPaths = {
           bin = [ python ];
-          source = bootstraped;
+          source = propagated;
         };
       };
 
@@ -299,7 +306,7 @@ let
         pythonPackage37 = optional (pythonVersion == "3.7") venv;
         pythonPackage38 = optional (pythonVersion == "3.8") venv;
         pythonPackage39 = optional (pythonVersion == "3.9") venv;
-        source = bootstraped;
+        source = propagated;
       };
     in
     makeDerivation {
