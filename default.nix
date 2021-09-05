@@ -225,7 +225,10 @@ let
     ));
   isSupportedSrc =
     (installer: installer.type == "src"
-      && installer.ext == "tar.gz");
+      && (
+      (installer.ext == "tar.bz2") ||
+        (installer.ext == "tar.gz")
+    ));
 
   enrichInstaller = project: version: installer:
     let

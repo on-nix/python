@@ -16,7 +16,7 @@ That can be installed with the [Nix][NIX] package manager.
   - :heavy_check_mark: Hashes everywhere (fixed-output derivations)
   - :heavy_check_mark: Secure (No supply-chain attacks)
   - :heavy_check_mark: No broken packages, if it's there, it works!
-  - :construction: Projects are tested
+  - :heavy_check_mark: Projects are tested
 - Platforms:
   - :heavy_check_mark: Linux x86-64
   - :construction: MacOS x86-64

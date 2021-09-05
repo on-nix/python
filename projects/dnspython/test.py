@@ -1,1 +1,1 @@
-import dnspython
+import dns

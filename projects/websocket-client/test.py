@@ -1,1 +1,1 @@
-import websocket_client
+import websocket

@@ -1,1 +1,1 @@
-import cfn_lint
+import cfnlint
