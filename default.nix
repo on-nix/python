@@ -65,6 +65,13 @@ let
         ({
           extraInstallers = { };
           patchClosure = closure: closure;
+          phaseClean = ''
+            rm -rf $out/lib/python${pythonVersion}/site-packages/_distutils_hack
+            rm -rf $out/lib/python${pythonVersion}/site-packages/distutils-precedence.pth
+            rm -rf $out/lib/python${pythonVersion}/site-packages/pkg_resources
+            rm -rf $out/lib/python${pythonVersion}/site-packages/setuptools
+            rm -rf $out/lib/python${pythonVersion}/site-packages/setuptools*.dist-info
+          '';
           searchPathsBuild = _: { };
           searchPathsRuntime = _: { };
         }) //
@@ -104,26 +111,69 @@ let
 
       venvRaw = makeDerivation {
         builder = ''
+          export DETERMINISTIC_BUILD=1
+          export PYTHONDONTWRITEBYTECODE=1
+          export PYTHONPYCACHEPREFIX=$PWD
+          export PYTHONHASHSEED=0
+          export PYTHONNOUSERSITE=1
           python -m venv $out
           source $out/bin/activate
-          HOME=. python -m pip install \
+          python -m pip install \
             --index-url file://$envMirror \
+            --no-cache-dir \
             --no-compile \
             --no-deps \
             --quiet \
-            --upgrade pip
-          HOME=. python -m pip install \
+            --upgrade \
+            pip
+          python -m pip install \
             --disable-pip-version-check \
             --index-url file://$envMirror \
+            --no-cache-dir \
             --no-compile \
             --no-deps \
             --quiet \
             ${project}==${version}
+          python -m pip uninstall \
+            --no-cache-dir \
+            --quiet \
+            --yes \
+            pip
+          rm -rf $out/bin/[Aa]ctivate*
+          rm -rf $out/bin/easy_install*
+          rm -rf $out/lib/python${pythonVersion}/site-packages/__pycache__
+          rm -rf $out/lib/python${pythonVersion}/site-packages/easy_install.py
+
+          ${setup.phaseClean}
+
+          echo
+          echo $out
+          cd $out
+          if test -e bin; then
+            find -L bin \
+              -exec du -B KiB {} \; \
+              -mindepth 1 \
+              -type f
+          fi
+          if test -e include; then
+            find -L include \
+              -exec du -B KiB {} \; \
+              -mindepth 1 \
+              -type f
+          fi
+          if test -e lib/python${pythonVersion}/site-packages; then
+            find -L lib/python${pythonVersion}/site-packages \
+              -exec du -B KiB {} \; \
+              -maxdepth 1 \
+              -mindepth 1 \
+              -type d
+          fi
+          echo
         '';
         env.envMirror = makePypiMirror name installers;
         inherit name;
         searchPaths = {
-          bin = [ python ];
+          bin = [ python nixpkgs.findutils ];
           source = [ searchPathsBuild ];
         };
       };
