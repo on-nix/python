@@ -1,1 +1,1 @@
-import social_auth_core
+import social_core
