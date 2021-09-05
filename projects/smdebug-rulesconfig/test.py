@@ -1,0 +1,1 @@
+import smdebug_rulesconfig

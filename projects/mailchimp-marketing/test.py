@@ -1,0 +1,1 @@
+import mailchimp_marketing

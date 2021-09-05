@@ -48,17 +48,15 @@ into your project. For example:
 let
   nixpkgs = import <nixpkgs> { };
 
-  nixpkgsPython =
-    let src = nixpkgs.fetchFromGitHub {
-      owner = "kamadorueda";
-      repo = "nixpkgs-python";
-      # Pick a commit from this list:
-      # https://github.com/kamadorueda/nixpkgs-python/commits/main
-      rev = "0000000000000000000000000000000000000000";
-      # Update this manually
-      sha256 = "0000000000000000000000000000000000000000000000000000";
-    };
-    in import src { };
+  nixpkgsPython = import (nixpkgs.fetchFromGitHub {
+    owner = "kamadorueda";
+    repo = "nixpkgs-python";
+    # Pick a commit from this list:
+    # https://github.com/kamadorueda/nixpkgs-python/commits/main
+    rev = "0000000000000000000000000000000000000000";
+    # Update this manually
+    sha256 = "0000000000000000000000000000000000000000000000000000";
+  });
 in
 # Keep reading for more information
 ```
@@ -104,7 +102,6 @@ $ aws --version
 $ python -c 'import requests; print(requests.__version__)'
 
   2.26.0
-
 ```
 
 ### Using the binary cache
