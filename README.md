@@ -73,7 +73,9 @@ nixpkgsPython.makeEnv {
   name = "example";
   projects = [
     "awscli-1.20.31" # Version `1.20.32` of `awscli`
+    "numpy" # Latest version of `numpy`
     "requests" # Latest version of `requests`
+    "torch-1.9.0" # Version `1.9.0` of `torch`
   ];
   pythonVersion = "3.9";
 }
@@ -95,13 +97,25 @@ $ source ./result/setup
 Dependencies are not available in this shell !! :rocket:
 
 ```bash
+$ python --version
+
+  Python 3.9.6
+
 $ aws --version
 
   aws-cli/1.20.31 Python/3.9.6 Linux/5.10.57 botocore/1.21.31
 
+$ python -c 'import numpy; print(numpy.__version__)'
+
+  1.21.2
+
 $ python -c 'import requests; print(requests.__version__)'
 
   2.26.0
+
+$ python -c 'import torch; print(torch.__version__)'
+
+  1.9.0+cu102
 ```
 
 ### Using the binary cache
