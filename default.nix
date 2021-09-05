@@ -54,13 +54,12 @@ let
   buildProjectVersion = pythonVersion: project: version:
     let
       closurePath = projectsSrc + "/${project}/${version}/python${pythonVersion}.json";
-      installersPath = projectsSrc + "/${project}/${version}/installers.json";
       setupGlobalPath = projectsSrc + "/${project}/setup.nix";
       setupVersionPath = projectsSrc + "/${project}/${version}/setup.nix";
       testGlobalPath = projectsSrc + "/${project}/test.py";
       testVersionPath = projectsSrc + "/${project}/${version}/test.py";
 
-      name = "python${pythonVersion}-${installer.project}-${installer.version}";
+      name = "python${pythonVersion}-${project}-${version}";
       python = builtins.getAttr pythonVersion {
         "3.6" = nixpkgs.python36;
         "3.7" = nixpkgs.python37;
@@ -69,6 +68,7 @@ let
       };
       setup = (
         ({
+          extraInstallers = { };
           patchClosure = closure: closure;
           searchPathsBuild = _: { };
           searchPathsRuntime = _: { };
@@ -86,27 +86,14 @@ let
         else null;
 
       closure = builtins.removeAttrs (fromJsonFile closurePath) [ project ];
-      installers = builtins.map
-        (enrichInstaller project version)
-        (fromJsonFile installersPath);
-      installer =
-        let
-          installer =
-            findFirst (installer: installer != null) null (builtins.map
-              (predicate: findFirst predicate null installers)
-              [
-                (isSupportedWheel pythonVersion)
-                (isSupportedSrc)
-              ]);
-        in
-        if installer == null
-        then
-          abort ''
-            Python${pythonVersion} installer not found:
-            ${builtins.concatStringsSep "\n"
-              (builtins.map (i: i.name) installers)}
-          ''
-        else installer;
+
+      installers = (builtins.attrValues (builtins.mapAttrs
+        (makePypiInstaller pythonVersion)
+        (setup.extraInstallers)))
+      ++ [
+        (makePypiInstaller pythonVersion "pip" "21.2.4")
+        (makePypiInstaller pythonVersion project version)
+      ];
 
       propagated = builtins.attrValues (builtins.mapAttrs
         (project: version: builtProjects.${pythonVersion}."${project}-${version}")
@@ -125,27 +112,20 @@ let
           python -m venv $out
           source $out/bin/activate
           HOME=. python -m pip install \
-            --index-url file://$envMirrorPip \
+            --index-url file://$envMirror \
             --no-compile \
             --no-deps \
             --quiet \
             --upgrade pip
           HOME=. python -m pip install \
             --disable-pip-version-check \
-            --index-url file://$envMirrorInstaller \
+            --index-url file://$envMirror \
             --no-compile \
             --no-deps \
             --quiet \
-            ${installer.project}==${installer.version}
+            ${project}==${version}
         '';
-        env = {
-          envMirrorInstaller = makePypiMirror installer;
-          envMirrorPip = makePypiMirror (enrichInstaller "pip" "21.2.4" {
-            name = "pip-21.2.4-py3-none-any.whl";
-            sha256 = "fa9ebb85d3fd607617c0c44aca302b1b45d87f9c2a1649b46c26167ca4296323";
-            url = "https://files.pythonhosted.org/packages/ca/31/b88ef447d595963c01060998cb329251648acf4a067721b0452c45527eb8/pip-21.2.4-py3-none-any.whl";
-          });
-        };
+        env.envMirror = makePypiMirror name installers;
         inherit name;
         searchPaths = {
           bin = [ python ];
@@ -256,28 +236,59 @@ let
       path = nixpkgs.fetchurl installer;
     };
 
-  makePypiMirror = installer: nixpkgs.linkFarm "mirror-for-${installer.name}" [
-    {
+  makePypiInstaller = pythonVersion: project: version:
+    let
+      installersPath = projectsSrc + "/${project}/${version}/installers.json";
+      installers = builtins.map
+        (enrichInstaller project version)
+        (fromJsonFile installersPath);
+      installer =
+        findFirst (installer: installer != null) null (builtins.map
+          (predicate: findFirst predicate null installers)
+          [
+            (isSupportedWheel pythonVersion)
+            (isSupportedSrc)
+          ]);
+    in
+    if installer == null
+    then
+      abort ''
+        Python${pythonVersion} installer not found:
+        ${builtins.concatStringsSep "\n"
+          (builtins.map (i: i.name) installers)}
+      ''
+    else installer;
+  makePypiMirror = name: installers: nixpkgs.linkFarm "mirror-for-${name}" (
+    (builtins.map
+      (installer: {
+        name = "${installer.project503}/index.html";
+        path = builtins.toFile "${installer.project}-index.html" ''
+          <html><body>
+            <a href="./${installer.name}">${installer.name}</a>
+          </body></html>
+        '';
+      })
+      (installers))
+
+    ++ (builtins.map
+      (installer: {
+        name = "${installer.project503}/${installer.name}";
+        path = installer.path;
+      })
+      (installers))
+
+    ++ [{
       name = "index.html";
-      path = builtins.toFile "index.html" ''
-        <html><body>
-          <a href=/${installer.project}/>${installer.project}</a>
-        </body></html>
-      '';
-    }
-    {
-      name = "${installer.project503}/${installer.name}";
-      path = installer.path;
-    }
-    {
-      name = "${installer.project503}/index.html";
-      path = builtins.toFile "${installer.project}-index.html" ''
-        <html><body>
-          <a href="./${installer.name}">${installer.name}</a>
-        </body></html>
-      '';
-    }
-  ];
+      path =
+        builtins.toFile "index.html" ''
+          <html><body>
+            ${builtins.concatStringsSep " " (builtins.map
+              (installer: "<a href=/${installer.project}/>${installer.project}</a>")
+              (installers))}
+          </body></html>
+        '';
+    }]
+  );
 
   makeEnv =
     { name
