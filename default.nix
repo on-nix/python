@@ -326,8 +326,10 @@ builtins.trace ''
 
 You are using Nixpkgs Python!
 
+  https://github.com/kamadorueda/nixpkgs-python
+
 Found a bug? Are we missing a feature?
-Let us know here: https://github.com/kamadorueda/nixpkgs-python/issues
+Let us know in the issues section.
 
 Please consider starring, funding or contributing to the project!
 
