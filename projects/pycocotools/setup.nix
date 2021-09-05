@@ -1,6 +1,6 @@
 {
   searchPathsBuild = { nixpkgs, nixpkgsPython }: {
     bin = [ nixpkgs.gcc ];
-    source = [ nixpkgsPython.cython nixpkgsPython.numpy ]
+    source = [ nixpkgsPython.cython nixpkgsPython.numpy ];
   };
 }
