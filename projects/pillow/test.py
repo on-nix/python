@@ -1,1 +1,1 @@
-import pillow
+import PIL

@@ -1,1 +1,1 @@
-import lark_parser
+import lark
