@@ -206,29 +206,6 @@ let
         "3.9" = nixpkgs.python39;
       };
 
-      mirror = installer: nixpkgs.linkFarm "mirror-for-${installer.name}" [
-        {
-          name = "index.html";
-          path = builtins.toFile "index.html" ''
-            <html><body>
-              <a href=/${installer.project}/>${installer.project}</a>
-            </body></html>
-          '';
-        }
-        {
-          name = "${installer.project503}/${installer.name}";
-          path = installer.path;
-        }
-        {
-          name = "${installer.project503}/index.html";
-          path = builtins.toFile "${installer.project}-index.html" ''
-            <html><body>
-              <a href="./${installer.name}">${installer.name}</a>
-            </body></html>
-          '';
-        }
-      ];
-
       venv = makeDerivation {
         builder = ''
           python -m venv $out
@@ -248,8 +225,8 @@ let
             ${installer.project}==${installer.version}
         '';
         env = {
-          envMirrorInstaller = mirror installer;
-          envMirrorPip = mirror (enrichInstaller "pip" "21.2.4" {
+          envMirrorInstaller = makePypiMirror installer;
+          envMirrorPip = makePypiMirror (enrichInstaller "pip" "21.2.4" {
             name = "pip-21.2.4-py3-none-any.whl";
             sha256 = "fa9ebb85d3fd607617c0c44aca302b1b45d87f9c2a1649b46c26167ca4296323";
             url = "https://files.pythonhosted.org/packages/ca/31/b88ef447d595963c01060998cb329251648acf4a067721b0452c45527eb8/pip-21.2.4-py3-none-any.whl";
@@ -289,6 +266,28 @@ let
       };
       inherit name;
     };
+  makePypiMirror = installer: nixpkgs.linkFarm "mirror-for-${installer.name}" [
+    {
+      name = "index.html";
+      path = builtins.toFile "index.html" ''
+        <html><body>
+          <a href=/${installer.project}/>${installer.project}</a>
+        </body></html>
+      '';
+    }
+    {
+      name = "${installer.project503}/${installer.name}";
+      path = installer.path;
+    }
+    {
+      name = "${installer.project503}/index.html";
+      path = builtins.toFile "${installer.project}-index.html" ''
+        <html><body>
+          <a href="./${installer.name}">${installer.name}</a>
+        </body></html>
+      '';
+    }
+  ];
 
   makeEnv =
     { name

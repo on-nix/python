@@ -1,1 +1,1 @@
-import graphql_core
+import graphql
