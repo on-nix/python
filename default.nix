@@ -258,7 +258,7 @@ let
 
   enrichInstaller = pythonVersion: project: version: name: sha256:
     let
-      src = builtins.match "(.*)-(.*?).(egg|tar.bz2|tar.gz|zip)" name;
+      src = builtins.match "(.*)-(.*?).(tar.bz2|tar.gz|zip)" name;
       whl = builtins.match "(.*?)-(.*)-(.*?)-(.*?)-(.*?).whl" name;
       meta =
         if whl != null
