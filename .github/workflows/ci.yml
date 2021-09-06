@@ -31,6 +31,7 @@ jobs:
     - run: just build 'python36."antlr4-python3-runtime-4.7.2"'
     - run: just build 'python36."antlr4-python3-runtime-4.9.2"'
     - run: just build 'python36."appium-python-client-1.2.0"'
+    - run: just build 'python36."apscheduler-3.7.0"'
     - run: just build 'python36."ariadne-0.13.0"'
     - run: just build 'python36."asgiref-3.4.1"'
     - run: just build 'python36."async-generator-1.10"'
@@ -61,6 +62,7 @@ jobs:
     - run: just build 'python36."botocore-1.21.32"'
     - run: just build 'python36."botocore-1.21.36"'
     - run: just build 'python36."bs4-0.0.1"'
+    - run: just build 'python36."btrees-4.9.2"'
     - run: just build 'python36."bugsnag-4.1.0"'
     - run: just build 'python36."cached-property-1.5.2"'
     - run: just build 'python36."cachetools-4.2.2"'
@@ -178,6 +180,7 @@ jobs:
     - run: just build 'python36."pathos-0.2.8"'
     - run: just build 'python36."pathspec-0.9.0"'
     - run: just build 'python36."patsy-0.5.1"'
+    - run: just build 'python36."persistent-4.7.0"'
     - run: just build 'python36."pillow-8.3.1"'
     - run: just build 'python36."pillow-8.3.2"'
     - run: just build 'python36."pip-upgrader-1.4.15"'
@@ -282,6 +285,7 @@ jobs:
     - run: just build 'python36."typing-extensions-3.10.0.1"'
     - run: just build 'python36."typing-extensions-3.10.0.2"'
     - run: just build 'python36."tzdata-2021.1"'
+    - run: just build 'python36."tzlocal-2.1"'
     - run: just build 'python36."tzlocal-3.0"'
     - run: just build 'python36."urllib3-1.25.11"'
     - run: just build 'python36."urllib3-1.26.6"'
@@ -298,6 +302,7 @@ jobs:
     - run: just build 'python36."yarl-1.6.3"'
     - run: just build 'python36."zenpy-2.0.24"'
     - run: just build 'python36."zipp-3.5.0"'
+    - run: just build 'python36."zope-interface-5.4.0"'
   python37:
     env:
       CACHIX_AUTH_TOKEN: ${{ secrets.CACHIX_AUTH_TOKEN }}
@@ -331,6 +336,7 @@ jobs:
     - run: just build 'python37."antlr4-python3-runtime-4.9.2"'
     - run: just build 'python37."anyio-3.3.0"'
     - run: just build 'python37."appium-python-client-1.2.0"'
+    - run: just build 'python37."apscheduler-3.7.0"'
     - run: just build 'python37."ariadne-0.13.0"'
     - run: just build 'python37."asgiref-3.4.1"'
     - run: just build 'python37."async-lru-1.0.2"'
@@ -359,6 +365,7 @@ jobs:
     - run: just build 'python37."botocore-1.21.31"'
     - run: just build 'python37."botocore-1.21.36"'
     - run: just build 'python37."bs4-0.0.1"'
+    - run: just build 'python37."btrees-4.9.2"'
     - run: just build 'python37."bugsnag-4.1.0"'
     - run: just build 'python37."cached-property-1.5.2"'
     - run: just build 'python37."cachetools-4.2.2"'
@@ -472,6 +479,7 @@ jobs:
     - run: just build 'python37."pathos-0.2.8"'
     - run: just build 'python37."pathspec-0.9.0"'
     - run: just build 'python37."patsy-0.5.1"'
+    - run: just build 'python37."persistent-4.7.0"'
     - run: just build 'python37."pillow-8.3.1"'
     - run: just build 'python37."pillow-8.3.2"'
     - run: just build 'python37."pip-upgrader-1.4.15"'
@@ -584,6 +592,7 @@ jobs:
     - run: just build 'python37."typing-extensions-3.10.0.1"'
     - run: just build 'python37."typing-extensions-3.10.0.2"'
     - run: just build 'python37."tzdata-2021.1"'
+    - run: just build 'python37."tzlocal-2.1"'
     - run: just build 'python37."tzlocal-3.0"'
     - run: just build 'python37."urllib3-1.25.11"'
     - run: just build 'python37."urllib3-1.26.6"'
@@ -602,6 +611,7 @@ jobs:
     - run: just build 'python37."yarl-1.6.3"'
     - run: just build 'python37."zenpy-2.0.24"'
     - run: just build 'python37."zipp-3.5.0"'
+    - run: just build 'python37."zope-interface-5.4.0"'
   python38:
     env:
       CACHIX_AUTH_TOKEN: ${{ secrets.CACHIX_AUTH_TOKEN }}
@@ -635,6 +645,7 @@ jobs:
     - run: just build 'python38."antlr4-python3-runtime-4.9.2"'
     - run: just build 'python38."anyio-3.3.0"'
     - run: just build 'python38."appium-python-client-1.2.0"'
+    - run: just build 'python38."apscheduler-3.7.0"'
     - run: just build 'python38."ariadne-0.13.0"'
     - run: just build 'python38."asgiref-3.4.1"'
     - run: just build 'python38."async-lru-1.0.2"'
@@ -663,6 +674,7 @@ jobs:
     - run: just build 'python38."botocore-1.21.31"'
     - run: just build 'python38."botocore-1.21.36"'
     - run: just build 'python38."bs4-0.0.1"'
+    - run: just build 'python38."btrees-4.9.2"'
     - run: just build 'python38."bugsnag-4.1.0"'
     - run: just build 'python38."cached-property-1.5.2"'
     - run: just build 'python38."cachetools-4.2.2"'
@@ -776,6 +788,7 @@ jobs:
     - run: just build 'python38."pathos-0.2.8"'
     - run: just build 'python38."pathspec-0.9.0"'
     - run: just build 'python38."patsy-0.5.1"'
+    - run: just build 'python38."persistent-4.7.0"'
     - run: just build 'python38."pillow-8.3.1"'
     - run: just build 'python38."pillow-8.3.2"'
     - run: just build 'python38."pip-upgrader-1.4.15"'
@@ -888,6 +901,7 @@ jobs:
     - run: just build 'python38."typing-extensions-3.10.0.1"'
     - run: just build 'python38."typing-extensions-3.10.0.2"'
     - run: just build 'python38."tzdata-2021.1"'
+    - run: just build 'python38."tzlocal-2.1"'
     - run: just build 'python38."tzlocal-3.0"'
     - run: just build 'python38."urllib3-1.25.11"'
     - run: just build 'python38."urllib3-1.26.6"'
@@ -906,6 +920,7 @@ jobs:
     - run: just build 'python38."yarl-1.6.3"'
     - run: just build 'python38."zenpy-2.0.24"'
     - run: just build 'python38."zipp-3.5.0"'
+    - run: just build 'python38."zope-interface-5.4.0"'
   python39:
     env:
       CACHIX_AUTH_TOKEN: ${{ secrets.CACHIX_AUTH_TOKEN }}
@@ -939,6 +954,7 @@ jobs:
     - run: just build 'python39."antlr4-python3-runtime-4.9.2"'
     - run: just build 'python39."anyio-3.3.0"'
     - run: just build 'python39."appium-python-client-1.2.0"'
+    - run: just build 'python39."apscheduler-3.7.0"'
     - run: just build 'python39."ariadne-0.13.0"'
     - run: just build 'python39."asgiref-3.4.1"'
     - run: just build 'python39."async-lru-1.0.2"'
@@ -967,6 +983,7 @@ jobs:
     - run: just build 'python39."botocore-1.21.31"'
     - run: just build 'python39."botocore-1.21.36"'
     - run: just build 'python39."bs4-0.0.1"'
+    - run: just build 'python39."btrees-4.9.2"'
     - run: just build 'python39."bugsnag-4.1.0"'
     - run: just build 'python39."cached-property-1.5.2"'
     - run: just build 'python39."cachetools-4.2.2"'
@@ -1080,6 +1097,7 @@ jobs:
     - run: just build 'python39."pathos-0.2.8"'
     - run: just build 'python39."pathspec-0.9.0"'
     - run: just build 'python39."patsy-0.5.1"'
+    - run: just build 'python39."persistent-4.7.0"'
     - run: just build 'python39."pillow-8.3.1"'
     - run: just build 'python39."pillow-8.3.2"'
     - run: just build 'python39."pip-upgrader-1.4.15"'
@@ -1189,6 +1207,7 @@ jobs:
     - run: just build 'python39."typing-extensions-3.10.0.1"'
     - run: just build 'python39."typing-extensions-3.10.0.2"'
     - run: just build 'python39."tzdata-2021.1"'
+    - run: just build 'python39."tzlocal-2.1"'
     - run: just build 'python39."tzlocal-3.0"'
     - run: just build 'python39."urllib3-1.25.11"'
     - run: just build 'python39."urllib3-1.26.6"'
@@ -1207,6 +1226,7 @@ jobs:
     - run: just build 'python39."yarl-1.6.3"'
     - run: just build 'python39."zenpy-2.0.24"'
     - run: just build 'python39."zipp-3.5.0"'
+    - run: just build 'python39."zope-interface-5.4.0"'
 name: ci
 'on':
 - pull_request
