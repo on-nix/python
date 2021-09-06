@@ -15,6 +15,7 @@ makeScript {
   };
   searchPaths.bin = [
     __nixpkgs__.curl
+    __nixpkgs__.gnused
     __nixpkgs__.jq
     __nixpkgs__.poetry
     __nixpkgs__.yj

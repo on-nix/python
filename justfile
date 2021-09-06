@@ -24,3 +24,9 @@ ci:
   just build python39.oyaml
   source ./result-python39.oyaml/setup \
     && python3 .github/workflows/generate.py
+
+new PROJECT:
+  m . /create 3.6 {{PROJECT}}; \
+  m . /create 3.7 {{PROJECT}}; \
+  m . /create 3.8 {{PROJECT}}; \
+  m . /create 3.9 {{PROJECT}}; \
