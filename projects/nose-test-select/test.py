@@ -1,0 +1,1 @@
+import nose_test_select
