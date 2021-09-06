@@ -63,7 +63,7 @@ function main {
     && poetry env use "${python}" \
     && poetry add --lock -vv "${project}==${version}" \
     && yj -tj < poetry.lock > poetry.lock.json \
-    && jq -erS '[.package[] | {key: .name, value: .version}] | from_entries' \
+    && jq -erS '[.package[] | {key: (.name | gsub("[-_.]+"; "-")), value: .version}] | from_entries' \
       < poetry.lock.json > closure.json \
     && popd \
     && out="${PWD}/projects/${project}/${version}" \
@@ -77,6 +77,9 @@ function main {
     && mapfile -t projects < projects.lst \
     && mapfile -t versions < versions.lst \
     && popd \
+    && if ! test -e "projects/${project}/test.py"; then
+      echo "import ${project}" > "projects/${project}/test.py"
+    fi \
     && for ((index = 0; index < "${#projects[@]}"; index++)); do
       : \
         && project="$(to_pep503 "${projects[$index]}")" \
