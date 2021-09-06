@@ -1,5 +1,11 @@
 # shellcheck shell=bash
 
+function to_pep503 {
+  local project="${1}"
+
+  echo "${project}" | sed -E "s|[-_.]+|-|g" | tr '[:upper:]' '[:lower:]'
+}
+
 function main {
   local python_version="${1}"
   local project="${2}"
@@ -35,6 +41,7 @@ function main {
       3.9) python=__argPy39__/bin/python ;;
       *) critical Python version not supported: "${python_version}" ;;
     esac \
+    && project="$(to_pep503 "${project}")" \
     && info Using CPython "${python_version}" "${python}" \
     && info Project: "${project}" \
     && tmp="$(mktemp -d)" \
@@ -72,14 +79,16 @@ function main {
     && popd \
     && for ((index = 0; index < "${#projects[@]}"; index++)); do
       : \
-        && project="${projects[$index]}" \
-        && version="${versions[$index]}" \
-        && if ! test -e "projects/${project}/${version}/installers.json"; then
-          fetch "${project}" "${version}"
-        fi \
-        && if ! test -e "projects/${project}/${version}/python${python_version}.json"; then
-          main "${python_version}" "${project}" "${version}"
-        fi
+        && project="$(to_pep503 "${projects[$index]}")" \
+        && version="${versions[$index]}"
+
+      if ! test -e "projects/${project}/${version}/installers.json"; then
+        fetch "${project}" "${version}"
+      fi
+
+      if ! test -e "projects/${project}/${version}/python${python_version}.json"; then
+        main "${python_version}" "${project}" "${version}"
+      fi
     done
 }
 

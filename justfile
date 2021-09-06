@@ -19,3 +19,8 @@ build ATTR:
     CACHIX_AUTH_TOKEN="${CACHIX_NIXPKGS_PYTHON_TOKEN}" \
     cachix push -c 9 nixpkgs-python result*; \
   fi
+
+ci:
+  just build python39.oyaml
+  source ./result-python39.oyaml/setup \
+    && python3 .github/workflows/generate.py

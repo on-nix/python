@@ -22,33 +22,18 @@ function main {
     && jq -er .urls[] < data.json > urls.json \
     && jq -r .filename > names.lst < urls.json \
     && jq -r .digests.sha256 > sha256s.lst < urls.json \
-    && jq -r .url > urls.lst < urls.json \
     && mapfile -t names < names.lst \
     && mapfile -t sha256s < sha256s.lst \
-    && mapfile -t urls < urls.lst \
-    && echo [] > sources.json \
-    && for ((index = 0; index < "${#urls[@]}"; index++)); do
+    && echo {} > sources.json \
+    && for ((index = 0; index < "${#names[@]}"; index++)); do
       : \
         && name="${names[$index]}" \
         && sha256="${sha256s[$index]}" \
-        && url="${urls[$index]}" \
         && info Found: "${name}" \
-        && case "${name}" in
-          *.egg) continue ;;
-          *.exe) continue ;;
-          *-win32.whl) continue ;;
-          *-win_amd64.whl) continue ;;
-          *) ;;
-        esac \
         && jq -ersS \
           --arg name "${name}" \
           --arg sha256 "${sha256}" \
-          --arg url "${url}" \
-          '.[0] | . += [{
-            name: $name,
-            sha256: $sha256,
-            url: $url
-          }]' \
+          '.[0] * { "\($name)": $sha256 }' \
           sources.json \
           > sources2.json \
         && mv sources2.json sources.json \
