@@ -290,7 +290,7 @@ let
           else
             (builtins.map
               (impl: "${base}/${impl}/${projectL}/${project}/${name}")
-              ([ meta.impl ] ++ pythonVersions));
+              ([ meta.impl ] ++ pythonVersions ++ [ "2.7" ]));
       };
     };
 

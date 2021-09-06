@@ -10,7 +10,7 @@ That can be installed with the [Nix][NIX] package manager.
 - Scope:
   - :heavy_check_mark:
     All [active Python releases][PYTHON_RELEASES] (`3.6`, `3.7`, `3.8`, `3.9`)
-  - :heavy_check_mark: 300+ projects already packaged, 350+ versions
+  - :heavy_check_mark: 400+ projects already packaged, 500+ versions
 - Quality:
   - :heavy_check_mark: Pure and reproducible (Nix with sandbox)
   - :heavy_check_mark: Hashes everywhere (fixed-output derivations)
