@@ -1,0 +1,7 @@
+{
+  "greenlet": "1.1.1",
+  "importlib-metadata": "4.8.1",
+  "sqlalchemy": "1.4.23",
+  "typing-extensions": "3.10.0.2",
+  "zipp": "3.5.0"
+}
