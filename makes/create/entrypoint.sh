@@ -78,7 +78,7 @@ function main {
     && mapfile -t versions < versions.lst \
     && popd \
     && if ! test -e "projects/${project}/test.py"; then
-      echo "import ${project}" > "projects/${project}/test.py"
+      echo "import ${project//-/_}" > "projects/${project}/test.py"
     fi \
     && for ((index = 0; index < "${#projects[@]}"; index++)); do
       : \

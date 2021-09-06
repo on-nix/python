@@ -258,6 +258,7 @@ let
 
   enrichInstaller = pythonVersion: project: version: name: sha256:
     let
+      egg = builtins.match "(.*)-(.*?)-(.*).egg" name;
       src = builtins.match "(.*)-(.*?).(tar.bz2|tar.gz|zip)" name;
       whl = builtins.match "(.*?)-(.*)-(.*?)-(.*?)-(.*?).whl" name;
       meta =
@@ -273,6 +274,10 @@ let
         then {
           ext = builtins.elemAt src 2;
           type = "src";
+        }
+        else if egg != null
+        then {
+          type = "egg";
         }
         else abort "Unable to parse installer: ${name}";
       projectL = builtins.substring 0 1 project;

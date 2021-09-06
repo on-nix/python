@@ -26,6 +26,7 @@ ci:
     && python3 .github/workflows/generate.py
 
 new PROJECT:
+  set +e; \
   m . /create 3.6 {{PROJECT}}; \
   m . /create 3.7 {{PROJECT}}; \
   m . /create 3.8 {{PROJECT}}; \
