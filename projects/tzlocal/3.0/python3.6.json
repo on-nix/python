@@ -1,5 +1,5 @@
 {
-  "backports.zoneinfo": "0.2.1",
+  "backports-zoneinfo": "0.2.1",
   "importlib-resources": "5.2.2",
   "tzdata": "2021.1",
   "tzlocal": "3.0",

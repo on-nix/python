@@ -1,5 +1,5 @@
 {
-  "backports.zoneinfo": "0.2.1",
+  "backports-zoneinfo": "0.2.1",
   "certifi": "2021.5.30",
   "charset-normalizer": "2.0.4",
   "delighted": "4.1.0",

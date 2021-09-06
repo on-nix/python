@@ -281,16 +281,14 @@ let
           type = "src";
         }
         else abort "Unable to parse installer: ${name}";
-      project503 = builtins.replaceStrings [ "-" "_" "." ] [ "-" "-" "-" ] project;
     in
     meta // {
       inherit name;
       inherit project;
-      inherit project503;
       path = nixpkgs.fetchurl {
         inherit name;
         inherit sha256;
-        url = "https://files.pythonhosted.org/packages/${meta.impl}/${builtins.substring 0 1 project503}/${project503}/${name}";
+        url = "https://files.pythonhosted.org/packages/${meta.impl}/${builtins.substring 0 1 project}/${project}/${name}";
       };
     };
 
@@ -318,7 +316,7 @@ let
   makePypiMirror = name: installers: nixpkgs.linkFarm "mirror-for-${name}" (
     (builtins.map
       (installer: {
-        name = "${installer.project503}/index.html";
+        name = "${installer.project}/index.html";
         path = builtins.toFile "${installer.project}-index.html" ''
           <html><body>
             <a href="./${installer.name}">${installer.name}</a>
@@ -328,7 +326,7 @@ let
       (installers))
     ++ (builtins.map
       (installer: {
-        name = "${installer.project503}/${installer.name}";
+        name = "${installer.project}/${installer.name}";
         path = installer.path;
       })
       (installers))
