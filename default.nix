@@ -254,16 +254,11 @@ let
       (isSupported installer.abis [ "abi3" ]) ||
         (isSupported installer.pys supportedPythonImplementations.${pythonVersion})
     ));
-  isSupportedSrc =
-    (installer: installer.type == "src"
-      && (
-      (installer.ext == "tar.bz2") ||
-        (installer.ext == "tar.gz")
-    ));
+  isSupportedSrc = installer: installer.type == "src";
 
   enrichInstaller = pythonVersion: project: version: name: sha256:
     let
-      src = builtins.match "(.*)-(.*?).(tar.bz2|tar.gz|zip)" name;
+      src = builtins.match "(.*)-(.*?).(egg|tar.bz2|tar.gz|zip)" name;
       whl = builtins.match "(.*?)-(.*)-(.*?)-(.*?)-(.*?).whl" name;
       meta =
         if whl != null
