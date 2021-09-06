@@ -1,97 +1,21 @@
-[
-  {
-    "name": "PyYAML-5.4.1-cp27-cp27m-macosx_10_9_x86_64.whl",
-    "sha256": "3b2b1824fe7112845700f815ff6a489360226a5609b96ec2190a45e62a9fc922",
-    "url": "https://files.pythonhosted.org/packages/42/c5/440fd6200c345c3d522fbe47a52558733c4661aac3c8cf06b7de31bababd/PyYAML-5.4.1-cp27-cp27m-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "PyYAML-5.4.1-cp27-cp27mu-manylinux1_x86_64.whl",
-    "sha256": "bb4191dfc9306777bc594117aee052446b3fa88737cd13b7188d0e7aa8162185",
-    "url": "https://files.pythonhosted.org/packages/ba/d4/3cf562876e0cda0405e65d351b835077ab13990e5b92912ef2bf1a2280e0/PyYAML-5.4.1-cp27-cp27mu-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "PyYAML-5.4.1-cp36-cp36m-macosx_10_9_x86_64.whl",
-    "sha256": "6c78645d400265a062508ae399b60b8c167bf003db364ecb26dcab2bda048253",
-    "url": "https://files.pythonhosted.org/packages/ef/e9/d62912119552b157ed66dc8297ae6ac08629d7d5c497d4faa26b0c3a4efe/PyYAML-5.4.1-cp36-cp36m-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "PyYAML-5.4.1-cp36-cp36m-manylinux1_x86_64.whl",
-    "sha256": "4e0583d24c881e14342eaf4ec5fbc97f934b999a6828693a99157fde912540cc",
-    "url": "https://files.pythonhosted.org/packages/7a/5b/bc0b5ab38247bba158504a410112b6c03f153c652734ece1849749e5f518/PyYAML-5.4.1-cp36-cp36m-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "PyYAML-5.4.1-cp36-cp36m-manylinux2014_aarch64.whl",
-    "sha256": "72a01f726a9c7851ca9bfad6fd09ca4e090a023c00945ea05ba1638c09dc3347",
-    "url": "https://files.pythonhosted.org/packages/eb/fa/98f8ae428dc23a2b9dcfb187600e4a9b3effce35a28b63cb8f97fda1938c/PyYAML-5.4.1-cp36-cp36m-manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "PyYAML-5.4.1-cp36-cp36m-manylinux2014_s390x.whl",
-    "sha256": "895f61ef02e8fed38159bb70f7e100e00f471eae2bc838cd0f4ebb21e28f8541",
-    "url": "https://files.pythonhosted.org/packages/b0/6d/b848880f1afe751bfa2607538569557f1c11c7466416be873347ce4a884f/PyYAML-5.4.1-cp36-cp36m-manylinux2014_s390x.whl"
-  },
-  {
-    "name": "PyYAML-5.4.1-cp37-cp37m-macosx_10_9_x86_64.whl",
-    "sha256": "5accb17103e43963b80e6f837831f38d314a0495500067cb25afab2e8d7a4018",
-    "url": "https://files.pythonhosted.org/packages/6b/8c/674cc47282af12bd7f12eea6cc87d907ada593b15f5ba0b51638599500c9/PyYAML-5.4.1-cp37-cp37m-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "PyYAML-5.4.1-cp37-cp37m-manylinux1_x86_64.whl",
-    "sha256": "e1d4970ea66be07ae37a3c2e48b5ec63f7ba6804bdddfdbd3cfd954d25a82e63",
-    "url": "https://files.pythonhosted.org/packages/7a/a5/393c087efdc78091afa2af9f1378762f9821c9c1d7a22c5753fb5ac5f97a/PyYAML-5.4.1-cp37-cp37m-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "PyYAML-5.4.1-cp37-cp37m-manylinux2014_aarch64.whl",
-    "sha256": "cb333c16912324fd5f769fff6bc5de372e9e7a202247b48870bc251ed40239aa",
-    "url": "https://files.pythonhosted.org/packages/32/ac/a9383af90be713b0cb2ee7c7eb4317ab76957ed0a7e4aa9b9c170a992565/PyYAML-5.4.1-cp37-cp37m-manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "PyYAML-5.4.1-cp37-cp37m-manylinux2014_s390x.whl",
-    "sha256": "fe69978f3f768926cfa37b867e3843918e012cf83f680806599ddce33c2c68b0",
-    "url": "https://files.pythonhosted.org/packages/46/cb/e08d6f44782f778a80f8a9f56284415218954949062ecb6c79373d828019/PyYAML-5.4.1-cp37-cp37m-manylinux2014_s390x.whl"
-  },
-  {
-    "name": "PyYAML-5.4.1-cp38-cp38-macosx_10_9_x86_64.whl",
-    "sha256": "d2d9808ea7b4af864f35ea216be506ecec180628aced0704e34aca0b040ffe46",
-    "url": "https://files.pythonhosted.org/packages/cb/3f/2f35751408c0b2a425aa48dd79301a48418858d3366f84c75d1aa42b6e2d/PyYAML-5.4.1-cp38-cp38-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "PyYAML-5.4.1-cp38-cp38-manylinux1_x86_64.whl",
-    "sha256": "8c1be557ee92a20f184922c7b6424e8ab6691788e6d86137c5d93c1a6ec1b8fb",
-    "url": "https://files.pythonhosted.org/packages/70/96/c7245e551b1cb496bfb95840ace55ca60f20d3d8e33d70faf8c78a976899/PyYAML-5.4.1-cp38-cp38-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "PyYAML-5.4.1-cp38-cp38-manylinux2014_aarch64.whl",
-    "sha256": "fd7f6999a8070df521b6384004ef42833b9bd62cfee11a09bda1079b4b704247",
-    "url": "https://files.pythonhosted.org/packages/06/2f/c03b2b7e6fcda2793f751c82bd2c488d4bd064720edffa2fdda9a422bec2/PyYAML-5.4.1-cp38-cp38-manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "PyYAML-5.4.1-cp38-cp38-manylinux2014_s390x.whl",
-    "sha256": "bfb51918d4ff3d77c1c856a9699f8492c612cde32fd3bcd344af9be34999bfdc",
-    "url": "https://files.pythonhosted.org/packages/d6/0d/4820527144e18e35488e6253a8b886ed0b90491fb8fff48c11ff71542529/PyYAML-5.4.1-cp38-cp38-manylinux2014_s390x.whl"
-  },
-  {
-    "name": "PyYAML-5.4.1-cp39-cp39-macosx_10_9_x86_64.whl",
-    "sha256": "294db365efa064d00b8d1ef65d8ea2c3426ac366c0c4368d930bf1c5fb497f77",
-    "url": "https://files.pythonhosted.org/packages/e9/2d/297c01c7ed7d4d040903807824dc64d4f7bb53c15183ac9d7cb496d843eb/PyYAML-5.4.1-cp39-cp39-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "PyYAML-5.4.1-cp39-cp39-manylinux1_x86_64.whl",
-    "sha256": "74c1485f7707cf707a7aef42ef6322b8f97921bd89be2ab6317fd782c2d53183",
-    "url": "https://files.pythonhosted.org/packages/3d/1f/2a3705efca3b47161ceaaf52970a9d4b81cc84600818686ecd75093a00a5/PyYAML-5.4.1-cp39-cp39-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "PyYAML-5.4.1-cp39-cp39-manylinux2014_aarch64.whl",
-    "sha256": "d483ad4e639292c90170eb6f7783ad19490e7a8defb3e46f97dfe4bacae89122",
-    "url": "https://files.pythonhosted.org/packages/38/b1/ece9535e842b64e6e0676f5e4f506f1b395d9aaaea6f3ea9abad498a8697/PyYAML-5.4.1-cp39-cp39-manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "PyYAML-5.4.1-cp39-cp39-manylinux2014_s390x.whl",
-    "sha256": "fdc842473cd33f45ff6bce46aea678a54e3d21f1b61a7750ce3c498eedfe25d6",
-    "url": "https://files.pythonhosted.org/packages/74/8d/0cc7f89444cb9c54bfdf07b0c29843f2f9fe0679bdb4e56ba5042e273a61/PyYAML-5.4.1-cp39-cp39-manylinux2014_s390x.whl"
-  },
-  {
-    "name": "PyYAML-5.4.1.tar.gz",
-    "sha256": "607774cbba28732bfa802b54baa7484215f530991055bb562efbed5b2f20a45e",
-    "url": "https://files.pythonhosted.org/packages/a0/a4/d63f2d7597e1a4b55aa3b4d6c5b029991d3b824b5bd331af8d4ab1ed687d/PyYAML-5.4.1.tar.gz"
-  }
-]
+{
+  "PyYAML-5.4.1-cp27-cp27m-macosx_10_9_x86_64.whl": "3b2b1824fe7112845700f815ff6a489360226a5609b96ec2190a45e62a9fc922",
+  "PyYAML-5.4.1-cp27-cp27mu-manylinux1_x86_64.whl": "bb4191dfc9306777bc594117aee052446b3fa88737cd13b7188d0e7aa8162185",
+  "PyYAML-5.4.1-cp36-cp36m-macosx_10_9_x86_64.whl": "6c78645d400265a062508ae399b60b8c167bf003db364ecb26dcab2bda048253",
+  "PyYAML-5.4.1-cp36-cp36m-manylinux1_x86_64.whl": "4e0583d24c881e14342eaf4ec5fbc97f934b999a6828693a99157fde912540cc",
+  "PyYAML-5.4.1-cp36-cp36m-manylinux2014_aarch64.whl": "72a01f726a9c7851ca9bfad6fd09ca4e090a023c00945ea05ba1638c09dc3347",
+  "PyYAML-5.4.1-cp36-cp36m-manylinux2014_s390x.whl": "895f61ef02e8fed38159bb70f7e100e00f471eae2bc838cd0f4ebb21e28f8541",
+  "PyYAML-5.4.1-cp37-cp37m-macosx_10_9_x86_64.whl": "5accb17103e43963b80e6f837831f38d314a0495500067cb25afab2e8d7a4018",
+  "PyYAML-5.4.1-cp37-cp37m-manylinux1_x86_64.whl": "e1d4970ea66be07ae37a3c2e48b5ec63f7ba6804bdddfdbd3cfd954d25a82e63",
+  "PyYAML-5.4.1-cp37-cp37m-manylinux2014_aarch64.whl": "cb333c16912324fd5f769fff6bc5de372e9e7a202247b48870bc251ed40239aa",
+  "PyYAML-5.4.1-cp37-cp37m-manylinux2014_s390x.whl": "fe69978f3f768926cfa37b867e3843918e012cf83f680806599ddce33c2c68b0",
+  "PyYAML-5.4.1-cp38-cp38-macosx_10_9_x86_64.whl": "d2d9808ea7b4af864f35ea216be506ecec180628aced0704e34aca0b040ffe46",
+  "PyYAML-5.4.1-cp38-cp38-manylinux1_x86_64.whl": "8c1be557ee92a20f184922c7b6424e8ab6691788e6d86137c5d93c1a6ec1b8fb",
+  "PyYAML-5.4.1-cp38-cp38-manylinux2014_aarch64.whl": "fd7f6999a8070df521b6384004ef42833b9bd62cfee11a09bda1079b4b704247",
+  "PyYAML-5.4.1-cp38-cp38-manylinux2014_s390x.whl": "bfb51918d4ff3d77c1c856a9699f8492c612cde32fd3bcd344af9be34999bfdc",
+  "PyYAML-5.4.1-cp39-cp39-macosx_10_9_x86_64.whl": "294db365efa064d00b8d1ef65d8ea2c3426ac366c0c4368d930bf1c5fb497f77",
+  "PyYAML-5.4.1-cp39-cp39-manylinux1_x86_64.whl": "74c1485f7707cf707a7aef42ef6322b8f97921bd89be2ab6317fd782c2d53183",
+  "PyYAML-5.4.1-cp39-cp39-manylinux2014_aarch64.whl": "d483ad4e639292c90170eb6f7783ad19490e7a8defb3e46f97dfe4bacae89122",
+  "PyYAML-5.4.1-cp39-cp39-manylinux2014_s390x.whl": "fdc842473cd33f45ff6bce46aea678a54e3d21f1b61a7750ce3c498eedfe25d6",
+  "PyYAML-5.4.1.tar.gz": "607774cbba28732bfa802b54baa7484215f530991055bb562efbed5b2f20a45e"
+}

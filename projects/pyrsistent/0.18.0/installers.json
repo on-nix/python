@@ -1,67 +1,15 @@
-[
-  {
-    "name": "pyrsistent-0.18.0-cp36-cp36m-macosx_10_9_x86_64.whl",
-    "sha256": "f4c8cabb46ff8e5d61f56a037974228e978f26bfefce4f61a4b1ac0ba7a2ab72",
-    "url": "https://files.pythonhosted.org/packages/c5/8c/0d2de0f77b9c70bffac64a827c003888df3c400d40df3769cc75dcc86533/pyrsistent-0.18.0-cp36-cp36m-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "pyrsistent-0.18.0-cp36-cp36m-manylinux1_i686.whl",
-    "sha256": "da6e5e818d18459fa46fac0a4a4e543507fe1110e808101277c5a2b5bab0cd2d",
-    "url": "https://files.pythonhosted.org/packages/50/eb/5d286a7673ece30c939c4cacd8ced8268d13eacf207d2a47c8dc9622cbbb/pyrsistent-0.18.0-cp36-cp36m-manylinux1_i686.whl"
-  },
-  {
-    "name": "pyrsistent-0.18.0-cp36-cp36m-manylinux1_x86_64.whl",
-    "sha256": "5e4395bbf841693eaebaa5bb5c8f5cdbb1d139e07c975c682ec4e4f8126e03d2",
-    "url": "https://files.pythonhosted.org/packages/6c/19/1af501f6f388a40ede6d0185ba481bdb18ffc99deab0dd0d092b173bc0f4/pyrsistent-0.18.0-cp36-cp36m-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "pyrsistent-0.18.0-cp37-cp37m-macosx_10_9_x86_64.whl",
-    "sha256": "58a70d93fb79dc585b21f9d72487b929a6fe58da0754fa4cb9f279bb92369396",
-    "url": "https://files.pythonhosted.org/packages/d4/63/5ef75e0e19154787bee90b0bf1567237e67c56e1d6b8ea117829a3f7c6a9/pyrsistent-0.18.0-cp37-cp37m-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "pyrsistent-0.18.0-cp37-cp37m-manylinux1_i686.whl",
-    "sha256": "4916c10896721e472ee12c95cdc2891ce5890898d2f9907b1b4ae0f53588b710",
-    "url": "https://files.pythonhosted.org/packages/04/6c/38e250b4908e90167d66ca22b22728c12a7cb45678850cc80e0ba602318f/pyrsistent-0.18.0-cp37-cp37m-manylinux1_i686.whl"
-  },
-  {
-    "name": "pyrsistent-0.18.0-cp37-cp37m-manylinux1_x86_64.whl",
-    "sha256": "73ff61b1411e3fb0ba144b8f08d6749749775fe89688093e1efef9839d2dcc35",
-    "url": "https://files.pythonhosted.org/packages/b6/31/6e33022d5056ac64972f2d1411ba04261668e5d4e90b23c115f2e81283bc/pyrsistent-0.18.0-cp37-cp37m-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "pyrsistent-0.18.0-cp38-cp38-macosx_10_9_x86_64.whl",
-    "sha256": "772e94c2c6864f2cd2ffbe58bb3bdefbe2a32afa0acb1a77e472aac831f83427",
-    "url": "https://files.pythonhosted.org/packages/25/c8/fc1cf625433aae3305cc492b035ac41a1be5ed4b01e2aac46b8d0dd79847/pyrsistent-0.18.0-cp38-cp38-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "pyrsistent-0.18.0-cp38-cp38-manylinux1_i686.whl",
-    "sha256": "c1a9ff320fa699337e05edcaae79ef8c2880b52720bc031b219e5b5008ebbdef",
-    "url": "https://files.pythonhosted.org/packages/7b/25/c8291eb3cfd066f8d4a534604de720b1be7517182056dabaecc63384e8e1/pyrsistent-0.18.0-cp38-cp38-manylinux1_i686.whl"
-  },
-  {
-    "name": "pyrsistent-0.18.0-cp38-cp38-manylinux1_x86_64.whl",
-    "sha256": "cd3caef37a415fd0dae6148a1b6957a8c5f275a62cca02e18474608cb263640c",
-    "url": "https://files.pythonhosted.org/packages/3d/5b/1514e921fd749e53ecfeb7cf65ba7d8946123f25de18bf7b7f4ad17226cc/pyrsistent-0.18.0-cp38-cp38-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "pyrsistent-0.18.0-cp39-cp39-macosx_10_9_x86_64.whl",
-    "sha256": "d5ec194c9c573aafaceebf05fc400656722793dac57f254cd4741f3c27ae57b4",
-    "url": "https://files.pythonhosted.org/packages/82/52/67c7ebce1778978cc333e08dd5e375e0031e004e21524af772b6ad60fd74/pyrsistent-0.18.0-cp39-cp39-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "pyrsistent-0.18.0-cp39-cp39-manylinux1_i686.whl",
-    "sha256": "6b5eed00e597b5b5773b4ca30bd48a5774ef1e96f2a45d105db5b4ebb4bca680",
-    "url": "https://files.pythonhosted.org/packages/cd/04/d6982b2a1b191b9861e572a15cdb4912804a89f6a7aca762eb9f3223ca25/pyrsistent-0.18.0-cp39-cp39-manylinux1_i686.whl"
-  },
-  {
-    "name": "pyrsistent-0.18.0-cp39-cp39-manylinux1_x86_64.whl",
-    "sha256": "48578680353f41dca1ca3dc48629fb77dfc745128b56fc01096b2530c13fd426",
-    "url": "https://files.pythonhosted.org/packages/89/32/51fbef50787c6a430ba0a1bf2605a204c633b540ad18692062cd5363c001/pyrsistent-0.18.0-cp39-cp39-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "pyrsistent-0.18.0.tar.gz",
-    "sha256": "773c781216f8c2900b42a7b638d5b517bb134ae1acbebe4d1e8f1f41ea60eb4b",
-    "url": "https://files.pythonhosted.org/packages/f4/d7/0fa558c4fb00f15aabc6d42d365fcca7a15fcc1091cd0f5784a14f390b7f/pyrsistent-0.18.0.tar.gz"
-  }
-]
+{
+  "pyrsistent-0.18.0-cp36-cp36m-macosx_10_9_x86_64.whl": "f4c8cabb46ff8e5d61f56a037974228e978f26bfefce4f61a4b1ac0ba7a2ab72",
+  "pyrsistent-0.18.0-cp36-cp36m-manylinux1_i686.whl": "da6e5e818d18459fa46fac0a4a4e543507fe1110e808101277c5a2b5bab0cd2d",
+  "pyrsistent-0.18.0-cp36-cp36m-manylinux1_x86_64.whl": "5e4395bbf841693eaebaa5bb5c8f5cdbb1d139e07c975c682ec4e4f8126e03d2",
+  "pyrsistent-0.18.0-cp37-cp37m-macosx_10_9_x86_64.whl": "58a70d93fb79dc585b21f9d72487b929a6fe58da0754fa4cb9f279bb92369396",
+  "pyrsistent-0.18.0-cp37-cp37m-manylinux1_i686.whl": "4916c10896721e472ee12c95cdc2891ce5890898d2f9907b1b4ae0f53588b710",
+  "pyrsistent-0.18.0-cp37-cp37m-manylinux1_x86_64.whl": "73ff61b1411e3fb0ba144b8f08d6749749775fe89688093e1efef9839d2dcc35",
+  "pyrsistent-0.18.0-cp38-cp38-macosx_10_9_x86_64.whl": "772e94c2c6864f2cd2ffbe58bb3bdefbe2a32afa0acb1a77e472aac831f83427",
+  "pyrsistent-0.18.0-cp38-cp38-manylinux1_i686.whl": "c1a9ff320fa699337e05edcaae79ef8c2880b52720bc031b219e5b5008ebbdef",
+  "pyrsistent-0.18.0-cp38-cp38-manylinux1_x86_64.whl": "cd3caef37a415fd0dae6148a1b6957a8c5f275a62cca02e18474608cb263640c",
+  "pyrsistent-0.18.0-cp39-cp39-macosx_10_9_x86_64.whl": "d5ec194c9c573aafaceebf05fc400656722793dac57f254cd4741f3c27ae57b4",
+  "pyrsistent-0.18.0-cp39-cp39-manylinux1_i686.whl": "6b5eed00e597b5b5773b4ca30bd48a5774ef1e96f2a45d105db5b4ebb4bca680",
+  "pyrsistent-0.18.0-cp39-cp39-manylinux1_x86_64.whl": "48578680353f41dca1ca3dc48629fb77dfc745128b56fc01096b2530c13fd426",
+  "pyrsistent-0.18.0.tar.gz": "773c781216f8c2900b42a7b638d5b517bb134ae1acbebe4d1e8f1f41ea60eb4b"
+}

@@ -1,12 +1,4 @@
-[
-  {
-    "name": "geoip2-4.2.0-py2.py3-none-any.whl",
-    "sha256": "b97b44031fdc463e84eb1316b4f19edd978cb1d78703465fcb1e36dc5a822ba6",
-    "url": "https://files.pythonhosted.org/packages/5b/b1/f4df9aff13c04573aface2fe0d61c42532425c22364b1ef15fc7a2d563ff/geoip2-4.2.0-py2.py3-none-any.whl"
-  },
-  {
-    "name": "geoip2-4.2.0.tar.gz",
-    "sha256": "906a1dbf15a179a1af3522970e8420ab15bb3e0afc526942cc179e12146d9c1d",
-    "url": "https://files.pythonhosted.org/packages/6a/c4/3a29130cffcfdac7690de09f9a00aad30a36381ad635652fe8ca3ff0cf9c/geoip2-4.2.0.tar.gz"
-  }
-]
+{
+  "geoip2-4.2.0-py2.py3-none-any.whl": "b97b44031fdc463e84eb1316b4f19edd978cb1d78703465fcb1e36dc5a822ba6",
+  "geoip2-4.2.0.tar.gz": "906a1dbf15a179a1af3522970e8420ab15bb3e0afc526942cc179e12146d9c1d"
+}

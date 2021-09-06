@@ -1,12 +1,4 @@
-[
-  {
-    "name": "social_auth_core-4.1.0-py3-none-any.whl",
-    "sha256": "983b53167ac56e7ba4909db555602a6e7a98c97ca47183bb222eb85ba627bf2b",
-    "url": "https://files.pythonhosted.org/packages/ca/b5/5a34aeda70fe8488b93972441b4599473f5560a76d7dd2e51a44f6530490/social_auth_core-4.1.0-py3-none-any.whl"
-  },
-  {
-    "name": "social-auth-core-4.1.0.tar.gz",
-    "sha256": "5ab43b3b15dce5f059db69cc3082c216574739f0edbc98629c8c6e8769c67eb4",
-    "url": "https://files.pythonhosted.org/packages/47/88/b7d726d1ba0c303b58f65fb605127a46f1b27b3a32a21387a951ec23bcb9/social-auth-core-4.1.0.tar.gz"
-  }
-]
+{
+  "social-auth-core-4.1.0.tar.gz": "5ab43b3b15dce5f059db69cc3082c216574739f0edbc98629c8c6e8769c67eb4",
+  "social_auth_core-4.1.0-py3-none-any.whl": "983b53167ac56e7ba4909db555602a6e7a98c97ca47183bb222eb85ba627bf2b"
+}

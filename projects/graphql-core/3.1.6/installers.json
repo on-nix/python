@@ -1,12 +1,4 @@
-[
-  {
-    "name": "graphql_core-3.1.6-py3-none-any.whl",
-    "sha256": "c78d09596d347e1cffd266c5384abfedf43ed1eae08729773bebb3d527fe5a14",
-    "url": "https://files.pythonhosted.org/packages/43/bb/27c6e86c05c780c1a54731a95c7bc6285eca2e0f0d88d190a3fd1f61d75c/graphql_core-3.1.6-py3-none-any.whl"
-  },
-  {
-    "name": "graphql-core-3.1.6.tar.gz",
-    "sha256": "e65975b6a13878f9113a1fa5320760585b522d139944e005936b1b8358d0651a",
-    "url": "https://files.pythonhosted.org/packages/d3/db/a4f5ad331af2295f9cf3ed61492961b2a0db2ae8db21222f4af88fba6321/graphql-core-3.1.6.tar.gz"
-  }
-]
+{
+  "graphql-core-3.1.6.tar.gz": "e65975b6a13878f9113a1fa5320760585b522d139944e005936b1b8358d0651a",
+  "graphql_core-3.1.6-py3-none-any.whl": "c78d09596d347e1cffd266c5384abfedf43ed1eae08729773bebb3d527fe5a14"
+}

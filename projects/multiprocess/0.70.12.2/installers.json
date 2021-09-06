@@ -1,57 +1,13 @@
-[
-  {
-    "name": "multiprocess-0.70.12.2-cp27-cp27m-macosx_10_12_x86_64.whl",
-    "sha256": "35d41e410ca2a32977a483ae1f40f86b193b45cecf85567c2fae402fb8bf172e",
-    "url": "https://files.pythonhosted.org/packages/35/04/114627437f9bce88375c7d5abfe52db9c63877f86cfa61e4d90db9d5b4e9/multiprocess-0.70.12.2-cp27-cp27m-macosx_10_12_x86_64.whl"
-  },
-  {
-    "name": "multiprocess-0.70.12.2-cp27-cp27m-manylinux1_i686.whl",
-    "sha256": "9a02237eae21975155c816883479f72e239d16823a6bc063173d59acec9bcf41",
-    "url": "https://files.pythonhosted.org/packages/87/7a/f62e81b67e585f4bbc64b63941d2b884970cf3ecea2bd5617c44fcfb2a2b/multiprocess-0.70.12.2-cp27-cp27m-manylinux1_i686.whl"
-  },
-  {
-    "name": "multiprocess-0.70.12.2-cp27-cp27m-manylinux1_x86_64.whl",
-    "sha256": "f12a939cd2f01d0a900e7ef2aaee3c351a49fd2297d7f760b537af22727561b8",
-    "url": "https://files.pythonhosted.org/packages/8c/17/79345dffec97d04019b391258eb0c79cf033796605ba799aad6fd015a5ad/multiprocess-0.70.12.2-cp27-cp27m-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "multiprocess-0.70.12.2-pp27-none-any.whl",
-    "sha256": "a9f58945edb234591684c0a181b744a3231643814ef3a8f47cea9a2073b4b2bb",
-    "url": "https://files.pythonhosted.org/packages/97/0a/c9e66e0c3fd4f2a9404c91ba1a967858041c865c958746bb6939454eed10/multiprocess-0.70.12.2-pp27-none-any.whl"
-  },
-  {
-    "name": "multiprocess-0.70.12.2-pp36-none-any.whl",
-    "sha256": "0e0a5ae4bd84e4c22baddf824d3b8168214f8c1cce51e2cb080421cb1f7b04d1",
-    "url": "https://files.pythonhosted.org/packages/f1/4b/fe61ba68c54e96802c4b2b181cae4a5b658a96bb9f251485a66344245556/multiprocess-0.70.12.2-pp36-none-any.whl"
-  },
-  {
-    "name": "multiprocess-0.70.12.2-pp37-none-any.whl",
-    "sha256": "916a314a1e0f3454033d59672ba6181fa45948ab1091d68cdd479258576e7b27",
-    "url": "https://files.pythonhosted.org/packages/b7/94/6efd1e87108d5ae86f75ee2049ad5bacbaeb58ee7a521570a144e1d8796d/multiprocess-0.70.12.2-pp37-none-any.whl"
-  },
-  {
-    "name": "multiprocess-0.70.12.2-py36-none-any.whl",
-    "sha256": "b3f866f7d9c7acc1a9cb1b6063a29f5cb140ff545b35b71fd4bfdac6f19d75fa",
-    "url": "https://files.pythonhosted.org/packages/df/d0/c3011a5bb77f307e68682a5046cce1a2c6591267bf24b5bf3fc4130bb39d/multiprocess-0.70.12.2-py36-none-any.whl"
-  },
-  {
-    "name": "multiprocess-0.70.12.2-py37-none-any.whl",
-    "sha256": "6aa67e805e50b6e9dfc56dd0f0c85ac3409e6791d4ec5405c5f9bc0a47d745a4",
-    "url": "https://files.pythonhosted.org/packages/aa/d8/d7bbcef5c03890f5fe983d8419b0c5236af3657c5aa9bddf1991a6ed813a/multiprocess-0.70.12.2-py37-none-any.whl"
-  },
-  {
-    "name": "multiprocess-0.70.12.2-py38-none-any.whl",
-    "sha256": "85941e650c277af44fc82e3e97faacb920e5ce3615238b540cbad4012d6f60e9",
-    "url": "https://files.pythonhosted.org/packages/e6/22/b09b8394f8c86ff0cfebd725ea96bba0accd4a4b2be437bcba6a0cf7d1c3/multiprocess-0.70.12.2-py38-none-any.whl"
-  },
-  {
-    "name": "multiprocess-0.70.12.2-py39-none-any.whl",
-    "sha256": "6f812a1d3f198b7cacd63983f60e2dc1338bd4450893f90c435067b5a3127e6f",
-    "url": "https://files.pythonhosted.org/packages/e3/12/c1c7b5574a574a5bc898c8656b0ab8514d0609356b3ca18180e2ae94c2f7/multiprocess-0.70.12.2-py39-none-any.whl"
-  },
-  {
-    "name": "multiprocess-0.70.12.2.zip",
-    "sha256": "206bb9b97b73f87fec1ed15a19f8762950256aa84225450abc7150d02855a083",
-    "url": "https://files.pythonhosted.org/packages/99/1a/472900644359cdd208d1fbe71706bdeecbc6e8db2e39c35ebe89459e9172/multiprocess-0.70.12.2.zip"
-  }
-]
+{
+  "multiprocess-0.70.12.2-cp27-cp27m-macosx_10_12_x86_64.whl": "35d41e410ca2a32977a483ae1f40f86b193b45cecf85567c2fae402fb8bf172e",
+  "multiprocess-0.70.12.2-cp27-cp27m-manylinux1_i686.whl": "9a02237eae21975155c816883479f72e239d16823a6bc063173d59acec9bcf41",
+  "multiprocess-0.70.12.2-cp27-cp27m-manylinux1_x86_64.whl": "f12a939cd2f01d0a900e7ef2aaee3c351a49fd2297d7f760b537af22727561b8",
+  "multiprocess-0.70.12.2-pp27-none-any.whl": "a9f58945edb234591684c0a181b744a3231643814ef3a8f47cea9a2073b4b2bb",
+  "multiprocess-0.70.12.2-pp36-none-any.whl": "0e0a5ae4bd84e4c22baddf824d3b8168214f8c1cce51e2cb080421cb1f7b04d1",
+  "multiprocess-0.70.12.2-pp37-none-any.whl": "916a314a1e0f3454033d59672ba6181fa45948ab1091d68cdd479258576e7b27",
+  "multiprocess-0.70.12.2-py36-none-any.whl": "b3f866f7d9c7acc1a9cb1b6063a29f5cb140ff545b35b71fd4bfdac6f19d75fa",
+  "multiprocess-0.70.12.2-py37-none-any.whl": "6aa67e805e50b6e9dfc56dd0f0c85ac3409e6791d4ec5405c5f9bc0a47d745a4",
+  "multiprocess-0.70.12.2-py38-none-any.whl": "85941e650c277af44fc82e3e97faacb920e5ce3615238b540cbad4012d6f60e9",
+  "multiprocess-0.70.12.2-py39-none-any.whl": "6f812a1d3f198b7cacd63983f60e2dc1338bd4450893f90c435067b5a3127e6f",
+  "multiprocess-0.70.12.2.zip": "206bb9b97b73f87fec1ed15a19f8762950256aa84225450abc7150d02855a083"
+}

@@ -1,7 +1,3 @@
-[
-  {
-    "name": "bs4-0.0.1.tar.gz",
-    "sha256": "36ecea1fd7cc5c0c6e4a1ff075df26d50da647b75376626cc186e2212886dd3a",
-    "url": "https://files.pythonhosted.org/packages/10/ed/7e8b97591f6f456174139ec089c769f89a94a1a4025fe967691de971f314/bs4-0.0.1.tar.gz"
-  }
-]
+{
+  "bs4-0.0.1.tar.gz": "36ecea1fd7cc5c0c6e4a1ff075df26d50da647b75376626cc186e2212886dd3a"
+}

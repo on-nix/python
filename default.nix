@@ -261,38 +261,45 @@ let
         (installer.ext == "tar.gz")
     ));
 
-  enrichInstaller = project: version: installer:
+  enrichInstaller = project: version: name: sha256:
     let
-      src = builtins.match "(.*?)-(.*).(tar.bz2|tar.gz|zip)" installer.name;
-      whl = builtins.match "(.*?)-(.*)-(.*?)-(.*?)-(.*?).whl" installer.name;
+      src = builtins.match "(.*)-(.*?).(tar.bz2|tar.gz|zip)" name;
+      whl = builtins.match "(.*?)-(.*)-(.*?)-(.*?)-(.*?).whl" name;
       meta =
         if whl != null
-        then {
+        then rec {
           abis = splitString "." (builtins.elemAt whl 3);
           archs = splitString "." (builtins.elemAt whl 4);
-          pys = splitString "." (builtins.elemAt whl 2);
+          impl = builtins.elemAt whl 2;
+          pys = splitString "." impl;
           type = "whl";
         }
         else if src != null
         then {
           ext = builtins.elemAt src 2;
+          impl = "source";
           type = "src";
         }
-        else abort "Unable to parse installer: ${installer.name}";
-    in
-    installer // meta // {
-      inherit project;
+        else abort "Unable to parse installer: ${name}";
       project503 = builtins.replaceStrings [ "-" "_" "." ] [ "-" "-" "-" ] project;
-      inherit version;
-      path = nixpkgs.fetchurl installer;
+    in
+    meta // {
+      inherit name;
+      inherit project;
+      inherit project503;
+      path = nixpkgs.fetchurl {
+        inherit name;
+        inherit sha256;
+        url = "https://files.pythonhosted.org/packages/${meta.impl}/${builtins.substring 0 1 project503}/${project503}/${name}";
+      };
     };
 
   makePypiInstaller = pythonVersion: project: version:
     let
       installersPath = projectsSrc + "/${project}/${version}/installers.json";
-      installers = builtins.map
+      installers = builtins.attrValues (builtins.mapAttrs
         (enrichInstaller project version)
-        (fromJsonFile installersPath);
+        (fromJsonFile installersPath));
       installer = findFirst (installer: installer != null) null (builtins.map
         (predicate: findFirst predicate null installers)
         [

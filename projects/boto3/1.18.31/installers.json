@@ -1,12 +1,4 @@
-[
-  {
-    "name": "boto3-1.18.31-py3-none-any.whl",
-    "sha256": "203e86311253d291d39588ae2e8dce82eecc10b9f4567ef765d7c54ec02a3e2b",
-    "url": "https://files.pythonhosted.org/packages/69/c9/486ca332f093e4f93545c646eb06ffe549f367bc273ecd77d0e7ab7d7b78/boto3-1.18.31-py3-none-any.whl"
-  },
-  {
-    "name": "boto3-1.18.31.tar.gz",
-    "sha256": "59445d0e1d55c8c9675697ea41c98a0d82089a4be3076ea60e3a87cbe94dc141",
-    "url": "https://files.pythonhosted.org/packages/23/e5/c73172de2c65e9a29b999202e483e223f1f7d30b89e024c8123359adfd7e/boto3-1.18.31.tar.gz"
-  }
-]
+{
+  "boto3-1.18.31-py3-none-any.whl": "203e86311253d291d39588ae2e8dce82eecc10b9f4567ef765d7c54ec02a3e2b",
+  "boto3-1.18.31.tar.gz": "59445d0e1d55c8c9675697ea41c98a0d82089a4be3076ea60e3a87cbe94dc141"
+}

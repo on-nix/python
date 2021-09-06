@@ -1,12 +1,4 @@
-[
-  {
-    "name": "pytest_rerunfailures-10.1-py3-none-any.whl",
-    "sha256": "53db94acf7499c75c5257c79d8a1dc22c3db4bc8d32ec3a713ea91eda3f98359",
-    "url": "https://files.pythonhosted.org/packages/1b/6f/e8080ad41520b3bd8c20662480aba0c983e69e67ae9f4f22696342843e4d/pytest_rerunfailures-10.1-py3-none-any.whl"
-  },
-  {
-    "name": "pytest-rerunfailures-10.1.tar.gz",
-    "sha256": "7617c06de13ee6dd2df9add7e275bfb2bcebbaaf3e450f5937cd0200df824273",
-    "url": "https://files.pythonhosted.org/packages/7b/99/9ffd789634b3b3fd9209d6390eb48e8e06ae9966f10133dcb211310db10e/pytest-rerunfailures-10.1.tar.gz"
-  }
-]
+{
+  "pytest-rerunfailures-10.1.tar.gz": "7617c06de13ee6dd2df9add7e275bfb2bcebbaaf3e450f5937cd0200df824273",
+  "pytest_rerunfailures-10.1-py3-none-any.whl": "53db94acf7499c75c5257c79d8a1dc22c3db4bc8d32ec3a713ea91eda3f98359"
+}

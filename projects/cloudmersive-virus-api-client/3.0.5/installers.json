@@ -1,7 +1,3 @@
-[
-  {
-    "name": "cloudmersive_virus_api_client-3.0.5.tar.gz",
-    "sha256": "39e954ab7d06cb0c24364436d7ec0bbbe9b2c9300702fa8cfdca9f645ba07f51",
-    "url": "https://files.pythonhosted.org/packages/4e/ce/59eb2af5920c5d642e39241b05770431faa8284180d330df39c584b7f3f8/cloudmersive_virus_api_client-3.0.5.tar.gz"
-  }
-]
+{
+  "cloudmersive_virus_api_client-3.0.5.tar.gz": "39e954ab7d06cb0c24364436d7ec0bbbe9b2c9300702fa8cfdca9f645ba07f51"
+}

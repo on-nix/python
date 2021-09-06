@@ -1,12 +1,4 @@
-[
-  {
-    "name": "cachetools-4.2.2-py3-none-any.whl",
-    "sha256": "2cc0b89715337ab6dbba85b5b50effe2b0c74e035d83ee8ed637cf52f12ae001",
-    "url": "https://files.pythonhosted.org/packages/bf/28/c4f5796c67ad06bb91d98d543a5e01805c1ff065e08871f78e52d2a331ad/cachetools-4.2.2-py3-none-any.whl"
-  },
-  {
-    "name": "cachetools-4.2.2.tar.gz",
-    "sha256": "61b5ed1e22a0924aed1d23b478f37e8d52549ff8a961de2909c69bf950020cff",
-    "url": "https://files.pythonhosted.org/packages/52/ba/619250fa6bc11ce6aa4de0604d45843090a53cd7d10d7253b89669313370/cachetools-4.2.2.tar.gz"
-  }
-]
+{
+  "cachetools-4.2.2-py3-none-any.whl": "2cc0b89715337ab6dbba85b5b50effe2b0c74e035d83ee8ed637cf52f12ae001",
+  "cachetools-4.2.2.tar.gz": "61b5ed1e22a0924aed1d23b478f37e8d52549ff8a961de2909c69bf950020cff"
+}

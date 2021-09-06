@@ -1,12 +1,4 @@
-[
-  {
-    "name": "pytest_asyncio-0.15.1-py3-none-any.whl",
-    "sha256": "3042bcdf1c5d978f6b74d96a151c4cfb9dcece65006198389ccd7e6c60eb1eea",
-    "url": "https://files.pythonhosted.org/packages/c3/8a/a3454b14124af9858fc2936f85abc4972f26a2bbd4ffd4251aad7ec17dd7/pytest_asyncio-0.15.1-py3-none-any.whl"
-  },
-  {
-    "name": "pytest-asyncio-0.15.1.tar.gz",
-    "sha256": "2564ceb9612bbd560d19ca4b41347b54e7835c2f792c504f698e05395ed63f6f",
-    "url": "https://files.pythonhosted.org/packages/de/c1/b2b0119e30f61f7ec8b44f129f6fde46a1a7329de17110f124639aa8896b/pytest-asyncio-0.15.1.tar.gz"
-  }
-]
+{
+  "pytest-asyncio-0.15.1.tar.gz": "2564ceb9612bbd560d19ca4b41347b54e7835c2f792c504f698e05395ed63f6f",
+  "pytest_asyncio-0.15.1-py3-none-any.whl": "3042bcdf1c5d978f6b74d96a151c4cfb9dcece65006198389ccd7e6c60eb1eea"
+}

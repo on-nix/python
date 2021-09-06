@@ -1,12 +1,4 @@
-[
-  {
-    "name": "oauthlib-3.1.1-py2.py3-none-any.whl",
-    "sha256": "42bf6354c2ed8c6acb54d971fce6f88193d97297e18602a3a886603f9d7730cc",
-    "url": "https://files.pythonhosted.org/packages/e8/5d/9dd1c29e5a786525f6342f6c1d812ed2e37edc653ad297048c1668988053/oauthlib-3.1.1-py2.py3-none-any.whl"
-  },
-  {
-    "name": "oauthlib-3.1.1.tar.gz",
-    "sha256": "8f0215fcc533dd8dd1bee6f4c412d4f0cd7297307d43ac61666389e3bc3198a3",
-    "url": "https://files.pythonhosted.org/packages/9e/84/001a3f8d9680f3b26d5e7711e13d5ff92e4b511766a72ac6b4a4e5f06796/oauthlib-3.1.1.tar.gz"
-  }
-]
+{
+  "oauthlib-3.1.1-py2.py3-none-any.whl": "42bf6354c2ed8c6acb54d971fce6f88193d97297e18602a3a886603f9d7730cc",
+  "oauthlib-3.1.1.tar.gz": "8f0215fcc533dd8dd1bee6f4c412d4f0cd7297307d43ac61666389e3bc3198a3"
+}

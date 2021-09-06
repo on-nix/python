@@ -1,12 +1,4 @@
-[
-  {
-    "name": "pytz-2021.1-py2.py3-none-any.whl",
-    "sha256": "eb10ce3e7736052ed3623d49975ce333bcd712c7bb19a58b9e2089d4057d0798",
-    "url": "https://files.pythonhosted.org/packages/70/94/784178ca5dd892a98f113cdd923372024dc04b8d40abe77ca76b5fb90ca6/pytz-2021.1-py2.py3-none-any.whl"
-  },
-  {
-    "name": "pytz-2021.1.tar.gz",
-    "sha256": "83a4a90894bf38e243cf052c8b58f381bfe9a7a483f6a9cab140bc7f702ac4da",
-    "url": "https://files.pythonhosted.org/packages/b0/61/eddc6eb2c682ea6fd97a7e1018a6294be80dba08fa28e7a3570148b4612d/pytz-2021.1.tar.gz"
-  }
-]
+{
+  "pytz-2021.1-py2.py3-none-any.whl": "eb10ce3e7736052ed3623d49975ce333bcd712c7bb19a58b9e2089d4057d0798",
+  "pytz-2021.1.tar.gz": "83a4a90894bf38e243cf052c8b58f381bfe9a7a483f6a9cab140bc7f702ac4da"
+}

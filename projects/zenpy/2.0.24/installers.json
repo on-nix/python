@@ -1,7 +1,3 @@
-[
-  {
-    "name": "zenpy-2.0.24.tar.gz",
-    "sha256": "4fb01f8e7f5a9bcf33a61546804953ec9dc07625c9801b30f13b5fad9370429a",
-    "url": "https://files.pythonhosted.org/packages/f1/c3/aba4cd422e7414b2c0094f6f26eaa57050d4b8c41dbd9825013a025a3b48/zenpy-2.0.24.tar.gz"
-  }
-]
+{
+  "zenpy-2.0.24.tar.gz": "4fb01f8e7f5a9bcf33a61546804953ec9dc07625c9801b30f13b5fad9370429a"
+}

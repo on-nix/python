@@ -1,52 +1,12 @@
-[
-  {
-    "name": "backports.zoneinfo-0.2.1-cp36-cp36m-macosx_10_14_x86_64.whl",
-    "sha256": "da6013fd84a690242c310d77ddb8441a559e9cb3d3d59ebac9aca1a57b2e18bc",
-    "url": "https://files.pythonhosted.org/packages/33/1c/9357061860f5d3a09e1877aa4cf7c004c55eec40a1036761144ef24d8a1d/backports.zoneinfo-0.2.1-cp36-cp36m-macosx_10_14_x86_64.whl"
-  },
-  {
-    "name": "backports.zoneinfo-0.2.1-cp36-cp36m-manylinux1_i686.whl",
-    "sha256": "89a48c0d158a3cc3f654da4c2de1ceba85263fafb861b98b59040a5086259722",
-    "url": "https://files.pythonhosted.org/packages/ef/9a/8de8f379d5b3961a517762cc051b366de3f7d4d3a2250120e7a71e25fab4/backports.zoneinfo-0.2.1-cp36-cp36m-manylinux1_i686.whl"
-  },
-  {
-    "name": "backports.zoneinfo-0.2.1-cp36-cp36m-manylinux1_x86_64.whl",
-    "sha256": "1c5742112073a563c81f786e77514969acb58649bcdf6cdf0b4ed31a348d4546",
-    "url": "https://files.pythonhosted.org/packages/f9/04/33e910faffe91a5680d68a064162525779259ae5de3b0c0c5bd9c4e900e0/backports.zoneinfo-0.2.1-cp36-cp36m-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "backports.zoneinfo-0.2.1-cp37-cp37m-macosx_10_14_x86_64.whl",
-    "sha256": "f04e857b59d9d1ccc39ce2da1021d196e47234873820cbeaad210724b1ee28ac",
-    "url": "https://files.pythonhosted.org/packages/74/a1/323f86a5ca5a559d452affb879512365a0473529398bfcf2d712a40ae088/backports.zoneinfo-0.2.1-cp37-cp37m-macosx_10_14_x86_64.whl"
-  },
-  {
-    "name": "backports.zoneinfo-0.2.1-cp37-cp37m-manylinux1_i686.whl",
-    "sha256": "17746bd546106fa389c51dbea67c8b7c8f0d14b5526a579ca6ccf5ed72c526cf",
-    "url": "https://files.pythonhosted.org/packages/d1/04/8f2fed9c0cb9c88442fc8d6372cb0f5738fb05a65b45e2d371fbc8a15087/backports.zoneinfo-0.2.1-cp37-cp37m-manylinux1_i686.whl"
-  },
-  {
-    "name": "backports.zoneinfo-0.2.1-cp37-cp37m-manylinux1_x86_64.whl",
-    "sha256": "5c144945a7752ca544b4b78c8c41544cdfaf9786f25fe5ffb10e838e19a27570",
-    "url": "https://files.pythonhosted.org/packages/4c/7e/ed8af95bed90eeccfb4a4fe6ec424bc7a79e1aa983e54dd1d9062d9fa20b/backports.zoneinfo-0.2.1-cp37-cp37m-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "backports.zoneinfo-0.2.1-cp38-cp38-macosx_10_14_x86_64.whl",
-    "sha256": "8961c0f32cd0336fb8e8ead11a1f8cd99ec07145ec2931122faaac1c8f7fd987",
-    "url": "https://files.pythonhosted.org/packages/4a/6d/eca004eeadcbf8bd64cc96feb9e355536147f0577420b44d80c7cac70767/backports.zoneinfo-0.2.1-cp38-cp38-macosx_10_14_x86_64.whl"
-  },
-  {
-    "name": "backports.zoneinfo-0.2.1-cp38-cp38-manylinux1_i686.whl",
-    "sha256": "e81b76cace8eda1fca50e345242ba977f9be6ae3945af8d46326d776b4cf78d1",
-    "url": "https://files.pythonhosted.org/packages/c1/8f/9b1b920a6a95652463143943fa3b8c000cb0b932ab463764a6f2a2416560/backports.zoneinfo-0.2.1-cp38-cp38-manylinux1_i686.whl"
-  },
-  {
-    "name": "backports.zoneinfo-0.2.1-cp38-cp38-manylinux1_x86_64.whl",
-    "sha256": "7b0a64cda4145548fed9efc10322770f929b944ce5cee6c0dfe0c87bf4c0c8c9",
-    "url": "https://files.pythonhosted.org/packages/1a/ab/3e941e3fcf1b7d3ab3d0233194d99d6a0ed6b24f8f956fc81e47edc8c079/backports.zoneinfo-0.2.1-cp38-cp38-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "backports.zoneinfo-0.2.1.tar.gz",
-    "sha256": "fadbfe37f74051d024037f223b8e001611eac868b5c5b06144ef4d8b799862f2",
-    "url": "https://files.pythonhosted.org/packages/ad/85/475e514c3140937cf435954f78dedea1861aeab7662d11de232bdaa90655/backports.zoneinfo-0.2.1.tar.gz"
-  }
-]
+{
+  "backports.zoneinfo-0.2.1-cp36-cp36m-macosx_10_14_x86_64.whl": "da6013fd84a690242c310d77ddb8441a559e9cb3d3d59ebac9aca1a57b2e18bc",
+  "backports.zoneinfo-0.2.1-cp36-cp36m-manylinux1_i686.whl": "89a48c0d158a3cc3f654da4c2de1ceba85263fafb861b98b59040a5086259722",
+  "backports.zoneinfo-0.2.1-cp36-cp36m-manylinux1_x86_64.whl": "1c5742112073a563c81f786e77514969acb58649bcdf6cdf0b4ed31a348d4546",
+  "backports.zoneinfo-0.2.1-cp37-cp37m-macosx_10_14_x86_64.whl": "f04e857b59d9d1ccc39ce2da1021d196e47234873820cbeaad210724b1ee28ac",
+  "backports.zoneinfo-0.2.1-cp37-cp37m-manylinux1_i686.whl": "17746bd546106fa389c51dbea67c8b7c8f0d14b5526a579ca6ccf5ed72c526cf",
+  "backports.zoneinfo-0.2.1-cp37-cp37m-manylinux1_x86_64.whl": "5c144945a7752ca544b4b78c8c41544cdfaf9786f25fe5ffb10e838e19a27570",
+  "backports.zoneinfo-0.2.1-cp38-cp38-macosx_10_14_x86_64.whl": "8961c0f32cd0336fb8e8ead11a1f8cd99ec07145ec2931122faaac1c8f7fd987",
+  "backports.zoneinfo-0.2.1-cp38-cp38-manylinux1_i686.whl": "e81b76cace8eda1fca50e345242ba977f9be6ae3945af8d46326d776b4cf78d1",
+  "backports.zoneinfo-0.2.1-cp38-cp38-manylinux1_x86_64.whl": "7b0a64cda4145548fed9efc10322770f929b944ce5cee6c0dfe0c87bf4c0c8c9",
+  "backports.zoneinfo-0.2.1.tar.gz": "fadbfe37f74051d024037f223b8e001611eac868b5c5b06144ef4d8b799862f2"
+}

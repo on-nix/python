@@ -1,12 +1,4 @@
-[
-  {
-    "name": "freezegun-1.1.0-py2.py3-none-any.whl",
-    "sha256": "2ae695f7eb96c62529f03a038461afe3c692db3465e215355e1bb4b0ab408712",
-    "url": "https://files.pythonhosted.org/packages/0b/db/00008ccad284d2dfd2701245fef219b9018687d8ce1d835cd2965b9fb6b8/freezegun-1.1.0-py2.py3-none-any.whl"
-  },
-  {
-    "name": "freezegun-1.1.0.tar.gz",
-    "sha256": "177f9dd59861d871e27a484c3332f35a6e3f5d14626f2bf91be37891f18927f3",
-    "url": "https://files.pythonhosted.org/packages/1f/3a/92d1dbf22d7227548a15900bbeff64ed8f43e9b1aeba3a5850ff4e439508/freezegun-1.1.0.tar.gz"
-  }
-]
+{
+  "freezegun-1.1.0-py2.py3-none-any.whl": "2ae695f7eb96c62529f03a038461afe3c692db3465e215355e1bb4b0ab408712",
+  "freezegun-1.1.0.tar.gz": "177f9dd59861d871e27a484c3332f35a6e3f5d14626f2bf91be37891f18927f3"
+}

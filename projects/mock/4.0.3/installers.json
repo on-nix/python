@@ -1,12 +1,4 @@
-[
-  {
-    "name": "mock-4.0.3-py3-none-any.whl",
-    "sha256": "122fcb64ee37cfad5b3f48d7a7d51875d7031aaf3d8be7c42e2bee25044eee62",
-    "url": "https://files.pythonhosted.org/packages/5c/03/b7e605db4a57c0f6fba744b11ef3ddf4ddebcada35022927a2b5fc623fdf/mock-4.0.3-py3-none-any.whl"
-  },
-  {
-    "name": "mock-4.0.3.tar.gz",
-    "sha256": "7d3fbbde18228f4ff2f1f119a45cdffa458b4c0dee32eb4d2bb2f82554bac7bc",
-    "url": "https://files.pythonhosted.org/packages/e2/be/3ea39a8fd4ed3f9a25aae18a1bff2df7a610bca93c8ede7475e32d8b73a0/mock-4.0.3.tar.gz"
-  }
-]
+{
+  "mock-4.0.3-py3-none-any.whl": "122fcb64ee37cfad5b3f48d7a7d51875d7031aaf3d8be7c42e2bee25044eee62",
+  "mock-4.0.3.tar.gz": "7d3fbbde18228f4ff2f1f119a45cdffa458b4c0dee32eb4d2bb2f82554bac7bc"
+}

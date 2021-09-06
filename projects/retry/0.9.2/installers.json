@@ -1,12 +1,4 @@
-[
-  {
-    "name": "retry-0.9.2-py2.py3-none-any.whl",
-    "sha256": "ccddf89761fa2c726ab29391837d4327f819ea14d244c232a1d24c67a2f98606",
-    "url": "https://files.pythonhosted.org/packages/4b/0d/53aea75710af4528a25ed6837d71d117602b01946b307a3912cb3cfcbcba/retry-0.9.2-py2.py3-none-any.whl"
-  },
-  {
-    "name": "retry-0.9.2.tar.gz",
-    "sha256": "f8bfa8b99b69c4506d6f5bd3b0aabf77f98cdb17f3c9fc3f5ca820033336fba4",
-    "url": "https://files.pythonhosted.org/packages/9d/72/75d0b85443fbc8d9f38d08d2b1b67cc184ce35280e4a3813cda2f445f3a4/retry-0.9.2.tar.gz"
-  }
-]
+{
+  "retry-0.9.2-py2.py3-none-any.whl": "ccddf89761fa2c726ab29391837d4327f819ea14d244c232a1d24c67a2f98606",
+  "retry-0.9.2.tar.gz": "f8bfa8b99b69c4506d6f5bd3b0aabf77f98cdb17f3c9fc3f5ca820033336fba4"
+}

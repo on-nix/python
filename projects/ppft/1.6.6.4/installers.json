@@ -1,17 +1,5 @@
-[
-  {
-    "name": "ppft-1.6.6.4-py2-none-any.whl",
-    "sha256": "cbe543bbd4a661a21fda3fed3602d01c1dcfb8f0ac46816f1b7564996c5d86df",
-    "url": "https://files.pythonhosted.org/packages/db/88/d14593ff542e93d3681fa12e843c015f5d91721d3d2e064d96c4d0f0aa42/ppft-1.6.6.4-py2-none-any.whl"
-  },
-  {
-    "name": "ppft-1.6.6.4-py3-none-any.whl",
-    "sha256": "63d12035786dfd52e7a0fedcd75a498b68b80e6ac54720cd8a4282512608131c",
-    "url": "https://files.pythonhosted.org/packages/e1/95/17253538621d21308a6e7ca67cd8f87c64e81f95477e57ee78766cf79aaa/ppft-1.6.6.4-py3-none-any.whl"
-  },
-  {
-    "name": "ppft-1.6.6.4.zip",
-    "sha256": "473442cc6731856990bd25bd6b454bb98720007de4523a73c560bdd0060463d2",
-    "url": "https://files.pythonhosted.org/packages/6b/89/871fdf9f6b295559099de627d56e8a5d052d2654c80e249a71b10037f232/ppft-1.6.6.4.zip"
-  }
-]
+{
+  "ppft-1.6.6.4-py2-none-any.whl": "cbe543bbd4a661a21fda3fed3602d01c1dcfb8f0ac46816f1b7564996c5d86df",
+  "ppft-1.6.6.4-py3-none-any.whl": "63d12035786dfd52e7a0fedcd75a498b68b80e6ac54720cd8a4282512608131c",
+  "ppft-1.6.6.4.zip": "473442cc6731856990bd25bd6b454bb98720007de4523a73c560bdd0060463d2"
+}

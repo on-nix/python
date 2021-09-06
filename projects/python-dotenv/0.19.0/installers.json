@@ -1,12 +1,4 @@
-[
-  {
-    "name": "python_dotenv-0.19.0-py2.py3-none-any.whl",
-    "sha256": "aae25dc1ebe97c420f50b81fb0e5c949659af713f31fdb63c749ca68748f34b1",
-    "url": "https://files.pythonhosted.org/packages/f5/d6/4b6268fad900fcb064e4344aa563b22688f0b38dcd857b500b2b5cc445c6/python_dotenv-0.19.0-py2.py3-none-any.whl"
-  },
-  {
-    "name": "python-dotenv-0.19.0.tar.gz",
-    "sha256": "f521bc2ac9a8e03c736f62911605c5d83970021e3fa95b37d769e2bbbe9b6172",
-    "url": "https://files.pythonhosted.org/packages/59/39/20eb771fc2113fb67638d4f2e1905c51b0c75862d09018a393470234a51c/python-dotenv-0.19.0.tar.gz"
-  }
-]
+{
+  "python-dotenv-0.19.0.tar.gz": "f521bc2ac9a8e03c736f62911605c5d83970021e3fa95b37d769e2bbbe9b6172",
+  "python_dotenv-0.19.0-py2.py3-none-any.whl": "aae25dc1ebe97c420f50b81fb0e5c949659af713f31fdb63c749ca68748f34b1"
+}

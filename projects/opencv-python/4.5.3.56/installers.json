@@ -1,82 +1,18 @@
-[
-  {
-    "name": "opencv_python-4.5.3.56-cp36-cp36m-macosx_10_15_x86_64.whl",
-    "sha256": "9a78558b5ae848386edbb843c761e5fed5a8480be9af16274a5a78838529edeb",
-    "url": "https://files.pythonhosted.org/packages/43/e3/e5927583978ddfb5ff61f0d146bd1cac28a1f6b13c9880cc448b23e460d3/opencv_python-4.5.3.56-cp36-cp36m-macosx_10_15_x86_64.whl"
-  },
-  {
-    "name": "opencv_python-4.5.3.56-cp36-cp36m-manylinux2014_aarch64.whl",
-    "sha256": "8d3282138f3a8646941089aae142684910ebe40776266448eab5f4bb609fc63f",
-    "url": "https://files.pythonhosted.org/packages/f1/27/a4c40a4aa2fc8eb6126f833329fc9490b71e33d344f353be2a79b09a687a/opencv_python-4.5.3.56-cp36-cp36m-manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "opencv_python-4.5.3.56-cp36-cp36m-manylinux2014_x86_64.whl",
-    "sha256": "881f3d85269500e0c7d72b140a6ebb5c14a089f8140fb9da7ce01f12a245858e",
-    "url": "https://files.pythonhosted.org/packages/7f/45/32b09b11c76c354beb94c6549d844241709366fac02f253aa7f7b9ec9861/opencv_python-4.5.3.56-cp36-cp36m-manylinux2014_x86_64.whl"
-  },
-  {
-    "name": "opencv_python-4.5.3.56-cp37-cp37m-macosx_10_15_x86_64.whl",
-    "sha256": "68813b720b88e4951e84399b9a8a7b532d45a07a96ea8f539636242f862e32e0",
-    "url": "https://files.pythonhosted.org/packages/8d/78/ac506f9531ea145c4ea32cf6d00d6d6314034c65d489fa90f805b381c82f/opencv_python-4.5.3.56-cp37-cp37m-macosx_10_15_x86_64.whl"
-  },
-  {
-    "name": "opencv_python-4.5.3.56-cp37-cp37m-macosx_11_0_arm64.whl",
-    "sha256": "c360cb76ad1ddbd5d2d3e730b42f2ff6e4be08ea6f4a6eefacca175d27467e8f",
-    "url": "https://files.pythonhosted.org/packages/6e/b7/3274f88516ae9204c1a97218bec1fe8e84877477c891f5ba06a9b2900c8c/opencv_python-4.5.3.56-cp37-cp37m-macosx_11_0_arm64.whl"
-  },
-  {
-    "name": "opencv_python-4.5.3.56-cp37-cp37m-manylinux2014_aarch64.whl",
-    "sha256": "437f30e300725e1d1b3744dbfbc66a523a4744792b58f3dbe1e9140c8f4dfba5",
-    "url": "https://files.pythonhosted.org/packages/2a/dc/fc36b1be606cf3b69906ad99e16d0440a6b86f3acb2d7628bcd15979fd10/opencv_python-4.5.3.56-cp37-cp37m-manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "opencv_python-4.5.3.56-cp37-cp37m-manylinux2014_x86_64.whl",
-    "sha256": "e42c644a70d5c54f53a4b114dbd88b4eb83f42a9ca998f07bd5682f3f404efcc",
-    "url": "https://files.pythonhosted.org/packages/6b/73/a8921d221a673600dc744033786eeab56ed5116686a1b932b724a33003c6/opencv_python-4.5.3.56-cp37-cp37m-manylinux2014_x86_64.whl"
-  },
-  {
-    "name": "opencv_python-4.5.3.56-cp38-cp38-macosx_10_15_x86_64.whl",
-    "sha256": "cdc3363c2911d7cfc6c9f55308c51c2841a7aecbf0bf5e791499d220ce89d880",
-    "url": "https://files.pythonhosted.org/packages/8b/72/ce197a5650640f77342b3084be18783dc99debfcf20e2d98cde54050c97b/opencv_python-4.5.3.56-cp38-cp38-macosx_10_15_x86_64.whl"
-  },
-  {
-    "name": "opencv_python-4.5.3.56-cp38-cp38-macosx_11_0_arm64.whl",
-    "sha256": "18a4a14015eee30d9cd514db8cdefbf594b1d5c234762d27abe512d62a333bc3",
-    "url": "https://files.pythonhosted.org/packages/7b/6e/343914fd76deaaa5da1fdb08d5cc8f1abb319f6037b9a2a5f356d01f0ad5/opencv_python-4.5.3.56-cp38-cp38-macosx_11_0_arm64.whl"
-  },
-  {
-    "name": "opencv_python-4.5.3.56-cp38-cp38-manylinux2014_aarch64.whl",
-    "sha256": "05c5139d620e8d02f7ce0921796d55736fa19fa15e2ec00a388db2eb1ae1e9a1",
-    "url": "https://files.pythonhosted.org/packages/06/85/4a19a134e684ec819f2049317fdc162e80cbe5972c182ff1fe2bc57c8801/opencv_python-4.5.3.56-cp38-cp38-manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "opencv_python-4.5.3.56-cp38-cp38-manylinux2014_x86_64.whl",
-    "sha256": "831b92fe63ce18dd628f71104da7e60596658b75e2fa16b83aefa3eb10c115e2",
-    "url": "https://files.pythonhosted.org/packages/a0/af/61ffa11bc0e5328e6bfcbbf47e581fa89f135f995c3add71bc9a0c3000fb/opencv_python-4.5.3.56-cp38-cp38-manylinux2014_x86_64.whl"
-  },
-  {
-    "name": "opencv_python-4.5.3.56-cp39-cp39-macosx_10_15_x86_64.whl",
-    "sha256": "5366fcd6eae4243add3c8c92142045850f1db8e464bcf0b75313e1596b2e3671",
-    "url": "https://files.pythonhosted.org/packages/17/2a/573cd811e2d38cb2956c55f4dbbd37c55c2aa911606467f302315ffb0aa5/opencv_python-4.5.3.56-cp39-cp39-macosx_10_15_x86_64.whl"
-  },
-  {
-    "name": "opencv_python-4.5.3.56-cp39-cp39-macosx_11_0_arm64.whl",
-    "sha256": "54c64e86a087841869901fd34462bb6bec01cd4652800fdf5d92fe7b0596c82f",
-    "url": "https://files.pythonhosted.org/packages/88/e6/5c13983446f1221f53d2d626d1c007b0d6c74658004d60b6002afb7c006e/opencv_python-4.5.3.56-cp39-cp39-macosx_11_0_arm64.whl"
-  },
-  {
-    "name": "opencv_python-4.5.3.56-cp39-cp39-manylinux2014_aarch64.whl",
-    "sha256": "8852be06c0749fef0d9c58f532bbcb0570968c59e41cf56b90f5c92593c6e108",
-    "url": "https://files.pythonhosted.org/packages/38/37/cfca182bc64aae0f734e48248da16add2843d6ebdf2049bb7bd070717227/opencv_python-4.5.3.56-cp39-cp39-manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "opencv_python-4.5.3.56-cp39-cp39-manylinux2014_x86_64.whl",
-    "sha256": "8b5bc61be7fc8565140b746288b370a4bfdb4edb9d680b66bb914e7690485db1",
-    "url": "https://files.pythonhosted.org/packages/6d/7c/acb51d4af0239979a5faf8542a58f8d5774cc30f6a2384527bffbb29278e/opencv_python-4.5.3.56-cp39-cp39-manylinux2014_x86_64.whl"
-  },
-  {
-    "name": "opencv-python-4.5.3.56.tar.gz",
-    "sha256": "3c001d3feec7f3140f1fb78dfc52ca28122db8240826882d175a208a89d2731b",
-    "url": "https://files.pythonhosted.org/packages/01/9b/be08992293fb21faf35ab98e06924d7407fcfca89d89c5de65442631556a/opencv-python-4.5.3.56.tar.gz"
-  }
-]
+{
+  "opencv-python-4.5.3.56.tar.gz": "3c001d3feec7f3140f1fb78dfc52ca28122db8240826882d175a208a89d2731b",
+  "opencv_python-4.5.3.56-cp36-cp36m-macosx_10_15_x86_64.whl": "9a78558b5ae848386edbb843c761e5fed5a8480be9af16274a5a78838529edeb",
+  "opencv_python-4.5.3.56-cp36-cp36m-manylinux2014_aarch64.whl": "8d3282138f3a8646941089aae142684910ebe40776266448eab5f4bb609fc63f",
+  "opencv_python-4.5.3.56-cp36-cp36m-manylinux2014_x86_64.whl": "881f3d85269500e0c7d72b140a6ebb5c14a089f8140fb9da7ce01f12a245858e",
+  "opencv_python-4.5.3.56-cp37-cp37m-macosx_10_15_x86_64.whl": "68813b720b88e4951e84399b9a8a7b532d45a07a96ea8f539636242f862e32e0",
+  "opencv_python-4.5.3.56-cp37-cp37m-macosx_11_0_arm64.whl": "c360cb76ad1ddbd5d2d3e730b42f2ff6e4be08ea6f4a6eefacca175d27467e8f",
+  "opencv_python-4.5.3.56-cp37-cp37m-manylinux2014_aarch64.whl": "437f30e300725e1d1b3744dbfbc66a523a4744792b58f3dbe1e9140c8f4dfba5",
+  "opencv_python-4.5.3.56-cp37-cp37m-manylinux2014_x86_64.whl": "e42c644a70d5c54f53a4b114dbd88b4eb83f42a9ca998f07bd5682f3f404efcc",
+  "opencv_python-4.5.3.56-cp38-cp38-macosx_10_15_x86_64.whl": "cdc3363c2911d7cfc6c9f55308c51c2841a7aecbf0bf5e791499d220ce89d880",
+  "opencv_python-4.5.3.56-cp38-cp38-macosx_11_0_arm64.whl": "18a4a14015eee30d9cd514db8cdefbf594b1d5c234762d27abe512d62a333bc3",
+  "opencv_python-4.5.3.56-cp38-cp38-manylinux2014_aarch64.whl": "05c5139d620e8d02f7ce0921796d55736fa19fa15e2ec00a388db2eb1ae1e9a1",
+  "opencv_python-4.5.3.56-cp38-cp38-manylinux2014_x86_64.whl": "831b92fe63ce18dd628f71104da7e60596658b75e2fa16b83aefa3eb10c115e2",
+  "opencv_python-4.5.3.56-cp39-cp39-macosx_10_15_x86_64.whl": "5366fcd6eae4243add3c8c92142045850f1db8e464bcf0b75313e1596b2e3671",
+  "opencv_python-4.5.3.56-cp39-cp39-macosx_11_0_arm64.whl": "54c64e86a087841869901fd34462bb6bec01cd4652800fdf5d92fe7b0596c82f",
+  "opencv_python-4.5.3.56-cp39-cp39-manylinux2014_aarch64.whl": "8852be06c0749fef0d9c58f532bbcb0570968c59e41cf56b90f5c92593c6e108",
+  "opencv_python-4.5.3.56-cp39-cp39-manylinux2014_x86_64.whl": "8b5bc61be7fc8565140b746288b370a4bfdb4edb9d680b66bb914e7690485db1"
+}

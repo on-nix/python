@@ -1,57 +1,13 @@
-[
-  {
-    "name": "torch-1.4.0-cp27-cp27m-manylinux1_x86_64.whl",
-    "sha256": "271d4d1e44df6ed57c530f8849b028447c62b8a19b8e8740dd9baa56e7f682c1",
-    "url": "https://files.pythonhosted.org/packages/f6/6a/6c094d561eeee5c640422662bdb5e7291a458e4f6d0cc487fd25dab6e92e/torch-1.4.0-cp27-cp27m-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "torch-1.4.0-cp27-cp27mu-manylinux1_x86_64.whl",
-    "sha256": "6f2fd9eb8c7eaf38a982ab266dbbfba0f29fb643bc74e677d045d6f2595e4692",
-    "url": "https://files.pythonhosted.org/packages/46/ca/306bb933a68b888ab1c20ede0342506b85857635f04fb55a56e53065579b/torch-1.4.0-cp27-cp27mu-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "torch-1.4.0-cp27-none-macosx_10_7_x86_64.whl",
-    "sha256": "30ce089475b287a37d6fbb8d71853e672edaf66699e3dd2eb19be6ce6296732a",
-    "url": "https://files.pythonhosted.org/packages/e5/fc/738857432c0877008821aac85df30a276e8eebc812a749ac6fbbba0f4ea9/torch-1.4.0-cp27-none-macosx_10_7_x86_64.whl"
-  },
-  {
-    "name": "torch-1.4.0-cp35-cp35m-manylinux1_x86_64.whl",
-    "sha256": "54d06a0e8ee85e5a437c24f4af9f4196c819294c23ffb5914e177756f55f1829",
-    "url": "https://files.pythonhosted.org/packages/47/69/7a1291b74a3af0043db9048606daeb8b57cd9dea90b9df740485f3843878/torch-1.4.0-cp35-cp35m-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "torch-1.4.0-cp35-none-macosx_10_6_x86_64.whl",
-    "sha256": "bb1e87063661414e1149bef2e3a2499ce0b5060290799d7e26bc5578037075ba",
-    "url": "https://files.pythonhosted.org/packages/a7/b7/8ceb6ddfe5af19b63b7f7cbfe45bbe323eb6fcc1a7e5480454f8b2f50e46/torch-1.4.0-cp35-none-macosx_10_6_x86_64.whl"
-  },
-  {
-    "name": "torch-1.4.0-cp36-cp36m-manylinux1_x86_64.whl",
-    "sha256": "8856f334aa9ecb742c1504bd2563d0ffb8dceb97149c8d72a04afa357f667dbc",
-    "url": "https://files.pythonhosted.org/packages/24/19/4804aea17cd136f1705a5e98a00618cb8f6ccc375ad8bfa437408e09d058/torch-1.4.0-cp36-cp36m-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "torch-1.4.0-cp36-none-macosx_10_9_x86_64.whl",
-    "sha256": "9a1b1db73d8dcfd94b2eee24b939368742aa85f1217c55b8f5681e76c581e99a",
-    "url": "https://files.pythonhosted.org/packages/e1/17/95f76742a61cbf6e787314eb2e331729db5a3bde6c5924b4ebd9174bea54/torch-1.4.0-cp36-none-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "torch-1.4.0-cp37-cp37m-manylinux1_x86_64.whl",
-    "sha256": "8fff03bf7b474c16e4b50da65ea14200cc64553b67b9b2307f9dc7e8c69b9d28",
-    "url": "https://files.pythonhosted.org/packages/1a/3b/fa92ece1e58a6a48ec598bab327f39d69808133e5b2fb33002ca754e381e/torch-1.4.0-cp37-cp37m-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "torch-1.4.0-cp37-none-macosx_10_9_x86_64.whl",
-    "sha256": "405b9eb40e44037d2525b3ddb5bc4c66b519cd742bff249d4207d23f83e88ea5",
-    "url": "https://files.pythonhosted.org/packages/4a/72/0282449efe6e8a7ab6354ac990b8275bd8c881dcbf95b3ef0a041da3897b/torch-1.4.0-cp37-none-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "torch-1.4.0-cp38-cp38-manylinux1_x86_64.whl",
-    "sha256": "504915c6bc6051ba6a4c2a43c446463dff04411e352f1e26fe13debeae431778",
-    "url": "https://files.pythonhosted.org/packages/bc/47/5b7c4f832b600779eed76cac86efbd5054f124bc919930aced51de2ccbb1/torch-1.4.0-cp38-cp38-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "torch-1.4.0-cp38-none-macosx_10_9_x86_64.whl",
-    "sha256": "d7b34a78f021935ad727a3bede56a8a8d4fda0b0272314a04c5f6890bbe7bb29",
-    "url": "https://files.pythonhosted.org/packages/53/e1/f2ba65890bb3ed98eda66ec9195e97b9b1b5824117ff4c8ad3b3f298e464/torch-1.4.0-cp38-none-macosx_10_9_x86_64.whl"
-  }
-]
+{
+  "torch-1.4.0-cp27-cp27m-manylinux1_x86_64.whl": "271d4d1e44df6ed57c530f8849b028447c62b8a19b8e8740dd9baa56e7f682c1",
+  "torch-1.4.0-cp27-cp27mu-manylinux1_x86_64.whl": "6f2fd9eb8c7eaf38a982ab266dbbfba0f29fb643bc74e677d045d6f2595e4692",
+  "torch-1.4.0-cp27-none-macosx_10_7_x86_64.whl": "30ce089475b287a37d6fbb8d71853e672edaf66699e3dd2eb19be6ce6296732a",
+  "torch-1.4.0-cp35-cp35m-manylinux1_x86_64.whl": "54d06a0e8ee85e5a437c24f4af9f4196c819294c23ffb5914e177756f55f1829",
+  "torch-1.4.0-cp35-none-macosx_10_6_x86_64.whl": "bb1e87063661414e1149bef2e3a2499ce0b5060290799d7e26bc5578037075ba",
+  "torch-1.4.0-cp36-cp36m-manylinux1_x86_64.whl": "8856f334aa9ecb742c1504bd2563d0ffb8dceb97149c8d72a04afa357f667dbc",
+  "torch-1.4.0-cp36-none-macosx_10_9_x86_64.whl": "9a1b1db73d8dcfd94b2eee24b939368742aa85f1217c55b8f5681e76c581e99a",
+  "torch-1.4.0-cp37-cp37m-manylinux1_x86_64.whl": "8fff03bf7b474c16e4b50da65ea14200cc64553b67b9b2307f9dc7e8c69b9d28",
+  "torch-1.4.0-cp37-none-macosx_10_9_x86_64.whl": "405b9eb40e44037d2525b3ddb5bc4c66b519cd742bff249d4207d23f83e88ea5",
+  "torch-1.4.0-cp38-cp38-manylinux1_x86_64.whl": "504915c6bc6051ba6a4c2a43c446463dff04411e352f1e26fe13debeae431778",
+  "torch-1.4.0-cp38-none-macosx_10_9_x86_64.whl": "d7b34a78f021935ad727a3bede56a8a8d4fda0b0272314a04c5f6890bbe7bb29"
+}

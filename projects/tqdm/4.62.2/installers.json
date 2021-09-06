@@ -1,12 +1,4 @@
-[
-  {
-    "name": "tqdm-4.62.2-py2.py3-none-any.whl",
-    "sha256": "80aead664e6c1672c4ae20dc50e1cdc5e20eeff9b14aa23ecd426375b28be588",
-    "url": "https://files.pythonhosted.org/packages/9c/05/cf212f57daa0eb6106fa668a04d74d932e9881fd4a22f322ea1dadb5aba0/tqdm-4.62.2-py2.py3-none-any.whl"
-  },
-  {
-    "name": "tqdm-4.62.2.tar.gz",
-    "sha256": "a4d6d112e507ef98513ac119ead1159d286deab17dffedd96921412c2d236ff5",
-    "url": "https://files.pythonhosted.org/packages/37/e5/1b54ef934d731576d0145bc8ae22da5b410f96922cec52b91cc29d3ff1b6/tqdm-4.62.2.tar.gz"
-  }
-]
+{
+  "tqdm-4.62.2-py2.py3-none-any.whl": "80aead664e6c1672c4ae20dc50e1cdc5e20eeff9b14aa23ecd426375b28be588",
+  "tqdm-4.62.2.tar.gz": "a4d6d112e507ef98513ac119ead1159d286deab17dffedd96921412c2d236ff5"
+}

@@ -1,12 +1,4 @@
-[
-  {
-    "name": "gql-2.0.0-py2.py3-none-any.whl",
-    "sha256": "35032ddd4bfe6b8f3169f806b022168932385d751eacc5c5f7122e0b3f4d6b88",
-    "url": "https://files.pythonhosted.org/packages/55/0c/e9cb15ae9589a6a87a1c329c92e5a6f90cd1759d2afc6e2ac3acbc9a5fc9/gql-2.0.0-py2.py3-none-any.whl"
-  },
-  {
-    "name": "gql-2.0.0.tar.gz",
-    "sha256": "fe8d3a08047f77362ddfcfddba7cae377da2dd66f5e61c59820419c9283d4fb5",
-    "url": "https://files.pythonhosted.org/packages/4e/3c/8c84c49dce30d7847a8e2274517ba42af9090a38ffc2f4a6b644d36d7f63/gql-2.0.0.tar.gz"
-  }
-]
+{
+  "gql-2.0.0-py2.py3-none-any.whl": "35032ddd4bfe6b8f3169f806b022168932385d751eacc5c5f7122e0b3f4d6b88",
+  "gql-2.0.0.tar.gz": "fe8d3a08047f77362ddfcfddba7cae377da2dd66f5e61c59820419c9283d4fb5"
+}

@@ -1,12 +1,4 @@
-[
-  {
-    "name": "cfn_lint-0.53.0-py3-none-any.whl",
-    "sha256": "d17359e3ca9477eccaea700fac4bf028f5bc368a338c017adde5187f2691cab8",
-    "url": "https://files.pythonhosted.org/packages/e7/de/ca91488ab99996609fede521a5d27b18931df8e11a6005f36089f53f1511/cfn_lint-0.53.0-py3-none-any.whl"
-  },
-  {
-    "name": "cfn-lint-0.53.0.tar.gz",
-    "sha256": "b7f5964842f7a44c5af9c61d64308dc4bcb718cf5de5428781d5564e9663463d",
-    "url": "https://files.pythonhosted.org/packages/7a/97/501de7b17de2f2f95d6fd0c21bda61074e8843bcc83b515b604ee8b5cf70/cfn-lint-0.53.0.tar.gz"
-  }
-]
+{
+  "cfn-lint-0.53.0.tar.gz": "b7f5964842f7a44c5af9c61d64308dc4bcb718cf5de5428781d5564e9663463d",
+  "cfn_lint-0.53.0-py3-none-any.whl": "d17359e3ca9477eccaea700fac4bf028f5bc368a338c017adde5187f2691cab8"
+}

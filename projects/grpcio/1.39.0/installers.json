@@ -1,197 +1,41 @@
-[
-  {
-    "name": "grpcio-1.39.0-cp27-cp27m-macosx_10_10_x86_64.whl",
-    "sha256": "4163e022f365406be2da78db890035463371effea172300ce5af8a768142baf3",
-    "url": "https://files.pythonhosted.org/packages/1d/c0/22bdd524aee9ae74d9a16f1ed8df1810b739ec41772dc73ac9d8b1df5319/grpcio-1.39.0-cp27-cp27m-macosx_10_10_x86_64.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp27-cp27m-manylinux2010_i686.whl",
-    "sha256": "02e8a8b41db8e13df53078355b439363e4ac46d0ac9a8a461a39e42829e2bcf8",
-    "url": "https://files.pythonhosted.org/packages/c6/67/39240776db018e5840049d6652d1a44e653cb3451440292e4ebc5aac0b3b/grpcio-1.39.0-cp27-cp27m-manylinux2010_i686.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp27-cp27m-manylinux2010_x86_64.whl",
-    "sha256": "050901a5baa6c4ca445e1781ef4c32d864f965ccec70c46cd5ad92d15e282c6a",
-    "url": "https://files.pythonhosted.org/packages/a5/bc/f02e694bacb1ce60144d7776bc808c17ad1e8e130151bac6ec31c51c270f/grpcio-1.39.0-cp27-cp27m-manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp27-cp27mu-manylinux2010_i686.whl",
-    "sha256": "a2733994b05ee5382da1d0378f6312b72c5cb202930c7fa20c794a24e96a1a34",
-    "url": "https://files.pythonhosted.org/packages/a8/72/228415de2d45545d8c285177f9fb58ef317beabea91e7d8519d819cfb391/grpcio-1.39.0-cp27-cp27mu-manylinux2010_i686.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp27-cp27mu-manylinux2010_x86_64.whl",
-    "sha256": "4039645b8b5d19064766f3a6fa535f1db52a61c4d4de97a6a8945331a354d527",
-    "url": "https://files.pythonhosted.org/packages/98/5a/423579e0794518470bff234776cdfc7315816825a99142c7ef81067d7ec0/grpcio-1.39.0-cp27-cp27mu-manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp35-cp35m-macosx_10_10_intel.whl",
-    "sha256": "7b95b3329446408e2fe6db9b310d263303fa1a94649d08ec1e1cc12506743d26",
-    "url": "https://files.pythonhosted.org/packages/c8/3d/4894e2035c3949ae46b3ed4ca02ecb3a470548b6fd9195bb40dd7a5985db/grpcio-1.39.0-cp35-cp35m-macosx_10_10_intel.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp35-cp35m-manylinux2010_i686.whl",
-    "sha256": "2a4308875b9b986000513c6b04c2e7424f436a127f15547036c42d3cf8289374",
-    "url": "https://files.pythonhosted.org/packages/3e/5d/e5e0f34c4b86a53c3b71e2c2e6dbdc403290b1b22a7ae8f19b3088c2e79f/grpcio-1.39.0-cp35-cp35m-manylinux2010_i686.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp35-cp35m-manylinux2010_x86_64.whl",
-    "sha256": "4b3fcc1878a1a5b71e1ecdfe82c74f7cd9eadaa43e25be0d67676dcec0c9d39f",
-    "url": "https://files.pythonhosted.org/packages/d9/32/041a9f03cc7e80cc57d5460df1af31e859d5eba375a2d48a383228e0cd6c/grpcio-1.39.0-cp35-cp35m-manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp35-cp35m-manylinux2014_i686.whl",
-    "sha256": "6d51be522b573cec14798d4742efaa69d234bedabce122fec2d5489abb3724d4",
-    "url": "https://files.pythonhosted.org/packages/09/78/b4a09391785ce6eb7ec65d0d358e398d03e370be20f7ffbf53609035ce2f/grpcio-1.39.0-cp35-cp35m-manylinux2014_i686.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp35-cp35m-manylinux2014_x86_64.whl",
-    "sha256": "43c57987e526d1b893b85099424387b22de6e3eee4ea7188443de8d657d11cc0",
-    "url": "https://files.pythonhosted.org/packages/f3/e0/1f98ef82033eed1e09262fb1ad03e06fa414b48b094ca3125581ca1d5f99/grpcio-1.39.0-cp35-cp35m-manylinux2014_x86_64.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp36-cp36m-linux_armv7l.whl",
-    "sha256": "3c14e2087f809973d5ee8ca64f772a089ead0167286f3f21fdda8b6029b50abb",
-    "url": "https://files.pythonhosted.org/packages/11/68/5e208543f718d3adc3220dbe6bf682d8c032f3a5ae9f4d6144bc4ba11b9d/grpcio-1.39.0-cp36-cp36m-linux_armv7l.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp36-cp36m-macosx_10_10_x86_64.whl",
-    "sha256": "d5a105f5a595b89a0e394e5b147430b115333d07c55efb0c0eddc96055f0d951",
-    "url": "https://files.pythonhosted.org/packages/b5/e5/8a47687794a883bbe40dbf4f91112e3f01a7cf23b4a5d11560a045aafa03/grpcio-1.39.0-cp36-cp36m-macosx_10_10_x86_64.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp36-cp36m-manylinux2010_i686.whl",
-    "sha256": "366b6b35b3719c5570588e21d866460c5666ae74e3509c2a5a73ca79997abdaf",
-    "url": "https://files.pythonhosted.org/packages/4f/53/ca7d18d16fa5eceab20290041954a46013acf53ad38e54442095b5872fe0/grpcio-1.39.0-cp36-cp36m-manylinux2010_i686.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp36-cp36m-manylinux2010_x86_64.whl",
-    "sha256": "544e1c1a133b43893e03e828c8325be5b82e20d3b0ef0ee3942d32553052a1b5",
-    "url": "https://files.pythonhosted.org/packages/67/3c/53cc28f04fb9bd3e8bad6fa603aa8b01fa399dd74601ab0991e6385dbfe4/grpcio-1.39.0-cp36-cp36m-manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp36-cp36m-manylinux2014_i686.whl",
-    "sha256": "a659f7c634cacfcf14657687a9fa3265b0a1844b1c19d140f3b66aebfba1a66b",
-    "url": "https://files.pythonhosted.org/packages/5e/f7/7578f5157fa6cfeecbb7c9a7214cab0af3f582cdfbffdb289d98818d9ca3/grpcio-1.39.0-cp36-cp36m-manylinux2014_i686.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp36-cp36m-manylinux2014_x86_64.whl",
-    "sha256": "b0ff14dd872030e6b2fce8a6811642bd30d93833f794d3782c7e9eb2f01234cc",
-    "url": "https://files.pythonhosted.org/packages/eb/32/332a2bb0cee0d4040331952c5ef3d040d119a15b3c622b60bdcbe768bded/grpcio-1.39.0-cp36-cp36m-manylinux2014_x86_64.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp36-cp36m-manylinux_2_24_aarch64.whl",
-    "sha256": "2a958ad794292e12d8738a06754ebaf71662e635a89098916c18715b27ca2b5b",
-    "url": "https://files.pythonhosted.org/packages/cb/0b/ce65998c97a468d7f2633241fd02ce44be1b895bf61a6acb523f95b3c149/grpcio-1.39.0-cp36-cp36m-manylinux_2_24_aarch64.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp37-cp37m-linux_armv7l.whl",
-    "sha256": "27e2c6213fc04e71a862bacccb51f3c8e722255933f01736ace183e92d860ee6",
-    "url": "https://files.pythonhosted.org/packages/8a/27/f7a952a3fe26fb6f6db7146fdc4e287c80de077fd6a323814e9a81549755/grpcio-1.39.0-cp37-cp37m-linux_armv7l.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp37-cp37m-macosx_10_10_x86_64.whl",
-    "sha256": "5127f4ba1f52fda28037ae465cf4b0e5fabe89d5ac1d64d15b073b46b7db5e16",
-    "url": "https://files.pythonhosted.org/packages/62/4b/8aec74c3dc13144a55afcc43108fc84d7aa8b9fe5bdfd8118042acc17a31/grpcio-1.39.0-cp37-cp37m-macosx_10_10_x86_64.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp37-cp37m-manylinux2010_i686.whl",
-    "sha256": "a6211150765cc2343e69879dfb856718b0f7477a4618b5f9a8f6c3ee84c047c0",
-    "url": "https://files.pythonhosted.org/packages/74/d5/15fc34c39d741744fd7167b56a7c18d142dfaaa6adb8cdd3b03f825e8fde/grpcio-1.39.0-cp37-cp37m-manylinux2010_i686.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp37-cp37m-manylinux2010_x86_64.whl",
-    "sha256": "691f5b3a75f072dfb7b093f46303f493b885b7a42f25a831868ffaa22ee85f9d",
-    "url": "https://files.pythonhosted.org/packages/66/61/680d8a5a146e33ac463e0fa800ee37c6becbeee4aa02522fa6632dca8831/grpcio-1.39.0-cp37-cp37m-manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp37-cp37m-manylinux2014_i686.whl",
-    "sha256": "c8fe430add656b92419f6cd0680b64fbe6347c831d89a7788324f5037dfb3359",
-    "url": "https://files.pythonhosted.org/packages/1b/05/0356def9f40feef6771edd0c2093e9752929fe6c39f33f99c0abc95693e6/grpcio-1.39.0-cp37-cp37m-manylinux2014_i686.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp37-cp37m-manylinux2014_x86_64.whl",
-    "sha256": "3cccf470fcaab65a1b0a826ff34bd7c0861eb82ed957a83c6647a983459e4ecd",
-    "url": "https://files.pythonhosted.org/packages/68/c7/e2104d2c91e451b7ce5e3f5bea221bff2c680473ad491626b46a54efeaa9/grpcio-1.39.0-cp37-cp37m-manylinux2014_x86_64.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp37-cp37m-manylinux_2_24_aarch64.whl",
-    "sha256": "2bc7eebb405aac2d7eecfaa881fd73b489f99c01470d7193b4431a6ce199b9c3",
-    "url": "https://files.pythonhosted.org/packages/8d/87/f66686884e21e4350746a18e664202ab9b39a3cd527df3ff54a022935ee5/grpcio-1.39.0-cp37-cp37m-manylinux_2_24_aarch64.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp38-cp38-linux_armv7l.whl",
-    "sha256": "6ba6ad60009da2258cf15a72c51b7e0c2f58c8da517e97550881e488839e56c6",
-    "url": "https://files.pythonhosted.org/packages/d4/46/3fbcfa211c94d5accb46b2ae500e0b23bf03388e20b9a52ec8e8781de880/grpcio-1.39.0-cp38-cp38-linux_armv7l.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp38-cp38-macosx_10_10_x86_64.whl",
-    "sha256": "a1fb9936b86b5efdea417fe159934bcad82a6f8c6ab7d1beec4bf3a78324d975",
-    "url": "https://files.pythonhosted.org/packages/5e/18/84704a0504a890317aa7648399bc3beb81856d4a3ad7fffa8e42951419f6/grpcio-1.39.0-cp38-cp38-macosx_10_10_x86_64.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp38-cp38-manylinux2010_i686.whl",
-    "sha256": "46cfb0f2b757673bfd36ab4b0e3d61988cc1a0d47e0597e91462dcbef7528f35",
-    "url": "https://files.pythonhosted.org/packages/16/45/f3b0ca05a9f7c29ff798b3d10db463f2a6fb1d7d08c72f1be1566a76700a/grpcio-1.39.0-cp38-cp38-manylinux2010_i686.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp38-cp38-manylinux2010_x86_64.whl",
-    "sha256": "f2621c82fbbff1496993aa5fbf60e235583c7f970506e818671ad52000b6f310",
-    "url": "https://files.pythonhosted.org/packages/9d/9f/710c157082b7a1535207240e9f103550d665b39929c6c56a6dc6efce371f/grpcio-1.39.0-cp38-cp38-manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp38-cp38-manylinux2014_i686.whl",
-    "sha256": "e98aca5cfe05ca29950b3d99006b9ddb54fde6451cd12cb2db1443ae3b9fa076",
-    "url": "https://files.pythonhosted.org/packages/63/59/0c804793d5e1c152d650b6169e52ce271dee8ae009e16230dcb5358da48b/grpcio-1.39.0-cp38-cp38-manylinux2014_i686.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp38-cp38-manylinux2014_x86_64.whl",
-    "sha256": "8ed1e52ad507a54d20e6aaedf4b3edcab18cc12031eafe6de898f97513d8997b",
-    "url": "https://files.pythonhosted.org/packages/89/65/0bcffaf1db154514fa87433411b6f01fcbcab2eab776438071482cb3c772/grpcio-1.39.0-cp38-cp38-manylinux2014_x86_64.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp38-cp38-manylinux_2_24_aarch64.whl",
-    "sha256": "3c57fa7fec932767bc553bfb956759f45026890255bd232b2f797c3bc4dfeba2",
-    "url": "https://files.pythonhosted.org/packages/66/11/4daf12350b00a2143f8ab97196e6d02562e14fbafa2901283e5b23dee43f/grpcio-1.39.0-cp38-cp38-manylinux_2_24_aarch64.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp39-cp39-linux_armv7l.whl",
-    "sha256": "43e0f5c49f985c94332794aa6c4f15f3a1ced336f0c6a6c8946c67b5ab111ae9",
-    "url": "https://files.pythonhosted.org/packages/20/e5/436ac12fe5ec7c62589593face386bd3d16fd039d1524b6f9e736960ed61/grpcio-1.39.0-cp39-cp39-linux_armv7l.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp39-cp39-macosx_10_10_x86_64.whl",
-    "sha256": "dc3a24022a90c1754e54315009da6f949b48862c1d06daa54f9a28f89a5efacb",
-    "url": "https://files.pythonhosted.org/packages/73/9d/16396c2b6e2830c8b5285c13bcf91f149f77f51e0cd5e88e2b99a6a5c0f4/grpcio-1.39.0-cp39-cp39-macosx_10_10_x86_64.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp39-cp39-manylinux2010_i686.whl",
-    "sha256": "476fa94ba8efb09213baabd757f6f93e839794d8ae0eaa371347d6899e8f57a0",
-    "url": "https://files.pythonhosted.org/packages/0b/4f/86c3e14e6dd9efccf0547b1a97db0f217442c3ea5aa7949e8557cf306e5a/grpcio-1.39.0-cp39-cp39-manylinux2010_i686.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp39-cp39-manylinux2010_x86_64.whl",
-    "sha256": "46d510a7af777d2f38ef4c1d25491add37cad24143012f3eebe72dc5c6d0fc4c",
-    "url": "https://files.pythonhosted.org/packages/77/78/43e4d04a602dada1b4788a32d9a7578df0130243b2e3f148f2ee81d4fac8/grpcio-1.39.0-cp39-cp39-manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp39-cp39-manylinux2014_i686.whl",
-    "sha256": "5091b4a5ee8454a8f0c8ac45946ca25d6142c3be4b1fba141f1d62a6e0b5c696",
-    "url": "https://files.pythonhosted.org/packages/67/da/46990a221252856e270848cc0f75024f4848ce17bb17f065d4068d225e30/grpcio-1.39.0-cp39-cp39-manylinux2014_i686.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp39-cp39-manylinux2014_x86_64.whl",
-    "sha256": "de83a045005703e7b9e67b61c38bb72cd49f68d9d2780d2c675353a3a3f2816f",
-    "url": "https://files.pythonhosted.org/packages/9f/2a/3e2856d256339e144953e7d28401faee13d72142a73fa4c0d25746786025/grpcio-1.39.0-cp39-cp39-manylinux2014_x86_64.whl"
-  },
-  {
-    "name": "grpcio-1.39.0-cp39-cp39-manylinux_2_24_aarch64.whl",
-    "sha256": "4258b778ce09ffa3b7c9a26971c216a34369e786771afbf4f98afe223f27d248",
-    "url": "https://files.pythonhosted.org/packages/2e/16/eaf17ddd593c0fa8b83d1723abe04b6126e78cca90577328cbe1815235a0/grpcio-1.39.0-cp39-cp39-manylinux_2_24_aarch64.whl"
-  },
-  {
-    "name": "grpcio-1.39.0.tar.gz",
-    "sha256": "57974361a459d6fe04c9ae0af1845974606612249f467bbd2062d963cb90f407",
-    "url": "https://files.pythonhosted.org/packages/07/ea/398472e896f529d23fb58e33f01298dfc554a341d58f87c1ea5ad817208e/grpcio-1.39.0.tar.gz"
-  }
-]
+{
+  "grpcio-1.39.0-cp27-cp27m-macosx_10_10_x86_64.whl": "4163e022f365406be2da78db890035463371effea172300ce5af8a768142baf3",
+  "grpcio-1.39.0-cp27-cp27m-manylinux2010_i686.whl": "02e8a8b41db8e13df53078355b439363e4ac46d0ac9a8a461a39e42829e2bcf8",
+  "grpcio-1.39.0-cp27-cp27m-manylinux2010_x86_64.whl": "050901a5baa6c4ca445e1781ef4c32d864f965ccec70c46cd5ad92d15e282c6a",
+  "grpcio-1.39.0-cp27-cp27mu-manylinux2010_i686.whl": "a2733994b05ee5382da1d0378f6312b72c5cb202930c7fa20c794a24e96a1a34",
+  "grpcio-1.39.0-cp27-cp27mu-manylinux2010_x86_64.whl": "4039645b8b5d19064766f3a6fa535f1db52a61c4d4de97a6a8945331a354d527",
+  "grpcio-1.39.0-cp35-cp35m-macosx_10_10_intel.whl": "7b95b3329446408e2fe6db9b310d263303fa1a94649d08ec1e1cc12506743d26",
+  "grpcio-1.39.0-cp35-cp35m-manylinux2010_i686.whl": "2a4308875b9b986000513c6b04c2e7424f436a127f15547036c42d3cf8289374",
+  "grpcio-1.39.0-cp35-cp35m-manylinux2010_x86_64.whl": "4b3fcc1878a1a5b71e1ecdfe82c74f7cd9eadaa43e25be0d67676dcec0c9d39f",
+  "grpcio-1.39.0-cp35-cp35m-manylinux2014_i686.whl": "6d51be522b573cec14798d4742efaa69d234bedabce122fec2d5489abb3724d4",
+  "grpcio-1.39.0-cp35-cp35m-manylinux2014_x86_64.whl": "43c57987e526d1b893b85099424387b22de6e3eee4ea7188443de8d657d11cc0",
+  "grpcio-1.39.0-cp36-cp36m-linux_armv7l.whl": "3c14e2087f809973d5ee8ca64f772a089ead0167286f3f21fdda8b6029b50abb",
+  "grpcio-1.39.0-cp36-cp36m-macosx_10_10_x86_64.whl": "d5a105f5a595b89a0e394e5b147430b115333d07c55efb0c0eddc96055f0d951",
+  "grpcio-1.39.0-cp36-cp36m-manylinux2010_i686.whl": "366b6b35b3719c5570588e21d866460c5666ae74e3509c2a5a73ca79997abdaf",
+  "grpcio-1.39.0-cp36-cp36m-manylinux2010_x86_64.whl": "544e1c1a133b43893e03e828c8325be5b82e20d3b0ef0ee3942d32553052a1b5",
+  "grpcio-1.39.0-cp36-cp36m-manylinux2014_i686.whl": "a659f7c634cacfcf14657687a9fa3265b0a1844b1c19d140f3b66aebfba1a66b",
+  "grpcio-1.39.0-cp36-cp36m-manylinux2014_x86_64.whl": "b0ff14dd872030e6b2fce8a6811642bd30d93833f794d3782c7e9eb2f01234cc",
+  "grpcio-1.39.0-cp36-cp36m-manylinux_2_24_aarch64.whl": "2a958ad794292e12d8738a06754ebaf71662e635a89098916c18715b27ca2b5b",
+  "grpcio-1.39.0-cp37-cp37m-linux_armv7l.whl": "27e2c6213fc04e71a862bacccb51f3c8e722255933f01736ace183e92d860ee6",
+  "grpcio-1.39.0-cp37-cp37m-macosx_10_10_x86_64.whl": "5127f4ba1f52fda28037ae465cf4b0e5fabe89d5ac1d64d15b073b46b7db5e16",
+  "grpcio-1.39.0-cp37-cp37m-manylinux2010_i686.whl": "a6211150765cc2343e69879dfb856718b0f7477a4618b5f9a8f6c3ee84c047c0",
+  "grpcio-1.39.0-cp37-cp37m-manylinux2010_x86_64.whl": "691f5b3a75f072dfb7b093f46303f493b885b7a42f25a831868ffaa22ee85f9d",
+  "grpcio-1.39.0-cp37-cp37m-manylinux2014_i686.whl": "c8fe430add656b92419f6cd0680b64fbe6347c831d89a7788324f5037dfb3359",
+  "grpcio-1.39.0-cp37-cp37m-manylinux2014_x86_64.whl": "3cccf470fcaab65a1b0a826ff34bd7c0861eb82ed957a83c6647a983459e4ecd",
+  "grpcio-1.39.0-cp37-cp37m-manylinux_2_24_aarch64.whl": "2bc7eebb405aac2d7eecfaa881fd73b489f99c01470d7193b4431a6ce199b9c3",
+  "grpcio-1.39.0-cp38-cp38-linux_armv7l.whl": "6ba6ad60009da2258cf15a72c51b7e0c2f58c8da517e97550881e488839e56c6",
+  "grpcio-1.39.0-cp38-cp38-macosx_10_10_x86_64.whl": "a1fb9936b86b5efdea417fe159934bcad82a6f8c6ab7d1beec4bf3a78324d975",
+  "grpcio-1.39.0-cp38-cp38-manylinux2010_i686.whl": "46cfb0f2b757673bfd36ab4b0e3d61988cc1a0d47e0597e91462dcbef7528f35",
+  "grpcio-1.39.0-cp38-cp38-manylinux2010_x86_64.whl": "f2621c82fbbff1496993aa5fbf60e235583c7f970506e818671ad52000b6f310",
+  "grpcio-1.39.0-cp38-cp38-manylinux2014_i686.whl": "e98aca5cfe05ca29950b3d99006b9ddb54fde6451cd12cb2db1443ae3b9fa076",
+  "grpcio-1.39.0-cp38-cp38-manylinux2014_x86_64.whl": "8ed1e52ad507a54d20e6aaedf4b3edcab18cc12031eafe6de898f97513d8997b",
+  "grpcio-1.39.0-cp38-cp38-manylinux_2_24_aarch64.whl": "3c57fa7fec932767bc553bfb956759f45026890255bd232b2f797c3bc4dfeba2",
+  "grpcio-1.39.0-cp39-cp39-linux_armv7l.whl": "43e0f5c49f985c94332794aa6c4f15f3a1ced336f0c6a6c8946c67b5ab111ae9",
+  "grpcio-1.39.0-cp39-cp39-macosx_10_10_x86_64.whl": "dc3a24022a90c1754e54315009da6f949b48862c1d06daa54f9a28f89a5efacb",
+  "grpcio-1.39.0-cp39-cp39-manylinux2010_i686.whl": "476fa94ba8efb09213baabd757f6f93e839794d8ae0eaa371347d6899e8f57a0",
+  "grpcio-1.39.0-cp39-cp39-manylinux2010_x86_64.whl": "46d510a7af777d2f38ef4c1d25491add37cad24143012f3eebe72dc5c6d0fc4c",
+  "grpcio-1.39.0-cp39-cp39-manylinux2014_i686.whl": "5091b4a5ee8454a8f0c8ac45946ca25d6142c3be4b1fba141f1d62a6e0b5c696",
+  "grpcio-1.39.0-cp39-cp39-manylinux2014_x86_64.whl": "de83a045005703e7b9e67b61c38bb72cd49f68d9d2780d2c675353a3a3f2816f",
+  "grpcio-1.39.0-cp39-cp39-manylinux_2_24_aarch64.whl": "4258b778ce09ffa3b7c9a26971c216a34369e786771afbf4f98afe223f27d248",
+  "grpcio-1.39.0.tar.gz": "57974361a459d6fe04c9ae0af1845974606612249f467bbd2062d963cb90f407"
+}

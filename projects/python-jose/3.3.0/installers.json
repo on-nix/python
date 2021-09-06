@@ -1,12 +1,4 @@
-[
-  {
-    "name": "python_jose-3.3.0-py2.py3-none-any.whl",
-    "sha256": "9b1376b023f8b298536eedd47ae1089bcdb848f1535ab30555cd92002d78923a",
-    "url": "https://files.pythonhosted.org/packages/bd/2d/e94b2f7bab6773c70efc70a61d66e312e1febccd9e0db6b9e0adf58cbad1/python_jose-3.3.0-py2.py3-none-any.whl"
-  },
-  {
-    "name": "python-jose-3.3.0.tar.gz",
-    "sha256": "55779b5e6ad599c6336191246e95eb2293a9ddebd555f796a65f838f07e5d78a",
-    "url": "https://files.pythonhosted.org/packages/e4/19/b2c86504116dc5f0635d29f802da858404d77d930a25633d2e86a64a35b3/python-jose-3.3.0.tar.gz"
-  }
-]
+{
+  "python-jose-3.3.0.tar.gz": "55779b5e6ad599c6336191246e95eb2293a9ddebd555f796a65f838f07e5d78a",
+  "python_jose-3.3.0-py2.py3-none-any.whl": "9b1376b023f8b298536eedd47ae1089bcdb848f1535ab30555cd92002d78923a"
+}

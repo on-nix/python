@@ -1,12 +1,4 @@
-[
-  {
-    "name": "anyio-3.3.0-py3-none-any.whl",
-    "sha256": "929a6852074397afe1d989002aa96d457e3e1e5441357c60d03e7eea0e65e1b0",
-    "url": "https://files.pythonhosted.org/packages/94/72/c728ad9e34f53be06f4dfbff4d511907bafb46920f10dc34836e58bd6894/anyio-3.3.0-py3-none-any.whl"
-  },
-  {
-    "name": "anyio-3.3.0.tar.gz",
-    "sha256": "ae57a67583e5ff8b4af47666ff5651c3732d45fd26c929253748e796af860374",
-    "url": "https://files.pythonhosted.org/packages/58/92/29df8cc2d38a54c1db0074bc745109b30edbcccf3ebac7c3c82c63cd692c/anyio-3.3.0.tar.gz"
-  }
-]
+{
+  "anyio-3.3.0-py3-none-any.whl": "929a6852074397afe1d989002aa96d457e3e1e5441357c60d03e7eea0e65e1b0",
+  "anyio-3.3.0.tar.gz": "ae57a67583e5ff8b4af47666ff5651c3732d45fd26c929253748e796af860374"
+}

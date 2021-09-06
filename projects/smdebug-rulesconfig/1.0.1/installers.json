@@ -1,12 +1,4 @@
-[
-  {
-    "name": "smdebug_rulesconfig-1.0.1-py2.py3-none-any.whl",
-    "sha256": "104da3e6931ecf879dfc687ca4bbb3bee5ea2bc27f4478e9dbb3ee3655f1ae61",
-    "url": "https://files.pythonhosted.org/packages/26/a1/45a13a05198bbe9527bab2c5e5daa8bd02678aa825eec14783e767bfa7d1/smdebug_rulesconfig-1.0.1-py2.py3-none-any.whl"
-  },
-  {
-    "name": "smdebug_rulesconfig-1.0.1.tar.gz",
-    "sha256": "7a19e6eb2e6bcfefbc07e4a86ef7a88f32495001a038bf28c7d8e77ab793fcd6",
-    "url": "https://files.pythonhosted.org/packages/cc/7d/8ad6a2098e03c1f811d1277a2cedb81265828f144f6d323b83a2392e8bb9/smdebug_rulesconfig-1.0.1.tar.gz"
-  }
-]
+{
+  "smdebug_rulesconfig-1.0.1-py2.py3-none-any.whl": "104da3e6931ecf879dfc687ca4bbb3bee5ea2bc27f4478e9dbb3ee3655f1ae61",
+  "smdebug_rulesconfig-1.0.1.tar.gz": "7a19e6eb2e6bcfefbc07e4a86ef7a88f32495001a038bf28c7d8e77ab793fcd6"
+}

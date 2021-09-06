@@ -1,12 +1,4 @@
-[
-  {
-    "name": "botocore-1.20.112-py2.py3-none-any.whl",
-    "sha256": "6d51de0981a3ef19da9e6a3c73b5ab427e3c0c8b92200ebd38d087299683dd2b",
-    "url": "https://files.pythonhosted.org/packages/c7/ea/11c3beca131920f552602b98d7ba9fc5b46bee6a59cbd48a95a85cbb8f41/botocore-1.20.112-py2.py3-none-any.whl"
-  },
-  {
-    "name": "botocore-1.20.112.tar.gz",
-    "sha256": "d0b9b70b6eb5b65bb7162da2aaf04b6b086b15cc7ea322ddc3ef2f5e07944dcf",
-    "url": "https://files.pythonhosted.org/packages/4d/c8/2d47e502c12d4b436e5b865cc78552604888aee59570c12b1863bb09c11b/botocore-1.20.112.tar.gz"
-  }
-]
+{
+  "botocore-1.20.112-py2.py3-none-any.whl": "6d51de0981a3ef19da9e6a3c73b5ab427e3c0c8b92200ebd38d087299683dd2b",
+  "botocore-1.20.112.tar.gz": "d0b9b70b6eb5b65bb7162da2aaf04b6b086b15cc7ea322ddc3ef2f5e07944dcf"
+}

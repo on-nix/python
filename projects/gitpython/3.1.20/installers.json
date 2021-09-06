@@ -1,12 +1,4 @@
-[
-  {
-    "name": "GitPython-3.1.20-py3-none-any.whl",
-    "sha256": "b1e1c269deab1b08ce65403cf14e10d2ef1f6c89e33ea7c5e5bb0222ea593b8a",
-    "url": "https://files.pythonhosted.org/packages/55/60/f884f01eef2a7255875862ec1b12d57d74113ec6e8d9e16c4d254cd6aa3c/GitPython-3.1.20-py3-none-any.whl"
-  },
-  {
-    "name": "GitPython-3.1.20.tar.gz",
-    "sha256": "df0e072a200703a65387b0cfdf0466e3bab729c0458cf6b7349d0e9877636519",
-    "url": "https://files.pythonhosted.org/packages/ed/6a/c45c610dab3259d7059f028e34e1e708d5fe2bda886dc1f1564083339316/GitPython-3.1.20.tar.gz"
-  }
-]
+{
+  "GitPython-3.1.20-py3-none-any.whl": "b1e1c269deab1b08ce65403cf14e10d2ef1f6c89e33ea7c5e5bb0222ea593b8a",
+  "GitPython-3.1.20.tar.gz": "df0e072a200703a65387b0cfdf0466e3bab729c0458cf6b7349d0e9877636519"
+}

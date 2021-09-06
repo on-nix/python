@@ -1,12 +1,4 @@
-[
-  {
-    "name": "bugsnag-4.1.0-py3-none-any.whl",
-    "sha256": "4ae7fc4ec923aefc3a54466b45cfce4953fd77b14213fa2f85409be0a092494d",
-    "url": "https://files.pythonhosted.org/packages/e1/1c/dacec164c3340f7eec0e27c28f218c29e8159c728e8b1e8707caecd3bd2d/bugsnag-4.1.0-py3-none-any.whl"
-  },
-  {
-    "name": "bugsnag-4.1.0.tar.gz",
-    "sha256": "dcbd59cd9edea26cc92efb6518aed83a2f356f81bfd5acc730bfe202fb27c1c1",
-    "url": "https://files.pythonhosted.org/packages/82/2c/406d3d7e340582cf648c9efec78fe5b87591a4ae80ceed8eca4aacb14476/bugsnag-4.1.0.tar.gz"
-  }
-]
+{
+  "bugsnag-4.1.0-py3-none-any.whl": "4ae7fc4ec923aefc3a54466b45cfce4953fd77b14213fa2f85409be0a092494d",
+  "bugsnag-4.1.0.tar.gz": "dcbd59cd9edea26cc92efb6518aed83a2f356f81bfd5acc730bfe202fb27c1c1"
+}

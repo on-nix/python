@@ -1,12 +1,4 @@
-[
-  {
-    "name": "python_magic-0.4.24-py2.py3-none-any.whl",
-    "sha256": "4fec8ee805fea30c07afccd1592c0f17977089895bdfaae5fec870a84e997626",
-    "url": "https://files.pythonhosted.org/packages/d3/99/c89223c6547df268596899334ee77b3051f606077317023617b1c43162fb/python_magic-0.4.24-py2.py3-none-any.whl"
-  },
-  {
-    "name": "python-magic-0.4.24.tar.gz",
-    "sha256": "de800df9fb50f8ec5974761054a708af6e4246b03b4bdaee993f948947b0ebcf",
-    "url": "https://files.pythonhosted.org/packages/3a/70/76b185393fecf78f81c12f9dc7b1df814df785f6acb545fc92b016e75a7e/python-magic-0.4.24.tar.gz"
-  }
-]
+{
+  "python-magic-0.4.24.tar.gz": "de800df9fb50f8ec5974761054a708af6e4246b03b4bdaee993f948947b0ebcf",
+  "python_magic-0.4.24-py2.py3-none-any.whl": "4fec8ee805fea30c07afccd1592c0f17977089895bdfaae5fec870a84e997626"
+}

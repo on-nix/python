@@ -1,12 +1,4 @@
-[
-  {
-    "name": "networkx-2.6.2-py3-none-any.whl",
-    "sha256": "5fcb7004be69e8fbdf07dcb502efa5c77cadcaad6982164134eeb9721f826c2e",
-    "url": "https://files.pythonhosted.org/packages/b4/9c/60194245c21825497e9609d8dd6a67db539429e77e28a4a1c651b63a0d26/networkx-2.6.2-py3-none-any.whl"
-  },
-  {
-    "name": "networkx-2.6.2.tar.gz",
-    "sha256": "2306f1950ce772c5a59a57f5486d59bb9cab98497c45fc49cbc45ac0dec119bb",
-    "url": "https://files.pythonhosted.org/packages/4b/3b/4378599026b81d1987a6e0d6d3d677e8f26308a039491a6b8a1914e58a4c/networkx-2.6.2.tar.gz"
-  }
-]
+{
+  "networkx-2.6.2-py3-none-any.whl": "5fcb7004be69e8fbdf07dcb502efa5c77cadcaad6982164134eeb9721f826c2e",
+  "networkx-2.6.2.tar.gz": "2306f1950ce772c5a59a57f5486d59bb9cab98497c45fc49cbc45ac0dec119bb"
+}

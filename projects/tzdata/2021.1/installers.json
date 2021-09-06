@@ -1,12 +1,4 @@
-[
-  {
-    "name": "tzdata-2021.1-py2.py3-none-any.whl",
-    "sha256": "9ad21eada54c97001e3e9858a674b3ee6bebe4a4fb2b58465930f2af0ba6c85d",
-    "url": "https://files.pythonhosted.org/packages/4a/c3/6b6c7a5821bcfc1363161b854a272c7fd4a9f27c5a614ff8e48475a45a3e/tzdata-2021.1-py2.py3-none-any.whl"
-  },
-  {
-    "name": "tzdata-2021.1.tar.gz",
-    "sha256": "e19c7351f887522a1ac739d21041e592ddde6dd1b764fdefa8f7b2b3551d3d38",
-    "url": "https://files.pythonhosted.org/packages/cc/f8/2fcb8cb8b227c43c4f59647a479029091493feb07fae22a5b86dbab4f1d4/tzdata-2021.1.tar.gz"
-  }
-]
+{
+  "tzdata-2021.1-py2.py3-none-any.whl": "9ad21eada54c97001e3e9858a674b3ee6bebe4a4fb2b58465930f2af0ba6c85d",
+  "tzdata-2021.1.tar.gz": "e19c7351f887522a1ac739d21041e592ddde6dd1b764fdefa8f7b2b3551d3d38"
+}

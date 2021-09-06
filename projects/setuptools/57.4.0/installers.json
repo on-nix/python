@@ -1,12 +1,4 @@
-[
-  {
-    "name": "setuptools-57.4.0-py3-none-any.whl",
-    "sha256": "a49230977aa6cfb9d933614d2f7b79036e9945c4cdd7583163f4e920b83418d6",
-    "url": "https://files.pythonhosted.org/packages/bd/25/5bdf7f1adeebd4e3fa76b2e2f045ae53ee208e40a4231ad0f0c3007e4353/setuptools-57.4.0-py3-none-any.whl"
-  },
-  {
-    "name": "setuptools-57.4.0.tar.gz",
-    "sha256": "6bac238ffdf24e8806c61440e755192470352850f3419a52f26ffe0a1a64f465",
-    "url": "https://files.pythonhosted.org/packages/db/e2/c0ced9ccffb61432305665c22842ea120c0f649eec47ecf2a45c596707c4/setuptools-57.4.0.tar.gz"
-  }
-]
+{
+  "setuptools-57.4.0-py3-none-any.whl": "a49230977aa6cfb9d933614d2f7b79036e9945c4cdd7583163f4e920b83418d6",
+  "setuptools-57.4.0.tar.gz": "6bac238ffdf24e8806c61440e755192470352850f3419a52f26ffe0a1a64f465"
+}

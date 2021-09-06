@@ -1,12 +1,4 @@
-[
-  {
-    "name": "responses-0.13.4-py2.py3-none-any.whl",
-    "sha256": "d8d0f655710c46fd3513b9202a7f0dcedd02ca0f8cf4976f27fa8ab5b81e656d",
-    "url": "https://files.pythonhosted.org/packages/d6/8c/a985395210c54d8a3b849cbe8d9212906550020ba35fd3514ef463906c2f/responses-0.13.4-py2.py3-none-any.whl"
-  },
-  {
-    "name": "responses-0.13.4.tar.gz",
-    "sha256": "9476775d856d3c24ae660bbebe29fb6d789d4ad16acd723efbfb6ee20990b899",
-    "url": "https://files.pythonhosted.org/packages/35/fc/d58c1464a38b9455a4bedb36d5e345b11b5158c3af10efac7e6df4bf0551/responses-0.13.4.tar.gz"
-  }
-]
+{
+  "responses-0.13.4-py2.py3-none-any.whl": "d8d0f655710c46fd3513b9202a7f0dcedd02ca0f8cf4976f27fa8ab5b81e656d",
+  "responses-0.13.4.tar.gz": "9476775d856d3c24ae660bbebe29fb6d789d4ad16acd723efbfb6ee20990b899"
+}

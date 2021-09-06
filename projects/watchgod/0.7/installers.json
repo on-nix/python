@@ -1,12 +1,4 @@
-[
-  {
-    "name": "watchgod-0.7-py3-none-any.whl",
-    "sha256": "d6c1ea21df37847ac0537ca0d6c2f4cdf513562e95f77bb93abbcf05573407b7",
-    "url": "https://files.pythonhosted.org/packages/57/35/9a8da3fb6681e6eba662b2d249eea58cebf575e392271efac3344c172c5f/watchgod-0.7-py3-none-any.whl"
-  },
-  {
-    "name": "watchgod-0.7.tar.gz",
-    "sha256": "48140d62b0ebe9dd9cf8381337f06351e1f2e70b2203fa9c6eff4e572ca84f29",
-    "url": "https://files.pythonhosted.org/packages/fc/95/ae723eb1450763e1b2b9e70488054099c661f3b65f0c41d86b868cd6eb16/watchgod-0.7.tar.gz"
-  }
-]
+{
+  "watchgod-0.7-py3-none-any.whl": "d6c1ea21df37847ac0537ca0d6c2f4cdf513562e95f77bb93abbcf05573407b7",
+  "watchgod-0.7.tar.gz": "48140d62b0ebe9dd9cf8381337f06351e1f2e70b2203fa9c6eff4e572ca84f29"
+}

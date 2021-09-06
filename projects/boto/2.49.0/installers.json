@@ -1,12 +1,4 @@
-[
-  {
-    "name": "boto-2.49.0-py2.py3-none-any.whl",
-    "sha256": "147758d41ae7240dc989f0039f27da8ca0d53734be0eb869ef16e3adcfa462e8",
-    "url": "https://files.pythonhosted.org/packages/23/10/c0b78c27298029e4454a472a1919bde20cb182dab1662cec7f2ca1dcc523/boto-2.49.0-py2.py3-none-any.whl"
-  },
-  {
-    "name": "boto-2.49.0.tar.gz",
-    "sha256": "ea0d3b40a2d852767be77ca343b58a9e3a4b00d9db440efb8da74b4e58025e5a",
-    "url": "https://files.pythonhosted.org/packages/c8/af/54a920ff4255664f5d238b5aebd8eedf7a07c7a5e71e27afcfe840b82f51/boto-2.49.0.tar.gz"
-  }
-]
+{
+  "boto-2.49.0-py2.py3-none-any.whl": "147758d41ae7240dc989f0039f27da8ca0d53734be0eb869ef16e3adcfa462e8",
+  "boto-2.49.0.tar.gz": "ea0d3b40a2d852767be77ca343b58a9e3a4b00d9db440efb8da74b4e58025e5a"
+}

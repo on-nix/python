@@ -1,12 +1,4 @@
-[
-  {
-    "name": "Werkzeug-2.0.1-py3-none-any.whl",
-    "sha256": "6c1ec500dcdba0baa27600f6a22f6333d8b662d22027ff9f6202e3367413caa8",
-    "url": "https://files.pythonhosted.org/packages/bd/24/11c3ea5a7e866bf2d97f0501d0b4b1c9bbeade102bb4b588f0d2919a5212/Werkzeug-2.0.1-py3-none-any.whl"
-  },
-  {
-    "name": "Werkzeug-2.0.1.tar.gz",
-    "sha256": "1de1db30d010ff1af14a009224ec49ab2329ad2cde454c8a708130642d579c42",
-    "url": "https://files.pythonhosted.org/packages/e3/bd/a49e5f756b2f29010b5be321fe02478660dbf8fefea3f078493c86011b5f/Werkzeug-2.0.1.tar.gz"
-  }
-]
+{
+  "Werkzeug-2.0.1-py3-none-any.whl": "6c1ec500dcdba0baa27600f6a22f6333d8b662d22027ff9f6202e3367413caa8",
+  "Werkzeug-2.0.1.tar.gz": "1de1db30d010ff1af14a009224ec49ab2329ad2cde454c8a708130642d579c42"
+}

@@ -1,87 +1,19 @@
-[
-  {
-    "name": "protobuf-3.17.3-cp27-cp27m-macosx_10_9_x86_64.whl",
-    "sha256": "ab6bb0e270c6c58e7ff4345b3a803cc59dbee19ddf77a4719c5b635f1d547aa8",
-    "url": "https://files.pythonhosted.org/packages/ca/91/99dc384c18b2541168f24a273824bf0f6df29bc65fc8a6fb19cce6967232/protobuf-3.17.3-cp27-cp27m-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "protobuf-3.17.3-cp27-cp27mu-manylinux_2_5_x86_64.manylinux1_x86_64.whl",
-    "sha256": "13ee7be3c2d9a5d2b42a1030976f760f28755fcf5863c55b1460fd205e6cd637",
-    "url": "https://files.pythonhosted.org/packages/e9/06/5606088c9fbfb924d0f228350e7ec8707fe8f8a6f3a024ace4f0da81d9ce/protobuf-3.17.3-cp27-cp27mu-manylinux_2_5_x86_64.manylinux1_x86_64.whl"
-  },
-  {
-    "name": "protobuf-3.17.3-cp35-cp35m-macosx_10_9_intel.whl",
-    "sha256": "1556a1049ccec58c7855a78d27e5c6e70e95103b32de9142bae0576e9200a1b0",
-    "url": "https://files.pythonhosted.org/packages/87/b1/368b147d5e70d6b5a5a1fb88fa09c1957d3c4f8d61363ece304d5cfee6af/protobuf-3.17.3-cp35-cp35m-macosx_10_9_intel.whl"
-  },
-  {
-    "name": "protobuf-3.17.3-cp35-cp35m-manylinux_2_5_x86_64.manylinux1_x86_64.whl",
-    "sha256": "f0e59430ee953184a703a324b8ec52f571c6c4259d496a19d1cabcdc19dabc62",
-    "url": "https://files.pythonhosted.org/packages/3b/f1/728216338c64b3a06e6ad27d39ace5ea31c83dedc303a533700d8bf2aa8f/protobuf-3.17.3-cp35-cp35m-manylinux_2_5_x86_64.manylinux1_x86_64.whl"
-  },
-  {
-    "name": "protobuf-3.17.3-cp36-cp36m-macosx_10_9_x86_64.whl",
-    "sha256": "145ce0af55c4259ca74993ddab3479c78af064002ec8227beb3d944405123c71",
-    "url": "https://files.pythonhosted.org/packages/d4/62/2aedc64cbfacf0cd03268209aba811cbbab65467bec46a534c1ecfc3681d/protobuf-3.17.3-cp36-cp36m-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "protobuf-3.17.3-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.whl",
-    "sha256": "6ce4d8bf0321e7b2d4395e253f8002a1a5ffbcfd7bcc0a6ba46712c07d47d0b4",
-    "url": "https://files.pythonhosted.org/packages/53/4e/e2db88d0bb0bda6a879eea62fddbaf813719ce3770d458bc5580512d9c95/protobuf-3.17.3-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.whl"
-  },
-  {
-    "name": "protobuf-3.17.3-cp37-cp37m-macosx_10_9_x86_64.whl",
-    "sha256": "ffea251f5cd3c0b9b43c7a7a912777e0bc86263436a87c2555242a348817221b",
-    "url": "https://files.pythonhosted.org/packages/2a/3b/6d868198d7287a2cd323824b5f56db868477d03aeebf5441d2c2a67596ac/protobuf-3.17.3-cp37-cp37m-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "protobuf-3.17.3-cp37-cp37m-manylinux2014_aarch64.whl",
-    "sha256": "9b7a5c1022e0fa0dbde7fd03682d07d14624ad870ae52054849d8960f04bc764",
-    "url": "https://files.pythonhosted.org/packages/fd/5f/6d6f7a5859caf79894685ec543354edc05538a0a34d63a411a2a7cb4ecfd/protobuf-3.17.3-cp37-cp37m-manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "protobuf-3.17.3-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl",
-    "sha256": "8727ee027157516e2c311f218ebf2260a18088ffb2d29473e82add217d196b1c",
-    "url": "https://files.pythonhosted.org/packages/4c/53/ddcef00219f2a3c863b24288e24a20c3070bd086a1e77706f22994a7f6db/protobuf-3.17.3-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl"
-  },
-  {
-    "name": "protobuf-3.17.3-cp38-cp38-macosx_10_9_x86_64.whl",
-    "sha256": "2ae692bb6d1992afb6b74348e7bb648a75bb0d3565a3f5eea5bec8f62bd06d87",
-    "url": "https://files.pythonhosted.org/packages/af/f4/0f7ea83bc253f296ed7159c29e000a07f0c82fccd3128e38b7487773cf41/protobuf-3.17.3-cp38-cp38-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "protobuf-3.17.3-cp38-cp38-manylinux2014_aarch64.whl",
-    "sha256": "99938f2a2d7ca6563c0ade0c5ca8982264c484fdecf418bd68e880a7ab5730b1",
-    "url": "https://files.pythonhosted.org/packages/a2/f4/0fb4082a337ae97863e0a66a5f9ecb73faf91f84ff7783d7457fb1ba803d/protobuf-3.17.3-cp38-cp38-manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "protobuf-3.17.3-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl",
-    "sha256": "6902a1e4b7a319ec611a7345ff81b6b004b36b0d2196ce7a748b3493da3d226d",
-    "url": "https://files.pythonhosted.org/packages/e1/24/762768848490169a1a0a6843e183e5f251da12e588c7b5421f39e0e23c14/protobuf-3.17.3-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl"
-  },
-  {
-    "name": "protobuf-3.17.3-cp39-cp39-macosx_10_9_x86_64.whl",
-    "sha256": "4ffbd23640bb7403574f7aff8368e2aeb2ec9a5c6306580be48ac59a6bac8bde",
-    "url": "https://files.pythonhosted.org/packages/64/0d/0b0fe641bf5106850fa0a80d56c5e1c3c3a6aabc2b8bc9717930bb02a8d2/protobuf-3.17.3-cp39-cp39-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "protobuf-3.17.3-cp39-cp39-manylinux2014_aarch64.whl",
-    "sha256": "26010f693b675ff5a1d0e1bdb17689b8b716a18709113288fead438703d45539",
-    "url": "https://files.pythonhosted.org/packages/bb/65/899af3c4a5b52c797764708d3c121bc2625f47d5f0c424e58d13caec59cf/protobuf-3.17.3-cp39-cp39-manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "protobuf-3.17.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl",
-    "sha256": "e76d9686e088fece2450dbc7ee905f9be904e427341d289acbe9ad00b78ebd47",
-    "url": "https://files.pythonhosted.org/packages/ed/bb/041ce7130ec3aab3de2a5a2a4f1dfb7d74901ccd05bbed5df4a70d1889af/protobuf-3.17.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl"
-  },
-  {
-    "name": "protobuf-3.17.3-py2.py3-none-any.whl",
-    "sha256": "2bfb815216a9cd9faec52b16fd2bfa68437a44b67c56bee59bc3926522ecb04e",
-    "url": "https://files.pythonhosted.org/packages/d5/e0/20ba06eb42155cdb4c741e5caf9946e4569e26d71165abaecada18c58603/protobuf-3.17.3-py2.py3-none-any.whl"
-  },
-  {
-    "name": "protobuf-3.17.3.tar.gz",
-    "sha256": "72804ea5eaa9c22a090d2803813e280fb273b62d5ae497aaf3553d141c4fdd7b",
-    "url": "https://files.pythonhosted.org/packages/3d/64/a3b379cb9c7827ad33c67dcda4c4ad117bdef1b7d68b22a05c963cf4727d/protobuf-3.17.3.tar.gz"
-  }
-]
+{
+  "protobuf-3.17.3-cp27-cp27m-macosx_10_9_x86_64.whl": "ab6bb0e270c6c58e7ff4345b3a803cc59dbee19ddf77a4719c5b635f1d547aa8",
+  "protobuf-3.17.3-cp27-cp27mu-manylinux_2_5_x86_64.manylinux1_x86_64.whl": "13ee7be3c2d9a5d2b42a1030976f760f28755fcf5863c55b1460fd205e6cd637",
+  "protobuf-3.17.3-cp35-cp35m-macosx_10_9_intel.whl": "1556a1049ccec58c7855a78d27e5c6e70e95103b32de9142bae0576e9200a1b0",
+  "protobuf-3.17.3-cp35-cp35m-manylinux_2_5_x86_64.manylinux1_x86_64.whl": "f0e59430ee953184a703a324b8ec52f571c6c4259d496a19d1cabcdc19dabc62",
+  "protobuf-3.17.3-cp36-cp36m-macosx_10_9_x86_64.whl": "145ce0af55c4259ca74993ddab3479c78af064002ec8227beb3d944405123c71",
+  "protobuf-3.17.3-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.whl": "6ce4d8bf0321e7b2d4395e253f8002a1a5ffbcfd7bcc0a6ba46712c07d47d0b4",
+  "protobuf-3.17.3-cp37-cp37m-macosx_10_9_x86_64.whl": "ffea251f5cd3c0b9b43c7a7a912777e0bc86263436a87c2555242a348817221b",
+  "protobuf-3.17.3-cp37-cp37m-manylinux2014_aarch64.whl": "9b7a5c1022e0fa0dbde7fd03682d07d14624ad870ae52054849d8960f04bc764",
+  "protobuf-3.17.3-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl": "8727ee027157516e2c311f218ebf2260a18088ffb2d29473e82add217d196b1c",
+  "protobuf-3.17.3-cp38-cp38-macosx_10_9_x86_64.whl": "2ae692bb6d1992afb6b74348e7bb648a75bb0d3565a3f5eea5bec8f62bd06d87",
+  "protobuf-3.17.3-cp38-cp38-manylinux2014_aarch64.whl": "99938f2a2d7ca6563c0ade0c5ca8982264c484fdecf418bd68e880a7ab5730b1",
+  "protobuf-3.17.3-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl": "6902a1e4b7a319ec611a7345ff81b6b004b36b0d2196ce7a748b3493da3d226d",
+  "protobuf-3.17.3-cp39-cp39-macosx_10_9_x86_64.whl": "4ffbd23640bb7403574f7aff8368e2aeb2ec9a5c6306580be48ac59a6bac8bde",
+  "protobuf-3.17.3-cp39-cp39-manylinux2014_aarch64.whl": "26010f693b675ff5a1d0e1bdb17689b8b716a18709113288fead438703d45539",
+  "protobuf-3.17.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl": "e76d9686e088fece2450dbc7ee905f9be904e427341d289acbe9ad00b78ebd47",
+  "protobuf-3.17.3-py2.py3-none-any.whl": "2bfb815216a9cd9faec52b16fd2bfa68437a44b67c56bee59bc3926522ecb04e",
+  "protobuf-3.17.3.tar.gz": "72804ea5eaa9c22a090d2803813e280fb273b62d5ae497aaf3553d141c4fdd7b"
+}

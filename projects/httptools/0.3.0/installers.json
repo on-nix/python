@@ -1,97 +1,21 @@
-[
-  {
-    "name": "httptools-0.3.0-cp310-cp310-macosx_10_9_universal2.whl",
-    "sha256": "4137137de8976511a392e27bfdcf231bd926ac13d375e0414e927b08217d779e",
-    "url": "https://files.pythonhosted.org/packages/5a/8b/6d3095f28f08fa8f3948876c55fb9b962c51ab0313dd2b6abe81c85d9026/httptools-0.3.0-cp310-cp310-macosx_10_9_universal2.whl"
-  },
-  {
-    "name": "httptools-0.3.0-cp310-cp310-macosx_10_9_x86_64.whl",
-    "sha256": "9f475b642c48b1b78584bdd12a5143e2c512485664331eade9c29ef769a17598",
-    "url": "https://files.pythonhosted.org/packages/03/af/9fff2fe60e2c202834b524c30886a42d4eea216f159faf3f6a57a35a31d0/httptools-0.3.0-cp310-cp310-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "httptools-0.3.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-    "sha256": "4687dfc116a9f1eb22a7d797f0dc6f6e17190d406ca4e729634b38aa98044b17",
-    "url": "https://files.pythonhosted.org/packages/7c/eb/260584e1959fd686ae5e217877e5d27d3d1c2d33d668ec9179b9d22498a4/httptools-0.3.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "httptools-0.3.0-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
-    "sha256": "72ee0e3fb9c6437ab3ae34e9abee67fcee6876f4f58504e3f613dd5882aafdb7",
-    "url": "https://files.pythonhosted.org/packages/8a/72/e777a09fc8361c0964771ddd06932e87a5293eb66528f81c09f4d59658b2/httptools-0.3.0-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "httptools-0.3.0-cp36-cp36m-macosx_10_9_x86_64.whl",
-    "sha256": "c0ac2e0ce6733c55858932e7d37fcc7b67ba6bb23e9648593c55f663de031b93",
-    "url": "https://files.pythonhosted.org/packages/66/bc/a1f662d24ecd051c1438c6243d14960829c1c4f4143f60c4b513597491f5/httptools-0.3.0-cp36-cp36m-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "httptools-0.3.0-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-    "sha256": "79717080dc3f8b1eeb7f820b9b81528acbc04be6041f323fdd97550da2062575",
-    "url": "https://files.pythonhosted.org/packages/c3/a8/f2378e73ff416bcf00b35f6e68f9826265c3adbb1f4714e850035efaca15/httptools-0.3.0-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "httptools-0.3.0-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
-    "sha256": "eda95634027200f4b2a6d499e7c2e7fa9b8ee57e045dfda26958ea0af27c070b",
-    "url": "https://files.pythonhosted.org/packages/73/0f/75413c799e19f185fe6a8d57a9fb64dc8ac4496850ccc761a47d61cca53c/httptools-0.3.0-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "httptools-0.3.0-cp37-cp37m-macosx_10_9_x86_64.whl",
-    "sha256": "c14576b737d9e6e4f2a86af04918dbe9b62f57ce8102a8695c9a382dbe405c7f",
-    "url": "https://files.pythonhosted.org/packages/7b/4a/051b0f4f0d42c289e78b232d42cfe603d82b1995f545eed21e065bd893ce/httptools-0.3.0-cp37-cp37m-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "httptools-0.3.0-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-    "sha256": "113816f9af7dcfc4aa71ebb5354d77365f666ecf96ac7ff2aa1d24b6bca44165",
-    "url": "https://files.pythonhosted.org/packages/4b/6c/ed8675197a85e215f4b88c3e4223bdc22d594f7d8a01ed7636e86a40fa21/httptools-0.3.0-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "httptools-0.3.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
-    "sha256": "b8ac7dee63af4346e02b1e6d32202e3b5b3706a9928bec6da6d7a5b066217422",
-    "url": "https://files.pythonhosted.org/packages/2e/af/a6a36bcde14f18d9ccf22986d8875bd6e2e9de7a325fdcc1fad098b9959f/httptools-0.3.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "httptools-0.3.0-cp38-cp38-macosx_10_9_universal2.whl",
-    "sha256": "6e676bc3bb911b11f3d7e2144b9a53600bf6b9b21e0e4437aa308e1eef094d97",
-    "url": "https://files.pythonhosted.org/packages/f7/8d/a6994d218b2ea1fd7044e7f050b176ddca6f6bde49d77be377e660ddd920/httptools-0.3.0-cp38-cp38-macosx_10_9_universal2.whl"
-  },
-  {
-    "name": "httptools-0.3.0-cp38-cp38-macosx_10_9_x86_64.whl",
-    "sha256": "cdc3975db86c29817e6d13df14e037c931fc893a710fb71097777a4147090068",
-    "url": "https://files.pythonhosted.org/packages/03/4a/f651e9f1f26aad2d54155c7b0c39bf11b64b6f02a35ded07818a1740eb1c/httptools-0.3.0-cp38-cp38-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "httptools-0.3.0-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-    "sha256": "8ac842df4fc3952efa7820b277961ea55e068bbc54cb59a0820400de7ae358d8",
-    "url": "https://files.pythonhosted.org/packages/d7/11/73a64ec1903b8af0a21e1f2f95d80f3b6fc2b8be0759788ab9f70b1a725d/httptools-0.3.0-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "httptools-0.3.0-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
-    "sha256": "47dba2345aaa01b87e4981e8756af441349340708d5b60712c98c55a4d28f4af",
-    "url": "https://files.pythonhosted.org/packages/00/c3/d9e1b80e92ad7fc3764aa9b044bd0714e8d70635687202e79fb7af446854/httptools-0.3.0-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "httptools-0.3.0-cp39-cp39-macosx_10_9_universal2.whl",
-    "sha256": "1a8f26327023fa1a947d36e60a0582149e182fbbc949c8a65ec8665754dbbe69",
-    "url": "https://files.pythonhosted.org/packages/44/34/1f56e15159222d68ff918ede8af1f23159ce6a6d19664bfc371bb5cdffc9/httptools-0.3.0-cp39-cp39-macosx_10_9_universal2.whl"
-  },
-  {
-    "name": "httptools-0.3.0-cp39-cp39-macosx_10_9_x86_64.whl",
-    "sha256": "32a10a5903b5bc0eb647d01cd1e95bec3bb614a9bf53f0af1e01360b2debdf81",
-    "url": "https://files.pythonhosted.org/packages/66/49/58553c9e3bb1508f8483bab1cfe71e4498be968a90f1d4aa1859832c71ae/httptools-0.3.0-cp39-cp39-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "httptools-0.3.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-    "sha256": "21e948034f70e47c8abfa2d5e6f1a5661f87a2cddc7bcc70f61579cc87897c70",
-    "url": "https://files.pythonhosted.org/packages/fc/3b/9319adcffc18f0f1a325f1fcba4f8aca4fefd70c81e86fb099d3d84e2470/httptools-0.3.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "httptools-0.3.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
-    "sha256": "074afd8afdeec0fa6786cd4a1676e0c0be23dc9a017a86647efa6b695168104f",
-    "url": "https://files.pythonhosted.org/packages/6d/70/1e20036c3717b9b0927bbe299f48b7476c00407ebab65ed1f58907f555ac/httptools-0.3.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "httptools-0.3.0.tar.gz",
-    "sha256": "3f9b4856d46ba1f0c850f4e84b264a9a8b4460acb20e865ec00978ad9fbaa4cf",
-    "url": "https://files.pythonhosted.org/packages/5b/0c/649c671aaf8c22bffd48e2c5e3fdd1fe24be5cb10042073ed6f6183e2cd3/httptools-0.3.0.tar.gz"
-  }
-]
+{
+  "httptools-0.3.0-cp310-cp310-macosx_10_9_universal2.whl": "4137137de8976511a392e27bfdcf231bd926ac13d375e0414e927b08217d779e",
+  "httptools-0.3.0-cp310-cp310-macosx_10_9_x86_64.whl": "9f475b642c48b1b78584bdd12a5143e2c512485664331eade9c29ef769a17598",
+  "httptools-0.3.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "4687dfc116a9f1eb22a7d797f0dc6f6e17190d406ca4e729634b38aa98044b17",
+  "httptools-0.3.0-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "72ee0e3fb9c6437ab3ae34e9abee67fcee6876f4f58504e3f613dd5882aafdb7",
+  "httptools-0.3.0-cp36-cp36m-macosx_10_9_x86_64.whl": "c0ac2e0ce6733c55858932e7d37fcc7b67ba6bb23e9648593c55f663de031b93",
+  "httptools-0.3.0-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "79717080dc3f8b1eeb7f820b9b81528acbc04be6041f323fdd97550da2062575",
+  "httptools-0.3.0-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "eda95634027200f4b2a6d499e7c2e7fa9b8ee57e045dfda26958ea0af27c070b",
+  "httptools-0.3.0-cp37-cp37m-macosx_10_9_x86_64.whl": "c14576b737d9e6e4f2a86af04918dbe9b62f57ce8102a8695c9a382dbe405c7f",
+  "httptools-0.3.0-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "113816f9af7dcfc4aa71ebb5354d77365f666ecf96ac7ff2aa1d24b6bca44165",
+  "httptools-0.3.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "b8ac7dee63af4346e02b1e6d32202e3b5b3706a9928bec6da6d7a5b066217422",
+  "httptools-0.3.0-cp38-cp38-macosx_10_9_universal2.whl": "6e676bc3bb911b11f3d7e2144b9a53600bf6b9b21e0e4437aa308e1eef094d97",
+  "httptools-0.3.0-cp38-cp38-macosx_10_9_x86_64.whl": "cdc3975db86c29817e6d13df14e037c931fc893a710fb71097777a4147090068",
+  "httptools-0.3.0-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "8ac842df4fc3952efa7820b277961ea55e068bbc54cb59a0820400de7ae358d8",
+  "httptools-0.3.0-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "47dba2345aaa01b87e4981e8756af441349340708d5b60712c98c55a4d28f4af",
+  "httptools-0.3.0-cp39-cp39-macosx_10_9_universal2.whl": "1a8f26327023fa1a947d36e60a0582149e182fbbc949c8a65ec8665754dbbe69",
+  "httptools-0.3.0-cp39-cp39-macosx_10_9_x86_64.whl": "32a10a5903b5bc0eb647d01cd1e95bec3bb614a9bf53f0af1e01360b2debdf81",
+  "httptools-0.3.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "21e948034f70e47c8abfa2d5e6f1a5661f87a2cddc7bcc70f61579cc87897c70",
+  "httptools-0.3.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "074afd8afdeec0fa6786cd4a1676e0c0be23dc9a017a86647efa6b695168104f",
+  "httptools-0.3.0.tar.gz": "3f9b4856d46ba1f0c850f4e84b264a9a8b4460acb20e865ec00978ad9fbaa4cf"
+}

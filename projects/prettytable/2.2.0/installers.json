@@ -1,12 +1,4 @@
-[
-  {
-    "name": "prettytable-2.2.0-py3-none-any.whl",
-    "sha256": "b186f1db9c9377cb552cfa95a3b7a0feab6ec55d7cad7e0763bdcbea1e8f4687",
-    "url": "https://files.pythonhosted.org/packages/bd/b5/c09f8d237e060a9e7b5d2d1577c2a6bc49fa298a7b4aefd52146f2b9a62e/prettytable-2.2.0-py3-none-any.whl"
-  },
-  {
-    "name": "prettytable-2.2.0.tar.gz",
-    "sha256": "bd81678c108e6c73d4f1e47cd4283de301faaa6ff6220bcd1d4022038c56b416",
-    "url": "https://files.pythonhosted.org/packages/00/8d/95441120aa870aa800f8b4c6cf650bf0739d7a41883fe81769ab593556c9/prettytable-2.2.0.tar.gz"
-  }
-]
+{
+  "prettytable-2.2.0-py3-none-any.whl": "b186f1db9c9377cb552cfa95a3b7a0feab6ec55d7cad7e0763bdcbea1e8f4687",
+  "prettytable-2.2.0.tar.gz": "bd81678c108e6c73d4f1e47cd4283de301faaa6ff6220bcd1d4022038c56b416"
+}

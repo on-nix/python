@@ -1,92 +1,20 @@
-[
-  {
-    "name": "psutil-5.8.0-cp27-cp27m-macosx_10_9_x86_64.whl",
-    "sha256": "0066a82f7b1b37d334e68697faba68e5ad5e858279fd6351c8ca6024e8d6ba64",
-    "url": "https://files.pythonhosted.org/packages/f5/7f/a2559a514bdeb2a33e4bf3dc3d2bb17d5acded718893869a82536130cfb3/psutil-5.8.0-cp27-cp27m-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "psutil-5.8.0-cp27-cp27m-manylinux2010_i686.whl",
-    "sha256": "0ae6f386d8d297177fd288be6e8d1afc05966878704dad9847719650e44fc49c",
-    "url": "https://files.pythonhosted.org/packages/19/2c/9f1bad783faee4e9704868f381913e68dbb69f0de3fcdc71ee7071c47847/psutil-5.8.0-cp27-cp27m-manylinux2010_i686.whl"
-  },
-  {
-    "name": "psutil-5.8.0-cp27-cp27m-manylinux2010_x86_64.whl",
-    "sha256": "12d844996d6c2b1d3881cfa6fa201fd635971869a9da945cf6756105af73d2df",
-    "url": "https://files.pythonhosted.org/packages/82/0a/eddb9a51ba5055cc7c242da07c1643a6b146070740c5eb5540277a0f01f4/psutil-5.8.0-cp27-cp27m-manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "psutil-5.8.0-cp27-cp27mu-manylinux2010_i686.whl",
-    "sha256": "02b8292609b1f7fcb34173b25e48d0da8667bc85f81d7476584d889c6e0f2131",
-    "url": "https://files.pythonhosted.org/packages/15/28/47c28171fd7eeb83df74f78ccac090211f4a49408f376eb8e78a7bb47dc0/psutil-5.8.0-cp27-cp27mu-manylinux2010_i686.whl"
-  },
-  {
-    "name": "psutil-5.8.0-cp27-cp27mu-manylinux2010_x86_64.whl",
-    "sha256": "6ffe81843131ee0ffa02c317186ed1e759a145267d54fdef1bc4ea5f5931ab60",
-    "url": "https://files.pythonhosted.org/packages/26/ef/461e9eec56fba7fa66692c4af00cbd6547b788a7ca818d9b8b5f1951f228/psutil-5.8.0-cp27-cp27mu-manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "psutil-5.8.0-cp36-cp36m-macosx_10_9_x86_64.whl",
-    "sha256": "74fb2557d1430fff18ff0d72613c5ca30c45cdbfcddd6a5773e9fc1fe9364be8",
-    "url": "https://files.pythonhosted.org/packages/30/81/37ebe0ba2840b76681072e786bae3319cade8a6861029d0ae885c274fa0b/psutil-5.8.0-cp36-cp36m-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "psutil-5.8.0-cp36-cp36m-manylinux2010_i686.whl",
-    "sha256": "74f2d0be88db96ada78756cb3a3e1b107ce8ab79f65aa885f76d7664e56928f6",
-    "url": "https://files.pythonhosted.org/packages/2e/7c/13a6c3f068aa39ffafd99ae159c1a345521e7dd0074ccadb917e5670dbdc/psutil-5.8.0-cp36-cp36m-manylinux2010_i686.whl"
-  },
-  {
-    "name": "psutil-5.8.0-cp36-cp36m-manylinux2010_x86_64.whl",
-    "sha256": "99de3e8739258b3c3e8669cb9757c9a861b2a25ad0955f8e53ac662d66de61ac",
-    "url": "https://files.pythonhosted.org/packages/da/82/56cd16a4c5f53e3e5dd7b2c30d5c803e124f218ebb644ca9c30bc907eadd/psutil-5.8.0-cp36-cp36m-manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "psutil-5.8.0-cp37-cp37m-macosx_10_9_x86_64.whl",
-    "sha256": "c6a5fd10ce6b6344e616cf01cc5b849fa8103fbb5ba507b6b2dee4c11e84c935",
-    "url": "https://files.pythonhosted.org/packages/fe/19/83ab423a7b69cafe4078dea751acdff7377e4b59c71e3718125ba3c341f9/psutil-5.8.0-cp37-cp37m-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "psutil-5.8.0-cp37-cp37m-manylinux2010_i686.whl",
-    "sha256": "61f05864b42fedc0771d6d8e49c35f07efd209ade09a5afe6a5059e7bb7bf83d",
-    "url": "https://files.pythonhosted.org/packages/cc/5f/2a1967092086acc647962168d0e6fd1c22e14a973f03e3ffb1e2f0da5de9/psutil-5.8.0-cp37-cp37m-manylinux2010_i686.whl"
-  },
-  {
-    "name": "psutil-5.8.0-cp37-cp37m-manylinux2010_x86_64.whl",
-    "sha256": "0dd4465a039d343925cdc29023bb6960ccf4e74a65ad53e768403746a9207023",
-    "url": "https://files.pythonhosted.org/packages/84/da/f7efdcf012b51506938553dbe302aecc22f3f43abd5cffa8320e8e0588d5/psutil-5.8.0-cp37-cp37m-manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "psutil-5.8.0-cp38-cp38-macosx_10_9_x86_64.whl",
-    "sha256": "6223d07a1ae93f86451d0198a0c361032c4c93ebd4bf6d25e2fb3edfad9571ef",
-    "url": "https://files.pythonhosted.org/packages/10/d6/c5c19e40bb05e2cb5f053f480dfe47e9543a8322f1a5985d7352bf689611/psutil-5.8.0-cp38-cp38-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "psutil-5.8.0-cp38-cp38-manylinux2010_i686.whl",
-    "sha256": "d225cd8319aa1d3c85bf195c4e07d17d3cd68636b8fc97e6cf198f782f99af28",
-    "url": "https://files.pythonhosted.org/packages/e9/d6/7d0bcf272923f6b3433e22effd31860b63ab580d65fb2d8f5cb443a9e6fc/psutil-5.8.0-cp38-cp38-manylinux2010_i686.whl"
-  },
-  {
-    "name": "psutil-5.8.0-cp38-cp38-manylinux2010_x86_64.whl",
-    "sha256": "28ff7c95293ae74bf1ca1a79e8805fcde005c18a122ca983abf676ea3466362b",
-    "url": "https://files.pythonhosted.org/packages/3b/c2/78109a12da9febb2f965abf29da6f81b0a3f2b89a7b59d88b759e68dc6db/psutil-5.8.0-cp38-cp38-manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "psutil-5.8.0-cp39-cp39-macosx_10_9_x86_64.whl",
-    "sha256": "6323d5d845c2785efb20aded4726636546b26d3b577aded22492908f7c1bdda7",
-    "url": "https://files.pythonhosted.org/packages/12/80/8d09c345f19af2b29a309f8f9284e3ba1ae1ebd9438419080c14630f743a/psutil-5.8.0-cp39-cp39-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "psutil-5.8.0-cp39-cp39-manylinux2010_i686.whl",
-    "sha256": "245b5509968ac0bd179287d91210cd3f37add77dad385ef238b275bad35fa1c4",
-    "url": "https://files.pythonhosted.org/packages/b6/2f/118e23a8f4e59d2c4ffe03a921cc72f364966e25548dc6c5a3011a334dc5/psutil-5.8.0-cp39-cp39-manylinux2010_i686.whl"
-  },
-  {
-    "name": "psutil-5.8.0-cp39-cp39-manylinux2010_x86_64.whl",
-    "sha256": "90d4091c2d30ddd0a03e0b97e6a33a48628469b99585e2ad6bf21f17423b112b",
-    "url": "https://files.pythonhosted.org/packages/91/4d/033cc02ae3a47197d0ced818814e4bb8d9d29ebed4f1eb55badedec160f7/psutil-5.8.0-cp39-cp39-manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "psutil-5.8.0.tar.gz",
-    "sha256": "0c9ccb99ab76025f2f0bbecf341d4656e9c1351db8cc8a03ccd62e318ab4b5c6",
-    "url": "https://files.pythonhosted.org/packages/e1/b0/7276de53321c12981717490516b7e612364f2cb372ee8901bd4a66a000d7/psutil-5.8.0.tar.gz"
-  }
-]
+{
+  "psutil-5.8.0-cp27-cp27m-macosx_10_9_x86_64.whl": "0066a82f7b1b37d334e68697faba68e5ad5e858279fd6351c8ca6024e8d6ba64",
+  "psutil-5.8.0-cp27-cp27m-manylinux2010_i686.whl": "0ae6f386d8d297177fd288be6e8d1afc05966878704dad9847719650e44fc49c",
+  "psutil-5.8.0-cp27-cp27m-manylinux2010_x86_64.whl": "12d844996d6c2b1d3881cfa6fa201fd635971869a9da945cf6756105af73d2df",
+  "psutil-5.8.0-cp27-cp27mu-manylinux2010_i686.whl": "02b8292609b1f7fcb34173b25e48d0da8667bc85f81d7476584d889c6e0f2131",
+  "psutil-5.8.0-cp27-cp27mu-manylinux2010_x86_64.whl": "6ffe81843131ee0ffa02c317186ed1e759a145267d54fdef1bc4ea5f5931ab60",
+  "psutil-5.8.0-cp36-cp36m-macosx_10_9_x86_64.whl": "74fb2557d1430fff18ff0d72613c5ca30c45cdbfcddd6a5773e9fc1fe9364be8",
+  "psutil-5.8.0-cp36-cp36m-manylinux2010_i686.whl": "74f2d0be88db96ada78756cb3a3e1b107ce8ab79f65aa885f76d7664e56928f6",
+  "psutil-5.8.0-cp36-cp36m-manylinux2010_x86_64.whl": "99de3e8739258b3c3e8669cb9757c9a861b2a25ad0955f8e53ac662d66de61ac",
+  "psutil-5.8.0-cp37-cp37m-macosx_10_9_x86_64.whl": "c6a5fd10ce6b6344e616cf01cc5b849fa8103fbb5ba507b6b2dee4c11e84c935",
+  "psutil-5.8.0-cp37-cp37m-manylinux2010_i686.whl": "61f05864b42fedc0771d6d8e49c35f07efd209ade09a5afe6a5059e7bb7bf83d",
+  "psutil-5.8.0-cp37-cp37m-manylinux2010_x86_64.whl": "0dd4465a039d343925cdc29023bb6960ccf4e74a65ad53e768403746a9207023",
+  "psutil-5.8.0-cp38-cp38-macosx_10_9_x86_64.whl": "6223d07a1ae93f86451d0198a0c361032c4c93ebd4bf6d25e2fb3edfad9571ef",
+  "psutil-5.8.0-cp38-cp38-manylinux2010_i686.whl": "d225cd8319aa1d3c85bf195c4e07d17d3cd68636b8fc97e6cf198f782f99af28",
+  "psutil-5.8.0-cp38-cp38-manylinux2010_x86_64.whl": "28ff7c95293ae74bf1ca1a79e8805fcde005c18a122ca983abf676ea3466362b",
+  "psutil-5.8.0-cp39-cp39-macosx_10_9_x86_64.whl": "6323d5d845c2785efb20aded4726636546b26d3b577aded22492908f7c1bdda7",
+  "psutil-5.8.0-cp39-cp39-manylinux2010_i686.whl": "245b5509968ac0bd179287d91210cd3f37add77dad385ef238b275bad35fa1c4",
+  "psutil-5.8.0-cp39-cp39-manylinux2010_x86_64.whl": "90d4091c2d30ddd0a03e0b97e6a33a48628469b99585e2ad6bf21f17423b112b",
+  "psutil-5.8.0.tar.gz": "0c9ccb99ab76025f2f0bbecf341d4656e9c1351db8cc8a03ccd62e318ab4b5c6"
+}

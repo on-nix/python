@@ -1,127 +1,27 @@
-[
-  {
-    "name": "Pillow-8.3.1-cp36-cp36m-macosx_10_10_x86_64.whl",
-    "sha256": "196560dba4da7a72c5e7085fccc5938ab4075fd37fe8b5468869724109812edd",
-    "url": "https://files.pythonhosted.org/packages/18/81/dada4d6fe499c2f1979a3d1a2b7c10263494af89a01adb204d550f427dbf/Pillow-8.3.1-cp36-cp36m-macosx_10_10_x86_64.whl"
-  },
-  {
-    "name": "Pillow-8.3.1-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-    "sha256": "29c9569049d04aaacd690573a0398dbd8e0bf0255684fee512b413c2142ab723",
-    "url": "https://files.pythonhosted.org/packages/7e/d0/91c39af1416518fbcc43bb07a6e8fdc0fd339e4544d9a5bbadff8b2589ef/Pillow-8.3.1-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "Pillow-8.3.1-cp36-cp36m-manylinux_2_5_i686.manylinux1_i686.whl",
-    "sha256": "c088a000dfdd88c184cc7271bfac8c5b82d9efa8637cd2b68183771e3cf56f04",
-    "url": "https://files.pythonhosted.org/packages/f0/71/ce47298789ec052459c5ae9a80062504b065351342676d4891dbcf3e5508/Pillow-8.3.1-cp36-cp36m-manylinux_2_5_i686.manylinux1_i686.whl"
-  },
-  {
-    "name": "Pillow-8.3.1-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.whl",
-    "sha256": "fc214a6b75d2e0ea7745488da7da3c381f41790812988c7a92345978414fad37",
-    "url": "https://files.pythonhosted.org/packages/df/74/4a981d12fa26b83c9230b67dee44d1361a372e0f22785f093969fd98b964/Pillow-8.3.1-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.whl"
-  },
-  {
-    "name": "Pillow-8.3.1-cp37-cp37m-macosx_10_10_x86_64.whl",
-    "sha256": "ff04c373477723430dce2e9d024c708a047d44cf17166bf16e604b379bf0ca14",
-    "url": "https://files.pythonhosted.org/packages/c1/2b/15bcb97edd8216cd25fc2cfe984e6259bfab7f3c590bba12a25f07bd3070/Pillow-8.3.1-cp37-cp37m-macosx_10_10_x86_64.whl"
-  },
-  {
-    "name": "Pillow-8.3.1-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-    "sha256": "9364c81b252d8348e9cc0cb63e856b8f7c1b340caba6ee7a7a65c968312f7dab",
-    "url": "https://files.pythonhosted.org/packages/df/97/e6e1aae9d75a7ac638cd7e5c5ddd1cf0ed3813275c07a43b68d081e1d479/Pillow-8.3.1-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "Pillow-8.3.1-cp37-cp37m-manylinux_2_5_i686.manylinux1_i686.whl",
-    "sha256": "a2f381932dca2cf775811a008aa3027671ace723b7a38838045b1aee8669fdcf",
-    "url": "https://files.pythonhosted.org/packages/b0/6e/56d80ef30ecfb6e04ac321b00efaf7f9a2235d8595109db2383aa4b42c73/Pillow-8.3.1-cp37-cp37m-manylinux_2_5_i686.manylinux1_i686.whl"
-  },
-  {
-    "name": "Pillow-8.3.1-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl",
-    "sha256": "d0da39795049a9afcaadec532e7b669b5ebbb2a9134576ebcc15dd5bdae33cc0",
-    "url": "https://files.pythonhosted.org/packages/8e/7a/b047f6f80fdb02c0cca1d3761d71e9800bcf6d4874b71c9e6548ec59e156/Pillow-8.3.1-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl"
-  },
-  {
-    "name": "Pillow-8.3.1-cp38-cp38-macosx_10_10_x86_64.whl",
-    "sha256": "660a87085925c61a0dcc80efb967512ac34dbb256ff7dd2b9b4ee8dbdab58cf4",
-    "url": "https://files.pythonhosted.org/packages/15/3e/6eb7f8abacc5d5249f032d4f029f665588d42040ef7037716adccd0f9aee/Pillow-8.3.1-cp38-cp38-macosx_10_10_x86_64.whl"
-  },
-  {
-    "name": "Pillow-8.3.1-cp38-cp38-macosx_11_0_arm64.whl",
-    "sha256": "15a2808e269a1cf2131930183dcc0419bc77bb73eb54285dde2706ac9939fa8e",
-    "url": "https://files.pythonhosted.org/packages/73/2d/9d345f4b7e47939f80dc0eec4c813d251b81ce7ec0b3bfcb12327ea73788/Pillow-8.3.1-cp38-cp38-macosx_11_0_arm64.whl"
-  },
-  {
-    "name": "Pillow-8.3.1-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-    "sha256": "969cc558cca859cadf24f890fc009e1bce7d7d0386ba7c0478641a60199adf79",
-    "url": "https://files.pythonhosted.org/packages/6f/36/080052738e6461652363be51731f75a29c1f7b3327ea71445a563e4759e3/Pillow-8.3.1-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "Pillow-8.3.1-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.whl",
-    "sha256": "2ee77c14a0299d0541d26f3d8500bb57e081233e3fa915fa35abd02c51fa7fae",
-    "url": "https://files.pythonhosted.org/packages/d1/80/aa24c24a9895c51bcda008ada65a333f3d177524ac7fa4966c709b949376/Pillow-8.3.1-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.whl"
-  },
-  {
-    "name": "Pillow-8.3.1-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl",
-    "sha256": "c11003197f908878164f0e6da15fce22373ac3fc320cda8c9d16e6bba105b844",
-    "url": "https://files.pythonhosted.org/packages/c5/f7/3084336272c2f1539ab36a117be4acf3131b967ff3a60e0ace06db151a7f/Pillow-8.3.1-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl"
-  },
-  {
-    "name": "Pillow-8.3.1-cp39-cp39-macosx_10_10_x86_64.whl",
-    "sha256": "37730f6e68bdc6a3f02d2079c34c532330d206429f3cee651aab6b66839a9f0e",
-    "url": "https://files.pythonhosted.org/packages/8e/5e/b1a214b66df07bf47e205505b8669934098eeacdb6e34828137f3bc28a95/Pillow-8.3.1-cp39-cp39-macosx_10_10_x86_64.whl"
-  },
-  {
-    "name": "Pillow-8.3.1-cp39-cp39-macosx_11_0_arm64.whl",
-    "sha256": "4bc3c7ef940eeb200ca65bd83005eb3aae8083d47e8fcbf5f0943baa50726856",
-    "url": "https://files.pythonhosted.org/packages/c7/bd/a3277af75cc35f5ce73807424fead64c397fd9af1e915de9e741e5a1a72e/Pillow-8.3.1-cp39-cp39-macosx_11_0_arm64.whl"
-  },
-  {
-    "name": "Pillow-8.3.1-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-    "sha256": "c35d09db702f4185ba22bb33ef1751ad49c266534339a5cebeb5159d364f6f82",
-    "url": "https://files.pythonhosted.org/packages/be/6d/8249286b059c8d65f5f4674bd00f86c253e68b072f60df7e66a6396ffba3/Pillow-8.3.1-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "Pillow-8.3.1-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.whl",
-    "sha256": "0b2efa07f69dc395d95bb9ef3299f4ca29bcb2157dc615bae0b42c3c20668ffc",
-    "url": "https://files.pythonhosted.org/packages/2d/97/1c7975d77df0635679a0818221a14cdffedea92b2c626ef8f06e37d7d563/Pillow-8.3.1-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.whl"
-  },
-  {
-    "name": "Pillow-8.3.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl",
-    "sha256": "cc866706d56bd3a7dbf8bac8660c6f6462f2f2b8a49add2ba617bc0c54473d83",
-    "url": "https://files.pythonhosted.org/packages/42/25/59061f5848f509d3f50275c615fc620272d2bf2134d08232e4d79ad06cb0/Pillow-8.3.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl"
-  },
-  {
-    "name": "Pillow-8.3.1-pp36-pypy36_pp73-macosx_10_10_x86_64.whl",
-    "sha256": "c379425c2707078dfb6bfad2430728831d399dc95a7deeb92015eb4c92345eaf",
-    "url": "https://files.pythonhosted.org/packages/92/76/8b62554c4ce6c2ed132c5301d63b08dd9931e006d6363f92c58ac1c82823/Pillow-8.3.1-pp36-pypy36_pp73-macosx_10_10_x86_64.whl"
-  },
-  {
-    "name": "Pillow-8.3.1-pp36-pypy36_pp73-manylinux_2_12_i686.manylinux2010_i686.whl",
-    "sha256": "114f816e4f73f9ec06997b2fde81a92cbf0777c9e8f462005550eed6bae57e63",
-    "url": "https://files.pythonhosted.org/packages/1e/27/b5e6196d131fb9ef89228b0a3152672e3521e978def466a6b5f17cbd787a/Pillow-8.3.1-pp36-pypy36_pp73-manylinux_2_12_i686.manylinux2010_i686.whl"
-  },
-  {
-    "name": "Pillow-8.3.1-pp36-pypy36_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
-    "sha256": "8960a8a9f4598974e4c2aeb1bff9bdd5db03ee65fd1fce8adf3223721aa2a636",
-    "url": "https://files.pythonhosted.org/packages/e5/32/93bb85f136dd91df9c70ee5413e3f2c3827c0dabda73d7ca8d125f991a0b/Pillow-8.3.1-pp36-pypy36_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "Pillow-8.3.1-pp37-pypy37_pp73-macosx_10_10_x86_64.whl",
-    "sha256": "147bd9e71fb9dcf08357b4d530b5167941e222a6fd21f869c7911bac40b9994d",
-    "url": "https://files.pythonhosted.org/packages/e9/e3/72bcff54458570f42aa632d94ead33d94bfba79cb73e7470b1e02564fa4f/Pillow-8.3.1-pp37-pypy37_pp73-macosx_10_10_x86_64.whl"
-  },
-  {
-    "name": "Pillow-8.3.1-pp37-pypy37_pp73-manylinux_2_12_i686.manylinux2010_i686.whl",
-    "sha256": "1fd5066cd343b5db88c048d971994e56b296868766e461b82fa4e22498f34d77",
-    "url": "https://files.pythonhosted.org/packages/52/ce/2bfe5667360a496ba3f1d677d6522544f921b4433ac1a723495cf54b258e/Pillow-8.3.1-pp37-pypy37_pp73-manylinux_2_12_i686.manylinux2010_i686.whl"
-  },
-  {
-    "name": "Pillow-8.3.1-pp37-pypy37_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
-    "sha256": "f4ebde71785f8bceb39dcd1e7f06bcc5d5c3cf48b9f69ab52636309387b097c8",
-    "url": "https://files.pythonhosted.org/packages/43/50/c01d912807295a2f6d43e1f7f2098dfdf557b6459654a7266916ea0f3f8e/Pillow-8.3.1-pp37-pypy37_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "Pillow-8.3.1.tar.gz",
-    "sha256": "2cac53839bfc5cece8fdbe7f084d5e3ee61e1303cccc86511d351adcb9e2c792",
-    "url": "https://files.pythonhosted.org/packages/8f/7d/1e9c2d8989c209edfd10f878da1af956059a1caab498e5bc34fa11b83f71/Pillow-8.3.1.tar.gz"
-  }
-]
+{
+  "Pillow-8.3.1-cp36-cp36m-macosx_10_10_x86_64.whl": "196560dba4da7a72c5e7085fccc5938ab4075fd37fe8b5468869724109812edd",
+  "Pillow-8.3.1-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "29c9569049d04aaacd690573a0398dbd8e0bf0255684fee512b413c2142ab723",
+  "Pillow-8.3.1-cp36-cp36m-manylinux_2_5_i686.manylinux1_i686.whl": "c088a000dfdd88c184cc7271bfac8c5b82d9efa8637cd2b68183771e3cf56f04",
+  "Pillow-8.3.1-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.whl": "fc214a6b75d2e0ea7745488da7da3c381f41790812988c7a92345978414fad37",
+  "Pillow-8.3.1-cp37-cp37m-macosx_10_10_x86_64.whl": "ff04c373477723430dce2e9d024c708a047d44cf17166bf16e604b379bf0ca14",
+  "Pillow-8.3.1-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "9364c81b252d8348e9cc0cb63e856b8f7c1b340caba6ee7a7a65c968312f7dab",
+  "Pillow-8.3.1-cp37-cp37m-manylinux_2_5_i686.manylinux1_i686.whl": "a2f381932dca2cf775811a008aa3027671ace723b7a38838045b1aee8669fdcf",
+  "Pillow-8.3.1-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl": "d0da39795049a9afcaadec532e7b669b5ebbb2a9134576ebcc15dd5bdae33cc0",
+  "Pillow-8.3.1-cp38-cp38-macosx_10_10_x86_64.whl": "660a87085925c61a0dcc80efb967512ac34dbb256ff7dd2b9b4ee8dbdab58cf4",
+  "Pillow-8.3.1-cp38-cp38-macosx_11_0_arm64.whl": "15a2808e269a1cf2131930183dcc0419bc77bb73eb54285dde2706ac9939fa8e",
+  "Pillow-8.3.1-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "969cc558cca859cadf24f890fc009e1bce7d7d0386ba7c0478641a60199adf79",
+  "Pillow-8.3.1-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.whl": "2ee77c14a0299d0541d26f3d8500bb57e081233e3fa915fa35abd02c51fa7fae",
+  "Pillow-8.3.1-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl": "c11003197f908878164f0e6da15fce22373ac3fc320cda8c9d16e6bba105b844",
+  "Pillow-8.3.1-cp39-cp39-macosx_10_10_x86_64.whl": "37730f6e68bdc6a3f02d2079c34c532330d206429f3cee651aab6b66839a9f0e",
+  "Pillow-8.3.1-cp39-cp39-macosx_11_0_arm64.whl": "4bc3c7ef940eeb200ca65bd83005eb3aae8083d47e8fcbf5f0943baa50726856",
+  "Pillow-8.3.1-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "c35d09db702f4185ba22bb33ef1751ad49c266534339a5cebeb5159d364f6f82",
+  "Pillow-8.3.1-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.whl": "0b2efa07f69dc395d95bb9ef3299f4ca29bcb2157dc615bae0b42c3c20668ffc",
+  "Pillow-8.3.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl": "cc866706d56bd3a7dbf8bac8660c6f6462f2f2b8a49add2ba617bc0c54473d83",
+  "Pillow-8.3.1-pp36-pypy36_pp73-macosx_10_10_x86_64.whl": "c379425c2707078dfb6bfad2430728831d399dc95a7deeb92015eb4c92345eaf",
+  "Pillow-8.3.1-pp36-pypy36_pp73-manylinux_2_12_i686.manylinux2010_i686.whl": "114f816e4f73f9ec06997b2fde81a92cbf0777c9e8f462005550eed6bae57e63",
+  "Pillow-8.3.1-pp36-pypy36_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "8960a8a9f4598974e4c2aeb1bff9bdd5db03ee65fd1fce8adf3223721aa2a636",
+  "Pillow-8.3.1-pp37-pypy37_pp73-macosx_10_10_x86_64.whl": "147bd9e71fb9dcf08357b4d530b5167941e222a6fd21f869c7911bac40b9994d",
+  "Pillow-8.3.1-pp37-pypy37_pp73-manylinux_2_12_i686.manylinux2010_i686.whl": "1fd5066cd343b5db88c048d971994e56b296868766e461b82fa4e22498f34d77",
+  "Pillow-8.3.1-pp37-pypy37_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "f4ebde71785f8bceb39dcd1e7f06bcc5d5c3cf48b9f69ab52636309387b097c8",
+  "Pillow-8.3.1.tar.gz": "2cac53839bfc5cece8fdbe7f084d5e3ee61e1303cccc86511d351adcb9e2c792"
+}

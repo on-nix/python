@@ -1,7 +1,3 @@
-[
-  {
-    "name": "mandrill-really-maintained-1.2.4.tar.gz",
-    "sha256": "6d897ed5921027a06d7a95d988c7aa44f61169b631c4321f99a8bf519905ae6a",
-    "url": "https://files.pythonhosted.org/packages/94/1b/eba08fac25c3a86a6ae6eb220e122569c801ab22fa4474a4625d2b4ece08/mandrill-really-maintained-1.2.4.tar.gz"
-  }
-]
+{
+  "mandrill-really-maintained-1.2.4.tar.gz": "6d897ed5921027a06d7a95d988c7aa44f61169b631c4321f99a8bf519905ae6a"
+}

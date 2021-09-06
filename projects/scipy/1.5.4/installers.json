@@ -1,87 +1,19 @@
-[
-  {
-    "name": "scipy-1.5.4-cp36-cp36m-macosx_10_9_x86_64.whl",
-    "sha256": "4f12d13ffbc16e988fa40809cbbd7a8b45bc05ff6ea0ba8e3e41f6f4db3a9e47",
-    "url": "https://files.pythonhosted.org/packages/47/c7/348acee81b0cf8eec66b4a71c8cca188f405061cb76cc3f9f72249568a22/scipy-1.5.4-cp36-cp36m-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "scipy-1.5.4-cp36-cp36m-manylinux1_i686.whl",
-    "sha256": "a254b98dbcc744c723a838c03b74a8a34c0558c9ac5c86d5561703362231107d",
-    "url": "https://files.pythonhosted.org/packages/ff/30/6555e14b8e208df01b6c3819db91495a99690cfd2e8a24327e4706b3a486/scipy-1.5.4-cp36-cp36m-manylinux1_i686.whl"
-  },
-  {
-    "name": "scipy-1.5.4-cp36-cp36m-manylinux1_x86_64.whl",
-    "sha256": "368c0f69f93186309e1b4beb8e26d51dd6f5010b79264c0f1e9ca00cd92ea8c9",
-    "url": "https://files.pythonhosted.org/packages/c8/89/63171228d5ced148f5ced50305c89e8576ffc695a90b58fe5bb602b910c2/scipy-1.5.4-cp36-cp36m-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "scipy-1.5.4-cp36-cp36m-manylinux2014_aarch64.whl",
-    "sha256": "4598cf03136067000855d6b44d7a1f4f46994164bcd450fb2c3d481afc25dd06",
-    "url": "https://files.pythonhosted.org/packages/4c/cc/53c0766cd5a6b53b68468a3e3e8a31d7611b8ba058e3b0bd9698ab26d2d2/scipy-1.5.4-cp36-cp36m-manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "scipy-1.5.4-cp37-cp37m-macosx_10_9_x86_64.whl",
-    "sha256": "9ad4fcddcbf5dc67619379782e6aeef41218a79e17979aaed01ed099876c0e62",
-    "url": "https://files.pythonhosted.org/packages/d9/43/1cb3c42cf46fd94fde4762ce8de69636d861759e7de7135cc02758203bf8/scipy-1.5.4-cp37-cp37m-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "scipy-1.5.4-cp37-cp37m-manylinux1_i686.whl",
-    "sha256": "f87b39f4d69cf7d7529d7b1098cb712033b17ea7714aed831b95628f483fd012",
-    "url": "https://files.pythonhosted.org/packages/b4/75/7fb5074a6eae355a462dd1b5d963f6828b42637f9c16ad1c706f9763cd72/scipy-1.5.4-cp37-cp37m-manylinux1_i686.whl"
-  },
-  {
-    "name": "scipy-1.5.4-cp37-cp37m-manylinux1_x86_64.whl",
-    "sha256": "25b241034215247481f53355e05f9e25462682b13bd9191359075682adcd9554",
-    "url": "https://files.pythonhosted.org/packages/dc/7e/8f6a79b102ca1ea928bae8998b05bf5dc24a90571db13cd119f275ba6252/scipy-1.5.4-cp37-cp37m-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "scipy-1.5.4-cp37-cp37m-manylinux2014_aarch64.whl",
-    "sha256": "fa789583fc94a7689b45834453fec095245c7e69c58561dc159b5d5277057e4c",
-    "url": "https://files.pythonhosted.org/packages/35/fc/1b567912fb0765deec073a407e1f6e65eef463f081db3e5543f4562eed95/scipy-1.5.4-cp37-cp37m-manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "scipy-1.5.4-cp38-cp38-macosx_10_9_x86_64.whl",
-    "sha256": "e360cb2299028d0b0d0f65a5c5e51fc16a335f1603aa2357c25766c8dab56938",
-    "url": "https://files.pythonhosted.org/packages/50/92/f9eb8b164df26b8d91ed15d09647013d6eaf97c8e263bd20eff08e0bf997/scipy-1.5.4-cp38-cp38-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "scipy-1.5.4-cp38-cp38-manylinux1_i686.whl",
-    "sha256": "3397c129b479846d7eaa18f999369a24322d008fac0782e7828fa567358c36ce",
-    "url": "https://files.pythonhosted.org/packages/c3/6f/b059f727646391d00b4af203f8e86bf80ba089567cb0de255faa673cadbd/scipy-1.5.4-cp38-cp38-manylinux1_i686.whl"
-  },
-  {
-    "name": "scipy-1.5.4-cp38-cp38-manylinux1_x86_64.whl",
-    "sha256": "168c45c0c32e23f613db7c9e4e780bc61982d71dcd406ead746c7c7c2f2004ce",
-    "url": "https://files.pythonhosted.org/packages/ab/a3/4e10c6091f6b17267e23a6de77c05241834fb3a1ec6ad655b566a6ea1d82/scipy-1.5.4-cp38-cp38-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "scipy-1.5.4-cp38-cp38-manylinux2014_aarch64.whl",
-    "sha256": "213bc59191da2f479984ad4ec39406bf949a99aba70e9237b916ce7547b6ef42",
-    "url": "https://files.pythonhosted.org/packages/61/16/1122d39a8836257fec4dca96a90d88d775d85e4e8ff0a9e53727937c2cac/scipy-1.5.4-cp38-cp38-manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "scipy-1.5.4-cp39-cp39-macosx_10_9_x86_64.whl",
-    "sha256": "3d5db5d815370c28d938cf9b0809dade4acf7aba57eaf7ef733bfedc9b2474c4",
-    "url": "https://files.pythonhosted.org/packages/fb/f2/90b798256041013def7561a642482e1c15db9b00339958e32d1d77181ba4/scipy-1.5.4-cp39-cp39-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "scipy-1.5.4-cp39-cp39-manylinux1_i686.whl",
-    "sha256": "6b0ceb23560f46dd236a8ad4378fc40bad1783e997604ba845e131d6c680963e",
-    "url": "https://files.pythonhosted.org/packages/d4/4d/b89941d6455531405a472b5546eccb33f4919e1099d97e680f07634240ff/scipy-1.5.4-cp39-cp39-manylinux1_i686.whl"
-  },
-  {
-    "name": "scipy-1.5.4-cp39-cp39-manylinux1_x86_64.whl",
-    "sha256": "ed572470af2438b526ea574ff8f05e7f39b44ac37f712105e57fc4d53a6fb660",
-    "url": "https://files.pythonhosted.org/packages/4e/ba/b6e431a25a730afe70925d6cf902bdb96006b2783956906c7dda6a7d5036/scipy-1.5.4-cp39-cp39-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "scipy-1.5.4-cp39-cp39-manylinux2014_aarch64.whl",
-    "sha256": "8c8d6ca19c8497344b810b0b0344f8375af5f6bb9c98bd42e33f747417ab3f57",
-    "url": "https://files.pythonhosted.org/packages/9e/ae/6a45d586f85a624baa548f7ffe18e3eb4d2b05930853120f678ad0b6e4e2/scipy-1.5.4-cp39-cp39-manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "scipy-1.5.4.tar.gz",
-    "sha256": "4a453d5e5689de62e5d38edf40af3f17560bfd63c9c5bd228c18c1f99afa155b",
-    "url": "https://files.pythonhosted.org/packages/aa/d5/dd06fe0e274e579e1dff21aa021219c039df40e39709fabe559faed072a5/scipy-1.5.4.tar.gz"
-  }
-]
+{
+  "scipy-1.5.4-cp36-cp36m-macosx_10_9_x86_64.whl": "4f12d13ffbc16e988fa40809cbbd7a8b45bc05ff6ea0ba8e3e41f6f4db3a9e47",
+  "scipy-1.5.4-cp36-cp36m-manylinux1_i686.whl": "a254b98dbcc744c723a838c03b74a8a34c0558c9ac5c86d5561703362231107d",
+  "scipy-1.5.4-cp36-cp36m-manylinux1_x86_64.whl": "368c0f69f93186309e1b4beb8e26d51dd6f5010b79264c0f1e9ca00cd92ea8c9",
+  "scipy-1.5.4-cp36-cp36m-manylinux2014_aarch64.whl": "4598cf03136067000855d6b44d7a1f4f46994164bcd450fb2c3d481afc25dd06",
+  "scipy-1.5.4-cp37-cp37m-macosx_10_9_x86_64.whl": "9ad4fcddcbf5dc67619379782e6aeef41218a79e17979aaed01ed099876c0e62",
+  "scipy-1.5.4-cp37-cp37m-manylinux1_i686.whl": "f87b39f4d69cf7d7529d7b1098cb712033b17ea7714aed831b95628f483fd012",
+  "scipy-1.5.4-cp37-cp37m-manylinux1_x86_64.whl": "25b241034215247481f53355e05f9e25462682b13bd9191359075682adcd9554",
+  "scipy-1.5.4-cp37-cp37m-manylinux2014_aarch64.whl": "fa789583fc94a7689b45834453fec095245c7e69c58561dc159b5d5277057e4c",
+  "scipy-1.5.4-cp38-cp38-macosx_10_9_x86_64.whl": "e360cb2299028d0b0d0f65a5c5e51fc16a335f1603aa2357c25766c8dab56938",
+  "scipy-1.5.4-cp38-cp38-manylinux1_i686.whl": "3397c129b479846d7eaa18f999369a24322d008fac0782e7828fa567358c36ce",
+  "scipy-1.5.4-cp38-cp38-manylinux1_x86_64.whl": "168c45c0c32e23f613db7c9e4e780bc61982d71dcd406ead746c7c7c2f2004ce",
+  "scipy-1.5.4-cp38-cp38-manylinux2014_aarch64.whl": "213bc59191da2f479984ad4ec39406bf949a99aba70e9237b916ce7547b6ef42",
+  "scipy-1.5.4-cp39-cp39-macosx_10_9_x86_64.whl": "3d5db5d815370c28d938cf9b0809dade4acf7aba57eaf7ef733bfedc9b2474c4",
+  "scipy-1.5.4-cp39-cp39-manylinux1_i686.whl": "6b0ceb23560f46dd236a8ad4378fc40bad1783e997604ba845e131d6c680963e",
+  "scipy-1.5.4-cp39-cp39-manylinux1_x86_64.whl": "ed572470af2438b526ea574ff8f05e7f39b44ac37f712105e57fc4d53a6fb660",
+  "scipy-1.5.4-cp39-cp39-manylinux2014_aarch64.whl": "8c8d6ca19c8497344b810b0b0344f8375af5f6bb9c98bd42e33f747417ab3f57",
+  "scipy-1.5.4.tar.gz": "4a453d5e5689de62e5d38edf40af3f17560bfd63c9c5bd228c18c1f99afa155b"
+}

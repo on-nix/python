@@ -1,12 +1,4 @@
-[
-  {
-    "name": "jsonpatch-1.32-py2.py3-none-any.whl",
-    "sha256": "26ac385719ac9f54df8a2f0827bb8253aa3ea8ab7b3368457bcdb8c14595a397",
-    "url": "https://files.pythonhosted.org/packages/a3/55/f7c93bae36d869292aedfbcbae8b091386194874f16390d680136edd2b28/jsonpatch-1.32-py2.py3-none-any.whl"
-  },
-  {
-    "name": "jsonpatch-1.32.tar.gz",
-    "sha256": "b6ddfe6c3db30d81a96aaeceb6baf916094ffa23d7dd5fa2c13e13f8b6e600c2",
-    "url": "https://files.pythonhosted.org/packages/21/67/83452af2a6db7c4596d1e2ecaa841b9a900980103013b867f2865e5e1cf0/jsonpatch-1.32.tar.gz"
-  }
-]
+{
+  "jsonpatch-1.32-py2.py3-none-any.whl": "26ac385719ac9f54df8a2f0827bb8253aa3ea8ab7b3368457bcdb8c14595a397",
+  "jsonpatch-1.32.tar.gz": "b6ddfe6c3db30d81a96aaeceb6baf916094ffa23d7dd5fa2c13e13f8b6e600c2"
+}

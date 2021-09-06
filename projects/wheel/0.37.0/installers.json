@@ -1,12 +1,4 @@
-[
-  {
-    "name": "wheel-0.37.0-py2.py3-none-any.whl",
-    "sha256": "21014b2bd93c6d0034b6ba5d35e4eb284340e09d63c59aef6fc14b0f346146fd",
-    "url": "https://files.pythonhosted.org/packages/04/80/cad93b40262f5d09f6de82adbee452fd43cdff60830b56a74c5930f7e277/wheel-0.37.0-py2.py3-none-any.whl"
-  },
-  {
-    "name": "wheel-0.37.0.tar.gz",
-    "sha256": "e2ef7239991699e3355d54f8e968a21bb940a1dbf34a4d226741e64462516fad",
-    "url": "https://files.pythonhosted.org/packages/4e/be/8139f127b4db2f79c8b117c80af56a3078cc4824b5b94250c7f81a70e03b/wheel-0.37.0.tar.gz"
-  }
-]
+{
+  "wheel-0.37.0-py2.py3-none-any.whl": "21014b2bd93c6d0034b6ba5d35e4eb284340e09d63c59aef6fc14b0f346146fd",
+  "wheel-0.37.0.tar.gz": "e2ef7239991699e3355d54f8e968a21bb940a1dbf34a4d226741e64462516fad"
+}

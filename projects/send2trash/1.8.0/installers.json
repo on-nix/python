@@ -1,12 +1,4 @@
-[
-  {
-    "name": "Send2Trash-1.8.0-py3-none-any.whl",
-    "sha256": "f20eaadfdb517eaca5ce077640cb261c7d2698385a6a0f072a4a5447fd49fa08",
-    "url": "https://files.pythonhosted.org/packages/47/26/3435896d757335ea53dce5abf8d658ca80757a7a06258451b358f10232be/Send2Trash-1.8.0-py3-none-any.whl"
-  },
-  {
-    "name": "Send2Trash-1.8.0.tar.gz",
-    "sha256": "d2c24762fd3759860a0aff155e45871447ea58d2be6bdd39b5c8f966a0c99c2d",
-    "url": "https://files.pythonhosted.org/packages/49/2c/d990b8d5a7378dde856f5a82e36ed9d6061b5f2d00f39dc4317acd9538b4/Send2Trash-1.8.0.tar.gz"
-  }
-]
+{
+  "Send2Trash-1.8.0-py3-none-any.whl": "f20eaadfdb517eaca5ce077640cb261c7d2698385a6a0f072a4a5447fd49fa08",
+  "Send2Trash-1.8.0.tar.gz": "d2c24762fd3759860a0aff155e45871447ea58d2be6bdd39b5c8f966a0c99c2d"
+}

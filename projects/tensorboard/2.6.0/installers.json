@@ -1,7 +1,3 @@
-[
-  {
-    "name": "tensorboard-2.6.0-py3-none-any.whl",
-    "sha256": "f7dac4cdfb52d14c9e3f74585ce2aaf8e6203620a864e51faf84988b09f7bbdb",
-    "url": "https://files.pythonhosted.org/packages/a0/20/a59a30c32330e4ff704faa4273b251db042d495e0c367bcdf045c6fe26e9/tensorboard-2.6.0-py3-none-any.whl"
-  }
-]
+{
+  "tensorboard-2.6.0-py3-none-any.whl": "f7dac4cdfb52d14c9e3f74585ce2aaf8e6203620a864e51faf84988b09f7bbdb"
+}

@@ -1,12 +1,4 @@
-[
-  {
-    "name": "threadpoolctl-2.2.0-py3-none-any.whl",
-    "sha256": "e5a995e3ffae202758fa8a90082e35783b9370699627ae2733cd1c3a73553616",
-    "url": "https://files.pythonhosted.org/packages/c6/e8/c216b9b60cbba4642d3ca1bae7a53daa0c24426f662e0e3ce3dc7f6caeaa/threadpoolctl-2.2.0-py3-none-any.whl"
-  },
-  {
-    "name": "threadpoolctl-2.2.0.tar.gz",
-    "sha256": "86d4b6801456d780e94681d155779058759eaef3c3564758b17b6c99db5f81cb",
-    "url": "https://files.pythonhosted.org/packages/f7/c2/34fa238d7126d3a4b1f78aebf35fbda9f8f1c8f64ae9c5ef323141f350f9/threadpoolctl-2.2.0.tar.gz"
-  }
-]
+{
+  "threadpoolctl-2.2.0-py3-none-any.whl": "e5a995e3ffae202758fa8a90082e35783b9370699627ae2733cd1c3a73553616",
+  "threadpoolctl-2.2.0.tar.gz": "86d4b6801456d780e94681d155779058759eaef3c3564758b17b6c99db5f81cb"
+}

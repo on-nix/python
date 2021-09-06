@@ -1,12 +1,4 @@
-[
-  {
-    "name": "exponent_server_sdk-2.0.0-py3-none-any.whl",
-    "sha256": "99428eba4e964a1bf019a53eeab09d7d8a1775ec975f607336419ef23f029cc1",
-    "url": "https://files.pythonhosted.org/packages/9b/95/34ce5063467232a7cea1ebac2903cdd87ab52ae86fea016580fc1af4c8ff/exponent_server_sdk-2.0.0-py3-none-any.whl"
-  },
-  {
-    "name": "exponent_server_sdk-2.0.0.tar.gz",
-    "sha256": "2e8d0818d568e88f6e4f583c3d0ba21e424f1d279a94c41373b6439049e96186",
-    "url": "https://files.pythonhosted.org/packages/95/5a/263a29f6fdf0fc4c91bfe7bfa6ea6b124a279df4614a30005f59e9eeb5d6/exponent_server_sdk-2.0.0.tar.gz"
-  }
-]
+{
+  "exponent_server_sdk-2.0.0-py3-none-any.whl": "99428eba4e964a1bf019a53eeab09d7d8a1775ec975f607336419ef23f029cc1",
+  "exponent_server_sdk-2.0.0.tar.gz": "2e8d0818d568e88f6e4f583c3d0ba21e424f1d279a94c41373b6439049e96186"
+}

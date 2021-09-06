@@ -1,7 +1,3 @@
-[
-  {
-    "name": "thop-0.0.31.post2005241907-py3-none-any.whl",
-    "sha256": "86d67af12311b34905949eb91c8c38f92a707de72140c29a94110cc623e21ceb",
-    "url": "https://files.pythonhosted.org/packages/6c/8b/22ce44e1c71558161a8bd54471123cc796589c7ebbfc15a7e8932e522f83/thop-0.0.31.post2005241907-py3-none-any.whl"
-  }
-]
+{
+  "thop-0.0.31.post2005241907-py3-none-any.whl": "86d67af12311b34905949eb91c8c38f92a707de72140c29a94110cc623e21ceb"
+}

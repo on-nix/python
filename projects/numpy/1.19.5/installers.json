@@ -1,132 +1,28 @@
-[
-  {
-    "name": "numpy-1.19.5-cp36-cp36m-macosx_10_9_x86_64.whl",
-    "sha256": "cc6bd4fd593cb261332568485e20a0712883cf631f6f5e8e86a52caa8b2b50ff",
-    "url": "https://files.pythonhosted.org/packages/6a/9d/984f87a8d5b28b1d4afc042d8f436a76d6210fb582214f35a0ea1db3be66/numpy-1.19.5-cp36-cp36m-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "numpy-1.19.5-cp36-cp36m-manylinux1_i686.whl",
-    "sha256": "aeb9ed923be74e659984e321f609b9ba54a48354bfd168d21a2b072ed1e833ea",
-    "url": "https://files.pythonhosted.org/packages/9e/3f/693399e09bfc75737e0622803ba13d73e9a4da1d9fcc8614723372c5b00d/numpy-1.19.5-cp36-cp36m-manylinux1_i686.whl"
-  },
-  {
-    "name": "numpy-1.19.5-cp36-cp36m-manylinux1_x86_64.whl",
-    "sha256": "8b5e972b43c8fc27d56550b4120fe6257fdc15f9301914380b27f74856299fea",
-    "url": "https://files.pythonhosted.org/packages/45/b2/6c7545bb7a38754d63048c7696804a0d947328125d81bf12beaa692c3ae3/numpy-1.19.5-cp36-cp36m-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "numpy-1.19.5-cp36-cp36m-manylinux2010_i686.whl",
-    "sha256": "43d4c81d5ffdff6bae58d66a3cd7f54a7acd9a0e7b18d97abb255defc09e3140",
-    "url": "https://files.pythonhosted.org/packages/ab/81/244258ba61e03ccbfff2b9d3918b3665184380c5591050eb84ac3e88d0b0/numpy-1.19.5-cp36-cp36m-manylinux2010_i686.whl"
-  },
-  {
-    "name": "numpy-1.19.5-cp36-cp36m-manylinux2010_x86_64.whl",
-    "sha256": "a4646724fba402aa7504cd48b4b50e783296b5e10a524c7a6da62e4a8ac9698d",
-    "url": "https://files.pythonhosted.org/packages/14/32/d3fa649ad7ec0b82737b92fefd3c4dd376b0bb23730715124569f38f3a08/numpy-1.19.5-cp36-cp36m-manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "numpy-1.19.5-cp36-cp36m-manylinux2014_aarch64.whl",
-    "sha256": "2e55195bc1c6b705bfd8ad6f288b38b11b1af32f3c8289d6c50d47f950c12e76",
-    "url": "https://files.pythonhosted.org/packages/ab/f6/6cb12866511a564dde8208111b551f9469ba1c3963a63077afbb8a070a4a/numpy-1.19.5-cp36-cp36m-manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "numpy-1.19.5-cp37-cp37m-macosx_10_9_x86_64.whl",
-    "sha256": "603aa0706be710eea8884af807b1b3bc9fb2e49b9f4da439e76000f3b3c6ff0f",
-    "url": "https://files.pythonhosted.org/packages/39/ba/f3db2b5bb36fee2478b1cf47e7f9664b9c27241be80acd31c844404da297/numpy-1.19.5-cp37-cp37m-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "numpy-1.19.5-cp37-cp37m-manylinux1_i686.whl",
-    "sha256": "cae865b1cae1ec2663d8ea56ef6ff185bad091a5e33ebbadd98de2cfa3fa668f",
-    "url": "https://files.pythonhosted.org/packages/ca/8d/cfeab2119d6c94e1c6ad7753853773a142109a5f8f56e1d8c940886814bc/numpy-1.19.5-cp37-cp37m-manylinux1_i686.whl"
-  },
-  {
-    "name": "numpy-1.19.5-cp37-cp37m-manylinux1_x86_64.whl",
-    "sha256": "36674959eed6957e61f11c912f71e78857a8d0604171dfd9ce9ad5cbf41c511c",
-    "url": "https://files.pythonhosted.org/packages/b1/e1/8c4c5632adaffc18dba4e03e97458dc1cb00583811e6982fc620b9d88515/numpy-1.19.5-cp37-cp37m-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "numpy-1.19.5-cp37-cp37m-manylinux2010_i686.whl",
-    "sha256": "06fab248a088e439402141ea04f0fffb203723148f6ee791e9c75b3e9e82f080",
-    "url": "https://files.pythonhosted.org/packages/0b/2c/b20e49628109f1f6aa56c5a283dc6001276b0b8853712dc66f2243abddfe/numpy-1.19.5-cp37-cp37m-manylinux2010_i686.whl"
-  },
-  {
-    "name": "numpy-1.19.5-cp37-cp37m-manylinux2010_x86_64.whl",
-    "sha256": "6149a185cece5ee78d1d196938b2a8f9d09f5a5ebfbba66969302a778d5ddd1d",
-    "url": "https://files.pythonhosted.org/packages/08/d6/a6aaa29fea945bc6c61d11f6e0697b325ff7446de5ffd62c2fa02f627048/numpy-1.19.5-cp37-cp37m-manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "numpy-1.19.5-cp37-cp37m-manylinux2014_aarch64.whl",
-    "sha256": "50a4a0ad0111cc1b71fa32dedd05fa239f7fb5a43a40663269bb5dc7877cfd28",
-    "url": "https://files.pythonhosted.org/packages/fe/93/b0b203c693d621d6ee9577fc650bab49434c6d23c809dc4eb49db6a339af/numpy-1.19.5-cp37-cp37m-manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "numpy-1.19.5-cp38-cp38-macosx_10_9_x86_64.whl",
-    "sha256": "cf2402002d3d9f91c8b01e66fbb436a4ed01c6498fffed0e4c7566da1d40ee1e",
-    "url": "https://files.pythonhosted.org/packages/a6/b7/c0594c698c7149bfe738724ab9ab3722dca3a4a43823468fe9481abe4016/numpy-1.19.5-cp38-cp38-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "numpy-1.19.5-cp38-cp38-manylinux1_i686.whl",
-    "sha256": "1ded4fce9cfaaf24e7a0ab51b7a87be9038ea1ace7f34b841fe3b6894c721d1c",
-    "url": "https://files.pythonhosted.org/packages/57/c6/bb70999019bc1d11ab27d309eba2f4b7c9c241ca64912ebaa8ec82593df6/numpy-1.19.5-cp38-cp38-manylinux1_i686.whl"
-  },
-  {
-    "name": "numpy-1.19.5-cp38-cp38-manylinux1_x86_64.whl",
-    "sha256": "012426a41bc9ab63bb158635aecccc7610e3eff5d31d1eb43bc099debc979d94",
-    "url": "https://files.pythonhosted.org/packages/21/da/4a59e01f8fff4281a068e90868edd62253c1431a1b7315fe6789f8a0d9c0/numpy-1.19.5-cp38-cp38-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "numpy-1.19.5-cp38-cp38-manylinux2010_i686.whl",
-    "sha256": "759e4095edc3c1b3ac031f34d9459fa781777a93ccc633a472a5468587a190ff",
-    "url": "https://files.pythonhosted.org/packages/47/73/b9435c96228003915c9128c0b49af96aed359a03aa8a86f562add743a99f/numpy-1.19.5-cp38-cp38-manylinux2010_i686.whl"
-  },
-  {
-    "name": "numpy-1.19.5-cp38-cp38-manylinux2010_x86_64.whl",
-    "sha256": "a9d17f2be3b427fbb2bce61e596cf555d6f8a56c222bd2ca148baeeb5e5c783c",
-    "url": "https://files.pythonhosted.org/packages/66/d7/3b133b17e185f14137bc8afe7a41daf1f31556900f10238312a5ae9c7345/numpy-1.19.5-cp38-cp38-manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "numpy-1.19.5-cp38-cp38-manylinux2014_aarch64.whl",
-    "sha256": "99abf4f353c3d1a0c7a5f27699482c987cf663b1eac20db59b8c7b061eabd7fc",
-    "url": "https://files.pythonhosted.org/packages/97/b6/9ad5980f6657b2d5a7d1d1175f1f48881d5d73c5140c48dbbf08132b5938/numpy-1.19.5-cp38-cp38-manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "numpy-1.19.5-cp39-cp39-macosx_10_9_x86_64.whl",
-    "sha256": "c843b3f50d1ab7361ca4f0b3639bf691569493a56808a0b0c54a051d260b7dbd",
-    "url": "https://files.pythonhosted.org/packages/e1/c5/65b2f257a154c7fabc1895b435e7863a1f0bb1769d3c28f1500976e090ee/numpy-1.19.5-cp39-cp39-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "numpy-1.19.5-cp39-cp39-manylinux1_i686.whl",
-    "sha256": "d6631f2e867676b13026e2846180e2c13c1e11289d67da08d71cacb2cd93d4aa",
-    "url": "https://files.pythonhosted.org/packages/a7/67/06b4c4af90b22ce97270eb75927e42b31b814be44a28e12ec2d9ff8995e7/numpy-1.19.5-cp39-cp39-manylinux1_i686.whl"
-  },
-  {
-    "name": "numpy-1.19.5-cp39-cp39-manylinux1_x86_64.whl",
-    "sha256": "7fb43004bce0ca31d8f13a6eb5e943fa73371381e53f7074ed21a4cb786c32f8",
-    "url": "https://files.pythonhosted.org/packages/89/62/189b502767f70a310a010c397fcd52169fdf75f6876e52beb54e98f1ce93/numpy-1.19.5-cp39-cp39-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "numpy-1.19.5-cp39-cp39-manylinux2010_i686.whl",
-    "sha256": "2ea52bd92ab9f768cc64a4c3ef8f4b2580a17af0a5436f6126b08efbd1838371",
-    "url": "https://files.pythonhosted.org/packages/60/f1/9afcfd695ffa3d8295aa2180ae9499f3ab03ddde7ac559c320945f7c4725/numpy-1.19.5-cp39-cp39-manylinux2010_i686.whl"
-  },
-  {
-    "name": "numpy-1.19.5-cp39-cp39-manylinux2010_x86_64.whl",
-    "sha256": "400580cbd3cff6ffa6293df2278c75aef2d58d8d93d3c5614cd67981dae68ceb",
-    "url": "https://files.pythonhosted.org/packages/f7/50/02c0fb5d913901ad643934713a31567df9b5065c28efc9672b707f80dfb1/numpy-1.19.5-cp39-cp39-manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "numpy-1.19.5-cp39-cp39-manylinux2014_aarch64.whl",
-    "sha256": "df609c82f18c5b9f6cb97271f03315ff0dbe481a2a02e56aeb1b1a985ce38e60",
-    "url": "https://files.pythonhosted.org/packages/91/11/059ef2ef98f9eea49ece6d6046bc537c3050c575108a51a624a179c8e7e3/numpy-1.19.5-cp39-cp39-manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "numpy-1.19.5-pp36-pypy36_pp73-manylinux2010_x86_64.whl",
-    "sha256": "a0d53e51a6cb6f0d9082decb7a4cb6dfb33055308c4c44f53103c073f649af73",
-    "url": "https://files.pythonhosted.org/packages/3c/1b/c8bb1bfe13a697f76a2c970df8fc7f287352ebafa9708a5b3f52692efd43/numpy-1.19.5-pp36-pypy36_pp73-manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "numpy-1.19.5.zip",
-    "sha256": "a76f502430dd98d7546e1ea2250a7360c065a5fdea52b2dffe8ae7180909b6f4",
-    "url": "https://files.pythonhosted.org/packages/51/60/3f0fe5b7675a461d96b9d6729beecd3532565743278a9c3fe6dd09697fa7/numpy-1.19.5.zip"
-  }
-]
+{
+  "numpy-1.19.5-cp36-cp36m-macosx_10_9_x86_64.whl": "cc6bd4fd593cb261332568485e20a0712883cf631f6f5e8e86a52caa8b2b50ff",
+  "numpy-1.19.5-cp36-cp36m-manylinux1_i686.whl": "aeb9ed923be74e659984e321f609b9ba54a48354bfd168d21a2b072ed1e833ea",
+  "numpy-1.19.5-cp36-cp36m-manylinux1_x86_64.whl": "8b5e972b43c8fc27d56550b4120fe6257fdc15f9301914380b27f74856299fea",
+  "numpy-1.19.5-cp36-cp36m-manylinux2010_i686.whl": "43d4c81d5ffdff6bae58d66a3cd7f54a7acd9a0e7b18d97abb255defc09e3140",
+  "numpy-1.19.5-cp36-cp36m-manylinux2010_x86_64.whl": "a4646724fba402aa7504cd48b4b50e783296b5e10a524c7a6da62e4a8ac9698d",
+  "numpy-1.19.5-cp36-cp36m-manylinux2014_aarch64.whl": "2e55195bc1c6b705bfd8ad6f288b38b11b1af32f3c8289d6c50d47f950c12e76",
+  "numpy-1.19.5-cp37-cp37m-macosx_10_9_x86_64.whl": "603aa0706be710eea8884af807b1b3bc9fb2e49b9f4da439e76000f3b3c6ff0f",
+  "numpy-1.19.5-cp37-cp37m-manylinux1_i686.whl": "cae865b1cae1ec2663d8ea56ef6ff185bad091a5e33ebbadd98de2cfa3fa668f",
+  "numpy-1.19.5-cp37-cp37m-manylinux1_x86_64.whl": "36674959eed6957e61f11c912f71e78857a8d0604171dfd9ce9ad5cbf41c511c",
+  "numpy-1.19.5-cp37-cp37m-manylinux2010_i686.whl": "06fab248a088e439402141ea04f0fffb203723148f6ee791e9c75b3e9e82f080",
+  "numpy-1.19.5-cp37-cp37m-manylinux2010_x86_64.whl": "6149a185cece5ee78d1d196938b2a8f9d09f5a5ebfbba66969302a778d5ddd1d",
+  "numpy-1.19.5-cp37-cp37m-manylinux2014_aarch64.whl": "50a4a0ad0111cc1b71fa32dedd05fa239f7fb5a43a40663269bb5dc7877cfd28",
+  "numpy-1.19.5-cp38-cp38-macosx_10_9_x86_64.whl": "cf2402002d3d9f91c8b01e66fbb436a4ed01c6498fffed0e4c7566da1d40ee1e",
+  "numpy-1.19.5-cp38-cp38-manylinux1_i686.whl": "1ded4fce9cfaaf24e7a0ab51b7a87be9038ea1ace7f34b841fe3b6894c721d1c",
+  "numpy-1.19.5-cp38-cp38-manylinux1_x86_64.whl": "012426a41bc9ab63bb158635aecccc7610e3eff5d31d1eb43bc099debc979d94",
+  "numpy-1.19.5-cp38-cp38-manylinux2010_i686.whl": "759e4095edc3c1b3ac031f34d9459fa781777a93ccc633a472a5468587a190ff",
+  "numpy-1.19.5-cp38-cp38-manylinux2010_x86_64.whl": "a9d17f2be3b427fbb2bce61e596cf555d6f8a56c222bd2ca148baeeb5e5c783c",
+  "numpy-1.19.5-cp38-cp38-manylinux2014_aarch64.whl": "99abf4f353c3d1a0c7a5f27699482c987cf663b1eac20db59b8c7b061eabd7fc",
+  "numpy-1.19.5-cp39-cp39-macosx_10_9_x86_64.whl": "c843b3f50d1ab7361ca4f0b3639bf691569493a56808a0b0c54a051d260b7dbd",
+  "numpy-1.19.5-cp39-cp39-manylinux1_i686.whl": "d6631f2e867676b13026e2846180e2c13c1e11289d67da08d71cacb2cd93d4aa",
+  "numpy-1.19.5-cp39-cp39-manylinux1_x86_64.whl": "7fb43004bce0ca31d8f13a6eb5e943fa73371381e53f7074ed21a4cb786c32f8",
+  "numpy-1.19.5-cp39-cp39-manylinux2010_i686.whl": "2ea52bd92ab9f768cc64a4c3ef8f4b2580a17af0a5436f6126b08efbd1838371",
+  "numpy-1.19.5-cp39-cp39-manylinux2010_x86_64.whl": "400580cbd3cff6ffa6293df2278c75aef2d58d8d93d3c5614cd67981dae68ceb",
+  "numpy-1.19.5-cp39-cp39-manylinux2014_aarch64.whl": "df609c82f18c5b9f6cb97271f03315ff0dbe481a2a02e56aeb1b1a985ce38e60",
+  "numpy-1.19.5-pp36-pypy36_pp73-manylinux2010_x86_64.whl": "a0d53e51a6cb6f0d9082decb7a4cb6dfb33055308c4c44f53103c073f649af73",
+  "numpy-1.19.5.zip": "a76f502430dd98d7546e1ea2250a7360c065a5fdea52b2dffe8ae7180909b6f4"
+}

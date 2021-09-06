@@ -1,87 +1,19 @@
-[
-  {
-    "name": "matplotlib-3.3.4-cp36-cp36m-macosx_10_9_x86_64.whl",
-    "sha256": "672960dd114e342b7c610bf32fb99d14227f29919894388b41553217457ba7ef",
-    "url": "https://files.pythonhosted.org/packages/77/bd/a70d352f3c24bd444f3cf182f232cca421de23098fba2cf34df1defa68e6/matplotlib-3.3.4-cp36-cp36m-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "matplotlib-3.3.4-cp36-cp36m-manylinux1_i686.whl",
-    "sha256": "7c155437ae4fd366e2700e2716564d1787700687443de46bcb895fe0f84b761d",
-    "url": "https://files.pythonhosted.org/packages/b2/01/53d86b08786941620915dd31381571d667948e9d76ae44491538fbe111e1/matplotlib-3.3.4-cp36-cp36m-manylinux1_i686.whl"
-  },
-  {
-    "name": "matplotlib-3.3.4-cp36-cp36m-manylinux1_x86_64.whl",
-    "sha256": "a17f0a10604fac7627ec82820439e7db611722e80c408a726cd00d8c974c2fb3",
-    "url": "https://files.pythonhosted.org/packages/09/03/b7b30fa81cb687d1178e085d0f01111ceaea3bf81f9330c937fb6f6c8ca0/matplotlib-3.3.4-cp36-cp36m-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "matplotlib-3.3.4-cp37-cp37m-macosx_10_9_x86_64.whl",
-    "sha256": "94bdd1d55c20e764d8aea9d471d2ae7a7b2c84445e0fa463f02e20f9730783e1",
-    "url": "https://files.pythonhosted.org/packages/7e/32/46285e083ce5b4a46468236e3073c794324700e62d7fbf26894ec390d99a/matplotlib-3.3.4-cp37-cp37m-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "matplotlib-3.3.4-cp37-cp37m-manylinux1_i686.whl",
-    "sha256": "a1acb72f095f1d58ecc2538ed1b8bca0b57df313b13db36ed34b8cdf1868e674",
-    "url": "https://files.pythonhosted.org/packages/76/f2/97e2507c0dcf6fd43c86822a27bca8c9f96bde59e0e29afe9a1086af9136/matplotlib-3.3.4-cp37-cp37m-manylinux1_i686.whl"
-  },
-  {
-    "name": "matplotlib-3.3.4-cp37-cp37m-manylinux1_x86_64.whl",
-    "sha256": "46b1a60a04e6d884f0250d5cc8dc7bd21a9a96c584a7acdaab44698a44710bab",
-    "url": "https://files.pythonhosted.org/packages/23/3d/db9a6b3c83c9511301152dbb64a029c3a4313c86eaef12c237b13ecf91d6/matplotlib-3.3.4-cp37-cp37m-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "matplotlib-3.3.4-cp38-cp38-macosx_10_9_x86_64.whl",
-    "sha256": "7310e353a4a35477c7f032409966920197d7df3e757c7624fd842f3eeb307d3d",
-    "url": "https://files.pythonhosted.org/packages/a7/cf/30e026703d8748d0109c201329b36369fa1ecb2ac404cfd588a37d858f6c/matplotlib-3.3.4-cp38-cp38-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "matplotlib-3.3.4-cp38-cp38-manylinux1_i686.whl",
-    "sha256": "451cc89cb33d6652c509fc6b588dc51c41d7246afdcc29b8624e256b7663ed1f",
-    "url": "https://files.pythonhosted.org/packages/9c/30/c03afc252d0bf8b8ca604cec2ccf87e1868a1abdb2c30c296cd9d0b5cdc6/matplotlib-3.3.4-cp38-cp38-manylinux1_i686.whl"
-  },
-  {
-    "name": "matplotlib-3.3.4-cp38-cp38-manylinux1_x86_64.whl",
-    "sha256": "3d2eb9c1cc254d0ffa90bc96fde4b6005d09c2228f99dfd493a4219c1af99644",
-    "url": "https://files.pythonhosted.org/packages/ab/20/60cfe5d611ac86df07b7b1f9b9582f22f7eda5edbe2124ba85bdf3133822/matplotlib-3.3.4-cp38-cp38-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "matplotlib-3.3.4-cp39-cp39-macosx_10_9_x86_64.whl",
-    "sha256": "f44149a0ef5b4991aaef12a93b8e8d66d6412e762745fea1faa61d98524e0ba9",
-    "url": "https://files.pythonhosted.org/packages/db/ff/404aad32f8fc9bd6173454a094175478d325b522e07835c73de2652d7801/matplotlib-3.3.4-cp39-cp39-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "matplotlib-3.3.4-cp39-cp39-manylinux1_i686.whl",
-    "sha256": "746a1df55749629e26af7f977ea426817ca9370ad1569436608dc48d1069b87c",
-    "url": "https://files.pythonhosted.org/packages/87/1c/4c1cc9158017feac94a69f27dc4016b48562785398a4925fd46ab436b1b5/matplotlib-3.3.4-cp39-cp39-manylinux1_i686.whl"
-  },
-  {
-    "name": "matplotlib-3.3.4-cp39-cp39-manylinux1_x86_64.whl",
-    "sha256": "5f571b92a536206f7958f7cb2d367ff6c9a1fa8229dc35020006e4cdd1ca0acd",
-    "url": "https://files.pythonhosted.org/packages/e8/62/b060f66406090ef62faf264ba336396b5c3f96f4d2891431c1cdbeeb746c/matplotlib-3.3.4-cp39-cp39-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "matplotlib-3.3.4-pp36-pypy36_pp73-macosx_10_9_x86_64.whl",
-    "sha256": "1e850163579a8936eede29fad41e202b25923a0a8d5ffd08ce50fc0a97dcdc93",
-    "url": "https://files.pythonhosted.org/packages/d4/68/4b1952891af81d6fab8956cf82b1a8e61275661c5696de131521ec6953ba/matplotlib-3.3.4-pp36-pypy36_pp73-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "matplotlib-3.3.4-pp36-pypy36_pp73-manylinux2010_x86_64.whl",
-    "sha256": "d738acfdfb65da34c91acbdb56abed46803db39af259b7f194dc96920360dbe4",
-    "url": "https://files.pythonhosted.org/packages/29/f3/52e037a72cd6ff98983f553b878e1374678034e45c50ea03811807c59c7a/matplotlib-3.3.4-pp36-pypy36_pp73-manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "matplotlib-3.3.4-pp37-pypy37_pp73-macosx_10_9_x86_64.whl",
-    "sha256": "aa49571d8030ad0b9ac39708ee77bd2a22f87815e12bdee52ecaffece9313ed8",
-    "url": "https://files.pythonhosted.org/packages/d5/46/bdcd3e9e176beff77a9214c04afb9da82268560cfae0cc36556f041c9a13/matplotlib-3.3.4-pp37-pypy37_pp73-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "matplotlib-3.3.4-pp37-pypy37_pp73-manylinux2010_x86_64.whl",
-    "sha256": "cf3a7e54eff792f0815dbbe9b85df2f13d739289c93d346925554f71d484be78",
-    "url": "https://files.pythonhosted.org/packages/86/af/3a877645addc42a22f7c484f40644713bb9eb365602d5fba64c9b92c36cb/matplotlib-3.3.4-pp37-pypy37_pp73-manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "matplotlib-3.3.4.tar.gz",
-    "sha256": "3e477db76c22929e4c6876c44f88d790aacdf3c3f8f3a90cb1975c0bf37825b0",
-    "url": "https://files.pythonhosted.org/packages/22/d4/e7ca532e68a9357742604e1e4ae35d9c09a4a810de39a9d80402bd12f50f/matplotlib-3.3.4.tar.gz"
-  }
-]
+{
+  "matplotlib-3.3.4-cp36-cp36m-macosx_10_9_x86_64.whl": "672960dd114e342b7c610bf32fb99d14227f29919894388b41553217457ba7ef",
+  "matplotlib-3.3.4-cp36-cp36m-manylinux1_i686.whl": "7c155437ae4fd366e2700e2716564d1787700687443de46bcb895fe0f84b761d",
+  "matplotlib-3.3.4-cp36-cp36m-manylinux1_x86_64.whl": "a17f0a10604fac7627ec82820439e7db611722e80c408a726cd00d8c974c2fb3",
+  "matplotlib-3.3.4-cp37-cp37m-macosx_10_9_x86_64.whl": "94bdd1d55c20e764d8aea9d471d2ae7a7b2c84445e0fa463f02e20f9730783e1",
+  "matplotlib-3.3.4-cp37-cp37m-manylinux1_i686.whl": "a1acb72f095f1d58ecc2538ed1b8bca0b57df313b13db36ed34b8cdf1868e674",
+  "matplotlib-3.3.4-cp37-cp37m-manylinux1_x86_64.whl": "46b1a60a04e6d884f0250d5cc8dc7bd21a9a96c584a7acdaab44698a44710bab",
+  "matplotlib-3.3.4-cp38-cp38-macosx_10_9_x86_64.whl": "7310e353a4a35477c7f032409966920197d7df3e757c7624fd842f3eeb307d3d",
+  "matplotlib-3.3.4-cp38-cp38-manylinux1_i686.whl": "451cc89cb33d6652c509fc6b588dc51c41d7246afdcc29b8624e256b7663ed1f",
+  "matplotlib-3.3.4-cp38-cp38-manylinux1_x86_64.whl": "3d2eb9c1cc254d0ffa90bc96fde4b6005d09c2228f99dfd493a4219c1af99644",
+  "matplotlib-3.3.4-cp39-cp39-macosx_10_9_x86_64.whl": "f44149a0ef5b4991aaef12a93b8e8d66d6412e762745fea1faa61d98524e0ba9",
+  "matplotlib-3.3.4-cp39-cp39-manylinux1_i686.whl": "746a1df55749629e26af7f977ea426817ca9370ad1569436608dc48d1069b87c",
+  "matplotlib-3.3.4-cp39-cp39-manylinux1_x86_64.whl": "5f571b92a536206f7958f7cb2d367ff6c9a1fa8229dc35020006e4cdd1ca0acd",
+  "matplotlib-3.3.4-pp36-pypy36_pp73-macosx_10_9_x86_64.whl": "1e850163579a8936eede29fad41e202b25923a0a8d5ffd08ce50fc0a97dcdc93",
+  "matplotlib-3.3.4-pp36-pypy36_pp73-manylinux2010_x86_64.whl": "d738acfdfb65da34c91acbdb56abed46803db39af259b7f194dc96920360dbe4",
+  "matplotlib-3.3.4-pp37-pypy37_pp73-macosx_10_9_x86_64.whl": "aa49571d8030ad0b9ac39708ee77bd2a22f87815e12bdee52ecaffece9313ed8",
+  "matplotlib-3.3.4-pp37-pypy37_pp73-manylinux2010_x86_64.whl": "cf3a7e54eff792f0815dbbe9b85df2f13d739289c93d346925554f71d484be78",
+  "matplotlib-3.3.4.tar.gz": "3e477db76c22929e4c6876c44f88d790aacdf3c3f8f3a90cb1975c0bf37825b0"
+}

@@ -1,7 +1,3 @@
-[
-  {
-    "name": "delighted-4.1.0.tar.gz",
-    "sha256": "e7e32239ab7ce19e1c4222be66a9d3cd5918cdd94cff58a9401764266161c669",
-    "url": "https://files.pythonhosted.org/packages/37/56/7cc8b408ded2375ddb1332bb613d3226b80793b6199094d6e24fb85a5a99/delighted-4.1.0.tar.gz"
-  }
-]
+{
+  "delighted-4.1.0.tar.gz": "e7e32239ab7ce19e1c4222be66a9d3cd5918cdd94cff58a9401764266161c669"
+}

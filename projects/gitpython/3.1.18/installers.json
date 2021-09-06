@@ -1,12 +1,4 @@
-[
-  {
-    "name": "GitPython-3.1.18-py3-none-any.whl",
-    "sha256": "fce760879cd2aebd2991b3542876dc5c4a909b30c9d69dfc488e504a8db37ee8",
-    "url": "https://files.pythonhosted.org/packages/bc/91/b38c4fabb6e5092ab23492ded4f318ab7299b19263272b703478038c0fbc/GitPython-3.1.18-py3-none-any.whl"
-  },
-  {
-    "name": "GitPython-3.1.18.tar.gz",
-    "sha256": "b838a895977b45ab6f0cc926a9045c8d1c44e2b653c1fcc39fe91f42c6e8f05b",
-    "url": "https://files.pythonhosted.org/packages/29/22/3d591875078c1c5e7e11b478616821995053968a74b76043c55448c46381/GitPython-3.1.18.tar.gz"
-  }
-]
+{
+  "GitPython-3.1.18-py3-none-any.whl": "fce760879cd2aebd2991b3542876dc5c4a909b30c9d69dfc488e504a8db37ee8",
+  "GitPython-3.1.18.tar.gz": "b838a895977b45ab6f0cc926a9045c8d1c44e2b653c1fcc39fe91f42c6e8f05b"
+}

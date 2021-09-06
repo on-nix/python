@@ -1,17 +1,5 @@
-[
-  {
-    "name": "google_pasta-0.2.0-py2-none-any.whl",
-    "sha256": "4612951da876b1a10fe3960d7226f0c7682cf901e16ac06e473b267a5afa8954",
-    "url": "https://files.pythonhosted.org/packages/59/22/38238cd9b83dd8a857abd7c907b8fe68ceff1611ab3ca5f0e80a5e025956/google_pasta-0.2.0-py2-none-any.whl"
-  },
-  {
-    "name": "google_pasta-0.2.0-py3-none-any.whl",
-    "sha256": "b32482794a366b5366a32c92a9a9201b107821889935a02b3e51f6b432ea84ed",
-    "url": "https://files.pythonhosted.org/packages/a3/de/c648ef6835192e6e2cc03f40b19eeda4382c49b5bafb43d88b931c4c74ac/google_pasta-0.2.0-py3-none-any.whl"
-  },
-  {
-    "name": "google-pasta-0.2.0.tar.gz",
-    "sha256": "c9f2c8dfc8f96d0d5808299920721be30c9eec37f2389f28904f454565c8a16e",
-    "url": "https://files.pythonhosted.org/packages/35/4a/0bd53b36ff0323d10d5f24ebd67af2de10a1117f5cf4d7add90df92756f1/google-pasta-0.2.0.tar.gz"
-  }
-]
+{
+  "google-pasta-0.2.0.tar.gz": "c9f2c8dfc8f96d0d5808299920721be30c9eec37f2389f28904f454565c8a16e",
+  "google_pasta-0.2.0-py2-none-any.whl": "4612951da876b1a10fe3960d7226f0c7682cf901e16ac06e473b267a5afa8954",
+  "google_pasta-0.2.0-py3-none-any.whl": "b32482794a366b5366a32c92a9a9201b107821889935a02b3e51f6b432ea84ed"
+}

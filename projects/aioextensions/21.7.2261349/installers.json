@@ -1,12 +1,4 @@
-[
-  {
-    "name": "aioextensions-21.7.2261349-py3-none-any.whl",
-    "sha256": "e2f7b6d3a04f804aa3051b93a373c3c3cc5b62605863edb37ff331f86a1e2632",
-    "url": "https://files.pythonhosted.org/packages/84/a9/fe0acc4b74b435c8944e5e1ff9b9d3d0e4706076b9409102b3434086c9eb/aioextensions-21.7.2261349-py3-none-any.whl"
-  },
-  {
-    "name": "aioextensions-21.7.2261349.tar.gz",
-    "sha256": "2eacc52692495f331437e8c8e9782ca71f4617ec84f174ca17acdd77631efc47",
-    "url": "https://files.pythonhosted.org/packages/92/28/c8ad44c7cb153900fd0a7bb73d7fc48a331fce01af69fe8841cd8c752935/aioextensions-21.7.2261349.tar.gz"
-  }
-]
+{
+  "aioextensions-21.7.2261349-py3-none-any.whl": "e2f7b6d3a04f804aa3051b93a373c3c3cc5b62605863edb37ff331f86a1e2632",
+  "aioextensions-21.7.2261349.tar.gz": "2eacc52692495f331437e8c8e9782ca71f4617ec84f174ca17acdd77631efc47"
+}

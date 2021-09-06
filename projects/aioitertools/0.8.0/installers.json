@@ -1,12 +1,4 @@
-[
-  {
-    "name": "aioitertools-0.8.0-py3-none-any.whl",
-    "sha256": "3a141f01d1050ac8c01917aee248d262736dab875ce0471f0dba5f619346b452",
-    "url": "https://files.pythonhosted.org/packages/bf/ef/fd35e61a554489a4438cc34aadc95bdc4987f513b56624d78d8b22f08516/aioitertools-0.8.0-py3-none-any.whl"
-  },
-  {
-    "name": "aioitertools-0.8.0.tar.gz",
-    "sha256": "8b02facfbc9b0f1867739949a223f3d3267ed8663691cc95abd94e2c1d8c2b46",
-    "url": "https://files.pythonhosted.org/packages/78/f7/ea3904946e33c6e2799b5303e11ae5f43cf6b08dda58c8db8d759e34c3fb/aioitertools-0.8.0.tar.gz"
-  }
-]
+{
+  "aioitertools-0.8.0-py3-none-any.whl": "3a141f01d1050ac8c01917aee248d262736dab875ce0471f0dba5f619346b452",
+  "aioitertools-0.8.0.tar.gz": "8b02facfbc9b0f1867739949a223f3d3267ed8663691cc95abd94e2c1d8c2b46"
+}

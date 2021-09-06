@@ -1,12 +1,4 @@
-[
-  {
-    "name": "redis-3.5.3-py2.py3-none-any.whl",
-    "sha256": "432b788c4530cfe16d8d943a09d40ca6c16149727e4afe8c2c9d5580c59d9f24",
-    "url": "https://files.pythonhosted.org/packages/a7/7c/24fb0511df653cf1a5d938d8f5d19802a88cef255706fdda242ff97e91b7/redis-3.5.3-py2.py3-none-any.whl"
-  },
-  {
-    "name": "redis-3.5.3.tar.gz",
-    "sha256": "0e7e0cfca8660dea8b7d5cd8c4f6c5e29e11f31158c0b0ae91a397f00e5a05a2",
-    "url": "https://files.pythonhosted.org/packages/b3/17/1e567ff78c83854e16b98694411fe6e08c3426af866ad11397cddceb80d3/redis-3.5.3.tar.gz"
-  }
-]
+{
+  "redis-3.5.3-py2.py3-none-any.whl": "432b788c4530cfe16d8d943a09d40ca6c16149727e4afe8c2c9d5580c59d9f24",
+  "redis-3.5.3.tar.gz": "0e7e0cfca8660dea8b7d5cd8c4f6c5e29e11f31158c0b0ae91a397f00e5a05a2"
+}

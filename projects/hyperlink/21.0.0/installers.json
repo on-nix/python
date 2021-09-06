@@ -1,12 +1,4 @@
-[
-  {
-    "name": "hyperlink-21.0.0-py2.py3-none-any.whl",
-    "sha256": "e6b14c37ecb73e89c77d78cdb4c2cc8f3fb59a885c5b3f819ff4ed80f25af1b4",
-    "url": "https://files.pythonhosted.org/packages/6e/aa/8caf6a0a3e62863cbb9dab27135660acba46903b703e224f14f447e57934/hyperlink-21.0.0-py2.py3-none-any.whl"
-  },
-  {
-    "name": "hyperlink-21.0.0.tar.gz",
-    "sha256": "427af957daa58bc909471c6c40f74c5450fa123dd093fc53efd2e91d2705a56b",
-    "url": "https://files.pythonhosted.org/packages/3a/51/1947bd81d75af87e3bb9e34593a4cf118115a8feb451ce7a69044ef1412e/hyperlink-21.0.0.tar.gz"
-  }
-]
+{
+  "hyperlink-21.0.0-py2.py3-none-any.whl": "e6b14c37ecb73e89c77d78cdb4c2cc8f3fb59a885c5b3f819ff4ed80f25af1b4",
+  "hyperlink-21.0.0.tar.gz": "427af957daa58bc909471c6c40f74c5450fa123dd093fc53efd2e91d2705a56b"
+}

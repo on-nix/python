@@ -1,12 +1,4 @@
-[
-  {
-    "name": "pip_upgrader-1.4.15-py2.py3-none-any.whl",
-    "sha256": "7ddfdfa3b6664469c00b50d23f3ed082d61b16babd0729f9d52090add54abdca",
-    "url": "https://files.pythonhosted.org/packages/b2/42/36c09ad93ddbf10406e301f3d4d7d063cf27fa5cf7a881ccea78bb22cdc7/pip_upgrader-1.4.15-py2.py3-none-any.whl"
-  },
-  {
-    "name": "pip_upgrader-1.4.15.tar.gz",
-    "sha256": "ec07b93e06825d9cf40f475a8e021fc9d288446b479b40cb9aba406a6db65347",
-    "url": "https://files.pythonhosted.org/packages/3c/54/d3d6fdc8f5379bb2c0cd2da286796a2bd77e0fdea20b43e37ef1e46f1c46/pip_upgrader-1.4.15.tar.gz"
-  }
-]
+{
+  "pip_upgrader-1.4.15-py2.py3-none-any.whl": "7ddfdfa3b6664469c00b50d23f3ed082d61b16babd0729f9d52090add54abdca",
+  "pip_upgrader-1.4.15.tar.gz": "ec07b93e06825d9cf40f475a8e021fc9d288446b479b40cb9aba406a6db65347"
+}

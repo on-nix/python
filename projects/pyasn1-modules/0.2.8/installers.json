@@ -1,12 +1,4 @@
-[
-  {
-    "name": "pyasn1_modules-0.2.8-py2.py3-none-any.whl",
-    "sha256": "a50b808ffeb97cb3601dd25981f6b016cbb3d31fbf57a8b8a87428e6158d0c74",
-    "url": "https://files.pythonhosted.org/packages/95/de/214830a981892a3e286c3794f41ae67a4495df1108c3da8a9f62159b9a9d/pyasn1_modules-0.2.8-py2.py3-none-any.whl"
-  },
-  {
-    "name": "pyasn1-modules-0.2.8.tar.gz",
-    "sha256": "905f84c712230b2c592c19470d3ca8d552de726050d1d1716282a1f6146be65e",
-    "url": "https://files.pythonhosted.org/packages/88/87/72eb9ccf8a58021c542de2588a867dbefc7556e14b2866d1e40e9e2b587e/pyasn1-modules-0.2.8.tar.gz"
-  }
-]
+{
+  "pyasn1-modules-0.2.8.tar.gz": "905f84c712230b2c592c19470d3ca8d552de726050d1d1716282a1f6146be65e",
+  "pyasn1_modules-0.2.8-py2.py3-none-any.whl": "a50b808ffeb97cb3601dd25981f6b016cbb3d31fbf57a8b8a87428e6158d0c74"
+}

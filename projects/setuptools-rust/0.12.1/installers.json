@@ -1,12 +1,4 @@
-[
-  {
-    "name": "setuptools_rust-0.12.1-py3-none-any.whl",
-    "sha256": "60c9bf1423a725e472c4a2a6274598251f959f3ed5ffe7698526e78bb431b9b7",
-    "url": "https://files.pythonhosted.org/packages/82/2b/349ad916a2f032506a2c7c0810950a299f96e05d88b21797c2170bd6b2c6/setuptools_rust-0.12.1-py3-none-any.whl"
-  },
-  {
-    "name": "setuptools-rust-0.12.1.tar.gz",
-    "sha256": "647009e924f0ae439c7f3e0141a184a69ad247ecb9044c511dabde232d3d570e",
-    "url": "https://files.pythonhosted.org/packages/12/22/6ba3031e7cbd6eb002e13ffc7397e136df95813b6a2bd71ece52a8f89613/setuptools-rust-0.12.1.tar.gz"
-  }
-]
+{
+  "setuptools-rust-0.12.1.tar.gz": "647009e924f0ae439c7f3e0141a184a69ad247ecb9044c511dabde232d3d570e",
+  "setuptools_rust-0.12.1-py3-none-any.whl": "60c9bf1423a725e472c4a2a6274598251f959f3ed5ffe7698526e78bb431b9b7"
+}

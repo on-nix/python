@@ -1,12 +1,4 @@
-[
-  {
-    "name": "alive_progress-2.0.0-py3-none-any.whl",
-    "sha256": "d6b847f6522e95a93ad41dd3cee80a41a8af9a572e5e4d624def543747670f0f",
-    "url": "https://files.pythonhosted.org/packages/08/ca/e24943c9c1ae7dcd060a0b08704aff930d5c1687a99d0e4a8cec62197378/alive_progress-2.0.0-py3-none-any.whl"
-  },
-  {
-    "name": "alive-progress-2.0.0.tar.gz",
-    "sha256": "cc043d687df96767d7573d31b8a86a229c4184cefb730bd7670826a6be93b0e9",
-    "url": "https://files.pythonhosted.org/packages/1e/47/a6350092558cfb529b060bfcc008c1524814fc389c39b8ed439bb8234c4d/alive-progress-2.0.0.tar.gz"
-  }
-]
+{
+  "alive-progress-2.0.0.tar.gz": "cc043d687df96767d7573d31b8a86a229c4184cefb730bd7670826a6be93b0e9",
+  "alive_progress-2.0.0-py3-none-any.whl": "d6b847f6522e95a93ad41dd3cee80a41a8af9a572e5e4d624def543747670f0f"
+}

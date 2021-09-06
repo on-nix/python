@@ -1,12 +1,4 @@
-[
-  {
-    "name": "metaloaders-20.9.2566091-py3-none-any.whl",
-    "sha256": "184f21b8267e8fcf5325fbd7537f257ca9f37e354d8469bfc56cf67dd17f91d8",
-    "url": "https://files.pythonhosted.org/packages/fb/d9/ab7ee951599e4a7cacf8d460865d58a1c40e244ef39e3ec866748307429c/metaloaders-20.9.2566091-py3-none-any.whl"
-  },
-  {
-    "name": "metaloaders-20.9.2566091.tar.gz",
-    "sha256": "83ed98a330deeb1cb719b3de01404999a15beb9f4ce9e9f976ee28e7ae9c4969",
-    "url": "https://files.pythonhosted.org/packages/0d/f1/95888aa8bbf58840dd82765ac2ac60b9e5844d62b336c0b062024194280f/metaloaders-20.9.2566091.tar.gz"
-  }
-]
+{
+  "metaloaders-20.9.2566091-py3-none-any.whl": "184f21b8267e8fcf5325fbd7537f257ca9f37e354d8469bfc56cf67dd17f91d8",
+  "metaloaders-20.9.2566091.tar.gz": "83ed98a330deeb1cb719b3de01404999a15beb9f4ce9e9f976ee28e7ae9c4969"
+}

@@ -1,12 +1,4 @@
-[
-  {
-    "name": "rsa-4.7.2-py3-none-any.whl",
-    "sha256": "78f9a9bf4e7be0c5ded4583326e7461e3a3c5aae24073648b4bdfa797d78c9d2",
-    "url": "https://files.pythonhosted.org/packages/e9/93/0c0f002031f18b53af7a6166103c02b9c0667be528944137cc954ec921b3/rsa-4.7.2-py3-none-any.whl"
-  },
-  {
-    "name": "rsa-4.7.2.tar.gz",
-    "sha256": "9d689e6ca1b3038bc82bf8d23e944b6b6037bc02301a574935b2dd946e0353b9",
-    "url": "https://files.pythonhosted.org/packages/db/b5/475c45a58650b0580421746504b680cd2db4e81bc941e94ca53785250269/rsa-4.7.2.tar.gz"
-  }
-]
+{
+  "rsa-4.7.2-py3-none-any.whl": "78f9a9bf4e7be0c5ded4583326e7461e3a3c5aae24073648b4bdfa797d78c9d2",
+  "rsa-4.7.2.tar.gz": "9d689e6ca1b3038bc82bf8d23e944b6b6037bc02301a574935b2dd946e0353b9"
+}

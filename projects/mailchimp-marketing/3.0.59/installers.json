@@ -1,7 +1,3 @@
-[
-  {
-    "name": "mailchimp_marketing-3.0.59-py3-none-any.whl",
-    "sha256": "17518bddbc99f3007e85833851e4e71ddfdbe33d40480b6aafecfed341ea3d3f",
-    "url": "https://files.pythonhosted.org/packages/ea/1d/1df8b631fe72e87189c59cc7e594170a4ee945eff4a364a65936f0fdef6a/mailchimp_marketing-3.0.59-py3-none-any.whl"
-  }
-]
+{
+  "mailchimp_marketing-3.0.59-py3-none-any.whl": "17518bddbc99f3007e85833851e4e71ddfdbe33d40480b6aafecfed341ea3d3f"
+}

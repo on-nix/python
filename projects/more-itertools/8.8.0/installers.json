@@ -1,12 +1,4 @@
-[
-  {
-    "name": "more_itertools-8.8.0-py3-none-any.whl",
-    "sha256": "2cf89ec599962f2ddc4d568a05defc40e0a587fbc10d5989713638864c36be4d",
-    "url": "https://files.pythonhosted.org/packages/5f/3c/e3ee43177a86b448c3fea1d090238c365ea1a80f015836a8a18fbbaccd63/more_itertools-8.8.0-py3-none-any.whl"
-  },
-  {
-    "name": "more-itertools-8.8.0.tar.gz",
-    "sha256": "83f0308e05477c68f56ea3a888172c78ed5d5b3c282addb67508e7ba6c8f813a",
-    "url": "https://files.pythonhosted.org/packages/03/0a/4769cc0557fbe690f86bc4c183faa116f1050e5c9296f1b7b5806f063cdb/more-itertools-8.8.0.tar.gz"
-  }
-]
+{
+  "more-itertools-8.8.0.tar.gz": "83f0308e05477c68f56ea3a888172c78ed5d5b3c282addb67508e7ba6c8f813a",
+  "more_itertools-8.8.0-py3-none-any.whl": "2cf89ec599962f2ddc4d568a05defc40e0a587fbc10d5989713638864c36be4d"
+}

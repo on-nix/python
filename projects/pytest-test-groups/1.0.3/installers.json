@@ -1,7 +1,3 @@
-[
-  {
-    "name": "pytest-test-groups-1.0.3.tar.gz",
-    "sha256": "a93ee8ae8605ad290965508d13efc975de64f80429465837af5f3dd5bc93fd96",
-    "url": "https://files.pythonhosted.org/packages/e6/76/9fc99adf0b7b74ad2cb6a2ddfccb7e67ce9631f3f3927a7fd9b4d59ded7b/pytest-test-groups-1.0.3.tar.gz"
-  }
-]
+{
+  "pytest-test-groups-1.0.3.tar.gz": "a93ee8ae8605ad290965508d13efc975de64f80429465837af5f3dd5bc93fd96"
+}

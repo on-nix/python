@@ -1,17 +1,5 @@
-[
-  {
-    "name": "typing_extensions-3.10.0.1-py2-none-any.whl",
-    "sha256": "8bbffbd37fbeb9747a0241fdfde5ae99d4531ad1d1a41ccaea62100e15a5814c",
-    "url": "https://files.pythonhosted.org/packages/df/93/ef0c164cd0bab2937275daf59b4c284331332d12f9e21866a56f5beb8ded/typing_extensions-3.10.0.1-py2-none-any.whl"
-  },
-  {
-    "name": "typing_extensions-3.10.0.1-py3-none-any.whl",
-    "sha256": "045dd532231acfa03628df5e0c66dba64e2cc8fc8b844538d4ad6d5dd6cb82dc",
-    "url": "https://files.pythonhosted.org/packages/e8/ee/237d13b6d3d532778a57df23e6df4b2a82fbbeb833c4016054c6b6730d56/typing_extensions-3.10.0.1-py3-none-any.whl"
-  },
-  {
-    "name": "typing_extensions-3.10.0.1.tar.gz",
-    "sha256": "83af6730a045fda60f46510f7f1f094776d90321caa4d97d20ef38871bef4bd3",
-    "url": "https://files.pythonhosted.org/packages/a5/50/6fbfb5a45d4d8024222849f0731f8d8ddc5c7fe657a8f799bd4c605e93e0/typing_extensions-3.10.0.1.tar.gz"
-  }
-]
+{
+  "typing_extensions-3.10.0.1-py2-none-any.whl": "8bbffbd37fbeb9747a0241fdfde5ae99d4531ad1d1a41ccaea62100e15a5814c",
+  "typing_extensions-3.10.0.1-py3-none-any.whl": "045dd532231acfa03628df5e0c66dba64e2cc8fc8b844538d4ad6d5dd6cb82dc",
+  "typing_extensions-3.10.0.1.tar.gz": "83af6730a045fda60f46510f7f1f094776d90321caa4d97d20ef38871bef4bd3"
+}

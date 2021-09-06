@@ -1,12 +1,4 @@
-[
-  {
-    "name": "tree_sitter-0.19.0-cp38-cp38-macosx_10_14_x86_64.whl",
-    "sha256": "03fd05fe099639d4aec1b59dec630a69d32e3d07a078d83bc060209a8dbb2132",
-    "url": "https://files.pythonhosted.org/packages/a0/55/744420ee41cf1ebc6db82f8e5dff663e5d9bad7c2801973fd161436d2949/tree_sitter-0.19.0-cp38-cp38-macosx_10_14_x86_64.whl"
-  },
-  {
-    "name": "tree_sitter-0.19.0.tar.gz",
-    "sha256": "861afcf39f957fdd75f8b93124bc403f2f3abe8b81f104c05b1a749e6dd33499",
-    "url": "https://files.pythonhosted.org/packages/ac/46/da153b968bf088a8c1656e8e17cf2b8ac5ca5ca16bfe6bf2381fe1db2ca0/tree_sitter-0.19.0.tar.gz"
-  }
-]
+{
+  "tree_sitter-0.19.0-cp38-cp38-macosx_10_14_x86_64.whl": "03fd05fe099639d4aec1b59dec630a69d32e3d07a078d83bc060209a8dbb2132",
+  "tree_sitter-0.19.0.tar.gz": "861afcf39f957fdd75f8b93124bc403f2f3abe8b81f104c05b1a749e6dd33499"
+}

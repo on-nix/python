@@ -1,12 +1,4 @@
-[
-  {
-    "name": "charset_normalizer-2.0.4-py3-none-any.whl",
-    "sha256": "0c8911edd15d19223366a194a513099a302055a962bca2cec0f54b8b63175d8b",
-    "url": "https://files.pythonhosted.org/packages/33/53/b7f6126a2b9fd878b025fe3c40266cfaad696f312165008ce045bffa3fe7/charset_normalizer-2.0.4-py3-none-any.whl"
-  },
-  {
-    "name": "charset-normalizer-2.0.4.tar.gz",
-    "sha256": "f23667ebe1084be45f6ae0538e4a5a865206544097e4e8bbcacf42cd02a348f3",
-    "url": "https://files.pythonhosted.org/packages/e7/4e/2af0238001648ded297fb54ceb425ca26faa15b341b4fac5371d3938666e/charset-normalizer-2.0.4.tar.gz"
-  }
-]
+{
+  "charset-normalizer-2.0.4.tar.gz": "f23667ebe1084be45f6ae0538e4a5a865206544097e4e8bbcacf42cd02a348f3",
+  "charset_normalizer-2.0.4-py3-none-any.whl": "0c8911edd15d19223366a194a513099a302055a962bca2cec0f54b8b63175d8b"
+}

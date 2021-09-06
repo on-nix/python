@@ -1,12 +1,4 @@
-[
-  {
-    "name": "moto-2.2.6-py2.py3-none-any.whl",
-    "sha256": "e86b0d92bc5f80802a8ae0f338a4fdac15dab82c54eb12db93b356b69407effc",
-    "url": "https://files.pythonhosted.org/packages/16/9f/e863051864b8b76e20fcdc0bfb283d1a411e74a6fbfe28091a45715ea33d/moto-2.2.6-py2.py3-none-any.whl"
-  },
-  {
-    "name": "moto-2.2.6.tar.gz",
-    "sha256": "21c838b63f44e24b9b5015a2cdcc5be7c1e1004e58a69fb7cac71383bce34535",
-    "url": "https://files.pythonhosted.org/packages/be/e7/ec32d675fdfc22324c6bc7680d7789a382029dd23b483c186e8050e74195/moto-2.2.6.tar.gz"
-  }
-]
+{
+  "moto-2.2.6-py2.py3-none-any.whl": "e86b0d92bc5f80802a8ae0f338a4fdac15dab82c54eb12db93b356b69407effc",
+  "moto-2.2.6.tar.gz": "21c838b63f44e24b9b5015a2cdcc5be7c1e1004e58a69fb7cac71383bce34535"
+}

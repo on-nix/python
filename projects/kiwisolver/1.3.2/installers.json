@@ -1,177 +1,37 @@
-[
-  {
-    "name": "kiwisolver-1.3.2-cp310-cp310-macosx_10_9_universal2.whl",
-    "sha256": "1d819553730d3c2724582124aee8a03c846ec4362ded1034c16fb3ef309264e6",
-    "url": "https://files.pythonhosted.org/packages/32/ab/ccab485bbe5e2fc0510c4605912b93b171f7a6644b91992b74b61d0fe0c5/kiwisolver-1.3.2-cp310-cp310-macosx_10_9_universal2.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-cp310-cp310-macosx_10_9_x86_64.whl",
-    "sha256": "8d93a1095f83e908fc253f2fb569c2711414c0bfd451cab580466465b235b470",
-    "url": "https://files.pythonhosted.org/packages/51/20/4128efe2960970de3b206fc24aa98e8a2f27c7f508b35ce9fb24702a660f/kiwisolver-1.3.2-cp310-cp310-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-cp310-cp310-macosx_11_0_arm64.whl",
-    "sha256": "c4550a359c5157aaf8507e6820d98682872b9100ce7607f8aa070b4b8af6c298",
-    "url": "https://files.pythonhosted.org/packages/4b/9b/070ae10fa1dd48a14da1a3e85573d31f0f55fd53466dfa043e4c5314da93/kiwisolver-1.3.2-cp310-cp310-macosx_11_0_arm64.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-cp310-cp310-manylinux_2_12_i686.manylinux2010_i686.whl",
-    "sha256": "2210f28778c7d2ee13f3c2a20a3a22db889e75f4ec13a21072eabb5693801e84",
-    "url": "https://files.pythonhosted.org/packages/c6/a2/bd13d5378679bb5e34ce1d81b0e19aebaa48b7f7806fbba19ec3abfa2985/kiwisolver-1.3.2-cp310-cp310-manylinux_2_12_i686.manylinux2010_i686.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
-    "sha256": "82f49c5a79d3839bc8f38cb5f4bfc87e15f04cbafa5fbd12fb32c941cb529cfb",
-    "url": "https://files.pythonhosted.org/packages/a9/83/c2e6e98fe394b94cba598cb90d234fa16ad98b69f9d6f473250d15ebf2a9/kiwisolver-1.3.2-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-    "sha256": "9661a04ca3c950a8ac8c47f53cbc0b530bce1b52f516a1e87b7736fec24bfff0",
-    "url": "https://files.pythonhosted.org/packages/ea/ed/3ac7140179e73ded0244c1e2c7ca0bd511cd1ae207176f16c73f2a36e097/kiwisolver-1.3.2-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-cp310-cp310-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl",
-    "sha256": "2ddb500a2808c100e72c075cbb00bf32e62763c82b6a882d403f01a119e3f402",
-    "url": "https://files.pythonhosted.org/packages/4d/e3/d61b318ffe1bdbf36fb1569c4f45851dc6a4cb8a552d95826d7eb72bdf29/kiwisolver-1.3.2-cp310-cp310-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-cp310-cp310-manylinux_2_17_s390x.manylinux2014_s390x.whl",
-    "sha256": "72be6ebb4e92520b9726d7146bc9c9b277513a57a38efcf66db0620aec0097e0",
-    "url": "https://files.pythonhosted.org/packages/39/8a/e785b0d7f241f25bc5c464c1d226ed144434ca4f559d8ec44a1da4f5a219/kiwisolver-1.3.2-cp310-cp310-manylinux_2_17_s390x.manylinux2014_s390x.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-cp37-cp37m-macosx_10_9_x86_64.whl",
-    "sha256": "4116ba9a58109ed5e4cb315bdcbff9838f3159d099ba5259c7c7fb77f8537492",
-    "url": "https://files.pythonhosted.org/packages/d3/04/99e71c7b7b92e756b68c80fbf139acdfa5c1f86c180a5a18db871af47c30/kiwisolver-1.3.2-cp37-cp37m-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-    "sha256": "19554bd8d54cf41139f376753af1a644b63c9ca93f8f72009d50a2080f870f77",
-    "url": "https://files.pythonhosted.org/packages/9a/b6/ce008cbc2770c1986ad07062afbd52f6fba819aa227203fa55d9cb43364f/kiwisolver-1.3.2-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-cp37-cp37m-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl",
-    "sha256": "a7a4cf5bbdc861987a7745aed7a536c6405256853c94abc9f3287c3fa401b174",
-    "url": "https://files.pythonhosted.org/packages/ff/23/199159cfca465e33ce680c4814812274247c9002c430c447a8a960c9c4ed/kiwisolver-1.3.2-cp37-cp37m-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-cp37-cp37m-manylinux_2_17_s390x.manylinux2014_s390x.whl",
-    "sha256": "0007840186bacfaa0aba4466d5890334ea5938e0bb7e28078a0eb0e63b5b59d5",
-    "url": "https://files.pythonhosted.org/packages/64/6f/c045915d2f96e6196c6eea537d9df472af35687f17a5d199ce0c16e1fe4b/kiwisolver-1.3.2-cp37-cp37m-manylinux_2_17_s390x.manylinux2014_s390x.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-cp37-cp37m-manylinux_2_5_i686.manylinux1_i686.whl",
-    "sha256": "ec2eba188c1906b05b9b49ae55aae4efd8150c61ba450e6721f64620c50b59eb",
-    "url": "https://files.pythonhosted.org/packages/54/8e/e80b95ea330f82cf62f5accde25a253937f823afd05ac54520eb81279ab7/kiwisolver-1.3.2-cp37-cp37m-manylinux_2_5_i686.manylinux1_i686.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl",
-    "sha256": "3dbb3cea20b4af4f49f84cffaf45dd5f88e8594d18568e0225e6ad9dec0e7967",
-    "url": "https://files.pythonhosted.org/packages/09/6b/6e567cb2e86d4e5939a9233f8734e26021b6a9c1bc4b1edccba236a84cc2/kiwisolver-1.3.2-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-cp38-cp38-macosx_10_9_universal2.whl",
-    "sha256": "b5074fb09429f2b7bc82b6fb4be8645dcbac14e592128beeff5461dcde0af09f",
-    "url": "https://files.pythonhosted.org/packages/b1/44/5e87875d38fec7bf66a3f3e1687b00ce2d2335afd520c7fa409f770b2be8/kiwisolver-1.3.2-cp38-cp38-macosx_10_9_universal2.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-cp38-cp38-macosx_10_9_x86_64.whl",
-    "sha256": "22521219ca739654a296eea6d4367703558fba16f98688bd8ce65abff36eaa84",
-    "url": "https://files.pythonhosted.org/packages/66/73/fa9d7025654c87d223b8be880975956093baaf55e5935637573283d3abc4/kiwisolver-1.3.2-cp38-cp38-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-cp38-cp38-macosx_11_0_arm64.whl",
-    "sha256": "c358721aebd40c243894298f685a19eb0491a5c3e0b923b9f887ef1193ddf829",
-    "url": "https://files.pythonhosted.org/packages/b9/87/812ac51bba59f4d50d64e9c56a3c965259677b1baf9cb1e95c060fd24e3a/kiwisolver-1.3.2-cp38-cp38-macosx_11_0_arm64.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-    "sha256": "7ba5a1041480c6e0a8b11a9544d53562abc2d19220bfa14133e0cdd9967e97af",
-    "url": "https://files.pythonhosted.org/packages/43/09/a92a5ce32e654e5469a3e5f55a92d350815d81108e91178c914bd174f58b/kiwisolver-1.3.2-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-cp38-cp38-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl",
-    "sha256": "44e6adf67577dbdfa2d9f06db9fbc5639afefdb5bf2b4dfec25c3a7fbc619536",
-    "url": "https://files.pythonhosted.org/packages/ff/8d/6c8481813b2f097306835393fdcb3f9fc03cb3b87e30811af11328e39ccb/kiwisolver-1.3.2-cp38-cp38-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-cp38-cp38-manylinux_2_17_s390x.manylinux2014_s390x.whl",
-    "sha256": "1d45d1c74f88b9f41062716c727f78f2a59a5476ecbe74956fafb423c5c87a76",
-    "url": "https://files.pythonhosted.org/packages/02/fc/f6b4eba485cce2b95349c29f08f7d11bcd4975d56a2414c1eb3e98c56b63/kiwisolver-1.3.2-cp38-cp38-manylinux_2_17_s390x.manylinux2014_s390x.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.whl",
-    "sha256": "70adc3658138bc77a36ce769f5f183169bc0a2906a4f61f09673f7181255ac9b",
-    "url": "https://files.pythonhosted.org/packages/62/7c/dfdae2023fe95d7ac5638002fcd99420406529113f7904bc118176470a2e/kiwisolver-1.3.2-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl",
-    "sha256": "b6a5431940f28b6de123de42f0eb47b84a073ee3c3345dc109ad550a3307dd28",
-    "url": "https://files.pythonhosted.org/packages/d0/2c/c3cba6c1ec54c82bfc56204c712dd2e9b069e2590f78a18841dafbdf2ced/kiwisolver-1.3.2-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-cp39-cp39-macosx_10_9_universal2.whl",
-    "sha256": "a498bcd005e8a3fedd0022bb30ee0ad92728154a8798b703f394484452550507",
-    "url": "https://files.pythonhosted.org/packages/86/3a/52a9163717351c20f35ea57552da06e7d82250d0eb8c34c03894066b067c/kiwisolver-1.3.2-cp39-cp39-macosx_10_9_universal2.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-cp39-cp39-macosx_10_9_x86_64.whl",
-    "sha256": "80efd202108c3a4150e042b269f7c78643420cc232a0a771743bb96b742f838f",
-    "url": "https://files.pythonhosted.org/packages/17/99/40638eab98b3e3970ad2aec0715e13bf38497b4ee5dd74d14ba622bbe342/kiwisolver-1.3.2-cp39-cp39-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-cp39-cp39-macosx_11_0_arm64.whl",
-    "sha256": "f8eb7b6716f5b50e9c06207a14172cf2de201e41912ebe732846c02c830455b9",
-    "url": "https://files.pythonhosted.org/packages/02/a3/bff9e7368355d3d03259c02a29eeec9455ea9aef44b55bc311eea4646fce/kiwisolver-1.3.2-cp39-cp39-macosx_11_0_arm64.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-cp39-cp39-manylinux_2_12_i686.manylinux2010_i686.whl",
-    "sha256": "f441422bb313ab25de7b3dbfd388e790eceb76ce01a18199ec4944b369017009",
-    "url": "https://files.pythonhosted.org/packages/4a/59/4c4fe1be642b3fe31f50b51b77c0368c22336781c0fe218ff7d75419ec48/kiwisolver-1.3.2-cp39-cp39-manylinux_2_12_i686.manylinux2010_i686.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
-    "sha256": "30fa008c172355c7768159983a7270cb23838c4d7db73d6c0f6b60dde0d432c6",
-    "url": "https://files.pythonhosted.org/packages/1f/99/58fe27c8e4a3de823f9fc28ab2c415347efc4139f1c85cac65a008007210/kiwisolver-1.3.2-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-    "sha256": "2f8f6c8f4f1cff93ca5058d6ec5f0efda922ecb3f4c5fb76181f327decff98b8",
-    "url": "https://files.pythonhosted.org/packages/03/3c/0d52f63c80869311bdf555f4abfe793b2c514ae822edb833f2fe31a42ac0/kiwisolver-1.3.2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl",
-    "sha256": "ba677bcaff9429fd1bf01648ad0901cea56c0d068df383d5f5856d88221fe75b",
-    "url": "https://files.pythonhosted.org/packages/95/14/1d1270da411c05f9be4caac405123fc920f460b8b9cf8205d10eb59eddde/kiwisolver-1.3.2-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-cp39-cp39-manylinux_2_17_s390x.manylinux2014_s390x.whl",
-    "sha256": "7843b1624d6ccca403a610d1277f7c28ad184c5aa88a1750c1a999754e65b439",
-    "url": "https://files.pythonhosted.org/packages/cb/03/cec2a895984f27007e31803aef824ac80bd5fb658779df8b9eb96698d2e0/kiwisolver-1.3.2-cp39-cp39-manylinux_2_17_s390x.manylinux2014_s390x.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-pp37-pypy37_pp73-macosx_10_9_x86_64.whl",
-    "sha256": "dedc71c8eb9c5096037766390172c34fb86ef048b8e8958b4e484b9e505d66bc",
-    "url": "https://files.pythonhosted.org/packages/a8/50/d1ea98283f699c91a8daea3c3a7818fc7b0d378ff2d976e057705dc0178a/kiwisolver-1.3.2-pp37-pypy37_pp73-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-pp37-pypy37_pp73-manylinux_2_12_i686.manylinux2010_i686.whl",
-    "sha256": "bf7eb45d14fc036514c09554bf983f2a72323254912ed0c3c8e697b62c4c158f",
-    "url": "https://files.pythonhosted.org/packages/97/52/6bc81dd6e27233f3da51afad02aa0f9176546022c9033ceeee758829dfa2/kiwisolver-1.3.2-pp37-pypy37_pp73-manylinux_2_12_i686.manylinux2010_i686.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-pp37-pypy37_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
-    "sha256": "2b65bd35f3e06a47b5c30ea99e0c2b88f72c6476eedaf8cfbc8e66adb5479dcf",
-    "url": "https://files.pythonhosted.org/packages/b7/1f/6b7e4a51e5860a3da0c7aa599ce220c008446a5b86f89c4c1c7131cd11a7/kiwisolver-1.3.2-pp37-pypy37_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2-pp37-pypy37_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-    "sha256": "25405f88a37c5f5bcba01c6e350086d65e7465fd1caaf986333d2a045045a223",
-    "url": "https://files.pythonhosted.org/packages/14/72/99464218d9ddda7200e86c9015ef1992dac76d264cae51ea2255c06aa61d/kiwisolver-1.3.2-pp37-pypy37_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "kiwisolver-1.3.2.tar.gz",
-    "sha256": "fc4453705b81d03568d5b808ad8f09c77c47534f6ac2e72e733f9ca4714aa75c",
-    "url": "https://files.pythonhosted.org/packages/8e/87/259fde8cf07d06677f0a749cb157d079ebd00d40fe52faaab1a882a66159/kiwisolver-1.3.2.tar.gz"
-  }
-]
+{
+  "kiwisolver-1.3.2-cp310-cp310-macosx_10_9_universal2.whl": "1d819553730d3c2724582124aee8a03c846ec4362ded1034c16fb3ef309264e6",
+  "kiwisolver-1.3.2-cp310-cp310-macosx_10_9_x86_64.whl": "8d93a1095f83e908fc253f2fb569c2711414c0bfd451cab580466465b235b470",
+  "kiwisolver-1.3.2-cp310-cp310-macosx_11_0_arm64.whl": "c4550a359c5157aaf8507e6820d98682872b9100ce7607f8aa070b4b8af6c298",
+  "kiwisolver-1.3.2-cp310-cp310-manylinux_2_12_i686.manylinux2010_i686.whl": "2210f28778c7d2ee13f3c2a20a3a22db889e75f4ec13a21072eabb5693801e84",
+  "kiwisolver-1.3.2-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "82f49c5a79d3839bc8f38cb5f4bfc87e15f04cbafa5fbd12fb32c941cb529cfb",
+  "kiwisolver-1.3.2-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "9661a04ca3c950a8ac8c47f53cbc0b530bce1b52f516a1e87b7736fec24bfff0",
+  "kiwisolver-1.3.2-cp310-cp310-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl": "2ddb500a2808c100e72c075cbb00bf32e62763c82b6a882d403f01a119e3f402",
+  "kiwisolver-1.3.2-cp310-cp310-manylinux_2_17_s390x.manylinux2014_s390x.whl": "72be6ebb4e92520b9726d7146bc9c9b277513a57a38efcf66db0620aec0097e0",
+  "kiwisolver-1.3.2-cp37-cp37m-macosx_10_9_x86_64.whl": "4116ba9a58109ed5e4cb315bdcbff9838f3159d099ba5259c7c7fb77f8537492",
+  "kiwisolver-1.3.2-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "19554bd8d54cf41139f376753af1a644b63c9ca93f8f72009d50a2080f870f77",
+  "kiwisolver-1.3.2-cp37-cp37m-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl": "a7a4cf5bbdc861987a7745aed7a536c6405256853c94abc9f3287c3fa401b174",
+  "kiwisolver-1.3.2-cp37-cp37m-manylinux_2_17_s390x.manylinux2014_s390x.whl": "0007840186bacfaa0aba4466d5890334ea5938e0bb7e28078a0eb0e63b5b59d5",
+  "kiwisolver-1.3.2-cp37-cp37m-manylinux_2_5_i686.manylinux1_i686.whl": "ec2eba188c1906b05b9b49ae55aae4efd8150c61ba450e6721f64620c50b59eb",
+  "kiwisolver-1.3.2-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl": "3dbb3cea20b4af4f49f84cffaf45dd5f88e8594d18568e0225e6ad9dec0e7967",
+  "kiwisolver-1.3.2-cp38-cp38-macosx_10_9_universal2.whl": "b5074fb09429f2b7bc82b6fb4be8645dcbac14e592128beeff5461dcde0af09f",
+  "kiwisolver-1.3.2-cp38-cp38-macosx_10_9_x86_64.whl": "22521219ca739654a296eea6d4367703558fba16f98688bd8ce65abff36eaa84",
+  "kiwisolver-1.3.2-cp38-cp38-macosx_11_0_arm64.whl": "c358721aebd40c243894298f685a19eb0491a5c3e0b923b9f887ef1193ddf829",
+  "kiwisolver-1.3.2-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "7ba5a1041480c6e0a8b11a9544d53562abc2d19220bfa14133e0cdd9967e97af",
+  "kiwisolver-1.3.2-cp38-cp38-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl": "44e6adf67577dbdfa2d9f06db9fbc5639afefdb5bf2b4dfec25c3a7fbc619536",
+  "kiwisolver-1.3.2-cp38-cp38-manylinux_2_17_s390x.manylinux2014_s390x.whl": "1d45d1c74f88b9f41062716c727f78f2a59a5476ecbe74956fafb423c5c87a76",
+  "kiwisolver-1.3.2-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.whl": "70adc3658138bc77a36ce769f5f183169bc0a2906a4f61f09673f7181255ac9b",
+  "kiwisolver-1.3.2-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl": "b6a5431940f28b6de123de42f0eb47b84a073ee3c3345dc109ad550a3307dd28",
+  "kiwisolver-1.3.2-cp39-cp39-macosx_10_9_universal2.whl": "a498bcd005e8a3fedd0022bb30ee0ad92728154a8798b703f394484452550507",
+  "kiwisolver-1.3.2-cp39-cp39-macosx_10_9_x86_64.whl": "80efd202108c3a4150e042b269f7c78643420cc232a0a771743bb96b742f838f",
+  "kiwisolver-1.3.2-cp39-cp39-macosx_11_0_arm64.whl": "f8eb7b6716f5b50e9c06207a14172cf2de201e41912ebe732846c02c830455b9",
+  "kiwisolver-1.3.2-cp39-cp39-manylinux_2_12_i686.manylinux2010_i686.whl": "f441422bb313ab25de7b3dbfd388e790eceb76ce01a18199ec4944b369017009",
+  "kiwisolver-1.3.2-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "30fa008c172355c7768159983a7270cb23838c4d7db73d6c0f6b60dde0d432c6",
+  "kiwisolver-1.3.2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "2f8f6c8f4f1cff93ca5058d6ec5f0efda922ecb3f4c5fb76181f327decff98b8",
+  "kiwisolver-1.3.2-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl": "ba677bcaff9429fd1bf01648ad0901cea56c0d068df383d5f5856d88221fe75b",
+  "kiwisolver-1.3.2-cp39-cp39-manylinux_2_17_s390x.manylinux2014_s390x.whl": "7843b1624d6ccca403a610d1277f7c28ad184c5aa88a1750c1a999754e65b439",
+  "kiwisolver-1.3.2-pp37-pypy37_pp73-macosx_10_9_x86_64.whl": "dedc71c8eb9c5096037766390172c34fb86ef048b8e8958b4e484b9e505d66bc",
+  "kiwisolver-1.3.2-pp37-pypy37_pp73-manylinux_2_12_i686.manylinux2010_i686.whl": "bf7eb45d14fc036514c09554bf983f2a72323254912ed0c3c8e697b62c4c158f",
+  "kiwisolver-1.3.2-pp37-pypy37_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "2b65bd35f3e06a47b5c30ea99e0c2b88f72c6476eedaf8cfbc8e66adb5479dcf",
+  "kiwisolver-1.3.2-pp37-pypy37_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "25405f88a37c5f5bcba01c6e350086d65e7465fd1caaf986333d2a045045a223",
+  "kiwisolver-1.3.2.tar.gz": "fc4453705b81d03568d5b808ad8f09c77c47534f6ac2e72e733f9ca4714aa75c"
+}

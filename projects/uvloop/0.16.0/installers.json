@@ -1,82 +1,18 @@
-[
-  {
-    "name": "uvloop-0.16.0-cp310-cp310-macosx_10_9_universal2.whl",
-    "sha256": "6224f1401025b748ffecb7a6e2652b17768f30b1a6a3f7b44660e5b5b690b12d",
-    "url": "https://files.pythonhosted.org/packages/2a/07/75074f9789d5f8811bc77230a84ddbb7586e555e84f59d75d2968ef5c4a0/uvloop-0.16.0-cp310-cp310-macosx_10_9_universal2.whl"
-  },
-  {
-    "name": "uvloop-0.16.0-cp310-cp310-macosx_10_9_x86_64.whl",
-    "sha256": "30ba9dcbd0965f5c812b7c2112a1ddf60cf904c1c160f398e7eed3a6b82dcd9c",
-    "url": "https://files.pythonhosted.org/packages/da/ea/56fecce56844e308b6ff3c5b55a372a6a4da2c6fe8ee35a272459f534d9c/uvloop-0.16.0-cp310-cp310-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "uvloop-0.16.0-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
-    "sha256": "bd53f7f5db562f37cd64a3af5012df8cac2c464c97e732ed556800129505bd64",
-    "url": "https://files.pythonhosted.org/packages/b9/00/14dffb56943092c2b5821d288dc23ff36dff9ad3b8aad3547c71b171cf3b/uvloop-0.16.0-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "uvloop-0.16.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-    "sha256": "772206116b9b57cd625c8a88f2413df2fcfd0b496eb188b82a43bed7af2c2ec9",
-    "url": "https://files.pythonhosted.org/packages/12/1c/4c270b22f68a75bedf795aadc40370c4ff9e910a5e1aff327c24aaae6a99/uvloop-0.16.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "uvloop-0.16.0-cp37-cp37m-macosx_10_9_x86_64.whl",
-    "sha256": "b572256409f194521a9895aef274cea88731d14732343da3ecdb175228881638",
-    "url": "https://files.pythonhosted.org/packages/19/27/87739cae95fea0ebcd65f1ea3d2925cb290582cb7fcd5d7456ee865a720a/uvloop-0.16.0-cp37-cp37m-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "uvloop-0.16.0-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
-    "sha256": "04ff57aa137230d8cc968f03481176041ae789308b4d5079118331ab01112450",
-    "url": "https://files.pythonhosted.org/packages/50/38/2a0825302b207ff694cb501f7868330d004eeb6ee70470c52c00c2d4e6d2/uvloop-0.16.0-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "uvloop-0.16.0-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-    "sha256": "3a19828c4f15687675ea912cc28bbcb48e9bb907c801873bd1519b96b04fb805",
-    "url": "https://files.pythonhosted.org/packages/7e/16/68cfbc192b0189a950bd385288b3f566d1cc81615c4d3912623d28295fde/uvloop-0.16.0-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "uvloop-0.16.0-cp38-cp38-macosx_10_9_universal2.whl",
-    "sha256": "e814ac2c6f9daf4c36eb8e85266859f42174a4ff0d71b99405ed559257750382",
-    "url": "https://files.pythonhosted.org/packages/30/85/5d96af493078e85f5b268eaba4d9670afe45f28af2933b8cb463e0586f29/uvloop-0.16.0-cp38-cp38-macosx_10_9_universal2.whl"
-  },
-  {
-    "name": "uvloop-0.16.0-cp38-cp38-macosx_10_9_x86_64.whl",
-    "sha256": "bd8f42ea1ea8f4e84d265769089964ddda95eb2bb38b5cbe26712b0616c3edee",
-    "url": "https://files.pythonhosted.org/packages/74/5d/8d43cca0ef537ebd4fda74519a8e3b61e799b7fa8ae938b1b23116fe3dd9/uvloop-0.16.0-cp38-cp38-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "uvloop-0.16.0-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
-    "sha256": "647e481940379eebd314c00440314c81ea547aa636056f554d491e40503c8464",
-    "url": "https://files.pythonhosted.org/packages/7d/61/e7003a75c758632e2e72f4dd76e7b3580e680a0fb764e1129515f3f143c6/uvloop-0.16.0-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "uvloop-0.16.0-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-    "sha256": "8e0d26fa5875d43ddbb0d9d79a447d2ace4180d9e3239788208527c4784f7cab",
-    "url": "https://files.pythonhosted.org/packages/89/bf/fcd4adf745fa35bd930c4af3e374ffac3a3d0d674992e8167abe21361316/uvloop-0.16.0-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "uvloop-0.16.0-cp39-cp39-macosx_10_9_universal2.whl",
-    "sha256": "6ccd57ae8db17d677e9e06192e9c9ec4bd2066b77790f9aa7dede2cc4008ee8f",
-    "url": "https://files.pythonhosted.org/packages/a2/22/2fba0652a03bac8c38201d5832aaba8d47e6e8dd4e2d05c9746571927ebb/uvloop-0.16.0-cp39-cp39-macosx_10_9_universal2.whl"
-  },
-  {
-    "name": "uvloop-0.16.0-cp39-cp39-macosx_10_9_x86_64.whl",
-    "sha256": "089b4834fd299d82d83a25e3335372f12117a7d38525217c2258e9b9f4578897",
-    "url": "https://files.pythonhosted.org/packages/bd/cc/d682d7156873e080587ae1b749976ab674d490b3d43f03414707126a9a4c/uvloop-0.16.0-cp39-cp39-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "uvloop-0.16.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
-    "sha256": "98d117332cc9e5ea8dfdc2b28b0a23f60370d02e1395f88f40d1effd2cb86c4f",
-    "url": "https://files.pythonhosted.org/packages/d5/a4/bf2554658b97ae17d0b0cc62a51b2425c4de9526a76638ab39dff12f1c05/uvloop-0.16.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "uvloop-0.16.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-    "sha256": "1e5f2e2ff51aefe6c19ee98af12b4ae61f5be456cd24396953244a30880ad861",
-    "url": "https://files.pythonhosted.org/packages/cb/c8/98fa2d230835fe529e362301e5a852d0413e606ed790af9d96212086ace1/uvloop-0.16.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "uvloop-0.16.0.tar.gz",
-    "sha256": "f74bc20c7b67d1c27c72601c78cf95be99d5c2cdd4514502b4f3eb0933ff1228",
-    "url": "https://files.pythonhosted.org/packages/ab/d9/22bbffa8f8d7e075ccdb29e8134107adfb4710feb10039f9d357db8b589c/uvloop-0.16.0.tar.gz"
-  }
-]
+{
+  "uvloop-0.16.0-cp310-cp310-macosx_10_9_universal2.whl": "6224f1401025b748ffecb7a6e2652b17768f30b1a6a3f7b44660e5b5b690b12d",
+  "uvloop-0.16.0-cp310-cp310-macosx_10_9_x86_64.whl": "30ba9dcbd0965f5c812b7c2112a1ddf60cf904c1c160f398e7eed3a6b82dcd9c",
+  "uvloop-0.16.0-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "bd53f7f5db562f37cd64a3af5012df8cac2c464c97e732ed556800129505bd64",
+  "uvloop-0.16.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "772206116b9b57cd625c8a88f2413df2fcfd0b496eb188b82a43bed7af2c2ec9",
+  "uvloop-0.16.0-cp37-cp37m-macosx_10_9_x86_64.whl": "b572256409f194521a9895aef274cea88731d14732343da3ecdb175228881638",
+  "uvloop-0.16.0-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "04ff57aa137230d8cc968f03481176041ae789308b4d5079118331ab01112450",
+  "uvloop-0.16.0-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "3a19828c4f15687675ea912cc28bbcb48e9bb907c801873bd1519b96b04fb805",
+  "uvloop-0.16.0-cp38-cp38-macosx_10_9_universal2.whl": "e814ac2c6f9daf4c36eb8e85266859f42174a4ff0d71b99405ed559257750382",
+  "uvloop-0.16.0-cp38-cp38-macosx_10_9_x86_64.whl": "bd8f42ea1ea8f4e84d265769089964ddda95eb2bb38b5cbe26712b0616c3edee",
+  "uvloop-0.16.0-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "647e481940379eebd314c00440314c81ea547aa636056f554d491e40503c8464",
+  "uvloop-0.16.0-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "8e0d26fa5875d43ddbb0d9d79a447d2ace4180d9e3239788208527c4784f7cab",
+  "uvloop-0.16.0-cp39-cp39-macosx_10_9_universal2.whl": "6ccd57ae8db17d677e9e06192e9c9ec4bd2066b77790f9aa7dede2cc4008ee8f",
+  "uvloop-0.16.0-cp39-cp39-macosx_10_9_x86_64.whl": "089b4834fd299d82d83a25e3335372f12117a7d38525217c2258e9b9f4578897",
+  "uvloop-0.16.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "98d117332cc9e5ea8dfdc2b28b0a23f60370d02e1395f88f40d1effd2cb86c4f",
+  "uvloop-0.16.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "1e5f2e2ff51aefe6c19ee98af12b4ae61f5be456cd24396953244a30880ad861",
+  "uvloop-0.16.0.tar.gz": "f74bc20c7b67d1c27c72601c78cf95be99d5c2cdd4514502b4f3eb0933ff1228"
+}

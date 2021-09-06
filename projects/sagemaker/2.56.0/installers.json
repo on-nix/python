@@ -1,7 +1,3 @@
-[
-  {
-    "name": "sagemaker-2.56.0.tar.gz",
-    "sha256": "049699dce6a5c5bab9cd9597985d8a722cb1495ef8af63553cd988c5cce58a1d",
-    "url": "https://files.pythonhosted.org/packages/93/74/8522701424ca84c74cff10e982d5661b606b6e76991278f4ce169aace37c/sagemaker-2.56.0.tar.gz"
-  }
-]
+{
+  "sagemaker-2.56.0.tar.gz": "049699dce6a5c5bab9cd9597985d8a722cb1495ef8af63553cd988c5cce58a1d"
+}

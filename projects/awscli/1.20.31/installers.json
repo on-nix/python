@@ -1,12 +1,4 @@
-[
-  {
-    "name": "awscli-1.20.31-py3-none-any.whl",
-    "sha256": "753ed744c7d600523367164af4df2c019cfc7607d3048153bfe9e14da954af0c",
-    "url": "https://files.pythonhosted.org/packages/af/45/a56e17128020c92c0b892898eea4ef3923057ef2ca3cde8bdad17a9087e2/awscli-1.20.31-py3-none-any.whl"
-  },
-  {
-    "name": "awscli-1.20.31.tar.gz",
-    "sha256": "a832a7c61e0cf8b397629d710af5b44b4204e4d9f0bc5a587a55020a3035f334",
-    "url": "https://files.pythonhosted.org/packages/61/6b/efd939cc8b6d22af3285a51c64451e8f235d54aab5bffee16f5dea106f2f/awscli-1.20.31.tar.gz"
-  }
-]
+{
+  "awscli-1.20.31-py3-none-any.whl": "753ed744c7d600523367164af4df2c019cfc7607d3048153bfe9e14da954af0c",
+  "awscli-1.20.31.tar.gz": "a832a7c61e0cf8b397629d710af5b44b4204e4d9f0bc5a587a55020a3035f334"
+}

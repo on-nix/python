@@ -1,12 +1,4 @@
-[
-  {
-    "name": "absl_py-0.13.0-py3-none-any.whl",
-    "sha256": "62bd4e248ddb19d81aec8f9446b407ff37c8175c2ba88266a7afa9b4ce4a333b",
-    "url": "https://files.pythonhosted.org/packages/23/47/835652c7e19530973c73c65e652fc53bd05725d5a7cf9bb8706777869c1e/absl_py-0.13.0-py3-none-any.whl"
-  },
-  {
-    "name": "absl-py-0.13.0.tar.gz",
-    "sha256": "6953272383486044699fd0e9f00aad167a27e08ce19aae66c6c4b10e7e767793",
-    "url": "https://files.pythonhosted.org/packages/75/c6/ea1b86d2e7068e77f5204f8280edb2434596c1bad59fe03564f3d11d5caf/absl-py-0.13.0.tar.gz"
-  }
-]
+{
+  "absl-py-0.13.0.tar.gz": "6953272383486044699fd0e9f00aad167a27e08ce19aae66c6c4b10e7e767793",
+  "absl_py-0.13.0-py3-none-any.whl": "62bd4e248ddb19d81aec8f9446b407ff37c8175c2ba88266a7afa9b4ce4a333b"
+}

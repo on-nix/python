@@ -1,7 +1,3 @@
-[
-  {
-    "name": "aiobotocore-1.4.1.tar.gz",
-    "sha256": "09f06723d1d69c6d407d9a356ca65ab42a5b7b73a45be4b1ed0ed1a6b6057a9f",
-    "url": "https://files.pythonhosted.org/packages/07/60/64d666c149d7087d619c1eef8c23bece6068a61fa3c4c033c7f4f2e6452d/aiobotocore-1.4.1.tar.gz"
-  }
-]
+{
+  "aiobotocore-1.4.1.tar.gz": "09f06723d1d69c6d407d9a356ca65ab42a5b7b73a45be4b1ed0ed1a6b6057a9f"
+}

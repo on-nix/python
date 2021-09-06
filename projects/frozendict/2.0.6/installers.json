@@ -1,12 +1,4 @@
-[
-  {
-    "name": "frozendict-2.0.6-py3-none-any.whl",
-    "sha256": "5d3f75832c35d4df041f0e19c268964cbef29c1eb34cd3517cf883f1c2d089b9",
-    "url": "https://files.pythonhosted.org/packages/de/8f/9b4e1a11a9b7a78be34884252433ec901118eed64d01a9ef400d7612d879/frozendict-2.0.6-py3-none-any.whl"
-  },
-  {
-    "name": "frozendict-2.0.6.tar.gz",
-    "sha256": "3f00de72805cf4c9e81b334f3f04809278b967d2fed84552313a0fcce511beb1",
-    "url": "https://files.pythonhosted.org/packages/5d/3f/ca9b1077593d30375580d675d7c38333259c6ed49b75cbe873a4cf0a3058/frozendict-2.0.6.tar.gz"
-  }
-]
+{
+  "frozendict-2.0.6-py3-none-any.whl": "5d3f75832c35d4df041f0e19c268964cbef29c1eb34cd3517cf883f1c2d089b9",
+  "frozendict-2.0.6.tar.gz": "3f00de72805cf4c9e81b334f3f04809278b967d2fed84552313a0fcce511beb1"
+}

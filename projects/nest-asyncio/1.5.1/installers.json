@@ -1,12 +1,4 @@
-[
-  {
-    "name": "nest_asyncio-1.5.1-py3-none-any.whl",
-    "sha256": "76d6e972265063fe92a90b9cc4fb82616e07d586b346ed9d2c89a4187acea39c",
-    "url": "https://files.pythonhosted.org/packages/52/e2/9b37da54e6e9094d2f558ae643d1954a0fa8215dfee4fa261f31c5439796/nest_asyncio-1.5.1-py3-none-any.whl"
-  },
-  {
-    "name": "nest_asyncio-1.5.1.tar.gz",
-    "sha256": "afc5a1c515210a23c461932765691ad39e8eba6551c055ac8d5546e69250d0aa",
-    "url": "https://files.pythonhosted.org/packages/ad/82/2fdf6a92eed4ddf5e9d9a735d019af1ef3a56f084d9549972b2527a43a48/nest_asyncio-1.5.1.tar.gz"
-  }
-]
+{
+  "nest_asyncio-1.5.1-py3-none-any.whl": "76d6e972265063fe92a90b9cc4fb82616e07d586b346ed9d2c89a4187acea39c",
+  "nest_asyncio-1.5.1.tar.gz": "afc5a1c515210a23c461932765691ad39e8eba6551c055ac8d5546e69250d0aa"
+}

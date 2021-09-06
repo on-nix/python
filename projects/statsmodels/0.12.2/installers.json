@@ -1,67 +1,15 @@
-[
-  {
-    "name": "statsmodels-0.12.2-cp36-cp36m-macosx_10_15_x86_64.whl",
-    "sha256": "c1d98ce2072f5e772cbf91d05475490368da5d3ee4a3150062330c7b83221ceb",
-    "url": "https://files.pythonhosted.org/packages/b9/83/de126d77143f279059f04fcfe1104d996cf6cb18f5ce77aba86f2391e71a/statsmodels-0.12.2-cp36-cp36m-macosx_10_15_x86_64.whl"
-  },
-  {
-    "name": "statsmodels-0.12.2-cp36-cp36m-manylinux1_i686.whl",
-    "sha256": "4184487e9c281acad3d0bda19445c69db292f0dbb18f25ebf56a7966a0a28eef",
-    "url": "https://files.pythonhosted.org/packages/61/7d/e2804cebbd048fd623d8f726f873ff14e31c5295e3a032c0b6c48af04fb5/statsmodels-0.12.2-cp36-cp36m-manylinux1_i686.whl"
-  },
-  {
-    "name": "statsmodels-0.12.2-cp36-cp36m-manylinux1_x86_64.whl",
-    "sha256": "37e107fa11299090ed90f93c7172162b850c28fd09999937b971926813e887c5",
-    "url": "https://files.pythonhosted.org/packages/0d/7b/c17815648dc31396af865b9c6627cc3f95705954e30f61106795361c39ee/statsmodels-0.12.2-cp36-cp36m-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "statsmodels-0.12.2-cp37-cp37m-macosx_10_15_x86_64.whl",
-    "sha256": "c48b7cbb37a651bb1cd23614abc10f447845ad3c3a713bf74e2aad20cfc94ae7",
-    "url": "https://files.pythonhosted.org/packages/10/f1/f8ab01ef6319fa24441e565ee767e1be328eea7eee5ce65b0427c69a983c/statsmodels-0.12.2-cp37-cp37m-macosx_10_15_x86_64.whl"
-  },
-  {
-    "name": "statsmodels-0.12.2-cp37-cp37m-manylinux1_i686.whl",
-    "sha256": "a3bd3922463dda8ad33e5e5075d2080e9e012aeb2032b5cdaeea9b79c2472000",
-    "url": "https://files.pythonhosted.org/packages/4f/ac/15ab8e589630d1fe803f7729e7abb9632db399ea5640309e2ad9eb676189/statsmodels-0.12.2-cp37-cp37m-manylinux1_i686.whl"
-  },
-  {
-    "name": "statsmodels-0.12.2-cp37-cp37m-manylinux1_x86_64.whl",
-    "sha256": "43de84bc08c8b9f778502aed7a476d6e68674e6878718e533b07d569cf0927a9",
-    "url": "https://files.pythonhosted.org/packages/da/69/8eef30a6237c54f3c0b524140e2975f4b1eea3489b45eb3339574fc8acee/statsmodels-0.12.2-cp37-cp37m-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "statsmodels-0.12.2-cp38-cp38-macosx_10_15_x86_64.whl",
-    "sha256": "3e94306d4c07e332532ea4911d1f1d1f661c79aa73f22c5bb22e6dd47b40d562",
-    "url": "https://files.pythonhosted.org/packages/a0/01/f421e69001f1bc06788f61b3dc894338443bac80ac20333debc2d53a41f8/statsmodels-0.12.2-cp38-cp38-macosx_10_15_x86_64.whl"
-  },
-  {
-    "name": "statsmodels-0.12.2-cp38-cp38-manylinux1_i686.whl",
-    "sha256": "f3a7622f3d0ce2fc204f43b74de4e03e42775609705bf94d656b730482ca935a",
-    "url": "https://files.pythonhosted.org/packages/55/a3/6c575dd65f0dbb8ee7cc837c27e2c5d40b1dd64c0c2bb38cc48ab39ba3c5/statsmodels-0.12.2-cp38-cp38-manylinux1_i686.whl"
-  },
-  {
-    "name": "statsmodels-0.12.2-cp38-cp38-manylinux1_x86_64.whl",
-    "sha256": "587deb788e7f8f3f866d28e812cf5c082b4d4a2d3f5beea94d0e9699ea71ef22",
-    "url": "https://files.pythonhosted.org/packages/bc/75/95096c520c34169244e5a3b488e282acae2c2aece99909d57dee45360c82/statsmodels-0.12.2-cp38-cp38-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "statsmodels-0.12.2-cp39-cp39-macosx_10_15_x86_64.whl",
-    "sha256": "c3782ce846a52862ac72f89d22b6b1ca13d877bc593872309228a6f05d934321",
-    "url": "https://files.pythonhosted.org/packages/df/79/089b42593d027f7b9b78f46db652dcfee0bdbd0aed94b5290408f73ba5ad/statsmodels-0.12.2-cp39-cp39-macosx_10_15_x86_64.whl"
-  },
-  {
-    "name": "statsmodels-0.12.2-cp39-cp39-manylinux1_i686.whl",
-    "sha256": "8f93cb3f7d87c1fc7e51b3b239371c25a17a0a8e782467fdf4788cfef600724a",
-    "url": "https://files.pythonhosted.org/packages/70/3c/375320271b5c30305d5148798f2086a9f9b4fa3334006af43012fea228ae/statsmodels-0.12.2-cp39-cp39-manylinux1_i686.whl"
-  },
-  {
-    "name": "statsmodels-0.12.2-cp39-cp39-manylinux1_x86_64.whl",
-    "sha256": "f61f33f64760a22100b6b146217823f73cfedd251c9bdbd58453ca94e63326c7",
-    "url": "https://files.pythonhosted.org/packages/c8/62/d77baf956f6d18ec56c5d3d9b61fa9c0e496c181e12b4962ab9ac4d4cb01/statsmodels-0.12.2-cp39-cp39-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "statsmodels-0.12.2.tar.gz",
-    "sha256": "8ad7a7ae7cdd929095684118e3b05836c0ccb08b6a01fe984159475d174a1b10",
-    "url": "https://files.pythonhosted.org/packages/10/26/0fd61f95667e56fd597ecca715dff3623ed1122b6f895ed2b4dfb54afc04/statsmodels-0.12.2.tar.gz"
-  }
-]
+{
+  "statsmodels-0.12.2-cp36-cp36m-macosx_10_15_x86_64.whl": "c1d98ce2072f5e772cbf91d05475490368da5d3ee4a3150062330c7b83221ceb",
+  "statsmodels-0.12.2-cp36-cp36m-manylinux1_i686.whl": "4184487e9c281acad3d0bda19445c69db292f0dbb18f25ebf56a7966a0a28eef",
+  "statsmodels-0.12.2-cp36-cp36m-manylinux1_x86_64.whl": "37e107fa11299090ed90f93c7172162b850c28fd09999937b971926813e887c5",
+  "statsmodels-0.12.2-cp37-cp37m-macosx_10_15_x86_64.whl": "c48b7cbb37a651bb1cd23614abc10f447845ad3c3a713bf74e2aad20cfc94ae7",
+  "statsmodels-0.12.2-cp37-cp37m-manylinux1_i686.whl": "a3bd3922463dda8ad33e5e5075d2080e9e012aeb2032b5cdaeea9b79c2472000",
+  "statsmodels-0.12.2-cp37-cp37m-manylinux1_x86_64.whl": "43de84bc08c8b9f778502aed7a476d6e68674e6878718e533b07d569cf0927a9",
+  "statsmodels-0.12.2-cp38-cp38-macosx_10_15_x86_64.whl": "3e94306d4c07e332532ea4911d1f1d1f661c79aa73f22c5bb22e6dd47b40d562",
+  "statsmodels-0.12.2-cp38-cp38-manylinux1_i686.whl": "f3a7622f3d0ce2fc204f43b74de4e03e42775609705bf94d656b730482ca935a",
+  "statsmodels-0.12.2-cp38-cp38-manylinux1_x86_64.whl": "587deb788e7f8f3f866d28e812cf5c082b4d4a2d3f5beea94d0e9699ea71ef22",
+  "statsmodels-0.12.2-cp39-cp39-macosx_10_15_x86_64.whl": "c3782ce846a52862ac72f89d22b6b1ca13d877bc593872309228a6f05d934321",
+  "statsmodels-0.12.2-cp39-cp39-manylinux1_i686.whl": "8f93cb3f7d87c1fc7e51b3b239371c25a17a0a8e782467fdf4788cfef600724a",
+  "statsmodels-0.12.2-cp39-cp39-manylinux1_x86_64.whl": "f61f33f64760a22100b6b146217823f73cfedd251c9bdbd58453ca94e63326c7",
+  "statsmodels-0.12.2.tar.gz": "8ad7a7ae7cdd929095684118e3b05836c0ccb08b6a01fe984159475d174a1b10"
+}

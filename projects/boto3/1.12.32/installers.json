@@ -1,12 +1,4 @@
-[
-  {
-    "name": "boto3-1.12.32-py2.py3-none-any.whl",
-    "sha256": "57398de1b5e074e715c866441e69f90c9468959d5743a021d8aeed04fbaa1078",
-    "url": "https://files.pythonhosted.org/packages/2b/4d/d205e9dee3216f163c484171c9bee410fa446fd27d12dd871ec22067a857/boto3-1.12.32-py2.py3-none-any.whl"
-  },
-  {
-    "name": "boto3-1.12.32.tar.gz",
-    "sha256": "60ac1124597231ed36a7320547cd0d16a001bb92333ab30ad20514f77e585225",
-    "url": "https://files.pythonhosted.org/packages/1a/66/14469ec66c7cb3e68e05926f952f66a65828bc5a6f66d6fb91dc4ed1d299/boto3-1.12.32.tar.gz"
-  }
-]
+{
+  "boto3-1.12.32-py2.py3-none-any.whl": "57398de1b5e074e715c866441e69f90c9468959d5743a021d8aeed04fbaa1078",
+  "boto3-1.12.32.tar.gz": "60ac1124597231ed36a7320547cd0d16a001bb92333ab30ad20514f77e585225"
+}

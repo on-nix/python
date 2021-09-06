@@ -1,57 +1,13 @@
-[
-  {
-    "name": "pandas-0.25.3-cp35-cp35m-macosx_10_6_intel.whl",
-    "sha256": "df8864824b1fe488cf778c3650ee59c3a0d8f42e53707de167ba6b4f7d35f133",
-    "url": "https://files.pythonhosted.org/packages/0d/10/42accfcde225dc68f76ed05edd5cb16ebfef64c5b3622218c8913bd6f8cb/pandas-0.25.3-cp35-cp35m-macosx_10_6_intel.whl"
-  },
-  {
-    "name": "pandas-0.25.3-cp35-cp35m-manylinux1_i686.whl",
-    "sha256": "7458c48e3d15b8aaa7d575be60e1e4dd70348efcd9376656b72fecd55c59a4c3",
-    "url": "https://files.pythonhosted.org/packages/c4/60/20c3b9b8a816c7904ff8a4bb1766ae8e0292975e98d7237a1eaa32386cec/pandas-0.25.3-cp35-cp35m-manylinux1_i686.whl"
-  },
-  {
-    "name": "pandas-0.25.3-cp35-cp35m-manylinux1_x86_64.whl",
-    "sha256": "61741f5aeb252f39c3031d11405305b6d10ce663c53bc3112705d7ad66c013d0",
-    "url": "https://files.pythonhosted.org/packages/a9/55/e3f34ad611f703454b951bab6bde9a432f1af92994cebc4d8e0ec0af38c4/pandas-0.25.3-cp35-cp35m-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "pandas-0.25.3-cp36-cp36m-macosx_10_9_x86_64.whl",
-    "sha256": "ee50c2142cdcf41995655d499a157d0a812fce55c97d9aad13bc1eef837ed36c",
-    "url": "https://files.pythonhosted.org/packages/32/37/b0abb12e1e387ec63adfb5c7bb7bcbc05a7e1ae22a3604b03843d7b04e0b/pandas-0.25.3-cp36-cp36m-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "pandas-0.25.3-cp36-cp36m-manylinux1_i686.whl",
-    "sha256": "4545467a637e0e1393f7d05d61dace89689ad6d6f66f267f86fff737b702cce9",
-    "url": "https://files.pythonhosted.org/packages/da/2b/444b662c4f343de29965b79fcd92769e8c5757de354fe743bf9f25dc59b8/pandas-0.25.3-cp36-cp36m-manylinux1_i686.whl"
-  },
-  {
-    "name": "pandas-0.25.3-cp36-cp36m-manylinux1_x86_64.whl",
-    "sha256": "bbe3eb765a0b1e578833d243e2814b60c825b7fdbf4cdfe8e8aae8a08ed56ecf",
-    "url": "https://files.pythonhosted.org/packages/52/3f/f6a428599e0d4497e1595030965b5ba455fd8ade6e977e3c819973c4b41d/pandas-0.25.3-cp36-cp36m-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "pandas-0.25.3-cp37-cp37m-macosx_10_9_x86_64.whl",
-    "sha256": "00dff3a8e337f5ed7ad295d98a31821d3d0fe7792da82d78d7fd79b89c03ea9d",
-    "url": "https://files.pythonhosted.org/packages/16/b5/bab3477466a4d9e705d40829ac65683155e7977acbc07f05b06fabded1be/pandas-0.25.3-cp37-cp37m-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "pandas-0.25.3-cp37-cp37m-manylinux1_x86_64.whl",
-    "sha256": "e45055c30a608076e31a9fcd780a956ed3b1fa20db61561b8d88b79259f526f7",
-    "url": "https://files.pythonhosted.org/packages/63/e0/a1b39cdcb2c391f087a1538bc8a6d62a82d0439693192aef541d7b123769/pandas-0.25.3-cp37-cp37m-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "pandas-0.25.3-cp38-cp38-macosx_10_9_x86_64.whl",
-    "sha256": "9962957a27bfb70ab64103d0a7b42fa59c642fb4ed4cb75d0227b7bb9228535d",
-    "url": "https://files.pythonhosted.org/packages/52/ca/f986280226b62da6ae5474589a369b0d240f9a61a99144a501b45f108883/pandas-0.25.3-cp38-cp38-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "pandas-0.25.3-cp38-cp38-manylinux1_x86_64.whl",
-    "sha256": "78bf638993219311377ce9836b3dc05f627a666d0dbc8cec37c0ff3c9ada673b",
-    "url": "https://files.pythonhosted.org/packages/7b/fd/41698f20fd297cef2dc43a72a8ca42d149eaf7d954f1fb2bd3fc366a658d/pandas-0.25.3-cp38-cp38-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "pandas-0.25.3.tar.gz",
-    "sha256": "52da74df8a9c9a103af0a72c9d5fdc8e0183a90884278db7f386b5692a2220a4",
-    "url": "https://files.pythonhosted.org/packages/b7/93/b544dd08092b457d88e10fc1e0989d9397fd32ca936fdfcbb2584178dd2b/pandas-0.25.3.tar.gz"
-  }
-]
+{
+  "pandas-0.25.3-cp35-cp35m-macosx_10_6_intel.whl": "df8864824b1fe488cf778c3650ee59c3a0d8f42e53707de167ba6b4f7d35f133",
+  "pandas-0.25.3-cp35-cp35m-manylinux1_i686.whl": "7458c48e3d15b8aaa7d575be60e1e4dd70348efcd9376656b72fecd55c59a4c3",
+  "pandas-0.25.3-cp35-cp35m-manylinux1_x86_64.whl": "61741f5aeb252f39c3031d11405305b6d10ce663c53bc3112705d7ad66c013d0",
+  "pandas-0.25.3-cp36-cp36m-macosx_10_9_x86_64.whl": "ee50c2142cdcf41995655d499a157d0a812fce55c97d9aad13bc1eef837ed36c",
+  "pandas-0.25.3-cp36-cp36m-manylinux1_i686.whl": "4545467a637e0e1393f7d05d61dace89689ad6d6f66f267f86fff737b702cce9",
+  "pandas-0.25.3-cp36-cp36m-manylinux1_x86_64.whl": "bbe3eb765a0b1e578833d243e2814b60c825b7fdbf4cdfe8e8aae8a08ed56ecf",
+  "pandas-0.25.3-cp37-cp37m-macosx_10_9_x86_64.whl": "00dff3a8e337f5ed7ad295d98a31821d3d0fe7792da82d78d7fd79b89c03ea9d",
+  "pandas-0.25.3-cp37-cp37m-manylinux1_x86_64.whl": "e45055c30a608076e31a9fcd780a956ed3b1fa20db61561b8d88b79259f526f7",
+  "pandas-0.25.3-cp38-cp38-macosx_10_9_x86_64.whl": "9962957a27bfb70ab64103d0a7b42fa59c642fb4ed4cb75d0227b7bb9228535d",
+  "pandas-0.25.3-cp38-cp38-manylinux1_x86_64.whl": "78bf638993219311377ce9836b3dc05f627a666d0dbc8cec37c0ff3c9ada673b",
+  "pandas-0.25.3.tar.gz": "52da74df8a9c9a103af0a72c9d5fdc8e0183a90884278db7f386b5692a2220a4"
+}

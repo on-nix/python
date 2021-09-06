@@ -1,7 +1,3 @@
-[
-  {
-    "name": "psycopg2-2.9.1.tar.gz",
-    "sha256": "de5303a6f1d0a7a34b9d40e4d3bef684ccc44a49bbe3eb85e3c0bffb4a131b7c",
-    "url": "https://files.pythonhosted.org/packages/aa/8a/7c80e7e44fb1b4277e89bd9ca509aefdd4dd1b2c547c6f293afe9f7ffd04/psycopg2-2.9.1.tar.gz"
-  }
-]
+{
+  "psycopg2-2.9.1.tar.gz": "de5303a6f1d0a7a34b9d40e4d3bef684ccc44a49bbe3eb85e3c0bffb4a131b7c"
+}

@@ -1,12 +1,4 @@
-[
-  {
-    "name": "patsy-0.5.1-py2.py3-none-any.whl",
-    "sha256": "5465be1c0e670c3a965355ec09e9a502bf2c4cbe4875e8528b0221190a8a5d40",
-    "url": "https://files.pythonhosted.org/packages/ea/0c/5f61f1a3d4385d6bf83b83ea495068857ff8dfb89e74824c6e9eb63286d8/patsy-0.5.1-py2.py3-none-any.whl"
-  },
-  {
-    "name": "patsy-0.5.1.tar.gz",
-    "sha256": "f115cec4201e1465cd58b9866b0b0e7b941caafec129869057405bfe5b5e3991",
-    "url": "https://files.pythonhosted.org/packages/49/c7/b971d8685c52512dbaa45bf8d076695432245a9f59509fb20a6c8e4ff69a/patsy-0.5.1.tar.gz"
-  }
-]
+{
+  "patsy-0.5.1-py2.py3-none-any.whl": "5465be1c0e670c3a965355ec09e9a502bf2c4cbe4875e8528b0221190a8a5d40",
+  "patsy-0.5.1.tar.gz": "f115cec4201e1465cd58b9866b0b0e7b941caafec129869057405bfe5b5e3991"
+}

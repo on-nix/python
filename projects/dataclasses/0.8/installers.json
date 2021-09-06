@@ -1,12 +1,4 @@
-[
-  {
-    "name": "dataclasses-0.8-py3-none-any.whl",
-    "sha256": "0201d89fa866f68c8ebd9d08ee6ff50c0b255f8ec63a71c16fda7af82bb887bf",
-    "url": "https://files.pythonhosted.org/packages/fe/ca/75fac5856ab5cfa51bbbcefa250182e50441074fdc3f803f6e76451fab43/dataclasses-0.8-py3-none-any.whl"
-  },
-  {
-    "name": "dataclasses-0.8.tar.gz",
-    "sha256": "8479067f342acf957dc82ec415d355ab5edb7e7646b90dc6e2fd1d96ad084c97",
-    "url": "https://files.pythonhosted.org/packages/1f/12/7919c5d8b9c497f9180db15ea8ead6499812ea8264a6ae18766d93c59fe5/dataclasses-0.8.tar.gz"
-  }
-]
+{
+  "dataclasses-0.8-py3-none-any.whl": "0201d89fa866f68c8ebd9d08ee6ff50c0b255f8ec63a71c16fda7af82bb887bf",
+  "dataclasses-0.8.tar.gz": "8479067f342acf957dc82ec415d355ab5edb7e7646b90dc6e2fd1d96ad084c97"
+}

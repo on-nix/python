@@ -1,67 +1,15 @@
-[
-  {
-    "name": "dulwich-0.20.25-cp36-cp36m-macosx_10_14_x86_64.whl",
-    "sha256": "da7655385e090b805c262df42f8b75a115345343951ca2497476df0a6287c20e",
-    "url": "https://files.pythonhosted.org/packages/ba/b7/bd05633bf537499f920af703902b81ee0c444db981d1963e1274795b36da/dulwich-0.20.25-cp36-cp36m-macosx_10_14_x86_64.whl"
-  },
-  {
-    "name": "dulwich-0.20.25-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-    "sha256": "6fad76fca381ceb914d156eb25c0cc77132cff1156d035271203c521134472b6",
-    "url": "https://files.pythonhosted.org/packages/93/4c/fe2ac82c0b8729520c0377e552bc180fcea0542ba857079e0946ab5a2b15/dulwich-0.20.25-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "dulwich-0.20.25-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
-    "sha256": "d4dbdabf71db1028f64e868081746869c17d8dbb6a16abb89b707e7a5590b121",
-    "url": "https://files.pythonhosted.org/packages/78/23/bf1e2a4e7a070e0b8e8a36f91485e465a1c94fdb90badd0af69574e4cda3/dulwich-0.20.25-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "dulwich-0.20.25-cp37-cp37m-macosx_10_14_x86_64.whl",
-    "sha256": "0d09bc588bfdeca14b3e41d5d75aa4f9ea6b0b298b283bc29c3aa1b2c7788653",
-    "url": "https://files.pythonhosted.org/packages/43/8f/84358c93b55040299162a5463892cd84d3deb023440a0ea9ccd0b49f0138/dulwich-0.20.25-cp37-cp37m-macosx_10_14_x86_64.whl"
-  },
-  {
-    "name": "dulwich-0.20.25-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-    "sha256": "f676d89db4777e854b28ea87b9bb1b0b156f6a743564c0daeb88502adaec7313",
-    "url": "https://files.pythonhosted.org/packages/64/4b/fb079d88dc9f99496f7e01b6c837352bb8e39de5bd66a62dd70beba063a6/dulwich-0.20.25-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "dulwich-0.20.25-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
-    "sha256": "eb2cbc0bd62e21011161bde7f4bad7a606d7fbafe4b2e06f09d0cb8fac2e2fd2",
-    "url": "https://files.pythonhosted.org/packages/10/41/3d8c9828ef42bc2084354baf3516d0341fd21f110d97b4501f0146b288c0/dulwich-0.20.25-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "dulwich-0.20.25-cp38-cp38-macosx_10_14_x86_64.whl",
-    "sha256": "6dcd552e8b6899da4cb87e3a0d71673fde03d2d8cf80d2d8946e4ccca15b307c",
-    "url": "https://files.pythonhosted.org/packages/76/20/759e2cbe3e53c72cc3aedb8a92f7592965d1d39764b847960d826a698e49/dulwich-0.20.25-cp38-cp38-macosx_10_14_x86_64.whl"
-  },
-  {
-    "name": "dulwich-0.20.25-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-    "sha256": "75816b242340c413814d22a8011d0596279ea8f4758bf2f91efd45388915f5d8",
-    "url": "https://files.pythonhosted.org/packages/2f/cc/115048a6f0a0f17080cd880a866ae646973637296bd03c65fa990f420d0d/dulwich-0.20.25-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "dulwich-0.20.25-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
-    "sha256": "6d060f996fba4f7aa94e1fedc53e76e8e9ef5b8f7ec026d804a68d63b8df2867",
-    "url": "https://files.pythonhosted.org/packages/91/36/5dfc4e32c7f905babd97a057583282a6375e813f7c35d9c1e5cfe283c6fe/dulwich-0.20.25-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "dulwich-0.20.25-cp39-cp39-macosx_10_14_x86_64.whl",
-    "sha256": "fabad0116db6f14568fef36962382c2ed698b8d305d2baaec9501a76eb836edd",
-    "url": "https://files.pythonhosted.org/packages/62/8c/2c470c22d025b1be16e3af504a3a29117e2f2e2d51c68211ac5631678bed/dulwich-0.20.25-cp39-cp39-macosx_10_14_x86_64.whl"
-  },
-  {
-    "name": "dulwich-0.20.25-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-    "sha256": "7e9649b962b753205e0a9a0cf2537871cb89eb3751f6c24e4d5f0d349c96b394",
-    "url": "https://files.pythonhosted.org/packages/0e/7b/ee9c01b7232b260bdb1c177d090c9272274072bc40e3043cf3dbc433a7de/dulwich-0.20.25-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "dulwich-0.20.25-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl",
-    "sha256": "962bb4ce269f8959c818bf58b92fac601ef6c3f63a07ac46a526c83ec5bfb635",
-    "url": "https://files.pythonhosted.org/packages/20/48/f11e45ccbf75cc55c23629eb0b6e2a18c9f1f54eaa1d503c041f8c816d85/dulwich-0.20.25-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "dulwich-0.20.25.tar.gz",
-    "sha256": "79baea81583eb61eb7bd4a819ab6096686b362c626a4640d84d4fc5539139353",
-    "url": "https://files.pythonhosted.org/packages/8a/ee/105b06f79efb7cf041d88267aa5027f0ac89e8650635e29ae1973638445b/dulwich-0.20.25.tar.gz"
-  }
-]
+{
+  "dulwich-0.20.25-cp36-cp36m-macosx_10_14_x86_64.whl": "da7655385e090b805c262df42f8b75a115345343951ca2497476df0a6287c20e",
+  "dulwich-0.20.25-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "6fad76fca381ceb914d156eb25c0cc77132cff1156d035271203c521134472b6",
+  "dulwich-0.20.25-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "d4dbdabf71db1028f64e868081746869c17d8dbb6a16abb89b707e7a5590b121",
+  "dulwich-0.20.25-cp37-cp37m-macosx_10_14_x86_64.whl": "0d09bc588bfdeca14b3e41d5d75aa4f9ea6b0b298b283bc29c3aa1b2c7788653",
+  "dulwich-0.20.25-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "f676d89db4777e854b28ea87b9bb1b0b156f6a743564c0daeb88502adaec7313",
+  "dulwich-0.20.25-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "eb2cbc0bd62e21011161bde7f4bad7a606d7fbafe4b2e06f09d0cb8fac2e2fd2",
+  "dulwich-0.20.25-cp38-cp38-macosx_10_14_x86_64.whl": "6dcd552e8b6899da4cb87e3a0d71673fde03d2d8cf80d2d8946e4ccca15b307c",
+  "dulwich-0.20.25-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "75816b242340c413814d22a8011d0596279ea8f4758bf2f91efd45388915f5d8",
+  "dulwich-0.20.25-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "6d060f996fba4f7aa94e1fedc53e76e8e9ef5b8f7ec026d804a68d63b8df2867",
+  "dulwich-0.20.25-cp39-cp39-macosx_10_14_x86_64.whl": "fabad0116db6f14568fef36962382c2ed698b8d305d2baaec9501a76eb836edd",
+  "dulwich-0.20.25-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "7e9649b962b753205e0a9a0cf2537871cb89eb3751f6c24e4d5f0d349c96b394",
+  "dulwich-0.20.25-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "962bb4ce269f8959c818bf58b92fac601ef6c3f63a07ac46a526c83ec5bfb635",
+  "dulwich-0.20.25.tar.gz": "79baea81583eb61eb7bd4a819ab6096686b362c626a4640d84d4fc5539139353"
+}

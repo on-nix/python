@@ -1,12 +1,4 @@
-[
-  {
-    "name": "pox-0.3.0-py2.py3-none-any.whl",
-    "sha256": "97a389cd1c6ed44dc6b934659f315d43336f7bde946a7977e770fd7e350a5395",
-    "url": "https://files.pythonhosted.org/packages/25/6e/7bc83d285dd0438f6ba106dba4fa85e569b09bae14f3c8d9df7acdc92629/pox-0.3.0-py2.py3-none-any.whl"
-  },
-  {
-    "name": "pox-0.3.0.zip",
-    "sha256": "cb968350b186466bb4905a21084587ec3aa6fd7aa0ef55d416ee0d523e2abe31",
-    "url": "https://files.pythonhosted.org/packages/b9/bc/d348b6372b72fea32be294481e068659d277db3fb49be08f7955c5a55425/pox-0.3.0.zip"
-  }
-]
+{
+  "pox-0.3.0-py2.py3-none-any.whl": "97a389cd1c6ed44dc6b934659f315d43336f7bde946a7977e770fd7e350a5395",
+  "pox-0.3.0.zip": "cb968350b186466bb4905a21084587ec3aa6fd7aa0ef55d416ee0d523e2abe31"
+}

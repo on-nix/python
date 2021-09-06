@@ -1,127 +1,27 @@
-[
-  {
-    "name": "Cython-0.29.24-cp27-cp27m-macosx_10_9_x86_64.whl",
-    "sha256": "6a2cf2ccccc25413864928dfd730c29db6f63eaf98206c1e600003a445ca7f58",
-    "url": "https://files.pythonhosted.org/packages/83/fd/5954ff0db96b0f84f12350482834071892c1ddceb96e872dc53bd0cb219e/Cython-0.29.24-cp27-cp27m-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "Cython-0.29.24-cp27-cp27m-manylinux1_i686.whl",
-    "sha256": "b28f92e617f540d3f21f8fd479a9c6491be920ffff672a4c61b7fc4d7f749f39",
-    "url": "https://files.pythonhosted.org/packages/23/a9/ec0d8a946efe665ca26509e9da12fe3abab412ad677cb6ed372faa7d4327/Cython-0.29.24-cp27-cp27m-manylinux1_i686.whl"
-  },
-  {
-    "name": "Cython-0.29.24-cp27-cp27m-manylinux1_x86_64.whl",
-    "sha256": "37bcfa5df2a3009f49624695d917c3804fccbdfcdc5eda6378754a879711a4d5",
-    "url": "https://files.pythonhosted.org/packages/c5/71/ac2ae617c31ec9df1d45b27c1b3d262f20543300293f2d96e934fef35e94/Cython-0.29.24-cp27-cp27m-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "Cython-0.29.24-cp27-cp27mu-manylinux1_i686.whl",
-    "sha256": "09ac3087ac7a3d489ebcb3fb8402e00c13d1a3a1c6bc73fd3b0d756a3e341e79",
-    "url": "https://files.pythonhosted.org/packages/48/18/396b681a94624537122c8e6de91415769a8fa2c5e6d96081574d5faf991e/Cython-0.29.24-cp27-cp27mu-manylinux1_i686.whl"
-  },
-  {
-    "name": "Cython-0.29.24-cp27-cp27mu-manylinux1_x86_64.whl",
-    "sha256": "774cb8fd931ee1ba52c472bc1c19077cd6895c1b24014ae07bb27df59aed5ebe",
-    "url": "https://files.pythonhosted.org/packages/60/0a/2f29583d082f6b1b7349b8f98e73ad15ef927bf3f003e71e9e7db62017bb/Cython-0.29.24-cp27-cp27mu-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "Cython-0.29.24-cp35-cp35m-manylinux1_i686.whl",
-    "sha256": "5fa12ebafc2f688ea6d26ab6d1d2e634a9872509ba7135b902bb0d8b368fb04b",
-    "url": "https://files.pythonhosted.org/packages/5b/d7/562a2695c94679c1d8f9ee6a9bad52154afb2891ca905a0481045e775e1b/Cython-0.29.24-cp35-cp35m-manylinux1_i686.whl"
-  },
-  {
-    "name": "Cython-0.29.24-cp35-cp35m-manylinux1_x86_64.whl",
-    "sha256": "60c958bcab0ff315b4036a949bed1c65334e1f6a69e17e9966d742febb59043a",
-    "url": "https://files.pythonhosted.org/packages/a4/5b/7a4310866357c20457c0156d0016a2745a5e2096236a8a7ae1ccd3efdd7f/Cython-0.29.24-cp35-cp35m-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "Cython-0.29.24-cp36-cp36m-macosx_10_9_x86_64.whl",
-    "sha256": "f2e9381497b12e8f622af620bde0d1d094035d79b899abb2ddd3a7891f535083",
-    "url": "https://files.pythonhosted.org/packages/90/97/17021a29984ac85c5cab01f84adb86db52c4c83846f68de5837723a8b153/Cython-0.29.24-cp36-cp36m-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "Cython-0.29.24-cp36-cp36m-manylinux1_i686.whl",
-    "sha256": "d8d1a087f35e39384303f5e6b75d465d6f29d746d7138eae9d3b6e8e6f769eae",
-    "url": "https://files.pythonhosted.org/packages/b2/eb/8de639c651a374d6afcbdde37b0b910e667ac9b8eb5d5b09859c3ea4928f/Cython-0.29.24-cp36-cp36m-manylinux1_i686.whl"
-  },
-  {
-    "name": "Cython-0.29.24-cp36-cp36m-manylinux1_x86_64.whl",
-    "sha256": "112efa54a58293a4fb0acf0dd8e5b3736e95b595eee24dd88615648e445abe41",
-    "url": "https://files.pythonhosted.org/packages/d7/04/5890b30102782a3ec9970df3c10f024298803d89624ee23cf75d09bd2548/Cython-0.29.24-cp36-cp36m-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "Cython-0.29.24-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-    "sha256": "4cf4452f0e4d50e11701bca38f3857fe6fa16593e7fd6a4d5f7be66f611b7da2",
-    "url": "https://files.pythonhosted.org/packages/cf/ab/343921f326aba2fb19f4f4ffa6c2ff2931152edac201f7dff370c1474617/Cython-0.29.24-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "Cython-0.29.24-cp37-cp37m-macosx_10_9_x86_64.whl",
-    "sha256": "6ade74eece909fd3a437d9a5084829180751d7ade118e281e9824dd75eafaff2",
-    "url": "https://files.pythonhosted.org/packages/da/ac/e28e88d5846adf97ea81477e8567d5a333a0ab3b8d0f1836a8d2e3083aba/Cython-0.29.24-cp37-cp37m-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "Cython-0.29.24-cp37-cp37m-manylinux1_i686.whl",
-    "sha256": "0a142c6b862e6ed6b02209d543062c038c110585b5e32d1ad7c9717af4f07e41",
-    "url": "https://files.pythonhosted.org/packages/4a/f2/d472c874bf8aeb184e6b1d4a60a1579d8f428172d77c69ffdc9cc0c07262/Cython-0.29.24-cp37-cp37m-manylinux1_i686.whl"
-  },
-  {
-    "name": "Cython-0.29.24-cp37-cp37m-manylinux1_x86_64.whl",
-    "sha256": "10cb3def9774fa99e4583617a5616874aed3255dc241fd1f4a3c2978c78e1c53",
-    "url": "https://files.pythonhosted.org/packages/3d/48/bbca549da0b0f636c0f161e84d30172c40aafe99552680f297da7fedf102/Cython-0.29.24-cp37-cp37m-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "Cython-0.29.24-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-    "sha256": "2f41ef7edd76dd23315925e003f0c58c8585f3ab24be6885c4b3f60e77c82746",
-    "url": "https://files.pythonhosted.org/packages/a1/09/afe39eccbcb8e75b4f77bea919468dfacf3b2701c70f0568a3b78e19f2d4/Cython-0.29.24-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "Cython-0.29.24-cp38-cp38-macosx_10_9_x86_64.whl",
-    "sha256": "55b0ee28c2c8118bfb3ad9b25cf7a6cbd724e442ea96956e32ccd908d5e3e043",
-    "url": "https://files.pythonhosted.org/packages/c1/23/b8e2151084fd4de0d1fe51bd3b07c1a487c8a8ed23b9778484a54dc614e2/Cython-0.29.24-cp38-cp38-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "Cython-0.29.24-cp38-cp38-manylinux1_i686.whl",
-    "sha256": "eb2843f8cc01c645725e6fc690a84e99cdb266ce8ebe427cf3a680ff09f876aa",
-    "url": "https://files.pythonhosted.org/packages/91/90/288b69748ddb6963e8264fbea7b50da877fa016329a2a2572547d7c32835/Cython-0.29.24-cp38-cp38-manylinux1_i686.whl"
-  },
-  {
-    "name": "Cython-0.29.24-cp38-cp38-manylinux1_x86_64.whl",
-    "sha256": "661dbdea519d9cfb288867252b75fef73ffa8e8bb674cec27acf70646afb369b",
-    "url": "https://files.pythonhosted.org/packages/aa/eb/9f453315a0702349fff2147f88e2a147035168f152c03684e94b90ed17ec/Cython-0.29.24-cp38-cp38-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "Cython-0.29.24-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-    "sha256": "bc05de569f811be1fcfde6756c9048ae518f0c4b6d9f8f024752c5365d934cac",
-    "url": "https://files.pythonhosted.org/packages/40/de/56a0c2c972bddf03ca494ab2b1ae31dcd3cc4a1e97f6ee5573a1f73a7805/Cython-0.29.24-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "Cython-0.29.24-cp39-cp39-macosx_10_9_x86_64.whl",
-    "sha256": "ad43e684ade673565f6f9d6638015112f6c7f11aa2a632167b79014f613f0f5f",
-    "url": "https://files.pythonhosted.org/packages/0e/99/a6821b430234db2d71c90a8c6ff43989a0088d56c74000286e51fab1be7e/Cython-0.29.24-cp39-cp39-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "Cython-0.29.24-cp39-cp39-manylinux1_i686.whl",
-    "sha256": "afb521523cb46ddaa8d269b421f88ea2731fee05e65b952b96d4db760f5a2a1c",
-    "url": "https://files.pythonhosted.org/packages/5a/eb/de9e3e77d9ccd6f5a879d429875c26f7bd61fa9b52ddb402e6480e256e3e/Cython-0.29.24-cp39-cp39-manylinux1_i686.whl"
-  },
-  {
-    "name": "Cython-0.29.24-cp39-cp39-manylinux1_x86_64.whl",
-    "sha256": "0d414458cb22f8a90d64260da6dace5d5fcebde43f31be52ca51f818c46db8cb",
-    "url": "https://files.pythonhosted.org/packages/22/0c/08f9ebde2caad767e023bee11b86f8c5269d2ce71afbdd42b0c554980555/Cython-0.29.24-cp39-cp39-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "Cython-0.29.24-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
-    "sha256": "8cb87777e82d1996aef6c146560a19270684271c9c669ba62ac6803b3cd2ff82",
-    "url": "https://files.pythonhosted.org/packages/ae/2d/48b254fa0a264c6f1a9a2b0cd9a1514fa77176e1c8b33834caa474817a95/Cython-0.29.24-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "Cython-0.29.24-py2.py3-none-any.whl",
-    "sha256": "f96411f0120b5cae483923aaacd2872af8709be4b46522daedc32f051d778385",
-    "url": "https://files.pythonhosted.org/packages/ec/30/8707699ea6e1c1cbe79c37e91f5b06a6266de24f699a5e19b8c0a63c4b65/Cython-0.29.24-py2.py3-none-any.whl"
-  },
-  {
-    "name": "Cython-0.29.24.tar.gz",
-    "sha256": "cdf04d07c3600860e8c2ebaad4e8f52ac3feb212453c1764a49ac08c827e8443",
-    "url": "https://files.pythonhosted.org/packages/59/e3/78c921adf4423fff68da327cc91b73a16c63f29752efe7beb6b88b6dd79d/Cython-0.29.24.tar.gz"
-  }
-]
+{
+  "Cython-0.29.24-cp27-cp27m-macosx_10_9_x86_64.whl": "6a2cf2ccccc25413864928dfd730c29db6f63eaf98206c1e600003a445ca7f58",
+  "Cython-0.29.24-cp27-cp27m-manylinux1_i686.whl": "b28f92e617f540d3f21f8fd479a9c6491be920ffff672a4c61b7fc4d7f749f39",
+  "Cython-0.29.24-cp27-cp27m-manylinux1_x86_64.whl": "37bcfa5df2a3009f49624695d917c3804fccbdfcdc5eda6378754a879711a4d5",
+  "Cython-0.29.24-cp27-cp27mu-manylinux1_i686.whl": "09ac3087ac7a3d489ebcb3fb8402e00c13d1a3a1c6bc73fd3b0d756a3e341e79",
+  "Cython-0.29.24-cp27-cp27mu-manylinux1_x86_64.whl": "774cb8fd931ee1ba52c472bc1c19077cd6895c1b24014ae07bb27df59aed5ebe",
+  "Cython-0.29.24-cp35-cp35m-manylinux1_i686.whl": "5fa12ebafc2f688ea6d26ab6d1d2e634a9872509ba7135b902bb0d8b368fb04b",
+  "Cython-0.29.24-cp35-cp35m-manylinux1_x86_64.whl": "60c958bcab0ff315b4036a949bed1c65334e1f6a69e17e9966d742febb59043a",
+  "Cython-0.29.24-cp36-cp36m-macosx_10_9_x86_64.whl": "f2e9381497b12e8f622af620bde0d1d094035d79b899abb2ddd3a7891f535083",
+  "Cython-0.29.24-cp36-cp36m-manylinux1_i686.whl": "d8d1a087f35e39384303f5e6b75d465d6f29d746d7138eae9d3b6e8e6f769eae",
+  "Cython-0.29.24-cp36-cp36m-manylinux1_x86_64.whl": "112efa54a58293a4fb0acf0dd8e5b3736e95b595eee24dd88615648e445abe41",
+  "Cython-0.29.24-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "4cf4452f0e4d50e11701bca38f3857fe6fa16593e7fd6a4d5f7be66f611b7da2",
+  "Cython-0.29.24-cp37-cp37m-macosx_10_9_x86_64.whl": "6ade74eece909fd3a437d9a5084829180751d7ade118e281e9824dd75eafaff2",
+  "Cython-0.29.24-cp37-cp37m-manylinux1_i686.whl": "0a142c6b862e6ed6b02209d543062c038c110585b5e32d1ad7c9717af4f07e41",
+  "Cython-0.29.24-cp37-cp37m-manylinux1_x86_64.whl": "10cb3def9774fa99e4583617a5616874aed3255dc241fd1f4a3c2978c78e1c53",
+  "Cython-0.29.24-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "2f41ef7edd76dd23315925e003f0c58c8585f3ab24be6885c4b3f60e77c82746",
+  "Cython-0.29.24-cp38-cp38-macosx_10_9_x86_64.whl": "55b0ee28c2c8118bfb3ad9b25cf7a6cbd724e442ea96956e32ccd908d5e3e043",
+  "Cython-0.29.24-cp38-cp38-manylinux1_i686.whl": "eb2843f8cc01c645725e6fc690a84e99cdb266ce8ebe427cf3a680ff09f876aa",
+  "Cython-0.29.24-cp38-cp38-manylinux1_x86_64.whl": "661dbdea519d9cfb288867252b75fef73ffa8e8bb674cec27acf70646afb369b",
+  "Cython-0.29.24-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "bc05de569f811be1fcfde6756c9048ae518f0c4b6d9f8f024752c5365d934cac",
+  "Cython-0.29.24-cp39-cp39-macosx_10_9_x86_64.whl": "ad43e684ade673565f6f9d6638015112f6c7f11aa2a632167b79014f613f0f5f",
+  "Cython-0.29.24-cp39-cp39-manylinux1_i686.whl": "afb521523cb46ddaa8d269b421f88ea2731fee05e65b952b96d4db760f5a2a1c",
+  "Cython-0.29.24-cp39-cp39-manylinux1_x86_64.whl": "0d414458cb22f8a90d64260da6dace5d5fcebde43f31be52ca51f818c46db8cb",
+  "Cython-0.29.24-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "8cb87777e82d1996aef6c146560a19270684271c9c669ba62ac6803b3cd2ff82",
+  "Cython-0.29.24-py2.py3-none-any.whl": "f96411f0120b5cae483923aaacd2872af8709be4b46522daedc32f051d778385",
+  "Cython-0.29.24.tar.gz": "cdf04d07c3600860e8c2ebaad4e8f52ac3feb212453c1764a49ac08c827e8443"
+}

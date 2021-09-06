@@ -1,12 +1,4 @@
-[
-  {
-    "name": "uvicorn-0.15.0-py3-none-any.whl",
-    "sha256": "17f898c64c71a2640514d4089da2689e5db1ce5d4086c2d53699bf99513421c1",
-    "url": "https://files.pythonhosted.org/packages/6f/d0/2c2f4e88d63a8f8891419ca02e029e3a7200ab8f64a3628517cf35ff0379/uvicorn-0.15.0-py3-none-any.whl"
-  },
-  {
-    "name": "uvicorn-0.15.0.tar.gz",
-    "sha256": "d9a3c0dd1ca86728d3e235182683b4cf94cd53a867c288eaeca80ee781b2caff",
-    "url": "https://files.pythonhosted.org/packages/3c/06/758c0ce8fe0053a86c99824c69eaabf0dacf2a0d935a9cfde18bbef9360a/uvicorn-0.15.0.tar.gz"
-  }
-]
+{
+  "uvicorn-0.15.0-py3-none-any.whl": "17f898c64c71a2640514d4089da2689e5db1ce5d4086c2d53699bf99513421c1",
+  "uvicorn-0.15.0.tar.gz": "d9a3c0dd1ca86728d3e235182683b4cf94cd53a867c288eaeca80ee781b2caff"
+}

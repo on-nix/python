@@ -1,17 +1,5 @@
-[
-  {
-    "name": "docutils-0.15.2-py2-none-any.whl",
-    "sha256": "9e4d7ecfc600058e07ba661411a2b7de2fd0fafa17d1a7f7361cd47b1175c827",
-    "url": "https://files.pythonhosted.org/packages/3a/dc/bf2b15d1fa15a6f7a9e77a61b74ecbbae7258558fcda8ffc9a6638a6b327/docutils-0.15.2-py2-none-any.whl"
-  },
-  {
-    "name": "docutils-0.15.2-py3-none-any.whl",
-    "sha256": "6c4f696463b79f1fb8ba0c594b63840ebd41f059e92b31957c46b74a4599b6d0",
-    "url": "https://files.pythonhosted.org/packages/22/cd/a6aa959dca619918ccb55023b4cb151949c64d4d5d55b3f4ffd7eee0c6e8/docutils-0.15.2-py3-none-any.whl"
-  },
-  {
-    "name": "docutils-0.15.2.tar.gz",
-    "sha256": "a2aeea129088da402665e92e0b25b04b073c04b2dce4ab65caaa38b7ce2e1a99",
-    "url": "https://files.pythonhosted.org/packages/93/22/953e071b589b0b1fee420ab06a0d15e5aa0c7470eb9966d60393ce58ad61/docutils-0.15.2.tar.gz"
-  }
-]
+{
+  "docutils-0.15.2-py2-none-any.whl": "9e4d7ecfc600058e07ba661411a2b7de2fd0fafa17d1a7f7361cd47b1175c827",
+  "docutils-0.15.2-py3-none-any.whl": "6c4f696463b79f1fb8ba0c594b63840ebd41f059e92b31957c46b74a4599b6d0",
+  "docutils-0.15.2.tar.gz": "a2aeea129088da402665e92e0b25b04b073c04b2dce4ab65caaa38b7ce2e1a99"
+}

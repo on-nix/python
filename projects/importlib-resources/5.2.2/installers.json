@@ -1,12 +1,4 @@
-[
-  {
-    "name": "importlib_resources-5.2.2-py3-none-any.whl",
-    "sha256": "2480d8e07d1890056cb53c96e3de44fead9c62f2ba949b0f2e4c4345f4afa977",
-    "url": "https://files.pythonhosted.org/packages/f2/6c/2f3b930513bb971172ffceb63cf4e910944e57451724e69b1dec97cfefa6/importlib_resources-5.2.2-py3-none-any.whl"
-  },
-  {
-    "name": "importlib_resources-5.2.2.tar.gz",
-    "sha256": "a65882a4d0fe5fbf702273456ba2ce74fe44892c25e42e057aca526b702a6d4b",
-    "url": "https://files.pythonhosted.org/packages/b1/7a/b9e2309e5c619ba3da8806e43bb17873ec6eab22a3d79347778c80563028/importlib_resources-5.2.2.tar.gz"
-  }
-]
+{
+  "importlib_resources-5.2.2-py3-none-any.whl": "2480d8e07d1890056cb53c96e3de44fead9c62f2ba949b0f2e4c4345f4afa977",
+  "importlib_resources-5.2.2.tar.gz": "a65882a4d0fe5fbf702273456ba2ce74fe44892c25e42e057aca526b702a6d4b"
+}

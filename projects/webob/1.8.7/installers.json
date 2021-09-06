@@ -1,12 +1,4 @@
-[
-  {
-    "name": "WebOb-1.8.7-py2.py3-none-any.whl",
-    "sha256": "73aae30359291c14fa3b956f8b5ca31960e420c28c1bec002547fb04928cf89b",
-    "url": "https://files.pythonhosted.org/packages/62/9c/e94a9982e9f31fc35cf46cdc543a6c2c26cb7174635b5fd25b0bbc6a7bc0/WebOb-1.8.7-py2.py3-none-any.whl"
-  },
-  {
-    "name": "WebOb-1.8.7.tar.gz",
-    "sha256": "b64ef5141be559cfade448f044fa45c2260351edcb6a8ef6b7e00c7dcef0c323",
-    "url": "https://files.pythonhosted.org/packages/c7/45/ee5f034fb4ebe3236fa49e5a4fcbc54444dd22ecf33079cf56f9606d479d/WebOb-1.8.7.tar.gz"
-  }
-]
+{
+  "WebOb-1.8.7-py2.py3-none-any.whl": "73aae30359291c14fa3b956f8b5ca31960e420c28c1bec002547fb04928cf89b",
+  "WebOb-1.8.7.tar.gz": "b64ef5141be559cfade448f044fa45c2260351edcb6a8ef6b7e00c7dcef0c323"
+}

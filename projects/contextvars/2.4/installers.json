@@ -1,7 +1,3 @@
-[
-  {
-    "name": "contextvars-2.4.tar.gz",
-    "sha256": "f38c908aaa59c14335eeea12abea5f443646216c4e29380d7bf34d2018e2c39e",
-    "url": "https://files.pythonhosted.org/packages/83/96/55b82d9f13763be9d672622e1b8106c85acb83edd7cc2fa5bc67cd9877e9/contextvars-2.4.tar.gz"
-  }
-]
+{
+  "contextvars-2.4.tar.gz": "f38c908aaa59c14335eeea12abea5f443646216c4e29380d7bf34d2018e2c39e"
+}

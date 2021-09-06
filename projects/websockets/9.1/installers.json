@@ -1,127 +1,27 @@
-[
-  {
-    "name": "websockets-9.1-cp36-cp36m-macosx_10_9_x86_64.whl",
-    "sha256": "d144b350045c53c8ff09aa1cfa955012dd32f00c7e0862c199edcabb1a8b32da",
-    "url": "https://files.pythonhosted.org/packages/b2/a0/1cc1c0994aab526fde1a57f31db8069ae9e31f25866294d889c2c8d71975/websockets-9.1-cp36-cp36m-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "websockets-9.1-cp36-cp36m-manylinux1_i686.whl",
-    "sha256": "b4ad84b156cf50529b8ac5cc1638c2cf8680490e3fccb6121316c8c02620a2e4",
-    "url": "https://files.pythonhosted.org/packages/b2/bf/9b2903cc82c474c33fd9cb9b23507535b9c7562ee4ab007f3ca6665b91dd/websockets-9.1-cp36-cp36m-manylinux1_i686.whl"
-  },
-  {
-    "name": "websockets-9.1-cp36-cp36m-manylinux1_x86_64.whl",
-    "sha256": "2cf04601633a4ec176b9cc3d3e73789c037641001dbfaf7c411f89cd3e04fcaf",
-    "url": "https://files.pythonhosted.org/packages/de/82/8ea9bc17518d6a3e14941b857339e502dfba7c6ef81942caebb7463c85c3/websockets-9.1-cp36-cp36m-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "websockets-9.1-cp36-cp36m-manylinux2010_i686.whl",
-    "sha256": "5c8f0d82ea2468282e08b0cf5307f3ad022290ed50c45d5cb7767957ca782880",
-    "url": "https://files.pythonhosted.org/packages/2f/eb/f007b79056fdbc9b4c0b3d06c4580c4270ec3fe8438cd8acd6d682ab8383/websockets-9.1-cp36-cp36m-manylinux2010_i686.whl"
-  },
-  {
-    "name": "websockets-9.1-cp36-cp36m-manylinux2010_x86_64.whl",
-    "sha256": "caa68c95bc1776d3521f81eeb4d5b9438be92514ec2a79fececda814099c8314",
-    "url": "https://files.pythonhosted.org/packages/d9/a4/38eb0bc75fb6ea61dc54d5131286d1f474abc83de89cb6e217fb9e244570/websockets-9.1-cp36-cp36m-manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "websockets-9.1-cp36-cp36m-manylinux2014_aarch64.whl",
-    "sha256": "d2c2d9b24d3c65b5a02cac12cbb4e4194e590314519ed49db2f67ef561c3cf58",
-    "url": "https://files.pythonhosted.org/packages/18/4e/25edfeb19f2d518df137220e107aacf6b17da45fa943f6a7f45d326060f8/websockets-9.1-cp36-cp36m-manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "websockets-9.1-cp37-cp37m-macosx_10_9_x86_64.whl",
-    "sha256": "51d04df04ed9d08077d10ccbe21e6805791b78eac49d16d30a1f1fe2e44ba0af",
-    "url": "https://files.pythonhosted.org/packages/58/09/7dcd264c9db98d09799936e801ba4c2ddfd1eac8f3eb05e14b3091bd72e8/websockets-9.1-cp37-cp37m-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "websockets-9.1-cp37-cp37m-manylinux1_i686.whl",
-    "sha256": "f68c352a68e5fdf1e97288d5cec9296664c590c25932a8476224124aaf90dbcd",
-    "url": "https://files.pythonhosted.org/packages/50/de/3ab2775e26eb6c76b7a7771903e6aa7645a16024173ba5b0d56deb970f9d/websockets-9.1-cp37-cp37m-manylinux1_i686.whl"
-  },
-  {
-    "name": "websockets-9.1-cp37-cp37m-manylinux1_x86_64.whl",
-    "sha256": "b43b13e5622c5a53ab12f3272e6f42f1ce37cd5b6684b2676cb365403295cd40",
-    "url": "https://files.pythonhosted.org/packages/3b/bd/6f63619fecddef9c411e0390274194f46f7596ae69945c1fd0a1f8caaf4a/websockets-9.1-cp37-cp37m-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "websockets-9.1-cp37-cp37m-manylinux2010_i686.whl",
-    "sha256": "9147868bb0cc01e6846606cd65cbf9c58598f187b96d14dd1ca17338b08793bb",
-    "url": "https://files.pythonhosted.org/packages/e7/e7/629ce181250f6a0d7415acee6597cc010ba02b81e17954156fd9942aed9d/websockets-9.1-cp37-cp37m-manylinux2010_i686.whl"
-  },
-  {
-    "name": "websockets-9.1-cp37-cp37m-manylinux2010_x86_64.whl",
-    "sha256": "836d14eb53b500fd92bd5db2fc5894f7c72b634f9c2a28f546f75967503d8e25",
-    "url": "https://files.pythonhosted.org/packages/84/64/78c2b3fe37730b30dca3c93d1f7f4a4286767f86e7c04cf3571b39bc2fb7/websockets-9.1-cp37-cp37m-manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "websockets-9.1-cp37-cp37m-manylinux2014_aarch64.whl",
-    "sha256": "48c222feb3ced18f3dc61168ca18952a22fb88e5eb8902d2bf1b50faefdc34a2",
-    "url": "https://files.pythonhosted.org/packages/c9/59/7856d7557e8a538a8c6006b81bc0e4ffe6d5687c3e9c685ebfeb3317a2f4/websockets-9.1-cp37-cp37m-manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "websockets-9.1-cp38-cp38-macosx_10_9_x86_64.whl",
-    "sha256": "85e701a6c316b7067f1e8675c638036a796fe5116783a4c932e7eb8e305a3ffe",
-    "url": "https://files.pythonhosted.org/packages/e9/69/99cad51d5aff90eb804eb98f588d03c9c1070d71c5c82f23142bc081af51/websockets-9.1-cp38-cp38-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "websockets-9.1-cp38-cp38-manylinux1_i686.whl",
-    "sha256": "b2e71c4670ebe1067fa8632f0d081e47254ee2d3d409de54168b43b0ba9147e0",
-    "url": "https://files.pythonhosted.org/packages/31/ff/2dd99b27bc6c644abad06033103ced832e8983be161091f8cc8d2d15adb1/websockets-9.1-cp38-cp38-manylinux1_i686.whl"
-  },
-  {
-    "name": "websockets-9.1-cp38-cp38-manylinux1_x86_64.whl",
-    "sha256": "230a3506df6b5f446fed2398e58dcaafdff12d67fe1397dff196411a9e820d02",
-    "url": "https://files.pythonhosted.org/packages/d9/fb/c2111a59e4fdcb09a2a088f8bf5832274ef84930b67ab20592b3f2c1ba75/websockets-9.1-cp38-cp38-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "websockets-9.1-cp38-cp38-manylinux2010_i686.whl",
-    "sha256": "7df3596838b2a0c07c6f6d67752c53859a54993d4f062689fdf547cb56d0f84f",
-    "url": "https://files.pythonhosted.org/packages/b7/64/e071c72bcb02e4bb82b1eca05f8d3b4b800580b140491138720c07ffd582/websockets-9.1-cp38-cp38-manylinux2010_i686.whl"
-  },
-  {
-    "name": "websockets-9.1-cp38-cp38-manylinux2010_x86_64.whl",
-    "sha256": "826ccf85d4514609219725ba4a7abd569228c2c9f1968e8be05be366f68291ec",
-    "url": "https://files.pythonhosted.org/packages/aa/09/bd9b3057ec5cd7743066c84ade52ff99eb73059f7d33d810d79dc4534ae1/websockets-9.1-cp38-cp38-manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "websockets-9.1-cp38-cp38-manylinux2014_aarch64.whl",
-    "sha256": "0dd4eb8e0bbf365d6f652711ce21b8fd2b596f873d32aabb0fbb53ec604418cc",
-    "url": "https://files.pythonhosted.org/packages/0c/08/1b50891a5101d71e7b739085b425aefcafd06ec37116d8fff2381776d0e8/websockets-9.1-cp38-cp38-manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "websockets-9.1-cp39-cp39-macosx_10_9_x86_64.whl",
-    "sha256": "e9e5fd6dbdf95d99bc03732ded1fc8ef22ebbc05999ac7e0c7bf57fe6e4e5ae2",
-    "url": "https://files.pythonhosted.org/packages/e5/b3/0ff0676cb0043bc85f4cb548733a37b5e7e9b82fe253edd0f5d173b2ec43/websockets-9.1-cp39-cp39-macosx_10_9_x86_64.whl"
-  },
-  {
-    "name": "websockets-9.1-cp39-cp39-manylinux1_i686.whl",
-    "sha256": "9e7fdc775fe7403dbd8bc883ba59576a6232eac96dacb56512daacf7af5d618d",
-    "url": "https://files.pythonhosted.org/packages/46/e7/ebbe5d8ce59c77b59a13551fe0103c73131fab0b7cfb2fdc10b58f252e13/websockets-9.1-cp39-cp39-manylinux1_i686.whl"
-  },
-  {
-    "name": "websockets-9.1-cp39-cp39-manylinux1_x86_64.whl",
-    "sha256": "597c28f3aa7a09e8c070a86b03107094ee5cdafcc0d55f2f2eac92faac8dc67d",
-    "url": "https://files.pythonhosted.org/packages/96/d0/3e5beec93673fc4526e118f45e56df8a292b6f009002675614f4e3dfcf3a/websockets-9.1-cp39-cp39-manylinux1_x86_64.whl"
-  },
-  {
-    "name": "websockets-9.1-cp39-cp39-manylinux2010_i686.whl",
-    "sha256": "ad893d889bc700a5835e0a95a3e4f2c39e91577ab232a3dc03c262a0f8fc4b5c",
-    "url": "https://files.pythonhosted.org/packages/18/9c/3334655fd3eb93fe3b728203db354711cec48044c2d7b8bfbde9ea0ffc5d/websockets-9.1-cp39-cp39-manylinux2010_i686.whl"
-  },
-  {
-    "name": "websockets-9.1-cp39-cp39-manylinux2010_x86_64.whl",
-    "sha256": "1d6b4fddb12ab9adf87b843cd4316c4bd602db8d5efd2fb83147f0458fe85135",
-    "url": "https://files.pythonhosted.org/packages/c8/31/bb59de44c04c5d81083a5ee93eeb3e9b30d32aa8f6b72080eb5da4bb73f7/websockets-9.1-cp39-cp39-manylinux2010_x86_64.whl"
-  },
-  {
-    "name": "websockets-9.1-cp39-cp39-manylinux2014_aarch64.whl",
-    "sha256": "ebf459a1c069f9866d8569439c06193c586e72c9330db1390af7c6a0a32c4afd",
-    "url": "https://files.pythonhosted.org/packages/21/9b/112c8439c718432fd3fb1f6fa56050767a70ad977712008cec036d061a7a/websockets-9.1-cp39-cp39-manylinux2014_aarch64.whl"
-  },
-  {
-    "name": "websockets-9.1.tar.gz",
-    "sha256": "276d2339ebf0df4f45df453923ebd2270b87900eda5dfd4a6b0cfa15f82111c3",
-    "url": "https://files.pythonhosted.org/packages/0d/bd/5262054455ab2067e51de331bfbc53a1dfa9071af7c424cf7c0793c4349a/websockets-9.1.tar.gz"
-  }
-]
+{
+  "websockets-9.1-cp36-cp36m-macosx_10_9_x86_64.whl": "d144b350045c53c8ff09aa1cfa955012dd32f00c7e0862c199edcabb1a8b32da",
+  "websockets-9.1-cp36-cp36m-manylinux1_i686.whl": "b4ad84b156cf50529b8ac5cc1638c2cf8680490e3fccb6121316c8c02620a2e4",
+  "websockets-9.1-cp36-cp36m-manylinux1_x86_64.whl": "2cf04601633a4ec176b9cc3d3e73789c037641001dbfaf7c411f89cd3e04fcaf",
+  "websockets-9.1-cp36-cp36m-manylinux2010_i686.whl": "5c8f0d82ea2468282e08b0cf5307f3ad022290ed50c45d5cb7767957ca782880",
+  "websockets-9.1-cp36-cp36m-manylinux2010_x86_64.whl": "caa68c95bc1776d3521f81eeb4d5b9438be92514ec2a79fececda814099c8314",
+  "websockets-9.1-cp36-cp36m-manylinux2014_aarch64.whl": "d2c2d9b24d3c65b5a02cac12cbb4e4194e590314519ed49db2f67ef561c3cf58",
+  "websockets-9.1-cp37-cp37m-macosx_10_9_x86_64.whl": "51d04df04ed9d08077d10ccbe21e6805791b78eac49d16d30a1f1fe2e44ba0af",
+  "websockets-9.1-cp37-cp37m-manylinux1_i686.whl": "f68c352a68e5fdf1e97288d5cec9296664c590c25932a8476224124aaf90dbcd",
+  "websockets-9.1-cp37-cp37m-manylinux1_x86_64.whl": "b43b13e5622c5a53ab12f3272e6f42f1ce37cd5b6684b2676cb365403295cd40",
+  "websockets-9.1-cp37-cp37m-manylinux2010_i686.whl": "9147868bb0cc01e6846606cd65cbf9c58598f187b96d14dd1ca17338b08793bb",
+  "websockets-9.1-cp37-cp37m-manylinux2010_x86_64.whl": "836d14eb53b500fd92bd5db2fc5894f7c72b634f9c2a28f546f75967503d8e25",
+  "websockets-9.1-cp37-cp37m-manylinux2014_aarch64.whl": "48c222feb3ced18f3dc61168ca18952a22fb88e5eb8902d2bf1b50faefdc34a2",
+  "websockets-9.1-cp38-cp38-macosx_10_9_x86_64.whl": "85e701a6c316b7067f1e8675c638036a796fe5116783a4c932e7eb8e305a3ffe",
+  "websockets-9.1-cp38-cp38-manylinux1_i686.whl": "b2e71c4670ebe1067fa8632f0d081e47254ee2d3d409de54168b43b0ba9147e0",
+  "websockets-9.1-cp38-cp38-manylinux1_x86_64.whl": "230a3506df6b5f446fed2398e58dcaafdff12d67fe1397dff196411a9e820d02",
+  "websockets-9.1-cp38-cp38-manylinux2010_i686.whl": "7df3596838b2a0c07c6f6d67752c53859a54993d4f062689fdf547cb56d0f84f",
+  "websockets-9.1-cp38-cp38-manylinux2010_x86_64.whl": "826ccf85d4514609219725ba4a7abd569228c2c9f1968e8be05be366f68291ec",
+  "websockets-9.1-cp38-cp38-manylinux2014_aarch64.whl": "0dd4eb8e0bbf365d6f652711ce21b8fd2b596f873d32aabb0fbb53ec604418cc",
+  "websockets-9.1-cp39-cp39-macosx_10_9_x86_64.whl": "e9e5fd6dbdf95d99bc03732ded1fc8ef22ebbc05999ac7e0c7bf57fe6e4e5ae2",
+  "websockets-9.1-cp39-cp39-manylinux1_i686.whl": "9e7fdc775fe7403dbd8bc883ba59576a6232eac96dacb56512daacf7af5d618d",
+  "websockets-9.1-cp39-cp39-manylinux1_x86_64.whl": "597c28f3aa7a09e8c070a86b03107094ee5cdafcc0d55f2f2eac92faac8dc67d",
+  "websockets-9.1-cp39-cp39-manylinux2010_i686.whl": "ad893d889bc700a5835e0a95a3e4f2c39e91577ab232a3dc03c262a0f8fc4b5c",
+  "websockets-9.1-cp39-cp39-manylinux2010_x86_64.whl": "1d6b4fddb12ab9adf87b843cd4316c4bd602db8d5efd2fb83147f0458fe85135",
+  "websockets-9.1-cp39-cp39-manylinux2014_aarch64.whl": "ebf459a1c069f9866d8569439c06193c586e72c9330db1390af7c6a0a32c4afd",
+  "websockets-9.1.tar.gz": "276d2339ebf0df4f45df453923ebd2270b87900eda5dfd4a6b0cfa15f82111c3"
+}

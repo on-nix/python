@@ -1,12 +1,4 @@
-[
-  {
-    "name": "soupsieve-2.2.1-py3-none-any.whl",
-    "sha256": "c2c1c2d44f158cdbddab7824a9af8c4f83c76b1e23e049479aa432feb6c4c23b",
-    "url": "https://files.pythonhosted.org/packages/36/69/d82d04022f02733bf9a72bc3b96332d360c0c5307096d76f6bb7489f7e57/soupsieve-2.2.1-py3-none-any.whl"
-  },
-  {
-    "name": "soupsieve-2.2.1.tar.gz",
-    "sha256": "052774848f448cf19c7e959adf5566904d525f33a3f8b6ba6f6f8f26ec7de0cc",
-    "url": "https://files.pythonhosted.org/packages/c8/3f/e71d92e90771ac2d69986aa0e81cf0dfda6271e8483698f4847b861dd449/soupsieve-2.2.1.tar.gz"
-  }
-]
+{
+  "soupsieve-2.2.1-py3-none-any.whl": "c2c1c2d44f158cdbddab7824a9af8c4f83c76b1e23e049479aa432feb6c4c23b",
+  "soupsieve-2.2.1.tar.gz": "052774848f448cf19c7e959adf5566904d525f33a3f8b6ba6f6f8f26ec7de0cc"
+}

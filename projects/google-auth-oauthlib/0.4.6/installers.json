@@ -1,12 +1,4 @@
-[
-  {
-    "name": "google_auth_oauthlib-0.4.6-py2.py3-none-any.whl",
-    "sha256": "3f2a6e802eebbb6fb736a370fbf3b055edcb6b52878bf2f26330b5e041316c73",
-    "url": "https://files.pythonhosted.org/packages/b1/0e/0636cc1448a7abc444fb1b3a63655e294e0d2d49092dc3de05241be6d43c/google_auth_oauthlib-0.4.6-py2.py3-none-any.whl"
-  },
-  {
-    "name": "google-auth-oauthlib-0.4.6.tar.gz",
-    "sha256": "a90a072f6993f2c327067bf65270046384cda5a8ecb20b94ea9a687f1f233a7a",
-    "url": "https://files.pythonhosted.org/packages/30/21/b84fa7ef834d4b126faad13da6e582c8f888e196326b9d6aab1ae303df4f/google-auth-oauthlib-0.4.6.tar.gz"
-  }
-]
+{
+  "google-auth-oauthlib-0.4.6.tar.gz": "a90a072f6993f2c327067bf65270046384cda5a8ecb20b94ea9a687f1f233a7a",
+  "google_auth_oauthlib-0.4.6-py2.py3-none-any.whl": "3f2a6e802eebbb6fb736a370fbf3b055edcb6b52878bf2f26330b5e041316c73"
+}

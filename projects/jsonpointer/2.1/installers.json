@@ -1,12 +1,4 @@
-[
-  {
-    "name": "jsonpointer-2.1-py2.py3-none-any.whl",
-    "sha256": "150f80c5badd02c757da6644852f612f88e8b4bc2f9852dcbf557c8738919686",
-    "url": "https://files.pythonhosted.org/packages/23/52/05f67532aa922e494c351344e0d9624a01f74f5dd8402fe0d1b563a6e6fc/jsonpointer-2.1-py2.py3-none-any.whl"
-  },
-  {
-    "name": "jsonpointer-2.1.tar.gz",
-    "sha256": "5a34b698db1eb79ceac454159d3f7c12a451a91f6334a4f638454327b7a89962",
-    "url": "https://files.pythonhosted.org/packages/6b/35/400557d3df63269a4c010cbd4865910b3c1718fbfe8d83210b216cd3efcf/jsonpointer-2.1.tar.gz"
-  }
-]
+{
+  "jsonpointer-2.1-py2.py3-none-any.whl": "150f80c5badd02c757da6644852f612f88e8b4bc2f9852dcbf557c8738919686",
+  "jsonpointer-2.1.tar.gz": "5a34b698db1eb79ceac454159d3f7c12a451a91f6334a4f638454327b7a89962"
+}

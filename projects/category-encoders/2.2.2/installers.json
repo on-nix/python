@@ -1,12 +1,4 @@
-[
-  {
-    "name": "category_encoders-2.2.2-py2.py3-none-any.whl",
-    "sha256": "3704d140d873c1325e68051ab2dce9663fd57c77fb1c368b9dc02e82e80c176a",
-    "url": "https://files.pythonhosted.org/packages/44/57/fcef41c248701ee62e8325026b90c432adea35555cbc870aff9cfba23727/category_encoders-2.2.2-py2.py3-none-any.whl"
-  },
-  {
-    "name": "category_encoders-2.2.2.tar.gz",
-    "sha256": "79651dc3e8cd6749bc5d404c49a79e93469016d106736326842305e076136cb0",
-    "url": "https://files.pythonhosted.org/packages/5d/91/d47000ae53ff4fcbb24b0788ef482c042d476300a76e4711fce3f257b09a/category_encoders-2.2.2.tar.gz"
-  }
-]
+{
+  "category_encoders-2.2.2-py2.py3-none-any.whl": "3704d140d873c1325e68051ab2dce9663fd57c77fb1c368b9dc02e82e80c176a",
+  "category_encoders-2.2.2.tar.gz": "79651dc3e8cd6749bc5d404c49a79e93469016d106736326842305e076136cb0"
+}

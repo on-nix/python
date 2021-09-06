@@ -1,12 +1,4 @@
-[
-  {
-    "name": "aws_xray_sdk-2.8.0-py2.py3-none-any.whl",
-    "sha256": "487e44a2e0b2a5b994f7db5fad3a8115f1ea238249117a119bce8ca2750661bd",
-    "url": "https://files.pythonhosted.org/packages/81/25/2d918aa2c49f1a20ab2b68ff66b12442e4e0e69a748d923cbd496facf526/aws_xray_sdk-2.8.0-py2.py3-none-any.whl"
-  },
-  {
-    "name": "aws-xray-sdk-2.8.0.tar.gz",
-    "sha256": "90c2fcc982a770e86d009a4c3d2b5c3e372da91cb8284d982bae458e2c0bb268",
-    "url": "https://files.pythonhosted.org/packages/f5/3d/8b58be10b0976942c993c9cd312fbee7b79c455a9d74a06601a784ac306e/aws-xray-sdk-2.8.0.tar.gz"
-  }
-]
+{
+  "aws-xray-sdk-2.8.0.tar.gz": "90c2fcc982a770e86d009a4c3d2b5c3e372da91cb8284d982bae458e2c0bb268",
+  "aws_xray_sdk-2.8.0-py2.py3-none-any.whl": "487e44a2e0b2a5b994f7db5fad3a8115f1ea238249117a119bce8ca2750661bd"
+}
