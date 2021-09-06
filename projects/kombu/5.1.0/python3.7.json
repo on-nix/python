@@ -1,0 +1,9 @@
+{
+  "amqp": "5.0.6",
+  "cached-property": "1.5.2",
+  "importlib-metadata": "4.8.1",
+  "kombu": "5.1.0",
+  "typing-extensions": "3.10.0.2",
+  "vine": "5.0.0",
+  "zipp": "3.5.0"
+}
