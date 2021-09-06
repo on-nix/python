@@ -1,0 +1,5 @@
+{
+  "importlib-resources": "5.2.2",
+  "netaddr": "0.8.0",
+  "zipp": "3.5.0"
+}
