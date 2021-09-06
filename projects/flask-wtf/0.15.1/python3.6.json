@@ -1,0 +1,15 @@
+{
+  "click": "8.0.1",
+  "colorama": "0.4.4",
+  "dataclasses": "0.8",
+  "flask": "2.0.1",
+  "flask-wtf": "0.15.1",
+  "importlib-metadata": "4.8.1",
+  "itsdangerous": "2.0.1",
+  "jinja2": "3.0.1",
+  "markupsafe": "2.0.1",
+  "typing-extensions": "3.10.0.2",
+  "werkzeug": "2.0.1",
+  "wtforms": "2.3.3",
+  "zipp": "3.5.0"
+}
