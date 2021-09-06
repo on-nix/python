@@ -1,0 +1,7 @@
+{
+  "alembic": "1.7.1",
+  "greenlet": "1.1.1",
+  "mako": "1.1.5",
+  "markupsafe": "2.0.1",
+  "sqlalchemy": "1.4.23"
+}
