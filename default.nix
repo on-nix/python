@@ -261,7 +261,7 @@ let
         (installer.ext == "tar.gz")
     ));
 
-  enrichInstaller = project: version: name: sha256:
+  enrichInstaller = pythonVersion: project: version: name: sha256:
     let
       src = builtins.match "(.*)-(.*?).(tar.bz2|tar.gz|zip)" name;
       whl = builtins.match "(.*?)-(.*)-(.*?)-(.*?)-(.*?).whl" name;
@@ -277,10 +277,11 @@ let
         else if src != null
         then {
           ext = builtins.elemAt src 2;
-          impl = "source";
           type = "src";
         }
         else abort "Unable to parse installer: ${name}";
+      projectL = builtins.substring 0 1 project;
+      base = "https://files.pythonhosted.org/packages";
     in
     meta // {
       inherit name;
@@ -288,7 +289,13 @@ let
       path = nixpkgs.fetchurl {
         inherit name;
         inherit sha256;
-        url = "https://files.pythonhosted.org/packages/${meta.impl}/${builtins.substring 0 1 project}/${project}/${name}";
+        urls =
+          if meta.type == "src"
+          then [ "${base}/source/${projectL}/${project}/${name}" ]
+          else
+            (builtins.map
+              (impl: "${base}/${impl}/${projectL}/${project}/${name}")
+              ([ meta.impl ] ++ pythonVersions));
       };
     };
 
@@ -296,7 +303,7 @@ let
     let
       installersPath = projectsSrc + "/${project}/${version}/installers.json";
       installers = builtins.attrValues (builtins.mapAttrs
-        (enrichInstaller project version)
+        (enrichInstaller pythonVersion project version)
         (fromJsonFile installersPath));
       installer = findFirst (installer: installer != null) null (builtins.map
         (predicate: findFirst predicate null installers)
