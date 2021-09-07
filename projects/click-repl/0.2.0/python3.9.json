@@ -1,0 +1,8 @@
+{
+  "click": "8.0.1",
+  "click-repl": "0.2.0",
+  "colorama": "0.4.4",
+  "prompt-toolkit": "3.0.20",
+  "six": "1.16.0",
+  "wcwidth": "0.2.5"
+}
