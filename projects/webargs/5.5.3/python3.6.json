@@ -1,0 +1,5 @@
+{
+  "marshmallow": "3.13.0",
+  "simplejson": "3.17.5",
+  "webargs": "5.5.3"
+}

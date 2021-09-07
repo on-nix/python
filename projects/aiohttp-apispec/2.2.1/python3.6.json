@@ -1,0 +1,18 @@
+{
+  "aiohttp": "3.7.4.post0",
+  "aiohttp-apispec": "2.2.1",
+  "apispec": "3.3.2",
+  "async-timeout": "3.0.1",
+  "attrs": "21.2.0",
+  "chardet": "4.0.0",
+  "idna": "3.2",
+  "idna-ssl": "1.1.0",
+  "jinja2": "2.11.3",
+  "markupsafe": "2.0.1",
+  "marshmallow": "3.13.0",
+  "multidict": "5.1.0",
+  "simplejson": "3.17.5",
+  "typing-extensions": "3.10.0.2",
+  "webargs": "5.5.3",
+  "yarl": "1.6.3"
+}
