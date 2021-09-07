@@ -1,0 +1,1 @@
+import bluemix_service_discovery
