@@ -59,7 +59,7 @@ function main {
       --arg python_version "${python_version}.*" \
       --arg version "${version}" \
       "${pyproject_toml}" \
-    | yj -jt | tee pyproject.toml \
+    | yj -jt > pyproject.toml \
     && poetry env use "${python}" \
     && poetry add --lock -vv "${project}==${version}" \
     && yj -tj < poetry.lock > poetry.lock.json \
