@@ -1,0 +1,12 @@
+{
+  "attrs": "21.2.0",
+  "importlib-metadata": "4.8.1",
+  "jsonschema": "3.2.0",
+  "numpy": "1.21.2",
+  "pyrsistent": "0.18.0",
+  "six": "1.16.0",
+  "svgwrite": "1.4.1",
+  "tskit": "0.3.7",
+  "typing-extensions": "3.10.0.2",
+  "zipp": "3.5.0"
+}
