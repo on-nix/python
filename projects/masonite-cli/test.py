@@ -1,0 +1,1 @@
+import masonite_cli
