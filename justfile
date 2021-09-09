@@ -24,6 +24,9 @@ ci:
   source ./result/setup \
     && python3 .github/workflows/generate.py
 
+crawl:
+  bash makes/crawl/entrypoint.sh
+
 new PROJECT:
   set +e; \
   m . /create 3.6 {{PROJECT}}; \

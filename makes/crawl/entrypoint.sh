@@ -6,24 +6,22 @@ function to_pep503 {
   echo "${project}" | sed -E "s|[-_.]+|-|g" | tr '[:upper:]' '[:lower:]'
 }
 
-mapfile -t projects < projects.lst
+mapfile -t projects < makes/crawl/projects.lst
 
 for project in "${projects[@]}"; do
   project="$(to_pep503 "${project}")"
 
   if test -e "projects/${project}"; then continue; fi
 
-  just add "${project}"
+  just new "${project}"
 
   if just build __all__; then
     git add projects
     git commit -m "feat(conf): ${project}"
     git push
   else
-    git status -- projects >> errors.lst
-    git add errors.lst
-    git commit -m "refac(conf): ${project}"
-    git push
+    git ls-files --exclude-standard --others >> makes/crawl/errors.lst
+    git add makes/crawl/errors.lst
     rm -rf projects
     git checkout -- projects
   fi

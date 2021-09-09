@@ -393,7 +393,6 @@ jobs:
     - run: just build 'projects."pyasn1"."0.4.8".python36'
     - run: just build 'projects."pyasn1-modules"."0.2.8".python36'
     - run: just build 'projects."pycalver"."202010.1043".python36'
-    - run: just build 'projects."pycocotools"."2.0.0".python36'
     - run: just build 'projects."pycodestyle"."2.7.0".python36'
     - run: just build 'projects."pycparser"."2.20".python36'
     - run: just build 'projects."pycricbuzz"."2.4".python36'
