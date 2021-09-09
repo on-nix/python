@@ -35,10 +35,10 @@ function main {
 
   : \
     && case "${python_version}" in
-      3.6) python=__argPy36__/bin/python ;;
-      3.7) python=__argPy37__/bin/python ;;
-      3.8) python=__argPy38__/bin/python ;;
-      3.9) python=__argPy39__/bin/python ;;
+      3.6) python=__argPy36__/bin/python && python_code=python36 ;;
+      3.7) python=__argPy37__/bin/python && python_code=python37 ;;
+      3.8) python=__argPy38__/bin/python && python_code=python38 ;;
+      3.9) python=__argPy39__/bin/python && python_code=python39 ;;
       *) critical Python version not supported: "${python_version}" ;;
     esac \
     && project="$(to_pep503 "${project}")" \
@@ -68,12 +68,12 @@ function main {
     && popd \
     && out="${PWD}/projects/${project}/${version}" \
     && mkdir -p "${out}" \
-    && copy "${tmp}/closure.json" "${out}/python${python_version}.json" \
+    && copy "${tmp}/closure.json" "${out}/${python_code}.json" \
     && pushd "${tmp}" \
     && jq -er 'to_entries[].key' \
-      < "${out}/python${python_version}.json" > projects.lst \
+      < "${out}/${python_code}.json" > projects.lst \
     && jq -er 'to_entries[].value' \
-      < "${out}/python${python_version}.json" > versions.lst \
+      < "${out}/${python_code}.json" > versions.lst \
     && mapfile -t projects < projects.lst \
     && mapfile -t versions < versions.lst \
     && popd \
@@ -89,7 +89,7 @@ function main {
         fetch "${project}" "${version}"
       fi
 
-      if ! test -e "projects/${project}/${version}/python${python_version}.json"; then
+      if ! test -e "projects/${project}/${version}/${python_code}.json"; then
         main "${python_version}" "${project}" "${version}"
       fi
     done

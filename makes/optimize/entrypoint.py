@@ -21,7 +21,7 @@ def main() -> None:
         for version in sorted(os.listdir(project_path)):
             version_path = os.path.join(project_path, version)
             if os.path.isdir(version_path):
-                py_common_path = os.path.join(version_path, "python3.*.json")
+                py_common_path = os.path.join(version_path, "python3*.json")
                 py_common = (
                     set(load_json(py_common_path).items())
                     if os.path.exists(py_common_path)
@@ -30,7 +30,7 @@ def main() -> None:
 
                 py = {
                     py_version: set(load_json(py_path).items()) | py_common
-                    for py_version in ["3.6", "3.7", "3.8", "3.9"]
+                    for py_version in ["36", "37", "38", "39"]
                     for py_path in [
                         os.path.join(
                             version_path,
