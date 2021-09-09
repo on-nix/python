@@ -1,6 +1,8 @@
 {
-  searchPathsRuntime = { nixpkgs, nixpkgsPython, ... }: {
+  searchPathsRuntime = { nixpkgs, nixpkgsPython, pythonVersion, ... }: {
     rpath = [ nixpkgs.gcc.cc.lib ];
-    source = [ nixpkgsPython.numpy ];
+    source = [
+      nixpkgsPython.projects.numpy.latest.${pythonVersion}.dev
+    ];
   };
 }

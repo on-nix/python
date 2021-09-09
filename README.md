@@ -5,18 +5,14 @@ of [Python][PYTHON] projects
 from the [Python Packaging Index][PYPI].
 That can be installed with the [Nix][NIX] package manager.
 
-## Repository state
-
 - Scope:
   - :heavy_check_mark:
     All [active Python releases][PYTHON_RELEASES] (`3.6`, `3.7`, `3.8`, `3.9`)
   - :heavy_check_mark: 600+ projects already packaged
 - Quality:
-  - :heavy_check_mark: Pure and reproducible (Nix with sandbox)
-  - :heavy_check_mark: Hashes everywhere (fixed-output derivations)
-  - :heavy_check_mark: Secure (No supply-chain attacks)
-  - :heavy_check_mark: No broken packages, if it's there, it works!
-  - :heavy_check_mark: Projects are tested
+  - :heavy_check_mark: It is 100% Nix, with love :heart:
+  - :heavy_check_mark: Data integrity checksums are used everywhere
+  - :heavy_check_mark: We test projects before you use them
 - Platforms:
   - :heavy_check_mark: Linux x86-64
   - :construction: MacOS x86-64
@@ -25,26 +21,76 @@ That can be installed with the [Nix][NIX] package manager.
   - :heavy_check_mark: A highly granular cache
   - :heavy_check_mark: Available on [Cachix][CACHIX_NIXPKGS_PYTHON]
 
-## Using
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+# Contents
 
-### Available projects
+- [List of available projects](#list-of-available-projects)
+- [Installing projects as applications](#installing-projects-as-applications)
+- [Creating Python Environments](#creating-python-environments)
+    - [Compatibility with Nixpkgs](#compatibility-with-nixpkgs)
+- [Using the binary cache](#using-the-binary-cache)
+- [Contributing](#contributing)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+# List of available projects
 
 Checkout the [projects](./projects) folder,
-each entry represents a project and its available versions,
-for example:
-- `"awscli"`, or
-- `"awscli-1.20.31"`
+each entry represents a project and its available versions.
 
-The format is in general like this:
-- `"project"`: To reference the latest version.
-- `"project-version"`: To reference a specific version.
+For example:
+- Project: `awscli` and version: `1.20.31`, or
+- Project: `requests` and version `2.26.0`
 
-### Importing
+If you want to refer to the latest version available you can do it:
+- Project: `awscli` and version `latest`, or
+- Project: `requests` and version: `latest`
 
-In order to use this repository you need to import it
-into your project. For example:
+# Installing projects as applications
+
+If you want to **only** use the binaries of a project
+you can install them on your system like this:
+
+```bash
+$ nix-env -iA 'apps."<project>"."<version>"' -f https://github.com/kamadorueda/nixpkgs-python/tarball/main
+```
+
+For example:
+
+```bash
+$ nix-env -iA 'apps."awscli"."latest"' -f https://github.com/kamadorueda/nixpkgs-python/tarball/main
+```
+
+or
+
+```bash
+$ nix-env -iA 'apps."awscli"."1.20.31"' -f https://github.com/kamadorueda/nixpkgs-python/tarball/main
+```
+
+After the process have completed,
+you will be able to use the project's binaries:
+
+```bash
+
+$ aws --version
+
+  aws-cli/1.20.31 Python/3.9.6 Linux/5.10.62 botocore/1.21.31
+```
+
+:warning: You won't be able to import the project libraries with Python (`import xxx`). If you want to do this please keep reading.
+
+# Creating Python Environments
+
+First,
+you need to import Nixpkgs Python
+into your project.
+
+For example:
 
 ```nix
+# /path/to/my/env.nix
+
 let
   nixpkgs = import <nixpkgs> { };
 
@@ -61,30 +107,33 @@ in
 # Keep reading for more information
 ```
 
-### makeEnv
+This repository offers you
+the following functions.
+Please pick the Python version of your choice:
+- `python36Env`: Python 3.6
+- `python37Env`: Python 3.7
+- `python38Env`: Python 3.8
+- `python39Env`: Python 3.9
 
-Cook an environment where the desired [Python][PYTHON] projects
-are present.
-
-Example:
+For example:
 
 ```nix
-nixpkgsPython.makeEnv {
+# /path/to/my/env.nix (continuation)
+
+nixpkgsPython.python39Env {
   name = "example";
-  projects = [
-    "awscli-1.20.31" # Version `1.20.32` of `awscli`
-    "numpy" # Latest version of `numpy`
-    "requests" # Latest version of `requests`
-    "torch-1.9.0" # Version `1.9.0` of `torch`
+  projects = with nixpkgsPython.projects; [
+    awscli."1.20.31"
+    numpy."latest"
+    requests."latest"
+    torch."1.9.0"
   ];
-  pythonVersion = "3.9";
 }
 ```
 
-Valid `pythonVersion`s are: `3.6`, `3.7`, `3.8` and `3.9`.
-
-The output contains a setup script that you can `source`.
-For instance:
+The output of this function
+contains a setup script
+that you can `source`:
 
 ```bash
 # Build your environment
@@ -94,7 +143,11 @@ $ nix-build /path/to/my/env.nix
 $ source ./result/setup
 ```
 
-Dependencies are now available in this shell !! :rocket:
+After doing this,
+the specified dependencies will be available in your shell ! :rocket:
+
+Also, you'll be able to use the applications and libraries provided
+by the projects in the environment:
 
 ```bash
 $ python --version
@@ -118,27 +171,29 @@ $ python -c 'import torch; print(torch.__version__)'
   1.9.0+cu102
 ```
 
-### Compatibility with Nixpkgs
+## Compatibility with Nixpkgs
 
-You can use Nixpkgs Python and Nixpkgs together,
-for example:
+You can use Nixpkgs Python and Nixpkgs together.
+
+For example:
 
 ```nix
+# /path/to/my/expression.nix
+
 let
   # import projects as explained in previous sections
   nixpkgs = import { ... };
   nixpkgsPython = import { ... };
 
   # Create a Nixpkgs Python environment as explained in previous sections
-  env = nixpkgsPython.makeEnv {
+  env = nixpkgsPython.python39Env {
     name = "example";
-    projects = [
-      "awscli-1.20.31" # Version `1.20.32` of `awscli`
-      "numpy" # Latest version of `numpy`
-      "requests" # Latest version of `requests`
-      "torch-1.9.0" # Version `1.9.0` of `torch`
+    projects = with nixpkgsPython.projects; [
+      awscli."1.20.31"
+      numpy."latest"
+      requests."latest"
+      torch."1.9.0"
     ];
-    pythonVersion = "3.9";
   };
 in
 nixpkgs.stdenv.mkDerivation {
@@ -160,7 +215,7 @@ nixpkgs.stdenv.mkDerivation {
 }
 ```
 
-Now just `nix-build` it! :rocket:
+Now just `$ nix-build /path/to/my/expression.nix` ! :rocket:
 
 ```bash
 these derivations will be built:
@@ -186,12 +241,12 @@ aws-cli/1.20.31 Python/3.9.6 Linux/5.10.57 botocore/1.21.31
 + touch /nix/store/9cckx5zpbiakx507g253fv08hykf8msv-example
 ```
 
-### Using the binary cache
+# Using the binary cache
 
 You can configure [nixpkgs-python's binary cache][CACHIX_NIXPKGS_PYTHON]
 to speed up your builds.
 
-## Contributing
+# Contributing
 
 Anything you can think of will be appreciated!
 

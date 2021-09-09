@@ -13,13 +13,8 @@ def main() -> None:
         "jobs": {},
     }
 
-    closures = {
-        "python36": "python3.6.json",
-        "python37": "python3.7.json",
-        "python38": "python3.8.json",
-        "python39": "python3.9.json",
-    }
-    for python in closures:
+    pythons = ("python36", "python37", "python38", "python39")
+    for python in pythons:
         data["jobs"][python] = {
             "env": {"CACHIX_AUTH_TOKEN": "${{ secrets.CACHIX_AUTH_TOKEN }}"},
             "runs-on": "ubuntu-latest",
@@ -39,11 +34,11 @@ def main() -> None:
             for version in sorted(os.listdir(project_path)):
                 version_path = os.path.join(project_path, version)
                 if os.path.isdir(version_path) and os.path.exists(
-                    os.path.join(version_path, closures[python])
+                    os.path.join(version_path, f"{python}.json")
                 ):
                     data["jobs"][python]["steps"].append(
                         {
-                            "run": f"just build '{python}.\"{project}-{version}\"'",
+                            "run": f'just build \'projects."{project}"."{version}".{python}\'',
                         }
                     )
 

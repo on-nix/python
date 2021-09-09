@@ -15,53 +15,63 @@ let
   inherit (nixpkgs.lib.lists) optionals;
   inherit (nixpkgs.lib.strings) splitString;
 
-  pythonVersions = [ "3.6" "3.7" "3.8" "3.9" ];
+  pythonVersions = [ "python36" "python37" "python38" "python39" ];
+  pythons = builtins.map
+    (pythonVersion: nixpkgs.${pythonVersion})
+    pythonVersions;
 
   projectsSrc = ./projects;
+  projects =
+    builtins.listToAttrs (builtins.map
+      (project: {
+        name = project;
+        value = buildProject project;
+      })
+      (ls projectsSrc));
+  apps =
+    builtins.mapAttrs
+      (project: versions: builtins.mapAttrs
+        (version: pythonVersions:
+          let
+            latest = getLatestVersion (builtins.attrNames pythonVersions);
+          in
+          pythonVersions.${latest}.bin)
+        versions)
+      projects;
 
-  buildProjects = pythonVersion:
-    builtins.foldl'
-      (projects: project: projects // (buildProject pythonVersion project))
-      { }
-      (ls projectsSrc);
-
-  buildProject = pythonVersion: project:
+  buildProject = project:
     let
-      versions = buildProjectVersions pythonVersion project;
-      latest = builtins.head (builtins.sort
-        (a: b: (builtins.compareVersions a b) > 0)
-        (builtins.attrNames versions));
+      versions = buildProjectVersions project;
+      latest = getLatestVersion (builtins.attrNames versions);
     in
     if versions == { }
     then { }
-    else
-      ((nixpkgs.lib.mapAttrs'
-        (version: value: { name = "${project}-${version}"; inherit value; })
-        (versions)) //
-      { "${project}" = versions.${latest}; });
-
-  buildProjectVersions = pythonVersion: project:
-    builtins.foldl'
-      (versions: version: versions // (buildProjectVersion pythonVersion project version))
-      { }
-      (ls (projectsSrc + "/${project}"));
-
-  buildProjectVersion = pythonVersion: project: version:
+    else versions // { latest = versions.${latest}; };
+  buildProjectVersions = project:
+    builtins.listToAttrs (builtins.map
+      (version: {
+        name = version;
+        value = buildProjectVersion project version;
+      })
+      (ls (projectsSrc + "/${project}")));
+  buildProjectVersion = project: version:
+    builtins.listToAttrs (builtins.map
+      (pythonVersion: {
+        name = pythonVersion;
+        value = buildProjectVersionForInterpreter project version pythonVersion;
+      })
+      (pythonVersions));
+  buildProjectVersionForInterpreter = project: version: pythonVersion:
     let
-      closureCommonPath = projectsSrc + "/${project}/${version}/python3.*.json";
-      closurePath = projectsSrc + "/${project}/${version}/python${pythonVersion}.json";
+      closureCommonPath = projectsSrc + "/${project}/${version}/python3*.json";
+      closurePath = projectsSrc + "/${project}/${version}/${pythonVersion}.json";
       setupGlobalPath = projectsSrc + "/${project}/setup.nix";
       setupVersionPath = projectsSrc + "/${project}/${version}/setup.nix";
       testGlobalPath = projectsSrc + "/${project}/test.py";
       testVersionPath = projectsSrc + "/${project}/${version}/test.py";
 
-      name = "python${pythonVersion}-${project}-${version}";
-      python = builtins.getAttr pythonVersion {
-        "3.6" = nixpkgs.python36;
-        "3.7" = nixpkgs.python37;
-        "3.8" = nixpkgs.python38;
-        "3.9" = nixpkgs.python39;
-      };
+      name = "${pythonVersion}-${project}-${version}";
+      python = nixpkgs.${pythonVersion};
       setup = (
         ({
           extraInstallers = { };
@@ -94,31 +104,30 @@ let
       ];
 
       cleanPhase = builtins.concatStringsSep "" [
-        (if setup.cleanSetuptools then ''
-          rm -rf $out/lib/python${pythonVersion}/site-packages/_distutils_hack
-          rm -rf $out/lib/python${pythonVersion}/site-packages/distutils-precedence.pth
-        '' else "")
         (if setup.cleanPkgResources then ''
-          rm -rf $out/lib/python${pythonVersion}/site-packages/pkg_resources
+          rm -rf $out/${python.sitePackages}/pkg_resources
         '' else "")
         (if setup.cleanSetuptools then ''
-          rm -rf $out/lib/python${pythonVersion}/site-packages/setuptools
-          rm -rf $out/lib/python${pythonVersion}/site-packages/setuptools*.dist-info
+          rm -rf $out/${python.sitePackages}/_distutils_hack
+          rm -rf $out/${python.sitePackages}/distutils-precedence.pth
+          rm -rf $out/${python.sitePackages}/setuptools
+          rm -rf $out/${python.sitePackages}/setuptools*.dist-info
         '' else "")
       ];
       propagated = builtins.attrValues (builtins.mapAttrs
-        (project: version: builtProjects.${pythonVersion}."${project}-${version}")
+        (project: version: projects.${project}.${version}.${pythonVersion}.dev)
         (setup.patchClosure closure));
       searchPathsArgs = {
         inherit nixpkgs;
-        nixpkgsPython = builtProjects.${pythonVersion};
+        nixpkgsPython = self;
+        inherit pythonVersion;
       };
       searchPathsBuild = makeSearchPaths
         (setup.searchPathsBuild searchPathsArgs);
       searchPathsRuntime = makeSearchPaths
         (setup.searchPathsRuntime searchPathsArgs);
 
-      venvRaw = makeDerivation {
+      venvContents = makeDerivation {
         builder = ''
           export DETERMINISTIC_BUILD=1
           export PYTHONDONTWRITEBYTECODE=1
@@ -150,8 +159,8 @@ let
             pip
           rm -rf $out/bin/[Aa]ctivate*
           rm -rf $out/bin/easy_install*
-          rm -rf $out/lib/python${pythonVersion}/site-packages/__pycache__
-          rm -rf $out/lib/python${pythonVersion}/site-packages/easy_install.py
+          rm -rf $out/${python.sitePackages}/__pycache__
+          rm -rf $out/${python.sitePackages}/easy_install.py
 
           ${cleanPhase}
 
@@ -170,8 +179,8 @@ let
               -mindepth 1 \
               -type f
           fi
-          if test -e lib/python${pythonVersion}/site-packages; then
-            find -L lib/python${pythonVersion}/site-packages \
+          if test -e ${python.sitePackages}; then
+            find -L ${python.sitePackages} \
               -exec du -B KiB {} \; \
               -maxdepth 1 \
               -mindepth 1 \
@@ -180,42 +189,81 @@ let
           echo
         '';
         env.envMirror = makePypiMirror name installers;
-        inherit name;
+        name = "${name}-out";
         searchPaths = {
           bin = [ python nixpkgs.findutils ];
           source = [ searchPathsBuild ];
         };
       };
-      venvSetup = makeSearchPaths {
-        bin = [ venvRaw ];
-        pythonPackage36 = optional (pythonVersion == "3.6") venvRaw;
-        pythonPackage37 = optional (pythonVersion == "3.7") venvRaw;
-        pythonPackage38 = optional (pythonVersion == "3.8") venvRaw;
-        pythonPackage39 = optional (pythonVersion == "3.9") venvRaw;
-        source = propagated ++ [ searchPathsRuntime ];
-      };
-      venv = makeDerivation {
+      venvSearchPaths = makeDerivation {
         builder = ''
           mkdir $out
           mkdir $out/nix-support
-          ln -s $envVenvSetup/template $out/setup
-          ln -s $envVenvSetup/template $out/template
-          ln -s $envVenvSetup/template $out/nix-support/setup-hook
 
-          if test -n "$envTest"; then
-            source $out/setup
-            python $envTest
-          fi
+          ln -s $envWrapped/template $out/setup
+          ln -s $envWrapped/template $out/template
+          ln -s $envWrapped/template $out/nix-support/setup-hook
+        '';
+        env.envWrapped = makeSearchPaths {
+          bin = [ venvContents ];
+          pythonPackage36 = optional (pythonVersion == "python36") venvContents;
+          pythonPackage37 = optional (pythonVersion == "python37") venvContents;
+          pythonPackage38 = optional (pythonVersion == "python38") venvContents;
+          pythonPackage39 = optional (pythonVersion == "python39") venvContents;
+          source = propagated ++ [ searchPathsRuntime ];
+        };
+        name = "${name}-dev";
+      };
+      venvTests = makeDerivation {
+        builder = ''
+          source $envVenvSearchPaths/setup
+
+          if test -n "$envTest"; then python $envTest; fi
+
+          touch $out
         '';
         env = {
-          envVenvSetup = venvSetup;
+          envVenvSearchPaths = venvSearchPaths;
           envTest = test;
         };
-        inherit name;
+        name = "${name}-test";
+      };
+      venvBins = makeDerivation {
+        builder = ''
+          shopt -s nullglob
+
+          mkdir $out
+          mkdir $out/bin
+
+          for bin in $envVenvContents/bin/*; do
+            bin_basename="$(basename "$bin")"
+            {
+              echo "#! $envBash/bin/bash"
+              echo
+              echo source $envVenvSearchPaths/setup
+              echo
+              echo "'$bin' \"\$@\""
+            } > "$out/bin/$bin_basename"
+            if test -x "$bin"; then
+              chmod +x "$out/bin/$bin_basename"
+            fi
+          done
+        '';
+        env = {
+          envBash = nixpkgs.bash;
+          envVenvContents = venvContents;
+          envVenvSearchPaths = venvSearchPaths;
+        };
+        name = "${name}-bin";
       };
     in
     if builtins.pathExists closurePath
-    then { "${version}" = venv; }
+    then {
+      bin = venvBins;
+      out = venvContents;
+      dev = venvSearchPaths;
+      test = venvTests;
+    }
     else { };
 
   supportedArchs = [ "any" ]
@@ -232,19 +280,20 @@ let
     ++ (optional (isLinux && isi686) "manylinux_2_24_i686")
     ++ (optional (isLinux && isi686) "manylinux2010_i686")
     ++ (optional (isLinux && isi686) "manylinux2014_i686");
-  supportedAbis = {
-    "3.6" = [ "none" "abi3" "cp36" "cp36m" ];
-    "3.7" = [ "none" "abi3" "cp37" "cp37m" ];
-    "3.8" = [ "none" "abi3" "cp38" "cp38m" ];
-    "3.9" = [ "none" "abi3" "cp39" "cp39m" ];
-  };
-  supportedPythonImplementations = {
-    "3.6" = [ "any" "cp36" "py3" "py36" "3.6" ];
-    "3.7" = [ "any" "cp37" "py3" "py37" "3.7" ];
-    "3.8" = [ "any" "cp38" "py3" "py38" "3.8" ];
-    "3.9" = [ "any" "cp39" "py3" "py39" "3.9" ];
-  };
-
+  supportedAbis =
+    {
+      "python36" = [ "none" "abi3" "cp36" "cp36m" ];
+      "python37" = [ "none" "abi3" "cp37" "cp37m" ];
+      "python38" = [ "none" "abi3" "cp38" "cp38m" ];
+      "python39" = [ "none" "abi3" "cp39" "cp39m" ];
+    };
+  supportedPythonImplementations =
+    {
+      "python36" = [ "any" "cp36" "py3" "py36" "3.6" ];
+      "python37" = [ "any" "cp37" "py3" "py37" "3.7" ];
+      "python38" = [ "any" "cp38" "py3" "py38" "3.8" ];
+      "python39" = [ "any" "cp39" "py3" "py39" "3.9" ];
+    };
   isSupported = required: supported:
     builtins.any (elem: builtins.elem elem supported) required;
   isSupportedWheel = pythonVersion:
@@ -283,6 +332,9 @@ let
         else abort "Unable to parse installer: ${name}";
       projectL = builtins.substring 0 1 project;
       base = "https://files.pythonhosted.org/packages";
+      impls = [ meta.impl ]
+        ++ (builtins.map (py: py.pythonVersion) pythons)
+        ++ [ "2.7" ];
     in
     meta // {
       inherit name;
@@ -296,7 +348,7 @@ let
           else
             (builtins.map
               (impl: "${base}/${impl}/${projectL}/${project}/${name}")
-              ([ meta.impl ] ++ pythonVersions ++ [ "2.7" ]));
+              (impls));
       };
     };
 
@@ -351,10 +403,9 @@ let
     }]
   );
 
-  makeEnv =
+  makeEnv = pythonVersion:
     { name
     , projects
-    , pythonVersion
     }:
     makeDerivation {
       builder = ''
@@ -366,51 +417,68 @@ let
       '';
       env.envOut = makeSearchPaths {
         source = builtins.map
-          (project: builtProjects.${pythonVersion}.${project})
+          (project: project.${pythonVersion}.dev)
           (projects);
       };
       name = "python${pythonVersion}-env-for-${name}";
     };
 
+  getLatestVersion = versions: builtins.head (builtins.sort
+    (a: b: (builtins.compareVersions a b) > 0)
+    versions);
+
   ls = dir: builtins.attrNames (builtins.readDir dir);
 
-  builtProjects = builtins.listToAttrs (builtins.map
-    (pythonVersion: {
-      name = pythonVersion;
-      value = buildProjects pythonVersion;
-    })
-    (pythonVersions));
-
   __all__ = nixpkgs.linkFarm "nixpkgs-python"
-    (builtins.map
-      (pythonVersion: {
-        name = pythonVersion;
-        path = makeEnv {
-          name = pythonVersion;
-          projects = builtins.attrNames builtProjects.${pythonVersion};
-          inherit pythonVersion;
-        };
+    (builtins.attrValues (builtins.mapAttrs
+      (project: versions: {
+        name = project;
+        path = nixpkgs.linkFarm project
+          (builtins.attrValues (builtins.mapAttrs
+            (version: pythonVersions: {
+              name = version;
+              path = nixpkgs.linkFarm "${project}-${version}"
+                (builtins.attrValues (builtins.mapAttrs
+                  (pythonVersion: outputs: {
+                    name = pythonVersion;
+                    path = nixpkgs.linkFarm "${project}-${version}"
+                      (builtins.attrValues (builtins.mapAttrs
+                        (output: value: {
+                          name = output;
+                          path = value;
+                        })
+                        outputs));
+                  })
+                  pythonVersions));
+            })
+            versions));
       })
-      pythonVersions);
+      projects));
+
+  self = {
+    inherit __all__;
+    inherit apps;
+    inherit projects;
+  } // (
+    builtins.listToAttrs (builtins.map
+      (pythonVersion: {
+        name = "${pythonVersion}Env";
+        value = makeEnv pythonVersion;
+      })
+      pythonVersions));
+
+  ads = ''
+
+
+    $ You are using Nixpkgs Python!
+
+      https://github.com/kamadorueda/nixpkgs-python
+
+      Found a bug? Are we missing a feature?
+      Let us know in the issues section.
+
+      Please consider starring, funding or contributing to the project!
+
+  '';
 in
-builtins.trace ''
-
-
-You are using Nixpkgs Python!
-
-  https://github.com/kamadorueda/nixpkgs-python
-
-Found a bug? Are we missing a feature?
-Let us know in the issues section.
-
-Please consider starring, funding or contributing to the project!
-
-''
-{
-  inherit __all__;
-  inherit makeEnv;
-  python36 = builtProjects."3.6";
-  python37 = builtProjects."3.7";
-  python38 = builtProjects."3.8";
-  python39 = builtProjects."3.9";
-}
+builtins.trace ads self

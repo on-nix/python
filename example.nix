@@ -3,15 +3,14 @@ let
 
   nixpkgsPython = import ./.;
 
-  env = nixpkgsPython.makeEnv {
+  env = nixpkgsPython.python39Env {
     name = "example";
-    projects = [
-      "awscli-1.20.31" # Version `1.20.32` of `awscli`
-      "numpy" # Latest version of `numpy`
-      "requests" # Latest version of `requests`
-      "torch-1.9.0" # Version `1.9.01 of `torch`
+    projects = with nixpkgsPython.projects; [
+      awscli."1.20.31"
+      numpy."latest"
+      requests."latest"
+      torch."1.9.0"
     ];
-    pythonVersion = "3.9";
   };
 in
 nixpkgs.stdenv.mkDerivation {
