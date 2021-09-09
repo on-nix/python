@@ -27,7 +27,7 @@ let
         name = project;
         value = buildProject project;
       })
-      (ls projectsSrc));
+      (lsDirs projectsSrc));
   apps =
     builtins.mapAttrs
       (project: versions: builtins.mapAttrs
@@ -53,7 +53,7 @@ let
         name = version;
         value = buildProjectVersion project version;
       })
-      (ls (projectsSrc + "/${project}")));
+      (lsDirs (projectsSrc + "/${project}")));
   buildProjectVersion = project: version:
     builtins.listToAttrs (builtins.map
       (pythonVersion: {
@@ -427,7 +427,13 @@ let
     (a: b: (builtins.compareVersions a b) > 0)
     versions);
 
-  ls = dir: builtins.attrNames (builtins.readDir dir);
+  lsDirs = path:
+    let
+      contents = builtins.readDir path;
+    in
+    builtins.filter
+      (name: contents.${name} == "directory")
+      (builtins.attrNames contents);
 
   __all__ = nixpkgs.linkFarm "nixpkgs-python"
     (builtins.attrValues (builtins.mapAttrs
