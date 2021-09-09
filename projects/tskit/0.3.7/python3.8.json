@@ -1,9 +1,1 @@
-{
-  "attrs": "21.2.0",
-  "jsonschema": "3.2.0",
-  "numpy": "1.21.2",
-  "pyrsistent": "0.18.0",
-  "six": "1.16.0",
-  "svgwrite": "1.4.1",
-  "tskit": "0.3.7"
-}
+{}

@@ -1,0 +1,8 @@
+{
+  "gitdb": "4.0.7",
+  "gitpython": "3.1.20",
+  "lizard": "1.17.9",
+  "pytz": "2021.1",
+  "smmap": "4.0.0",
+  "typing-extensions": "3.10.0.1"
+}

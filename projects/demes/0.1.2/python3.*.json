@@ -1,0 +1,5 @@
+{
+  "attrs": "21.2.0",
+  "ruamel-yaml": "0.17.16",
+  "ruamel-yaml-clib": "0.2.6"
+}

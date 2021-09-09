@@ -48,6 +48,7 @@ let
 
   buildProjectVersion = pythonVersion: project: version:
     let
+      closureCommonPath = projectsSrc + "/${project}/${version}/python3.*.json";
       closurePath = projectsSrc + "/${project}/${version}/python${pythonVersion}.json";
       setupGlobalPath = projectsSrc + "/${project}/setup.nix";
       setupVersionPath = projectsSrc + "/${project}/${version}/setup.nix";
@@ -82,7 +83,7 @@ let
         then testGlobalPath
         else null;
 
-      closure = builtins.removeAttrs (fromJsonFile closurePath) [ project ];
+      closure = (fromJsonFile closureCommonPath) // (fromJsonFile closurePath);
 
       installers = (builtins.attrValues (builtins.mapAttrs
         (makePypiInstaller pythonVersion)

@@ -1,6 +1,1 @@
-{
-  "cffi": "1.14.6",
-  "persistent": "4.7.0",
-  "pycparser": "2.20",
-  "zope-interface": "5.4.0"
-}
+{}

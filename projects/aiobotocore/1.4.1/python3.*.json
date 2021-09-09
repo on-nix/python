@@ -1,0 +1,17 @@
+{
+  "aiohttp": "3.7.4.post0",
+  "aioitertools": "0.8.0",
+  "async-timeout": "3.0.1",
+  "attrs": "21.2.0",
+  "botocore": "1.20.106",
+  "chardet": "4.0.0",
+  "idna": "3.2",
+  "jmespath": "0.10.0",
+  "multidict": "5.1.0",
+  "python-dateutil": "2.8.2",
+  "six": "1.16.0",
+  "typing-extensions": "3.10.0.1",
+  "urllib3": "1.26.6",
+  "wrapt": "1.12.1",
+  "yarl": "1.6.3"
+}

@@ -1,0 +1,6 @@
+{
+  "beautifulsoup4": "4.9.3",
+  "soupsieve": "2.2.1",
+  "waitress": "2.0.0",
+  "webob": "1.8.7"
+}

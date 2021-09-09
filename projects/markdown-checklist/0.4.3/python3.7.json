@@ -1,7 +1,5 @@
 {
   "importlib-metadata": "4.8.1",
-  "markdown": "3.3.4",
-  "markdown-checklist": "0.4.3",
   "typing-extensions": "3.10.0.2",
   "zipp": "3.5.0"
 }

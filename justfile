@@ -31,3 +31,6 @@ new PROJECT:
   m . /create 3.7 {{PROJECT}}; \
   m . /create 3.8 {{PROJECT}}; \
   m . /create 3.9 {{PROJECT}}; \
+
+optimize:
+  python3 makes/optimize/entrypoint.py

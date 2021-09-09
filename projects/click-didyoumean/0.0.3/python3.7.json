@@ -1,7 +1,4 @@
 {
-  "click": "8.0.1",
-  "click-didyoumean": "0.0.3",
-  "colorama": "0.4.4",
   "importlib-metadata": "4.8.1",
   "typing-extensions": "3.10.0.2",
   "zipp": "3.5.0"

@@ -1,9 +1,5 @@
 {
-  "attrs": "21.2.0",
   "importlib-metadata": "4.8.1",
-  "jsonschema": "3.2.0",
-  "pyrsistent": "0.18.0",
-  "six": "1.16.0",
   "typing-extensions": "3.10.0.1",
   "zipp": "3.5.0"
 }

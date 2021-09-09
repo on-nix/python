@@ -1,6 +1,5 @@
 {
   "importlib-metadata": "4.8.1",
-  "jsonpickle": "2.0.0",
   "typing-extensions": "3.10.0.2",
   "zipp": "3.5.0"
 }

@@ -1,10 +1,1 @@
-{
-  "certifi": "2021.5.30",
-  "charset-normalizer": "2.0.4",
-  "docutils": "0.17.1",
-  "idna": "3.2",
-  "plantweb": "1.2.1",
-  "requests": "2.26.0",
-  "six": "1.16.0",
-  "urllib3": "1.26.6"
-}
+{}

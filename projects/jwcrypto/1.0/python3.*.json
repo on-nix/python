@@ -1,0 +1,7 @@
+{
+  "cffi": "1.14.6",
+  "cryptography": "3.4.8",
+  "deprecated": "1.2.12",
+  "pycparser": "2.20",
+  "wrapt": "1.12.1"
+}

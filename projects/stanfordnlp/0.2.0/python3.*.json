@@ -1,0 +1,11 @@
+{
+  "certifi": "2021.5.30",
+  "charset-normalizer": "2.0.4",
+  "colorama": "0.4.4",
+  "idna": "3.2",
+  "protobuf": "3.17.3",
+  "requests": "2.26.0",
+  "six": "1.16.0",
+  "tqdm": "4.62.2",
+  "urllib3": "1.26.6"
+}

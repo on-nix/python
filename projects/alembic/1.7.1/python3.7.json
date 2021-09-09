@@ -1,11 +1,6 @@
 {
-  "alembic": "1.7.1",
-  "greenlet": "1.1.1",
   "importlib-metadata": "4.8.1",
   "importlib-resources": "5.2.2",
-  "mako": "1.1.5",
-  "markupsafe": "2.0.1",
-  "sqlalchemy": "1.4.23",
   "typing-extensions": "3.10.0.2",
   "zipp": "3.5.0"
 }

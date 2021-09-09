@@ -1,7 +1,4 @@
 {
-  "astroid": "2.7.3",
-  "lazy-object-proxy": "1.6.0",
   "typed-ast": "1.4.3",
-  "typing-extensions": "3.10.0.2",
-  "wrapt": "1.12.1"
+  "typing-extensions": "3.10.0.2"
 }

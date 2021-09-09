@@ -1,16 +1,4 @@
 {
-  "certifi": "2021.5.30",
-  "charset-normalizer": "2.0.4",
-  "click": "8.0.1",
-  "colorama": "0.4.4",
-  "gg": "0.0.21",
-  "gitdb": "4.0.7",
-  "gitpython": "3.1.20",
-  "idna": "3.2",
   "importlib-metadata": "4.8.1",
-  "requests": "2.26.0",
-  "smmap": "4.0.0",
-  "typing-extensions": "3.10.0.2",
-  "urllib3": "1.26.6",
   "zipp": "3.5.0"
 }

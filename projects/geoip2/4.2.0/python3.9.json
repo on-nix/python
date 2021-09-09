@@ -1,16 +1,1 @@
-{
-  "aiohttp": "3.7.4.post0",
-  "async-timeout": "3.0.1",
-  "attrs": "21.2.0",
-  "certifi": "2021.5.30",
-  "chardet": "4.0.0",
-  "charset-normalizer": "2.0.4",
-  "geoip2": "4.2.0",
-  "idna": "3.2",
-  "maxminddb": "2.0.3",
-  "multidict": "5.1.0",
-  "requests": "2.26.0",
-  "typing-extensions": "3.10.0.2",
-  "urllib3": "1.26.6",
-  "yarl": "1.6.3"
-}
+{}

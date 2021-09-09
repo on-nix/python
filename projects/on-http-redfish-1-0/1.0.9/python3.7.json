@@ -1,7 +1,1 @@
-{
-  "certifi": "2021.5.30",
-  "on-http-redfish-1-0": "1.0.9",
-  "python-dateutil": "2.8.2",
-  "six": "1.16.0",
-  "urllib3": "1.26.6"
-}
+{}
