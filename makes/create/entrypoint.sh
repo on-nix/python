@@ -92,7 +92,9 @@ function main {
       if ! test -e "projects/${project}/${version}/${python_code}.json"; then
         main "${python_version}" "${project}" "${version}"
       fi
-    done
+    done \
+    && rm -rf "${tmp}" \
+    || rm -rf "${tmp}"
 }
 
 main "${@}"

@@ -14,15 +14,4 @@ for project in "${projects[@]}"; do
   if test -e "projects/${project}"; then continue; fi
 
   just new "${project}"
-
-  if just build __all__; then
-    git add projects
-    git commit -m "feat(conf): ${project}"
-    git push
-  else
-    git ls-files --exclude-standard --others >> makes/crawl/errors.lst
-    git add makes/crawl/errors.lst
-    rm -rf projects
-    git checkout -- projects
-  fi
 done

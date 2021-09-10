@@ -24,8 +24,11 @@ ci:
   source ./result/setup \
     && python3 .github/workflows/generate.py
 
-crawl:
-  bash makes/crawl/entrypoint.sh
+crawl-fetch:
+  bash makes/crawl/fetch.sh
+
+crawl-build:
+  bash makes/crawl/build.sh
 
 new PROJECT:
   set +e; \
