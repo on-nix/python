@@ -1,0 +1,22 @@
+{
+  "confluent-kafka-1.7.0.tar.gz": "80e01b4791513c27eded8517af847530dfdf04c43d99ff132ed9c3085933b75b",
+  "confluent_kafka-1.7.0-cp27-cp27m-macosx_10_9_x86_64.whl": "1246f3c674357630b078bbc76824eabea87ac5a9ca270886abca9c7f052381da",
+  "confluent_kafka-1.7.0-cp27-cp27m-manylinux2010_x86_64.whl": "f98fa8982da1a960e6c1bfca49b235f8de45c8af83d6b741d78f96f346748488",
+  "confluent_kafka-1.7.0-cp27-cp27mu-manylinux2010_x86_64.whl": "aa5f2905783b1a4e560e4172e228e2174a077090cbdf91a5448dd8deac02b2a9",
+  "confluent_kafka-1.7.0-cp36-cp36m-macosx_10_9_x86_64.whl": "2b4d8d53148a26f0cafcb42e9483f76473120bc091fa0ede497caf8cc8db6f88",
+  "confluent_kafka-1.7.0-cp36-cp36m-manylinux2010_x86_64.whl": "bbba1f144992fbd920cb10c7c2450e82fc8936e04272d36be3a3567bfbf768d4",
+  "confluent_kafka-1.7.0-cp36-cp36m-win32.whl": "f2628f3ebffe05d346f0456c566d5519a59bd0aa88179a9b7408c1808415c102",
+  "confluent_kafka-1.7.0-cp36-cp36m-win_amd64.whl": "8bb0d7e28deac58b234f7481184a60f743838c4e06309fbcca9484b93697c33b",
+  "confluent_kafka-1.7.0-cp37-cp37m-macosx_10_9_x86_64.whl": "aad712996e1465e806f7e027ad248b2474d2140a3985d5f7789a5ff68e5dba8a",
+  "confluent_kafka-1.7.0-cp37-cp37m-manylinux2010_x86_64.whl": "415c23e7ccf948e50de616191febd4ec299b1d748ae0abdab3888f0ec0915ea9",
+  "confluent_kafka-1.7.0-cp37-cp37m-win32.whl": "bc2ad89e6cc4e05c5855dfbee2838a699861943ab3ea62ff2b914d72fcd1a6c6",
+  "confluent_kafka-1.7.0-cp37-cp37m-win_amd64.whl": "11173733e0540a98e493c91a05686ba4e777883c2cda756d47848fce84e06b30",
+  "confluent_kafka-1.7.0-cp38-cp38-macosx_10_9_x86_64.whl": "5d9c75822c0b1cb7787fc60a78b3f249bfd56b3a692dd079d9d7510ffefe2c99",
+  "confluent_kafka-1.7.0-cp38-cp38-manylinux2010_x86_64.whl": "ee3f33077e3534b33cec9825843cd705ede458c585cfab2a052813391fb73291",
+  "confluent_kafka-1.7.0-cp38-cp38-win32.whl": "5e044e5c5fce78c87aedd56dbd7bd5c046dbf7a0bc9a0eff32229766be8808a5",
+  "confluent_kafka-1.7.0-cp38-cp38-win_amd64.whl": "c0b3fc70c31f636562464e905c2b75a2705d3d53bb4687fd48b574dee2a7fa51",
+  "confluent_kafka-1.7.0-cp39-cp39-macosx_10_9_x86_64.whl": "1e8e7770eaf2f6df0a3620f0bfc5dc2293e6ca3ac1e14c4babe6fefc03f50e18",
+  "confluent_kafka-1.7.0-cp39-cp39-manylinux2010_x86_64.whl": "33c32de2357ddcd3f8a98a96591c69c7ada76215e051ed5dbb17b763921f376a",
+  "confluent_kafka-1.7.0-cp39-cp39-win32.whl": "955de681f2bc7241d580ebb43d7516f825950518bfaf2c8e6bc3c88d22be4f08",
+  "confluent_kafka-1.7.0-cp39-cp39-win_amd64.whl": "9f5ff838f2ca87e467aa992f9fcb8bbdd222097690fe6b15aa733025a1613532"
+}
