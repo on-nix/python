@@ -1,0 +1,21 @@
+{
+  "certifi": "2021.5.30",
+  "charset-normalizer": "2.0.4",
+  "click": "8.0.1",
+  "colorama": "0.4.4",
+  "filelock": "3.0.12",
+  "huggingface-hub": "0.0.16",
+  "idna": "3.2",
+  "joblib": "1.0.1",
+  "packaging": "21.0",
+  "pyparsing": "2.4.7",
+  "pyyaml": "5.4.1",
+  "regex": "2021.8.28",
+  "requests": "2.26.0",
+  "sacremoses": "0.0.45",
+  "six": "1.16.0",
+  "tokenizers": "0.10.3",
+  "tqdm": "4.62.2",
+  "typing-extensions": "3.10.0.2",
+  "urllib3": "1.26.6"
+}

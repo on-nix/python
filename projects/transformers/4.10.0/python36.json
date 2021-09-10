@@ -1,0 +1,6 @@
+{
+  "dataclasses": "0.8",
+  "importlib-metadata": "4.8.1",
+  "numpy": "1.19.5",
+  "zipp": "3.5.0"
+}
