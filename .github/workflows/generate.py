@@ -13,7 +13,7 @@ def main() -> None:
         "jobs": {
             "build": {
                 "env": {
-                    "CACHIX_AUTH_TOKEN": "${{ secrets.CACHIX_AUTH_TOKEN }}"
+                    "CACHIX_NIXPKGS_PYTHON_TOKEN": "${{ secrets.CACHIX_NIXPKGS_PYTHON_TOKEN }}"
                 },
                 "runs-on": "ubuntu-latest",
                 "steps": [

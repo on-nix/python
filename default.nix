@@ -471,7 +471,6 @@ let
       (builtins.attrNames contents);
 
   self = makeEnvs // {
-    __all__ = attrsToLinkFarm "nixpkgs-python" projects;
     inherit apps;
     inherit projects;
   };
