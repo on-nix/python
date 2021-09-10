@@ -168,35 +168,11 @@ let
           rm -rf $out/${python.sitePackages}/easy_install.py
 
           ${cleanPhase}
-
-          echo
-          echo $out
-          cd $out
-          if test -e bin; then
-            find -L bin \
-              -exec du -B KiB {} \; \
-              -mindepth 1 \
-              -type f
-          fi
-          if test -e include; then
-            find -L include \
-              -exec du -B KiB {} \; \
-              -mindepth 1 \
-              -type f
-          fi
-          if test -e ${python.sitePackages}; then
-            find -L ${python.sitePackages} \
-              -exec du -B KiB {} \; \
-              -maxdepth 1 \
-              -mindepth 1 \
-              -type d
-          fi
-          echo
         '';
         env.envMirror = makePypiMirror name installers;
         name = "${name}-out";
         searchPaths = {
-          bin = [ python nixpkgs.findutils ];
+          bin = [ python ];
           source = [ searchPathsBuild ];
         };
       };
@@ -221,6 +197,30 @@ let
       };
       venvTests = makeDerivation {
         builder = ''
+          echo
+          pushd $envVenvContents
+          if test -e bin; then
+            find -L bin \
+              -exec du -B KiB {} \; \
+              -mindepth 1 \
+              -type f
+          fi
+          if test -e include; then
+            find -L include \
+              -exec du -B KiB {} \; \
+              -mindepth 1 \
+              -type f
+          fi
+          if test -e ${python.sitePackages}; then
+            find -L ${python.sitePackages} \
+              -exec du -B KiB {} \; \
+              -maxdepth 1 \
+              -mindepth 1 \
+              -type d
+          fi
+          popd
+          echo
+
           source $envVenvSearchPaths/setup
 
           if test -n "$envTest"; then python $envTest; fi
@@ -228,10 +228,12 @@ let
           touch $out
         '';
         env = {
+          envVenvContents = venvContents;
           envVenvSearchPaths = venvSearchPaths;
           envTest = test;
         };
         name = "${name}-test";
+        searchPaths.bin = [ nixpkgs.findutils ];
       };
       venvBins = makeDerivation {
         builder = ''
