@@ -1,0 +1,5 @@
+{
+  "colorama": "0.4.4",
+  "loguru": "0.5.3",
+  "win32-setctime": "1.0.3"
+}
