@@ -22,22 +22,21 @@ let
 
   projectsSrc = ./projects;
   projects =
-    builtins.listToAttrs (builtins.map
+    mapListToAttrs
       (project: {
         name = project;
         value = buildProject project;
       })
-      (lsDirs projectsSrc));
+      (lsDirs projectsSrc);
   apps =
     builtins.mapAttrs
-      (project: versions: builtins.mapAttrs
-        (version: pythonVersions:
-          let
-            latest = getLatestVersion (builtins.attrNames pythonVersions);
-          in
-          pythonVersions.${latest}.bin)
-        versions)
-      projects;
+      (project: versions:
+        builtins.mapAttrs
+          (version: pythonVersions:
+            let latest = getLatestVersion (builtins.attrNames pythonVersions);
+            in pythonVersions.${latest}.bin)
+          (versions))
+      (projects);
 
   buildProject = project:
     let
@@ -46,21 +45,25 @@ let
     in
     if versions == { }
     then { }
-    else versions // { latest = versions.${latest}; };
+    else versions
+      // { latest = versions.${latest}; }
+      // { outPath = attrsToLinkFarm project versions; };
+
   buildProjectVersions = project:
-    builtins.listToAttrs (builtins.map
+    mapListToAttrs
       (version: {
         name = version;
         value = buildProjectVersion project version;
       })
-      (lsDirs (projectsSrc + "/${project}")));
+      (lsDirs (projectsSrc + "/${project}"));
   buildProjectVersion = project: version:
-    builtins.listToAttrs (builtins.map
-      (pythonVersion: {
-        name = pythonVersion;
-        value = buildProjectVersionForInterpreter project version pythonVersion;
-      })
-      (pythonVersions));
+    let
+      results = mapListToAttrs
+        (buildProjectVersionForInterpreter project version)
+        (pythonVersions);
+    in
+    results // { outPath = attrsToLinkFarm "${project}-${version}" results; };
+
   buildProjectVersionForInterpreter = project: version: pythonVersion:
     let
       closureCommonPath = projectsSrc + "/${project}/${version}/python3*.json";
@@ -95,12 +98,14 @@ let
 
       closure = (fromJsonFile closureCommonPath) // (fromJsonFile closurePath);
 
-      installers = (builtins.attrValues (builtins.mapAttrs
-        (makePypiInstaller pythonVersion)
-        (setup.extraInstallers)))
-      ++ [
-        (makePypiInstaller pythonVersion "pip" "21.2.4")
-        (makePypiInstaller pythonVersion project version)
+      installers = builtins.concatLists [
+        (mapAttrsToList
+          (makePypiInstaller pythonVersion)
+          (setup.extraInstallers))
+        [
+          (makePypiInstaller pythonVersion "pip" "21.2.4")
+          (makePypiInstaller pythonVersion project version)
+        ]
       ];
 
       cleanPhase = builtins.concatStringsSep "" [
@@ -114,9 +119,9 @@ let
           rm -rf $out/${python.sitePackages}/setuptools*.dist-info
         '' else "")
       ];
-      propagated = builtins.attrValues (builtins.mapAttrs
+      propagated = mapAttrsToList
         (project: version: projects.${project}.${version}.${pythonVersion}.dev)
-        (setup.patchClosure closure));
+        (setup.patchClosure closure);
       searchPathsArgs = {
         inherit nixpkgs;
         nixpkgsPython = self;
@@ -256,15 +261,20 @@ let
         };
         name = "${name}-bin";
       };
+
+      outputs = {
+        bin = venvBins;
+        out = venvContents;
+        dev = venvSearchPaths;
+        test = venvTests;
+      };
     in
     if builtins.pathExists closurePath
     then {
-      bin = venvBins;
-      out = venvContents;
-      dev = venvSearchPaths;
-      test = venvTests;
+      name = pythonVersion;
+      value = outputs // { outPath = attrsToLinkFarm name outputs; };
     }
-    else { };
+    else null;
 
   supportedArchs = [ "any" ]
     ++ (optional (isDarwin) "macosx_10_9_universal2")
@@ -334,7 +344,7 @@ let
       base = "https://files.pythonhosted.org/packages";
       impls = [ meta.impl ]
         ++ (builtins.map (py: py.pythonVersion) pythons)
-        ++ [ "2.7" ];
+        ++ [ "py2.py3" "2.7" ];
     in
     meta // {
       inherit name;
@@ -355,9 +365,9 @@ let
   makePypiInstaller = pythonVersion: project: version:
     let
       installersPath = projectsSrc + "/${project}/${version}/installers.json";
-      installers = builtins.attrValues (builtins.mapAttrs
+      installers = mapAttrsToList
         (enrichInstaller pythonVersion project version)
-        (fromJsonFile installersPath));
+        (fromJsonFile installersPath);
       installer = findFirst (installer: installer != null) null (builtins.map
         (predicate: findFirst predicate null installers)
         [
@@ -406,6 +416,12 @@ let
     }]
   );
 
+  makeEnvs = mapListToAttrs
+    (pythonVersion: {
+      name = "${pythonVersion}Env";
+      value = makeEnv pythonVersion;
+    })
+    pythonVersions;
   makeEnv = pythonVersion:
     { name
     , projects
@@ -426,6 +442,17 @@ let
       name = "python${pythonVersion}-env-for-${name}";
     };
 
+  attrsToLinkFarm = name: attrs:
+    nixpkgs.linkFarm name (mapAttrsToList
+      (name: path: { inherit name path; })
+      attrs);
+  mapAttrsToList = func: attrs:
+    builtins.attrValues (builtins.mapAttrs func attrs);
+  mapListToAttrs = func: list:
+    builtins.listToAttrs (builtins.filter
+      (e: e != null)
+      (builtins.map func list));
+
   getLatestVersion = versions: builtins.head (builtins.sort
     (a: b: (builtins.compareVersions a b) > 0)
     versions);
@@ -438,43 +465,11 @@ let
       (name: contents.${name} == "directory")
       (builtins.attrNames contents);
 
-  __all__ = nixpkgs.linkFarm "nixpkgs-python"
-    (builtins.attrValues (builtins.mapAttrs
-      (project: versions: {
-        name = project;
-        path = nixpkgs.linkFarm project
-          (builtins.attrValues (builtins.mapAttrs
-            (version: pythonVersions: {
-              name = version;
-              path = nixpkgs.linkFarm "${project}-${version}"
-                (builtins.attrValues (builtins.mapAttrs
-                  (pythonVersion: outputs: {
-                    name = pythonVersion;
-                    path = nixpkgs.linkFarm "${project}-${version}"
-                      (builtins.attrValues (builtins.mapAttrs
-                        (output: value: {
-                          name = output;
-                          path = value;
-                        })
-                        outputs));
-                  })
-                  pythonVersions));
-            })
-            versions));
-      })
-      projects));
-
-  self = {
-    inherit __all__;
+  self = makeEnvs // {
+    __all__ = attrsToLinkFarm "nixpkgs-python" projects;
     inherit apps;
     inherit projects;
-  } // (
-    builtins.listToAttrs (builtins.map
-      (pythonVersion: {
-        name = "${pythonVersion}Env";
-        value = makeEnv pythonVersion;
-      })
-      pythonVersions));
+  };
 
   ads = ''
 
