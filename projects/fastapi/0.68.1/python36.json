@@ -1,0 +1,4 @@
+{
+  "dataclasses": "0.8",
+  "pydantic": "1.7.4"
+}
