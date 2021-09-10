@@ -1,0 +1,22 @@
+{
+  "click": "8.0.1",
+  "cloudpickle": "1.6.0",
+  "colorama": "0.4.4",
+  "dask": "2021.9.0",
+  "fsspec": "2021.8.1",
+  "heapdict": "1.0.1",
+  "jinja2": "3.0.1",
+  "locket": "0.2.1",
+  "markupsafe": "2.0.1",
+  "msgpack": "1.0.2",
+  "packaging": "21.0",
+  "partd": "1.2.0",
+  "psutil": "5.8.0",
+  "pyparsing": "2.4.7",
+  "pyyaml": "5.4.1",
+  "sortedcontainers": "2.4.0",
+  "tblib": "1.7.0",
+  "toolz": "0.11.1",
+  "tornado": "6.1",
+  "zict": "2.0.0"
+}
