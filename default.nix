@@ -22,12 +22,15 @@ let
 
   projectsSrc = ./projects;
   projects =
-    mapListToAttrs
-      (project: {
-        name = project;
-        value = buildProject project;
-      })
-      (lsDirs projectsSrc);
+    let
+      projects = mapListToAttrs
+        (project: {
+          name = project;
+          value = buildProject project;
+        })
+        (lsDirs projectsSrc);
+    in
+    projects // { outPath = attrsToLinkFarm "nixpkgs-python" projects; };
   apps =
     builtins.mapAttrs
       (project: versions:
