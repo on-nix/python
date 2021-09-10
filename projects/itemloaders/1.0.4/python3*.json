@@ -1,0 +1,9 @@
+{
+  "cssselect": "1.1.0",
+  "itemadapter": "0.4.0",
+  "jmespath": "0.10.0",
+  "lxml": "4.6.3",
+  "parsel": "1.6.0",
+  "six": "1.16.0",
+  "w3lib": "1.22.0"
+}
