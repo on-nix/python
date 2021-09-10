@@ -1,0 +1,14 @@
+{
+  "tensorflow-2.6.0-cp36-cp36m-macosx_10_11_x86_64.whl": "c67fad296a3a2133b7a14da5f06c9937e7911b02c5d7a3ff6ba52a1d79b6bc9e",
+  "tensorflow-2.6.0-cp36-cp36m-manylinux2010_x86_64.whl": "8b5ce09ede0fe45ef100f4dc65cf3f46722194e75139f85d524058315e2ce9fa",
+  "tensorflow-2.6.0-cp36-cp36m-win_amd64.whl": "dea97f664246e185d79cbe40a86309527affd4232f06afa8a6500c4fc4b64a03",
+  "tensorflow-2.6.0-cp37-cp37m-macosx_10_11_x86_64.whl": "4716c9b25a61a2c79b1f253d1e114f1f8679241559c13ad18c657c626a7d5924",
+  "tensorflow-2.6.0-cp37-cp37m-manylinux2010_x86_64.whl": "e45e026a9d08c89cecc1160d8248135e2fb79bdc3267328399e1fb25ce583bd6",
+  "tensorflow-2.6.0-cp37-cp37m-win_amd64.whl": "6e38b6969414d16afc560c58ca34e1328cc0a5dbd644b64e060f5be8a6653274",
+  "tensorflow-2.6.0-cp38-cp38-macosx_10_11_x86_64.whl": "2a067d22a356c2cd4753bdd16ee492c55a610f5ebc52713e2954c642f070321c",
+  "tensorflow-2.6.0-cp38-cp38-manylinux2010_x86_64.whl": "2c9b8c6adc060acfcf805a2ea501db0124b679d95b522fd5983a4c110e8e0264",
+  "tensorflow-2.6.0-cp38-cp38-win_amd64.whl": "d6468e05552720100e8f94097feb770de320e4c8c244323a8746bd84e5ba4052",
+  "tensorflow-2.6.0-cp39-cp39-macosx_10_11_x86_64.whl": "00b1af0a0c5c102db19caceffac4bd4e6c536e6d7512144c241a4ace4428e7c6",
+  "tensorflow-2.6.0-cp39-cp39-manylinux2010_x86_64.whl": "bc73ebdd30c48cfc27ba307271117e6dbb795b37396ed817b2fec9393380b115",
+  "tensorflow-2.6.0-cp39-cp39-win_amd64.whl": "bfb255c2b0400bc5b4060dda098d46cd7ddeb53b7cbac1dfa29435612cba828c"
+}
