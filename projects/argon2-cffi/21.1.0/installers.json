@@ -1,0 +1,13 @@
+{
+  "argon2-cffi-21.1.0.tar.gz": "f710b61103d1a1f692ca3ecbd1373e28aa5e545ac625ba067ff2feca1b2bb870",
+  "argon2_cffi-21.1.0-cp35-abi3-macosx_10_14_x86_64.whl": "217b4f0f853ccbbb5045242946ad2e162e396064575860141b71a85eb47e475a",
+  "argon2_cffi-21.1.0-cp35-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.whl": "fa7e7d1fc22514a32b1761fdfa1882b6baa5c36bb3ef557bdd69e6fc9ba14a41",
+  "argon2_cffi-21.1.0-cp35-abi3-win32.whl": "e4d8f0ae1524b7b0372a3e574a2561cbdddb3fdb6c28b70a72868189bda19659",
+  "argon2_cffi-21.1.0-cp35-abi3-win_amd64.whl": "65213a9174320a1aee03fe826596e0620783966b49eb636955958b3074e87ff9",
+  "argon2_cffi-21.1.0-pp36-pypy36_pp73-macosx_10_7_x86_64.whl": "245f64a203012b144b7b8c8ea6d468cb02b37caa5afee5ba4a10c80599334f6a",
+  "argon2_cffi-21.1.0-pp36-pypy36_pp73-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "4ad152c418f7eb640eac41ac815534e6aa61d1624530b8e7779114ecfbf327f8",
+  "argon2_cffi-21.1.0-pp36-pypy36_pp73-win32.whl": "bc513db2283c385ea4da31a2cd039c33380701f376f4edd12fe56db118a3b21a",
+  "argon2_cffi-21.1.0-pp37-pypy37_pp73-macosx_10_7_x86_64.whl": "c7a7c8cc98ac418002090e4add5bebfff1b915ea1cb459c578cd8206fef10378",
+  "argon2_cffi-21.1.0-pp37-pypy37_pp73-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "165cadae5ac1e26644f5ade3bd9c18d89963be51d9ea8817bd671006d7909057",
+  "argon2_cffi-21.1.0-pp37-pypy37_pp73-win_amd64.whl": "566ffb581bbd9db5562327aee71b2eda24a1c15b23a356740abe3c011bbe0dcb"
+}
