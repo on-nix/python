@@ -1,0 +1,7 @@
+{
+  "colorama": "0.4.4",
+  "packaging": "21.0",
+  "pep517": "0.11.0",
+  "pyparsing": "2.4.7",
+  "tomli": "1.2.1"
+}
