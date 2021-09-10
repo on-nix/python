@@ -1,0 +1,10 @@
+{
+  "cloudpickle": "1.6.0",
+  "fsspec": "2021.8.1",
+  "locket": "0.2.1",
+  "packaging": "21.0",
+  "partd": "1.2.0",
+  "pyparsing": "2.4.7",
+  "pyyaml": "5.4.1",
+  "toolz": "0.11.1"
+}
