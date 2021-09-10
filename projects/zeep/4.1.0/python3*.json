@@ -1,0 +1,16 @@
+{
+  "attrs": "21.2.0",
+  "cached-property": "1.5.2",
+  "certifi": "2021.5.30",
+  "charset-normalizer": "2.0.4",
+  "idna": "3.2",
+  "isodate": "0.6.0",
+  "lxml": "4.6.3",
+  "platformdirs": "2.3.0",
+  "pytz": "2021.1",
+  "requests": "2.26.0",
+  "requests-file": "1.5.1",
+  "requests-toolbelt": "0.9.1",
+  "six": "1.16.0",
+  "urllib3": "1.26.6"
+}
