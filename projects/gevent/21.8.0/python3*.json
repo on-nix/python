@@ -1,0 +1,7 @@
+{
+  "cffi": "1.14.6",
+  "greenlet": "1.1.1",
+  "pycparser": "2.20",
+  "zope-event": "4.5.0",
+  "zope-interface": "5.4.0"
+}
