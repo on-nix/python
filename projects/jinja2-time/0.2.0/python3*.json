@@ -1,0 +1,7 @@
+{
+  "arrow": "1.1.1",
+  "jinja2": "3.0.1",
+  "markupsafe": "2.0.1",
+  "python-dateutil": "2.8.2",
+  "six": "1.16.0"
+}
