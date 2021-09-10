@@ -1,0 +1,21 @@
+{
+  "llvmlite-0.37.0-cp37-cp37m-macosx_10_9_x86_64.whl": "cf7d623d33d24df51adc4e9e9f5734df752330661793d1662425ad2e926cb2d4",
+  "llvmlite-0.37.0-cp37-cp37m-manylinux2014_aarch64.whl": "74b6c3d2eb8cef32a09e8fd7637d0d37628c74f4deedf9361e0c0ebecc239208",
+  "llvmlite-0.37.0-cp37-cp37m-manylinux2014_i686.whl": "447b01c25d18921c4179f2eccba218d7c82b65cfe3952b0d018d569945427bf9",
+  "llvmlite-0.37.0-cp37-cp37m-manylinux2014_x86_64.whl": "f9e84d683943c2f636b08db9b2d182d4b40b83e1a3e31e100af3bb9ed8d94bcd",
+  "llvmlite-0.37.0-cp37-cp37m-win32.whl": "14030a1c0f9aee0185db069163240c51d4e8a3eec0daf02468e057281dee612b",
+  "llvmlite-0.37.0-cp37-cp37m-win_amd64.whl": "15b8ac7a489e31b7d5c482193edaa44374e3c18e409bea494224e31eb60e38e5",
+  "llvmlite-0.37.0-cp38-cp38-macosx_10_9_x86_64.whl": "d31a3bd69894b31bbc68df00e0b37b0980a0cf025f9dbea9cdd37988230c33a3",
+  "llvmlite-0.37.0-cp38-cp38-manylinux2014_aarch64.whl": "ab00b7996e5ef795f59d95d3125850f3af28d19e43bdc08473947cb8045ce098",
+  "llvmlite-0.37.0-cp38-cp38-manylinux2014_i686.whl": "57c1dae337863b497c141d40736041d4acb7769226b44fe05959fce3c3570d5d",
+  "llvmlite-0.37.0-cp38-cp38-manylinux2014_x86_64.whl": "df1d1b162a426480b37d6c4adeddff49e2fb9f71b307c7facac67bdce4767746",
+  "llvmlite-0.37.0-cp38-cp38-win32.whl": "30431fe9a9b7b1c3585b71149cc11dc79b9d62dc86d3db15c3dcca33d274b5be",
+  "llvmlite-0.37.0-cp38-cp38-win_amd64.whl": "794191922ac6414c55d66058eaba8b88a630c6e9f2cf0db7e8e661e74d71fa14",
+  "llvmlite-0.37.0-cp39-cp39-macosx_10_9_x86_64.whl": "c92a209439fd0b8a41f6e2aba1d3afa260357028a29ed7db8c602c4d67c21540",
+  "llvmlite-0.37.0-cp39-cp39-manylinux2014_aarch64.whl": "4c1e91fd4ba2764161e9a05b6fff46a52d26170186bad99629777e8c7246f0ef",
+  "llvmlite-0.37.0-cp39-cp39-manylinux2014_i686.whl": "b6466d6369051e5c083b15cf285c00595ddb7f828be1ebecb1dfb97f3fab0bff",
+  "llvmlite-0.37.0-cp39-cp39-manylinux2014_x86_64.whl": "4616e17914fcc7c5bfb7d1014acbd4fca478949820e86218a29d9473d0aa221b",
+  "llvmlite-0.37.0-cp39-cp39-win32.whl": "995c1a2c8b6a11a7f2c66e52576de6a28292d37842d383aae5be7b965b56d10f",
+  "llvmlite-0.37.0-cp39-cp39-win_amd64.whl": "7449acca596f45e9e12b20c0b72d184f83025341cc2d44d7ccf5fe31356dcd08",
+  "llvmlite-0.37.0.tar.gz": "6392b870cd018ec0c645d6bbb918d6aa0eeca8c62674baaee30862d6b6865b15"
+}
