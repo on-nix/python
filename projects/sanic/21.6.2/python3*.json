@@ -1,0 +1,9 @@
+{
+  "aiofiles": "0.7.0",
+  "httptools": "0.3.0",
+  "multidict": "5.1.0",
+  "sanic-routing": "0.7.1",
+  "ujson": "4.1.0",
+  "uvloop": "0.16.0",
+  "websockets": "10.0"
+}
