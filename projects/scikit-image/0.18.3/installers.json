@@ -1,0 +1,21 @@
+{
+  "scikit-image-0.18.3.tar.gz": "ecae99f93f4c5e9b1bf34959f4dc596c41f2f6b2fc407d9d9ddf85aebd3137ca",
+  "scikit_image-0.18.3-cp37-cp37m-macosx_10_9_x86_64.whl": "7f27357adae9225df10fd152224d4c43978ae222f44bad7fedbfc2b81b985f9d",
+  "scikit_image-0.18.3-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "0bf3cdadc15db90f875bf59bdd0db080337e6353bb3d165c281f9af456d9d3f2",
+  "scikit_image-0.18.3-cp37-cp37m-manylinux_2_5_i686.manylinux1_i686.whl": "2f24eb3df859ba5b3fb66947fe2d7240653b38f307d574e25f1ae29cc2a212ee",
+  "scikit_image-0.18.3-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl": "e2148846fae22e12b7a20d11d951adae57213dd097af5960407eb5c4421c0ab3",
+  "scikit_image-0.18.3-cp37-cp37m-win32.whl": "142d070a41f9dfed0c3661e0dd9ce3cdb59a20a5b5ab071f529577d6d3e1fb81",
+  "scikit_image-0.18.3-cp37-cp37m-win_amd64.whl": "05b430b1f8e25f7ba4a55afc6bf592af00f0ec809ab1d80bdede8893e7c6af57",
+  "scikit_image-0.18.3-cp38-cp38-macosx_10_9_x86_64.whl": "ef92f42d8a0794c47df1eeb1937119b6686b523dc663ecc5ffdf3c91645719ac",
+  "scikit_image-0.18.3-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "9b60fe0bc6e770c126c625f8c2d8af3b20fea53dac845abdf474bef1bd526490",
+  "scikit_image-0.18.3-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.whl": "088bf793696a3d5f56cce27c75d415fa795d1db9336b7e8257a1764dc03c7c52",
+  "scikit_image-0.18.3-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl": "7994866857a1bb388cf3ede4ca7a8fba0b89ef980d5d802ec25e30124a2a34db",
+  "scikit_image-0.18.3-cp38-cp38-win32.whl": "b29982f07231f60d6170f4c2c6f2fe88051a7b4194d775aefd81bfee107452b9",
+  "scikit_image-0.18.3-cp38-cp38-win_amd64.whl": "3f3aa984638a6868171d176d26d6bd17b7b16a9fd505eaa97482f00a4310e3ff",
+  "scikit_image-0.18.3-cp39-cp39-macosx_10_9_x86_64.whl": "f698fc715202eeccabb371190c19c2d6713696de4d07609a0fa0cae3acb0b3dd",
+  "scikit_image-0.18.3-cp39-cp39-manylinux_2_12_i686.manylinux2010_i686.whl": "0bf23d3d182ba8fe4ef8a0935e843be1f6c99e7eebeb492ac07c305e8cbb1dcd",
+  "scikit_image-0.18.3-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "bfa6eb04dc0b8773043f9994eccd8c517d713cd0f9e960dcb6754e19c1abceb1",
+  "scikit_image-0.18.3-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "8394ad148685ed6ea8d84eb9c41e70cef1adda6c6d9a0ff8476c3126818a9340",
+  "scikit_image-0.18.3-cp39-cp39-win32.whl": "ec242ff35bd4bc531aaf00c6edb9f0f64ff36ff353bd6ecd8f1c77886ddc0a7a",
+  "scikit_image-0.18.3-cp39-cp39-win_amd64.whl": "3068af85682e90fda021070969dd2fce667f89a868c6aacb2fffbc5aa002e39e"
+}
