@@ -1,0 +1,19 @@
+{
+  "gensim-4.1.0-cp36-cp36m-macosx_10_9_x86_64.whl": "504c129224953f75940402143ecce1383be0784ea89912042c7b7e1e1107cbbc",
+  "gensim-4.1.0-cp36-cp36m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "932a3d372d4b795ce56efbec8f7b074e8c97a043e2f846b2f721a76c5cc80cc3",
+  "gensim-4.1.0-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "9866744a57e6001dd8115328bc7e306fedc746e37e8d1720f3811b5e76359e67",
+  "gensim-4.1.0-cp36-cp36m-win_amd64.whl": "093415811d56af0f70cd8ed51ef21f927937dc59ed7b341a5b5ebb887906851a",
+  "gensim-4.1.0-cp37-cp37m-macosx_10_9_x86_64.whl": "28f6e97d9a6bb32c44c53602d990a12e9fd199719c46f89f9221fe6cb6109bcd",
+  "gensim-4.1.0-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "068a4bc698f3b2844609dcb8f693b033d81c9d03f82ffd56d80a62fecc9347e9",
+  "gensim-4.1.0-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "f6c4c8bf0c07d1f05f1c718fbc88e85eced222ceba03216eb6e5763098e8c2da",
+  "gensim-4.1.0-cp37-cp37m-win_amd64.whl": "344ca542b7d8aca249ac3b4ad952f5c360341d4656cb0d25f9893a68ed4fd473",
+  "gensim-4.1.0-cp38-cp38-macosx_10_9_x86_64.whl": "eb577ec45ef72cc213e8e1301b251a6b5798e51f5085f88a0b5527d281acbcec",
+  "gensim-4.1.0-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "96a4bae3e7523a9e28049e0b85b9e8525924f6ae9313467734556afecf120bb9",
+  "gensim-4.1.0-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "d2dee416383591b4fef9cdf3810f9818a2de4af5e588133822e2629a0ed2dc79",
+  "gensim-4.1.0-cp38-cp38-win_amd64.whl": "382c821e256040c9763d8ae356d851bbc58590bc45aa8c70ee067f037349e3b3",
+  "gensim-4.1.0-cp39-cp39-macosx_10_9_x86_64.whl": "905617489a72bd51c7cf516db0defb4d6c04d500a0b054976e816df7f7397a90",
+  "gensim-4.1.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "57c3b947b352e0637d810a5651db568e61844617ff07fec5fb56d55275b04578",
+  "gensim-4.1.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "b9a37a941d3b618520225f0f3e1ea2e2c1971385cca1d740db707c10421a7319",
+  "gensim-4.1.0-cp39-cp39-win_amd64.whl": "1f3f37b2836d00b92e75f33695ee0c901286b71ced325e3e7510918e06b8144e",
+  "gensim-4.1.0.tar.gz": "0b09983048a97c7915ab50500bc53eeec438d26366041598709ec156db3eef1f"
+}
