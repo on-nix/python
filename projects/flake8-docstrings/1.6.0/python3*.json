@@ -1,0 +1,8 @@
+{
+  "flake8": "3.9.2",
+  "mccabe": "0.6.1",
+  "pycodestyle": "2.7.0",
+  "pydocstyle": "6.1.1",
+  "pyflakes": "2.3.1",
+  "snowballstemmer": "2.1.0"
+}
