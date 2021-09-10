@@ -1,0 +1,7 @@
+{
+  "click": "7.1.2",
+  "itsdangerous": "1.1.0",
+  "jinja2": "2.11.3",
+  "markupsafe": "2.0.1",
+  "werkzeug": "1.0.1"
+}
