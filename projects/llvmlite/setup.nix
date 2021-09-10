@@ -1,5 +1,0 @@
-{
-  # searchPathsRuntime = {nixpkgs,...}: {
-  #   bin = [nixpkgs. ]
-  # }
-}
