@@ -1,0 +1,7 @@
+{
+  "importlib-metadata": "4.8.1",
+  "numpy": "1.21.2",
+  "pandas": "1.1.5",
+  "typing-extensions": "3.10.0.2",
+  "zipp": "3.5.0"
+}
