@@ -1,0 +1,15 @@
+{
+  "blis-0.7.4-cp36-cp36m-macosx_10_9_x86_64.whl": "5b403deb2ad5515e1edb3c0867bccb5b974b461f24283d9219a3a761fd6dacc6",
+  "blis-0.7.4-cp36-cp36m-manylinux2014_x86_64.whl": "9f9b829480c12fc834549306821e5c51cb28b216ca5f88c5b2cfedbeb9daf67d",
+  "blis-0.7.4-cp36-cp36m-win_amd64.whl": "c2d8064217c326dd9a0dcbae294ffe8557263e2a00d76101ffa222b9c9d9c62d",
+  "blis-0.7.4-cp37-cp37m-macosx_10_9_x86_64.whl": "d717b5dea407aac89a646908e7d9849105abab9c88a539c120518c200f899f4e",
+  "blis-0.7.4-cp37-cp37m-manylinux2014_x86_64.whl": "5ecddc4c6daf80558154b091db0a9839bb15dbe65d2906a543a73b93fbce4f73",
+  "blis-0.7.4-cp37-cp37m-win_amd64.whl": "6814991b3e3193db4f9b2417174c6f24b9c0197409d864fa7628583bd2df1f0f",
+  "blis-0.7.4-cp38-cp38-macosx_10_9_x86_64.whl": "4222bbc7b9c47bc3cf6f36f2241862c1512ca7ebac3828267a2e05ef6c47fc54",
+  "blis-0.7.4-cp38-cp38-manylinux2014_x86_64.whl": "445e4838b809e99677f5c0982fb9af320f0d91328fb28c8097e5f1173c4df9d6",
+  "blis-0.7.4-cp38-cp38-win_amd64.whl": "94890b2296f1449baa56aede46627ea7fc8de11c788f9c261ee38c2eb4a2cc7d",
+  "blis-0.7.4-cp39-cp39-macosx_10_9_x86_64.whl": "168fd7bd763ebe529aa25a066d3a6b89f4c3f492f6297f881df6942741b95787",
+  "blis-0.7.4-cp39-cp39-manylinux2014_x86_64.whl": "5c1a2023f7d8431daa8d87d32f539bb23e1a009500c37f9eba0ac7b3f20f73eb",
+  "blis-0.7.4-cp39-cp39-win_amd64.whl": "78a8e0ee72a42c3b2f5b9114500a781119995f76fa6c21d4b02c6fb9c21df2cc",
+  "blis-0.7.4.tar.gz": "7daa615a97d4f28db0f332b710bfe1900b15d0c25841c6d727965e4fd91e09cf"
+}
