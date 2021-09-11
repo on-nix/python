@@ -51,7 +51,9 @@ let
           let pythonVersion = getLatestVersion
             projects.${project}.${version}.__names__;
           in
-          {
+          if projects.${project}.${version}.__names__ == [ ]
+          then null
+          else {
             name = version;
             value = projects.${project}.${version}.${pythonVersion}.bin;
           })

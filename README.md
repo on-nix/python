@@ -27,8 +27,8 @@ That can be installed with the [Nix][NIX] package manager.
 
 - [List of available projects](#list-of-available-projects)
 - [Applications vs Libraries](#applications-vs-libraries)
-- [Installing projects as applications](#installing-projects-as-applications)
-- [Creating Python Environments](#creating-python-environments)
+- [Installing Applications](#installing-applications)
+- [Creating Python environments with Applications and Libraries](#creating-python-environments-with-applications-and-libraries)
     - [Compatibility with Nixpkgs](#compatibility-with-nixpkgs)
 - [Using the binary cache](#using-the-binary-cache)
 - [Contributing](#contributing)
@@ -44,34 +44,35 @@ For example:
 - Project: `awscli` and version: `1.20.31`, or
 - Project: `requests` and version `2.26.0`
 
+Additionally, there is a meta-version called `latest`
+which points to the latest version of the project.
+
 # Applications vs Libraries
 
 On Python, projects can offer two types of components:
 
-- **Applications**: Binaries that you can run from the command line.
+- **Applications**: Binaries that you can run from the command line:
 
-  For example:
+  - [AWS CLI](https://pypi.org/project/awscli/): `$ aws`
+  - [Bandit](https://pypi.org/project/bandit/): `$ bandit`
+  - ...
 
-  - [AWS CLI](https://pypi.org/project/awscli/): `$ aws --version`
-  - [Bandit](https://pypi.org/project/bandit/): `$ bandit --version`
-
-- **Libraries**: Packages and modules that you can import in your projects.
-
-  For example:
+- **Libraries**: Packages and modules that you can import in your Python projects:
 
   - [Boto3](https://pypi.org/project/boto3/): `>>> import boto3`
   - [Django](https://pypi.org/project/django/): `>>> import django`
+  - ...
 
-- **Both**: They work either as an Application or as a Library:
+- **Both**: They work either as an Application and/or as a Library:
 
-  For example:
+  - [PyTest](https://pypi.org/project/pytest/):
+    - `>>> import pytest`
+    - `$ pytest`
+  - ...
 
-  - [PyTest](https://pypi.org/project/pytest/): `>>> import pytest`
+# Installing Applications
 
-# Installing projects as applications
-
-If you want to **only** use the binaries of a project
-you can install them on your system like this:
+Simply run the following magic from a terminal:
 
 ```bash
 $ nix-env -iA 'apps."<project>"."<version>"' -f https://github.com/kamadorueda/nixpkgs-python/tarball/main
@@ -95,13 +96,10 @@ you will be able to use the project's binaries:
 ```bash
 
 $ aws --version
-
   aws-cli/1.20.31 Python/3.9.6 Linux/5.10.62 botocore/1.21.31
 ```
 
-:warning: You won't be able to import the project libraries with Python (`import xxx`). If you want to do this please keep reading.
-
-# Creating Python Environments
+# Creating Python environments with Applications and Libraries
 
 First,
 you need to import Nixpkgs Python
@@ -172,23 +170,14 @@ by the projects in the environment:
 
 ```bash
 $ python --version
-
   Python 3.9.6
-
 $ aws --version
-
   aws-cli/1.20.31 Python/3.9.6 Linux/5.10.57 botocore/1.21.31
-
 $ python -c 'import numpy; print(numpy.__version__)'
-
   1.21.2
-
 $ python -c 'import requests; print(requests.__version__)'
-
   2.26.0
-
 $ python -c 'import torch; print(torch.__version__)'
-
   1.9.0+cu102
 ```
 
@@ -245,20 +234,15 @@ these derivations will be built:
 building '/nix/store/4l51x7983ggxc8z5fmb5wzhvvx8kvn01-example.drv'...
 
 + python --version
-Python 3.9.6
-
+  Python 3.9.6
 + aws --version
-aws-cli/1.20.31 Python/3.9.6 Linux/5.10.57 botocore/1.21.31
-
+  aws-cli/1.20.31 Python/3.9.6 Linux/5.10.57 botocore/1.21.31
 + python -c 'import numpy; print(numpy.__version__)'
-1.21.2
-
+  1.21.2
 + python -c 'import requests; print(requests.__version__)'
-2.26.0
-
+  2.26.0
 + python -c 'import torch; print(torch.__version__)'
-1.9.0+cu102
-
+  1.9.0+cu102
 + touch /nix/store/9cckx5zpbiakx507g253fv08hykf8msv-example
 ```
 
@@ -267,9 +251,24 @@ aws-cli/1.20.31 Python/3.9.6 Linux/5.10.57 botocore/1.21.31
 You can configure [nixpkgs-python's binary cache][CACHIX_NIXPKGS_PYTHON]
 to speed up your builds.
 
+```bash
+# Install Cachix
+$ nix-env -i cachix
+
+# Make future builds use the cache
+$ cachix use nixpkgs-python
+```
+
+This will save you the time required to build the projects from source
+and instead just download the build results.
+
 # Contributing
 
 Anything you can think of will be appreciated!
+
+Also a few dollars are always welcome :grin:
+
+- https://www.patreon.com/kamadorueda
 
 ---
 

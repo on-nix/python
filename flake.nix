@@ -13,6 +13,18 @@
       inherit (nixpkgsPython) mapListToAttrs;
     in
     {
+      # apps.x86_64-linux = builtins.foldl'
+      #   (all: project: all // (builtins.foldl'
+      #     (all: version: all // {
+      #       "${removeSuffix "-bin" (builtins.substring 9 999 version.name)}" = {
+      #         program = "${version}";
+      #         type = "app";
+      #       };
+      #     })
+      #     { }
+      #     (builtins.attrValues project)))
+      #   { }
+      #   (builtins.attrValues nixpkgsPython.apps);
       packages.x86_64-linux = builtins.foldl'
         (all: project: all // (builtins.foldl'
           (all: version: all // (mapListToAttrs
