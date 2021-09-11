@@ -50,7 +50,8 @@ let
         inherit project;
         setupPath = projectsPath + "/${project}/setup.nix";
         testPath = projectsPath + "/${project}/test.py";
-        versions = versions // { latest = versions.${latest}; };
+        versions = versions
+          // { latest = versions.${latest} // { version = "latest"; }; };
       };
     };
   buildProjectVersionMeta = project: version:
@@ -68,10 +69,12 @@ let
           in
           if supported == { }
           then supported
-          else supported // { latest = supported.${latest}; };
+          else supported
+            // { latest = supported.${latest} // { pythonVersion = "latest"; }; };
         setupPath = projectsPath + "/${project}/${version}/setup.nix";
         testPath = projectsPath + "/${project}/${version}/test.py";
         inherit version;
+        version' = version;
       };
     };
   buildProjectVersionForInterpreterMeta = project: version: pythonVersion:
@@ -84,6 +87,7 @@ let
       value = {
         inherit closurePath;
         inherit pythonVersion;
+        pythonVersion' = pythonVersion;
       };
     }
     else null;
@@ -111,7 +115,6 @@ let
       name = project;
       value = versions // { outPath = attrsToLinkFarm project versions; };
     };
-
   buildProjectVersions = project:
     mapListToAttrs
       (version: {
@@ -129,8 +132,8 @@ let
 
   buildProjectVersionForInterpreter = project: version': pythonVersion':
     let
-      version = projectsMeta.${project}.versions.${version'}.version;
-      pythonVersion = projectsMeta.${project}.versions.${version}.pythonVersions.${pythonVersion'}.pythonVersion;
+      version = projectsMeta.${project}.versions.${version'}.version';
+      pythonVersion = projectsMeta.${project}.versions.${version}.pythonVersions.${pythonVersion'}.pythonVersion';
 
       closureCommonPath = projectsMeta.${project}.versions.${version}.closurePath;
       closurePath = projectsMeta.${project}.versions.${version}.pythonVersions.${pythonVersion}.closurePath;
