@@ -8,37 +8,20 @@
     let
       nixpkgsPython = import ./default.nix;
 
-      inherit (nixpkgs.lib.strings) removeSuffix;
-      inherit (nixpkgsPython) mapAttrsToList;
       inherit (nixpkgsPython) mapListToAttrs;
     in
     {
-      # apps.x86_64-linux = builtins.foldl'
-      #   (all: project: all // (builtins.foldl'
-      #     (all: version: all // {
-      #       "${removeSuffix "-bin" (builtins.substring 9 999 version.name)}" = {
-      #         program = "${version}";
-      #         type = "app";
-      #       };
-      #     })
-      #     { }
-      #     (builtins.attrValues project)))
-      #   { }
-      #   (builtins.attrValues nixpkgsPython.apps);
       packages.x86_64-linux = builtins.foldl'
         (all: project: all // (builtins.foldl'
-          (all: version: all // (mapListToAttrs
-            (pythonVersion:
-              if builtins.hasAttr pythonVersion version
-              then {
-                name = removeSuffix "-dev" version.${pythonVersion}.dev.name;
-                value = version.${pythonVersion}.dev;
-              }
-              else null)
-            (nixpkgsPython.pythonVersions)))
+          (all: version: all // (builtins.foldl'
+            (all: pythonVersion: all // (mapListToAttrs
+              (output: { name = output.name; value = output; })
+              (builtins.attrValues nixpkgsPython.projects.${project.project}.${version.version}.${pythonVersion})))
+            { }
+            (builtins.attrNames version.pythonVersions)))
           { }
-          (project.__values__)))
+          (builtins.attrValues project.versions)))
         { }
-        (nixpkgsPython.projects.__values__);
+        (builtins.attrValues nixpkgsPython.projectsMeta);
     };
 }

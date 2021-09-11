@@ -685,6 +685,7 @@ jobs:
     - run: just build projects.setproctitle
     - run: just build projects.setuptools
     - run: just build projects.setuptools-rust
+    - run: just build projects.sgmllib3k
     - run: just build projects.sgqlc
     - run: just build projects.sh
     - run: just build projects.shapely

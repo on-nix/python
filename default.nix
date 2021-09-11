@@ -47,6 +47,7 @@ let
     else {
       name = project;
       value = {
+        inherit project;
         setupPath = projectsPath + "/${project}/setup.nix";
         testPath = projectsPath + "/${project}/test.py";
         versions = versions // { latest = versions.${latest}; };
@@ -93,10 +94,7 @@ let
         (buildProject)
         (builtins.attrNames projectsMeta);
     in
-    (projects
-      // { outPath = attrsToLinkFarm "nixpkgs-python" projects; }
-      // { __names__ = builtins.attrNames projects; }
-      // { __values__ = builtins.attrValues projects; });
+    projects // { outPath = attrsToLinkFarm "nixpkgs-python" projects; };
 
   apps = builtins.mapAttrs
     (project: projectMeta: builtins.mapAttrs
@@ -111,10 +109,7 @@ let
     in
     {
       name = project;
-      value = versions
-        // { __names__ = builtins.attrNames versions; }
-        // { __values__ = builtins.attrValues versions; }
-        // { outPath = attrsToLinkFarm project versions; };
+      value = versions // { outPath = attrsToLinkFarm project versions; };
     };
 
   buildProjectVersions = project:
@@ -130,10 +125,7 @@ let
         (buildProjectVersionForInterpreter project version)
         (builtins.attrNames projectsMeta.${project}.versions.${version}.pythonVersions);
     in
-    (results
-      // { __names__ = builtins.attrNames results; }
-      // { __values__ = builtins.attrValues results; }
-      // { outPath = attrsToLinkFarm "${project}-${version}" results; });
+    results // { outPath = attrsToLinkFarm "${project}-${version}" results; };
 
   buildProjectVersionForInterpreter = project: version': pythonVersion':
     let
@@ -147,8 +139,7 @@ let
       testGlobalPath = projectsMeta.${project}.testPath;
       testVersionPath = projectsMeta.${project}.versions.${version}.testPath;
 
-      name' = "${pythonVersion'}-${project}-${version'}";
-      name = "${pythonVersion}-${project}-${version}";
+      name = "${project}-${version'}-${pythonVersion'}";
       python = nixpkgs.${pythonVersion};
       setup = (
         ({
@@ -268,7 +259,7 @@ let
           pythonPackage39 = optional (pythonVersion == "python39") venvContents;
           source = propagated ++ [ searchPathsRuntime ];
         };
-        name = "${name'}-dev";
+        name = "${name}-dev";
       };
       venvTests = makeDerivation {
         builder = ''
@@ -336,7 +327,7 @@ let
           envVenvContents = venvContents;
           envVenvSearchPaths = venvSearchPaths;
         };
-        name = "${name'}-bin";
+        name = "${name}-bin";
       };
 
       outputs = {
@@ -347,9 +338,8 @@ let
       };
     in
     {
-      name = pythonVersion;
-      value = outputs
-        // { outPath = attrsToLinkFarm name outputs; };
+      name = pythonVersion';
+      value = outputs // { outPath = attrsToLinkFarm name outputs; };
     };
 
   supportedArchs = [ "any" ]
@@ -543,9 +533,9 @@ let
 
   self = makeEnvs // {
     inherit apps;
-    inherit mapAttrsToList;
     inherit mapListToAttrs;
     inherit projects;
+    inherit projectsMeta;
     inherit pythonVersions;
   };
 
