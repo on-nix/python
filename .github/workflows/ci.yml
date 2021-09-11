@@ -117,6 +117,7 @@ jobs:
     - run: just build projects.catalogue
     - run: just build projects.category-encoders
     - run: just build projects.catkin-pkg
+    - run: just build projects.cattrs
     - run: just build projects.cdiff
     - run: just build projects.celery
     - run: just build projects.certifi
@@ -704,6 +705,7 @@ jobs:
     - run: just build projects.sortedcontainers
     - run: just build projects.soupsieve
     - run: just build projects.south
+    - run: just build projects.spacy
     - run: just build projects.spacy-legacy
     - run: just build projects.speaklater
     - run: just build projects.sphinx
@@ -722,6 +724,7 @@ jobs:
     - run: just build projects.sqlalchemy-jsonfield
     - run: just build projects.sqlalchemy-utils
     - run: just build projects.sqlparse
+    - run: just build projects.srsly
     - run: just build projects.stanfordnlp
     - run: just build projects.starlette
     - run: just build projects.statsmodels
@@ -754,6 +757,7 @@ jobs:
     - run: just build projects.the
     - run: just build projects.theano
     - run: just build projects.therapist
+    - run: just build projects.thinc
     - run: just build projects.thop
     - run: just build projects.threadpoolctl
     - run: just build projects.thrift
