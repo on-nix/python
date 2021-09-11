@@ -35,13 +35,14 @@ let
   projects =
     let
       projects = mapListToAttrs
-        (project: {
-          name = project;
-          value = buildProject project;
-        })
+        (buildProject)
         (lsDirs projectsSrc);
     in
-    projects // { outPath = attrsToLinkFarm "nixpkgs-python" projects; };
+    (projects
+      // { outPath = attrsToLinkFarm "nixpkgs-python" projects; }
+      // { __names__ = builtins.attrNames projects; }
+      // { __values__ = builtins.attrValues projects; });
+
   apps =
     builtins.mapAttrs
       (project: versions:
@@ -58,10 +59,15 @@ let
       latest = getLatestVersion (builtins.attrNames versions);
     in
     if versions == { }
-    then { }
-    else versions
-      // { latest = versions.${latest}; }
-      // { outPath = attrsToLinkFarm project versions; };
+    then null
+    else {
+      name = project;
+      value = versions
+        // { __names__ = builtins.attrNames versions; }
+        // { __values__ = builtins.attrValues versions; }
+        // { latest = versions.${latest}; }
+        // { outPath = attrsToLinkFarm project versions; };
+    };
 
   buildProjectVersions = project:
     mapListToAttrs
@@ -76,7 +82,8 @@ let
         (buildProjectVersionForInterpreter project version)
         (pythonVersions);
     in
-    results // { outPath = attrsToLinkFarm "${project}-${version}" results; };
+    (results
+      // { outPath = attrsToLinkFarm "${project}-${version}" results; });
 
   buildProjectVersionForInterpreter = project: version: pythonVersion:
     let
@@ -288,7 +295,8 @@ let
     if builtins.pathExists closurePath
     then {
       name = pythonVersion;
-      value = outputs // { outPath = attrsToLinkFarm name outputs; };
+      value = outputs
+        // { outPath = attrsToLinkFarm name outputs; };
     }
     else null;
 
@@ -483,7 +491,10 @@ let
 
   self = makeEnvs // {
     inherit apps;
+    inherit mapAttrsToList;
+    inherit mapListToAttrs;
     inherit projects;
+    inherit pythonVersions;
   };
 
   ads = ''
