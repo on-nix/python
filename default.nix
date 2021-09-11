@@ -66,10 +66,11 @@ let
               (pythonVersions);
           in
           if supported == { }
-          then { }
+          then supported
           else supported // { latest = supported.${latest}; };
         setupPath = projectsPath + "/${project}/${version}/setup.nix";
         testPath = projectsPath + "/${project}/${version}/test.py";
+        inherit version;
       };
     };
   buildProjectVersionForInterpreterMeta = project: version: pythonVersion:
@@ -97,16 +98,13 @@ let
       // { __names__ = builtins.attrNames projects; }
       // { __values__ = builtins.attrValues projects; });
 
-  apps = mapListToAttrs
-    (project: {
-      name = project;
-      value = builtins.mapAttrs
-        (version: pythonVersions:
-          let pythonVersion = getLatestVersion (builtins.attrNames pythonVersions);
-          in pythonVersions.${pythonVersion}.bin)
-        (projects.${project});
-    })
-    (builtins.attrNames projectsMeta);
+  apps = builtins.mapAttrs
+    (project: projectMeta: builtins.mapAttrs
+      (version: _:
+        let latest = projectMeta.versions.${version}.pythonVersions.latest.pythonVersion;
+        in projects.${project}.${version}.${latest}.bin)
+      (projectMeta.versions))
+    (projectsMeta);
 
   buildProject = project:
     let versions = buildProjectVersions project;
@@ -132,7 +130,7 @@ let
         (pythonVersion:
           buildProjectVersionForInterpreter
             project
-            version
+            projectsMeta.${project}.versions.${version}.version
             projectsMeta.${project}.versions.${version}.pythonVersions.${pythonVersion}.pythonVersion)
         (builtins.attrNames projectsMeta.${project}.versions.${version}.pythonVersions);
     in
