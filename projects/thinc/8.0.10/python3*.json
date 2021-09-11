@@ -1,0 +1,10 @@
+{
+  "blis": "0.7.4",
+  "catalogue": "2.0.6",
+  "cymem": "2.0.5",
+  "murmurhash": "1.0.5",
+  "preshed": "3.0.5",
+  "srsly": "2.4.1",
+  "typing-extensions": "3.10.0.2",
+  "wasabi": "0.8.2"
+}
