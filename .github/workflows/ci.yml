@@ -35,6 +35,7 @@ jobs:
     - run: just build projects.alembic
     - run: just build projects.alibabacloud-credentials
     - run: just build projects.alibabacloud-endpoint-util
+    - run: just build projects.alibabacloud-tea
     - run: just build projects.alive-progress
     - run: just build projects.alphalens
     - run: just build projects.altair
