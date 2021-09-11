@@ -91,6 +91,7 @@ jobs:
     - run: just build projects.billiard
     - run: just build projects.binaryornot
     - run: just build projects.biopython
+    - run: just build projects.bitarray
     - run: just build projects.black
     - run: just build projects.bleach
     - run: just build projects.blinker
@@ -373,6 +374,7 @@ jobs:
     - run: just build projects.logbook
     - run: just build projects.loguru
     - run: just build projects.logzero
+    - run: just build projects.lru-dict
     - run: just build projects.lxml
     - run: just build projects.mailchimp-marketing
     - run: just build projects.mako
@@ -846,7 +848,12 @@ jobs:
     - run: just build projects.zenpy
     - run: just build projects.zict
     - run: just build projects.zipp
+    - run: just build projects.zope-component
+    - run: just build projects.zope-deprecation
+    - run: just build projects.zope-event
+    - run: just build projects.zope-hookable
     - run: just build projects.zope-interface
+    - run: just build projects.zope-schema
     - run: just build projects
 name: ci
 'on':
