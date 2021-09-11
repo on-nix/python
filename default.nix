@@ -33,27 +33,24 @@ let
     pythonVersions;
 
   projectsPath = ./projects;
-  projectsMeta = mapListToAttrs
-    (project: {
-      name = project;
-      value = buildProjectMeta project;
-    })
-    (lsDirs projectsPath);
+  projectsMeta = mapListToAttrs buildProjectMeta (lsDirs projectsPath);
 
   buildProjectMeta = project:
-    {
-      setupPath = projectsPath + "/${project}/setup.nix";
-      testPath = projectsPath + "/${project}/test.py";
-      versions =
-        let
-          latest = getLatestVersion (builtins.attrNames versions);
-          versions = mapListToAttrs
-            (buildProjectVersionMeta project)
-            (lsDirs (projectsPath + "/${project}"));
-        in
-        if versions == { }
-        then null
-        else versions // { latest = versions.${latest}; };
+    let
+      latest = getLatestVersion (builtins.attrNames versions);
+      versions = mapListToAttrs
+        (buildProjectVersionMeta project)
+        (lsDirs (projectsPath + "/${project}"));
+    in
+    if versions == { }
+    then null
+    else {
+      name = project;
+      value = {
+        setupPath = projectsPath + "/${project}/setup.nix";
+        testPath = projectsPath + "/${project}/test.py";
+        versions = versions // { latest = versions.${latest}; };
+      };
     };
   buildProjectVersionMeta = project: version:
     {
