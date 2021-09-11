@@ -12,7 +12,6 @@ build ATTR:
     --option keep-going true \
     --option max-jobs auto \
     --option sandbox true \
-    --show-trace \
     default.nix
   if test -n "${CACHIX_NIXPKGS_PYTHON_TOKEN:-}"; then \
     CACHIX_AUTH_TOKEN="${CACHIX_NIXPKGS_PYTHON_TOKEN}" \
@@ -40,3 +39,9 @@ new PROJECT:
 
 optimize:
   python3 makes/optimize/entrypoint.py
+
+release PROJECT:
+  just build projects.{{PROJECT}} \
+    && git add projects/{{PROJECT}} \
+    && git commit -m 'feat(conf): {{PROJECT}}' \
+    && git push

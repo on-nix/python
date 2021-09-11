@@ -349,7 +349,7 @@ let
       base = "https://files.pythonhosted.org/packages";
       impls = [ meta.impl ]
         ++ (builtins.map (py: py.pythonVersion) pythons)
-        ++ [ "py2.py3" "2.7" ];
+        ++ [ "py2.py3" "3.5" "2.7" ];
     in
     meta // {
       inherit name;
@@ -385,7 +385,7 @@ let
       abort ''
 
 
-        Python${pythonVersion} installer not found:
+        ${pythonVersion} installer not found:
         ${builtins.concatStringsSep "\n"
           (builtins.map (i: i.name) installers)}
 

@@ -17,6 +17,7 @@ def write_json(path, data: Any) -> None:
 
 def main() -> None:
     for project in sorted(os.listdir("projects")):
+        print(project)
         project_path = os.path.join("projects", project)
         for version in sorted(os.listdir(project_path)):
             version_path = os.path.join(project_path, version)
