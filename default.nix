@@ -1,7 +1,18 @@
 let
-  sources = import ./nix/sources.nix;
-  makes = import "${sources.makes}/src/args/agnostic.nix" { };
-  nixpkgs = import sources.nixpkgs { };
+  lock = builtins.fromJSON (builtins.readFile ./flake.lock);
+  system = "x86_64-linux";
+
+  makes = import "${makesSrc}/src/args/agnostic.nix" { inherit system; };
+  makesSrc = with lock.nodes.makes.locked; builtins.fetchTarball {
+    url = "https://github.com/${owner}/${repo}/archive/${rev}.tar.gz";
+    sha256 = narHash;
+  };
+
+  nixpkgs = import nixpkgsSrc { inherit system; };
+  nixpkgsSrc = with lock.nodes.nixpkgs.locked; builtins.fetchTarball {
+    url = "https://github.com/${owner}/${repo}/archive/${rev}.tar.gz";
+    sha256 = narHash;
+  };
 
   inherit (makes) fromJsonFile;
   inherit (makes) makeDerivation;

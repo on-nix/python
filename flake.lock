@@ -1,0 +1,43 @@
+{
+  "nodes": {
+    "makes": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1631290850,
+        "narHash": "sha256-0Qe95XSXFNV42yUflKMdxh23hesddLXQAROpSduCN1I=",
+        "owner": "fluidattacks",
+        "repo": "makes",
+        "rev": "95f6016c1324985aeff583475849800fac191c94",
+        "type": "github"
+      },
+      "original": {
+        "owner": "fluidattacks",
+        "repo": "makes",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1631343445,
+        "narHash": "sha256-erkTb0+Q08jZL6YahBjJ/OF3hTZNrmjy4VSLHe6RknQ=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "517d2b963f35abbca8ccc364141bc5f2b4e92974",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "makes": "makes",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
