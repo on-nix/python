@@ -26,6 +26,7 @@ That can be installed with the [Nix][NIX] package manager.
 # Contents
 
 - [List of available projects](#list-of-available-projects)
+- [Applications vs Libraries](#applications-vs-libraries)
 - [Installing projects as applications](#installing-projects-as-applications)
 - [Creating Python Environments](#creating-python-environments)
     - [Compatibility with Nixpkgs](#compatibility-with-nixpkgs)
@@ -43,9 +44,29 @@ For example:
 - Project: `awscli` and version: `1.20.31`, or
 - Project: `requests` and version `2.26.0`
 
-If you want to refer to the latest version available you can do it:
-- Project: `awscli` and version `latest`, or
-- Project: `requests` and version: `latest`
+# Applications vs Libraries
+
+On Python, projects can offer two types of components:
+
+- **Applications**: Binaries that you can run from the command line.
+
+  For example:
+
+  - [AWS CLI](https://pypi.org/project/awscli/): `$ aws --version`
+  - [Bandit](https://pypi.org/project/bandit/): `$ bandit --version`
+
+- **Libraries**: Packages and modules that you can import in your projects.
+
+  For example:
+
+  - [Boto3](https://pypi.org/project/boto3/): `>>> import boto3`
+  - [Django](https://pypi.org/project/django/): `>>> import django`
+
+- **Both**: They work either as an Application or as a Library:
+
+  For example:
+
+  - [PyTest](https://pypi.org/project/pytest/): `>>> import pytest`
 
 # Installing projects as applications
 
