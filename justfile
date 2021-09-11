@@ -45,3 +45,11 @@ release PROJECT:
     && git add projects/{{PROJECT}} \
     && git commit -m 'feat(conf): {{PROJECT}}' \
     && git push
+
+release-all:
+  git ls-files --others --exclude-standard \
+    | grep -oP 'projects/.*?/' \
+    | sort \
+    | uniq \
+    | xargs -n 1 basename \
+    | xargs -n 1 just release
