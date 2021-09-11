@@ -65,14 +65,12 @@ On Python, projects can offer two types of components:
 
 - **Both**: They work either as an Application and/or as a Library:
 
-  - [PyTest](https://pypi.org/project/pytest/):
-    - `>>> import pytest`
-    - `$ pytest`
+  - [PyTest](https://pypi.org/project/pytest/): `$ pytest`, or `>>> import pytest`
   - ...
 
 # Installing Applications
 
-Simply run the following magic from a terminal:
+Simply run the following magic from a terminal.
 
 ```bash
 $ nix-env -iA 'apps."<project>"."<version>"' -f https://github.com/kamadorueda/nixpkgs-python/tarball/main
@@ -80,15 +78,12 @@ $ nix-env -iA 'apps."<project>"."<version>"' -f https://github.com/kamadorueda/n
 
 For example:
 
-```bash
-$ nix-env -iA 'apps."awscli"."latest"' -f https://github.com/kamadorueda/nixpkgs-python/tarball/main
-```
-
-or
-
-```bash
-$ nix-env -iA 'apps."awscli"."1.20.31"' -f https://github.com/kamadorueda/nixpkgs-python/tarball/main
-```
+- ```bash
+  $ nix-env -iA 'apps."awscli"."1.20.31"' -f https://github.com/kamadorueda/nixpkgs-python/tarball/main
+  ```
+- ```bash
+  $ nix-env -iA 'apps."pytest"."latest"' -f https://github.com/kamadorueda/nixpkgs-python/tarball/main
+  ```
 
 After the process have completed,
 you will be able to use the project's binaries:
@@ -97,6 +92,8 @@ you will be able to use the project's binaries:
 
 $ aws --version
   aws-cli/1.20.31 Python/3.9.6 Linux/5.10.62 botocore/1.21.31
+$ pytest --version
+  pytest 6.2.5
 ```
 
 # Creating Python environments with Applications and Libraries
