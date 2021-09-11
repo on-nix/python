@@ -1,0 +1,15 @@
+{
+  "spacy-3.1.2-cp36-cp36m-macosx_10_9_x86_64.whl": "87927de0cc36d24525aa854c37020eb6bb28ffbae2d589638f408abed6b83f9a",
+  "spacy-3.1.2-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "e164190bf7dc55d7bc5edfda3f787b391dff1d55db1676a013402f3441416da5",
+  "spacy-3.1.2-cp36-cp36m-win_amd64.whl": "090ea698d5f4ed468386a038190f836093ca006a2c8a244ed0cb9952d83b39db",
+  "spacy-3.1.2-cp37-cp37m-macosx_10_9_x86_64.whl": "85d4638ace39d7a39a47a0bbca93f6d163694be74bc319189a35e598332df3d0",
+  "spacy-3.1.2-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "6d88e0474d4cdb4a6a440ea145f522e642ddb1ba6eb119e45f8d6ba340ba5420",
+  "spacy-3.1.2-cp37-cp37m-win_amd64.whl": "d1937bddcb41f14c35821d83b0249c28ef7e557fff0624999fcda65c404c91b9",
+  "spacy-3.1.2-cp38-cp38-macosx_10_9_x86_64.whl": "30d65483eda3c8e27ddf17a68f29a91cc1e572a60888d8759a0baa7145edd62a",
+  "spacy-3.1.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "8b9b22e4486573233e5aad19b94838d559547c31b8db17d550538a7d96545c62",
+  "spacy-3.1.2-cp38-cp38-win_amd64.whl": "e01d05497d08755c6e4e72125602e9bcc4285b8846fbc3ab7d14e821d41ed84c",
+  "spacy-3.1.2-cp39-cp39-macosx_10_9_x86_64.whl": "a7ad178afb7938b1ae83a7ab18895d596d17cb140d4e9c8b65db0e19df139855",
+  "spacy-3.1.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "8cf175a70ef726641dd53391c109fdb6d424c9ea870e879cde92788781fe6efd",
+  "spacy-3.1.2-cp39-cp39-win_amd64.whl": "e33b1a843a042a16d7a8411728917758fc532175b4f36b579b907f71afc8064e",
+  "spacy-3.1.2.tar.gz": "4bc9faddc9ed4f042ad424af4ff5cb67d193ce4e22ad19d59ff1a14715f113b5"
+}
