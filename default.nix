@@ -14,6 +14,7 @@ let
     sha256 = narHash;
   };
 
+  inherit (makes) attrsOptional;
   inherit (makes) fromJsonFile;
   inherit (makes) makeDerivation;
   inherit (makes) makeSearchPaths;
@@ -31,12 +32,68 @@ let
     (pythonVersion: nixpkgs.${pythonVersion})
     pythonVersions;
 
-  projectsSrc = ./projects;
+  projectsPath = ./projects;
+  projectsMeta = mapListToAttrs
+    (project: {
+      name = project;
+      value = buildProjectMeta project;
+    })
+    (lsDirs projectsPath);
+
+  buildProjectMeta = project:
+    {
+      setupPath = projectsPath + "/${project}/setup.nix";
+      testPath = projectsPath + "/${project}/test.py";
+      versions =
+        let
+          latest = getLatestVersion (builtins.attrNames versions);
+          versions = mapListToAttrs
+            (buildProjectVersionMeta project)
+            (lsDirs (projectsPath + "/${project}"));
+        in
+        if versions == { }
+        then null
+        else versions // { latest = versions.${latest}; };
+    };
+  buildProjectVersionMeta = project: version:
+    {
+      name = version;
+      value = {
+        closurePath = projectsPath + "/${project}/${version}/python3*.json";
+        installersPath = projectsPath + "/${project}/${version}/installers.json";
+        pythonVersions =
+          let
+            latest = getLatestVersion (builtins.attrNames supported);
+            supported = mapListToAttrs
+              (buildProjectVersionForInterpreterMeta project version)
+              (pythonVersions);
+          in
+          if supported == { }
+          then { }
+          else supported // { latest = supported.${latest}; };
+        setupPath = projectsPath + "/${project}/${version}/setup.nix";
+        testPath = projectsPath + "/${project}/${version}/test.py";
+      };
+    };
+  buildProjectVersionForInterpreterMeta = project: version: pythonVersion:
+    let
+      closurePath = projectsPath + "/${project}/${version}/${pythonVersion}.json";
+    in
+    if builtins.pathExists closurePath
+    then {
+      name = pythonVersion;
+      value = {
+        inherit closurePath;
+        inherit pythonVersion;
+      };
+    }
+    else null;
+
   projects =
     let
       projects = mapListToAttrs
         (buildProject)
-        (lsDirs projectsSrc);
+        (builtins.attrNames projectsMeta);
     in
     (projects
       // { outPath = attrsToLinkFarm "nixpkgs-python" projects; }
@@ -46,36 +103,23 @@ let
   apps = mapListToAttrs
     (project: {
       name = project;
-      value = mapListToAttrs
-        (version:
-          let pythonVersion = getLatestVersion
-            projects.${project}.${version}.__names__;
-          in
-          if projects.${project}.${version}.__names__ == [ ]
-          then null
-          else {
-            name = version;
-            value = projects.${project}.${version}.${pythonVersion}.bin;
-          })
-        (projects.${project}.__names__);
+      value = builtins.mapAttrs
+        (version: pythonVersions:
+          let pythonVersion = getLatestVersion (builtins.attrNames pythonVersions);
+          in pythonVersions.${pythonVersion}.bin)
+        (projects.${project});
     })
-    (projects.__names__);
+    (builtins.attrNames projectsMeta);
 
   buildProject = project:
-    let
-      versions = buildProjectVersions project;
-      latest = getLatestVersion (builtins.attrNames versions);
-      versions' = versions
-        // { latest = versions.${latest}; };
+    let versions = buildProjectVersions project;
     in
-    if versions == { }
-    then null
-    else {
+    {
       name = project;
-      value = versions'
-        // { __names__ = builtins.attrNames versions'; }
-        // { __values__ = builtins.attrValues versions'; }
-        // { outPath = attrsToLinkFarm project versions'; };
+      value = versions
+        // { __names__ = builtins.attrNames versions; }
+        // { __values__ = builtins.attrValues versions; }
+        // { outPath = attrsToLinkFarm project versions; };
     };
 
   buildProjectVersions = project:
@@ -84,12 +128,16 @@ let
         name = version;
         value = buildProjectVersion project version;
       })
-      (lsDirs (projectsSrc + "/${project}"));
+      (builtins.attrNames projectsMeta.${project}.versions);
   buildProjectVersion = project: version:
     let
       results = mapListToAttrs
-        (buildProjectVersionForInterpreter project version)
-        (pythonVersions);
+        (pythonVersion:
+          buildProjectVersionForInterpreter
+            project
+            version
+            projectsMeta.${project}.versions.${version}.pythonVersions.${pythonVersion}.pythonVersion)
+        (builtins.attrNames projectsMeta.${project}.versions.${version}.pythonVersions);
     in
     (results
       // { __names__ = builtins.attrNames results; }
@@ -98,12 +146,12 @@ let
 
   buildProjectVersionForInterpreter = project: version: pythonVersion:
     let
-      closureCommonPath = projectsSrc + "/${project}/${version}/python3*.json";
-      closurePath = projectsSrc + "/${project}/${version}/${pythonVersion}.json";
-      setupGlobalPath = projectsSrc + "/${project}/setup.nix";
-      setupVersionPath = projectsSrc + "/${project}/${version}/setup.nix";
-      testGlobalPath = projectsSrc + "/${project}/test.py";
-      testVersionPath = projectsSrc + "/${project}/${version}/test.py";
+      closureCommonPath = projectsMeta.${project}.versions.${version}.closurePath;
+      closurePath = projectsMeta.${project}.versions.${version}.pythonVersions.${pythonVersion}.closurePath;
+      setupGlobalPath = projectsMeta.${project}.setupPath;
+      setupVersionPath = projectsMeta.${project}.versions.${version}.setupPath;
+      testGlobalPath = projectsMeta.${project}.testPath;
+      testVersionPath = projectsMeta.${project}.versions.${version}.testPath;
 
       name = "${pythonVersion}-${project}-${version}";
       python = nixpkgs.${pythonVersion};
@@ -303,13 +351,11 @@ let
         test = venvTests;
       };
     in
-    if builtins.pathExists closurePath
-    then {
+    {
       name = pythonVersion;
       value = outputs
         // { outPath = attrsToLinkFarm name outputs; };
-    }
-    else null;
+    };
 
   supportedArchs = [ "any" ]
     ++ (optional (isDarwin) "macosx_10_9_universal2")
@@ -399,7 +445,7 @@ let
 
   makePypiInstaller = pythonVersion: project: version:
     let
-      installersPath = projectsSrc + "/${project}/${version}/installers.json";
+      installersPath = projectsMeta.${project}.versions.${version}.installersPath;
       installers = mapAttrsToList
         (enrichInstaller pythonVersion project version)
         (fromJsonFile installersPath);
