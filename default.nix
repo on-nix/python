@@ -43,30 +43,37 @@ let
       // { __names__ = builtins.attrNames projects; }
       // { __values__ = builtins.attrValues projects; });
 
-  apps =
-    builtins.mapAttrs
-      (project: versions:
-        builtins.mapAttrs
-          (version: pythonVersions:
-            let latest = getLatestVersion (builtins.attrNames pythonVersions);
-            in pythonVersions.${latest}.bin)
-          (versions))
-      (projects);
+  apps = mapListToAttrs
+    (project: {
+      name = project;
+      value = mapListToAttrs
+        (version:
+          let pythonVersion = getLatestVersion
+            projects.${project}.${version}.__names__;
+          in
+          {
+            name = version;
+            value = projects.${project}.${version}.${pythonVersion}.bin;
+          })
+        (projects.${project}.__names__);
+    })
+    (projects.__names__);
 
   buildProject = project:
     let
       versions = buildProjectVersions project;
       latest = getLatestVersion (builtins.attrNames versions);
+      versions' = versions
+        // { latest = versions.${latest}; };
     in
     if versions == { }
     then null
     else {
       name = project;
-      value = versions
-        // { __names__ = builtins.attrNames versions; }
-        // { __values__ = builtins.attrValues versions; }
-        // { latest = versions.${latest}; }
-        // { outPath = attrsToLinkFarm project versions; };
+      value = versions'
+        // { __names__ = builtins.attrNames versions'; }
+        // { __values__ = builtins.attrValues versions'; }
+        // { outPath = attrsToLinkFarm project versions'; };
     };
 
   buildProjectVersions = project:
@@ -83,6 +90,8 @@ let
         (pythonVersions);
     in
     (results
+      // { __names__ = builtins.attrNames results; }
+      // { __values__ = builtins.attrValues results; }
       // { outPath = attrsToLinkFarm "${project}-${version}" results; });
 
   buildProjectVersionForInterpreter = project: version: pythonVersion:
