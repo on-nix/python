@@ -259,7 +259,7 @@ $ nix-env -i cachix
 $ cachix use nixpkgs-python
 ```
 
-This will save you the time required to build the projects from source
+This will save you the time required to build the projects on your machine
 and instead just download the build results.
 
 # Contributing

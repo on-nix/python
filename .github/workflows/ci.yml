@@ -614,6 +614,7 @@ jobs:
     - run: just build projects.python-jose
     - run: just build projects.python-magic
     - run: just build projects.python-multipart
+    - run: just build projects.python-slugify
     - run: just build projects.python-utils
     - run: just build projects.python-whois
     - run: just build projects.python3-openid

@@ -127,11 +127,7 @@ let
   buildProjectVersion = project: version:
     let
       results = mapListToAttrs
-        (pythonVersion:
-          buildProjectVersionForInterpreter
-            project
-            projectsMeta.${project}.versions.${version}.version
-            projectsMeta.${project}.versions.${version}.pythonVersions.${pythonVersion}.pythonVersion)
+        (buildProjectVersionForInterpreter project version)
         (builtins.attrNames projectsMeta.${project}.versions.${version}.pythonVersions);
     in
     (results
@@ -139,8 +135,11 @@ let
       // { __values__ = builtins.attrValues results; }
       // { outPath = attrsToLinkFarm "${project}-${version}" results; });
 
-  buildProjectVersionForInterpreter = project: version: pythonVersion:
+  buildProjectVersionForInterpreter = project: version': pythonVersion':
     let
+      version = projectsMeta.${project}.versions.${version'}.version;
+      pythonVersion = projectsMeta.${project}.versions.${version}.pythonVersions.${pythonVersion'}.pythonVersion;
+
       closureCommonPath = projectsMeta.${project}.versions.${version}.closurePath;
       closurePath = projectsMeta.${project}.versions.${version}.pythonVersions.${pythonVersion}.closurePath;
       setupGlobalPath = projectsMeta.${project}.setupPath;
@@ -148,6 +147,7 @@ let
       testGlobalPath = projectsMeta.${project}.testPath;
       testVersionPath = projectsMeta.${project}.versions.${version}.testPath;
 
+      name' = "${pythonVersion'}-${project}-${version'}";
       name = "${pythonVersion}-${project}-${version}";
       python = nixpkgs.${pythonVersion};
       setup = (
@@ -268,7 +268,7 @@ let
           pythonPackage39 = optional (pythonVersion == "python39") venvContents;
           source = propagated ++ [ searchPathsRuntime ];
         };
-        name = "${name}-dev";
+        name = "${name'}-dev";
       };
       venvTests = makeDerivation {
         builder = ''
@@ -336,7 +336,7 @@ let
           envVenvContents = venvContents;
           envVenvSearchPaths = venvSearchPaths;
         };
-        name = "${name}-bin";
+        name = "${name'}-bin";
       };
 
       outputs = {
