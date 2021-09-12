@@ -25,27 +25,22 @@ That can be installed with the [Nix][NIX] package manager.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 # Contents
 
-- [List of available projects](#list-of-available-projects)
 - [Applications vs Libraries](#applications-vs-libraries)
-- [Installing Applications](#installing-applications)
-- [Creating Python environments with Applications and Libraries](#creating-python-environments-with-applications-and-libraries)
-    - [Compatibility with Nixpkgs](#compatibility-with-nixpkgs)
+- [Using with Nix stable](#using-with-nix-stable)
+    - [List of available projects](#list-of-available-projects)
+    - [Installing Applications](#installing-applications)
+    - [Creating Python environments with Applications and Libraries](#creating-python-environments-with-applications-and-libraries)
+        - [Compatibility with Nixpkgs](#compatibility-with-nixpkgs)
+- [Using with Nix unstable (Nix Flakes)](#using-with-nix-unstable-nix-flakes)
+    - [List of available projects](#list-of-available-projects-1)
+    - [Trying out Applications without installing them](#trying-out-applications-without-installing-them)
+    - [Installing Applications](#installing-applications-1)
+    - [Creating Python environments with Applications and Libraries](#creating-python-environments-with-applications-and-libraries-1)
+    - [Compatibility with Nixpkgs](#compatibility-with-nixpkgs-1)
 - [Using the binary cache](#using-the-binary-cache)
 - [Contributing](#contributing)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# List of available projects
-
-Checkout the [projects](./projects) folder,
-each entry represents a project and its available versions.
-
-For example:
-- Project: `awscli` and version: `1.20.31`, or
-- Project: `requests` and version `2.26.0`
-
-Additionally, there is a meta-version called `latest`
-which points to the latest version of the project.
 
 # Applications vs Libraries
 
@@ -60,7 +55,7 @@ On Python, projects can offer two types of components:
 - **Libraries**: Packages and modules that you can import in your Python projects:
 
   - [Boto3](https://pypi.org/project/boto3/): `>>> import boto3`
-  - [Django](https://pypi.org/project/django/): `>>> import django`
+  - [Django](https://pypi.org/project/django/): `>>> from django import *`
   - ...
 
 - **Both**: They work either as an Application and/or as a Library:
@@ -68,7 +63,21 @@ On Python, projects can offer two types of components:
   - [PyTest](https://pypi.org/project/pytest/): `$ pytest`, or `>>> import pytest`
   - ...
 
-# Installing Applications
+# Using with Nix stable
+
+## List of available projects
+
+Checkout the [projects](./projects) folder,
+each entry represents a project and its available versions.
+
+For example:
+- Project: `awscli` and version: `1.20.31`, or
+- Project: `requests` and version `2.26.0`
+
+Additionally, there is a meta-version called `latest`
+which points to the latest version of the project.
+
+## Installing Applications
 
 Simply run the following magic from a terminal.
 
@@ -96,7 +105,7 @@ $ pytest --version
   pytest 6.2.5
 ```
 
-# Creating Python environments with Applications and Libraries
+## Creating Python environments with Applications and Libraries
 
 First,
 you need to import Nixpkgs Python
@@ -178,7 +187,7 @@ $ python -c 'import torch; print(torch.__version__)'
   1.9.0+cu102
 ```
 
-## Compatibility with Nixpkgs
+### Compatibility with Nixpkgs
 
 You can use Nixpkgs Python and Nixpkgs together.
 
@@ -241,6 +250,154 @@ building '/nix/store/4l51x7983ggxc8z5fmb5wzhvvx8kvn01-example.drv'...
 + python -c 'import torch; print(torch.__version__)'
   1.9.0+cu102
 + touch /nix/store/9cckx5zpbiakx507g253fv08hykf8msv-example
+```
+# Using with Nix unstable (Nix Flakes)
+
+This project is also offered as a Nix Flake.
+
+:warning: This section is for advanced Nix users.
+You can skip its content
+as Nix Flakes are currently
+an **unstable** release of Nix.
+
+## List of available projects
+
+```bash
+$ nix flake show github:kamadorueda/nixpkgs-python
+```
+
+## Trying out Applications without installing them
+
+- `$ nix shell 'github:kamadorueda/nixpkgs-python#"awscli-1.20.31-latest-bin"'`
+- `$ nix shell 'github:kamadorueda/nixpkgs-python#"pytest-latest-python37-bin"'`
+
+## Installing Applications
+
+- `$ nix profile install 'github:kamadorueda/nixpkgs-python#"awscli-1.20.31-latest-bin"'`
+- `$ nix profile install 'github:kamadorueda/nixpkgs-python#"pytest-latest-python37-bin"'`
+
+## Creating Python environments with Applications and Libraries
+
+```nix
+# /path/to/my/project/flake.nix
+{
+  inputs = {
+    # Import projects
+    nixpkgs.url = "github:nixos/nixpkgs";
+    nixpkgsPython.url = "github:kamadorueda/nixpkgs-python";
+  };
+  outputs = { nixpkgs, nixpkgsPython, ... }: {
+    packages.x86_64-linux = {
+
+      example = nixpkgsPython.lib.python39Env {
+        name = "example";
+        projects = with nixpkgsPython.lib.projects; [
+          awscli."1.20.31"
+          numpy."latest"
+          requests."latest"
+          torch."1.9.0"
+        ];
+      };
+
+    };
+  };
+}
+```
+
+The output of this function
+contains a setup script
+that you can `source`:
+
+```bash
+# Build your environment
+$ nix build '.#example'
+
+# Source it's output
+$ source ./result/setup
+```
+
+After doing this,
+the specified dependencies will be available in your shell ! :rocket:
+
+Also, you'll be able to use the applications and libraries provided
+by the projects in the environment:
+
+```bash
+$ python --version
+  Python 3.9.6
+$ aws --version
+  aws-cli/1.20.31 Python/3.9.6 Linux/5.10.57 botocore/1.21.31
+$ python -c 'import numpy; print(numpy.__version__)'
+  1.21.2
+$ python -c 'import requests; print(requests.__version__)'
+  2.26.0
+$ python -c 'import torch; print(torch.__version__)'
+  1.9.0+cu102
+```
+
+## Compatibility with Nixpkgs
+
+You can use Nixpkgs Python and Nixpkgs together.
+
+For example:
+
+```nix
+# /path/to/my/project/flake.nix
+{
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs";
+    nixpkgsPython.url = "github:kamadorueda/nixpkgs-python";
+  };
+  outputs = { nixpkgs, nixpkgsPython, self, ... }: {
+    packages.x86_64-linux = {
+
+      example = nixpkgsPython.lib.python39Env {
+        name = "example";
+        projects = with nixpkgsPython.lib.projects; [
+          awscli."1.20.31"
+          numpy."latest"
+          requests."latest"
+          torch."1.9.0"
+        ];
+      };
+
+      something = nixpkgs.legacyPackages.x86_64-linux.stdenv.mkDerivation {
+        buildInputs = [ self.packages.x86_64-linux.example ];
+        builder = builtins.toFile "builder.sh" ''
+          source $stdenv/setup
+
+          set -x
+
+          python --version
+          aws --version
+          python -c 'import numpy; print(numpy.__version__)'
+          python -c 'import requests; print(requests.__version__)'
+          python -c 'import torch; print(torch.__version__)'
+
+          touch $out
+        '';
+        name = "example";
+      };
+    };
+  };
+}
+```
+
+Now just `$ nix -L build --rebuild .#something` ! :rocket:
+
+```bash
++ python --version
+  Python 3.9.6
++ aws --version
+  aws-cli/1.20.31 Python/3.9.6 Linux/5.10.62 botocore/1.21.31
++ python -c 'import numpy; print(numpy.__version__)'
+  1.21.2
++ python -c 'import requests; print(requests.__version__)'
+  2.26.0
++ python -c 'import torch; print(torch.__version__)'
+  1.9.0+cu102
+
++ touch /nix/store/dcccmxjllgwb9c9j6irp68f1qp4ssxyg-example
 ```
 
 # Using the binary cache
