@@ -1,0 +1,19 @@
+{
+  "murmurhash-1.0.5-cp36-cp36m-macosx_10_9_x86_64.whl": "ef8819d15973e0d6f69688bafc097a1fae081675c1de39807028869a1320b1a9",
+  "murmurhash-1.0.5-cp36-cp36m-manylinux1_x86_64.whl": "76251513a2acad6c2e4b7aeffc5fcb807ee97a66cad5c2990557556555a6b7e9",
+  "murmurhash-1.0.5-cp36-cp36m-manylinux2014_x86_64.whl": "d58315961dc5a5e740f41f2ac5c3a0ebc61ef472f8afeb4db7eeb3b863243105",
+  "murmurhash-1.0.5-cp36-cp36m-win_amd64.whl": "23c56182822a1ed88e2a098ac56958dfec380696a9a943df203b9b41e4bcf5e4",
+  "murmurhash-1.0.5-cp37-cp37m-macosx_10_9_x86_64.whl": "023391cfefe584ac544c1ea0936976c0119b17dd27bb8280652cef1704f76428",
+  "murmurhash-1.0.5-cp37-cp37m-manylinux1_x86_64.whl": "f00321998f0a6bad3fd068babf448a296d4b0b1f4dd424cab863ebe5ed54182f",
+  "murmurhash-1.0.5-cp37-cp37m-manylinux2014_x86_64.whl": "8381172e03c5f6f947005fb146a53c5e5a9e0d630be4a40cbf8838e9324bfe1c",
+  "murmurhash-1.0.5-cp37-cp37m-win_amd64.whl": "fed7578fbaa6c301f27ed80834c1f7494ea7d335e269e98b9aee477cf0b3b487",
+  "murmurhash-1.0.5-cp38-cp38-macosx_10_9_x86_64.whl": "d4c3a0242014cf4c84e9ea0ba3f13b48f02a3992de3da7b1116d11b816451195",
+  "murmurhash-1.0.5-cp38-cp38-manylinux1_x86_64.whl": "99e55488476a5f70e8d305fd31258f140e52f724f788bcc50c31ec846a2b3766",
+  "murmurhash-1.0.5-cp38-cp38-manylinux2014_x86_64.whl": "b9292c532538cf47846ca81056cfeab08b877c35fe7521d6524aa92ddcd833e2",
+  "murmurhash-1.0.5-cp38-cp38-win_amd64.whl": "fd17973fd4554715efd8d86b3e9200358e49e437fdb92a897ca127aced48b61c",
+  "murmurhash-1.0.5-cp39-cp39-macosx_10_9_x86_64.whl": "81474a45c4074637a6dfc8fea4cdebf091ab5aa781c2cfcb94c43b16030badd7",
+  "murmurhash-1.0.5-cp39-cp39-manylinux1_x86_64.whl": "a9bd2312996e6e47605af305a1e5f091eba1bdd637cdd9986aec4885cb4c5530",
+  "murmurhash-1.0.5-cp39-cp39-manylinux2014_x86_64.whl": "892749023da26420d194f37bfa30df1368aaac0149cfa3b2105db36b66549e37",
+  "murmurhash-1.0.5-cp39-cp39-win_amd64.whl": "add366944eb8ec73013a4f36e166c5a4f0f7628ffe1746bc5fe031347489e5e8",
+  "murmurhash-1.0.5.tar.gz": "98ec9d727bd998a35385abd56b062cf0cca216725ea7ec5068604ab566f7e97f"
+}
