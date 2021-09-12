@@ -204,6 +204,8 @@ let
       venvContents = makeDerivation {
         builder = ''
           export DETERMINISTIC_BUILD=1
+          export LANG=C.UTF-8
+          export LC_ALL=C.UTF-8
           export PYTHONDONTWRITEBYTECODE=1
           export PYTHONPYCACHEPREFIX=$PWD
           export PYTHONHASHSEED=0
