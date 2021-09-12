@@ -1,0 +1,7 @@
+{
+  "xgboost-1.4.2-py3-none-macosx_10_14_x86_64.macosx_10_15_x86_64.macosx_11_0_x86_64.whl": "e8f1a366a403784afd30a56eb99a429cefc45d906943cd362025ccf942208e13",
+  "xgboost-1.4.2-py3-none-manylinux2010_x86_64.whl": "ec3f60d53dcd23273a5c7a495ba0f8205656ce750eb2ce7798726a4b2ef4955a",
+  "xgboost-1.4.2-py3-none-manylinux2014_aarch64.whl": "15dd5987827030b3f68e741490a8b3a4ead7c6064bd911e36235b84e0a9d0765",
+  "xgboost-1.4.2-py3-none-win_amd64.whl": "7c8973204b2c2362012850605e81de5a180513fc08db36d0da9befb77c3d57c8",
+  "xgboost-1.4.2.tar.gz": "5a364c152095824445ac56a83fb7f7e75913b4bb128c2fcd99b85877c9f4f8fe"
+}
