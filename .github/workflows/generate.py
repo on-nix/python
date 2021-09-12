@@ -1,3 +1,4 @@
+import more_itertools
 import os
 import yaml
 
@@ -10,35 +11,35 @@ def main() -> None:
         },
         "name": "ci",
         "on": ["pull_request", "push"],
-        "jobs": {
-            "build": {
-                "env": {
-                    "CACHIX_NIXPKGS_PYTHON_TOKEN": "${{ secrets.CACHIX_NIXPKGS_PYTHON_TOKEN }}"
-                },
-                "runs-on": "ubuntu-latest",
-                "steps": [
-                    {"uses": "actions/checkout@v2"},
-                    {"uses": "cachix/install-nix-action@v13"},
-                    {
-                        "run": "nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs"
-                    },
-                    {"run": "nix-channel --update"},
-                    {"run": "nix-env -i cachix"},
-                    {"run": "nix-env -i just"},
-                ],
-            },
-        },
+        "jobs": {},
     }
 
-    for project in sorted(os.listdir("projects")):
-        project_path = os.path.join("projects", project)
-        data["jobs"]["build"]["steps"].append(
-            {"run": f"just build projects.{project}"}
-        )
+    jobs = [
+        {"run": f"just build projects.{project}"}
+        for project in sorted(os.listdir("projects"))
+    ]
 
-    data["jobs"]["build"]["steps"].append({"run": "just build projects"})
+    for index, jobs_chunk in enumerate(more_itertools.distribute(20, jobs)):
+        index = str(index).zfill(2)
+        data["jobs"][f"build{index}"] = {
+            "env": {
+                "CACHIX_NIXPKGS_PYTHON_TOKEN": "${{ secrets.CACHIX_NIXPKGS_PYTHON_TOKEN }}"
+            },
+            "runs-on": "ubuntu-latest",
+            "steps": [
+                {"uses": "actions/checkout@v2"},
+                {"uses": "cachix/install-nix-action@v13"},
+                {
+                    "run": "nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs"
+                },
+                {"run": "nix-channel --update"},
+                {"run": "nix-env -i cachix"},
+                {"run": "nix-env -i just"},
+                *jobs_chunk,
+            ],
+        }
 
-    with open(".github/workflows/ci.yml", "w") as file:
+    with open(f".github/workflows/ci.yml", "w") as file:
         yaml.dump(data, file, indent=2, sort_keys=True)
 
 

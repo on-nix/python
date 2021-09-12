@@ -19,9 +19,12 @@ build ATTR:
   fi
 
 ci:
-  just build projects.pyyaml.latest.python39.dev
-  source ./result/setup \
-    && python3 .github/workflows/generate.py
+  : \
+  && just build projects.more-itertools.latest.latest.dev \
+  && source ./result/setup \
+  && just build projects.pyyaml.latest.latest.dev \
+  && source ./result/setup \
+  && python3 .github/workflows/generate.py
 
 crawl-fetch:
   bash makes/crawl/fetch.sh
