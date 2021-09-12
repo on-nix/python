@@ -11,6 +11,7 @@
       inherit (nixpkgsPython) mapListToAttrs;
     in
     {
+      lib = nixpkgsPython;
       packages.x86_64-linux = builtins.foldl'
         (all: project: all // (builtins.foldl'
           (all: version: all // (builtins.foldl'
