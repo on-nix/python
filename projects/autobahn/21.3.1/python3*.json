@@ -1,0 +1,8 @@
+{
+  "cffi": "1.14.6",
+  "cryptography": "3.4.8",
+  "hyperlink": "21.0.0",
+  "idna": "3.2",
+  "pycparser": "2.20",
+  "txaio": "21.2.1"
+}
