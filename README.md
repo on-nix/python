@@ -119,7 +119,7 @@ For example:
 let
   nixpkgs = import <nixpkgs> { };
 
-  nixpkgsPython = import (nixpkgs.fetchFromGitHub {
+  pythonOnNix = import (nixpkgs.fetchFromGitHub {
     owner = "kamadorueda";
     repo = "python-on-nix";
     # Pick a commit from this list:
@@ -145,9 +145,9 @@ For example:
 ```nix
 # /path/to/my/env.nix (continuation)
 
-nixpkgsPython.python39Env {
+pythonOnNix.python39Env {
   name = "example";
-  projects = with nixpkgsPython.projects; [
+  projects = with pythonOnNix.projects; [
     awscli."1.20.31"
     numpy."latest"
     requests."latest"
@@ -199,12 +199,12 @@ For example:
 let
   # import projects as explained in previous sections
   nixpkgs = import { ... };
-  nixpkgsPython = import { ... };
+  pythonOnNix = import { ... };
 
   # Create a Python on Nix environment as explained in previous sections
-  env = nixpkgsPython.python39Env {
+  env = pythonOnNix.python39Env {
     name = "example";
-    projects = with nixpkgsPython.projects; [
+    projects = with pythonOnNix.projects; [
       awscli."1.20.31"
       numpy."latest"
       requests."latest"
@@ -284,14 +284,14 @@ $ nix flake show github:kamadorueda/python-on-nix
   inputs = {
     # Import projects
     nixpkgs.url = "github:nixos/nixpkgs";
-    nixpkgsPython.url = "github:kamadorueda/python-on-nix";
+    pythonOnNix.url = "github:kamadorueda/python-on-nix";
   };
-  outputs = { nixpkgs, nixpkgsPython, ... }: {
+  outputs = { nixpkgs, pythonOnNix, ... }: {
     packages.x86_64-linux = {
 
-      example = nixpkgsPython.lib.python39Env {
+      example = pythonOnNix.lib.python39Env {
         name = "example";
-        projects = with nixpkgsPython.lib.projects; [
+        projects = with pythonOnNix.lib.projects; [
           awscli."1.20.31"
           numpy."latest"
           requests."latest"
@@ -346,14 +346,14 @@ For example:
 {
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs";
-    nixpkgsPython.url = "github:kamadorueda/python-on-nix";
+    pythonOnNix.url = "github:kamadorueda/python-on-nix";
   };
-  outputs = { nixpkgs, nixpkgsPython, self, ... }: {
+  outputs = { nixpkgs, pythonOnNix, self, ... }: {
     packages.x86_64-linux = {
 
-      example = nixpkgsPython.lib.python39Env {
+      example = pythonOnNix.lib.python39Env {
         name = "example";
-        projects = with nixpkgsPython.lib.projects; [
+        projects = with pythonOnNix.lib.projects; [
           awscli."1.20.31"
           numpy."latest"
           requests."latest"

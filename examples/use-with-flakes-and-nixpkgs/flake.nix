@@ -1,13 +1,13 @@
 {
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs";
-    nixpkgsPython.url = "github:kamadorueda/python-on-nix";
+    pythonOnNix.url = "github:kamadorueda/python-on-nix";
   };
-  outputs = { nixpkgs, nixpkgsPython, self, ... }: {
+  outputs = { nixpkgs, pythonOnNix, self, ... }: {
     packages.x86_64-linux = {
-      example = nixpkgsPython.lib.python39Env {
+      example = pythonOnNix.lib.python39Env {
         name = "example";
-        projects = with nixpkgsPython.lib.projects; [
+        projects = with pythonOnNix.lib.projects; [
           awscli."1.20.31"
           numpy."latest"
           requests."latest"

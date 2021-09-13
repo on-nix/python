@@ -1,8 +1,8 @@
 {
   runtimeLibstdcppRpath = true;
-  searchPathsRuntime = { nixpkgs, nixpkgsPython, pythonVersion, ... }: {
+  searchPathsRuntime = { nixpkgs, pythonOnNix, pythonVersion, ... }: {
     source = [
-      nixpkgsPython.projects.numpy.latest.${pythonVersion}.dev
+      pythonOnNix.projects.numpy.latest.${pythonVersion}.dev
     ];
   };
 }

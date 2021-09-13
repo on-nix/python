@@ -1,9 +1,9 @@
 {
   buildGccBin = true;
-  searchPathsBuild = { nixpkgs, nixpkgsPython, pythonVersion }: {
+  searchPathsBuild = { nixpkgs, pythonOnNix, pythonVersion }: {
     source = [
-      nixpkgsPython.projects.cython.latest.${pythonVersion}.dev
-      nixpkgsPython.projects.numpy.latest.${pythonVersion}.dev
+      pythonOnNix.projects.cython.latest.${pythonVersion}.dev
+      pythonOnNix.projects.numpy.latest.${pythonVersion}.dev
     ];
   };
 }

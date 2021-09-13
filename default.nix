@@ -225,7 +225,7 @@ let
         (setup.patchClosure closure);
       searchPathsArgs = {
         inherit nixpkgs;
-        nixpkgsPython = self;
+        pythonOnNix = self;
         inherit pythonVersion;
       };
 

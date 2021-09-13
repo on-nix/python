@@ -1,11 +1,11 @@
 let
   nixpkgs = import <nixpkgs> { };
 
-  nixpkgsPython = import ./.;
+  pythonOnNix = import ./.;
 
-  env = nixpkgsPython.python39Env {
+  env = pythonOnNix.python39Env {
     name = "example";
-    projects = with nixpkgsPython.projects; [
+    projects = with pythonOnNix.projects; [
       awscli."1.20.31"
       numpy."latest"
       requests."latest"

@@ -6,23 +6,23 @@
   };
   outputs = { nixpkgs, ... }:
     let
-      nixpkgsPython = import ./default.nix;
+      pythonOnNix = import ./default.nix;
 
-      inherit (nixpkgsPython) mapListToAttrs;
+      inherit (pythonOnNix) mapListToAttrs;
     in
     {
-      lib = nixpkgsPython;
+      lib = pythonOnNix;
       packages.x86_64-linux = builtins.foldl'
         (all: project: all // (builtins.foldl'
           (all: version: all // (builtins.foldl'
             (all: pythonVersion: all // (mapListToAttrs
               (output: { name = output.name; value = output; })
-              (builtins.attrValues nixpkgsPython.projects.${project.project}.${version.version}.${pythonVersion})))
+              (builtins.attrValues pythonOnNix.projects.${project.project}.${version.version}.${pythonVersion})))
             { }
             (builtins.attrNames version.pythonVersions)))
           { }
           (builtins.attrValues project.versions)))
         { }
-        (builtins.attrValues nixpkgsPython.projectsMeta);
+        (builtins.attrValues pythonOnNix.projectsMeta);
     };
 }
