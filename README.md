@@ -8,7 +8,7 @@ That can be used with the [Nix][NIX] package manager.
 - Scope:
   - :heavy_check_mark:
     All [active Python releases][PYTHON_RELEASES] (`3.6`, `3.7`, `3.8`, `3.9`)
-  - :heavy_check_mark: 850+ projects already packaged
+  - :heavy_check_mark: 900+ projects already packaged
 - Quality:
   - :heavy_check_mark: It is 100% Nix, with love :heart:
   - :heavy_check_mark: Data integrity checksums are used everywhere
