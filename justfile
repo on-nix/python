@@ -4,8 +4,12 @@ set shell := ["bash", "-euo", "pipefail", "-c"]
 _:
   @just --list
 
+instantiate:
+  nix-instantiate \
+    --attr projects \
+    --show-trace \
+
 build ATTR:
-  nix-instantiate --show-trace -A projects default.nix
   cachix use python-on-nix
   nix-build \
     --attr '{{ATTR}}' \
