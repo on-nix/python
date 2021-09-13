@@ -1,0 +1,19 @@
+{
+  "tokenizers-0.10.3-cp36-cp36m-macosx_10_11_x86_64.whl": "4ab688daf4692a6c31dfe42f1f3a4a8c22050705eb69d58d3efde9d55f434586",
+  "tokenizers-0.10.3-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "c26dbc3b2a3d71d3d40c50975ec62145932f05aea73f03ea35c48ebd3a717611",
+  "tokenizers-0.10.3-cp36-cp36m-win32.whl": "6b84673997990b3c260ae2f7c57fdf1f835e316820eff14aca46dc68be3c0c74",
+  "tokenizers-0.10.3-cp36-cp36m-win_amd64.whl": "2a9ee3ee574d4aa740e099b0ad6ef8e63f52f48cde359bb31801146a5aa614dc",
+  "tokenizers-0.10.3-cp37-cp37m-macosx_10_11_x86_64.whl": "2f8c5fefef0d0a03be613547e613fbda06b9e6ee0891236649524964c3e54d80",
+  "tokenizers-0.10.3-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "4cc194104c8e427ffc4f54c7866488b42f2b1f6351a6cad0d045ca5ab8108e42",
+  "tokenizers-0.10.3-cp37-cp37m-win32.whl": "edd8cb85c16b4b65e87ea5ef9d400be9fdd53c4152adbaca8817e16dd3aa480b",
+  "tokenizers-0.10.3-cp37-cp37m-win_amd64.whl": "7b11b373705d082d43657c08883b79b5330f1952f0668d17488b6b889c4d7feb",
+  "tokenizers-0.10.3-cp38-cp38-macosx_10_11_x86_64.whl": "a7ce0c2f27f7c92aa3f895231de90319acdf960ce2e42ba591edc651fda7d3c9",
+  "tokenizers-0.10.3-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "ae7e40d9c8a77c5a4109731ac3e21633b0c609c56a8b58be6b863da61fa54636",
+  "tokenizers-0.10.3-cp38-cp38-win32.whl": "a7ce051aafc53c564c9edbc09df300c2bd4f6ce87460fc22a276fed405d1892a",
+  "tokenizers-0.10.3-cp38-cp38-win_amd64.whl": "91a8c045980594c7c437a52c3da5276eb3c530a662b4ef628ff32d81fb22b543",
+  "tokenizers-0.10.3-cp39-cp39-macosx_10_11_x86_64.whl": "1d8867db210d75d97312360ae23b92aeb6a6b5bc65e15c1cd9d204b3fa3fc262",
+  "tokenizers-0.10.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "18c495e700f4588b9a00e58b4c41dc459c36daaa7c39a27faf880eb8f5533ce1",
+  "tokenizers-0.10.3-cp39-cp39-win32.whl": "ad700fd9da518884fd58bf89f0b6dfeecef9b4e2d2db8765ef259f66d6c14980",
+  "tokenizers-0.10.3-cp39-cp39-win_amd64.whl": "e9d147e545cdfeca560646c7a703bf287afe45645da426506ccd5eb78aab5ef5",
+  "tokenizers-0.10.3.tar.gz": "1a5d3b596c6d3a237e1ad7f46c472d467b0246be7fd1a364f12576eb8db8f7e6"
+}
