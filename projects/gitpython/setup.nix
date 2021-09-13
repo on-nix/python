@@ -1,5 +1,3 @@
 {
-  searchPathsRuntime = { nixpkgs, ... }: {
-    bin = [ nixpkgs.git ];
-  };
+  runtimeGitBin = true;
 }

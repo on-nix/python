@@ -32,32 +32,32 @@ jobs:
     - run: just build projects.httpretty
     - run: just build projects.int-date
     - run: just build projects.jinja2-time
-    - run: just build projects.kombu
-    - run: just build projects.mako
-    - run: just build projects.metaloaders
-    - run: just build projects.natsort
-    - run: just build projects.openapi-schema-validator
-    - run: just build projects.paramiko
-    - run: just build projects.pep517
-    - run: just build projects.plexauth
-    - run: just build projects.profanityfilter
-    - run: just build projects.pyarrow
-    - run: just build projects.pyftdi
-    - run: just build projects.pypandoc
-    - run: just build projects.pytest-cov
-    - run: just build projects.python-jose
-    - run: just build projects.raven
-    - run: just build projects.retry
-    - run: just build projects.schema
-    - run: just build projects.shapely
-    - run: just build projects.spacy
-    - run: just build projects.stanfordnlp
-    - run: just build projects.tensorboard-plugin-wit
-    - run: just build projects.tls-parser
-    - run: just build projects.twilio
-    - run: just build projects.validators
-    - run: just build projects.websocket-client
-    - run: just build projects.xmlrpc2
+    - run: just build projects.kiwisolver
+    - run: just build projects.mailchimp-marketing
+    - run: just build projects.mergedeep
+    - run: just build projects.mypy-extensions
+    - run: just build projects.on-http-redfish-1-0
+    - run: just build projects.pandocfilters
+    - run: just build projects.peewee
+    - run: just build projects.plantweb
+    - run: just build projects.priority
+    - run: just build projects.pyaes
+    - run: just build projects.pyexcelerate
+    - run: just build projects.pynamodb
+    - run: just build projects.pytest-benchmark
+    - run: just build projects.python-hcl2
+    - run: just build projects.random2
+    - run: just build projects.resolvelib
+    - run: just build projects.scandir
+    - run: just build projects.sgqlc
+    - run: just build projects.soupsieve
+    - run: just build projects.sqlparse
+    - run: just build projects.tensorboard
+    - run: just build projects.tinydb
+    - run: just build projects.trytond
+    - run: just build projects.uvicorn
+    - run: just build projects.webencodings
+    - run: just build projects.xlsxwriter
   build01:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -88,32 +88,32 @@ jobs:
     - run: just build projects.httptools
     - run: just build projects.invoke
     - run: just build projects.jmespath
-    - run: just build projects.kubernetes
-    - run: just build projects.mandrill-really-maintained
-    - run: just build projects.mirakuru
-    - run: just build projects.nest-asyncio
-    - run: just build projects.opencl4py
-    - run: just build projects.parsel
-    - run: just build projects.pep562
-    - run: just build projects.plotly
-    - run: just build projects.progress
-    - run: just build projects.pyasn1
-    - run: just build projects.pygame
-    - run: just build projects.pyparsing
-    - run: just build projects.pytest-django
-    - run: just build projects.python-magic
-    - run: just build projects.rdflib
-    - run: just build projects.retrying
-    - run: just build projects.scikit-image
-    - run: just build projects.sharedmem
-    - run: just build projects.spacy-legacy
-    - run: just build projects.starlette
-    - run: just build projects.tensorflow
-    - run: just build projects.tlslite-ng
-    - run: just build projects.twine
-    - run: just build projects.varint
-    - run: just build projects.websockets
-    - run: just build projects.xmltodict
+    - run: just build projects.kombu
+    - run: just build projects.mako
+    - run: just build projects.metaloaders
+    - run: just build projects.natsort
+    - run: just build projects.openapi-schema-validator
+    - run: just build projects.para
+    - run: just build projects.pendulum
+    - run: just build projects.platformdirs
+    - run: just build projects.prison
+    - run: just build projects.pyaml
+    - run: just build projects.pyflakes
+    - run: just build projects.pyopenssl
+    - run: just build projects.pytest-cache
+    - run: just build projects.python-hosts
+    - run: just build projects.ratelimiter
+    - run: just build projects.responses
+    - run: just build projects.schedule
+    - run: just build projects.sh
+    - run: just build projects.south
+    - run: just build projects.srsly
+    - run: just build projects.tensorboard-data-server
+    - run: just build projects.tldextract
+    - run: just build projects.tskit
+    - run: just build projects.uvloop
+    - run: just build projects.webob
+    - run: just build projects.xlwt
   build02:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -144,32 +144,32 @@ jobs:
     - run: just build projects.httpx
     - run: just build projects.ipaddress
     - run: just build projects.joblib
-    - run: just build projects.l18n
-    - run: just build projects.markdown
-    - run: just build projects.mistune
-    - run: just build projects.netaddr
-    - run: just build projects.opencv-python
-    - run: just build projects.parsimonious
-    - run: just build projects.pep8
-    - run: just build projects.plotly-express
-    - run: just build projects.prometheus-client
-    - run: just build projects.pyasn1-modules
-    - run: just build projects.pygit2
-    - run: just build projects.pypdf4
-    - run: just build projects.pytest-flake8
-    - run: just build projects.python-multipart
-    - run: just build projects.readme-renderer
-    - run: just build projects.returns
-    - run: just build projects.scikit-learn
-    - run: just build projects.sign
-    - run: just build projects.speaklater
-    - run: just build projects.statsmodels
-    - run: just build projects.tensorflow-probability
-    - run: just build projects.toml
-    - run: just build projects.typed-ast
-    - run: just build projects.venusian
-    - run: just build projects.webstack-django-sorting
-    - run: just build projects.yapf
+    - run: just build projects.kubernetes
+    - run: just build projects.mandrill-really-maintained
+    - run: just build projects.mirakuru
+    - run: just build projects.nest-asyncio
+    - run: just build projects.opencl4py
+    - run: just build projects.paramiko
+    - run: just build projects.pep517
+    - run: just build projects.plexauth
+    - run: just build projects.profanityfilter
+    - run: just build projects.pyarrow
+    - run: just build projects.pyftdi
+    - run: just build projects.pypandoc
+    - run: just build projects.pytest-cov
+    - run: just build projects.python-jose
+    - run: just build projects.raven
+    - run: just build projects.retry
+    - run: just build projects.schema
+    - run: just build projects.shapely
+    - run: just build projects.spacy
+    - run: just build projects.stanfordnlp
+    - run: just build projects.tensorboard-plugin-wit
+    - run: just build projects.tls-parser
+    - run: just build projects.twilio
+    - run: just build projects.validators
+    - run: just build projects.websocket-client
+    - run: just build projects.xmlrpc2
   build03:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -199,33 +199,33 @@ jobs:
     - run: just build projects.greenlet
     - run: just build projects.huggingface-hub
     - run: just build projects.ipdb
-    - run: just build projects.jsii
-    - run: just build projects.lark-parser
-    - run: just build projects.markdown-checklist
-    - run: just build projects.mixpanel
-    - run: just build projects.netifaces
-    - run: just build projects.openpyxl
-    - run: just build projects.parso
-    - run: just build projects.pep8-naming
-    - run: just build projects.pluggy
-    - run: just build projects.promise
-    - run: just build projects.pybind11
-    - run: just build projects.pygments
-    - run: just build projects.pyper
-    - run: just build projects.pytest-forked
-    - run: just build projects.python-slugify
-    - run: just build projects.recommonmark
-    - run: just build projects.rfc3986
-    - run: just build projects.scipy
-    - run: just build projects.simplegeneric
-    - run: just build projects.sphinx
-    - run: just build projects.stdlib-list
-    - run: just build projects.termcolor
-    - run: just build projects.tomli
-    - run: just build projects.typeguard
-    - run: just build projects.vine
-    - run: just build projects.webtest
-    - run: just build projects.yarl
+    - run: just build projects.josepy
+    - run: just build projects.l18n
+    - run: just build projects.markdown
+    - run: just build projects.mistune
+    - run: just build projects.netaddr
+    - run: just build projects.opencv-python
+    - run: just build projects.parsel
+    - run: just build projects.pep562
+    - run: just build projects.plotly
+    - run: just build projects.progress
+    - run: just build projects.pyasn1
+    - run: just build projects.pygame
+    - run: just build projects.pyparsing
+    - run: just build projects.pytest-django
+    - run: just build projects.python-magic
+    - run: just build projects.rdflib
+    - run: just build projects.retrying
+    - run: just build projects.scikit-image
+    - run: just build projects.sharedmem
+    - run: just build projects.spacy-legacy
+    - run: just build projects.starlette
+    - run: just build projects.tensorflow
+    - run: just build projects.tlslite-ng
+    - run: just build projects.twine
+    - run: just build projects.varint
+    - run: just build projects.websockets
+    - run: just build projects.xmltodict
   build04:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -255,33 +255,33 @@ jobs:
     - run: just build projects.grpcio
     - run: just build projects.hupper
     - run: just build projects.ipfshttpclient
-    - run: just build projects.jsmin
-    - run: just build projects.lazy-object-proxy
-    - run: just build projects.markdown2
-    - run: just build projects.mkdocs
-    - run: just build projects.networkx
-    - run: just build projects.opt-einsum
-    - run: just build projects.partd
-    - run: just build projects.peppercorn
-    - run: just build projects.ply
-    - run: just build projects.prompt-toolkit
-    - run: just build projects.pycalver
-    - run: just build projects.pyhunter
-    - run: just build projects.pyperclip
-    - run: just build projects.pytest-freezegun
-    - run: just build projects.python-utils
-    - run: just build projects.redis
-    - run: just build projects.rgbxy
-    - run: just build projects.scripttest
-    - run: just build projects.simplejson
-    - run: just build projects.sphinx-autobuild
-    - run: just build projects.stevedore
-    - run: just build projects.terminaltables
-    - run: just build projects.tomlkit
-    - run: just build projects.typer
-    - run: just build projects.virtualenv
-    - run: just build projects.werkzeug
-    - run: just build projects.youtube-dl
+    - run: just build projects.jsii
+    - run: just build projects.lark-parser
+    - run: just build projects.markdown-checklist
+    - run: just build projects.mixpanel
+    - run: just build projects.netifaces
+    - run: just build projects.opencv-python-headless
+    - run: just build projects.parsimonious
+    - run: just build projects.pep8
+    - run: just build projects.plotly-express
+    - run: just build projects.prometheus-client
+    - run: just build projects.pyasn1-modules
+    - run: just build projects.pygit2
+    - run: just build projects.pypdf4
+    - run: just build projects.pytest-flake8
+    - run: just build projects.python-multipart
+    - run: just build projects.readme-renderer
+    - run: just build projects.returns
+    - run: just build projects.scikit-learn
+    - run: just build projects.sign
+    - run: just build projects.speaklater
+    - run: just build projects.statsmodels
+    - run: just build projects.tensorflow-probability
+    - run: just build projects.toml
+    - run: just build projects.typed-ast
+    - run: just build projects.venusian
+    - run: just build projects.webstack-django-sorting
+    - run: just build projects.yapf
   build05:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -311,33 +311,33 @@ jobs:
     - run: just build projects.gunicorn
     - run: just build projects.hyperframe
     - run: just build projects.ipython
-    - run: just build projects.json5
-    - run: just build projects.lazyutils
-    - run: just build projects.markupsafe
-    - run: just build projects.mock
-    - run: just build projects.newick
-    - run: just build projects.ordered-set
-    - run: just build projects.passlib
-    - run: just build projects.persistent
-    - run: just build projects.plyplus
-    - run: just build projects.prospector
-    - run: just build projects.pycares
-    - run: just build projects.pyinotify
-    - run: just build projects.pyqt5
-    - run: just build projects.pytest-mock
-    - run: just build projects.python-whois
-    - run: just build projects.redis-py-cluster
-    - run: just build projects.rich
-    - run: just build projects.seaborn
-    - run: just build projects.singledispatch
-    - run: just build projects.sphinx-autodoc-typehints
-    - run: just build projects.stomper
-    - run: just build projects.testpath
-    - run: just build projects.toolz
-    - run: just build projects.typing
-    - run: just build projects.visitor
-    - run: just build projects.wget
-    - run: just build projects.zeep
+    - run: just build projects.jsmin
+    - run: just build projects.lazy-object-proxy
+    - run: just build projects.markdown2
+    - run: just build projects.mkdocs
+    - run: just build projects.networkx
+    - run: just build projects.openpyxl
+    - run: just build projects.parso
+    - run: just build projects.pep8-naming
+    - run: just build projects.pluggy
+    - run: just build projects.promise
+    - run: just build projects.pybind11
+    - run: just build projects.pygments
+    - run: just build projects.pyper
+    - run: just build projects.pytest-forked
+    - run: just build projects.python-slugify
+    - run: just build projects.recommonmark
+    - run: just build projects.rfc3986
+    - run: just build projects.scipy
+    - run: just build projects.simplegeneric
+    - run: just build projects.sphinx
+    - run: just build projects.stdlib-list
+    - run: just build projects.termcolor
+    - run: just build projects.tomli
+    - run: just build projects.typeguard
+    - run: just build projects.vine
+    - run: just build projects.webtest
+    - run: just build projects.yarl
   build06:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -367,33 +367,33 @@ jobs:
     - run: just build projects.gym
     - run: just build projects.hyperlink
     - run: just build projects.ipython-genutils
-    - run: just build projects.jsondiff
-    - run: just build projects.lightgbm
-    - run: just build projects.marshmallow
-    - run: just build projects.more-itertools
-    - run: just build projects.newrelic
-    - run: just build projects.orjson
-    - run: just build projects.paste
-    - run: just build projects.pexpect
-    - run: just build projects.pockets
-    - run: just build projects.protego
-    - run: just build projects.pycocotools
-    - run: just build projects.pyjwt
-    - run: just build projects.pyqt5-qt5
-    - run: just build projects.pytest-postgresql
-    - run: just build projects.python3-openid
-    - run: just build projects.regetron
-    - run: just build projects.rope
-    - run: just build projects.secretstorage
-    - run: just build projects.six
-    - run: just build projects.sphinx-copybutton
-    - run: just build projects.stripe
-    - run: just build projects.text-unidecode
-    - run: just build projects.torch
-    - run: just build projects.typing-extensions
-    - run: just build projects.vobject
-    - run: just build projects.wheel
-    - run: just build projects.zenpy
+    - run: just build projects.json5
+    - run: just build projects.lazyutils
+    - run: just build projects.markupsafe
+    - run: just build projects.mock
+    - run: just build projects.newick
+    - run: just build projects.opt-einsum
+    - run: just build projects.partd
+    - run: just build projects.peppercorn
+    - run: just build projects.ply
+    - run: just build projects.prompt-toolkit
+    - run: just build projects.pycalver
+    - run: just build projects.pyhunter
+    - run: just build projects.pyperclip
+    - run: just build projects.pytest-freezegun
+    - run: just build projects.python-utils
+    - run: just build projects.redis
+    - run: just build projects.rgbxy
+    - run: just build projects.scripttest
+    - run: just build projects.simplejson
+    - run: just build projects.sphinx-autobuild
+    - run: just build projects.stevedore
+    - run: just build projects.terminaltables
+    - run: just build projects.tomlkit
+    - run: just build projects.typer
+    - run: just build projects.virtualenv
+    - run: just build projects.werkzeug
+    - run: just build projects.youtube-dl
   build07:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -423,33 +423,33 @@ jobs:
     - run: just build projects.h11
     - run: just build projects.hypothesis
     - run: just build projects.iso8601
-    - run: just build projects.jsonfield
-    - run: just build projects.livereload
-    - run: just build projects.marshmallow-enum
-    - run: just build projects.moto
-    - run: just build projects.nibabel
-    - run: just build projects.oslo-config
-    - run: just build projects.pastedeploy
-    - run: just build projects.phonenumbers
-    - run: just build projects.polib
-    - run: just build projects.protobuf
-    - run: just build projects.pycodestyle
-    - run: just build projects.pykwalify
-    - run: just build projects.pyqt5-sip
-    - run: just build projects.pytest-random-order
-    - run: just build projects.pytodoist
-    - run: just build projects.regex
-    - run: just build projects.rq
-    - run: just build projects.selenium
-    - run: just build projects.skills
-    - run: just build projects.sphinx-gallery
-    - run: just build projects.structlog
-    - run: just build projects.textrazor
-    - run: just build projects.torchvision
-    - run: just build projects.typing-inspect
-    - run: just build projects.voluptuous
-    - run: just build projects.whitenoise
-    - run: just build projects.zict
+    - run: just build projects.jsondiff
+    - run: just build projects.lightgbm
+    - run: just build projects.marshmallow
+    - run: just build projects.more-itertools
+    - run: just build projects.newrelic
+    - run: just build projects.ordered-set
+    - run: just build projects.passlib
+    - run: just build projects.persistent
+    - run: just build projects.plyplus
+    - run: just build projects.prospector
+    - run: just build projects.pycares
+    - run: just build projects.pyinotify
+    - run: just build projects.pyqt5
+    - run: just build projects.pytest-mock
+    - run: just build projects.python-whois
+    - run: just build projects.redis-py-cluster
+    - run: just build projects.rich
+    - run: just build projects.seaborn
+    - run: just build projects.singledispatch
+    - run: just build projects.sphinx-autodoc-typehints
+    - run: just build projects.stomper
+    - run: just build projects.testpath
+    - run: just build projects.toolz
+    - run: just build projects.typing
+    - run: just build projects.visitor
+    - run: just build projects.wget
+    - run: just build projects.zeep
   build08:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -479,33 +479,33 @@ jobs:
     - run: just build projects.h2
     - run: just build projects.identify
     - run: just build projects.isodate
-    - run: just build projects.jsonpatch
-    - run: just build projects.lizard
-    - run: just build projects.marshmallow-oneofschema
-    - run: just build projects.mpmath
-    - run: just build projects.nltk
-    - run: just build projects.oslo-context
-    - run: just build projects.pastel
-    - run: just build projects.pickleshare
-    - run: just build projects.pooch
-    - run: just build projects.protobuf3-to-dict
-    - run: just build projects.pycparser
-    - run: just build projects.pylev
-    - run: just build projects.pyquery
-    - run: just build projects.pytest-rerunfailures
-    - run: just build projects.pytweening
-    - run: just build projects.relatorio
-    - run: just build projects.rsa
-    - run: just build projects.semantic-version
-    - run: just build projects.sklearn
-    - run: just build projects.sphinx-rtd-theme
-    - run: just build projects.subprocess32
-    - run: just build projects.texttable
-    - run: just build projects.tornado
-    - run: just build projects.tzdata
-    - run: just build projects.w3lib
-    - run: just build projects.willow
-    - run: just build projects.zipp
+    - run: just build projects.jsonfield
+    - run: just build projects.livereload
+    - run: just build projects.marshmallow-enum
+    - run: just build projects.moto
+    - run: just build projects.nibabel
+    - run: just build projects.orjson
+    - run: just build projects.paste
+    - run: just build projects.pexpect
+    - run: just build projects.pockets
+    - run: just build projects.protego
+    - run: just build projects.pycocotools
+    - run: just build projects.pyjwt
+    - run: just build projects.pyqt5-qt5
+    - run: just build projects.pytest-postgresql
+    - run: just build projects.python3-openid
+    - run: just build projects.regetron
+    - run: just build projects.rope
+    - run: just build projects.secretstorage
+    - run: just build projects.six
+    - run: just build projects.sphinx-copybutton
+    - run: just build projects.stripe
+    - run: just build projects.text-unidecode
+    - run: just build projects.torch
+    - run: just build projects.typing-extensions
+    - run: just build projects.vobject
+    - run: just build projects.wheel
+    - run: just build projects.zenpy
   build09:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -535,33 +535,33 @@ jobs:
     - run: just build projects.h5py
     - run: just build projects.idna
     - run: just build projects.isomer
-    - run: just build projects.jsonpickle
-    - run: just build projects.llvmlite
-    - run: just build projects.marshmallow-polyfield
-    - run: just build projects.mrcfile
-    - run: just build projects.nodeenv
-    - run: just build projects.oslo-i18n
-    - run: just build projects.path
-    - run: just build projects.pika
-    - run: just build projects.port-for
-    - run: just build projects.psutil
-    - run: just build projects.pycricbuzz
-    - run: just build projects.pylint
-    - run: just build projects.pyramid
-    - run: just build projects.pytest-sugar
-    - run: just build projects.pytz
-    - run: just build projects.reportlab
-    - run: just build projects.ruamel-yaml
-    - run: just build projects.semver
-    - run: just build projects.smart-open
-    - run: just build projects.sphinxcontrib-applehelp
-    - run: just build projects.supervisor
-    - run: just build projects.the
-    - run: just build projects.torthrift
-    - run: just build projects.tzlocal
-    - run: just build projects.wagtail
-    - run: just build projects.win-inet-pton
-    - run: just build projects.zope-component
+    - run: just build projects.jsonpatch
+    - run: just build projects.lizard
+    - run: just build projects.marshmallow-oneofschema
+    - run: just build projects.mpmath
+    - run: just build projects.nltk
+    - run: just build projects.oslo-config
+    - run: just build projects.pastedeploy
+    - run: just build projects.phonenumbers
+    - run: just build projects.polib
+    - run: just build projects.protobuf
+    - run: just build projects.pycodestyle
+    - run: just build projects.pykwalify
+    - run: just build projects.pyqt5-sip
+    - run: just build projects.pytest-random-order
+    - run: just build projects.pytodoist
+    - run: just build projects.regex
+    - run: just build projects.rq
+    - run: just build projects.selenium
+    - run: just build projects.skills
+    - run: just build projects.sphinx-gallery
+    - run: just build projects.structlog
+    - run: just build projects.textrazor
+    - run: just build projects.torchvision
+    - run: just build projects.typing-inspect
+    - run: just build projects.voluptuous
+    - run: just build projects.whitenoise
+    - run: just build projects.zict
   build10:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -591,33 +591,33 @@ jobs:
     - run: just build projects.hdfs3
     - run: just build projects.idna-ssl
     - run: just build projects.isort
-    - run: just build projects.jsonpointer
-    - run: just build projects.lob
-    - run: just build projects.marshmallow-sqlalchemy
-    - run: just build projects.msgpack
-    - run: just build projects.nose
-    - run: just build projects.oslo-log
-    - run: just build projects.pathlib
-    - run: just build projects.pillow
-    - run: just build projects.pox
-    - run: just build projects.psycopg2
-    - run: just build projects.pycryptodome
-    - run: just build projects.pylint-celery
-    - run: just build projects.pyrect
-    - run: just build projects.pytest-test-groups
-    - run: just build projects.pytzdata
-    - run: just build projects.requests
-    - run: just build projects.ruamel-yaml-clib
-    - run: just build projects.send2trash
-    - run: just build projects.smdebug-rulesconfig
-    - run: just build projects.sphinxcontrib-devhelp
-    - run: just build projects.svgwrite
-    - run: just build projects.theano
-    - run: just build projects.tox
-    - run: just build projects.ujson
-    - run: just build projects.waitress
-    - run: just build projects.win32-setctime
-    - run: just build projects.zope-deprecation
+    - run: just build projects.jsonpickle
+    - run: just build projects.llvmlite
+    - run: just build projects.marshmallow-polyfield
+    - run: just build projects.mrcfile
+    - run: just build projects.nodeenv
+    - run: just build projects.oslo-context
+    - run: just build projects.pastel
+    - run: just build projects.pickleshare
+    - run: just build projects.pooch
+    - run: just build projects.protobuf3-to-dict
+    - run: just build projects.pycparser
+    - run: just build projects.pylev
+    - run: just build projects.pyquery
+    - run: just build projects.pytest-rerunfailures
+    - run: just build projects.pytweening
+    - run: just build projects.relatorio
+    - run: just build projects.rsa
+    - run: just build projects.semantic-version
+    - run: just build projects.sklearn
+    - run: just build projects.sphinx-rtd-theme
+    - run: just build projects.subprocess32
+    - run: just build projects.texttable
+    - run: just build projects.tornado
+    - run: just build projects.tzdata
+    - run: just build projects.w3lib
+    - run: just build projects.willow
+    - run: just build projects.zipp
   build11:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -647,33 +647,33 @@ jobs:
     - run: just build projects.heapdict
     - run: just build projects.imageio
     - run: just build projects.itemadapter
-    - run: just build projects.jsonschema
-    - run: just build projects.localstack-client
-    - run: just build projects.masonite-cli
-    - run: just build projects.msprime
-    - run: just build projects.nose-test-select
-    - run: just build projects.oslo-serialization
-    - run: just build projects.pathlib2
-    - run: just build projects.pint
-    - run: just build projects.poyo
-    - run: just build projects.psycopg2-binary
-    - run: just build projects.pydantic
-    - run: just build projects.pylint-django
-    - run: just build projects.pyrelic
-    - run: just build projects.pytest-timeout
-    - run: just build projects.pywavelets
-    - run: just build projects.requests-cache
-    - run: just build projects.rx
-    - run: just build projects.sentry-sdk
-    - run: just build projects.smmap
-    - run: just build projects.sphinxcontrib-htmlhelp
-    - run: just build projects.swagger-ui-bundle
-    - run: just build projects.therapist
-    - run: just build projects.tqdm
-    - run: just build projects.unicodecsv
-    - run: just build projects.wasabi
-    - run: just build projects.wordsegment
-    - run: just build projects.zope-event
+    - run: just build projects.jsonpointer
+    - run: just build projects.lob
+    - run: just build projects.marshmallow-sqlalchemy
+    - run: just build projects.msgpack
+    - run: just build projects.nose
+    - run: just build projects.oslo-i18n
+    - run: just build projects.path
+    - run: just build projects.pika
+    - run: just build projects.port-for
+    - run: just build projects.psutil
+    - run: just build projects.pycricbuzz
+    - run: just build projects.pylint
+    - run: just build projects.pyramid
+    - run: just build projects.pytest-sugar
+    - run: just build projects.pytz
+    - run: just build projects.reportlab
+    - run: just build projects.ruamel-yaml
+    - run: just build projects.semver
+    - run: just build projects.smart-open
+    - run: just build projects.sphinxcontrib-applehelp
+    - run: just build projects.supervisor
+    - run: just build projects.the
+    - run: just build projects.torthrift
+    - run: just build projects.tzlocal
+    - run: just build projects.wagtail
+    - run: just build projects.win-inet-pton
+    - run: just build projects.zope-component
   build12:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -703,33 +703,33 @@ jobs:
     - run: just build projects.hexbytes
     - run: just build projects.imagesize
     - run: just build projects.itemloaders
-    - run: just build projects.junit-xml
-    - run: just build projects.locket
-    - run: just build projects.matplotlib
-    - run: just build projects.msrest
-    - run: just build projects.nosexcover
-    - run: just build projects.oslo-utils
-    - run: just build projects.pathos
-    - run: just build projects.pip
-    - run: just build projects.ppft
-    - run: just build projects.ptyprocess
-    - run: just build projects.pydeps
-    - run: just build projects.pylint-flask
-    - run: just build projects.pyrfc3339
-    - run: just build projects.pytest-toolbox
-    - run: just build projects.pywin32-ctypes
-    - run: just build projects.requests-file
-    - run: just build projects.s3fs
-    - run: just build projects.service-identity
-    - run: just build projects.sniffio
-    - run: just build projects.sphinxcontrib-jsmath
-    - run: just build projects.sympy
-    - run: just build projects.thinc
-    - run: just build projects.tracers
-    - run: just build projects.unidecode
-    - run: just build projects.watchdog
-    - run: just build projects.wrapt
-    - run: just build projects.zope-hookable
+    - run: just build projects.jsonschema
+    - run: just build projects.localstack-client
+    - run: just build projects.masonite-cli
+    - run: just build projects.msprime
+    - run: just build projects.nose-test-select
+    - run: just build projects.oslo-log
+    - run: just build projects.pathlib
+    - run: just build projects.pillow
+    - run: just build projects.pox
+    - run: just build projects.psycopg2
+    - run: just build projects.pycryptodome
+    - run: just build projects.pylint-celery
+    - run: just build projects.pyrect
+    - run: just build projects.pytest-test-groups
+    - run: just build projects.pytzdata
+    - run: just build projects.requests
+    - run: just build projects.ruamel-yaml-clib
+    - run: just build projects.send2trash
+    - run: just build projects.smdebug-rulesconfig
+    - run: just build projects.sphinxcontrib-devhelp
+    - run: just build projects.svgwrite
+    - run: just build projects.theano
+    - run: just build projects.tox
+    - run: just build projects.ujson
+    - run: just build projects.waitress
+    - run: just build projects.win32-setctime
+    - run: just build projects.zope-deprecation
   build13:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -759,33 +759,33 @@ jobs:
     - run: just build projects.hiredis
     - run: just build projects.imapclient
     - run: just build projects.itsdangerous
-    - run: just build projects.jupyter-alabaster-theme
-    - run: just build projects.lockfile
-    - run: just build projects.matplotlib-inline
-    - run: just build projects.multiaddr
-    - run: just build projects.nuitka
-    - run: just build projects.oslosphinx
-    - run: just build projects.pathspec
-    - run: just build projects.pip-check
-    - run: just build projects.pre-commit
-    - run: just build projects.public
-    - run: just build projects.pydicom
-    - run: just build projects.pylint-plugin-utils
-    - run: just build projects.pyrsistent
-    - run: just build projects.pytest-xdist
-    - run: just build projects.pyyaml
-    - run: just build projects.requests-mock
-    - run: just build projects.s3transfer
-    - run: just build projects.setoptconf
-    - run: just build projects.snowballstemmer
-    - run: just build projects.sphinxcontrib-qthelp
-    - run: just build projects.tablib
-    - run: just build projects.thop
-    - run: just build projects.traitlets
-    - run: just build projects.unipath
-    - run: just build projects.watchgod
-    - run: just build projects.wtforms
-    - run: just build projects.zope-interface
+    - run: just build projects.junit-xml
+    - run: just build projects.locket
+    - run: just build projects.matplotlib
+    - run: just build projects.msrest
+    - run: just build projects.nosexcover
+    - run: just build projects.oslo-serialization
+    - run: just build projects.pathlib2
+    - run: just build projects.pint
+    - run: just build projects.poyo
+    - run: just build projects.psycopg2-binary
+    - run: just build projects.pydantic
+    - run: just build projects.pylint-django
+    - run: just build projects.pyrelic
+    - run: just build projects.pytest-timeout
+    - run: just build projects.pywavelets
+    - run: just build projects.requests-cache
+    - run: just build projects.rx
+    - run: just build projects.sentry-sdk
+    - run: just build projects.smmap
+    - run: just build projects.sphinxcontrib-htmlhelp
+    - run: just build projects.swagger-ui-bundle
+    - run: just build projects.therapist
+    - run: just build projects.tqdm
+    - run: just build projects.unicodecsv
+    - run: just build projects.wasabi
+    - run: just build projects.wordsegment
+    - run: just build projects.zope-event
   build14:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -815,33 +815,33 @@ jobs:
     - run: just build projects.hpack
     - run: just build projects.immutables
     - run: just build projects.javaproperties
-    - run: just build projects.jupyterlab-pygments
-    - run: just build projects.logbook
-    - run: just build projects.maxminddb
-    - run: just build projects.multidict
-    - run: just build projects.numpy
-    - run: just build projects.oyaml
-    - run: just build projects.pathtools
-    - run: just build projects.pip-check-reqs
-    - run: just build projects.preshed
-    - run: just build projects.publication
-    - run: just build projects.pydocstyle
-    - run: just build projects.pymongo
-    - run: just build projects.pyserial
-    - run: just build projects.python-dateutil
-    - run: just build projects.pyzmq
-    - run: just build projects.requests-oauthlib
-    - run: just build projects.sacremoses
-    - run: just build projects.setproctitle
-    - run: just build projects.snuggs
-    - run: just build projects.sphinxcontrib-serializinghtml
-    - run: just build projects.tabulate
-    - run: just build projects.threadpoolctl
-    - run: just build projects.trans
-    - run: just build projects.uritemplate
-    - run: just build projects.watchtower
-    - run: just build projects.x256
-    - run: just build projects.zope-schema
+    - run: just build projects.jupyter-alabaster-theme
+    - run: just build projects.lockfile
+    - run: just build projects.matplotlib-inline
+    - run: just build projects.multiaddr
+    - run: just build projects.nuitka
+    - run: just build projects.oslo-utils
+    - run: just build projects.pathos
+    - run: just build projects.pip
+    - run: just build projects.ppft
+    - run: just build projects.ptyprocess
+    - run: just build projects.pydeps
+    - run: just build projects.pylint-flask
+    - run: just build projects.pyrfc3339
+    - run: just build projects.pytest-toolbox
+    - run: just build projects.pywin32-ctypes
+    - run: just build projects.requests-file
+    - run: just build projects.s3fs
+    - run: just build projects.service-identity
+    - run: just build projects.sniffio
+    - run: just build projects.sphinxcontrib-jsmath
+    - run: just build projects.sympy
+    - run: just build projects.thinc
+    - run: just build projects.tracers
+    - run: just build projects.unidecode
+    - run: just build projects.watchdog
+    - run: just build projects.wrapt
+    - run: just build projects.zope-hookable
   build15:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -871,32 +871,33 @@ jobs:
     - run: just build projects.html2text
     - run: just build projects.importlib-metadata
     - run: just build projects.jdcal
-    - run: just build projects.jupyterlab-widgets
-    - run: just build projects.loguru
-    - run: just build projects.mccabe
-    - run: just build projects.multiprocess
-    - run: just build projects.numpydoc
-    - run: just build projects.packaging
-    - run: just build projects.pathy
-    - run: just build projects.pip-upgrader
-    - run: just build projects.prestring
-    - run: just build projects.purplex
-    - run: just build projects.pydot
-    - run: just build projects.pymsteams
-    - run: just build projects.pystache
-    - run: just build projects.python-dotenv
-    - run: just build projects.qrcode
-    - run: just build projects.requests-toolbelt
-    - run: just build projects.sagemaker
-    - run: just build projects.setuptools
-    - run: just build projects.social-auth-core
-    - run: just build projects.sqlalchemy
-    - run: just build projects.tblib
-    - run: just build projects.thrift
-    - run: just build projects.transformers
-    - run: just build projects.url-normalize
-    - run: just build projects.wcwidth
-    - run: just build projects.xarray
+    - run: just build projects.jupyterlab-pygments
+    - run: just build projects.logbook
+    - run: just build projects.maxminddb
+    - run: just build projects.multidict
+    - run: just build projects.numpy
+    - run: just build projects.oslosphinx
+    - run: just build projects.pathspec
+    - run: just build projects.pip-check
+    - run: just build projects.pre-commit
+    - run: just build projects.public
+    - run: just build projects.pydicom
+    - run: just build projects.pylint-plugin-utils
+    - run: just build projects.pyrsistent
+    - run: just build projects.pytest-xdist
+    - run: just build projects.pyyaml
+    - run: just build projects.requests-mock
+    - run: just build projects.s3transfer
+    - run: just build projects.setoptconf
+    - run: just build projects.snowballstemmer
+    - run: just build projects.sphinxcontrib-qthelp
+    - run: just build projects.tablib
+    - run: just build projects.thop
+    - run: just build projects.traitlets
+    - run: just build projects.unipath
+    - run: just build projects.watchgod
+    - run: just build projects.wtforms
+    - run: just build projects.zope-interface
   build16:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -926,32 +927,33 @@ jobs:
     - run: just build projects.html5lib
     - run: just build projects.importlib-resources
     - run: just build projects.jedi
-    - run: just build projects.jwcrypto
-    - run: just build projects.logzero
-    - run: just build projects.mdp
-    - run: just build projects.murmurhash
-    - run: just build projects.oauth2client
-    - run: just build projects.pandas
-    - run: just build projects.patsy
-    - run: just build projects.pkginfo
-    - run: just build projects.pretend
-    - run: just build projects.py
-    - run: just build projects.pydriller
-    - run: just build projects.pymysql
-    - run: just build projects.pytest
-    - run: just build projects.python-git
-    - run: just build projects.queuelib
-    - run: just build projects.requests-unixsocket
-    - run: just build projects.sanic
-    - run: just build projects.setuptools-rust
-    - run: just build projects.sockjs
-    - run: just build projects.sqlalchemy-jsonfield
-    - run: just build projects.tempita
-    - run: just build projects.tifffile
-    - run: just build projects.translationstring
-    - run: just build projects.urllib3
-    - run: just build projects.webargs
-    - run: just build projects.xgboost
+    - run: just build projects.jupyterlab-widgets
+    - run: just build projects.loguru
+    - run: just build projects.mccabe
+    - run: just build projects.multiprocess
+    - run: just build projects.numpydoc
+    - run: just build projects.oyaml
+    - run: just build projects.pathtools
+    - run: just build projects.pip-check-reqs
+    - run: just build projects.preshed
+    - run: just build projects.publication
+    - run: just build projects.pydocstyle
+    - run: just build projects.pymongo
+    - run: just build projects.pyserial
+    - run: just build projects.python-dateutil
+    - run: just build projects.pyzmq
+    - run: just build projects.requests-oauthlib
+    - run: just build projects.sacremoses
+    - run: just build projects.setproctitle
+    - run: just build projects.snuggs
+    - run: just build projects.sphinxcontrib-serializinghtml
+    - run: just build projects.tabulate
+    - run: just build projects.threadpoolctl
+    - run: just build projects.trans
+    - run: just build projects.uritemplate
+    - run: just build projects.watchtower
+    - run: just build projects.x256
+    - run: just build projects.zope-schema
   build17:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -981,32 +983,32 @@ jobs:
     - run: just build projects.httpcore
     - run: just build projects.incremental
     - run: just build projects.jeepney
-    - run: just build projects.keras-preprocessing
-    - run: just build projects.lru-dict
-    - run: just build projects.mechanicalsoup
-    - run: just build projects.mutagen
-    - run: just build projects.oauthlib
-    - run: just build projects.pandas-datareader
-    - run: just build projects.pbr
-    - run: just build projects.plac
-    - run: just build projects.prettytable
-    - run: just build projects.py4j
-    - run: just build projects.pyerfa
-    - run: just build projects.pynacl
-    - run: just build projects.pytest-asyncio
-    - run: just build projects.python-gitlab
-    - run: just build projects.rad
-    - run: just build projects.requirements-detector
-    - run: just build projects.sanic-routing
-    - run: just build projects.sgmllib3k
-    - run: just build projects.sortedcontainers
-    - run: just build projects.sqlalchemy-utils
-    - run: just build projects.tenacity
-    - run: just build projects.timestamp
-    - run: just build projects.tree-sitter
-    - run: just build projects.urwid
-    - run: just build projects.webassets
-    - run: just build projects.xlrd
+    - run: just build projects.jwcrypto
+    - run: just build projects.logzero
+    - run: just build projects.mdp
+    - run: just build projects.murmurhash
+    - run: just build projects.oauth2client
+    - run: just build projects.packaging
+    - run: just build projects.pathy
+    - run: just build projects.pip-upgrader
+    - run: just build projects.prestring
+    - run: just build projects.purplex
+    - run: just build projects.pydot
+    - run: just build projects.pymsteams
+    - run: just build projects.pystache
+    - run: just build projects.python-dotenv
+    - run: just build projects.qrcode
+    - run: just build projects.requests-toolbelt
+    - run: just build projects.sagemaker
+    - run: just build projects.setuptools
+    - run: just build projects.social-auth-core
+    - run: just build projects.sqlalchemy
+    - run: just build projects.tblib
+    - run: just build projects.thrift
+    - run: just build projects.transformers
+    - run: just build projects.url-normalize
+    - run: just build projects.wcwidth
+    - run: just build projects.xarray
   build18:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -1036,32 +1038,32 @@ jobs:
     - run: just build projects.httpexceptor
     - run: just build projects.inflection
     - run: just build projects.jieba
-    - run: just build projects.keyring
-    - run: just build projects.lxml
-    - run: just build projects.memoize
-    - run: just build projects.mypy
-    - run: just build projects.olefile
-    - run: just build projects.pandocfilters
-    - run: just build projects.peewee
-    - run: just build projects.plantweb
-    - run: just build projects.priority
-    - run: just build projects.pyaes
-    - run: just build projects.pyexcelerate
-    - run: just build projects.pynamodb
-    - run: just build projects.pytest-benchmark
-    - run: just build projects.python-hcl2
-    - run: just build projects.random2
-    - run: just build projects.resolvelib
-    - run: just build projects.scandir
-    - run: just build projects.sgqlc
-    - run: just build projects.soupsieve
-    - run: just build projects.sqlparse
-    - run: just build projects.tensorboard
-    - run: just build projects.tinydb
-    - run: just build projects.trytond
-    - run: just build projects.uvicorn
-    - run: just build projects.webencodings
-    - run: just build projects.xlsxwriter
+    - run: just build projects.keras-preprocessing
+    - run: just build projects.lru-dict
+    - run: just build projects.mechanicalsoup
+    - run: just build projects.mutagen
+    - run: just build projects.oauthlib
+    - run: just build projects.pandas
+    - run: just build projects.patsy
+    - run: just build projects.pkginfo
+    - run: just build projects.pretend
+    - run: just build projects.py
+    - run: just build projects.pydriller
+    - run: just build projects.pymysql
+    - run: just build projects.pytest
+    - run: just build projects.python-git
+    - run: just build projects.queuelib
+    - run: just build projects.requests-unixsocket
+    - run: just build projects.sanic
+    - run: just build projects.setuptools-rust
+    - run: just build projects.sockjs
+    - run: just build projects.sqlalchemy-jsonfield
+    - run: just build projects.tempita
+    - run: just build projects.tifffile
+    - run: just build projects.translationstring
+    - run: just build projects.urllib3
+    - run: just build projects.webargs
+    - run: just build projects.xgboost
   build19:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -1091,32 +1093,32 @@ jobs:
     - run: just build projects.httplib2
     - run: just build projects.iniconfig
     - run: just build projects.jinja2
-    - run: just build projects.kiwisolver
-    - run: just build projects.mailchimp-marketing
-    - run: just build projects.mergedeep
-    - run: just build projects.mypy-extensions
-    - run: just build projects.on-http-redfish-1-0
-    - run: just build projects.para
-    - run: just build projects.pendulum
-    - run: just build projects.platformdirs
-    - run: just build projects.prison
-    - run: just build projects.pyaml
-    - run: just build projects.pyflakes
-    - run: just build projects.pyopenssl
-    - run: just build projects.pytest-cache
-    - run: just build projects.python-hosts
-    - run: just build projects.ratelimiter
-    - run: just build projects.responses
-    - run: just build projects.schedule
-    - run: just build projects.sh
-    - run: just build projects.south
-    - run: just build projects.srsly
-    - run: just build projects.tensorboard-data-server
-    - run: just build projects.tldextract
-    - run: just build projects.tskit
-    - run: just build projects.uvloop
-    - run: just build projects.webob
-    - run: just build projects.xlwt
+    - run: just build projects.keyring
+    - run: just build projects.lxml
+    - run: just build projects.memoize
+    - run: just build projects.mypy
+    - run: just build projects.olefile
+    - run: just build projects.pandas-datareader
+    - run: just build projects.pbr
+    - run: just build projects.plac
+    - run: just build projects.prettytable
+    - run: just build projects.py4j
+    - run: just build projects.pyerfa
+    - run: just build projects.pynacl
+    - run: just build projects.pytest-asyncio
+    - run: just build projects.python-gitlab
+    - run: just build projects.rad
+    - run: just build projects.requirements-detector
+    - run: just build projects.sanic-routing
+    - run: just build projects.sgmllib3k
+    - run: just build projects.sortedcontainers
+    - run: just build projects.sqlalchemy-utils
+    - run: just build projects.tenacity
+    - run: just build projects.timestamp
+    - run: just build projects.tree-sitter
+    - run: just build projects.urwid
+    - run: just build projects.webassets
+    - run: just build projects.xlrd
 name: ci
 'on':
 - pull_request

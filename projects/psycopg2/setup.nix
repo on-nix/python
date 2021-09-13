@@ -1,8 +1,4 @@
 {
-  searchPathsBuild = { nixpkgs, ... }: {
-    bin = [
-      nixpkgs.gcc
-      nixpkgs.postgresql
-    ];
-  };
+  buildGccBin = true;
+  buildPostgresqlBin = true;
 }

@@ -1,3 +1,3 @@
 {
-  cleanPkgResources = false;
+  runtimePkgResources = true;
 }

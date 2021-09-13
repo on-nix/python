@@ -1,5 +1,3 @@
 {
-  searchPathsBuild = { nixpkgs, ... }: {
-    bin = [ nixpkgs.gcc ];
-  };
+  buildGccBin = true;
 }

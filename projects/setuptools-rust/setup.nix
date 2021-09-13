@@ -1,4 +1,4 @@
 {
-  cleanPkgResources = false;
-  cleanSetuptools = false;
+  runtimePkgResources = true;
+  runtimeSetuptools = true;
 }

@@ -14,8 +14,10 @@ let
     sha256 = narHash;
   };
 
+  inherit (makes) attrsGet;
   inherit (makes) attrsOptional;
   inherit (makes) fromJsonFile;
+  inherit (makes) listOptional;
   inherit (makes) makeDerivation;
   inherit (makes) makeSearchPaths;
   inherit (nixpkgs.lib.lists) findFirst;
@@ -148,16 +150,46 @@ let
         ({
           extraInstallers = { };
           patchClosure = closure: closure;
-          cleanPkgResources = true;
-          cleanSetuptools = true;
           searchPathsBuild = _: { };
           searchPathsRuntime = _: { };
+
+          buildGccBin = false;
+          buildPostgresqlBin = false;
+          runtimeFileBin = false;
+          runtimeGitBin = false;
+          runtimePkgResources = false;
+          runtimeSetuptools = false;
+          runtimeLibstdcppRpath = false;
         }) //
         (if builtins.pathExists setupGlobalPath
         then import setupGlobalPath else { }) //
         (if builtins.pathExists setupVersionPath
         then import setupVersionPath else { })
       );
+      searchPathsBuild =
+        let searchPaths = setup.searchPathsBuild searchPathsArgs;
+        in
+        searchPaths // {
+          bin = builtins.concatLists [
+            (attrsGet searchPaths "bin" [ ])
+            (listOptional setup.buildGccBin nixpkgs.gcc)
+            (listOptional setup.buildPostgresqlBin nixpkgs.postgresql)
+          ];
+        };
+      searchPathsRuntime =
+        let searchPaths = setup.searchPathsRuntime searchPathsArgs;
+        in
+        searchPaths // {
+          bin = builtins.concatLists [
+            (attrsGet searchPaths "bin" [ ])
+            (listOptional setup.runtimeFileBin nixpkgs.file)
+            (listOptional setup.runtimeGitBin nixpkgs.git)
+          ];
+          rpath = builtins.concatLists [
+            (attrsGet searchPaths "rpath" [ ])
+            (listOptional setup.runtimeLibstdcppRpath nixpkgs.gcc.cc.lib)
+          ];
+        };
       test =
         if builtins.pathExists testVersionPath
         then testVersionPath
@@ -178,10 +210,10 @@ let
       ];
 
       cleanPhase = builtins.concatStringsSep "" [
-        (if setup.cleanPkgResources then ''
+        (if !setup.runtimePkgResources then ''
           rm -rf $out/${python.sitePackages}/pkg_resources
         '' else "")
-        (if setup.cleanSetuptools then ''
+        (if !setup.runtimeSetuptools then ''
           rm -rf $out/${python.sitePackages}/_distutils_hack
           rm -rf $out/${python.sitePackages}/distutils-precedence.pth
           rm -rf $out/${python.sitePackages}/setuptools
@@ -196,10 +228,6 @@ let
         nixpkgsPython = self;
         inherit pythonVersion;
       };
-      searchPathsBuild = makeSearchPaths
-        (setup.searchPathsBuild searchPathsArgs);
-      searchPathsRuntime = makeSearchPaths
-        (setup.searchPathsRuntime searchPathsArgs);
 
       venvContents = makeDerivation {
         builder = ''
@@ -244,7 +272,7 @@ let
         name = "${name}-out";
         searchPaths = {
           bin = [ python ];
-          source = [ searchPathsBuild ];
+          source = [ (makeSearchPaths searchPathsBuild) ];
         };
       };
       venvSearchPaths = makeDerivation {
@@ -262,7 +290,7 @@ let
           pythonPackage37 = optional (pythonVersion == "python37") venvContents;
           pythonPackage38 = optional (pythonVersion == "python38") venvContents;
           pythonPackage39 = optional (pythonVersion == "python39") venvContents;
-          source = propagated ++ [ searchPathsRuntime ];
+          source = propagated ++ [ (makeSearchPaths searchPathsRuntime) ];
         };
         name = "${name}-dev";
       };

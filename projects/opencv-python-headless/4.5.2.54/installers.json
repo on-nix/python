@@ -1,0 +1,22 @@
+{
+  "opencv_python_headless-4.5.2.54-cp36-cp36m-macosx_10_15_x86_64.whl": "c6d3baeb7c1e1bec8a5b6620219ce0f953154dad9b5dd10d7311bc98f5201e4b",
+  "opencv_python_headless-4.5.2.54-cp36-cp36m-manylinux2014_aarch64.whl": "b62b24fb2eef8b46e3272e21380a43f9e32573f4554e0b611d075082f52acf2e",
+  "opencv_python_headless-4.5.2.54-cp36-cp36m-manylinux2014_x86_64.whl": "f3a670b13758a370c49c37632e8b85caeb9f6669b612b092d0b718382ee9bf98",
+  "opencv_python_headless-4.5.2.54-cp36-cp36m-win32.whl": "52783623386b7411dba772584d0d57fe60e5aee70cf36feeec8639b9e58dcf5a",
+  "opencv_python_headless-4.5.2.54-cp36-cp36m-win_amd64.whl": "7de97d8781c905ed105c019210920a1d374004d20b4134d9978903c0f72769bc",
+  "opencv_python_headless-4.5.2.54-cp37-cp37m-macosx_10_15_x86_64.whl": "740cdf843598f4a26718a640915fac21504add6b315eeecd4ad2905b55e02093",
+  "opencv_python_headless-4.5.2.54-cp37-cp37m-manylinux2014_aarch64.whl": "6a2165d44d187f8e918aff555ae6a2ce300bfe02fff6c5577bd79144459657d6",
+  "opencv_python_headless-4.5.2.54-cp37-cp37m-manylinux2014_x86_64.whl": "e61aebc9f45c2cbc06d1ff4661f352d652bf12b0dacf6eea03e42988ed344e35",
+  "opencv_python_headless-4.5.2.54-cp37-cp37m-win32.whl": "64a89b30c9188c696f89bc800fa457c4c590de3732c36a5ce3c5fbde812a6f26",
+  "opencv_python_headless-4.5.2.54-cp37-cp37m-win_amd64.whl": "a8e2a8813fa00fd59d487761bebe1b27d3e75ad206b9a35765492fa79a42a25c",
+  "opencv_python_headless-4.5.2.54-cp38-cp38-macosx_10_15_x86_64.whl": "aa53aea49e1824a44a4033123a68502488ca980105f47d25ed6263b1fa545b71",
+  "opencv_python_headless-4.5.2.54-cp38-cp38-manylinux2014_aarch64.whl": "33b9fe7000dbc1d8e44c17645c93a740f8e166d5c394784f31c11a6471a602ef",
+  "opencv_python_headless-4.5.2.54-cp38-cp38-manylinux2014_x86_64.whl": "4f9c927040de5bce6508441f283b10b1edc285a7342d402f16c26eb81348cf5c",
+  "opencv_python_headless-4.5.2.54-cp38-cp38-win32.whl": "742a8869415be521e20ab878a8a119e111ecd1da21bd828e41898c728555063f",
+  "opencv_python_headless-4.5.2.54-cp38-cp38-win_amd64.whl": "4940d3cd9a9382fb58d4cea3f29cf32638130b991aaa8462fee92ff1a3cf6e99",
+  "opencv_python_headless-4.5.2.54-cp39-cp39-macosx_10_15_x86_64.whl": "1f565b6dc87dcca1b3d78df7beae005781b684b1140128b0a71629fb7a3ec4e2",
+  "opencv_python_headless-4.5.2.54-cp39-cp39-manylinux2014_aarch64.whl": "86da0d05fd7c19ba2ec7f5a4865d6b188e7e8e631a0890b83135ebb6837a7b9c",
+  "opencv_python_headless-4.5.2.54-cp39-cp39-manylinux2014_x86_64.whl": "4735a717b770c5c08d267461bdfb8c5f4c9faa82b3fbb1a3ef01bfd0beaf943b",
+  "opencv_python_headless-4.5.2.54-cp39-cp39-win32.whl": "5312bed3107e35030cfddc6e6e943985f22d165651558a0929a13925e3e154e8",
+  "opencv_python_headless-4.5.2.54-cp39-cp39-win_amd64.whl": "32303224c4ce8cd362164f90c32bf95bbf131262611d8fe7c061baf73d2d6f05"
+}

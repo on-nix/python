@@ -1,5 +1,3 @@
 {
-  searchPathsRuntime = { nixpkgs, ... }: {
-    rpath = [ nixpkgs.file ];
-  };
+  runtimeFileBin = true;
 }
