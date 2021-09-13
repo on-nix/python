@@ -19,7 +19,12 @@ def main() -> None:
         for project in sorted(os.listdir("projects"))
     ]
 
-    for index, jobs_chunk in enumerate(more_itertools.distribute(20, jobs)):
+    for index, jobs_chunk in enumerate(
+        more_itertools.chunked(
+            jobs,
+            len(jobs) // 20 + 1,
+        )
+    ):
         index = str(index).zfill(2)
         data["jobs"][f"build{index}"] = {
             "env": {

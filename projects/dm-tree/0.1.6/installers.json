@@ -1,0 +1,19 @@
+{
+  "dm-tree-0.1.6.tar.gz": "6776404b23b4522c01012ffb314632aba092c9541577004ab153321e87da439a",
+  "dm_tree-0.1.6-cp36-cp36m-macosx_10_14_x86_64.whl": "a8814a5c838f79e9db22a51369c74f4d92e7f1485ec55d7f665ae4d98478cb4f",
+  "dm_tree-0.1.6-cp36-cp36m-manylinux2014_x86_64.whl": "e28ba91d3d97230b831716db401ce116ae5c7dcd025161ac16ecb8bd5c870a85",
+  "dm_tree-0.1.6-cp36-cp36m-manylinux_2_24_x86_64.whl": "603392f1a7818a4f43a7033c2061ae7c2085a4a728171b0bbca76bd107fcdfb0",
+  "dm_tree-0.1.6-cp36-cp36m-win_amd64.whl": "2c91e472aab5c5e083c12d0a9396bbd7695031348721f709a9c6f2449e53dab6",
+  "dm_tree-0.1.6-cp37-cp37m-macosx_10_14_x86_64.whl": "889eae86e0d2d4b8da8eb2edc7186b45a5f92e00c8dd77f2a5c8422f03db18f4",
+  "dm_tree-0.1.6-cp37-cp37m-manylinux2014_x86_64.whl": "2fa9c6e56cbd22cdffec42dc8b20464872b07c4535d8effc537fe0d31930b084",
+  "dm_tree-0.1.6-cp37-cp37m-manylinux_2_24_x86_64.whl": "c4e8d868fc9a75cbdb67e78069b33e62a4c69bc182c1d2adc29ab08e283912d8",
+  "dm_tree-0.1.6-cp37-cp37m-win_amd64.whl": "6d5f64d89f657b11f429e13b1378c8cfbe4baef50e7ab31f3689bfe0cf4a2508",
+  "dm_tree-0.1.6-cp38-cp38-macosx_10_14_x86_64.whl": "8d59c5098456667b28c607110537c86c25cbd0ee455f21d033c60ef2d7f48d81",
+  "dm_tree-0.1.6-cp38-cp38-manylinux2014_x86_64.whl": "f3bec40e658fe7546c3a56849c743ac9a498e620b3236e82e171801938a56679",
+  "dm_tree-0.1.6-cp38-cp38-manylinux_2_24_x86_64.whl": "e87d06478356a2d92c3940dedebcd92a14ad37fba10ebb1839c8140693b83c0a",
+  "dm_tree-0.1.6-cp38-cp38-win_amd64.whl": "02ffa673f20b1756dcf085ef2c354bc59416d843b384c7b71c421f873ffc36c0",
+  "dm_tree-0.1.6-cp39-cp39-macosx_10_14_x86_64.whl": "affc7a6d29442a143c60efb2f03bcb95424d4fe6168f3d31de892c1e601fa0e6",
+  "dm_tree-0.1.6-cp39-cp39-manylinux2014_x86_64.whl": "bd347c74254ba320d57b0e102558c1189e3b4ae1bae952f9aef156b5914567c8",
+  "dm_tree-0.1.6-cp39-cp39-manylinux_2_24_x86_64.whl": "8425454192e954692d9a1e0f7b374b3b7030916b17b6055951dc17d58b6fe1b8",
+  "dm_tree-0.1.6-cp39-cp39-win_amd64.whl": "5269183f80f1ae37543a2a30a8f78e4b0460d5da74fb5ac42dc8a476ef8d707e"
+}
