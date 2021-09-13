@@ -1,0 +1,10 @@
+{
+  "async-generator": "1.10",
+  "contextvars": "2.4",
+  "httpcore": "0.13.3",
+  "immutables": "0.16",
+  "importlib-metadata": "4.8.1",
+  "importlib-resources": "5.2.2",
+  "typing-extensions": "3.10.0.2",
+  "zipp": "3.5.0"
+}
