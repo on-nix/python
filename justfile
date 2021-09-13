@@ -5,17 +5,16 @@ _:
   @just --list
 
 build ATTR:
-  cachix use nixpkgs-python
+  cachix use python-on-nix
   nix-build \
     --attr '{{ATTR}}' \
     --option cores 1 \
-    --option keep-going true \
     --option max-jobs auto \
     --option sandbox true \
     default.nix
-  if test -n "${CACHIX_NIXPKGS_PYTHON_TOKEN:-}"; then \
-    CACHIX_AUTH_TOKEN="${CACHIX_NIXPKGS_PYTHON_TOKEN}" \
-    cachix push -c 9 nixpkgs-python ./result*; \
+  if test -n "${CACHIX_PYTHON_ON_NIX_TOKEN:-}"; then \
+    CACHIX_AUTH_TOKEN="${CACHIX_PYTHON_ON_NIX_TOKEN}" \
+    cachix push -c 9 python-on-nix ./result*; \
   fi
 
 ci:

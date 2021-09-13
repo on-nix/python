@@ -24,7 +24,7 @@ function main {
         "authors": [ ],
         "dependencies": { python: $python_version },
         "description": "",
-        "name": "nixpkgs-python-\($project)-\($version)",
+        "name": "python-on-nix-\($project)-\($version)",
         "version": "1"
       }
     }

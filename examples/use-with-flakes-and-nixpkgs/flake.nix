@@ -1,7 +1,7 @@
 {
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs";
-    nixpkgsPython.url = "github:kamadorueda/nixpkgs-python";
+    nixpkgsPython.url = "github:kamadorueda/python-on-nix";
   };
   outputs = { nixpkgs, nixpkgsPython, self, ... }: {
     packages.x86_64-linux = {

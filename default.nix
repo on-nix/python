@@ -98,7 +98,7 @@ let
         (buildProject)
         (builtins.attrNames projectsMeta);
     in
-    projects // { outPath = attrsToLinkFarm "nixpkgs-python" projects; };
+    projects // { outPath = attrsToLinkFarm "python-on-nix" projects; };
 
   apps = builtins.mapAttrs
     (project: projectMeta: builtins.mapAttrs
@@ -547,9 +547,9 @@ let
   ads = ''
 
 
-    $ You are using Nixpkgs Python!
+    $ You are using Python on Nix!
 
-      https://github.com/kamadorueda/nixpkgs-python
+      https://github.com/kamadorueda/python-on-nix
 
       Found a bug? Are we missing a feature?
       Let us know in the issues section.

@@ -40,13 +40,13 @@
         "lastModified": 1631406789,
         "narHash": "sha256-uVknU5qI7whVspa68BLI3ygWrRRxlqOilpKByAH2acw=",
         "owner": "kamadorueda",
-        "repo": "nixpkgs-python",
+        "repo": "python-on-nix",
         "rev": "758e145745c4a48c2267a438e21c1887e654dd93",
         "type": "github"
       },
       "original": {
         "owner": "kamadorueda",
-        "repo": "nixpkgs-python",
+        "repo": "python-on-nix",
         "type": "github"
       }
     },

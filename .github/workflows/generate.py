@@ -23,7 +23,7 @@ def main() -> None:
         index = str(index).zfill(2)
         data["jobs"][f"build{index}"] = {
             "env": {
-                "CACHIX_NIXPKGS_PYTHON_TOKEN": "${{ secrets.CACHIX_NIXPKGS_PYTHON_TOKEN }}"
+                "CACHIX_PYTHON_ON_NIX_TOKEN": "${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}"
             },
             "runs-on": "ubuntu-latest",
             "steps": [

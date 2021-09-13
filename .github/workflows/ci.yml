@@ -4,7 +4,7 @@ concurrency:
 jobs:
   build00:
     env:
-      CACHIX_NIXPKGS_PYTHON_TOKEN: ${{ secrets.CACHIX_NIXPKGS_PYTHON_TOKEN }}
+      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -58,7 +58,7 @@ jobs:
     - run: just build projects.yarl
   build01:
     env:
-      CACHIX_NIXPKGS_PYTHON_TOKEN: ${{ secrets.CACHIX_NIXPKGS_PYTHON_TOKEN }}
+      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -112,7 +112,7 @@ jobs:
     - run: just build projects.youtube-dl
   build02:
     env:
-      CACHIX_NIXPKGS_PYTHON_TOKEN: ${{ secrets.CACHIX_NIXPKGS_PYTHON_TOKEN }}
+      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -166,7 +166,7 @@ jobs:
     - run: just build projects.zeep
   build03:
     env:
-      CACHIX_NIXPKGS_PYTHON_TOKEN: ${{ secrets.CACHIX_NIXPKGS_PYTHON_TOKEN }}
+      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -220,7 +220,7 @@ jobs:
     - run: just build projects.zenpy
   build04:
     env:
-      CACHIX_NIXPKGS_PYTHON_TOKEN: ${{ secrets.CACHIX_NIXPKGS_PYTHON_TOKEN }}
+      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -274,7 +274,7 @@ jobs:
     - run: just build projects.zict
   build05:
     env:
-      CACHIX_NIXPKGS_PYTHON_TOKEN: ${{ secrets.CACHIX_NIXPKGS_PYTHON_TOKEN }}
+      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -328,7 +328,7 @@ jobs:
     - run: just build projects.zipp
   build06:
     env:
-      CACHIX_NIXPKGS_PYTHON_TOKEN: ${{ secrets.CACHIX_NIXPKGS_PYTHON_TOKEN }}
+      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -382,7 +382,7 @@ jobs:
     - run: just build projects.zope-component
   build07:
     env:
-      CACHIX_NIXPKGS_PYTHON_TOKEN: ${{ secrets.CACHIX_NIXPKGS_PYTHON_TOKEN }}
+      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -436,7 +436,7 @@ jobs:
     - run: just build projects.zope-deprecation
   build08:
     env:
-      CACHIX_NIXPKGS_PYTHON_TOKEN: ${{ secrets.CACHIX_NIXPKGS_PYTHON_TOKEN }}
+      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -490,7 +490,7 @@ jobs:
     - run: just build projects.zope-event
   build09:
     env:
-      CACHIX_NIXPKGS_PYTHON_TOKEN: ${{ secrets.CACHIX_NIXPKGS_PYTHON_TOKEN }}
+      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -544,7 +544,7 @@ jobs:
     - run: just build projects.zope-hookable
   build10:
     env:
-      CACHIX_NIXPKGS_PYTHON_TOKEN: ${{ secrets.CACHIX_NIXPKGS_PYTHON_TOKEN }}
+      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -598,7 +598,7 @@ jobs:
     - run: just build projects.zope-interface
   build11:
     env:
-      CACHIX_NIXPKGS_PYTHON_TOKEN: ${{ secrets.CACHIX_NIXPKGS_PYTHON_TOKEN }}
+      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -652,7 +652,7 @@ jobs:
     - run: just build projects.zope-schema
   build12:
     env:
-      CACHIX_NIXPKGS_PYTHON_TOKEN: ${{ secrets.CACHIX_NIXPKGS_PYTHON_TOKEN }}
+      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -705,7 +705,7 @@ jobs:
     - run: just build projects.xarray
   build13:
     env:
-      CACHIX_NIXPKGS_PYTHON_TOKEN: ${{ secrets.CACHIX_NIXPKGS_PYTHON_TOKEN }}
+      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -758,7 +758,7 @@ jobs:
     - run: just build projects.xgboost
   build14:
     env:
-      CACHIX_NIXPKGS_PYTHON_TOKEN: ${{ secrets.CACHIX_NIXPKGS_PYTHON_TOKEN }}
+      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -811,7 +811,7 @@ jobs:
     - run: just build projects.xlrd
   build15:
     env:
-      CACHIX_NIXPKGS_PYTHON_TOKEN: ${{ secrets.CACHIX_NIXPKGS_PYTHON_TOKEN }}
+      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -864,7 +864,7 @@ jobs:
     - run: just build projects.xlsxwriter
   build16:
     env:
-      CACHIX_NIXPKGS_PYTHON_TOKEN: ${{ secrets.CACHIX_NIXPKGS_PYTHON_TOKEN }}
+      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -917,7 +917,7 @@ jobs:
     - run: just build projects.xlwt
   build17:
     env:
-      CACHIX_NIXPKGS_PYTHON_TOKEN: ${{ secrets.CACHIX_NIXPKGS_PYTHON_TOKEN }}
+      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -970,7 +970,7 @@ jobs:
     - run: just build projects.xmlrpc2
   build18:
     env:
-      CACHIX_NIXPKGS_PYTHON_TOKEN: ${{ secrets.CACHIX_NIXPKGS_PYTHON_TOKEN }}
+      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -1023,7 +1023,7 @@ jobs:
     - run: just build projects.xmltodict
   build19:
     env:
-      CACHIX_NIXPKGS_PYTHON_TOKEN: ${{ secrets.CACHIX_NIXPKGS_PYTHON_TOKEN }}
+      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2

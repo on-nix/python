@@ -1,9 +1,9 @@
-# Nixpkgs Python
+# Python on Nix
 
 Extensive collection
 of [Python][PYTHON] projects
 from the [Python Packaging Index][PYPI].
-That can be installed with the [Nix][NIX] package manager.
+That can be used with the [Nix][NIX] package manager.
 
 - Scope:
   - :heavy_check_mark:
@@ -19,7 +19,7 @@ That can be installed with the [Nix][NIX] package manager.
 - Performance:
   - :heavy_check_mark: We **always** pick [Wheels][PYTHON_WHEELS]
   - :heavy_check_mark: A highly granular cache
-  - :heavy_check_mark: Available on [Cachix][CACHIX_NIXPKGS_PYTHON]
+  - :heavy_check_mark: Available on [Cachix][CACHIX_PYTHON_ON_NIX]
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -82,16 +82,16 @@ which points to the latest version of the project.
 Simply run the following magic from a terminal.
 
 ```bash
-$ nix-env -iA 'apps."<project>"."<version>"' -f https://github.com/kamadorueda/nixpkgs-python/tarball/main
+$ nix-env -iA 'apps."<project>"."<version>"' -f https://github.com/kamadorueda/python-on-nix/tarball/main
 ```
 
 For example:
 
 - ```bash
-  $ nix-env -iA 'apps."awscli"."1.20.31"' -f https://github.com/kamadorueda/nixpkgs-python/tarball/main
+  $ nix-env -iA 'apps."awscli"."1.20.31"' -f https://github.com/kamadorueda/python-on-nix/tarball/main
   ```
 - ```bash
-  $ nix-env -iA 'apps."pytest"."latest"' -f https://github.com/kamadorueda/nixpkgs-python/tarball/main
+  $ nix-env -iA 'apps."pytest"."latest"' -f https://github.com/kamadorueda/python-on-nix/tarball/main
   ```
 
 After the process have completed,
@@ -108,7 +108,7 @@ $ pytest --version
 ## Creating Python environments with Applications and Libraries
 
 First,
-you need to import Nixpkgs Python
+you need to import `Python on Nix`
 into your project.
 
 For example:
@@ -121,9 +121,9 @@ let
 
   nixpkgsPython = import (nixpkgs.fetchFromGitHub {
     owner = "kamadorueda";
-    repo = "nixpkgs-python";
+    repo = "python-on-nix";
     # Pick a commit from this list:
-    # https://github.com/kamadorueda/nixpkgs-python/commits/main
+    # https://github.com/kamadorueda/python-on-nix/commits/main
     rev = "0000000000000000000000000000000000000000";
     # Update this manually
     sha256 = "0000000000000000000000000000000000000000000000000000";
@@ -189,7 +189,7 @@ $ python -c 'import torch; print(torch.__version__)'
 
 ### Compatibility with Nixpkgs
 
-You can use Nixpkgs Python and Nixpkgs together.
+You can use `Python On Nix` and `Nixpkgs` together.
 
 For example:
 
@@ -201,7 +201,7 @@ let
   nixpkgs = import { ... };
   nixpkgsPython = import { ... };
 
-  # Create a Nixpkgs Python environment as explained in previous sections
+  # Create a Python on Nix environment as explained in previous sections
   env = nixpkgsPython.python39Env {
     name = "example";
     projects = with nixpkgsPython.projects; [
@@ -263,18 +263,18 @@ an **unstable** release of Nix.
 ## List of available projects
 
 ```bash
-$ nix flake show github:kamadorueda/nixpkgs-python
+$ nix flake show github:kamadorueda/python-on-nix
 ```
 
 ## Trying out Applications without installing them
 
-- `$ nix shell 'github:kamadorueda/nixpkgs-python#"awscli-1.20.31-latest-bin"'`
-- `$ nix shell 'github:kamadorueda/nixpkgs-python#"pytest-latest-python37-bin"'`
+- `$ nix shell 'github:kamadorueda/python-on-nix#"awscli-1.20.31-latest-bin"'`
+- `$ nix shell 'github:kamadorueda/python-on-nix#"pytest-latest-python37-bin"'`
 
 ## Installing Applications
 
-- `$ nix profile install 'github:kamadorueda/nixpkgs-python#"awscli-1.20.31-latest-bin"'`
-- `$ nix profile install 'github:kamadorueda/nixpkgs-python#"pytest-latest-python37-bin"'`
+- `$ nix profile install 'github:kamadorueda/python-on-nix#"awscli-1.20.31-latest-bin"'`
+- `$ nix profile install 'github:kamadorueda/python-on-nix#"pytest-latest-python37-bin"'`
 
 ## Creating Python environments with Applications and Libraries
 
@@ -284,7 +284,7 @@ $ nix flake show github:kamadorueda/nixpkgs-python
   inputs = {
     # Import projects
     nixpkgs.url = "github:nixos/nixpkgs";
-    nixpkgsPython.url = "github:kamadorueda/nixpkgs-python";
+    nixpkgsPython.url = "github:kamadorueda/python-on-nix";
   };
   outputs = { nixpkgs, nixpkgsPython, ... }: {
     packages.x86_64-linux = {
@@ -337,7 +337,7 @@ $ python -c 'import torch; print(torch.__version__)'
 
 ## Compatibility with Nixpkgs
 
-You can use Nixpkgs Python and Nixpkgs together.
+You can use `Python on Nix` and `Nixpkgs` together.
 
 For example:
 
@@ -346,7 +346,7 @@ For example:
 {
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs";
-    nixpkgsPython.url = "github:kamadorueda/nixpkgs-python";
+    nixpkgsPython.url = "github:kamadorueda/python-on-nix";
   };
   outputs = { nixpkgs, nixpkgsPython, self, ... }: {
     packages.x86_64-linux = {
@@ -402,7 +402,7 @@ Now just `$ nix -L build --rebuild .#something` ! :rocket:
 
 # Using the binary cache
 
-You can configure [nixpkgs-python's binary cache][CACHIX_NIXPKGS_PYTHON]
+You can configure [python-on-nix's binary cache][CACHIX_PYTHON_ON_NIX]
 to speed up your builds.
 
 ```bash
@@ -410,7 +410,7 @@ to speed up your builds.
 $ nix-env -i cachix
 
 # Make future builds use the cache
-$ cachix use nixpkgs-python
+$ cachix use python-on-nix
 ```
 
 This will save you the time required to build the projects on your machine
@@ -427,7 +427,7 @@ Also a few dollars are always welcome :grin:
 ---
 
 [CACHIX]: https://www.cachix.org/
-[CACHIX_NIXPKGS_PYTHON]: https://app.cachix.org/cache/nixpkgs-python
+[CACHIX_PYTHON_ON_NIX]: https://app.cachix.org/cache/python-on-nix
 [NIX]: https://nixos.org/
 [PYPI]: https://pypi.org/
 [PYTHON]: https://www.python.org/
