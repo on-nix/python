@@ -1,0 +1,5 @@
+{
+  "itsdangerous": "2.0.1",
+  "python-multipart": "0.0.5",
+  "six": "1.16.0"
+}
