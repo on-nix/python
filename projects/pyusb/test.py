@@ -1,1 +1,1 @@
-import pyusb
+import usb
