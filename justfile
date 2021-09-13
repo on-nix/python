@@ -5,6 +5,7 @@ _:
   @just --list
 
 build ATTR:
+  nix-instantiate --show-trace -A projects default.nix
   cachix use python-on-nix
   nix-build \
     --attr '{{ATTR}}' \
