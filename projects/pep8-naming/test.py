@@ -1,1 +1,1 @@
-import pep8_naming
+import pep8ext_naming
