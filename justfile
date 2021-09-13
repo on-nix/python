@@ -16,6 +16,7 @@ build ATTR:
     --option cores 1 \
     --option max-jobs auto \
     --option sandbox true \
+    --show-trace \
     default.nix
   if test -n "${CACHIX_PYTHON_ON_NIX_TOKEN:-}"; then \
     CACHIX_AUTH_TOKEN="${CACHIX_PYTHON_ON_NIX_TOKEN}" \
