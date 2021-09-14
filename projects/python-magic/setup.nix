@@ -1,3 +1,4 @@
 {
   runtimeFileBin = true;
+  runtimeFileRpath = true;
 }

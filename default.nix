@@ -156,6 +156,7 @@ let
           buildGccBin = false;
           buildPostgresqlBin = false;
           runtimeFileBin = false;
+          runtimeFileRpath = false;
           runtimeGitBin = false;
           runtimePkgResources = false;
           runtimeSetuptools = false;
@@ -187,6 +188,7 @@ let
           ];
           rpath = builtins.concatLists [
             (attrsGet searchPaths "rpath" [ ])
+            (listOptional setup.runtimeFileRpath nixpkgs.file)
             (listOptional setup.runtimeLibstdcppRpath nixpkgs.gcc.cc.lib)
           ];
         };
