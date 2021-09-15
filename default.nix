@@ -3,16 +3,19 @@ let
   system = "x86_64-linux";
 
   makes = import "${makesSrc}/src/args/agnostic.nix" { inherit system; };
-  makesSrc = with lock.nodes.makes.locked; builtins.fetchTarball {
-    url = "https://github.com/${owner}/${repo}/archive/${rev}.tar.gz";
-    sha256 = narHash;
-  };
-
+  makesSrc = with lock.nodes.makes.locked;
+    builtins.fetchTarball {
+      url = "https://github.com/${owner}/${repo}/archive/${rev}.tar.gz";
+      sha256 = narHash;
+    };
   nixpkgs = import nixpkgsSrc { inherit system; };
-  nixpkgsSrc = with lock.nodes.nixpkgs.locked; builtins.fetchTarball {
-    url = "https://github.com/${owner}/${repo}/archive/${rev}.tar.gz";
-    sha256 = narHash;
-  };
+  nixpkgsSrc = with lock.nodes.nixpkgs.locked;
+    builtins.fetchTarball {
+      url = "https://github.com/${owner}/${repo}/archive/${rev}.tar.gz";
+      sha256 = narHash;
+    };
+
+  #
 
   inherit (makes) attrsGet;
   inherit (makes) attrsOptional;
@@ -32,7 +35,9 @@ let
   pythonVersions = [ "python36" "python37" "python38" "python39" ];
   pythons = builtins.map
     (pythonVersion: nixpkgs.${pythonVersion})
-    pythonVersions;
+    (pythonVersions);
+
+  #
 
   projectsPath = ./projects;
   projectsMeta = mapListToAttrs buildProjectMeta (lsDirs projectsPath);
@@ -94,13 +99,13 @@ let
     }
     else null;
 
+  #
+
   projects =
-    let
-      projects = mapListToAttrs
-        (buildProject)
-        (builtins.attrNames projectsMeta);
-    in
-    projects // { outPath = attrsToLinkFarm "python-on-nix" projects; };
+    let projects = mapListToAttrs
+      (buildProject)
+      (builtins.attrNames projectsMeta);
+    in projects // { outPath = attrsToLinkFarm "python-on-nix" projects; };
 
   apps = builtins.mapAttrs
     (project: projectMeta: builtins.mapAttrs
@@ -109,6 +114,8 @@ let
         in projects.${project}.${version}.${latest}.bin)
       (projectMeta.versions))
     (projectsMeta);
+
+  #
 
   buildProject = project:
     let versions = buildProjectVersions project;
@@ -377,6 +384,8 @@ let
       value = outputs // { outPath = attrsToLinkFarm name outputs; };
     };
 
+  #
+
   supportedArchs = [ "any" ]
     ++ (optional (isDarwin) "macosx_10_9_universal2")
     ++ (optional (isDarwin && isx86_64) "macosx_10_9_x86_64")
@@ -487,35 +496,38 @@ let
 
       ''
     else installer;
-  makePypiMirror = name: installers: nixpkgs.linkFarm "mirror-for-${name}" (
-    (builtins.map
-      (installer: {
-        name = "${installer.project}/index.html";
-        path = builtins.toFile "${installer.project}-index.html" ''
-          <html><body>
-            <a href="./${installer.name}">${installer.name}</a>
-          </body></html>
-        '';
-      })
-      (installers))
-    ++ (builtins.map
-      (installer: {
-        name = "${installer.project}/${installer.name}";
-        path = installer.path;
-      })
-      (installers))
-    ++ [{
-      name = "index.html";
-      path =
-        builtins.toFile "index.html" ''
-          <html><body>
-            ${builtins.concatStringsSep " " (builtins.map
-              (installer: "<a href=/${installer.project}/>${installer.project}</a>")
-              (installers))}
-          </body></html>
-        '';
-    }]
-  );
+  makePypiMirror = name: installers:
+    nixpkgs.linkFarm "mirror-for-${name}" (
+      (builtins.map
+        (installer: {
+          name = "${installer.project}/index.html";
+          path = builtins.toFile "${installer.project}-index.html" ''
+            <html><body>
+              <a href="./${installer.name}">${installer.name}</a>
+            </body></html>
+          '';
+        })
+        (installers))
+      ++ (builtins.map
+        (installer: {
+          name = "${installer.project}/${installer.name}";
+          path = installer.path;
+        })
+        (installers))
+      ++ [{
+        name = "index.html";
+        path =
+          builtins.toFile "index.html" ''
+            <html><body>
+              ${builtins.concatStringsSep " " (builtins.map
+                (installer: "<a href=/${installer.project}/>${installer.project}</a>")
+                (installers))}
+            </body></html>
+          '';
+      }]
+    );
+
+  #
 
   makeEnvs = mapListToAttrs
     (pythonVersion: {
@@ -543,10 +555,21 @@ let
       name = "python${pythonVersion}-env-for-${name}";
     };
 
+  #
+
   attrsToLinkFarm = name: attrs:
     nixpkgs.linkFarm name (mapAttrsToList
       (name: path: { inherit name path; })
       attrs);
+  getLatestVersion = versions: builtins.head (builtins.sort
+    (a: b: (builtins.compareVersions a b) > 0)
+    versions);
+  lsDirs = path:
+    let contents = builtins.readDir path;
+    in
+    builtins.filter
+      (name: contents.${name} == "directory")
+      (builtins.attrNames contents);
   mapAttrsToList = func: attrs:
     builtins.attrValues (builtins.mapAttrs func attrs);
   mapListToAttrs = func: list:
@@ -554,17 +577,7 @@ let
       (e: e != null)
       (builtins.map func list));
 
-  getLatestVersion = versions: builtins.head (builtins.sort
-    (a: b: (builtins.compareVersions a b) > 0)
-    versions);
-
-  lsDirs = path:
-    let
-      contents = builtins.readDir path;
-    in
-    builtins.filter
-      (name: contents.${name} == "directory")
-      (builtins.attrNames contents);
+  #
 
   self = makeEnvs // {
     inherit apps;
