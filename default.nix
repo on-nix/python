@@ -48,6 +48,9 @@ let
       versions = mapListToAttrs
         (buildProjectVersionMeta project)
         (lsDirs (projectsPath + "/${project}"));
+
+      setupPath = projectsPath + "/${project}/setup.nix";
+      setup = if builtins.pathExists setupPath then import setupPath else { };
     in
     if versions == { }
     then null
@@ -55,13 +58,17 @@ let
       name = project;
       value = {
         inherit project;
-        setupPath = projectsPath + "/${project}/setup.nix";
+        inherit setup;
         testPath = projectsPath + "/${project}/test.py";
         versions = versions
           // { latest = versions.${latest} // { version = "latest"; }; };
       };
     };
   buildProjectVersionMeta = project: version:
+    let
+      setupPath = projectsPath + "/${project}/${version}/setup.nix";
+      setup = if builtins.pathExists setupPath then import setupPath else { };
+    in
     {
       name = version;
       value = {
@@ -78,7 +85,7 @@ let
           then supported
           else supported
             // { latest = supported.${latest} // { pythonVersion = "latest"; }; };
-        setupPath = projectsPath + "/${project}/${version}/setup.nix";
+        inherit setup;
         testPath = projectsPath + "/${project}/${version}/test.py";
         inherit version;
         version' = version;
@@ -146,8 +153,6 @@ let
 
       closureCommonPath = projectsMeta.${project}.versions.${version}.closurePath;
       closurePath = projectsMeta.${project}.versions.${version}.pythonVersions.${pythonVersion}.closurePath;
-      setupGlobalPath = projectsMeta.${project}.setupPath;
-      setupVersionPath = projectsMeta.${project}.versions.${version}.setupPath;
       testGlobalPath = projectsMeta.${project}.testPath;
       testVersionPath = projectsMeta.${project}.versions.${version}.testPath;
 
@@ -169,10 +174,8 @@ let
           runtimeSetuptools = false;
           runtimeLibstdcppRpath = false;
         }) //
-        (if builtins.pathExists setupGlobalPath
-        then import setupGlobalPath else { }) //
-        (if builtins.pathExists setupVersionPath
-        then import setupVersionPath else { })
+        projectsMeta.${project}.setupPath //
+        projectsMeta.${project}.versions.${version}.setupPath
       );
       searchPathsBuild =
         let searchPaths = setup.searchPathsBuild searchPathsArgs;
@@ -552,7 +555,7 @@ let
           (project: project.${pythonVersion}.dev)
           (projects);
       };
-      name = "python${pythonVersion}-env-for-${name}";
+      name = "${pythonVersion}-env-for-${name}";
     };
 
   #
