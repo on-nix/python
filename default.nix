@@ -50,7 +50,22 @@ let
         (lsDirs (projectsPath + "/${project}"));
 
       setupPath = projectsPath + "/${project}/setup.nix";
-      setup = if builtins.pathExists setupPath then import setupPath else { };
+      setup =
+        ({
+          extraInstallers = { };
+          patchClosure = closure: closure;
+          searchPathsBuild = _: { };
+          searchPathsRuntime = _: { };
+
+          buildGccBin = false;
+          buildPostgresqlBin = false;
+          runtimeFileBin = false;
+          runtimeFileRpath = false;
+          runtimeGitBin = false;
+          runtimePkgResources = false;
+          runtimeSetuptools = false;
+          runtimeLibstdcppRpath = false;
+        }) // (if builtins.pathExists setupPath then import setupPath else { });
     in
     if versions == { }
     then null
@@ -65,14 +80,9 @@ let
       };
     };
   buildProjectVersionMeta = project: version:
-    let
-      setupPath = projectsPath + "/${project}/${version}/setup.nix";
-      setup = if builtins.pathExists setupPath then import setupPath else { };
-    in
     {
       name = version;
       value = {
-        closurePath = projectsPath + "/${project}/${version}/python3*.json";
         installersPath = projectsPath + "/${project}/${version}/installers.json";
         pythonVersions =
           let
@@ -85,21 +95,22 @@ let
           then supported
           else supported
             // { latest = supported.${latest} // { pythonVersion = "latest"; }; };
-        inherit setup;
-        testPath = projectsPath + "/${project}/${version}/test.py";
         inherit version;
         version' = version;
       };
     };
   buildProjectVersionForInterpreterMeta = project: version: pythonVersion:
     let
+      closureCommonPath = projectsPath + "/${project}/${version}/python3*.json";
       closurePath = projectsPath + "/${project}/${version}/${pythonVersion}.json";
+      closure = projectsMeta.${project}.setup.patchClosure
+        ((fromJsonFile closureCommonPath) // (fromJsonFile closurePath));
     in
     if builtins.pathExists closurePath
     then {
       name = pythonVersion;
       value = {
-        inherit closurePath;
+        inherit closure;
         inherit pythonVersion;
         pythonVersion' = pythonVersion;
       };
@@ -151,32 +162,9 @@ let
       version = projectsMeta.${project}.versions.${version'}.version';
       pythonVersion = projectsMeta.${project}.versions.${version}.pythonVersions.${pythonVersion'}.pythonVersion';
 
-      closureCommonPath = projectsMeta.${project}.versions.${version}.closurePath;
-      closurePath = projectsMeta.${project}.versions.${version}.pythonVersions.${pythonVersion}.closurePath;
-      testGlobalPath = projectsMeta.${project}.testPath;
-      testVersionPath = projectsMeta.${project}.versions.${version}.testPath;
-
       name = "${project}-${version'}-${pythonVersion'}";
       python = nixpkgs.${pythonVersion};
-      setup = (
-        ({
-          extraInstallers = { };
-          patchClosure = closure: closure;
-          searchPathsBuild = _: { };
-          searchPathsRuntime = _: { };
-
-          buildGccBin = false;
-          buildPostgresqlBin = false;
-          runtimeFileBin = false;
-          runtimeFileRpath = false;
-          runtimeGitBin = false;
-          runtimePkgResources = false;
-          runtimeSetuptools = false;
-          runtimeLibstdcppRpath = false;
-        }) //
-        projectsMeta.${project}.setupPath //
-        projectsMeta.${project}.versions.${version}.setupPath
-      );
+      setup = projectsMeta.${project}.setup;
       searchPathsBuild =
         let searchPaths = setup.searchPathsBuild searchPathsArgs;
         in
@@ -202,14 +190,6 @@ let
             (listOptional setup.runtimeLibstdcppRpath nixpkgs.gcc.cc.lib)
           ];
         };
-      test =
-        if builtins.pathExists testVersionPath
-        then testVersionPath
-        else if builtins.pathExists testGlobalPath
-        then testGlobalPath
-        else null;
-
-      closure = (fromJsonFile closureCommonPath) // (fromJsonFile closurePath);
 
       installers = builtins.concatLists [
         (mapAttrsToList
@@ -234,7 +214,7 @@ let
       ];
       propagated = mapAttrsToList
         (project: version: projects.${project}.${version}.${pythonVersion}.dev)
-        (setup.patchClosure closure);
+        (projectsMeta.${project}.versions.${version}.pythonVersions.${pythonVersion}.closure);
       searchPathsArgs = {
         inherit nixpkgs;
         pythonOnNix = self;
@@ -341,7 +321,7 @@ let
         env = {
           envVenvContents = venvContents;
           envVenvSearchPaths = venvSearchPaths;
-          envTest = test;
+          envTest = projectsMeta.${project}.testPath;
         };
         name = "${name}-test";
         searchPaths.bin = [ nixpkgs.findutils ];
