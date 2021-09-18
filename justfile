@@ -37,6 +37,13 @@ crawl-fetch:
 crawl-build:
   bash makes/crawl/build.sh
 
+examples:
+  nix-build --option sandbox true examples/use-with-nixpkgs.nix
+  rm ./examples/use-with-flakes-and-nixpkgs/flake.lock
+  nix3 build ./examples/use-with-flakes-and-nixpkgs#example
+  nix3 build ./examples/use-with-flakes-and-nixpkgs#something
+  rm ./examples/use-with-flakes-and-nixpkgs/flake.lock
+
 new PROJECT:
   set +e; \
   m . /create 3.6 {{PROJECT}}; \

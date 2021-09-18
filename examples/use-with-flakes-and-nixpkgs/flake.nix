@@ -1,18 +1,18 @@
 {
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs";
-    pythonOnNix.url = "github:kamadorueda/python-on-nix";
+    pythonOnNix.url = "/data/kamadorueda/python-on-nix";
   };
   outputs = { nixpkgs, pythonOnNix, self, ... }: {
     packages.x86_64-linux = {
       example = pythonOnNix.lib.python39Env {
         name = "example";
-        projects = with pythonOnNix.lib.projects; [
-          awscli."1.20.31"
-          numpy."latest"
-          requests."latest"
-          torch."1.9.0"
-        ];
+        projects = {
+          awscli = "1.20.31";
+          numpy = "latest";
+          requests = "latest";
+          torch = "1.9.0";
+        };
       };
 
       something = nixpkgs.legacyPackages.x86_64-linux.stdenv.mkDerivation {
@@ -29,6 +29,8 @@
           python -c 'import torch; print(torch.__version__)'
 
           touch $out
+
+          set +x
         '';
         name = "example";
       };
