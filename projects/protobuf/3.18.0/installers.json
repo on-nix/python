@@ -1,0 +1,23 @@
+{
+  "protobuf-3.18.0-cp36-cp36m-macosx_10_9_x86_64.whl": "9072cb18fca8998b77f969fb74d25a11d7f4a39a8b1ddc3cf76cd5abda8499cb",
+  "protobuf-3.18.0-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "f589346b5b3f702c1d30e2343c9897e6c35e7bd495c10a0e17d11ecb5ee5bd06",
+  "protobuf-3.18.0-cp36-cp36m-win32.whl": "93c077fd83879cf48f327a2491c24da447a09da6a7ab3cc311a6f5a61fcb5de0",
+  "protobuf-3.18.0-cp36-cp36m-win_amd64.whl": "3b5b81bb665aac548b413480f4e0d8c38a74bc4dea57835f288a3ce74f63dfe9",
+  "protobuf-3.18.0-cp37-cp37m-macosx_10_9_x86_64.whl": "d11465040cadcea8ecf5f0b131af5099a9696f9d0bef6f88148b372bacc1c52d",
+  "protobuf-3.18.0-cp37-cp37m-manylinux2014_aarch64.whl": "f6138462643adce0ed6e49007a63b7fd7dc4fda1ef4e15a70fcebe76c1407a71",
+  "protobuf-3.18.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "877664b1b8d1e23553634f625e4e12aae4ff16cbbef473f8118c239d478f422a",
+  "protobuf-3.18.0-cp37-cp37m-win32.whl": "5201333b7aa711965c5769b250f8565a9924e8e27f8b622bbc5e6847aeaab1b1",
+  "protobuf-3.18.0-cp37-cp37m-win_amd64.whl": "1f3ecec3038c2fb4dad952d3d6cb9ca301999903a09e43794fb348da48f7577f",
+  "protobuf-3.18.0-cp38-cp38-macosx_10_9_x86_64.whl": "17181fc0814655812aac108e755bd5185d71aa8d81bd241cec6e232c84097918",
+  "protobuf-3.18.0-cp38-cp38-manylinux2014_aarch64.whl": "7646c20605fbee57e77fdbc4a90175538281b152f46ba17019916593f8062c2a",
+  "protobuf-3.18.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "80b0a5157f3a53043daf8eb7cfa1220b27a5a63dd6655dbd8e1e6f7b5dcd6347",
+  "protobuf-3.18.0-cp38-cp38-win32.whl": "5730de255c95b3403eedd1a568eb28203b913b6192ff5a3fdc3ff30f37107a38",
+  "protobuf-3.18.0-cp38-cp38-win_amd64.whl": "9147565f93e6699d7512747766598afe63205f226ac7b61f47954974c9aab852",
+  "protobuf-3.18.0-cp39-cp39-macosx_10_9_x86_64.whl": "568c049ff002a7523ed33fb612e6b97da002bf87ffb619a1fc3eadf2257a3b31",
+  "protobuf-3.18.0-cp39-cp39-manylinux2014_aarch64.whl": "7e791a94db391ae22b3943fc88f6ba0e1f62b6ad58b33db7517df576c7834d23",
+  "protobuf-3.18.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "42c04e66ec5a38ad2171639dc9860c2f9594668f709ea3a4a192acf7346853a7",
+  "protobuf-3.18.0-cp39-cp39-win32.whl": "0a59ea8da307118372750e2fdfe0961622e675b8dd35e05c42384d618189a938",
+  "protobuf-3.18.0-cp39-cp39-win_amd64.whl": "f7c8193ec805324ff6024242b00f64a24b94d56b895f62bf28a9d72a228d4fca",
+  "protobuf-3.18.0-py2.py3-none-any.whl": "615099e52e9fbc9fde00177267a94ca820ecf4e80093e390753568b7d8cb3c1a",
+  "protobuf-3.18.0.tar.gz": "18b308946a592e245299391e53c01b5b8efc2794f49986e80f37d7b5e60a270f"
+}
