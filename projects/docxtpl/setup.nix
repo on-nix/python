@@ -1,5 +1,4 @@
 {
-  patchClosure = closure: closure // {
-    six = "1.16.0";
-  };
+  runtimePkgResources = true;
+  runtimeWants = [ "docxcompose" "jinja2" "python-docx" "six" ];
 }
