@@ -65,6 +65,7 @@ let
           runtimePkgResources = false;
           runtimeSetuptools = false;
           runtimeLibstdcppRpath = false;
+          runtimeWants = [ ];
         }) // (if builtins.pathExists setupPath then import setupPath else { });
     in
     if versions == { }
@@ -120,10 +121,36 @@ let
   #
 
   projects =
-    let projects = mapListToAttrs
-      (buildProject)
-      (builtins.attrNames projectsMeta);
-    in projects // { outPath = attrsToLinkFarm "python-on-nix" projects; };
+    let
+      outputs =
+        let outputs = builtins.mapAttrs buildProject projectsMeta;
+        in outputs // { outPath = attrsToLinkFarm "python-on-nix" outputs; };
+
+      buildProject = project: projectMeta:
+        let outputs = builtins.mapAttrs
+          (buildProjectVersion project)
+          (projectMeta.versions);
+        in
+        outputs // { outPath = attrsToLinkFarm project outputs; };
+
+      buildProjectVersion = project: version: versionMeta:
+        let outputs = builtins.mapAttrs
+          (buildProjectVersionForInterpreter project version)
+          (versionMeta.pythonVersions);
+        in
+        outputs // { outPath = attrsToLinkFarm "${project}-${version}" outputs; };
+
+      buildProjectVersionForInterpreter = project: version: pythonVersion: _:
+        let
+          outputs = makeEnv pythonVersion {
+            inherit name;
+            projects = { "${project}" = version; };
+          };
+          name = "${project}-${version}-${pythonVersion}";
+        in
+        outputs // { outPath = attrsToLinkFarm name outputs; };
+    in
+    outputs // { outPath = attrsToLinkFarm "python-on-nix" outputs; };
 
   apps = builtins.mapAttrs
     (project: projectMeta: builtins.mapAttrs
@@ -135,29 +162,7 @@ let
 
   #
 
-  buildProject = project:
-    let versions = buildProjectVersions project;
-    in
-    {
-      name = project;
-      value = versions // { outPath = attrsToLinkFarm project versions; };
-    };
-  buildProjectVersions = project:
-    mapListToAttrs
-      (version: {
-        name = version;
-        value = buildProjectVersion project version;
-      })
-      (builtins.attrNames projectsMeta.${project}.versions);
-  buildProjectVersion = project: version:
-    let
-      results = mapListToAttrs
-        (buildProjectVersionForInterpreter project version)
-        (builtins.attrNames projectsMeta.${project}.versions.${version}.pythonVersions);
-    in
-    results // { outPath = attrsToLinkFarm "${project}-${version}" results; };
-
-  buildProjectVersionForInterpreter = project: version': pythonVersion':
+  build = project: version': pythonVersion':
     let
       version = projectsMeta.${project}.versions.${version'}.version';
       pythonVersion = projectsMeta.${project}.versions.${version}.pythonVersions.${pythonVersion'}.pythonVersion';
@@ -212,9 +217,6 @@ let
           rm -rf $out/${python.sitePackages}/setuptools*.dist-info
         '' else "")
       ];
-      propagated = mapAttrsToList
-        (project: version: projects.${project}.${version}.${pythonVersion}.dev)
-        (projectsMeta.${project}.versions.${version}.pythonVersions.${pythonVersion}.closure);
       searchPathsArgs = {
         inherit nixpkgs;
         pythonOnNix = self;
@@ -282,89 +284,14 @@ let
           pythonPackage37 = optional (pythonVersion == "python37") venvContents;
           pythonPackage38 = optional (pythonVersion == "python38") venvContents;
           pythonPackage39 = optional (pythonVersion == "python39") venvContents;
-          source = propagated ++ [ (makeSearchPaths searchPathsRuntime) ];
+          source = [ (makeSearchPaths searchPathsRuntime) ];
         };
         name = "${name}-dev";
       };
-      venvTests = makeDerivation {
-        builder = ''
-          echo
-          pushd $envVenvContents
-          if test -e bin; then
-            find -L bin \
-              -exec du -B KiB {} \; \
-              -mindepth 1 \
-              -type f
-          fi
-          if test -e include; then
-            find -L include \
-              -exec du -B KiB {} \; \
-              -mindepth 1 \
-              -type f
-          fi
-          if test -e ${python.sitePackages}; then
-            find -L ${python.sitePackages} \
-              -exec du -B KiB {} \; \
-              -maxdepth 1 \
-              -mindepth 1 \
-              -type d
-          fi
-          popd
-          echo
-
-          source $envVenvSearchPaths/setup
-
-          if test -n "$envTest"; then python $envTest; fi
-
-          touch $out
-        '';
-        env = {
-          envVenvContents = venvContents;
-          envVenvSearchPaths = venvSearchPaths;
-          envTest = projectsMeta.${project}.testPath;
-        };
-        name = "${name}-test";
-        searchPaths.bin = [ nixpkgs.findutils ];
-      };
-      venvBins = makeDerivation {
-        builder = ''
-          shopt -s nullglob
-
-          mkdir $out
-          mkdir $out/bin
-
-          for bin in $envVenvContents/bin/*; do
-            bin_basename="$(basename "$bin")"
-            {
-              echo "#! $envBash/bin/bash"
-              echo
-              echo source $envVenvSearchPaths/setup
-              echo
-              echo "'$bin' \"\$@\""
-            } > "$out/bin/$bin_basename"
-            if test -x "$bin"; then
-              chmod +x "$out/bin/$bin_basename"
-            fi
-          done
-        '';
-        env = {
-          envBash = nixpkgs.bash;
-          envVenvContents = venvContents;
-          envVenvSearchPaths = venvSearchPaths;
-        };
-        name = "${name}-bin";
-      };
-
-      outputs = {
-        bin = venvBins;
-        out = venvContents;
-        dev = venvSearchPaths;
-        test = venvTests;
-      };
     in
     {
-      name = pythonVersion';
-      value = outputs // { outPath = attrsToLinkFarm name outputs; };
+      out = venvContents;
+      dev = venvSearchPaths;
     };
 
   #
@@ -501,11 +428,11 @@ let
         name = "index.html";
         path =
           builtins.toFile "index.html" ''
-            <html><body>
-              ${builtins.concatStringsSep " " (builtins.map
-                (installer: "<a href=/${installer.project}/>${installer.project}</a>")
-                (installers))}
-            </body></html>
+                        <html><body>
+                          ${builtins.concatStringsSep " " (builtins.map
+            (installer: "<a href=/${installer.project}/>${installer.project}</a>")
+            (installers))}
+                        </body></html>
           '';
       }]
     );
@@ -522,24 +449,134 @@ let
     { name
     , projects
     }:
-    makeDerivation {
-      builder = ''
-        mkdir $out
-        mkdir $out/nix-support
-        ln -s $envOut/template $out/setup
-        ln -s $envOut/template $out/template
-        ln -s $envOut/template $out/nix-support/setup-hook
-      '';
-      env.envOut = makeSearchPaths {
-        source = builtins.map
-          (project: project.${pythonVersion}.dev)
-          (projects);
+    let
+      closureDirect = builtins.foldl'
+        (closure: { name, value }:
+          closure
+          // { "${name}" = value; }
+          // projectsMeta.${name}.versions.${value}.pythonVersions.${pythonVersion}.closure)
+        { }
+        (attrsToList projects);
+
+      closureDirectPlusRuntimeWanted = builtins.foldl'
+        (closure: { name, value }:
+          builtins.foldl'
+            (closure: project:
+              if builtins.hasAttr project closure
+              then closure
+              else closure // { "${project}" = "latest"; })
+            (closure)
+            (projectsMeta.${name}.setup.runtimeWants))
+        (closureDirect)
+        (attrsToList projects);
+
+      closureBuilt = builtins.mapAttrs
+        (project: version: build project version pythonVersion)
+        (closureDirectPlusRuntimeWanted);
+
+      closureBinaries = makeDerivation {
+        builder = ''
+          shopt -s nullglob
+
+          mkdir $out
+          mkdir $out/bin
+
+          for content in $envClosureContents; do
+            for bin in $content/bin/*; do
+              bin_basename="$(basename "$bin")"
+              {
+                echo "#! $envBash/bin/bash"
+                echo
+                echo source $envClosureSearchPaths/setup
+                echo
+                echo "'$bin' \"\$@\""
+              } > "$out/bin/$bin_basename"
+              if test -x "$bin"; then
+                chmod +x "$out/bin/$bin_basename"
+              fi
+            done
+          done
+        '';
+        env = {
+          envBash = nixpkgs.bash;
+          envClosureContents = mapAttrsToList
+            (_: outputs: outputs.out)
+            (closureBuilt);
+          envClosureSearchPaths = closureSearchPaths;
+        };
+        name = "${name}-bin";
       };
-      name = "${pythonVersion}-env-for-${name}";
-    };
+      closureContents = attrsToLinkFarm "${name}-out" (builtins.mapAttrs
+        (project: outputs: outputs.out)
+        (closureBuilt));
+      closureSearchPaths = makeDerivation {
+        builder = ''
+          mkdir $out
+          mkdir $out/nix-support
+          ln -s $envDev/template $out/setup
+          ln -s $envDev/template $out/template
+          ln -s $envDev/template $out/nix-support/setup-hook
+        '';
+        env.envDev = makeSearchPaths {
+          source = mapAttrsToList (_: outputs: outputs.dev) closureBuilt;
+        };
+        name = "${name}-dev";
+      };
+
+      closureTests = attrsToLinkFarm "${name}-test" (builtins.mapAttrs
+        (project: outputs: makeDerivation {
+          builder = ''
+            echo
+            pushd $envVenvContents
+            if test -e bin; then
+              find -L bin \
+                -exec du -B KiB {} \; \
+                -mindepth 1 \
+                -type f
+            fi
+            if test -e include; then
+              find -L include \
+                -exec du -B KiB {} \; \
+                -mindepth 1 \
+                -type f
+            fi
+            if test -e lib/python*/site-packages; then
+              find -L lib/python*/site-packages \
+                -exec du -B KiB {} \; \
+                -maxdepth 1 \
+                -mindepth 1 \
+                -type d
+            fi
+            popd
+            echo
+
+            source $envClosureSearchPaths/setup
+
+            if test -n "$envTest"; then python $envTest; fi
+
+            touch $out
+          '';
+          env = {
+            envClosureSearchPaths = closureSearchPaths;
+            envTest = projectsMeta.${project}.testPath;
+            envVenvContents = outputs.out;
+          };
+          name = "${name}-test";
+          searchPaths.bin = [ nixpkgs.findutils ];
+        })
+        (closureBuilt));
+
+      outputs = {
+        bin = closureBinaries;
+        dev = closureSearchPaths;
+        out = closureContents;
+        test = closureTests;
+      };
+    in
+    outputs // { outPath = outputs.dev; };
 
   #
-
+  attrsToList = mapAttrsToList (name: value: { inherit name value; });
   attrsToLinkFarm = name: attrs:
     nixpkgs.linkFarm name (mapAttrsToList
       (name: path: { inherit name path; })

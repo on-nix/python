@@ -1,16 +1,16 @@
 let
   nixpkgs = import <nixpkgs> { };
 
-  pythonOnNix = import ./.;
+  pythonOnNix = import ../default.nix;
 
-  env = pythonOnNix.python39Env {
+  env = pythonOnNix.python38Env {
     name = "example";
-    projects = with pythonOnNix.projects; [
-      awscli."1.20.31"
-      numpy."latest"
-      requests."latest"
-      torch."1.9.0"
-    ];
+    projects = {
+      awscli = "1.20.31";
+      numpy = "latest";
+      requests = "latest";
+      torch = "1.9.0";
+    };
   };
 in
 nixpkgs.stdenv.mkDerivation {
