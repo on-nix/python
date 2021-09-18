@@ -3,7 +3,7 @@ let
 
   pythonOnNix = import ../default.nix;
 
-  env = pythonOnNix.python38Env {
+  env = pythonOnNix.python39Env {
     name = "example";
     projects = {
       awscli = "1.20.31";
@@ -26,6 +26,8 @@ nixpkgs.stdenv.mkDerivation {
     python -c 'import torch; print(torch.__version__)'
 
     touch $out
+
+    set +x
   '';
   name = "example";
   buildInputs = [ env ];

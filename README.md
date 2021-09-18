@@ -42,6 +42,17 @@ That can be used with the [Nix][NIX] package manager.
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+# Why
+
+To scale the Python ecosystem on Nix
+to every package and version
+ever published on the [Python Packaging Index][PYPI],
+while keeping the user interface extremely simple.
+
+You no longer require to become a [Nix][NIX] expert
+in order to embed the benefits of [Nix][NIX] in
+to your [Python][PYTHON] projects.
+
 # Applications vs Libraries
 
 On Python, projects can offer two types of components:
@@ -147,13 +158,13 @@ For example:
 
 pythonOnNix.python39Env {
   name = "example";
-  projects = with pythonOnNix.projects; [
-    awscli."1.20.31"
-    numpy."latest"
-    requests."latest"
-    torch."1.9.0"
-  ];
-}
+  projects = {
+    awscli = "1.20.31";
+    numpy = "latest";
+    requests = "latest";
+    torch = "1.9.0";
+  };
+};
 ```
 
 The output of this function
@@ -204,12 +215,12 @@ let
   # Create a Python on Nix environment as explained in previous sections
   env = pythonOnNix.python39Env {
     name = "example";
-    projects = with pythonOnNix.projects; [
-      awscli."1.20.31"
-      numpy."latest"
-      requests."latest"
-      torch."1.9.0"
-    ];
+    projects = {
+      awscli = "1.20.31";
+      numpy = "latest";
+      requests = "latest";
+      torch = "1.9.0";
+    };
   };
 in
 nixpkgs.stdenv.mkDerivation {
@@ -226,6 +237,8 @@ nixpkgs.stdenv.mkDerivation {
     python -c 'import torch; print(torch.__version__)'
 
     touch $out
+
+    set +x
   '';
   name = "example";
 }
