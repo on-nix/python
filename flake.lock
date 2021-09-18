@@ -3,11 +3,11 @@
     "makes": {
       "flake": false,
       "locked": {
-        "lastModified": 1631912977,
-        "narHash": "sha256-UkD56AcSO5QpxewyWsIvSAyAmel7DuoAwc5K4R94jIk=",
+        "lastModified": 1631982377,
+        "narHash": "sha256-tNwIdGliVFFHziRx2WoWdDzZFGjJS/GOSIoKbcSKEyQ=",
         "owner": "fluidattacks",
         "repo": "makes",
-        "rev": "eb50bdf6d3dce688e151f1e2985468d152245e48",
+        "rev": "e668884ae7585565c46763478ddcf0c8eb915997",
         "type": "github"
       },
       "original": {
@@ -18,11 +18,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1631933563,
-        "narHash": "sha256-QG4lsfWbAdLJZx3yNfANJYyr3G4EbTOKjCOpZUIm67g=",
+        "lastModified": 1631987677,
+        "narHash": "sha256-HBTzO31SHvREfym8Dab2AdJJMvU/nEtuPbiL8OIbL2E=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "0e575a459e4c3a96264e7a10373ed738ec1d708f",
+        "rev": "8cc054594a484759dc9a63b3748e1d80f02758bb",
         "type": "github"
       },
       "original": {
