@@ -1,3 +1,3 @@
 {
-  runtimeWants = [ "tinycss2" "webencodings" ];
+  runtimeWants = [ "tinycss2" ];
 }
