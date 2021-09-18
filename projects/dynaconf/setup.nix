@@ -1,0 +1,3 @@
+{
+  runtimePkgResources = true;
+}
