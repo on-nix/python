@@ -155,7 +155,18 @@ let
         outputs // { outPath = attrsToLinkFarm name outputs; };
     in
     outputs // { outPath = attrsToLinkFarm "python-on-nix" outputs; };
-
+  projectsForFlake = builtins.foldl'
+    (all: project: all // (builtins.foldl'
+      (all: version: all // (builtins.foldl'
+        (all: pythonVersion: all // (mapListToAttrs
+          (output: { name = output.name; value = output; })
+          (builtins.attrValues projects.${project.project}.${version.version}.${pythonVersion})))
+        { }
+        (builtins.attrNames version.pythonVersions)))
+      { }
+      (builtins.attrValues project.versions)))
+    { }
+    (builtins.attrValues projectsMeta);
   apps = builtins.mapAttrs
     (project: projectMeta: builtins.mapAttrs
       (version: _:
@@ -614,6 +625,7 @@ let
     inherit apps;
     inherit mapListToAttrs;
     inherit projects;
+    inherit projectsForFlake;
     inherit projectsMeta;
     inherit pythonVersions;
   };
