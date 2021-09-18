@@ -51,7 +51,6 @@ jobs:
     - run: just build projects.anndata
     - run: just build projects.ansible
     - run: just build projects.ansible-core
-    - run: just build projects.ansicon
     - run: just build projects.antlr4-python3-runtime
     - run: just build projects.anyascii
     - run: just build projects.anyio
@@ -60,6 +59,7 @@ jobs:
     - run: just build projects.apache-airflow-providers-http
     - run: just build projects.apispec
     - run: just build projects.appdirs
+    - run: just build projects.appium-python-client
   build01:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -71,7 +71,6 @@ jobs:
     - run: nix-channel --update
     - run: nix-env -i cachix
     - run: nix-env -i just
-    - run: just build projects.appium-python-client
     - run: just build projects.appnope
     - run: just build projects.apscheduler
     - run: just build projects.argcomplete
@@ -118,6 +117,7 @@ jobs:
     - run: just build projects.bcrypt
     - run: just build projects.beautifulsoup4
     - run: just build projects.bidict
+    - run: just build projects.billiard
   build02:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -129,7 +129,6 @@ jobs:
     - run: nix-channel --update
     - run: nix-env -i cachix
     - run: nix-env -i just
-    - run: just build projects.billiard
     - run: just build projects.binaryornot
     - run: just build projects.biopython
     - run: just build projects.bitarray
@@ -176,6 +175,7 @@ jobs:
     - run: just build projects.cfn-lint
     - run: just build projects.cftime
     - run: just build projects.chardet
+    - run: just build projects.charset-normalizer
   build03:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -187,7 +187,6 @@ jobs:
     - run: nix-channel --update
     - run: nix-env -i cachix
     - run: nix-env -i just
-    - run: just build projects.charset-normalizer
     - run: just build projects.cheroot
     - run: just build projects.clang
     - run: just build projects.cleo
@@ -234,6 +233,7 @@ jobs:
     - run: just build projects.cython
     - run: just build projects.cytoolz
     - run: just build projects.dask
+    - run: just build projects.databricks-cli
   build04:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -245,7 +245,6 @@ jobs:
     - run: nix-channel --update
     - run: nix-env -i cachix
     - run: nix-env -i just
-    - run: just build projects.databricks-cli
     - run: just build projects.dataclasses
     - run: just build projects.dataclasses-json
     - run: just build projects.datasette
@@ -292,6 +291,7 @@ jobs:
     - run: just build projects.dominate
     - run: just build projects.dpath
     - run: just build projects.draftjs-exporter
+    - run: just build projects.dtw
   build05:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -303,7 +303,6 @@ jobs:
     - run: nix-channel --update
     - run: nix-env -i cachix
     - run: nix-env -i just
-    - run: just build projects.dtw
     - run: just build projects.duckduckpy
     - run: just build projects.dulwich
     - run: just build projects.dynaconf
@@ -350,6 +349,7 @@ jobs:
     - run: just build projects.flask-reverse-proxy
     - run: just build projects.flask-shell-ipython
     - run: just build projects.flask-sqlalchemy
+    - run: just build projects.flask-weasyprint
   build06:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -361,7 +361,6 @@ jobs:
     - run: nix-channel --update
     - run: nix-env -i cachix
     - run: nix-env -i just
-    - run: just build projects.flask-weasyprint
     - run: just build projects.flask-wtf
     - run: just build projects.flatbuffers
     - run: just build projects.fonttools
@@ -408,6 +407,7 @@ jobs:
     - run: just build projects.hdfs3
     - run: just build projects.heapdict
     - run: just build projects.hexbytes
+    - run: just build projects.hiredis
   build07:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -419,7 +419,6 @@ jobs:
     - run: nix-channel --update
     - run: nix-env -i cachix
     - run: nix-env -i just
-    - run: just build projects.hiredis
     - run: just build projects.hpack
     - run: just build projects.html2text
     - run: just build projects.html5lib
@@ -466,6 +465,7 @@ jobs:
     - run: just build projects.jdcal
     - run: just build projects.jedi
     - run: just build projects.jeepney
+    - run: just build projects.jieba
   build08:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -477,7 +477,6 @@ jobs:
     - run: nix-channel --update
     - run: nix-env -i cachix
     - run: nix-env -i just
-    - run: just build projects.jieba
     - run: just build projects.jinja2
     - run: just build projects.jinja2-time
     - run: just build projects.jinja2-webpack
@@ -524,6 +523,7 @@ jobs:
     - run: just build projects.lxml
     - run: just build projects.mailchimp-marketing
     - run: just build projects.mako
+    - run: just build projects.mandrill-really-maintained
   build09:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -535,7 +535,6 @@ jobs:
     - run: nix-channel --update
     - run: nix-env -i cachix
     - run: nix-env -i just
-    - run: just build projects.mandrill-really-maintained
     - run: just build projects.markdown
     - run: just build projects.markdown-checklist
     - run: just build projects.markdown2
@@ -582,6 +581,7 @@ jobs:
     - run: just build projects.newick
     - run: just build projects.newrelic
     - run: just build projects.nibabel
+    - run: just build projects.nltk
   build10:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -593,7 +593,6 @@ jobs:
     - run: nix-channel --update
     - run: nix-env -i cachix
     - run: nix-env -i just
-    - run: just build projects.nltk
     - run: just build projects.nodeenv
     - run: just build projects.nose
     - run: just build projects.nose-test-select
@@ -640,6 +639,7 @@ jobs:
     - run: just build projects.pathlib2
     - run: just build projects.pathos
     - run: just build projects.pathspec
+    - run: just build projects.pathtools
   build11:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -651,7 +651,6 @@ jobs:
     - run: nix-channel --update
     - run: nix-env -i cachix
     - run: nix-env -i just
-    - run: just build projects.pathtools
     - run: just build projects.pathy
     - run: just build projects.patsy
     - run: just build projects.pbr
@@ -698,6 +697,7 @@ jobs:
     - run: just build projects.pretend
     - run: just build projects.prettytable
     - run: just build projects.priority
+    - run: just build projects.prison
   build12:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -709,7 +709,6 @@ jobs:
     - run: nix-channel --update
     - run: nix-env -i cachix
     - run: nix-env -i just
-    - run: just build projects.prison
     - run: just build projects.profanityfilter
     - run: just build projects.progress
     - run: just build projects.prometheus-client
@@ -756,6 +755,7 @@ jobs:
     - run: just build projects.pygame
     - run: just build projects.pygit2
     - run: just build projects.pygments
+    - run: just build projects.pyhunter
   build13:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -767,7 +767,6 @@ jobs:
     - run: nix-channel --update
     - run: nix-env -i cachix
     - run: nix-env -i just
-    - run: just build projects.pyhunter
     - run: just build projects.pyinotify
     - run: just build projects.pyjwt
     - run: just build projects.pykwalify
@@ -814,6 +813,7 @@ jobs:
     - run: just build projects.pytest-random-order
     - run: just build projects.pytest-rerunfailures
     - run: just build projects.pytest-sugar
+    - run: just build projects.pytest-test-groups
   build14:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -825,7 +825,6 @@ jobs:
     - run: nix-channel --update
     - run: nix-env -i cachix
     - run: nix-env -i just
-    - run: just build projects.pytest-test-groups
     - run: just build projects.pytest-timeout
     - run: just build projects.pytest-toolbox
     - run: just build projects.pytest-xdist
@@ -872,6 +871,7 @@ jobs:
     - run: just build projects.relatorio
     - run: just build projects.reportlab
     - run: just build projects.requests
+    - run: just build projects.requests-cache
   build15:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -883,7 +883,6 @@ jobs:
     - run: nix-channel --update
     - run: nix-env -i cachix
     - run: nix-env -i just
-    - run: just build projects.requests-cache
     - run: just build projects.requests-file
     - run: just build projects.requests-mock
     - run: just build projects.requests-oauthlib
@@ -930,6 +929,7 @@ jobs:
     - run: just build projects.setuptools
     - run: just build projects.setuptools-rust
     - run: just build projects.sgmllib3k
+    - run: just build projects.sgqlc
   build16:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -941,7 +941,6 @@ jobs:
     - run: nix-channel --update
     - run: nix-env -i cachix
     - run: nix-env -i just
-    - run: just build projects.sgqlc
     - run: just build projects.sh
     - run: just build projects.shapely
     - run: just build projects.sharedmem
@@ -988,6 +987,7 @@ jobs:
     - run: just build projects.starlette
     - run: just build projects.statsmodels
     - run: just build projects.stdlib-list
+    - run: just build projects.stevedore
   build17:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -999,7 +999,6 @@ jobs:
     - run: nix-channel --update
     - run: nix-env -i cachix
     - run: nix-env -i just
-    - run: just build projects.stevedore
     - run: just build projects.stomper
     - run: just build projects.stripe
     - run: just build projects.structlog
@@ -1046,6 +1045,7 @@ jobs:
     - run: just build projects.tomlkit
     - run: just build projects.toolz
     - run: just build projects.torch
+    - run: just build projects.torchvision
   build18:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -1057,7 +1057,6 @@ jobs:
     - run: nix-channel --update
     - run: nix-env -i cachix
     - run: nix-env -i just
-    - run: just build projects.torchvision
     - run: just build projects.tornado
     - run: just build projects.torthrift
     - run: just build projects.tox
@@ -1104,6 +1103,7 @@ jobs:
     - run: just build projects.wagtail
     - run: just build projects.waitress
     - run: just build projects.wasabi
+    - run: just build projects.watchdog
   build19:
     env:
       CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
@@ -1115,7 +1115,6 @@ jobs:
     - run: nix-channel --update
     - run: nix-env -i cachix
     - run: nix-env -i just
-    - run: just build projects.watchdog
     - run: just build projects.watchgod
     - run: just build projects.watchtower
     - run: just build projects.wcwidth
