@@ -1,3 +1,4 @@
 {
   runtimeLibstdcppRpath = true;
+  runtimeWants = [ "cffi" ];
 }
