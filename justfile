@@ -23,6 +23,9 @@ build ATTR:
     cachix push -c 9 python-on-nix ./result*; \
   fi
 
+build-all:
+  ls -1 projects | while read -r project; do just build projects.$project; done
+
 ci:
   : \
   && just build projects.more-itertools.latest.latest.dev \
