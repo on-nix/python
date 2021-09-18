@@ -304,12 +304,12 @@ $ nix flake show github:kamadorueda/python-on-nix
 
       example = pythonOnNix.lib.python39Env {
         name = "example";
-        projects = with pythonOnNix.lib.projects; [
-          awscli."1.20.31"
-          numpy."latest"
-          requests."latest"
-          torch."1.9.0"
-        ];
+        projects = {
+          awscli = "1.20.31";
+          numpy = "latest";
+          requests = "latest";
+          torch = "1.9.0";
+        };
       };
 
     };
@@ -366,12 +366,12 @@ For example:
 
       example = pythonOnNix.lib.python39Env {
         name = "example";
-        projects = with pythonOnNix.lib.projects; [
-          awscli."1.20.31"
-          numpy."latest"
-          requests."latest"
-          torch."1.9.0"
-        ];
+        projects = {
+          awscli = "1.20.31";
+          numpy = "latest";
+          requests = "latest";
+          torch = "1.9.0";
+        };
       };
 
       something = nixpkgs.legacyPackages.x86_64-linux.stdenv.mkDerivation {
@@ -388,6 +388,8 @@ For example:
           python -c 'import torch; print(torch.__version__)'
 
           touch $out
+
+          set +x
         '';
         name = "example";
       };
@@ -396,7 +398,7 @@ For example:
 }
 ```
 
-Now just `$ nix -L build --rebuild .#something` ! :rocket:
+Now just `$ nix -L build .#something` ! :rocket:
 
 ```bash
 + python --version
