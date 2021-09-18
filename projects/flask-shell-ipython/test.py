@@ -1,0 +1,1 @@
+import flask_shell_ipython
