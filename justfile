@@ -50,10 +50,7 @@ optimize:
   python3 makes/optimize/entrypoint.py
 
 release PROJECT:
-  just build projects.{{PROJECT}} \
-    && git add projects/{{PROJECT}} \
-    && git commit -m 'feat(conf): {{PROJECT}}' \
-    && git push
+  bash makes/release/entrypoint.sh {{PROJECT}}
 
 release-all:
   git ls-files --others --exclude-standard \
