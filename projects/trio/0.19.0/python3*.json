@@ -1,0 +1,10 @@
+{
+  "async-generator": "1.10",
+  "attrs": "21.2.0",
+  "cffi": "1.14.6",
+  "idna": "3.2",
+  "outcome": "1.1.0",
+  "pycparser": "2.20",
+  "sniffio": "1.2.0",
+  "sortedcontainers": "2.4.0"
+}
