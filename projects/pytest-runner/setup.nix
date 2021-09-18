@@ -1,0 +1,4 @@
+{
+  runtimePkgResources = true;
+  runtimeSetuptools = true;
+}
