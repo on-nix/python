@@ -1,0 +1,12 @@
+{
+  "attrs": "21.2.0",
+  "automat": "20.2.0",
+  "constantly": "15.1.0",
+  "hyperlink": "21.0.0",
+  "idna": "3.2",
+  "incremental": "21.3.0",
+  "six": "1.16.0",
+  "twisted-iocpsupport": "1.0.2",
+  "typing-extensions": "3.10.0.2",
+  "zope-interface": "5.4.0"
+}
