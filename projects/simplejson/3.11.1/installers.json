@@ -1,0 +1,19 @@
+{
+  "simplejson-3.11.1-cp27-cp27m-win32.whl": "38c2b563cd03363e7cb2bbba6c20ae4eaafd853a83954c8c8dd345ee391787bf",
+  "simplejson-3.11.1-cp27-cp27m-win_amd64.whl": "8d73b96a6ee7c81fd49dac7225e3846fd60b54a0b5b93a0aaea04c5a5d2e7bf2",
+  "simplejson-3.11.1-cp33-cp33m-win32.whl": "7f53ab6a675594f237ce7372c1edf742a6acb158149ed3259c5fffc5b613dc94",
+  "simplejson-3.11.1-cp33-cp33m-win_amd64.whl": "86aa9fd492230c4b8b6814fcf089b36ffba2cec4d0635c8c642135b9067ebbd7",
+  "simplejson-3.11.1-cp34-cp34m-win32.whl": "7df76ae6cac4a62ad5295f9a9131857077d84cb15fad2011acb2ce7410476009",
+  "simplejson-3.11.1-cp34-cp34m-win_amd64.whl": "a6939199c30b78ae31e62e6913f0e12cb71a4a5ad67c259e0a98688df027a5de",
+  "simplejson-3.11.1-cp35-cp35m-win32.whl": "11d91b88cc1e9645c79f0f6fd2961684249af963e2bbff5a00061ed4bbf55379",
+  "simplejson-3.11.1-cp35-cp35m-win_amd64.whl": "36b0de42e3a8a51086c339cc803f6ac7a9d1d5254066d680956a195ca12cf0d8",
+  "simplejson-3.11.1.tar.gz": "01a22d49ddd9a168b136f26cac87d9a335660ce07aa5c630b8e3607d6f4325e7",
+  "simplejson-3.11.1.win-amd64-py2.7.exe": "1975e6b621fe1c2b9321c56476e8ebe1b851006517c1d67041b378950374694c",
+  "simplejson-3.11.1.win-amd64-py3.3.exe": "f60f01b16215568a08611eb6a4d61d76c4173c3d69aac9cad593777056c284d5",
+  "simplejson-3.11.1.win-amd64-py3.4.exe": "6be48181337ac5f5d9f48c9c504f317e245519318992122a05c40e482a721d59",
+  "simplejson-3.11.1.win-amd64-py3.5.exe": "8ae8cdcbe49e29ddfdae0ab81c1f6c070706d18fcee86371352d0d54b47ad8ec",
+  "simplejson-3.11.1.win32-py2.7.exe": "ebbd52b59948350ad66205e66b299fcca0e0821ed275c21262c522f4a6cea9d2",
+  "simplejson-3.11.1.win32-py3.3.exe": "2dc7fb8c0c0ff9483ce31b93b700b1fa60aca9d099e6aca9813f28ff131ccf59",
+  "simplejson-3.11.1.win32-py3.4.exe": "97cc43ef4cb18a2725f6e26d22b96f8ca50872a195bde32707dcb284f89c1d4d",
+  "simplejson-3.11.1.win32-py3.5.exe": "c76d55d78dc8b06c96fd08c6cc5e2b0b650799627d3f9ca4ad23f40db72d5f6d"
+}
