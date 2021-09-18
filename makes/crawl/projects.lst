@@ -62,7 +62,6 @@ protobuf
 GitPython
 Cython
 selenium
-odoo
 pyparsing
 scikit-image
 mock
@@ -465,7 +464,6 @@ flake8-import-order
 typeguard
 pathspec
 msgpack-python
-pyobjc-core
 parso
 semantic-version
 mistune
@@ -493,7 +491,6 @@ jupyter-core
 django-crispy-forms
 flake8-docstrings
 path.py
-pyobjc-framework-Cocoa
 autoflake
 configobj
 python-keystoneclient
@@ -1615,7 +1612,6 @@ mss
 delegator.py
 hidapi
 watchgod
-pyobjc-framework-Quartz
 numdifftools
 cma
 googlemaps
@@ -6551,7 +6547,6 @@ poetry-dynamic-versioning
 odoo12-addon-connector-search-engine
 restfly
 tlslite-ng
-pyobjc-framework-AppleScriptObjC
 odoo9-addon-mis-builder
 adafruit-circuitpython-neopixel
 opencensus-context
@@ -6958,7 +6953,6 @@ TikTokApi
 mimerender
 jupyterhub-kubespawner
 moderngl-window
-pyobjc-framework-AppleScriptKit
 gsutil
 fiftyone-pipeline-engines
 os-ken
@@ -7495,7 +7489,6 @@ typedargs
 dopamine-rl
 scikit-lego
 isddc-overfunc
-pyobjc-framework-Security
 mxnet-mkl
 stix2-validator
 stactools
@@ -7974,7 +7967,6 @@ django-logentry-admin
 keplergl
 pyopenephys
 pytorch-toolbelt
-pyobjc-framework-CoreServices
 icmplib
 kiwixstorage
 rdt
@@ -8326,9 +8318,7 @@ pyjstat
 autopaths
 odoo12-addon-web-view-google-map
 ipysheet
-pyobjc-framework-Metal
 pyntcloud
-pyobjc-framework-SystemConfiguration
 brainflow
 sigfig
 odoo13-addon-hotel
@@ -8676,7 +8666,6 @@ ripser
 os-net-config
 unflatten
 python-copasi
-pyobjc-framework-ScriptingBridge
 odoo11-addon-hotel
 cylc-flow
 fastapi-mail
@@ -8711,7 +8700,6 @@ zeus-mcmc
 amazon-textract-response-parser
 lined
 glance-store
-pyobjc-framework-ScriptingBridge
 odoo11-addon-hotel
 icmplibv2
 os-net-config
@@ -9464,7 +9452,6 @@ odoo12-addon-kpi-dashboard
 geojson-pydantic
 beniget
 opacus
-pyobjc-framework-CoreMedia
 odoo14-addon-hotel
 krx-hj3415
 pytest-salt-factories

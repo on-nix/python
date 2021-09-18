@@ -13,5 +13,6 @@ for project in "${projects[@]}"; do
 
   if test -e "projects/${project}"; then continue; fi
 
+  rm -rf /tmp/*
   just new "${project}"
 done

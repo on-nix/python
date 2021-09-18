@@ -61,7 +61,7 @@ function main {
       "${pyproject_toml}" \
     | yj -jt > pyproject.toml \
     && poetry env use "${python}" \
-    && poetry add --lock -vv "${project}==${version}" \
+    && poetry add --platform linux --lock "${project}==${version}" \
     && yj -tj < poetry.lock > poetry.lock.json \
     && jq -erS '[.package[] | {key: (.name | gsub("[-_.]+"; "-")), value: .version}] | from_entries' \
       < poetry.lock.json > closure.json \
