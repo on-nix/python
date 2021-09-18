@@ -140,13 +140,14 @@ let
         in
         outputs // { outPath = attrsToLinkFarm "${project}-${version}" outputs; };
 
-      buildProjectVersionForInterpreter = project: version: pythonVersion: _:
+      buildProjectVersionForInterpreter = project: version: pythonVersion': _:
         let
+          name = "${project}-${version}-${pythonVersion}";
           outputs = makeEnv pythonVersion {
             inherit name;
             projects = { "${project}" = version; };
           };
-          name = "${project}-${version}-${pythonVersion}";
+          pythonVersion = projectsMeta.${project}.versions.${version}.pythonVersions.${pythonVersion'}.pythonVersion';
         in
         outputs // { outPath = attrsToLinkFarm name outputs; };
     in
