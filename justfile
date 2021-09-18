@@ -26,14 +26,6 @@ build ATTR:
 build-all:
   ls -1 projects | while read -r project; do just build projects.$project; done
 
-ci:
-  : \
-  && just build projects.more-itertools.latest.latest.dev \
-  && source ./result/setup \
-  && just build projects.pyyaml.latest.latest.dev \
-  && source ./result/setup \
-  && python3 .github/workflows/generate.py
-
 crawl-fetch:
   bash makes/crawl/fetch.sh
 
