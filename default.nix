@@ -477,7 +477,7 @@ let
                 (closure)
                 (projectsMeta.${name}.setup.runtimeWants))
             (closureDirect)
-            (attrsToList projects);
+            (attrsToList closureDirect);
         in
         closureDirectPlusRuntimeWanted;
 
