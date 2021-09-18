@@ -1,7 +1,5 @@
 {
-  patchClosure = closure: closure // {
-    cached-property = "1.5.2";
-  };
+  runtimeWants = [ "cached-property" ];
   searchPathsRuntime = { nixpkgs, ... }: {
     source = [
       (nixpkgs.writeText "setup" ''
