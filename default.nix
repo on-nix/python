@@ -455,29 +455,33 @@ let
     , projects
     }:
     let
-      closureDirect = builtins.foldl'
-        (closure: { name, value }:
-          closure
-          // { "${name}" = value; }
-          // projectsMeta.${name}.versions.${value}.pythonVersions.${pythonVersion}.closure)
-        { }
-        (attrsToList projects);
+      makeClosure = projects:
+        let
+          closureDirect = builtins.foldl'
+            (closure: { name, value }:
+              closure
+              // { "${name}" = value; }
+              // projectsMeta.${name}.versions.${value}.pythonVersions.${pythonVersion}.closure)
+            { }
+            (attrsToList projects);
 
-      closureDirectPlusRuntimeWanted = builtins.foldl'
-        (closure: { name, value }:
-          builtins.foldl'
-            (closure: project:
-              if builtins.hasAttr project closure
-              then closure
-              else closure // { "${project}" = "latest"; })
-            (closure)
-            (projectsMeta.${name}.setup.runtimeWants))
-        (closureDirect)
-        (attrsToList projects);
+          closureDirectPlusRuntimeWanted = builtins.foldl'
+            (closure: { name, value }:
+              builtins.foldl'
+                (closure: project:
+                  if builtins.hasAttr project closure
+                  then closure
+                  else closure // (makeClosure { "${project}" = "latest"; }))
+                (closure)
+                (projectsMeta.${name}.setup.runtimeWants))
+            (closureDirect)
+            (attrsToList projects);
+        in
+        closureDirectPlusRuntimeWanted;
 
       closureBuilt = builtins.mapAttrs
         (project: version: build project version pythonVersion)
-        (closureDirectPlusRuntimeWanted);
+        (makeClosure projects);
 
       closureBinaries = makeDerivation {
         builder = ''
