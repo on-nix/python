@@ -25,6 +25,7 @@ That can be used with the [Nix][NIX] package manager.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 # Contents
 
+- [Why](#why)
 - [Applications vs Libraries](#applications-vs-libraries)
 - [Using with Nix stable](#using-with-nix-stable)
     - [List of available projects](#list-of-available-projects)
@@ -44,14 +45,11 @@ That can be used with the [Nix][NIX] package manager.
 
 # Why
 
-To scale the Python ecosystem on Nix
-to every package and version
-ever published on the [Python Packaging Index][PYPI],
-while keeping the user interface extremely simple.
-
-You no longer require to become a [Nix][NIX] expert
-in order to embed the benefits of [Nix][NIX] in
-to your [Python][PYTHON] projects.
+- :heavy_check_mark: To make using Nix on Python projects
+  as simple as possible.
+  Just copy and paste the examples and go! :nerd_face:
+- :heavy_check_mark: To make possible packaging every package
+  ever published on the [Python Packaging Index][PYPI].
 
 # Applications vs Libraries
 
