@@ -14,7 +14,7 @@ build ATTR:
   nix-build \
     --attr '{{ATTR}}' \
     --option cores 1 \
-    --option max-jobs auto \
+    --option max-jobs 1 \
     --option sandbox true \
     --show-trace \
     default.nix
