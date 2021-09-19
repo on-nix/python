@@ -1,0 +1,15 @@
+{
+  "scikit-image-0.17.2.tar.gz": "bd954c0588f0f7e81d9763dc95e06950e68247d540476e06cb77bcbcd8c2d8b3",
+  "scikit_image-0.17.2-cp36-cp36m-macosx_10_13_x86_64.whl": "11eec2e65cd4cd6487fe1089aa3538dbe25525aec7a36f5a0f14145df0163ce7",
+  "scikit_image-0.17.2-cp36-cp36m-manylinux1_x86_64.whl": "c5c277704b12e702e34d1f7b7a04d5ee8418735f535d269c74c02c6c9f8abee2",
+  "scikit_image-0.17.2-cp36-cp36m-win32.whl": "1fda9109a19dc9d7a4ac152d1fc226fed7282ad186a099f14c0aa9151f0c758e",
+  "scikit_image-0.17.2-cp36-cp36m-win_amd64.whl": "86a834f9a4d30201c0803a48a25364fe8f93f9feb3c58f2c483d3ce0a3e5fe4a",
+  "scikit_image-0.17.2-cp37-cp37m-macosx_10_13_x86_64.whl": "87ca5168c6fc36b7a298a1db2d185a8298f549854342020f282f747a4e4ddce9",
+  "scikit_image-0.17.2-cp37-cp37m-manylinux1_x86_64.whl": "e99fa7514320011b250a21ab855fdd61ddcc05d3c77ec9e8f13edcc15d3296b5",
+  "scikit_image-0.17.2-cp37-cp37m-win32.whl": "ee3db438b5b9f8716a91ab26a61377a8a63356b186706f5b979822cc7241006d",
+  "scikit_image-0.17.2-cp37-cp37m-win_amd64.whl": "6b65a103edbc34b22640daf3b084dc9e470c358d3298c10aa9e3b424dcc02db6",
+  "scikit_image-0.17.2-cp38-cp38-macosx_10_13_x86_64.whl": "c0876e562991b0babff989ff4d00f35067a2ddef82e5fdd895862555ffbaec25",
+  "scikit_image-0.17.2-cp38-cp38-manylinux1_x86_64.whl": "178210582cc62a5b25c633966658f1f2598615f9c3f27f36cf45055d2a74b401",
+  "scikit_image-0.17.2-cp38-cp38-win32.whl": "7bedd3881ca4fea657a894815bcd5e5bf80944c26274f6b6417bb770c3f4f8e6",
+  "scikit_image-0.17.2-cp38-cp38-win_amd64.whl": "113bcacdfc839854f527a166a71768708328208e7b66e491050d6a57fa6727c7"
+}
