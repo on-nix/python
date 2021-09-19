@@ -1,0 +1,16 @@
+{
+  "torchtext-0.10.0-cp36-cp36m-macosx_10_9_x86_64.whl": "b9a32d09b873b61dcee4c0db31aab0a2cbd2f3c5536a3b222d21397b56e4e0ed",
+  "torchtext-0.10.0-cp36-cp36m-manylinux1_x86_64.whl": "cc155527ca5d9cb5b003af08cfa414a03c1ac46a7826cca1710aa3bf93ec594b",
+  "torchtext-0.10.0-cp36-cp36m-win_amd64.whl": "17ac222daf2ba9d1a7b582aa46c0b6d9e1637337101af54ce929bab2c6499b7a",
+  "torchtext-0.10.0-cp37-cp37m-macosx_10_9_x86_64.whl": "e0d4436f6e28197ce98d77a7acb3d2d6cc0ce71da010a20baf4b60090fb09e9e",
+  "torchtext-0.10.0-cp37-cp37m-manylinux1_x86_64.whl": "c906e691e0f98cdbbb902d9fc2ed337d56b48a1e0bdb13d0f6d8ec25b5b9a19e",
+  "torchtext-0.10.0-cp37-cp37m-win_amd64.whl": "5e909b51d981a2d813f6ecad7b283511e980dcafd5bb414544639b2ebedf5370",
+  "torchtext-0.10.0-cp38-cp38-macosx_10_9_x86_64.whl": "e83f01739947661d4f5ef1bf1f120a1a3691387aaa404725bb5c8bf935e424c5",
+  "torchtext-0.10.0-cp38-cp38-macosx_11_0_arm64.whl": "2f5dc58b9cb260e512388096699e32e47eeb25e31cc80d07dfec58dc3d2edfaa",
+  "torchtext-0.10.0-cp38-cp38-manylinux1_x86_64.whl": "ed6ab4f26efe90b799e191be5204614eb9c03daed36cdedd8ec83a3ab361bf80",
+  "torchtext-0.10.0-cp38-cp38-win_amd64.whl": "34022c1e313ee03a9207889fa56e60a610596f0f4128ad2201b9a9d5e28d6c9a",
+  "torchtext-0.10.0-cp39-cp39-macosx_10_9_x86_64.whl": "89af06302db8567c483888f37e1eea190dce798694b32fab400ba5f9b8a4f2de",
+  "torchtext-0.10.0-cp39-cp39-macosx_11_0_arm64.whl": "3ae94b5a12e4b5613f4498b25043fa88d0be7667298cdf99cd3e525104469578",
+  "torchtext-0.10.0-cp39-cp39-manylinux1_x86_64.whl": "2697ec1af45165a915e6be1497942e0fca5029a77d054b2d6e3848170200a3a7",
+  "torchtext-0.10.0-cp39-cp39-win_amd64.whl": "0d7ec960d73e54a1960b71f53e17342795696fca794769e959dcf89f319cbc90"
+}
