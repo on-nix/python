@@ -1,0 +1,14 @@
+{
+  "attrs": "21.2.0",
+  "cycler": "0.10.0",
+  "iniconfig": "1.1.1",
+  "packaging": "21.0",
+  "pillow": "8.3.2",
+  "pluggy": "1.0.0",
+  "py": "1.10.0",
+  "pyparsing": "2.4.7",
+  "pytest": "6.2.5",
+  "python-dateutil": "2.8.2",
+  "six": "1.16.0",
+  "toml": "0.10.2"
+}
