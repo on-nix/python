@@ -1,0 +1,7 @@
+{
+  "backports-entry-points-selectable": "1.1.0",
+  "distlib": "0.3.2",
+  "filelock": "3.0.12",
+  "platformdirs": "2.3.0",
+  "six": "1.16.0"
+}
