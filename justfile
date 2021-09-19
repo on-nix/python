@@ -51,7 +51,7 @@ release-dependencies PROJECT:
   bash makes/release/dependencies/entrypoint.sh {{PROJECT}}
 
 release-referrers PROJECT:
-  grep -lPr chameleon projects \
+  grep -lPr {{PROJECT}} projects \
     | grep -oP 'projects/.*?/' \
     | sort \
     | uniq \

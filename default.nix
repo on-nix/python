@@ -65,6 +65,7 @@ let
           runtimeFontconfigRpath = false;
           runtimeGlibRpath = false;
           runtimeGitBin = false;
+          runtimeNodeBin = false;
           runtimePangoRpath = false;
           runtimePkgResources = false;
           runtimeSetuptools = false;
@@ -208,6 +209,7 @@ let
             (attrsGet searchPaths "bin" [ ])
             (listOptional setup.runtimeFileBin nixpkgs.file)
             (listOptional setup.runtimeGitBin nixpkgs.git)
+            (listOptional setup.runtimeNodeBin nixpkgs.nodejs)
           ];
           rpath = builtins.concatLists [
             (attrsGet searchPaths "rpath" [ ])
