@@ -1,0 +1,23 @@
+{
+  "alembic": "1.7.3",
+  "attrs": "21.2.0",
+  "autopage": "0.4.0",
+  "cliff": "3.9.0",
+  "cmaes": "0.8.2",
+  "cmd2": "2.2.0",
+  "colorama": "0.4.4",
+  "colorlog": "6.4.1",
+  "greenlet": "1.1.1",
+  "mako": "1.1.5",
+  "markupsafe": "2.0.1",
+  "packaging": "21.0",
+  "pbr": "5.6.0",
+  "prettytable": "2.2.0",
+  "pyparsing": "2.4.7",
+  "pyperclip": "1.8.2",
+  "pyyaml": "5.4.1",
+  "sqlalchemy": "1.4.23",
+  "stevedore": "3.4.0",
+  "tqdm": "4.62.2",
+  "wcwidth": "0.2.5"
+}
