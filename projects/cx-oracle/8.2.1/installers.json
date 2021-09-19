@@ -1,0 +1,15 @@
+{
+  "cx_Oracle-8.2.1-cp36-cp36m-manylinux1_x86_64.whl": "7b260db58c9e330832480dded5109815f4df3968f9bc0510a63922a600c97f81",
+  "cx_Oracle-8.2.1-cp36-cp36m-win32.whl": "c70d6dbab3ce19fd4b2bd58af9cf3c61120d0f1770dcdffe79c93a2cae9b2938",
+  "cx_Oracle-8.2.1-cp36-cp36m-win_amd64.whl": "3b95cdde0806ef16ee1e50d1a8aee5fb6eb28aa65a72ada3ec1598d57a3e3ed0",
+  "cx_Oracle-8.2.1-cp37-cp37m-manylinux1_x86_64.whl": "78a195f176854ce5b74ff31bb485d293ce53df525811f71785779e5be4c98e8e",
+  "cx_Oracle-8.2.1-cp37-cp37m-win32.whl": "54d7717b8b5b004ed051921f88b2414424dc25352bdb05f07698086e1e26a574",
+  "cx_Oracle-8.2.1-cp37-cp37m-win_amd64.whl": "bc32f11b67ed649af13217f3d5df047990672b2a04737a82ffc1f6672672f66a",
+  "cx_Oracle-8.2.1-cp38-cp38-manylinux1_x86_64.whl": "7a7fe16fb6ebd09cbfb7fffe4e202bf82071c63a81ef514c47e3d5267d076e1a",
+  "cx_Oracle-8.2.1-cp38-cp38-win32.whl": "53d2d807ea7dc2f5621ef23566f930721dc34a79e10e24afa8793c2c72910077",
+  "cx_Oracle-8.2.1-cp38-cp38-win_amd64.whl": "32b2991cb76fa6461fda24e263ce598eadc17a2b8af12ec03ecee9dafc402cb8",
+  "cx_Oracle-8.2.1-cp39-cp39-manylinux1_x86_64.whl": "efdfbd5a08bcaccf1cdf789455cb166814a55a2a2a15aa5ca22f592366a54ddd",
+  "cx_Oracle-8.2.1-cp39-cp39-win32.whl": "ad23cd6a527e43bb3d992e68d0c41ab6a08e7055fb2285389619dcc193f15c6e",
+  "cx_Oracle-8.2.1-cp39-cp39-win_amd64.whl": "2c940fec140ecd7498328b8351442e00e2d2c88b503ee5d0545cadb24e0e4d60",
+  "cx_Oracle-8.2.1.tar.gz": "12e7e913a7a10fd8caafb9855e6703a601b7dd5cc596fcd489d0ac9529608b6c"
+}
