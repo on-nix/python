@@ -1,0 +1,11 @@
+{
+  "jinja2": "3.0.1",
+  "markupsafe": "2.0.1",
+  "numpy": "1.21.2",
+  "packaging": "21.0",
+  "pillow": "8.3.2",
+  "pyparsing": "2.4.7",
+  "pyyaml": "5.4.1",
+  "tornado": "6.1",
+  "typing-extensions": "3.10.0.2"
+}
