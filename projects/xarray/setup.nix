@@ -1,3 +1,3 @@
 {
-  runtimePkgResources = true;
+  runtimeWants = [ "setuptools" ];
 }
