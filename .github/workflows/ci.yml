@@ -3,15 +3,12 @@ concurrency:
   group: ${{ github.actor }}
 jobs:
   build00:
-    env:
-      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - uses: cachix/install-nix-action@v13
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
-    - run: nix-env -i cachix
     - run: nix-env -i just
     - run: just build projects.about-time
     - run: just build projects.absl-py
@@ -61,15 +58,12 @@ jobs:
     - run: just build projects.appdirs
     - run: just build projects.appium-python-client
   build01:
-    env:
-      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - uses: cachix/install-nix-action@v13
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
-    - run: nix-env -i cachix
     - run: nix-env -i just
     - run: just build projects.appnope
     - run: just build projects.apscheduler
@@ -119,15 +113,12 @@ jobs:
     - run: just build projects.bidict
     - run: just build projects.billiard
   build02:
-    env:
-      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - uses: cachix/install-nix-action@v13
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
-    - run: nix-env -i cachix
     - run: nix-env -i just
     - run: just build projects.binaryornot
     - run: just build projects.biopython
@@ -177,15 +168,12 @@ jobs:
     - run: just build projects.chardet
     - run: just build projects.charset-normalizer
   build03:
-    env:
-      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - uses: cachix/install-nix-action@v13
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
-    - run: nix-env -i cachix
     - run: nix-env -i just
     - run: just build projects.cheroot
     - run: just build projects.clang
@@ -235,15 +223,12 @@ jobs:
     - run: just build projects.dask
     - run: just build projects.databricks-cli
   build04:
-    env:
-      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - uses: cachix/install-nix-action@v13
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
-    - run: nix-env -i cachix
     - run: nix-env -i just
     - run: just build projects.dataclasses
     - run: just build projects.dataclasses-json
@@ -293,15 +278,12 @@ jobs:
     - run: just build projects.draftjs-exporter
     - run: just build projects.dtw
   build05:
-    env:
-      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - uses: cachix/install-nix-action@v13
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
-    - run: nix-env -i cachix
     - run: nix-env -i just
     - run: just build projects.duckduckpy
     - run: just build projects.dulwich
@@ -351,15 +333,12 @@ jobs:
     - run: just build projects.flask-sqlalchemy
     - run: just build projects.flask-weasyprint
   build06:
-    env:
-      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - uses: cachix/install-nix-action@v13
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
-    - run: nix-env -i cachix
     - run: nix-env -i just
     - run: just build projects.flask-wtf
     - run: just build projects.flatbuffers
@@ -409,15 +388,12 @@ jobs:
     - run: just build projects.hexbytes
     - run: just build projects.hiredis
   build07:
-    env:
-      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - uses: cachix/install-nix-action@v13
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
-    - run: nix-env -i cachix
     - run: nix-env -i just
     - run: just build projects.hpack
     - run: just build projects.html2text
@@ -467,15 +443,12 @@ jobs:
     - run: just build projects.jeepney
     - run: just build projects.jieba
   build08:
-    env:
-      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - uses: cachix/install-nix-action@v13
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
-    - run: nix-env -i cachix
     - run: nix-env -i just
     - run: just build projects.jinja2
     - run: just build projects.jinja2-time
@@ -525,15 +498,12 @@ jobs:
     - run: just build projects.mako
     - run: just build projects.mandrill-really-maintained
   build09:
-    env:
-      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - uses: cachix/install-nix-action@v13
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
-    - run: nix-env -i cachix
     - run: nix-env -i just
     - run: just build projects.markdown
     - run: just build projects.markdown-checklist
@@ -583,15 +553,12 @@ jobs:
     - run: just build projects.nibabel
     - run: just build projects.nltk
   build10:
-    env:
-      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - uses: cachix/install-nix-action@v13
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
-    - run: nix-env -i cachix
     - run: nix-env -i just
     - run: just build projects.nodeenv
     - run: just build projects.nose
@@ -641,15 +608,12 @@ jobs:
     - run: just build projects.pathspec
     - run: just build projects.pathtools
   build11:
-    env:
-      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - uses: cachix/install-nix-action@v13
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
-    - run: nix-env -i cachix
     - run: nix-env -i just
     - run: just build projects.pathy
     - run: just build projects.patsy
@@ -699,15 +663,12 @@ jobs:
     - run: just build projects.priority
     - run: just build projects.prison
   build12:
-    env:
-      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - uses: cachix/install-nix-action@v13
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
-    - run: nix-env -i cachix
     - run: nix-env -i just
     - run: just build projects.profanityfilter
     - run: just build projects.progress
@@ -757,15 +718,12 @@ jobs:
     - run: just build projects.pygments
     - run: just build projects.pyhunter
   build13:
-    env:
-      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - uses: cachix/install-nix-action@v13
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
-    - run: nix-env -i cachix
     - run: nix-env -i just
     - run: just build projects.pyinotify
     - run: just build projects.pyjwt
@@ -815,15 +773,12 @@ jobs:
     - run: just build projects.pytest-sugar
     - run: just build projects.pytest-test-groups
   build14:
-    env:
-      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - uses: cachix/install-nix-action@v13
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
-    - run: nix-env -i cachix
     - run: nix-env -i just
     - run: just build projects.pytest-timeout
     - run: just build projects.pytest-toolbox
@@ -873,15 +828,12 @@ jobs:
     - run: just build projects.requests
     - run: just build projects.requests-cache
   build15:
-    env:
-      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - uses: cachix/install-nix-action@v13
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
-    - run: nix-env -i cachix
     - run: nix-env -i just
     - run: just build projects.requests-file
     - run: just build projects.requests-mock
@@ -931,15 +883,12 @@ jobs:
     - run: just build projects.sgmllib3k
     - run: just build projects.sgqlc
   build16:
-    env:
-      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - uses: cachix/install-nix-action@v13
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
-    - run: nix-env -i cachix
     - run: nix-env -i just
     - run: just build projects.sh
     - run: just build projects.shapely
@@ -989,15 +938,12 @@ jobs:
     - run: just build projects.stdlib-list
     - run: just build projects.stevedore
   build17:
-    env:
-      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - uses: cachix/install-nix-action@v13
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
-    - run: nix-env -i cachix
     - run: nix-env -i just
     - run: just build projects.stomper
     - run: just build projects.stripe
@@ -1047,15 +993,12 @@ jobs:
     - run: just build projects.torch
     - run: just build projects.torchvision
   build18:
-    env:
-      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - uses: cachix/install-nix-action@v13
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
-    - run: nix-env -i cachix
     - run: nix-env -i just
     - run: just build projects.tornado
     - run: just build projects.torthrift
@@ -1105,15 +1048,12 @@ jobs:
     - run: just build projects.wasabi
     - run: just build projects.watchdog
   build19:
-    env:
-      CACHIX_PYTHON_ON_NIX_TOKEN: ${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - uses: cachix/install-nix-action@v13
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
-    - run: nix-env -i cachix
     - run: nix-env -i just
     - run: just build projects.watchgod
     - run: just build projects.watchtower

@@ -27,9 +27,6 @@ def main() -> None:
     ):
         index = str(index).zfill(2)
         data["jobs"][f"build{index}"] = {
-            "env": {
-                "CACHIX_PYTHON_ON_NIX_TOKEN": "${{ secrets.CACHIX_PYTHON_ON_NIX_TOKEN }}"
-            },
             "runs-on": "ubuntu-latest",
             "steps": [
                 {"uses": "actions/checkout@v2"},
@@ -38,7 +35,6 @@ def main() -> None:
                     "run": "nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs"
                 },
                 {"run": "nix-channel --update"},
-                {"run": "nix-env -i cachix"},
                 {"run": "nix-env -i just"},
                 *jobs_chunk,
             ],
