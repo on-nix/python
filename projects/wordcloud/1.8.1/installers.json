@@ -1,0 +1,18 @@
+{
+  "wordcloud-1.8.1-cp27-cp27m-macosx_10_6_x86_64.whl": "2e85b1a6b8211436d47f902837c866c682c5d00046706f1d8e72cc0cd9210d64",
+  "wordcloud-1.8.1-cp27-cp27m-manylinux1_x86_64.whl": "e0d3f03e4f27faf543859b4bcd229d320361d065cf4786f149081adea4ee68e8",
+  "wordcloud-1.8.1-cp27-cp27m-win32.whl": "a02b27400bc4b2e4efdd8377e8cd138496b6b6e15a082d9c7b7c7b74a9ee8a55",
+  "wordcloud-1.8.1-cp27-cp27m-win_amd64.whl": "6450f67c207f2ab4513c4aac803226427b39f7fc8d3498c0b41a03834b2fc426",
+  "wordcloud-1.8.1-cp27-cp27mu-manylinux1_x86_64.whl": "f49f5213e978fb5d8ff8f6e6067de657e81ca863cab549b198579f58e1430e7c",
+  "wordcloud-1.8.1-cp36-cp36m-manylinux1_x86_64.whl": "41dafafe3768675ba8285d21ac68bd53191b50da85aba2a7fb35964d1649156f",
+  "wordcloud-1.8.1-cp36-cp36m-win32.whl": "cd8c44a21a3207da813c7b7e486ed41fe517eb7b8535deef945437f4cea2b245",
+  "wordcloud-1.8.1-cp36-cp36m-win_amd64.whl": "2d5f63cf1f65126d6d1b8d55acae15961c5bd55e6ef8978bf269831dafcd1408",
+  "wordcloud-1.8.1-cp37-cp37m-manylinux1_x86_64.whl": "6ff0ca777c801cd2a38deef30019f02fe35df1be9c31f6c301a34bd45006e26b",
+  "wordcloud-1.8.1-cp37-cp37m-win32.whl": "9ed09d2d2916514845e42b0cc5dd86f65d4f0f89ab4bf164cc9a628d9db5a76b",
+  "wordcloud-1.8.1-cp37-cp37m-win_amd64.whl": "2e1fc5991f52a0e191873025f5d8cf852eb1c39f2579d43e6d2589dc04d620d9",
+  "wordcloud-1.8.1-cp38-cp38-manylinux1_x86_64.whl": "daa7d72f0004fcfea5f649f1683dbe47c4a9c5f721aabeb41278a4ee33f21424",
+  "wordcloud-1.8.1-cp38-cp38-win32.whl": "a4a626df47eacec207988e1ffdb5bd16b2b62ac83ea2442a0043080c0c5103ac",
+  "wordcloud-1.8.1-cp38-cp38-win_amd64.whl": "f190eb3efcc17765a4ed9d78001fdb713988886b93e54b2758fcf4f6c519ad51",
+  "wordcloud-1.8.1-cp39-cp39-manylinux1_x86_64.whl": "90e9cff2c6939b5e1fa87d2a2c5d79c8ac2eafc4c9b9bc1bcb865ca5fde7e758",
+  "wordcloud-1.8.1.tar.gz": "e6ef771aac17c1cf8558c8d5ef025796184066d7b78f8118aefe011fb0d22952"
+}
