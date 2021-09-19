@@ -1,15 +1,17 @@
-{ makeNodeJsEnvironment
+{ __nixpkgs__
 , makeDerivation
+, pythonOnNix
+, toFileJson
+, ...
 }:
 let
   name = "makes-generate-index";
-  env = makeNodeJsEnvironment {
-    inherit name;
-    packageJson = ./npm/package.json;
-    packageLockJson = ./npm/package-lock.json;
-  };
+
+  data = pythonOnNix.projectsMeta;
 in
 makeDerivation {
   builder = ./builder.sh;
+  env.envX = toFileJson "asdf" data;
   inherit name;
+  searchPaths.bin = [ __nixpkgs__.jq ];
 }
