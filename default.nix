@@ -59,6 +59,7 @@ let
 
           buildGccBin = false;
           buildPostgresqlBin = false;
+          buildSetuptools = true;
           buildWheel = false;
           runtimeFileBin = false;
           runtimeFileRpath = false;
@@ -67,8 +68,6 @@ let
           runtimeGitBin = false;
           runtimeNodeBin = false;
           runtimePangoRpath = false;
-          runtimePkgResources = false;
-          runtimeSetuptools = false;
           runtimeLibstdcppRpath = false;
           runtimeWants = [ ];
         }) // (if builtins.pathExists setupPath then import setupPath else { });
@@ -179,6 +178,37 @@ let
 
   #
 
+  makePip = pythonVersion:
+    let
+      version = "21.2.4";
+      name = "pip-${version}-${pythonVersion}";
+      mirror = makePypiMirror "pip" [
+        (makePypiInstaller pythonVersion "pip" version)
+      ];
+      python = nixpkgs.${pythonVersion};
+    in
+    makeDerivation {
+      builder = ''
+        python -m venv --symlinks --system-site-packages venv
+        source venv/bin/activate
+        python -m pip install \
+          --disable-pip-version-check \
+          --force-reinstall \
+          --index-url file://$envMirror \
+          --no-cache-dir \
+          --no-compile \
+          --no-deps \
+          --no-warn-script-location \
+          --quiet \
+          --prefix $out \
+          --upgrade \
+          pip
+      '';
+      env.envMirror = mirror;
+      name = "${name}-out";
+      searchPaths.bin = [ python ];
+    };
+
   build = project: version': pythonVersion':
     let
       version = projectsMeta.${project}.versions.${version'}.version';
@@ -198,6 +228,7 @@ let
           ];
           source = builtins.concatLists [
             (attrsGet searchPaths "source" [ ])
+            (listOptional setup.buildSetuptools projects.setuptools.latest.${pythonVersion}.dev)
             (listOptional setup.buildWheel projects.wheel.latest.${pythonVersion}.dev)
           ];
         };
@@ -225,72 +256,44 @@ let
         (mapAttrsToList
           (makePypiInstaller pythonVersion)
           (setup.extraInstallers))
-        [
-          (makePypiInstaller pythonVersion "pip" "21.2.4")
-          (makePypiInstaller pythonVersion project version)
-        ]
+        [ (makePypiInstaller pythonVersion project version) ]
       ];
 
-      cleanPhase = builtins.concatStringsSep "" [
-        (if !setup.runtimePkgResources then ''
-          rm -rf $out/${python.sitePackages}/pkg_resources
-        '' else "")
-        (if !setup.runtimeSetuptools then ''
-          rm -rf $out/${python.sitePackages}/_distutils_hack
-          rm -rf $out/${python.sitePackages}/distutils-precedence.pth
-          rm -rf $out/${python.sitePackages}/setuptools
-          rm -rf $out/${python.sitePackages}/setuptools*.dist-info
-        '' else "")
-      ];
       searchPathsArgs = {
         inherit nixpkgs;
         pythonOnNix = self;
         inherit pythonVersion;
       };
 
+      pip = makePip pythonVersion;
+
       venvContents = makeDerivation {
         builder = ''
           export DETERMINISTIC_BUILD=1
-          export LANG=C.UTF-8
-          export LC_ALL=C.UTF-8
           export PYTHONDONTWRITEBYTECODE=1
+          export PYTHONIOENCODING=UTF-8
           export PYTHONPYCACHEPREFIX=$PWD
           export PYTHONHASHSEED=0
           export PYTHONNOUSERSITE=1
-          python -m venv --symlinks --system-site-packages $out
-          source $out/bin/activate
-          python -m pip install \
-            --index-url file://$envMirror \
-            --no-cache-dir \
-            --no-compile \
-            --no-deps \
-            --quiet \
-            --upgrade \
-            pip
           python -m pip install \
             --disable-pip-version-check \
             --index-url file://$envMirror \
             --no-cache-dir \
             --no-compile \
             --no-deps \
+            --no-warn-script-location \
+            --prefix $out \
             --quiet \
             ${project}==${version}
-          python -m pip uninstall \
-            --no-cache-dir \
-            --quiet \
-            --yes \
-            pip
-          rm -rf $out/bin/[Aa]ctivate*
-          rm -rf $out/bin/easy_install*
-          rm -rf $out/${python.sitePackages}/__pycache__
-          rm -rf $out/${python.sitePackages}/easy_install.py
-
-          ${cleanPhase}
         '';
         env.envMirror = makePypiMirror name installers;
         name = "${name}-out";
         searchPaths = {
           bin = [ python ];
+          pythonPackage36 = optional (pythonVersion == "python36") pip;
+          pythonPackage37 = optional (pythonVersion == "python37") pip;
+          pythonPackage38 = optional (pythonVersion == "python38") pip;
+          pythonPackage39 = optional (pythonVersion == "python39") pip;
           source = [ (makeSearchPaths searchPathsBuild) ];
         };
       };
@@ -304,7 +307,7 @@ let
           ln -s $envWrapped/template $out/nix-support/setup-hook
         '';
         env.envWrapped = makeSearchPaths {
-          bin = [ venvContents ];
+          bin = [ python venvContents ];
           pythonPackage36 = optional (pythonVersion == "python36") venvContents;
           pythonPackage37 = optional (pythonVersion == "python37") venvContents;
           pythonPackage38 = optional (pythonVersion == "python38") venvContents;

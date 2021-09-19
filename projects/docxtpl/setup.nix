@@ -1,4 +1,9 @@
 {
-  runtimePkgResources = true;
-  runtimeWants = [ "docxcompose" "jinja2" "python-docx" "six" ];
+  runtimeWants = [
+    "docxcompose"
+    "jinja2"
+    "python-docx"
+    "setuptools"
+    "six"
+  ];
 }

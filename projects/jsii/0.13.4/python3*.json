@@ -1,5 +1,6 @@
 {
   "attrs": "21.2.0",
+  "cattrs": "1.8.0",
   "mypy-extensions": "0.4.3",
   "python-dateutil": "2.8.2",
   "six": "1.16.0",

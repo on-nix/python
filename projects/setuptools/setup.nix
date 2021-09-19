@@ -1,4 +1,3 @@
 {
-  runtimePkgResources = true;
-  runtimeSetuptools = true;
+  buildSetuptools = false;
 }
