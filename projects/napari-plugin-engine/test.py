@@ -1,0 +1,1 @@
+import napari_plugin_engine
