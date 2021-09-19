@@ -1,7 +1,7 @@
-{ makeEntrypoint
+{ makeScript
 , ...
 }:
-makeEntrypoint {
+makeScript {
   entrypoint = ./entrypoint.sh;
   name = "makes-generate-index";
 }
