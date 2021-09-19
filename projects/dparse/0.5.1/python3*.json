@@ -1,0 +1,6 @@
+{
+  "packaging": "21.0",
+  "pyparsing": "2.4.7",
+  "pyyaml": "5.4.1",
+  "toml": "0.10.2"
+}
