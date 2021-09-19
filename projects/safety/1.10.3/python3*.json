@@ -1,0 +1,14 @@
+{
+  "certifi": "2021.5.30",
+  "charset-normalizer": "2.0.6",
+  "click": "8.0.1",
+  "colorama": "0.4.4",
+  "dparse": "0.5.1",
+  "idna": "3.2",
+  "packaging": "21.0",
+  "pyparsing": "2.4.7",
+  "pyyaml": "5.4.1",
+  "requests": "2.26.0",
+  "toml": "0.10.2",
+  "urllib3": "1.26.6"
+}
