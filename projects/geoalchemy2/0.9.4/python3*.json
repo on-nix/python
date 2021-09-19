@@ -1,0 +1,6 @@
+{
+  "greenlet": "1.1.1",
+  "packaging": "21.0",
+  "pyparsing": "2.4.7",
+  "sqlalchemy": "1.4.23"
+}
