@@ -1,0 +1,12 @@
+{
+  "asgiref": "3.4.1",
+  "django": "3.2.7",
+  "django-js-asset": "1.2.2",
+  "django-mptt": "0.13.3",
+  "django-polymorphic": "3.0.0",
+  "easy-thumbnails": "2.7.1",
+  "pillow": "8.3.2",
+  "pytz": "2021.1",
+  "sqlparse": "0.4.2",
+  "unidecode": "1.1.2"
+}
