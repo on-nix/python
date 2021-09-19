@@ -1,0 +1,18 @@
+{
+  "astropy-4.1-cp36-cp36m-macosx_10_9_x86_64.whl": "0804f601dddfd6b5b72e11eb6e58133ff7db25bb8c26851449352ba1f414b74c",
+  "astropy-4.1-cp36-cp36m-manylinux1_i686.whl": "85f199c41d28da78c0a09076904fe3c3034c0f4917d251a23ad364ed0e9ff2d5",
+  "astropy-4.1-cp36-cp36m-manylinux1_x86_64.whl": "6d6792e4e49f4662be075477f75aff7d3cc5bf5c58702d6b55f0048f14610c00",
+  "astropy-4.1-cp36-cp36m-win32.whl": "f0fe5387992e0c96d9186752b2ac6a5801a51af0316d75427823588af9be75da",
+  "astropy-4.1-cp36-cp36m-win_amd64.whl": "27544cb41ba54a60acaf195c53b4912edbbfa4b0ab005c06d5d929553e0d8329",
+  "astropy-4.1-cp37-cp37m-macosx_10_9_x86_64.whl": "4a70a44a9f773acbb75ba24bf36e4f3a8b702f37384d03f9ff9097edd8ad0890",
+  "astropy-4.1-cp37-cp37m-manylinux1_i686.whl": "83cfa44aa6cac0c434b238be6a758d49a33ab608aad7bb2f7410ce497c28312d",
+  "astropy-4.1-cp37-cp37m-manylinux1_x86_64.whl": "2fb991128b522eb1f133e6ca1c14425368bda8888eb387dba1abc18ee76582ee",
+  "astropy-4.1-cp37-cp37m-win32.whl": "aca1dbca1c9f6d6ba17682e44dc53ffd62dd0d13448d38713140d634ec45b295",
+  "astropy-4.1-cp37-cp37m-win_amd64.whl": "70c4b97d2ac5d19fad753d0a7dccc7b14e12786546e78ae27cae3a7a73ecd11d",
+  "astropy-4.1-cp38-cp38-macosx_10_9_x86_64.whl": "5083e1e8fbd065da521b761ee14382bb561d8bbe3957653b2f941690128f8940",
+  "astropy-4.1-cp38-cp38-manylinux1_i686.whl": "51c3a29c4252b1697fd950e2b333d84cb6baf8d9a5258bbef6d0089b65c303b3",
+  "astropy-4.1-cp38-cp38-manylinux1_x86_64.whl": "cd4390da737a5123397a1bb00cf597842bf21fd199862ba161d9c18cd2d12c14",
+  "astropy-4.1-cp38-cp38-win32.whl": "d51f3b9091004a3ed263bc2a51a677762a6c8c7437da5115d3149dc1de6f71bf",
+  "astropy-4.1-cp38-cp38-win_amd64.whl": "10e45a5456929b75b3a29d8174d39466b1823280bcf99f3b4c6c51e521a6f04d",
+  "astropy-4.1.tar.gz": "a3bad6e1c2619135ad33e4d80452866eb9468f610bf00754da4001c63c1f7049"
+}
