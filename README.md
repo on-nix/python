@@ -19,7 +19,7 @@ That can be used with the [Nix][NIX] package manager.
 - Performance:
   - :heavy_check_mark: We **always** pick [Wheels][PYTHON_WHEELS]
   - :heavy_check_mark: A highly granular cache
-  - :heavy_check_mark: Available on [Cachix][CACHIX_PYTHON_ON_NIX]
+  <!-- - :heavy_check_mark: Available on [Cachix][CACHIX_PYTHON_ON_NIX] -->
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -413,7 +413,7 @@ Now just `$ nix -L build .#something` ! :rocket:
 + touch /nix/store/dcccmxjllgwb9c9j6irp68f1qp4ssxyg-example
 ```
 
-# Using the binary cache
+<!-- # Using the binary cache
 
 You can configure [python-on-nix's binary cache][CACHIX_PYTHON_ON_NIX]
 to speed up your builds.
@@ -427,7 +427,7 @@ $ cachix use python-on-nix
 ```
 
 This will save you the time required to build the projects on your machine
-and instead just download the build results.
+and instead just download the build results. -->
 
 # Contributing
 
