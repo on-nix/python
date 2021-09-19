@@ -1,0 +1,19 @@
+{
+  "fastavro-1.4.4-cp36-cp36m-macosx_10_14_x86_64.whl": "0a3e3fa7288db81c1ad521321ced7a895c6a7928511b27393c3f418d6e5f6946",
+  "fastavro-1.4.4-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "a8391357b6857f80b850bb4708c4b8db0f3d1c1e83ab2ea888958d89f46efd26",
+  "fastavro-1.4.4-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "4f1e0093a5ea7f5b72997c91abfa7838cb536c9a1dca9df4c8b7f233e853e0ac",
+  "fastavro-1.4.4-cp36-cp36m-win_amd64.whl": "e03b80a9fb52b753d948788b0048b2a3f7551ba7f8584e60e90a1b3b5071fdd0",
+  "fastavro-1.4.4-cp37-cp37m-macosx_10_14_x86_64.whl": "b85f2569102f3b54a3973dd12f5bf5049c125488e70959360dd5cbb8c71d47c7",
+  "fastavro-1.4.4-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "836399e5ac80ef8a19e3a0484585c58e52268c87d77b3681615761a9439032ed",
+  "fastavro-1.4.4-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "b53816eec734ca34518c7e748d6d538aca0d3c0111ec726ad9808a098bfdd209",
+  "fastavro-1.4.4-cp37-cp37m-win_amd64.whl": "6446204cf55299243c9d43b1c5e355c74e6980e61c9bb58138ea9f3a6c99d826",
+  "fastavro-1.4.4-cp38-cp38-macosx_10_14_x86_64.whl": "76aa6545443e1f1d6406c52876f3f7157076b91441943db300bc1c0f0daad6aa",
+  "fastavro-1.4.4-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "24802411fa8557a6703ad1ccdea892f6b72730fc68ecb80214d7208f49a37ebc",
+  "fastavro-1.4.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "7844fc4f55da7b1948234a7e5a50230fa0f27ff74cdb5efbb107c5cd5db0f49a",
+  "fastavro-1.4.4-cp38-cp38-win_amd64.whl": "bfcff703061a9ecce06fc69ac8f994fd1ddb2d55a6ff585fe25a7b45bbda4011",
+  "fastavro-1.4.4-cp39-cp39-macosx_10_14_x86_64.whl": "bb49ece8865c8515f34ff8e307799b8cdb32b6db31acf4174c09b5c8e7fc5280",
+  "fastavro-1.4.4-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "30acd5c296155959f371bc4ccf7e76461fef5923c738fa34211b5a65c855aef2",
+  "fastavro-1.4.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "52b9fd197319a1b2eaeb9bfeb7313fa45ef92b49c3884c138b3ab90740232a66",
+  "fastavro-1.4.4-cp39-cp39-win_amd64.whl": "c74f8b48d4e4b36a9013ddb2cbaac68504cfdc48cdfe4753edfd017b5156e18a",
+  "fastavro-1.4.4.tar.gz": "16fcc82844913804b05f28481972b850580ff3103b48f36c021d3b99019f9e3f"
+}
