@@ -1,0 +1,8 @@
+{
+  "aniso8601": "7.0.0",
+  "graphql-core": "2.3.2",
+  "graphql-relay": "2.0.1",
+  "promise": "2.3",
+  "rx": "1.6.1",
+  "six": "1.16.0"
+}
