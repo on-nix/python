@@ -21,11 +21,8 @@ build ATTR:
 build-all:
   ls -1 projects | while read -r project; do just build projects.$project; done
 
-crawl-fetch:
-  bash makes/crawl/fetch.sh
-
-crawl-build:
-  bash makes/crawl/build.sh
+crawl:
+  bash makes/crawl/entrypoint.sh
 
 examples:
   nix-build --option sandbox true examples/use-with-nixpkgs.nix
