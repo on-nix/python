@@ -1,0 +1,15 @@
+{
+  "statsmodels-0.13.0rc0-cp37-cp37m-macosx_10_15_x86_64.whl": "4782c0f8baabb6ae61dfbfbf7a5593e3924981059fb207b006288ada5355f252",
+  "statsmodels-0.13.0rc0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "5e58e01f8fe7d918fdc8e638c0dca2ad8e895cc60fd414e2248fc9ebd51cf234",
+  "statsmodels-0.13.0rc0-cp37-cp37m-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl": "2dbcf999ec2390a7dc26cb80ba6875bfca0e8d44ba4c1ac6ae5e7dea938b57af",
+  "statsmodels-0.13.0rc0-cp37-none-win_amd64.whl": "4818ca056375cd08086fc23c589876e9ec75e3120677b3e9a467e9af6024fb94",
+  "statsmodels-0.13.0rc0-cp38-cp38-macosx_10_15_x86_64.whl": "b988df261a0865fcb43f4f7146102248422fad540c135efa20f0b5b1559e6476",
+  "statsmodels-0.13.0rc0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "123cff8d120f60ad26bb92ba5194003c4d426e8608a1906b9f958006fc33dc52",
+  "statsmodels-0.13.0rc0-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl": "a03bca12b9592194ce9dc9a99571241a5486528145deb4f4d4e87bcd1a32ebc8",
+  "statsmodels-0.13.0rc0-cp38-none-win_amd64.whl": "2bf36fc98fbd8bed8bf1b76e237f5b0a7423b7d8fc94cd179aeeeed3621a1af6",
+  "statsmodels-0.13.0rc0-cp39-cp39-macosx_10_15_x86_64.whl": "a0528f27fe6bb95b372633e8345c56b7107684320ee8c142d3fa4d8bdbd55107",
+  "statsmodels-0.13.0rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "a1b7eb20b1295c903461182c3f15adaef6179fa585cef7c090f890285f554819",
+  "statsmodels-0.13.0rc0-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl": "512282a93e2b12509e31f72c2d2d8bf50c956170e7f8bde9355ff86cc2c10980",
+  "statsmodels-0.13.0rc0-cp39-none-win_amd64.whl": "6461da931bbd2372bd8d41278aed466dd54a2330e7307547a3e4cf608b11ecaa",
+  "statsmodels-0.13.0rc0.tar.gz": "5b51326abea6487e951a460de09b0df14bcbdc3e8c78d38c668b95bb173c225e"
+}
