@@ -1,0 +1,7 @@
+{
+  "importlib-metadata": "4.8.1",
+  "pyppeteer": "0.2.6",
+  "typing-extensions": "3.10.0.2",
+  "websockets": "9.1",
+  "zipp": "3.5.0"
+}
