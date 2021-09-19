@@ -52,6 +52,14 @@ optimize:
 release PROJECT:
   bash makes/release/entrypoint.sh {{PROJECT}}
 
+release-referrers PROJECT:
+  grep -lPr chameleon projects \
+    | grep -oP 'projects/.*?/' \
+    | sort \
+    | uniq \
+    | xargs -n 1 basename \
+    | xargs -n 1 just release
+
 release-all:
   git ls-files --others --exclude-standard \
     | grep -oP 'projects/.*?/' \
