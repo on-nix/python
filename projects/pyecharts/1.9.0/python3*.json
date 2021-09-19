@@ -1,0 +1,7 @@
+{
+  "jinja2": "3.0.1",
+  "markupsafe": "2.0.1",
+  "prettytable": "2.2.0",
+  "simplejson": "3.17.5",
+  "wcwidth": "0.2.5"
+}
