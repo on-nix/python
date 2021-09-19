@@ -1,0 +1,16 @@
+{
+  "torchaudio-0.9.0-cp36-cp36m-macosx_10_9_x86_64.whl": "efb16c593b2a5ada07b180580c7612617e84f4714ce86928ad54baefe71ef29d",
+  "torchaudio-0.9.0-cp36-cp36m-manylinux1_x86_64.whl": "0a387e78eeaf6e0abd36df70e9d8a15d242b49c2507dbd9522568f5d4af5fb96",
+  "torchaudio-0.9.0-cp36-cp36m-win_amd64.whl": "ba52ae64611773bec7fc664c29f9ea3e02c9e5c817693726b978ed1bdedd07f2",
+  "torchaudio-0.9.0-cp37-cp37m-macosx_10_9_x86_64.whl": "48e33bb96b7ff2dc10a778a695429dbd6dfc8c8baa0d7c9b63569cb002bb87cd",
+  "torchaudio-0.9.0-cp37-cp37m-manylinux1_x86_64.whl": "18763c05cb7d85a08b8ea960e40f6984e9513b02e76f4526d920493c701b0671",
+  "torchaudio-0.9.0-cp37-cp37m-win_amd64.whl": "76a5b8ea0e4ddafd5b8f24abdf1a6f7afe847d892570da13cf0fc9bceeac437f",
+  "torchaudio-0.9.0-cp38-cp38-macosx_10_9_x86_64.whl": "62fd9393ddbe40aadaabef7595f5bff0057e39f7e519195a010731542815f5a4",
+  "torchaudio-0.9.0-cp38-cp38-macosx_11_0_arm64.whl": "ef8dc4ab1ec807382a713e71e8493d1985930537c933273e3c0739f02183cedc",
+  "torchaudio-0.9.0-cp38-cp38-manylinux1_x86_64.whl": "c6126556d529df73b676e023063388d551be3c0cb2d42a4ff5c4cfd44ef3e012",
+  "torchaudio-0.9.0-cp38-cp38-win_amd64.whl": "87520525da10b5f00d3e5e1180db6ee37b1fa305edb2260c7335e0859dbe634e",
+  "torchaudio-0.9.0-cp39-cp39-macosx_10_9_x86_64.whl": "acf0d736a5c1ea6b94adf08b0a31670009b6e78dfe50a1b0bdabf2b0f7895dc0",
+  "torchaudio-0.9.0-cp39-cp39-macosx_11_0_arm64.whl": "9d3f5d6df7d91676e67a38a448253b74d77da723f8e24bd833ff7ed0f82fa4ef",
+  "torchaudio-0.9.0-cp39-cp39-manylinux1_x86_64.whl": "ef5f0b22646a94f95869001b40ab940468b1ae399d0ffd3bc73d5c43342a013a",
+  "torchaudio-0.9.0-cp39-cp39-win_amd64.whl": "ad221258fc5d1d446f2c1ce9a1bb54cc05ca2b208491d4eaa5af443f1c0f16a2"
+}
