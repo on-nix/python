@@ -1,0 +1,11 @@
+{
+  "click": "8.0.1",
+  "click-default-group": "1.2.2",
+  "colorama": "0.4.4",
+  "dateutils": "0.6.12",
+  "python-dateutil": "2.8.2",
+  "pytz": "2021.1",
+  "six": "1.16.0",
+  "sqlite-fts4": "1.0.1",
+  "tabulate": "0.8.9"
+}
