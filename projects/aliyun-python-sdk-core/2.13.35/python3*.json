@@ -1,0 +1,6 @@
+{
+  "cffi": "1.14.6",
+  "cryptography": "3.4.8",
+  "jmespath": "0.10.0",
+  "pycparser": "2.20"
+}
