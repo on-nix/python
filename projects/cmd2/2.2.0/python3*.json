@@ -1,0 +1,6 @@
+{
+  "attrs": "21.2.0",
+  "colorama": "0.4.4",
+  "pyperclip": "1.8.2",
+  "wcwidth": "0.2.5"
+}
