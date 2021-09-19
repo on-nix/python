@@ -1,0 +1,7 @@
+{
+  "colorama": "0.4.4",
+  "log-symbols": "0.0.14",
+  "six": "1.16.0",
+  "spinners": "0.0.24",
+  "termcolor": "1.1.0"
+}
