@@ -59,6 +59,7 @@ let
 
           buildGccBin = false;
           buildPostgresqlBin = false;
+          buildWheel = false;
           runtimeFileBin = false;
           runtimeFileRpath = false;
           runtimeFontconfigRpath = false;
@@ -194,6 +195,10 @@ let
             (listOptional setup.buildGccBin nixpkgs.gcc)
             (listOptional setup.buildPostgresqlBin nixpkgs.postgresql)
           ];
+          source = builtins.concatLists [
+            (attrsGet searchPaths "source" [ ])
+            (listOptional setup.buildWheel projects.wheel.latest.${pythonVersion}.dev)
+          ];
         };
       searchPathsRuntime =
         let searchPaths = setup.searchPathsRuntime searchPathsArgs;
@@ -250,7 +255,7 @@ let
           export PYTHONPYCACHEPREFIX=$PWD
           export PYTHONHASHSEED=0
           export PYTHONNOUSERSITE=1
-          python -m venv $out
+          python -m venv --symlinks --system-site-packages $out
           source $out/bin/activate
           python -m pip install \
             --index-url file://$envMirror \

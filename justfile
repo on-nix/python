@@ -10,7 +10,6 @@ instantiate:
     --show-trace \
 
 build ATTR:
-  # cachix use python-on-nix
   nix-build \
     --attr '{{ATTR}}' \
     --option cores 1 \
@@ -18,10 +17,6 @@ build ATTR:
     --option sandbox true \
     --show-trace \
     default.nix
-  # if test -n "${CACHIX_PYTHON_ON_NIX_TOKEN:-}"; then \
-  #   CACHIX_AUTH_TOKEN="${CACHIX_PYTHON_ON_NIX_TOKEN}" \
-  #   cachix push -c 9 python-on-nix ./result*; \
-  # fi
 
 build-all:
   ls -1 projects | while read -r project; do just build projects.$project; done

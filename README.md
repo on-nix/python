@@ -8,7 +8,7 @@ That can be used with the [Nix][NIX] package manager.
 - Scope:
   - :heavy_check_mark:
     All [active Python releases][PYTHON_RELEASES] (`3.6`, `3.7`, `3.8`, `3.9`)
-  - :heavy_check_mark: 900+ projects already packaged
+  - :heavy_check_mark: 1000+ [projects](./projects) already packaged
 - Quality:
   - :heavy_check_mark: It is 100% Nix, with love :heart:
   - :heavy_check_mark: Data integrity checksums are used everywhere
@@ -19,7 +19,6 @@ That can be used with the [Nix][NIX] package manager.
 - Performance:
   - :heavy_check_mark: We **always** pick [Wheels][PYTHON_WHEELS]
   - :heavy_check_mark: A highly granular cache
-  <!-- - :heavy_check_mark: Available on [Cachix][CACHIX_PYTHON_ON_NIX] -->
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -413,22 +412,6 @@ Now just `$ nix -L build .#something` ! :rocket:
 + touch /nix/store/dcccmxjllgwb9c9j6irp68f1qp4ssxyg-example
 ```
 
-<!-- # Using the binary cache
-
-You can configure [python-on-nix's binary cache][CACHIX_PYTHON_ON_NIX]
-to speed up your builds.
-
-```bash
-# Install Cachix
-$ nix-env -i cachix
-
-# Make future builds use the cache
-$ cachix use python-on-nix
-```
-
-This will save you the time required to build the projects on your machine
-and instead just download the build results. -->
-
 # Contributing
 
 Anything you can think of will be appreciated!
@@ -439,8 +422,6 @@ Also a few dollars are always welcome :grin:
 
 ---
 
-[CACHIX]: https://www.cachix.org/
-[CACHIX_PYTHON_ON_NIX]: https://app.cachix.org/cache/python-on-nix
 [NIX]: https://nixos.org/
 [PYPI]: https://pypi.org/
 [PYTHON]: https://www.python.org/
