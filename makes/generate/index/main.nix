@@ -1,17 +1,7 @@
-{ __nixpkgs__
-, makeDerivation
-, pythonOnNix
-, toFileJson
+{ makeEntrypoint
 , ...
 }:
-let
+makeEntrypoint {
+  entrypoint = ./entrypoint.sh;
   name = "makes-generate-index";
-
-  data = pythonOnNix.projectsMeta;
-in
-makeDerivation {
-  builder = ./builder.sh;
-  env.envX = toFileJson "asdf" data;
-  inherit name;
-  searchPaths.bin = [ __nixpkgs__.jq ];
 }
