@@ -1,0 +1,15 @@
+{
+  "appdirs": "1.4.4",
+  "cloudpickle": "2.0.0",
+  "dask": "2021.9.0",
+  "entrypoints": "0.3",
+  "fsspec": "2021.8.1",
+  "jinja2": "3.0.1",
+  "locket": "0.2.1",
+  "markupsafe": "2.0.1",
+  "packaging": "21.0",
+  "partd": "1.2.0",
+  "pyparsing": "2.4.7",
+  "pyyaml": "5.4.1",
+  "toolz": "0.11.1"
+}
