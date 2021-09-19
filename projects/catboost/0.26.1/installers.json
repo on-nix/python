@@ -1,0 +1,20 @@
+{
+  "catboost-0.26.1-cp27-none-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl": "ec6b9dedd31dd308cdfd5145c8813278be00cdb0616aef1c478cd8cc5e5bdfbc",
+  "catboost-0.26.1-cp27-none-manylinux1_x86_64.whl": "ec6bbdb835fc9109ec7c13235515f2a1c4a7a69f314800bdebf0990d89e149a2",
+  "catboost-0.26.1-cp27-none-win_amd64.whl": "9b05f562d8adbe7473380d8c298fff544858cb2d6838629e5acf431ae24f8401",
+  "catboost-0.26.1-cp35-none-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl": "179d8928d844b2b2e2d3792846e3347d42c07e47b53d3198c66ba7cd19964837",
+  "catboost-0.26.1-cp35-none-manylinux1_x86_64.whl": "dc4f62b7ebf536694779ded54c874b1b8a3e9ccee7cb4a55c787df1bbf5fb5e7",
+  "catboost-0.26.1-cp35-none-win_amd64.whl": "789d2d51254b7ebe6009f7c19fc09023b34e56e0452882ad7e44b27d169be670",
+  "catboost-0.26.1-cp36-none-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl": "5108498f3418ecedbb6b65128a0035f79a87924e74e91d76f5b7d4fab5af19e3",
+  "catboost-0.26.1-cp36-none-manylinux1_x86_64.whl": "cb4e7181e9fc5c366787391eea2310c51a36f4a02875b055af651e5bf56c8839",
+  "catboost-0.26.1-cp36-none-win_amd64.whl": "771f4d5daff6501aba0bbe1a9a11d3137df6f83dff6a0440abc57b6d4573002e",
+  "catboost-0.26.1-cp37-none-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl": "4f29888bbb9857397f9746d554c9c321759e7087f248d25585d5981a14121b5c",
+  "catboost-0.26.1-cp37-none-manylinux1_x86_64.whl": "499390ec497a8b83856111a58369ee06f51f4a4b07519beb7585d6aa15875d1b",
+  "catboost-0.26.1-cp37-none-win_amd64.whl": "85179002b51f5172e7548126130c52ebe87887aa7d8a2667a6b57feab02dc7c6",
+  "catboost-0.26.1-cp38-none-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl": "0e450f136a9297719ce141f2cf1a9a90548fd1743d832ebddc0172497083aa94",
+  "catboost-0.26.1-cp38-none-manylinux1_x86_64.whl": "292efc39c8ba42e278a84ae16ab6c1ea34161b4c3ee65e3955b57fc4b5e79f3b",
+  "catboost-0.26.1-cp38-none-win_amd64.whl": "48b3a270db5146f88463d8603d64d80e64175cb4d8172bce137b1c14a29845a5",
+  "catboost-0.26.1-cp39-none-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl": "b3f46f2ea3ac9bc71111d54b1908803a1efa1bdc3fa6c844416514ec293cdf1f",
+  "catboost-0.26.1-cp39-none-manylinux1_x86_64.whl": "b142ce1a076fbd4a71033dff886c0250ad147f4bc8b4d92f05815996a3604f72",
+  "catboost-0.26.1-cp39-none-win_amd64.whl": "008f1652ee28a39e2f62290d6db36e12bc344c51f1aac5ce52ca2d0f403be1be"
+}
