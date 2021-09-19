@@ -1,0 +1,20 @@
+{
+  "cassandra-driver-3.25.0.tar.gz": "8ad7d7c090eb1cac6110b3bfc1fd2d334ac62f415aac09350ebb8d241b7aa7ee",
+  "cassandra_driver-3.25.0-cp35-cp35m-win32.whl": "e37dd75fc2f3223b05b80aa72cc8a4b64a5e950a9ff9703ebcc20b134a6fd0eb",
+  "cassandra_driver-3.25.0-cp35-cp35m-win_amd64.whl": "1d50b92b88fbc8745fea3eaaf31bbfec7ffa90528c3a08951ed6ecd2d6642d93",
+  "cassandra_driver-3.25.0-cp36-cp36m-macosx_10_9_x86_64.whl": "7ea4cf45e9e9fe7f9cf33ed4698e0592880563c642fa2d61879a1d6789fd45f0",
+  "cassandra_driver-3.25.0-cp36-cp36m-manylinux1_i686.whl": "a11b1a7ae6f40d67f7258f162c1ddce1c6dc3e749ad4cb7f3cdb6b9bbdae5a9e",
+  "cassandra_driver-3.25.0-cp36-cp36m-manylinux1_x86_64.whl": "c2eff4ad029fe297b89487f7c5f29bd391786fd4a4ba51197030eb986cc18f9c",
+  "cassandra_driver-3.25.0-cp36-cp36m-win32.whl": "cfb8f79268e58e9569f41457b670757add6a80b6325a848a6a59a1039f31022c",
+  "cassandra_driver-3.25.0-cp36-cp36m-win_amd64.whl": "f80101afe711f5648c267a4657df6f5b1d77a317c985757a55689ed741c972e6",
+  "cassandra_driver-3.25.0-cp37-cp37m-macosx_10_9_x86_64.whl": "96829a7a5b9255e6ad1eef1c2558599a3b282330cbed3755c349762756425294",
+  "cassandra_driver-3.25.0-cp37-cp37m-manylinux1_i686.whl": "3166d33d8c63991c349ed09a2ef31242a6eb48b588fc144f16a350e1b1335f29",
+  "cassandra_driver-3.25.0-cp37-cp37m-manylinux1_x86_64.whl": "9202da218f1f6bc5dbc3e8079e9d9f88213aca2b3397908a6850fb3179ee86b4",
+  "cassandra_driver-3.25.0-cp37-cp37m-win32.whl": "42e7870d9f770af9707ebb790df1f729a05b5dd9dc1865ebe84d225d13b6497e",
+  "cassandra_driver-3.25.0-cp37-cp37m-win_amd64.whl": "ce452de8ed0440f75979f2a904b4c69181e422d08b6fd55a2b707817d311f3c1",
+  "cassandra_driver-3.25.0-cp38-cp38-macosx_10_9_x86_64.whl": "66f347b6f0d208c894459e8389138b2eb07a7bc36b8dc7eea3b8ec62ca89d379",
+  "cassandra_driver-3.25.0-cp38-cp38-manylinux1_i686.whl": "94c12060b313c8a3ee6f6ce7293c3e99f100688c204f8c9c97877caf36287213",
+  "cassandra_driver-3.25.0-cp38-cp38-manylinux1_x86_64.whl": "f3e80235d3949eadd273f0fc36ca4b9e7ed657007336f62b2e7e10321e322bfb",
+  "cassandra_driver-3.25.0-cp38-cp38-win32.whl": "cc8431973235783a910e8e3864bdd2815194914e937ce6408d66d7a1c07eee78",
+  "cassandra_driver-3.25.0-cp38-cp38-win_amd64.whl": "3287f1e1f4aea6543221d418389e0708ad44650e7e2db70daa7beab701747a82"
+}

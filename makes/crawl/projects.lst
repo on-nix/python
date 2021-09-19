@@ -385,7 +385,6 @@ waitress
 sphinx-gallery
 mypy-boto3
 jieba
-asyncio
 progress
 s3transfer
 alibabacloud-tea-openapi
@@ -1129,7 +1128,6 @@ PyQRCode
 python-cinderclient
 future-fstrings
 wikipedia
-azure-storage
 dacite
 hyperlink
 pathvalidate
@@ -1169,7 +1167,6 @@ h2
 jupyter-sphinx
 python-snappy
 dotmap
-pyobjc
 json5
 pynvml
 DBUtils
