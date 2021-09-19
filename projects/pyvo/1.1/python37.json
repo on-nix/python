@@ -1,0 +1,8 @@
+{
+  "astropy": "4.3.1",
+  "importlib-metadata": "4.8.1",
+  "numpy": "1.21.2",
+  "pyerfa": "2.0.0",
+  "typing-extensions": "3.10.0.2",
+  "zipp": "3.5.0"
+}
