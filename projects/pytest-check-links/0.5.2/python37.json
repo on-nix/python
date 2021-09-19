@@ -1,0 +1,9 @@
+{
+  "importlib-metadata": "4.8.1",
+  "jupyter-client": "7.0.3",
+  "nbclient": "0.5.4",
+  "nbconvert": "6.1.0",
+  "traitlets": "5.1.0",
+  "typing-extensions": "3.10.0.2",
+  "zipp": "3.5.0"
+}

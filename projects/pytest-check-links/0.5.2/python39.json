@@ -1,0 +1,6 @@
+{
+  "jupyter-client": "7.0.3",
+  "nbclient": "0.5.4",
+  "nbconvert": "6.1.0",
+  "traitlets": "5.1.0"
+}
