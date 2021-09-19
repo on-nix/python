@@ -1,0 +1,7 @@
+{
+  "cffi": "1.14.6",
+  "cryptography": "3.4.8",
+  "jeepney": "0.7.1",
+  "pycparser": "2.20",
+  "secretstorage": "3.3.1"
+}
