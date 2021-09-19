@@ -1,0 +1,15 @@
+{
+  "Pyomo-6.1.2-cp36-cp36m-macosx_10_14_x86_64.whl": "e815fdbb654efa9d340f147ec930ea4dc3cdbb42bc83c085480e6bede69780ac",
+  "Pyomo-6.1.2-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "4193846490c110a34da35e2a1a67c2d129690240ce0c3fc7a87c30dab47857e2",
+  "Pyomo-6.1.2-cp36-cp36m-win_amd64.whl": "675abd452e97e8661822f2e2b10112e9599021effa5eb08fd233c0b00500a991",
+  "Pyomo-6.1.2-cp37-cp37m-macosx_10_14_x86_64.whl": "8c232e009caa97b2eb44b186c1c6d17a37b18762a192db884f2409cd7e569e03",
+  "Pyomo-6.1.2-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "dec96708cf5478e4cb5b8837669860b280f775a1119f2d33fd80c3430aaa3f55",
+  "Pyomo-6.1.2-cp37-cp37m-win_amd64.whl": "df51cba9e76d8e990945e4aba2ab0153d5d876408200f36daeb55df79ee84f37",
+  "Pyomo-6.1.2-cp38-cp38-macosx_10_14_x86_64.whl": "9596c45c6e5d8542fd0e9c02aca62f138fdf3cde4a92ae66fd18ebb14e7f0689",
+  "Pyomo-6.1.2-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "ba7c8bfa35a64400a3bcc2c0bd901f2b561fdf16e3b2f046c677d89090052d5f",
+  "Pyomo-6.1.2-cp38-cp38-win_amd64.whl": "5633e2bf54c39cf7d8c5b0d8cae95f024f82938d11379590e9f72a7be062020b",
+  "Pyomo-6.1.2-cp39-cp39-macosx_10_14_x86_64.whl": "ba761089b8f5b9a07ba95f942c7d4e74d5a5127a718a2decea81a010a09f0f37",
+  "Pyomo-6.1.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "a4582ccffe83d0d0876a3cf87e56b9346045b4cb335ac8bd7c141f5ca897a73d",
+  "Pyomo-6.1.2-cp39-cp39-win_amd64.whl": "9623c29d6d98171dfa5ab489435232fe6fbcec07fb8ad672a9417b93b1125f18",
+  "Pyomo-6.1.2.tar.gz": "f2a58977c3c72e706aef7ab7d016bdf66df85df8ea5b25cc0ba387e2cef880bb"
+}
