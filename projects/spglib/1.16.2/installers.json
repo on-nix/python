@@ -1,0 +1,18 @@
+{
+  "spglib-1.16.2-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "7baf1b1dad2a3131fca8d37745e61c1bf1696a41bb8b856dd338b51c15575f64",
+  "spglib-1.16.2-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "ac8058d19e979e5c58cb2d02606ea027fa95ecbe69d37d051109b84f1f41fe1b",
+  "spglib-1.16.2-cp36-cp36m-manylinux_2_5_i686.manylinux1_i686.whl": "229f7931b9eb42a5e344712c602acb4c0adf0ab864ab240b3f755d758b819d91",
+  "spglib-1.16.2-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.whl": "5747c8e232f7f45e7bd7bdfd9c1ef98e34cef9095c829e5576acaf4c43623ab2",
+  "spglib-1.16.2-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "97f2cc5ecc98e603b0360fd25dcf7adfb5a4951076b9aac90016ad17ccdb394f",
+  "spglib-1.16.2-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "915c5e83ec4cd3df43c4144aa05238e91baeabbaeab02a4d96409e50d51203e4",
+  "spglib-1.16.2-cp37-cp37m-manylinux_2_5_i686.manylinux1_i686.whl": "a1918617cc88a22512128937f4dd371d85d0addc2084a2563484c3d5bab99bf4",
+  "spglib-1.16.2-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl": "9986f036b583a8ed49523684405b28a79d52b4ca626f66b48f8ebefad690c6df",
+  "spglib-1.16.2-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "d80e86e25a98335fb9226c476b101b560d70887830e77134300686548e9cdc42",
+  "spglib-1.16.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "c7eec7429ced89e447a005fafefd25a2b2d3fded1897f31989b7fe5638c3dd69",
+  "spglib-1.16.2-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.whl": "a306118a0e98e72ec57130636c187d6c2114167bc470ea2904ed82c5eef56dee",
+  "spglib-1.16.2-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl": "329328f4101d679cb7370bb5e1539cde310af2581484613d1ca512bdf34f0cdb",
+  "spglib-1.16.2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "5455278d004c7b3473539b4c6a7f6cecdddbf38dc5593aab50d889baa522182f",
+  "spglib-1.16.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "76e4e183dc6e5b4da6c255b362a9fac72756ab961ad7e3a3f25a62dfaf53eb36",
+  "spglib-1.16.2-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.whl": "f6c24c1cda74f2ab80afcec59beecef0481aa8764647e3f1769ff85cb2b3a651",
+  "spglib-1.16.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl": "a2a5ced606a42d48a8b5df6f3e7f42072e22ce368880bef5a0ee34ffda72f033"
+}
