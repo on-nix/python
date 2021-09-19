@@ -1,0 +1,15 @@
+{
+  "jellyfish-0.8.8-cp36-cp36m-macosx_10_14_x86_64.whl": "0cec0236be371faa2aa711561d4a564ffcc4804624a25d9efd012eeb2f5aa676",
+  "jellyfish-0.8.8-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "ebbb99b7ff7ce2d8fb2d93e6e3a8573a5d2f5ab91f9fea32d0ef5b41d9fd4e00",
+  "jellyfish-0.8.8-cp36-cp36m-win_amd64.whl": "2a390319d74d3e4f9c76b78ac90574ba546093d44e053d289d017a470eda8c6f",
+  "jellyfish-0.8.8-cp37-cp37m-macosx_10_14_x86_64.whl": "7e910e891defba7ad73379d5d678b776983d9851991c136f1f01bfd896d6b03b",
+  "jellyfish-0.8.8-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "18895debc063f9f46b2739d849305aba94614be0b9ca347ea3f91e4ea5ef2217",
+  "jellyfish-0.8.8-cp37-cp37m-win_amd64.whl": "bede82c2a7879d53ac0fadf6871adee07476f62812096618a63a490b3dddfb40",
+  "jellyfish-0.8.8-cp38-cp38-macosx_10_14_x86_64.whl": "10008dcc8cc0881e7f0709d952205905dcd0aabaf5e24af915bdd6a4f5407944",
+  "jellyfish-0.8.8-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "eef478362c03ba11e46c63747a44bdbac1cbf0f2cb2e0ab3b34efcc68f563644",
+  "jellyfish-0.8.8-cp38-cp38-win_amd64.whl": "ddfb50b15cebbf6c660f3d2425980c422caafc139b30e797ad754b50e9ec7b2f",
+  "jellyfish-0.8.8-cp39-cp39-macosx_10_14_x86_64.whl": "e5e3138ea47c5d585158df5fc0a4311548ff556a9c67ccfc2d7b981b1d064b26",
+  "jellyfish-0.8.8-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "63d8c61d0b74c74dea2daf2813776a316bc8d006902a7c13548c2ec274f96a54",
+  "jellyfish-0.8.8-cp39-cp39-win_amd64.whl": "a8597e05559078ff3790ad44fd4697c5dc55ab7a2a7a98c751176ced5903d6ba",
+  "jellyfish-0.8.8.tar.gz": "0506089cacf9b5897442134417b04b3c6610c19f280ae535eace390dc6325a5c"
+}
