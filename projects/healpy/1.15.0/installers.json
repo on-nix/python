@@ -1,0 +1,15 @@
+{
+  "healpy-1.15.0-cp36-cp36m-macosx_10_9_x86_64.whl": "7e0bc24c3d3aeb1ef81b9b0473a497355a288e24d6bbfda753633484fe41df97",
+  "healpy-1.15.0-cp36-cp36m-manylinux_2_5_i686.manylinux1_i686.whl": "c18d3089e8eae36af8789a74510136cbe22bc7b0fabfa7fe584d37fec74cda63",
+  "healpy-1.15.0-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.whl": "28b6c60a331d05649563ca73a139d93836c8ebafe17f99a590bd45a98d3e290c",
+  "healpy-1.15.0-cp37-cp37m-macosx_10_9_x86_64.whl": "d2baa63cdfb5757e22cff79b6f1d2448d67d1dbf449c5596a38eba91ed12a690",
+  "healpy-1.15.0-cp37-cp37m-manylinux_2_5_i686.manylinux1_i686.whl": "5df1248a465807312361fe9bba8b5e02e47c458ce72379730a73d48ef0206735",
+  "healpy-1.15.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl": "3501537abfda74fcd63b3157d93e4d56acadd5ad3d8545106bf635f5cb01ebb5",
+  "healpy-1.15.0-cp38-cp38-macosx_10_9_x86_64.whl": "257abd88dfe9deb8818116ec0294a53e41f1c7ac9b0795700a04e419e08f8d85",
+  "healpy-1.15.0-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.whl": "548bfdfb6263d829c1c1a69ac4e3d4a7d059b8068a56ca42d18f79d2dcd6c953",
+  "healpy-1.15.0-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl": "82822762be56ac1db4655a685cb609bcff310158fb2214eedbcd8592608a06a4",
+  "healpy-1.15.0-cp39-cp39-macosx_10_9_x86_64.whl": "a3f91214f3b2b17fbe2e027c2903317cda7ede05efc2b7f32d84f50f1ad9681d",
+  "healpy-1.15.0-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.whl": "832085ee5f2a2e342dbeb36b2acf567b74e2d2e3d0d5fa6651fbdf48e16661f4",
+  "healpy-1.15.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl": "deb21d0b2a41a6efa2b896028501145f91a7507db942f605dbfad46b9ef9331c",
+  "healpy-1.15.0.tar.gz": "e09300a9f24e40b07f09ca7a7026d640a0478960b6ca6a5fc85052c0bb4335bf"
+}
