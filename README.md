@@ -44,12 +44,12 @@ That can be used with the [Nix][NIX] package manager.
 # Why
 
 To make using Nix on Python projects
-as simple as possible :heavy_check_mark:
+as simple as possible!
 
-Just copy and paste the examples,
-pick the projects of your choice,
-and use!
-:nerd_face:
+Just:
+1. Copy and paste the examples
+2. Pick the [Python][PYTHON] projects of your choice,
+3. Profit! :chart_with_upwards_trend:
 
 # List of available projects
 
