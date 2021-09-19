@@ -1,0 +1,5 @@
+{
+  "lazy-object-proxy": "1.6.0",
+  "typing-extensions": "3.10.0.2",
+  "wrapt": "1.12.1"
+}
