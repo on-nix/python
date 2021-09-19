@@ -1,0 +1,6 @@
+{
+  "six": "1.16.0",
+  "zope-i18nmessageid": "5.0.1",
+  "zope-interface": "5.4.0",
+  "zope-tal": "4.5"
+}
