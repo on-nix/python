@@ -1,0 +1,3 @@
+{
+  buildGccBin = true;
+}
