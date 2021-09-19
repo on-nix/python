@@ -1,0 +1,15 @@
+{
+  "bcrypt": "3.2.0",
+  "cffi": "1.14.6",
+  "cryptography": "3.4.8",
+  "future": "0.18.2",
+  "ntc-templates": "2.3.2",
+  "paramiko": "2.7.2",
+  "pycparser": "2.20",
+  "pynacl": "1.4.0",
+  "pyserial": "3.5",
+  "scp": "0.14.1",
+  "six": "1.16.0",
+  "tenacity": "8.0.1",
+  "textfsm": "1.1.2"
+}
