@@ -1,0 +1,15 @@
+{
+  "cachetools": "4.2.2",
+  "certifi": "2021.5.30",
+  "charset-normalizer": "2.0.6",
+  "google-api-core": "2.0.1",
+  "google-auth": "2.1.0",
+  "googleapis-common-protos": "1.53.0",
+  "idna": "3.2",
+  "protobuf": "3.18.0",
+  "pyasn1": "0.4.8",
+  "pyasn1-modules": "0.2.8",
+  "requests": "2.26.0",
+  "rsa": "4.7.2",
+  "urllib3": "1.26.6"
+}
