@@ -43,13 +43,13 @@ That can be used with the [Nix][NIX] package manager.
 
 # Why
 
-To make using Nix on Python projects
+To make using [Nix][NIX] on [Python][PYTHON] projects
 as simple as possible!
 
 Just:
-1. Copy and paste the examples
-2. Pick the [Python][PYTHON] projects of your choice,
-3. Profit! :chart_with_upwards_trend:
+1. Copy and paste the examples,
+2. Select the [Python][PYTHON] projects of your choice,
+3. Enjoy! :rocket:
 
 # List of available projects
 
