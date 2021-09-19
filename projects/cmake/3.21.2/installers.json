@@ -1,0 +1,13 @@
+{
+  "cmake-3.21.2-py2.py3-none-macosx_10_9_universal2.macosx_10_9_x86_64.macosx_11_0_arm64.macosx_11_0_universal2.whl": "b75d9f0aedd6a12222d8e0fc9171c37cd6486e883e93febe5a259228a0020675",
+  "cmake-3.21.2-py2.py3-none-manylinux_2_12_i686.manylinux2010_i686.whl": "32ef54e1024c1fddf580d220024347536b2ac334a4ec695f1abece171e77c8f9",
+  "cmake-3.21.2-py2.py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "f25a9a93e3b402d1a63c4673d4cde901bb19f57669249ce0feb2aec623cb7bb1",
+  "cmake-3.21.2-py2.py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "c5f3218637951041798cb0ef28c0c87aeb61a9559548094d1b02e7cb2eadc785",
+  "cmake-3.21.2-py2.py3-none-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl": "71fad9dc655eccf159108d494d828c27b466872c56e4750728ceea7f628bb8e2",
+  "cmake-3.21.2-py2.py3-none-manylinux_2_17_s390x.manylinux2014_s390x.whl": "533b6ba0f126d51fe0223c81c2acb587ffe284ede48e1ba9dc56b556bbbf3f5f",
+  "cmake-3.21.2-py2.py3-none-manylinux_2_5_i686.manylinux1_i686.whl": "524f0bd243bf88942e5501a59056f8525c372e2f639c89f9a0d2afa716530333",
+  "cmake-3.21.2-py2.py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl": "bf706da9171f63dcffc39511ff0a8c8e863d5154850bacc7740b34d3cfcb5c44",
+  "cmake-3.21.2-py2.py3-none-win32.whl": "bf599ef04f34c8b2c99e8843004b24f2a510a35453e45b16804eae3ca5eb2dc6",
+  "cmake-3.21.2-py2.py3-none-win_amd64.whl": "0c3b8d862232a460fa66792208264b57cdb5f1579da41d80d0ef4f4f2daa498c",
+  "cmake-3.21.2.tar.gz": "47f32fdb3b8fef0138c47f789154c3d5d214313c26e296674bf8afad97f89af8"
+}

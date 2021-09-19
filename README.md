@@ -8,7 +8,9 @@ That can be used with the [Nix][NIX] package manager.
 - Scope:
   - :heavy_check_mark:
     All [active Python releases][PYTHON_RELEASES] (`3.6`, `3.7`, `3.8`, `3.9`)
-  - :heavy_check_mark: 1000+ [projects](./projects) already packaged
+  - :heavy_check_mark: 1100+ [projects][PROJECTS] already packaged,
+    prioritized by their popularity
+    according to [libraries.io](https://libraries.io/PyPI)
 - Quality:
   - :heavy_check_mark: It is 100% Nix, with love :heart:
   - :heavy_check_mark: Data integrity checksums are used everywhere
@@ -2671,6 +2673,7 @@ Also a few dollars are always welcome :grin:
 ---
 
 [NIX]: https://nixos.org/
+[PROJECTS]: #list-of-available-projects
 [PYPI]: https://pypi.org/
 [PYTHON]: https://www.python.org/
 [PYTHON_RELEASES]: https://www.python.org/downloads/
