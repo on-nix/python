@@ -1,0 +1,4 @@
+{
+  buildGccBin = true;
+  runtimeWants = [ "accesscontrol" ];
+}
