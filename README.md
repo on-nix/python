@@ -67,11 +67,6 @@ which points to the latest version of the project.
 | accesscontrol | 5.2 | 3.6 3.7 3.8 3.9 |
 | access-points | 0.4.66 | 3.6 3.7 3.8 3.9 |
 | acme | 1.19.0 | 3.6 3.7 3.8 3.9 |
-| acquisition | 4.9 | 3.6 3.7 3.8 3.9 |
-| adafruit-blinka | 6.13.0 | 3.6 3.7 3.8 3.9 |
-| adafruit-circuitpython-busdevice | 5.0.6 | 3.6 3.7 3.8 3.9 |
-| adafruit-platformdetect | 3.15.3 | 3.6 3.7 3.8 3.9 |
-| adafruit-pureio | 1.1.9 | 3.6 3.7 3.8 3.9 |
 | adal | 1.2.7 | 3.6 3.7 3.8 3.9 |
 | addict | 2.4.0 | 3.6 3.7 3.8 3.9 |
 | aenum | 3.1.0 | 3.6 3.7 3.8 3.9 |
@@ -105,21 +100,15 @@ which points to the latest version of the project.
 | alembic | 1.7.1 | 3.6 3.7 3.8 3.9 |
 | alembic | 1.7.3 | 3.6 3.7 3.8 3.9 |
 | alibabacloud-credentials | 0.1.4 | 3.6 3.7 3.8 3.9 |
-| alibabacloud-credentials-py2 | 0.0.3 | 3.6 3.7 3.8 3.9 |
 | alibabacloud-endpoint-util | 0.0.3 | 3.6 3.7 3.8 3.9 |
-| alibabacloud-endpoint-util-py2 | 0.0.2 | 3.6 3.7 3.8 3.9 |
 | alibabacloud-openapi-util | 0.1.5 | 3.6 3.7 3.8 3.9 |
 | alibabacloud-tea | 0.2.8 | 3.6 3.7 3.8 3.9 |
 | alibabacloud-tea-openapi | 0.2.7 | 3.8 3.9 |
-| alibabacloud-tea-openapi-py2 | 0.0.6 | 3.6 3.7 3.8 3.9 |
 | alibabacloud-tea-py2 | 0.0.3 | 3.6 3.7 3.8 3.9 |
 | alibabacloud-tea-util | 0.3.5 | 3.6 3.7 3.8 3.9 |
-| alibabacloud-tea-util-py2 | 0.0.5 | 3.6 3.7 3.8 3.9 |
 | alive-progress | 2.0.0 | 3.6 3.7 3.8 3.9 |
-| aliyun-python-sdk-core | 2.13.35 | 3.6 3.7 3.8 3.9 |
 | alphalens | 0.4.0 | 3.6 3.7 3.8 3.9 |
 | altair | 4.1.0 | 3.6 3.7 3.8 3.9 |
-| altgraph | 0.17.2 | 3.6 3.7 3.8 3.9 |
 | amazon-dax-client | 2.0.0 | 3.6 3.7 3.8 3.9 |
 | amqp | 2.6.1 | 3.6 3.7 3.8 3.9 |
 | amqp | 5.0.6 | 3.6 3.7 3.8 3.9 |
@@ -128,7 +117,6 @@ which points to the latest version of the project.
 | anndata | 0.7.6 | 3.7 3.8 3.9 |
 | ansible | 4.5.0 | 3.6 3.7 3.8 3.9 |
 | ansible-core | 2.11.4 | 3.6 3.7 3.8 3.9 |
-| ansicon | 1.89.0 | 3.6 3.7 3.8 3.9 |
 | ansiwrap | 0.8.4 | 3.6 3.7 3.8 3.9 |
 | antlr4-python3-runtime | 4.7.2 | 3.6 3.7 3.8 3.9 |
 | antlr4-python3-runtime | 4.8 | 3.6 3.7 3.8 3.9 |
@@ -154,13 +142,11 @@ which points to the latest version of the project.
 | args | 0.1.0 | 3.6 3.7 3.8 3.9 |
 | ariadne | 0.13.0 | 3.6 3.7 3.8 3.9 |
 | arrow | 1.1.1 | 3.6 3.7 3.8 3.9 |
-| arviz | 0.11.2 | 3.7 3.8 3.9 |
 | asciitree | 0.3.3 | 3.7 3.8 3.9 |
 | ase | 3.22.0 | 3.6 3.7 3.8 3.9 |
 | asgi-csrf | 0.9 | 3.6 3.7 3.8 3.9 |
 | asgiref | 3.4.1 | 3.6 3.7 3.8 3.9 |
 | asn1crypto | 1.4.0 | 3.6 3.7 3.8 3.9 |
-| asteval | 0.9.25 | 3.6 3.7 3.8 3.9 |
 | astor | 0.8.1 | 3.6 3.7 3.8 3.9 |
 | astroid | 2.7.3 | 3.6 3.7 3.8 3.9 |
 | astroid | 2.8.0 | 3.6 3.7 3.8 3.9 |
@@ -169,7 +155,6 @@ which points to the latest version of the project.
 | astroquery | 0.4.3 | 3.6 3.7 3.8 3.9 |
 | astunparse | 1.6.3 | 3.6 3.7 3.8 3.9 |
 | async-generator | 1.10 | 3.6 3.7 3.8 3.9 |
-| asyncio | 3.4.3 | 3.6 3.7 |
 | async-lru | 1.0.2 | 3.6 3.7 3.8 3.9 |
 | asyncpg | 0.24.0 | 3.6 3.7 3.8 3.9 |
 | asyncssh | 2.7.2 | 3.6 3.7 3.8 3.9 |
@@ -180,7 +165,7 @@ which points to the latest version of the project.
 | attrs | 20.3.0 | 3.6 3.7 3.8 3.9 |
 | attrs | 21.2.0 | 3.6 3.7 3.8 3.9 |
 | audioread | 2.1.9 | 3.6 3.7 3.8 3.9 |
-| authencoding | 4.3 | 3.6 3.7 3.8 3.9 |
+| authencoding | 4.3 | 3.6 3.7 |
 | authlib | 0.15.4 | 3.6 3.7 3.8 3.9 |
 | autobahn | 21.2.1 | 3.6 |
 | autobahn | 21.3.1 | 3.7 3.8 3.9 |
@@ -193,61 +178,35 @@ which points to the latest version of the project.
 | aws-cdk-aws-applicationautoscaling | 1.123.0 | 3.6 3.7 3.8 3.9 |
 | aws-cdk-aws-autoscaling-common | 1.123.0 | 3.6 3.7 3.8 3.9 |
 | aws-cdk-aws-cloudwatch | 1.123.0 | 3.6 3.7 3.8 3.9 |
-| aws-cdk-aws-codeguruprofiler | 1.123.0 | 3.7 3.8 3.9 |
+| aws-cdk-aws-codeguruprofiler | 1.123.0 | 3.6 3.7 3.8 3.9 |
 | aws-cdk-aws-codestarnotifications | 1.123.0 | 3.6 3.7 3.8 3.9 |
 | aws-cdk-aws-ec2 | 1.123.0 | 3.6 3.7 3.8 3.9 |
 | aws-cdk-aws-events | 1.123.0 | 3.6 3.7 3.8 3.9 |
 | aws-cdk-aws-iam | 1.123.0 | 3.6 3.7 3.8 3.9 |
 | aws-cdk-aws-kms | 1.123.0 | 3.6 3.7 3.8 3.9 |
-| aws-cdk-aws-lambda | 1.123.0 | 3.7 3.8 3.9 |
-| aws-cdk-aws-logs | 1.123.0 | 3.6 3.7 3.8 3.9 |
 | aws-cdk-aws-s3 | 1.123.0 | 3.6 3.7 3.8 3.9 |
 | aws-cdk-aws-s3-assets | 1.123.0 | 3.6 3.7 3.8 3.9 |
 | aws-cdk-aws-signer | 1.123.0 | 3.6 3.7 3.8 3.9 |
-| aws-cdk-aws-sns | 1.123.0 | 3.6 3.7 3.8 3.9 |
 | aws-cdk-aws-sqs | 1.123.0 | 3.6 3.7 3.8 3.9 |
 | aws-cdk-aws-ssm | 1.123.0 | 3.6 3.7 3.8 3.9 |
-| aws-cdk-cdk | 0.36.1 | 3.6 3.7 3.8 3.9 |
 | aws-cdk-cloud-assembly-schema | 1.122.0 | 3.6 3.7 3.8 3.9 |
 | aws-cdk-cloud-assembly-schema | 1.123.0 | 3.6 3.7 3.8 3.9 |
 | aws-cdk-core | 1.123.0 | 3.6 3.7 3.8 3.9 |
-| aws-cdk-custom-resources | 1.123.0 | 3.6 3.7 3.8 3.9 |
 | aws-cdk-cx-api | 1.123.0 | 3.6 3.7 3.8 3.9 |
-| aws-cdk-region-info | 1.123.0 | 3.6 3.7 3.8 3.9 |
 | awscli | 1.20.31 | 3.6 3.7 3.8 3.9 |
 | aws-lambda-builders | 1.6.0 | 3.6 3.7 3.8 3.9 |
 | aws-okta-processor | 1.7.0 | 3.6 3.7 3.8 3.9 |
 | aws-sam-translator | 1.38.0 | 3.6 3.7 3.8 3.9 |
 | aws-xray-sdk | 2.8.0 | 3.6 3.7 3.8 3.9 |
-| azure-cli-command-modules-nspkg | 2.0.3 | 3.6 3.7 3.8 3.9 |
-| azure-cli-core | 2.28.1 | 3.6 3.7 3.8 3.9 |
-| azure-cli-nspkg | 3.0.4 | 3.6 3.7 3.8 3.9 |
-| azure-cli-telemetry | 1.0.6 | 3.6 3.7 3.8 3.9 |
-| azure-common | 1.1.27 | 3.6 3.7 3.8 3.9 |
-| azure-core | 1.18.0 | 3.6 3.7 3.8 3.9 |
-| azure-graphrbac | 0.61.1 | 3.6 3.7 3.8 |
-| azure-identity | 1.6.1 | 3.6 3.7 3.8 3.9 |
-| azure-mgmt-authorization | 0.61.0 | 3.6 3.7 3.8 |
-| azure-mgmt-core | 1.2.2 | 3.6 3.7 3.8 3.9 |
-| azure-mgmt-core | 1.3.0 | 3.6 3.7 3.8 3.9 |
-| azure-mgmt-nspkg | 3.0.2 | 3.6 3.7 3.8 3.9 |
-| azure-mgmt-resource | 20.0.0 | 3.6 3.7 3.8 3.9 |
-| azureml-core | 1.34.0 | 3.6 3.7 3.8 |
-| azure-nspkg | 3.0.2 | 3.6 3.7 3.8 3.9 |
-| azure-storage | 0.37.0 | 3.6 3.7 3.8 3.9 |
-| azure-storage-blob | 12.8.1 | 3.6 3.7 3.8 3.9 |
 | babel | 2.9.1 | 3.6 3.7 3.8 3.9 |
 | backcall | 0.2.0 | 3.6 3.7 3.8 3.9 |
 | backoff | 1.11.1 | 3.6 3.7 3.8 3.9 |
 | backoff | 1.8.0 | 3.6 3.7 3.8 3.9 |
 | backports-csv | 1.0.7 | 3.6 3.7 3.8 3.9 |
 | backports-entry-points-selectable | 1.1.0 | 3.6 3.7 3.8 3.9 |
-| backports-functools-lru-cache | 1.6.4 | 3.6 3.7 3.8 3.9 |
 | backports-zoneinfo | 0.2.1 | 3.6 3.7 3.8 3.9 |
-| bandit | 1.7.0 | 3.6 3.7 3.8 3.9 |
 | base58 | 2.1.0 | 3.6 3.7 3.8 3.9 |
 | bcrypt | 3.2.0 | 3.6 3.7 3.8 3.9 |
-| beautifulsoup | 3.2.2 | 3.6 3.7 3.8 3.9 |
 | beautifulsoup4 | 4.10.0 | 3.6 3.7 3.8 3.9 |
 | beautifulsoup4 | 4.9.3 | 3.6 3.7 3.8 3.9 |
 | behave | 1.2.6 | 3.6 3.7 3.8 3.9 |
@@ -258,9 +217,7 @@ which points to the latest version of the project.
 | biopython | 1.79 | 3.6 3.7 3.8 3.9 |
 | bitarray | 1.2.2 | 3.6 3.7 3.8 3.9 |
 | bitstring | 3.1.9 | 3.6 3.7 3.8 3.9 |
-| black | 20.8b1 | 3.6 |
 | black | 21.8b0 | 3.7 3.8 3.9 |
-| black | 21.9b0 | 3.7 3.8 3.9 |
 | bleach | 4.1.0 | 3.6 3.7 3.8 3.9 |
 | blessed | 1.18.1 | 3.6 3.7 3.8 3.9 |
 | blessings | 1.7 | 3.6 3.7 3.8 3.9 |
@@ -271,14 +228,13 @@ which points to the latest version of the project.
 | bokeh | 2.4.0 | 3.7 3.8 3.9 |
 | boltons | 21.0.0 | 3.6 3.7 3.8 3.9 |
 | bootstrap-admin | 0.4.4 | 3.6 3.7 3.8 3.9 |
-| borg-localrole | 3.1.8 | 3.6 3.7 3.8 3.9 |
 | boto | 2.49.0 | 3.6 3.7 3.8 3.9 |
 | boto3 | 1.12.32 | 3.6 3.7 3.8 3.9 |
 | boto3 | 1.17.106 | 3.6 3.7 3.8 3.9 |
 | boto3 | 1.18.31 | 3.6 3.7 3.8 3.9 |
 | boto3 | 1.18.32 | 3.6 3.7 3.8 3.9 |
 | boto3 | 1.18.39 | 3.6 3.7 3.8 3.9 |
-| boto3 | 1.18.44 | 3.6 3.7 3.8 3.9 |
+| boto3 | 1.18.44 | 3.7 3.8 3.9 |
 | boto3-type-annotations | 0.3.1 | 3.6 3.7 3.8 3.9 |
 | botocore | 1.15.32 | 3.6 3.7 3.8 3.9 |
 | botocore | 1.15.49 | 3.6 3.7 3.8 3.9 |
@@ -290,7 +246,6 @@ which points to the latest version of the project.
 | botocore | 1.21.39 | 3.6 3.7 3.8 3.9 |
 | botocore | 1.21.44 | 3.6 3.7 3.8 3.9 |
 | bottle | 0.12.19 | 3.6 3.7 3.8 3.9 |
-| bottleneck | 1.3.2 | 3.6 3.7 3.8 3.9 |
 | branca | 0.4.2 | 3.6 3.7 3.8 3.9 |
 | brotli | 1.0.9 | 3.6 3.7 3.8 3.9 |
 | brotlicffi | 1.0.9.2 | 3.6 3.7 3.8 3.9 |
@@ -307,18 +262,14 @@ which points to the latest version of the project.
 | cachetools | 4.2.2 | 3.6 3.7 3.8 3.9 |
 | cachey | 0.2.1 | 3.7 3.8 3.9 |
 | cachy | 0.3.0 | 3.6 3.7 3.8 3.9 |
-| cairocffi | 1.2.0 | 3.6 3.7 3.8 3.9 |
-| cairosvg | 2.5.2 | 3.6 3.7 3.8 3.9 |
 | calmjs-parse | 1.2.5 | 3.6 3.7 3.8 3.9 |
 | capacity | 1.3.14 | 3.6 3.7 3.8 3.9 |
-| cartopy | 0.20.0 | 3.7 3.8 3.9 |
-| cassandra-driver | 3.25.0 | 3.6 3.7 3.8 3.9 |
 | catalogue | 2.0.6 | 3.6 3.7 3.8 3.9 |
 | catboost | 0.26.1 | 3.6 3.7 3.8 3.9 |
 | category-encoders | 2.2.2 | 3.6 3.7 3.8 3.9 |
 | catkin-pkg | 0.4.23 | 3.6 3.7 3.8 3.9 |
 | cattrs | 1.0.0 | 3.6 3.7 3.8 |
-| cattrs | 1.1.0 | 3.6 |
+| cattrs | 1.1.0 | 3.7 3.8 3.9 |
 | cattrs | 1.8.0 | 3.7 3.8 3.9 |
 | cbor2 | 5.4.1 | 3.6 3.7 3.8 3.9 |
 | cchardet | 2.1.7 | 3.6 3.7 3.8 3.9 |
@@ -333,14 +284,11 @@ which points to the latest version of the project.
 | cfn-lint | 0.53.0 | 3.6 3.7 3.8 3.9 |
 | cftime | 1.5.0 | 3.6 3.7 3.8 3.9 |
 | chameleon | 3.9.1 | 3.6 3.7 3.8 3.9 |
-| channels | 3.0.4 | 3.6 3.7 3.8 3.9 |
 | chardet | 3.0.4 | 3.6 3.7 3.8 3.9 |
 | chardet | 4.0.0 | 3.6 3.7 3.8 3.9 |
 | charset-normalizer | 2.0.4 | 3.6 3.7 3.8 3.9 |
 | charset-normalizer | 2.0.6 | 3.6 3.7 3.8 3.9 |
-| check-manifest | 0.46 | 3.6 3.7 3.8 3.9 |
 | cheroot | 8.5.2 | 3.6 3.7 3.8 3.9 |
-| cherrypy | 18.6.1 | 3.6 3.7 3.8 3.9 |
 | ciso8601 | 2.2.0 | 3.6 3.7 3.8 3.9 |
 | clang | 5.0 | 3.6 3.7 3.8 3.9 |
 | cleo | 0.6.8 | 3.6 3.7 3.8 3.9 |
@@ -356,7 +304,6 @@ which points to the latest version of the project.
 | click-log | 0.3.2 | 3.6 3.7 3.8 3.9 |
 | click-plugins | 1.1.1 | 3.6 3.7 3.8 3.9 |
 | click-repl | 0.2.0 | 3.6 3.7 3.8 3.9 |
-| click-spinner | 0.1.10 | 3.6 3.7 3.8 3.9 |
 | cliff | 3.9.0 | 3.6 3.7 3.8 3.9 |
 | cligj | 0.7.2 | 3.6 3.7 3.8 3.9 |
 | clikit | 0.6.2 | 3.6 3.7 3.8 3.9 |
@@ -368,43 +315,33 @@ which points to the latest version of the project.
 | cmake | 3.21.2 | 3.6 3.7 3.8 3.9 |
 | cmd2 | 2.2.0 | 3.6 3.7 3.8 3.9 |
 | codecov | 2.1.12 | 3.6 3.7 3.8 3.9 |
-| collective-monkeypatcher | 1.2.1 | 3.6 3.7 3.8 3.9 |
 | colorama | 0.4.3 | 3.6 3.7 3.8 3.9 |
 | colorama | 0.4.4 | 3.6 3.7 3.8 3.9 |
 | colorcet | 2.0.6 | 3.6 |
 | colorclass | 2.2.0 | 3.6 3.7 3.8 3.9 |
 | colored | 1.4.2 | 3.6 3.7 3.8 3.9 |
-| coloredlogs | 14.0 | 3.6 3.7 3.8 3.9 |
-| coloredlogs | 15.0.1 | 3.6 3.7 3.8 3.9 |
 | colorlog | 6.4.1 | 3.6 3.7 3.8 3.9 |
 | commonmark | 0.9.1 | 3.6 3.7 3.8 3.9 |
-| comtypes | 1.1.10 | 3.6 3.7 3.8 3.9 |
 | configargparse | 1.5.2 | 3.6 3.7 3.8 3.9 |
 | configobj | 5.0.6 | 3.6 3.7 3.8 3.9 |
 | configparser | 5.0.2 | 3.6 3.7 3.8 3.9 |
 | confluent-kafka | 1.7.0 | 3.6 3.7 3.8 3.9 |
 | confuse | 1.5.0 | 3.6 3.7 3.8 3.9 |
-| connexion | 2.9.0 | 3.6 3.7 3.8 3.9 |
 | constantly | 15.1.0 | 3.6 3.7 3.8 3.9 |
 | construct | 2.10.67 | 3.6 3.7 3.8 3.9 |
-| constructs | 10.0.5 | 3.6 3.7 3.8 3.9 |
-| constructs | 3.3.147 | 3.6 3.7 3.8 3.9 |
 | contextlib2 | 21.6.0 | 3.6 3.7 3.8 3.9 |
 | contextvars | 2.4 | 3.6 |
 | convertdate | 2.3.2 | 3.6 3.7 3.8 3.9 |
 | cookiecutter | 1.7.3 | 3.6 3.7 3.8 3.9 |
 | copyright | 1.0.1.0 | 3.6 3.7 3.8 3.9 |
-| coreapi | 2.3.3 | 3.6 3.7 3.8 3.9 |
 | coreschema | 0.0.4 | 3.6 3.7 3.8 3.9 |
 | corner | 2.2.1 | 3.6 3.7 3.8 3.9 |
 | countrycode | 0.2 | 3.6 3.7 3.8 3.9 |
 | coverage | 5.5 | 3.6 3.7 3.8 3.9 |
-| coverage-badge | 1.0.1 | 3.6 3.7 3.8 3.9 |
 | coveralls | 3.2.0 | 3.6 3.7 3.8 3.9 |
 | cramjam | 2.4.0 | 3.7 3.8 3.9 |
 | crashtest | 0.3.1 | 3.6 3.7 3.8 3.9 |
 | crayons | 0.4.0 | 3.6 3.7 3.8 3.9 |
-| crcmod | 1.7 | 3.6 3.7 3.8 3.9 |
 | croniter | 1.0.15 | 3.6 3.7 3.8 3.9 |
 | cryptography | 3.3.2 | 3.6 3.7 3.8 3.9 |
 | cryptography | 3.4.8 | 3.6 3.7 3.8 3.9 |
@@ -413,20 +350,11 @@ which points to the latest version of the project.
 | cssselect2 | 0.4.1 | 3.6 3.7 3.8 3.9 |
 | cssutils | 2.3.0 | 3.6 3.7 3.8 3.9 |
 | cvxopt | 1.2.6 | 3.6 3.7 3.8 3.9 |
-| cvxpy | 1.1.15 | 3.6 3.7 3.8 3.9 |
-| cx-oracle | 8.2.1 | 3.6 3.7 3.8 3.9 |
 | cycler | 0.10.0 | 3.6 3.7 3.8 3.9 |
 | cymem | 2.0.5 | 3.6 3.7 3.8 3.9 |
 | cython | 0.29.24 | 3.6 3.7 3.8 3.9 |
 | cytoolz | 0.11.0 | 3.6 3.7 3.8 3.9 |
 | dacite | 1.6.0 | 3.6 3.7 3.8 3.9 |
-| dagster | 0.12.11 | 3.6 3.7 3.8 3.9 |
-| daphne | 3.0.2 | 3.6 3.7 3.8 3.9 |
-| dash | 2.0.0 | 3.6 3.7 3.8 3.9 |
-| dash-bootstrap-components | 0.13.0 | 3.6 3.7 3.8 3.9 |
-| dash-core-components | 2.0.0 | 3.6 3.7 3.8 3.9 |
-| dash-html-components | 2.0.0 | 3.6 3.7 3.8 3.9 |
-| dash-table | 5.0.0 | 3.6 3.7 3.8 3.9 |
 | dask | 2021.9.0 | 3.7 3.8 3.9 |
 | databricks-cli | 0.15.0 | 3.6 3.7 3.8 3.9 |
 | dataclasses | 0.6 | 3.7 3.8 3.9 |
@@ -438,7 +366,6 @@ which points to the latest version of the project.
 | dateparser | 1.0.0 | 3.6 3.7 3.8 3.9 |
 | datetime | 4.3 | 3.6 3.7 3.8 3.9 |
 | dateutils | 0.6.12 | 3.6 3.7 3.8 3.9 |
-| dbutils | 2.0.2 | 3.6 |
 | ddt | 1.4.2 | 3.6 3.7 3.8 3.9 |
 | debtcollector | 2.3.0 | 3.6 3.7 3.8 3.9 |
 | debugpy | 1.4.3 | 3.7 3.8 3.9 |
@@ -454,90 +381,55 @@ which points to the latest version of the project.
 | deprecated | 1.2.12 | 3.6 3.7 3.8 3.9 |
 | deprecated | 1.2.13 | 3.6 3.7 3.8 3.9 |
 | deprecation | 2.1.0 | 3.6 3.7 3.8 3.9 |
-| descartes | 1.1.0 | 3.7 3.8 3.9 |
 | diazo | 1.4.1 | 3.6 3.7 3.8 3.9 |
 | dictdiffer | 0.9.0 | 3.6 3.7 3.8 3.9 |
 | dicttoxml | 1.7.4 | 3.6 3.7 3.8 3.9 |
 | dill | 0.3.4 | 3.6 3.7 3.8 3.9 |
-| discord | 1.7.3 | 3.6 3.7 3.8 3.9 |
-| discord-py | 1.7.3 | 3.6 3.7 3.8 3.9 |
 | discover | 0.4.0 | 3.6 3.7 3.8 3.9 |
 | diskcache | 5.2.1 | 3.6 3.7 3.8 3.9 |
 | distlib | 0.3.2 | 3.6 3.7 3.8 3.9 |
-| distribute | 0.7.3 | 3.6 3.7 3.8 3.9 |
 | distributed | 2021.9.0 | 3.7 3.8 3.9 |
 | distro | 1.6.0 | 3.6 3.7 3.8 3.9 |
 | django | 3.2.7 | 3.6 3.7 3.8 3.9 |
 | django-allauth | 0.45.0 | 3.6 3.7 3.8 3.9 |
 | django-anymail | 8.4 | 3.6 3.7 3.8 3.9 |
-| django-appconf | 1.0.4 | 3.6 3.7 3.8 3.9 |
 | django-cacheops | 6.0 | 3.6 3.7 3.8 3.9 |
 | django-cache-url | 3.2.3 | 3.6 3.7 3.8 3.9 |
-| django-classy-tags | 2.0.0 | 3.6 3.7 3.8 3.9 |
 | django-cleanup | 5.2.0 | 3.6 3.7 3.8 3.9 |
-| django-cms | 3.9.0 | 3.6 3.7 3.8 3.9 |
 | djangocms-admin-style | 2.0.2 | 3.6 3.7 3.8 3.9 |
-| django-compressor | 2.4.1 | 3.6 3.7 3.8 3.9 |
-| django-cors-headers | 3.8.0 | 3.6 3.7 3.8 3.9 |
-| django-crispy-forms | 1.12.0 | 3.6 3.7 3.8 3.9 |
-| django-debug-toolbar | 3.2.2 | 3.6 3.7 3.8 3.9 |
-| django-environ | 0.7.0 | 3.6 3.7 3.8 3.9 |
 | django-extensions | 3.1.3 | 3.6 3.7 3.8 3.9 |
-| django-filer | 2.0.2 | 3.6 3.7 3.8 3.9 |
 | django-filter | 2.4.0 | 3.6 3.7 3.8 3.9 |
-| django-formtools | 2.3 | 3.6 3.7 3.8 3.9 |
-| django-js-asset | 1.2.2 | 3.6 3.7 3.8 3.9 |
 | django-modelcluster | 5.1 | 3.6 3.7 3.8 3.9 |
-| django-model-utils | 4.1.1 | 3.6 3.7 3.8 3.9 |
-| django-mptt | 0.13.3 | 3.6 3.7 3.8 3.9 |
-| django-polymorphic | 3.0.0 | 3.6 3.7 3.8 3.9 |
 | django-redis | 5.0.0 | 3.6 3.7 3.8 3.9 |
 | djangorestframework | 3.12.4 | 3.6 3.7 3.8 3.9 |
 | django-rest-passwordreset | 1.2.0 | 3.6 3.7 3.8 3.9 |
 | django-taggit | 1.5.1 | 3.6 3.7 3.8 3.9 |
 | django-treebeard | 4.5.1 | 3.6 3.7 3.8 3.9 |
 | dj-database-url | 0.5.0 | 3.6 3.7 3.8 3.9 |
-| dlib | 19.22.1 | 3.6 3.7 3.8 3.9 |
 | dlx | 1.0.4 | 3.6 3.7 3.8 3.9 |
 | dm-tree | 0.1.6 | 3.6 3.7 3.8 3.9 |
 | dnslib | 0.9.16 | 3.6 3.7 3.8 3.9 |
 | dnspython | 1.16.0 | 3.6 3.7 3.8 3.9 |
 | dnspython | 2.1.0 | 3.6 3.7 3.8 3.9 |
-| doc8 | 0.9.0 | 3.6 3.7 3.8 3.9 |
 | docker | 5.0.0 | 3.6 3.7 3.8 3.9 |
 | docker | 5.0.2 | 3.6 3.7 3.8 3.9 |
-| docker-compose | 1.29.2 | 3.6 3.7 3.8 3.9 |
 | dockerpty | 0.4.1 | 3.6 3.7 3.8 3.9 |
-| docker-py | 1.10.6 | 3.6 3.7 3.8 3.9 |
-| docker-pycreds | 0.4.0 | 3.6 3.7 3.8 3.9 |
-| docker-services-cli | 0.3.1 | 3.6 3.7 3.8 3.9 |
 | docopt | 0.6.2 | 3.6 3.7 3.8 3.9 |
-| docplex | 2.22.213 | 3.6 3.7 3.8 3.9 |
-| docstring-parser | 0.10 | 3.6 3.7 3.8 3.9 |
-| documenttemplate | 4.0 | 3.6 3.7 3.8 3.9 |
 | docutils | 0.15.2 | 3.6 3.7 3.8 3.9 |
 | docutils | 0.16 | 3.6 3.7 3.8 3.9 |
 | docutils | 0.17.1 | 3.6 3.7 3.8 3.9 |
 | docxcompose | 1.3.3 | 3.6 3.7 3.8 3.9 |
 | docxtpl | 0.12.0 | 3.6 3.7 3.8 3.9 |
 | dodgy | 0.2.1 | 3.7 3.8 3.9 |
-| dogpile-cache | 1.1.4 | 3.6 3.7 3.8 3.9 |
 | dominate | 2.6.0 | 3.6 3.7 3.8 3.9 |
-| dotmap | 1.3.24 | 3.6 3.7 3.8 3.9 |
-| dparse | 0.5.1 | 3.6 3.7 3.8 3.9 |
 | dpath | 2.0.2 | 3.6 3.7 3.8 3.9 |
 | draftjs-exporter | 2.1.7 | 3.6 3.7 3.8 3.9 |
-| dropbox | 11.19.0 | 3.6 3.7 3.8 3.9 |
 | dtw | 1.4.0 | 3.6 3.7 3.8 3.9 |
 | duckduckpy | 0.2 | 3.6 3.7 3.8 3.9 |
 | dulwich | 0.20.25 | 3.6 3.7 3.8 3.9 |
 | dynaconf | 3.1.5 | 3.6 3.7 3.8 3.9 |
-| earthengine-api | 0.1.283 | 3.6 3.7 3.8 3.9 |
 | easyprocess | 0.3 | 3.6 3.7 3.8 3.9 |
-| easy-thumbnails | 2.7.1 | 3.6 3.7 3.8 3.9 |
 | ecdsa | 0.17.0 | 3.6 3.7 3.8 3.9 |
-| ecos | 2.0.7.post1 | 3.6 3.7 3.8 3.9 |
-| editdistance | 0.5.3 | 3.6 3.7 3.8 3.9 |
 | einops | 0.3.2 | 3.6 3.7 3.8 3.9 |
 | elasticsearch | 7.14.1 | 3.6 3.7 3.8 3.9 |
 | elasticsearch-dsl | 7.4.0 | 3.6 3.7 3.8 3.9 |
@@ -547,152 +439,96 @@ which points to the latest version of the project.
 | empyrical | 0.5.5 | 3.6 3.7 3.8 3.9 |
 | entrypoints | 0.3 | 3.6 3.7 3.8 3.9 |
 | enum34 | 1.1.10 | 3.6 3.7 3.8 3.9 |
-| enum-compat | 0.0.3 | 3.6 3.7 3.8 3.9 |
 | environs | 9.3.3 | 3.6 3.7 3.8 3.9 |
-| eth-abi | 2.1.1 | 3.6 3.7 3.8 3.9 |
-| eth-account | 0.5.5 | 3.6 3.7 3.8 3.9 |
 | eth-hash | 0.3.2 | 3.6 3.7 3.8 3.9 |
-| eth-keyfile | 0.5.1 | 3.6 3.7 |
-| eth-keys | 0.3.3 | 3.6 3.7 |
-| eth-rlp | 0.2.1 | 3.6 3.7 3.8 3.9 |
 | eth-typing | 2.2.2 | 3.6 3.7 3.8 3.9 |
-| eth-utils | 1.10.0 | 3.6 3.7 3.8 3.9 |
 | et-xmlfile | 1.1.0 | 3.6 3.7 3.8 3.9 |
-| eventlet | 0.32.0 | 3.6 3.7 3.8 3.9 |
 | exception | 0.1.0 | 3.6 3.7 3.8 3.9 |
 | execnet | 1.9.0 | 3.6 3.7 3.8 3.9 |
 | exponent-server-sdk | 2.0.0 | 3.6 3.7 3.8 3.9 |
 | extensionclass | 4.5.1 | 3.6 3.7 3.8 3.9 |
 | extras | 1.0.0 | 3.6 3.7 3.8 3.9 |
 | fabric | 2.6.0 | 3.6 3.7 3.8 3.9 |
-| factory-boy | 3.2.0 | 3.6 3.7 3.8 3.9 |
 | faker | 8.12.1 | 3.6 3.7 3.8 3.9 |
 | faker | 8.13.2 | 3.6 3.7 3.8 3.9 |
 | fake-useragent | 0.1.11 | 3.6 3.7 3.8 3.9 |
 | falcon | 3.0.1 | 3.6 3.7 3.8 3.9 |
-| fancycompleter | 0.9.1 | 3.6 3.7 3.8 3.9 |
 | fastai | 2.5.2 | 3.7 3.8 3.9 |
 | fastapi | 0.68.1 | 3.6 3.7 3.8 3.9 |
 | fastavro | 1.4.4 | 3.6 3.7 3.8 3.9 |
 | fastcore | 1.3.26 | 3.6 3.7 3.8 3.9 |
 | fastdownload | 0.0.5 | 3.7 3.8 3.9 |
-| fastdtw | 0.3.4 | 3.6 3.7 3.8 3.9 |
-| fasteners | 0.16.3 | 3.6 3.7 3.8 3.9 |
-| fastjsonschema | 2.15.1 | 3.6 3.7 3.8 3.9 |
-| fastparquet | 0.7.1 | 3.7 3.8 3.9 |
 | fastprogress | 1.0.0 | 3.7 3.8 3.9 |
-| fasttext | 0.9.2 | 3.6 3.7 3.8 3.9 |
 | fb | 0.4.0 | 3.6 3.7 3.8 3.9 |
 | fdk | 0.1.36 | 3.6 3.7 3.8 3.9 |
-| feedgenerator | 1.9.2 | 3.6 3.7 3.8 3.9 |
 | feedparser | 6.0.8 | 3.6 3.7 3.8 3.9 |
-| ffmpeg-python | 0.2.0 | 3.6 3.7 3.8 3.9 |
 | filelock | 3.0.12 | 3.6 3.7 3.8 3.9 |
-| filetype | 1.0.7 | 3.6 3.7 3.8 3.9 |
-| fiona | 1.8.20 | 3.6 3.7 3.8 3.9 |
 | fire | 0.4.0 | 3.6 3.7 3.8 3.9 |
-| firebase-admin | 5.0.2 | 3.6 3.7 3.8 3.9 |
-| five-customerize | 2.0.1 | 3.6 3.7 3.8 3.9 |
 | five-intid | 1.2.6 | 3.6 3.7 3.8 3.9 |
 | five-localsitemanager | 3.2.2 | 3.6 3.7 3.8 3.9 |
-| fixtures | 3.0.0 | 3.6 3.7 3.8 3.9 |
 | flake8 | 2.3.0 | 3.7 3.8 3.9 |
 | flake8 | 3.9.2 | 3.6 3.7 3.8 3.9 |
-| flake8-black | 0.2.3 | 3.6 3.7 3.8 3.9 |
-| flake8-bugbear | 21.9.1 | 3.6 3.7 3.8 3.9 |
-| flake8-commas | 2.0.0 | 3.6 3.7 3.8 3.9 |
 | flake8-comprehensions | 3.6.1 | 3.6 3.7 3.8 3.9 |
 | flake8-docstrings | 1.6.0 | 3.6 3.7 3.8 3.9 |
 | flake8-import-order | 0.18.1 | 3.6 3.7 3.8 3.9 |
-| flake8-isort | 4.0.0 | 3.6 3.7 3.8 3.9 |
 | flake8-polyfill | 1.0.2 | 3.6 3.7 3.8 3.9 |
-| flake8-print | 4.0.0 | 3.6 3.7 3.8 3.9 |
 | flake8-quotes | 3.3.0 | 3.6 3.7 3.8 3.9 |
 | flask | 1.1.2 | 3.6 3.7 3.8 3.9 |
 | flask | 1.1.4 | 3.6 3.7 3.8 3.9 |
 | flask | 2.0.1 | 3.6 3.7 3.8 3.9 |
-| flask-admin | 1.5.8 | 3.6 3.7 3.8 3.9 |
 | flask-appbuilder | 3.3.2 | 3.6 3.7 3.8 3.9 |
 | flask-babel | 1.0.0 | 3.6 3.7 3.8 3.9 |
-| flask-babelex | 0.9.4 | 3.6 3.7 3.8 3.9 |
 | flask-caching | 1.10.1 | 3.6 3.7 3.8 3.9 |
-| flask-compress | 1.10.1 | 3.6 3.7 3.8 3.9 |
 | flask-cors | 3.0.10 | 3.6 3.7 3.8 3.9 |
 | flask-debugtoolbar | 0.11.0 | 3.6 3.7 3.8 3.9 |
-| flask-httpauth | 4.4.0 | 3.6 3.7 3.8 3.9 |
 | flask-jwt-extended | 3.25.1 | 3.6 3.7 3.8 3.9 |
 | flask-login | 0.4.1 | 3.6 3.7 3.8 3.9 |
 | flask-login | 0.5.0 | 3.6 3.7 3.8 3.9 |
-| flask-mail | 0.9.1 | 3.6 3.7 3.8 3.9 |
-| flask-marshmallow | 0.14.0 | 3.6 3.7 3.8 3.9 |
-| flask-migrate | 3.1.0 | 3.6 3.7 3.8 3.9 |
 | flask-moment | 1.0.2 | 3.6 3.7 3.8 3.9 |
 | flask-openid | 1.3.0 | 3.6 3.7 3.8 3.9 |
 | flask-pytest | 0.0.5 | 3.6 3.7 3.8 3.9 |
 | flask-rbac | 0.5.0 | 3.6 3.7 3.8 3.9 |
 | flask-restful | 0.3.9 | 3.6 3.7 3.8 3.9 |
-| flask-restplus | 0.13.0 | 3.6 3.7 3.8 3.9 |
 | flask-reverse-proxy | 0.2.0.2 | 3.6 3.7 3.8 3.9 |
-| flask-script | 2.0.6 | 3.6 3.7 3.8 3.9 |
 | flask-shell-ipython | 0.4.1 | 3.6 3.7 3.8 3.9 |
-| flask-socketio | 5.1.1 | 3.6 3.7 3.8 3.9 |
 | flask-sqlalchemy | 2.5.1 | 3.6 3.7 3.8 3.9 |
 | flask-weasyprint | 0.6 | 3.6 3.7 3.8 3.9 |
 | flask-wtf | 0.14.3 | 3.6 3.7 3.8 3.9 |
 | flask-wtf | 0.15.1 | 3.6 3.7 3.8 3.9 |
 | flatbuffers | 1.12 | 3.6 3.7 3.8 3.9 |
-| flatbuffers | 2.0 | 3.6 3.7 3.8 3.9 |
-| foliant | 1.0.12 | 3.6 3.7 3.8 3.9 |
+| flatbuffers | 2.0 | 3.7 3.8 3.9 |
 | folium | 0.12.1 | 3.6 3.7 3.8 3.9 |
 | fonttools | 4.26.2 | 3.6 3.7 3.8 3.9 |
 | formal | 0.6.3 | 3.6 3.7 3.8 3.9 |
 | fpdf | 1.7.2 | 3.6 3.7 3.8 3.9 |
-| freetype-py | 2.2.0 | 3.7 3.8 3.9 |
 | freezegun | 1.1.0 | 3.6 3.7 3.8 3.9 |
 | frozendict | 2.0.6 | 3.6 3.7 3.8 3.9 |
-| fs | 2.4.13 | 3.6 3.7 3.8 3.9 |
 | fsspec | 2021.8.1 | 3.6 3.7 3.8 3.9 |
-| ftfy | 6.0.3 | 3.6 3.7 3.8 3.9 |
 | funcsigs | 1.0.2 | 3.6 3.7 3.8 3.9 |
-| functools32 | 3.2.3-2 | 3.6 3.7 3.8 3.9 |
 | funcy | 1.16 | 3.6 3.7 3.8 3.9 |
 | furl | 2.1.2 | 3.6 3.7 3.8 3.9 |
 | furo | 2021.9.8 | 3.6 3.7 3.8 3.9 |
 | future | 0.18.2 | 3.6 3.7 3.8 3.9 |
-| future-fstrings | 1.2.0 | 3.6 3.7 3.8 3.9 |
-| futurist | 2.4.0 | 3.6 3.7 3.8 3.9 |
 | fuzzywuzzy | 0.18.0 | 3.6 3.7 3.8 3.9 |
 | gast | 0.4.0 | 3.6 3.7 3.8 3.9 |
 | gast | 0.5.2 | 3.6 3.7 3.8 3.9 |
 | gcsfs | 2021.8.1 | 3.6 3.7 3.8 3.9 |
-| gdal | 3.3.2 | 3.6 3.7 3.8 3.9 |
-| gdown | 3.13.1 | 3.6 3.7 3.8 3.9 |
 | genshi | 0.7.5 | 3.6 3.7 3.8 3.9 |
 | gensim | 4.1.0 | 3.6 3.7 3.8 3.9 |
-| geoalchemy2 | 0.9.4 | 3.6 3.7 3.8 3.9 |
-| geocoder | 1.38.1 | 3.8 3.9 |
 | geographiclib | 1.52 | 3.6 3.7 3.8 3.9 |
 | geoip2 | 4.2.0 | 3.6 3.7 3.8 3.9 |
-| geojson | 2.5.0 | 3.6 3.7 3.8 3.9 |
-| geomet | 0.2.1.post1 | 3.6 3.7 3.8 3.9 |
-| geopandas | 0.9.0 | 3.6 3.7 3.8 3.9 |
 | getdist | 1.3.2 | 3.6 3.7 3.8 3.9 |
 | gevent | 21.8.0 | 3.6 3.7 3.8 3.9 |
 | gg | 0.0.21 | 3.6 3.7 3.8 3.9 |
 | ghp-import | 2.0.1 | 3.6 3.7 3.8 3.9 |
 | gitdb | 4.0.7 | 3.6 3.7 3.8 3.9 |
-| gitdb2 | 4.0.2 | 3.6 3.7 3.8 3.9 |
-| github3-py | 2.0.0 | 3.6 3.7 3.8 3.9 |
 | gitpython | 3.1.18 | 3.6 3.7 3.8 3.9 |
 | gitpython | 3.1.20 | 3.6 3.7 3.8 3.9 |
 | gitpython | 3.1.23 | 3.7 3.8 3.9 |
 | gitpython | 3.1.24 | 3.7 3.8 3.9 |
 | glob2 | 0.7 | 3.6 3.7 3.8 3.9 |
-| gmpy2 | 2.0.8 | 3.6 3.7 3.8 3.9 |
-| google | 3.0.0 | 3.6 3.7 3.8 3.9 |
 | google-api-core | 1.31.2 | 3.6 3.7 3.8 3.9 |
 | google-api-core | 2.0.1 | 3.6 3.7 3.8 3.9 |
-| google-api-python-client | 1.12.8 | 3.6 3.7 3.8 3.9 |
 | google-api-python-client | 2.20.0 | 3.6 3.7 3.8 3.9 |
 | googleapis-common-protos | 1.53.0 | 3.6 3.7 3.8 3.9 |
 | google-auth | 1.35.0 | 3.6 3.7 3.8 3.9 |
@@ -700,122 +536,73 @@ which points to the latest version of the project.
 | google-auth | 2.1.0 | 3.6 3.7 3.8 3.9 |
 | google-auth-httplib2 | 0.1.0 | 3.6 3.7 3.8 3.9 |
 | google-auth-oauthlib | 0.4.6 | 3.6 3.7 3.8 3.9 |
-| google-cloud | 0.34.0 | 3.6 3.7 3.8 3.9 |
-| google-cloud-appengine-logging | 0.1.4 | 3.6 3.7 3.8 3.9 |
-| google-cloud-bigquery | 2.26.0 | 3.6 3.7 3.8 3.9 |
-| google-cloud-core | 2.0.0 | 3.6 3.7 3.8 3.9 |
-| google-cloud-datastore | 2.1.6 | 3.6 3.7 3.8 3.9 |
-| google-cloud-firestore | 2.3.2 | 3.6 3.7 3.8 3.9 |
-| google-cloud-logging | 2.6.0 | 3.6 3.7 3.8 3.9 |
-| google-cloud-pubsub | 2.8.0 | 3.6 3.7 3.8 3.9 |
-| google-cloud-storage | 1.42.2 | 3.6 3.7 3.8 3.9 |
 | google-crc32c | 1.1.2 | 3.6 3.7 3.8 3.9 |
 | google-pasta | 0.2.0 | 3.6 3.7 3.8 3.9 |
-| google-resumable-media | 2.0.2 | 3.6 3.7 3.8 3.9 |
-| googletrans | 3.0.0 | 3.6 3.7 3.8 3.9 |
-| gpustat | 0.6.0 | 3.6 3.7 3.8 3.9 |
 | gql | 2.0.0 | 3.6 3.7 3.8 3.9 |
 | grapheme | 0.6.0 | 3.6 3.7 3.8 3.9 |
 | graphene | 2.1.9 | 3.6 3.7 3.8 3.9 |
-| graphene-django | 2.15.0 | 3.6 3.7 3.8 3.9 |
 | graphql-core | 2.3.2 | 3.6 3.7 3.8 3.9 |
 | graphql-core | 3.1.6 | 3.6 3.7 3.8 3.9 |
 | graphql-relay | 2.0.1 | 3.6 3.7 3.8 3.9 |
 | graphviz | 0.17 | 3.6 3.7 3.8 3.9 |
 | greeking | 2.2.0 | 3.6 3.7 3.8 3.9 |
 | greenlet | 1.1.1 | 3.6 3.7 3.8 3.9 |
-| grequests | 0.6.0 | 3.6 3.7 3.8 3.9 |
-| grpc-google-iam-v1 | 0.12.3 | 3.6 3.7 3.8 3.9 |
 | grpcio | 1.39.0 | 3.6 3.7 3.8 3.9 |
 | grpcio | 1.40.0 | 3.6 3.7 3.8 3.9 |
-| grpcio-health-checking | 1.40.0 | 3.6 3.7 3.8 3.9 |
-| grpcio-tools | 1.40.0 | 3.6 3.7 3.8 3.9 |
 | gspread | 4.0.1 | 3.6 3.7 3.8 3.9 |
-| gtts | 2.2.3 | 3.6 3.7 3.8 3.9 |
 | gunicorn | 20.1.0 | 3.6 3.7 3.8 3.9 |
 | gym | 0.19.0 | 3.6 3.7 3.8 3.9 |
 | h11 | 0.12.0 | 3.6 3.7 3.8 3.9 |
-| h11 | 0.9.0 | 3.6 3.7 3.8 3.9 |
 | h2 | 3.2.0 | 3.6 3.7 3.8 3.9 |
 | h5py | 3.1.0 | 3.6 3.7 3.8 3.9 |
-| h5py | 3.2.1 | 3.7 3.8 3.9 |
 | h5py | 3.4.0 | 3.7 3.8 3.9 |
 | halo | 0.0.31 | 3.6 3.7 3.8 3.9 |
 | hdfs3 | 0.3.1 | 3.6 3.7 3.8 3.9 |
-| healpy | 1.15.0 | 3.7 3.8 3.9 |
 | heapdict | 1.0.1 | 3.7 3.8 3.9 |
-| hexbytes | 0.2.2 | 3.6 3.7 3.8 3.9 |
-| hidapi | 0.10.1 | 3.6 3.7 3.8 3.9 |
+| hexbytes | 0.2.2 | 3.8 3.9 |
 | hiredis | 2.0.0 | 3.6 3.7 3.8 3.9 |
-| holidays | 0.11.2 | 3.6 3.7 3.8 3.9 |
-| holoviews | 1.14.6 | 3.6 3.7 3.8 3.9 |
 | hpack | 3.0.0 | 3.6 3.7 3.8 3.9 |
-| hsluv | 5.0.2 | 3.7 3.8 3.9 |
-| hstspreload | 2021.9.1 | 3.6 3.7 3.8 3.9 |
 | html2text | 2020.1.16 | 3.6 3.7 3.8 3.9 |
 | html5lib | 1.1 | 3.6 3.7 3.8 3.9 |
 | httpcore | 0.13.3 | 3.6 |
 | httpcore | 0.13.6 | 3.7 3.8 3.9 |
-| httpcore | 0.9.1 | 3.6 3.7 3.8 3.9 |
 | httpexceptor | 1.4.0 | 3.6 3.7 3.8 3.9 |
 | httplib2 | 0.19.1 | 3.6 3.7 3.8 3.9 |
 | httpretty | 1.1.4 | 3.6 3.7 3.8 3.9 |
 | httptools | 0.3.0 | 3.6 3.7 3.8 3.9 |
-| httpx | 0.13.3 | 3.7 3.8 3.9 |
 | httpx | 0.19.0 | 3.6 3.7 3.8 3.9 |
-| huaweicloudsdkcore | 3.0.60 | 3.6 3.7 3.8 3.9 |
 | huggingface-hub | 0.0.16 | 3.6 3.7 3.8 3.9 |
-| huggingface-hub | 0.0.17 | 3.6 3.7 3.8 3.9 |
-| humanfriendly | 10.0 | 3.6 3.7 3.8 3.9 |
-| humanfriendly | 9.2 | 3.6 3.7 3.8 3.9 |
-| humanize | 3.11.0 | 3.6 3.7 3.8 3.9 |
 | hupper | 1.10.3 | 3.6 3.7 3.8 3.9 |
 | hvac | 0.11.0 | 3.6 3.7 3.8 3.9 |
-| hydra-core | 1.1.1 | 3.6 3.7 3.8 3.9 |
 | hyperframe | 5.2.0 | 3.6 3.7 3.8 3.9 |
 | hyperlink | 21.0.0 | 3.6 3.7 3.8 3.9 |
-| hyperopt | 0.2.5 | 3.6 3.7 3.8 3.9 |
 | hypothesis | 6.20.1 | 3.6 3.7 3.8 3.9 |
-| icalendar | 4.0.7 | 3.6 3.7 3.8 3.9 |
 | identify | 2.2.14 | 3.7 3.8 3.9 |
 | idna | 2.10 | 3.6 3.7 3.8 3.9 |
 | idna | 3.2 | 3.6 3.7 3.8 3.9 |
 | idna-ssl | 1.1.0 | 3.6 |
 | ifaddr | 0.1.7 | 3.6 3.7 3.8 3.9 |
-| ijson | 3.1.4 | 3.6 3.7 3.8 3.9 |
 | imageio | 2.9.0 | 3.6 3.7 3.8 3.9 |
-| imageio-ffmpeg | 0.4.5 | 3.6 3.7 3.8 3.9 |
 | imagesize | 1.2.0 | 3.6 3.7 3.8 3.9 |
 | imapclient | 2.2.0 | 3.6 3.7 3.8 3.9 |
-| imbalanced-learn | 0.8.0 | 3.6 3.7 3.8 3.9 |
-| imgaug | 0.4.0 | 3.6 3.7 3.8 3.9 |
 | immutables | 0.16 | 3.6 |
-| importlib-metadata | 1.7.0 | 3.6 3.7 |
 | importlib-metadata | 4.8.1 | 3.6 3.7 3.8 3.9 |
 | importlib-resources | 1.5.0 | 3.6 3.7 3.8 3.9 |
 | importlib-resources | 3.3.1 | 3.6 |
 | importlib-resources | 5.2.2 | 3.6 3.7 3.8 |
-| imutils | 0.5.4 | 3.6 3.7 3.8 3.9 |
 | incremental | 21.3.0 | 3.6 3.7 3.8 3.9 |
 | inflect | 5.3.0 | 3.6 3.7 3.8 3.9 |
 | inflection | 0.5.1 | 3.6 3.7 3.8 3.9 |
 | influxdb | 5.3.1 | 3.6 3.7 3.8 3.9 |
 | iniconfig | 1.1.1 | 3.6 3.7 3.8 3.9 |
-| inquirer | 2.7.0 | 3.6 3.7 3.8 3.9 |
-| intake | 0.6.3 | 3.7 3.8 3.9 |
 | int-date | 0.1.8 | 3.6 3.7 3.8 3.9 |
-| intervaltree | 3.1.0 | 3.6 3.7 3.8 3.9 |
 | invoke | 1.6.0 | 3.6 3.7 3.8 3.9 |
 | ipaddress | 1.0.23 | 3.6 3.7 3.8 3.9 |
 | ipdb | 0.13.9 | 3.6 3.7 3.8 3.9 |
 | ipfshttpclient | 0.8.0a2 | 3.8 3.9 |
-| ipy | 1.01 | 3.6 3.7 3.8 3.9 |
-| ipykernel | 5.5.5 | 3.6 |
-| ipykernel | 6.4.1 | 3.7 3.8 3.9 |
 | ipython | 7.16.1 | 3.6 |
 | ipython | 7.27.0 | 3.7 3.8 3.9 |
 | ipython-genutils | 0.2.0 | 3.6 3.7 3.8 3.9 |
-| ipywidgets | 7.6.5 | 3.6 3.7 3.8 3.9 |
 | iso8601 | 0.1.12 | 3.6 3.7 3.8 3.9 |
 | iso8601 | 0.1.16 | 3.6 3.7 3.8 3.9 |
 | isodate | 0.6.0 | 3.6 3.7 3.8 3.9 |
@@ -824,42 +611,25 @@ which points to the latest version of the project.
 | isort | 5.9.3 | 3.7 3.8 3.9 |
 | itemadapter | 0.4.0 | 3.6 3.7 3.8 3.9 |
 | itemloaders | 1.0.4 | 3.6 3.7 3.8 3.9 |
-| itk | 5.2.1.post1 | 3.6 3.7 3.8 3.9 |
-| itk-core | 5.2.1.post1 | 3.6 3.7 3.8 3.9 |
-| itk-filtering | 5.2.1.post1 | 3.6 3.7 3.8 3.9 |
-| itk-io | 5.2.1.post1 | 3.6 3.7 3.8 3.9 |
-| itk-numerics | 5.2.1.post1 | 3.6 3.7 3.8 3.9 |
-| itk-registration | 5.2.1.post1 | 3.6 3.7 3.8 3.9 |
-| itk-segmentation | 5.2.1.post1 | 3.6 3.7 3.8 3.9 |
 | itsdangerous | 1.1.0 | 3.6 3.7 3.8 3.9 |
 | itsdangerous | 2.0.1 | 3.6 3.7 3.8 3.9 |
-| itypes | 1.2.0 | 3.6 3.7 3.8 3.9 |
 | janus | 0.6.1 | 3.6 3.7 3.8 3.9 |
-| jaraco-classes | 3.2.1 | 3.6 3.7 3.8 3.9 |
-| jaraco-collections | 3.4.0 | 3.6 3.7 3.8 3.9 |
 | jaraco-functools | 3.3.0 | 3.6 3.7 3.8 3.9 |
-| jaraco-packaging | 8.2.1 | 3.6 3.7 3.8 3.9 |
-| jaraco-text | 3.5.1 | 3.6 3.7 3.8 3.9 |
 | javaproperties | 0.8.0 | 3.6 3.7 3.8 3.9 |
-| jax | 0.2.20 | 3.7 3.8 3.9 |
 | jaxlib | 0.1.71 | 3.7 3.8 3.9 |
 | jdcal | 1.4.1 | 3.6 3.7 3.8 3.9 |
 | jedi | 0.18.0 | 3.6 3.7 3.8 3.9 |
 | jeepney | 0.7.1 | 3.6 3.7 3.8 3.9 |
-| jellyfish | 0.8.8 | 3.6 3.7 3.8 3.9 |
 | jieba | 0.42.1 | 3.6 3.7 3.8 3.9 |
 | jinja2 | 2.11.3 | 3.6 3.7 3.8 3.9 |
 | jinja2 | 3.0.1 | 3.6 3.7 3.8 3.9 |
 | jinja2-time | 0.2.0 | 3.6 3.7 3.8 3.9 |
 | jinja2-webpack | 0.2.0 | 3.6 3.7 3.8 3.9 |
 | jinxed | 1.1.0 | 3.6 3.7 3.8 3.9 |
-| jira | 3.0.1 | 3.6 3.7 3.8 3.9 |
 | jmespath | 0.10.0 | 3.6 3.7 3.8 3.9 |
 | joblib | 1.0.1 | 3.6 3.7 3.8 3.9 |
 | josepy | 1.9.0 | 3.6 3.7 3.8 3.9 |
-| jpype1 | 1.3.0 | 3.6 3.7 3.8 3.9 |
-| js2py | 0.71 | 3.6 3.7 3.8 3.9 |
-| jsii | 0.13.4 | 3.6 3.7 3.8 3.9 |
+| jsii | 0.13.4 | 3.7 3.8 3.9 |
 | jsii | 1.34.0 | 3.6 3.7 3.8 3.9 |
 | jsmin | 2.2.2 | 3.6 3.7 3.8 3.9 |
 | json5 | 0.9.6 | 3.7 3.8 3.9 |
@@ -867,47 +637,24 @@ which points to the latest version of the project.
 | jsonfield | 3.1.0 | 3.6 3.7 3.8 3.9 |
 | jsonpatch | 1.32 | 3.6 3.7 3.8 3.9 |
 | jsonpath-ng | 1.5.3 | 3.6 3.7 3.8 3.9 |
-| jsonpath-rw | 1.4.0 | 3.6 3.7 3.8 3.9 |
 | jsonpickle | 2.0.0 | 3.6 3.7 3.8 3.9 |
 | jsonpointer | 2.1 | 3.6 3.7 3.8 3.9 |
 | jsonschema | 2.6.0 | 3.6 3.7 3.8 3.9 |
 | jsonschema | 3.2.0 | 3.6 3.7 3.8 3.9 |
 | junit-xml | 1.9 | 3.6 3.7 3.8 3.9 |
-| jupyter | 1.0.0 | 3.6 3.7 3.8 3.9 |
 | jupyter-alabaster-theme | 0.4.0 | 3.6 3.7 3.8 3.9 |
-| jupyter-client | 6.1.13 | 3.6 |
-| jupyter-client | 7.0.3 | 3.7 3.8 3.9 |
-| jupyter-console | 6.4.0 | 3.6 3.7 3.8 3.9 |
-| jupyter-contrib-core | 0.3.3 | 3.6 3.7 3.8 3.9 |
-| jupyter-contrib-nbextensions | 0.5.1 | 3.6 3.7 3.8 3.9 |
-| jupyter-core | 4.8.1 | 3.6 3.7 3.8 3.9 |
-| jupyterhub | 1.4.2 | 3.6 3.7 3.8 3.9 |
-| jupyterlab | 3.1.12 | 3.7 3.8 3.9 |
 | jupyterlab-pygments | 0.1.2 | 3.6 3.7 3.8 3.9 |
 | jupyterlab-widgets | 1.0.1 | 3.6 3.7 3.8 3.9 |
 | jupyterlab-widgets | 1.0.2 | 3.6 3.7 3.8 3.9 |
-| jupyter-server | 1.11.0 | 3.7 3.8 3.9 |
-| jupyter-sphinx | 0.3.2 | 3.6 3.7 3.8 3.9 |
-| jupyter-telemetry | 0.1.0 | 3.6 3.7 3.8 3.9 |
-| jupytext | 1.12.0 | 3.6 3.7 3.8 3.9 |
 | jwcrypto | 1.0 | 3.6 3.7 3.8 3.9 |
-| kazoo | 2.8.0 | 3.6 3.7 3.8 3.9 |
-| keras | 2.6.0 | 3.6 3.7 3.8 3.9 |
-| keras-applications | 1.0.8 | 3.6 3.7 3.8 3.9 |
+| keras | 2.6.0 | 3.7 3.8 3.9 |
 | keras-preprocessing | 1.1.2 | 3.6 3.7 3.8 3.9 |
 | keyboard | 0.13.5 | 3.6 3.7 3.8 3.9 |
-| keyring | 21.8.0 | 3.6 3.7 3.8 3.9 |
 | keyring | 23.1.0 | 3.6 3.7 3.8 3.9 |
 | keyring | 23.2.1 | 3.6 3.7 3.8 3.9 |
-| keyrings-alt | 4.1.0 | 3.6 3.7 3.8 3.9 |
-| keystoneauth1 | 4.4.0 | 3.6 3.7 3.8 3.9 |
-| keystonemiddleware | 9.3.0 | 3.6 3.7 3.8 3.9 |
-| kivy | 2.0.0 | 3.6 3.7 3.8 3.9 |
-| kivy-garden | 0.1.4 | 3.6 3.7 3.8 3.9 |
 | kiwisolver | 1.3.1 | 3.6 |
 | kiwisolver | 1.3.2 | 3.7 3.8 3.9 |
 | knack | 0.8.2 | 3.6 3.7 3.8 3.9 |
-| kombu | 4.6.11 | 3.6 3.7 3.8 3.9 |
 | kombu | 5.1.0 | 3.6 3.7 3.8 3.9 |
 | kubernetes | 18.20.0 | 3.6 3.7 3.8 3.9 |
 | l18n | 2020.6.1 | 3.6 3.7 3.8 3.9 |
@@ -919,40 +666,30 @@ which points to the latest version of the project.
 | lazyutils | 0.3.3 | 3.6 3.7 3.8 3.9 |
 | ldap3 | 2.9.1 | 3.6 3.7 3.8 3.9 |
 | libcst | 0.3.20 | 3.6 3.7 3.8 3.9 |
-| libsass | 0.21.0 | 3.6 3.7 3.8 3.9 |
 | lightgbm | 3.2.1 | 3.6 3.7 3.8 3.9 |
 | linecache2 | 1.0.0 | 3.6 3.7 3.8 3.9 |
 | livereload | 2.6.3 | 3.6 3.7 3.8 3.9 |
 | lizard | 1.17.9 | 3.6 3.7 3.8 3.9 |
 | llvmlite | 0.36.0 | 3.6 3.7 3.8 3.9 |
 | llvmlite | 0.37.0 | 3.7 3.8 3.9 |
-| lmdb | 1.2.1 | 3.6 3.7 3.8 3.9 |
-| lmfit | 1.0.2 | 3.6 3.7 3.8 3.9 |
 | lob | 4.2.0 | 3.6 3.7 3.8 3.9 |
 | localstack-client | 1.23 | 3.6 3.7 3.8 3.9 |
 | locket | 0.2.1 | 3.7 3.8 3.9 |
 | lockfile | 0.12.2 | 3.6 3.7 3.8 3.9 |
 | logbook | 1.5.3 | 3.6 3.7 3.8 3.9 |
-| logging | 0.4.9.6 | 3.6 3.7 3.8 3.9 |
 | log-symbols | 0.0.14 | 3.6 3.7 3.8 3.9 |
 | loguru | 0.5.3 | 3.6 3.7 3.8 3.9 |
 | logzero | 1.7.0 | 3.6 3.7 3.8 3.9 |
 | lru-dict | 1.1.7 | 3.8 3.9 |
-| luigi | 3.0.3 | 3.7 |
 | lxml | 4.6.3 | 3.6 3.7 3.8 3.9 |
 | lz4 | 3.1.3 | 3.6 3.7 3.8 3.9 |
-| m2crypto | 0.38.0 | 3.6 3.7 3.8 3.9 |
 | m2r | 0.2.1 | 3.6 3.7 3.8 3.9 |
-| m2r2 | 0.3.1 | 3.6 3.7 3.8 3.9 |
-| m9s-trytond | 5.2.28 | 3.6 3.7 3.8 3.9 |
-| magicgui | 0.2.11 | 3.7 3.8 3.9 |
 | mailchimp-marketing | 3.0.59 | 3.6 3.7 3.8 3.9 |
 | mako | 1.1.5 | 3.6 3.7 3.8 3.9 |
 | mandrill-really-maintained | 1.2.4 | 3.6 3.7 3.8 3.9 |
 | markdown | 3.3.4 | 3.6 3.7 3.8 3.9 |
 | markdown2 | 2.4.1 | 3.6 3.7 3.8 3.9 |
 | markdown-checklist | 0.4.3 | 3.6 3.7 3.8 3.9 |
-| markdown-it-py | 1.1.0 | 3.6 3.7 3.8 3.9 |
 | markupsafe | 1.1.1 | 3.6 3.7 3.8 3.9 |
 | markupsafe | 2.0.1 | 3.6 3.7 3.8 3.9 |
 | marshmallow | 3.13.0 | 3.6 3.7 3.8 3.9 |
@@ -967,15 +704,11 @@ which points to the latest version of the project.
 | matplotlib-inline | 0.1.3 | 3.7 3.8 3.9 |
 | maturin | 0.11.3 | 3.6 3.7 3.8 3.9 |
 | maxminddb | 2.0.3 | 3.6 3.7 3.8 3.9 |
-| maya | 0.6.1 | 3.6 3.7 3.8 3.9 |
 | mccabe | 0.6.1 | 3.6 3.7 3.8 3.9 |
-| mdit-py-plugins | 0.2.8 | 3.6 3.7 3.8 3.9 |
 | mdp | 3.6 | 3.6 3.7 3.8 3.9 |
 | mechanicalsoup | 1.1.0 | 3.6 3.7 3.8 3.9 |
 | memoize | 1.0.0 | 3.6 3.7 3.8 3.9 |
-| memory-profiler | 0.58.0 | 3.6 3.7 3.8 3.9 |
 | mergedeep | 1.3.4 | 3.6 3.7 3.8 3.9 |
-| meshio | 5.0.0 | 3.7 3.8 3.9 |
 | metaloaders | 20.9.2566091 | 3.6 3.7 3.8 3.9 |
 | mimeparse | 0.1.3 | 3.6 3.7 3.8 3.9 |
 | minio | 7.1.0 | 3.6 3.7 3.8 3.9 |
@@ -984,33 +717,20 @@ which points to the latest version of the project.
 | mistune | 0.8.4 | 3.6 3.7 3.8 3.9 |
 | mixpanel | 4.9.0 | 3.6 3.7 3.8 3.9 |
 | mkdocs | 1.2.2 | 3.6 3.7 3.8 3.9 |
-| mkdocs-autorefs | 0.2.1 | 3.6 3.7 3.8 3.9 |
-| mkdocstrings | 0.15.2 | 3.6 3.7 3.8 3.9 |
-| mlflow | 1.20.2 | 3.6 3.7 3.8 3.9 |
-| mmh3 | 3.0.0 | 3.6 3.7 3.8 3.9 |
-| mne | 0.23.4 | 3.6 3.7 3.8 3.9 |
-| mnemonic | 0.20 | 3.6 3.7 3.8 3.9 |
 | mock | 4.0.3 | 3.6 3.7 3.8 3.9 |
 | mockup | 3.2.6 | 3.6 3.7 3.8 3.9 |
 | mongoengine | 0.23.1 | 3.6 3.7 3.8 3.9 |
-| monotonic | 1.6 | 3.6 3.7 3.8 3.9 |
 | monty | 2021.8.17 | 3.7 3.8 3.9 |
-| mopidy | 3.2.0 | 3.7 3.8 3.9 |
 | more-itertools | 8.10.0 | 3.6 3.7 3.8 3.9 |
 | more-itertools | 8.4.0 | 3.6 3.7 3.8 3.9 |
 | more-itertools | 8.8.0 | 3.6 3.7 3.8 3.9 |
 | more-itertools | 8.9.0 | 3.6 3.7 3.8 3.9 |
 | moto | 2.2.6 | 3.6 3.7 3.8 3.9 |
 | motor | 2.5.1 | 3.6 3.7 3.8 3.9 |
-| mouseinfo | 0.1.3 | 3.6 3.7 3.8 3.9 |
-| moviepy | 1.0.3 | 3.6 3.7 3.8 3.9 |
-| mpi4py | 3.1.1 | 3.6 3.7 3.8 3.9 |
 | mpmath | 1.2.1 | 3.6 3.7 3.8 3.9 |
 | mrcfile | 1.3.0 | 3.6 3.7 3.8 3.9 |
 | msal | 1.14.0 | 3.6 3.7 3.8 3.9 |
-| msal-extensions | 0.3.0 | 3.6 3.7 3.8 3.9 |
 | msgpack | 1.0.2 | 3.6 3.7 3.8 3.9 |
-| msgpack-python | 0.5.6 | 3.6 3.7 3.8 3.9 |
 | msprime | 1.0.2 | 3.7 3.8 3.9 |
 | msrest | 0.6.21 | 3.6 3.7 3.8 3.9 |
 | msrestazure | 0.6.4 | 3.6 3.7 3.8 3.9 |
@@ -1018,132 +738,67 @@ which points to the latest version of the project.
 | multidict | 5.1.0 | 3.6 3.7 3.8 3.9 |
 | multimapping | 4.1 | 3.6 3.7 3.8 3.9 |
 | multipart | 0.2.4 | 3.6 3.7 3.8 3.9 |
-| multipledispatch | 0.6.0 | 3.6 3.7 3.8 3.9 |
 | multiprocess | 0.70.12.2 | 3.6 3.7 3.8 3.9 |
-| multitasking | 0.0.9 | 3.6 3.7 3.8 3.9 |
-| munch | 2.5.0 | 3.6 3.7 3.8 3.9 |
 | murmurhash | 1.0.5 | 3.6 3.7 3.8 3.9 |
 | mutagen | 1.45.1 | 3.6 3.7 3.8 3.9 |
 | mypy | 0.910 | 3.6 3.7 3.8 3.9 |
-| mypy-boto3 | 1.18.44 | 3.7 3.8 3.9 |
 | mypy-extensions | 0.4.3 | 3.6 3.7 3.8 3.9 |
-| mysql-connector | 2.2.9 | 3.6 3.7 3.8 3.9 |
-| mysql-connector-python | 8.0.26 | 3.6 3.7 3.8 3.9 |
-| myst-parser | 0.15.2 | 3.6 3.7 3.8 3.9 |
-| nameko | 2.13.0 | 3.6 3.7 3.8 3.9 |
-| napari | 0.4.11 | 3.7 3.8 3.9 |
-| napari-console | 0.0.4 | 3.7 3.8 3.9 |
-| napari-plugin-engine | 0.2.0 | 3.7 3.8 3.9 |
-| napari-svg | 0.1.5 | 3.7 3.8 3.9 |
 | natsort | 7.1.1 | 3.6 3.7 3.8 3.9 |
-| nbclient | 0.5.1 | 3.6 |
-| nbclient | 0.5.4 | 3.7 3.8 3.9 |
-| nbconvert | 6.0.7 | 3.6 |
-| nbconvert | 6.1.0 | 3.7 3.8 3.9 |
-| nbformat | 5.1.3 | 3.6 3.7 3.8 3.9 |
-| nbsphinx | 0.8.7 | 3.6 3.7 3.8 3.9 |
-| nbsphinx-link | 1.3.0 | 3.6 3.7 3.8 3.9 |
 | nbval | 0.9.6 | 3.6 3.7 3.8 3.9 |
-| ndg-httpsclient | 0.5.1 | 3.6 3.7 3.8 3.9 |
 | nest-asyncio | 1.5.1 | 3.6 3.7 3.8 3.9 |
 | netaddr | 0.8.0 | 3.6 3.7 3.8 3.9 |
-| netcdf4 | 1.5.7 | 3.6 3.7 3.8 3.9 |
 | netifaces | 0.11.0 | 3.6 3.7 3.8 3.9 |
-| netmiko | 3.4.0 | 3.6 3.7 3.8 3.9 |
-| netron | 5.2.2 | 3.6 3.7 3.8 3.9 |
 | networkx | 2.5.1 | 3.6 |
 | networkx | 2.6.2 | 3.7 3.8 3.9 |
 | networkx | 2.6.3 | 3.7 3.8 3.9 |
 | newick | 1.3.0 | 3.7 3.8 3.9 |
 | newrelic | 6.8.1.164 | 3.6 3.7 3.8 3.9 |
 | nibabel | 3.2.1 | 3.6 3.7 3.8 3.9 |
-| nilearn | 0.8.1 | 3.6 3.7 3.8 3.9 |
 | nltk | 3.6.2 | 3.6 3.7 3.8 3.9 |
 | nodeenv | 1.6.0 | 3.7 3.8 3.9 |
 | nose | 1.3.7 | 3.6 3.7 3.8 3.9 |
-| nose2 | 0.10.0 | 3.6 3.7 3.8 3.9 |
 | nose-test-select | 0.3 | 3.6 3.7 3.8 3.9 |
 | nosexcover | 1.0.11 | 3.6 3.7 3.8 3.9 |
-| notebook | 6.4.4 | 3.6 3.7 3.8 3.9 |
-| nox | 2021.6.12 | 3.6 3.7 3.8 3.9 |
-| ntc-templates | 2.3.2 | 3.6 3.7 3.8 3.9 |
-| ntlm-auth | 1.5.0 | 3.6 3.7 3.8 3.9 |
 | nuitka | 0.6.16.4 | 3.6 3.7 3.8 3.9 |
-| numba | 0.53.1 | 3.6 3.7 3.8 3.9 |
-| numba | 0.54.0 | 3.7 3.8 3.9 |
-| numexpr | 2.7.3 | 3.6 3.7 3.8 3.9 |
 | numpy | 1.19.5 | 3.6 3.7 3.8 3.9 |
 | numpy | 1.20.3 | 3.7 3.8 3.9 |
 | numpy | 1.21.2 | 3.7 3.8 3.9 |
 | numpydoc | 1.1.0 | 3.6 3.7 3.8 3.9 |
-| nvidia-ml-py3 | 7.352.0 | 3.6 3.7 3.8 3.9 |
-| oauth2 | 1.9.0.post1 | 3.6 3.7 3.8 3.9 |
 | oauth2client | 4.1.3 | 3.6 3.7 3.8 3.9 |
 | oauthlib | 3.1.1 | 3.6 3.7 3.8 3.9 |
 | olefile | 0.46 | 3.6 3.7 3.8 3.9 |
-| omegaconf | 2.1.1 | 3.6 3.7 3.8 3.9 |
 | on-http-redfish-1-0 | 1.0.9 | 3.6 3.7 3.8 3.9 |
-| onnx | 1.10.1 | 3.6 3.7 3.8 3.9 |
-| onnxruntime | 1.8.1 | 3.6 3.7 3.8 3.9 |
 | openapi-schema-validator | 0.1.5 | 3.6 3.7 3.8 3.9 |
-| openapi-spec-validator | 0.3.1 | 3.6 3.7 3.8 3.9 |
-| opencensus | 0.7.13 | 3.6 3.7 3.8 3.9 |
-| opencensus-context | 0.1.2 | 3.6 3.7 3.8 3.9 |
 | opencl4py | 1.5.1 | 3.6 3.7 3.8 3.9 |
-| opencv-contrib-python | 4.5.3.56 | 3.7 3.8 3.9 |
-| opencv-python | 4.5.2.54 | 3.6 |
 | opencv-python | 4.5.3.56 | 3.7 3.8 3.9 |
 | opencv-python-headless | 4.5.2.54 | 3.6 |
 | opencv-python-headless | 4.5.3.56 | 3.7 3.8 3.9 |
 | openpyxl | 3.0.7 | 3.6 3.7 3.8 3.9 |
-| openstacksdk | 0.59.0 | 3.6 3.7 3.8 3.9 |
-| opentelemetry-api | 1.5.0 | 3.6 3.7 3.8 3.9 |
-| opentelemetry-instrumentation | 0.24b0 | 3.6 3.7 3.8 3.9 |
-| opentelemetry-sdk | 1.5.0 | 3.6 3.7 3.8 3.9 |
-| opentracing | 2.4.0 | 3.6 3.7 3.8 3.9 |
 | opt-einsum | 3.3.0 | 3.6 3.7 3.8 3.9 |
 | optuna | 2.9.1 | 3.6 3.7 3.8 3.9 |
-| ordereddict | 1.1 | 3.6 3.7 3.8 3.9 |
 | orderedmultidict | 1.0.1 | 3.6 3.7 3.8 3.9 |
 | ordered-set | 4.0.2 | 3.6 3.7 3.8 3.9 |
 | orjson | 3.6.3 | 3.7 3.8 3.9 |
-| osc-lib | 2.4.2 | 3.6 3.7 3.8 3.9 |
-| oscrypto | 1.2.1 | 3.6 3.7 3.8 3.9 |
-| oslo-cache | 2.8.1 | 3.6 3.7 3.8 3.9 |
 | oslo-concurrency | 4.4.1 | 3.6 3.7 3.8 3.9 |
 | oslo-config | 8.7.1 | 3.6 3.7 3.8 3.9 |
 | oslo-context | 3.3.1 | 3.6 3.7 3.8 3.9 |
-| oslo-db | 11.0.0 | 3.6 3.7 3.8 3.9 |
 | oslo-i18n | 5.1.0 | 3.6 3.7 3.8 3.9 |
 | oslo-log | 4.6.0 | 3.6 3.7 3.8 3.9 |
-| oslo-messaging | 12.9.1 | 3.6 3.7 3.8 3.9 |
-| oslo-metrics | 0.3.0 | 3.6 3.7 3.8 3.9 |
-| oslo-policy | 3.8.2 | 3.6 3.7 3.8 3.9 |
 | oslo-serialization | 4.2.0 | 3.6 3.7 3.8 3.9 |
-| oslo-service | 2.6.0 | 3.6 3.7 3.8 3.9 |
 | oslosphinx | 4.18.0 | 3.6 3.7 3.8 3.9 |
 | oslo-utils | 4.10.0 | 3.6 3.7 3.8 3.9 |
-| oss2 | 2.15.0 | 3.6 3.7 3.8 3.9 |
-| os-service-types | 1.7.0 | 3.6 3.7 3.8 3.9 |
 | outcome | 1.1.0 | 3.6 3.7 3.8 3.9 |
 | oyaml | 1.0 | 3.6 3.7 3.8 3.9 |
-| packaging | 20.9 | 3.6 3.7 3.8 3.9 |
 | packaging | 21.0 | 3.6 3.7 3.8 3.9 |
-| paho-mqtt | 1.5.1 | 3.6 3.7 3.8 3.9 |
-| palettable | 3.3.0 | 3.7 3.8 3.9 |
-| pamela | 1.0.0 | 3.6 3.7 3.8 3.9 |
-| pamqp | 2.3.0 | 3.6 3.7 3.8 3.9 |
 | pandas | 0.25.3 | 3.6 |
 | pandas | 1.1.5 | 3.7 |
 | pandas | 1.3.2 | 3.8 3.9 |
 | pandas | 1.3.3 | 3.8 3.9 |
 | pandas-datareader | 0.10.0 | 3.6 3.7 3.8 3.9 |
-| pandoc | 1.1.0 | 3.6 3.7 3.8 3.9 |
 | pandocfilters | 1.4.3 | 3.6 3.7 3.8 3.9 |
 | pandocfilters | 1.5.0 | 3.6 3.7 3.8 3.9 |
 | panel | 0.12.1 | 3.6 |
 | panel | 0.12.3 | 3.7 3.8 3.9 |
-| papermill | 2.3.3 | 3.6 3.7 3.8 3.9 |
 | para | 0.0.8 | 3.6 3.7 3.8 3.9 |
 | param | 1.11.1 | 3.6 3.7 3.8 3.9 |
 | parameterized | 0.8.1 | 3.6 3.7 3.8 3.9 |
@@ -1151,34 +806,25 @@ which points to the latest version of the project.
 | parse | 1.19.0 | 3.6 3.7 3.8 3.9 |
 | parsedatetime | 2.6 | 3.6 3.7 3.8 3.9 |
 | parsel | 1.6.0 | 3.6 3.7 3.8 3.9 |
-| parse-type | 0.5.2 | 3.6 3.7 3.8 3.9 |
-| parsimonious | 0.8.1 | 3.6 3.7 3.8 3.9 |
+| parsimonious | 0.8.1 | 3.8 3.9 |
 | parso | 0.8.2 | 3.6 3.7 3.8 3.9 |
 | partd | 1.2.0 | 3.7 3.8 3.9 |
 | passlib | 1.7.4 | 3.6 3.7 3.8 3.9 |
 | paste | 3.5.0 | 3.6 3.7 3.8 3.9 |
 | pastedeploy | 2.1.1 | 3.6 3.7 3.8 3.9 |
 | pastel | 0.1.1 | 3.6 3.7 3.8 3.9 |
-| pastel | 0.2.1 | 3.6 3.7 3.8 3.9 |
 | path | 16.2.0 | 3.6 3.7 3.8 3.9 |
 | pathlib | 1.0.1 | 3.6 3.7 3.8 3.9 |
 | pathlib2 | 2.3.6 | 3.6 3.7 3.8 3.9 |
 | pathos | 0.2.8 | 3.6 3.7 3.8 3.9 |
-| path-py | 12.5.0 | 3.6 3.7 3.8 3.9 |
 | pathspec | 0.9.0 | 3.6 3.7 3.8 3.9 |
 | pathtools | 0.1.2 | 3.6 3.7 3.8 3.9 |
-| pathvalidate | 2.4.1 | 3.6 3.7 3.8 3.9 |
 | pathy | 0.6.0 | 3.6 3.7 3.8 3.9 |
 | patsy | 0.5.1 | 3.6 3.7 3.8 3.9 |
 | pbr | 5.4.5 | 3.6 3.7 3.8 3.9 |
 | pbr | 5.6.0 | 3.6 3.7 3.8 3.9 |
-| pdbpp | 0.10.3 | 3.6 3.7 3.8 3.9 |
-| pdf2image | 1.16.0 | 3.6 3.7 3.8 3.9 |
-| pdfminer-six | 20201018 | 3.6 3.7 3.8 3.9 |
-| pdoc3 | 0.10.0 | 3.6 3.7 3.8 3.9 |
 | peewee | 3.14.4 | 3.6 3.7 3.8 3.9 |
 | pefile | 2021.9.3 | 3.6 3.7 3.8 3.9 |
-| pelican | 4.6.0 | 3.6 3.7 3.8 3.9 |
 | pendulum | 2.1.2 | 3.6 3.7 3.8 3.9 |
 | pep517 | 0.11.0 | 3.6 3.7 3.8 3.9 |
 | pep562 | 1.1 | 3.6 |
@@ -1199,8 +845,6 @@ which points to the latest version of the project.
 | pip | 21.2.4 |  |
 | pip-check | 2.6 | 3.6 3.7 3.8 3.9 |
 | pip-check-reqs | 2.3.0 | 3.6 3.7 3.8 3.9 |
-| pipenv | 2021.5.29 | 3.6 3.7 3.8 3.9 |
-| pip-tools | 6.2.0 | 3.6 3.7 3.8 3.9 |
 | pip-upgrader | 1.4.15 | 3.6 3.7 3.8 3.9 |
 | pkginfo | 1.7.1 | 3.6 3.7 3.8 3.9 |
 | plac | 1.3.3 | 3.6 3.7 3.8 3.9 |
@@ -1208,114 +852,25 @@ which points to the latest version of the project.
 | plaster | 1.0 | 3.6 3.7 3.8 3.9 |
 | plaster-pastedeploy | 0.7 | 3.6 3.7 3.8 3.9 |
 | platformdirs | 2.3.0 | 3.6 3.7 3.8 3.9 |
-| playsound | 1.3.0 | 3.6 3.7 3.8 3.9 |
 | plexauth | 0.0.6 | 3.6 3.7 3.8 3.9 |
-| plone | 5.2.5 | 3.6 3.7 3.8 3.9 |
-| plone-alterego | 1.1.5 | 3.6 3.7 3.8 3.9 |
-| plone-api | 1.11.0 | 3.6 3.7 3.8 3.9 |
-| plone-app-caching | 2.1.0 | 3.6 3.7 3.8 3.9 |
-| plone-app-content | 3.8.8 | 3.6 3.7 3.8 3.9 |
-| plone-app-content | 4.0.0a5 | 3.6 3.7 3.8 3.9 |
-| plone-app-contentlisting | 2.0.4 | 3.6 3.7 3.8 3.9 |
-| plone-app-contentmenu | 2.3.4 | 3.6 3.7 3.8 3.9 |
-| plone-app-contentrules | 4.1.6 | 3.6 3.7 3.8 3.9 |
-| plone-app-contenttypes | 2.2.2 | 3.6 3.7 3.8 3.9 |
-| plone-app-customerize | 1.3.11 | 3.6 3.7 3.8 3.9 |
-| plone-app-dexterity | 2.6.9 | 3.6 3.7 3.8 3.9 |
-| plone-app-discussion | 3.4.4 | 3.6 3.7 3.8 3.9 |
-| plone-app-event | 4.0.0a5 | 3.6 3.7 3.8 3.9 |
-| plone-app-i18n | 3.0.6 | 3.6 3.7 3.8 3.9 |
 | plone-app-intid | 1.1.4 | 3.6 3.7 3.8 3.9 |
-| plone-app-layout | 3.4.6 | 3.6 3.7 3.8 3.9 |
-| plone-app-layout | 4.0.0a3 | 3.6 3.7 3.8 3.9 |
-| plone-app-linkintegrity | 3.4.1 | 3.6 3.7 3.8 3.9 |
-| plone-app-locales | 5.1.29 | 3.6 3.7 3.8 3.9 |
-| plone-app-lockingbehavior | 1.0.7 | 3.6 3.7 3.8 3.9 |
-| plone-app-multilingual | 5.6.3 | 3.6 3.7 3.8 3.9 |
-| plone-app-portlets | 4.4.7 | 3.6 3.7 3.8 3.9 |
-| plone-app-querystring | 1.4.15 | 3.6 3.7 3.8 3.9 |
-| plone-app-redirector | 2.2.1 | 3.6 3.7 3.8 3.9 |
-| plone-app-registry | 1.7.9 | 3.6 3.7 3.8 3.9 |
-| plone-app-registry | 2.0.0a4 | 3.6 3.7 3.8 3.9 |
-| plone-app-relationfield | 2.0.3 | 3.6 3.7 3.8 3.9 |
-| plone-app-testing | 6.1.9 | 3.6 3.7 3.8 3.9 |
-| plone-app-textfield | 1.3.5 | 3.6 3.7 3.8 3.9 |
-| plone-app-theming | 4.1.7 | 3.6 3.7 3.8 3.9 |
-| plone-app-users | 2.6.6 | 3.6 3.7 3.8 3.9 |
-| plone-app-uuid | 2.0.2 | 3.6 3.7 3.8 3.9 |
-| plone-app-versioningbehavior | 1.4.3 | 3.6 3.7 3.8 3.9 |
-| plone-app-viewletmanager | 3.1.2 | 3.6 3.7 3.8 3.9 |
-| plone-app-vocabularies | 4.3.0 | 3.6 3.7 3.8 3.9 |
-| plone-app-widgets | 3.0.6 | 3.6 3.7 3.8 3.9 |
-| plone-app-workflow | 4.0.4 | 3.6 3.7 3.8 3.9 |
-| plone-app-z3cform | 3.2.2 | 3.6 3.7 3.8 3.9 |
-| plone-autoform | 1.9.0 | 3.6 3.7 3.8 3.9 |
 | plone-batching | 1.1.7 | 3.6 3.7 3.8 3.9 |
-| plone-behavior | 1.4.0 | 3.6 3.7 3.8 3.9 |
 | plone-browserlayer | 2.2.4 | 3.6 3.7 3.8 3.9 |
-| plone-cachepurging | 2.0.3 | 3.6 3.7 3.8 3.9 |
-| plone-caching | 1.2.2 | 3.6 3.7 3.8 3.9 |
-| plone-contentrules | 2.1.2 | 3.6 3.7 3.8 3.9 |
-| plone-dexterity | 2.10.3 | 3.6 3.7 3.8 3.9 |
-| plone-event | 1.4.1 | 3.6 3.7 3.8 3.9 |
-| plone-folder | 3.1.0 | 3.6 3.7 3.8 3.9 |
-| plone-formwidget-namedfile | 2.1.3 | 3.6 3.7 3.8 3.9 |
-| plone-formwidget-recurrence | 2.1.4 | 3.6 3.7 3.8 3.9 |
-| plone-i18n | 4.0.6 | 3.6 3.7 3.8 3.9 |
-| plone-i18n | 5.0.0a1 | 3.6 3.7 3.8 3.9 |
-| plone-indexer | 1.0.7 | 3.6 3.7 3.8 3.9 |
-| plone-intelligenttext | 3.1.0 | 3.6 3.7 3.8 3.9 |
-| plone-keyring | 3.1.3 | 3.6 3.7 3.8 3.9 |
-| plone-locking | 2.2.4 | 3.6 3.7 3.8 3.9 |
-| plone-memoize | 2.1.1 | 3.6 3.7 3.8 3.9 |
-| plone-namedfile | 5.5.1 | 3.6 3.7 3.8 3.9 |
-| plone-outputfilters | 4.0.2 | 3.6 3.7 3.8 3.9 |
-| plone-portlet-collection | 3.3.6 | 3.6 3.7 3.8 3.9 |
-| plone-portlets | 2.3.2 | 3.6 3.7 3.8 3.9 |
-| plone-portlet-static | 3.1.6 | 3.6 3.7 3.8 3.9 |
-| plone-protect | 4.1.6 | 3.6 3.7 3.8 3.9 |
-| plone-registry | 1.2.1 | 3.6 3.7 3.8 3.9 |
-| plone-resource | 2.1.4 | 3.6 3.7 3.8 3.9 |
-| plone-resourceeditor | 3.0.3 | 3.6 3.7 3.8 3.9 |
-| plone-rfc822 | 2.0.2 | 3.6 3.7 3.8 3.9 |
-| plone-scale | 3.1.2 | 3.6 3.7 3.8 3.9 |
-| plone-schema | 1.3.0 | 3.6 3.7 3.8 3.9 |
-| plone-schemaeditor | 3.0.3 | 3.6 3.7 3.8 3.9 |
-| plone-session | 3.7.5 | 3.6 3.7 3.8 3.9 |
-| plone-staticresources | 1.4.3 | 3.6 3.7 3.8 3.9 |
-| plone-stringinterp | 1.3.3 | 3.6 3.7 3.8 3.9 |
-| plone-subrequest | 1.9.3 | 3.6 3.7 3.8 3.9 |
-| plone-supermodel | 1.6.4 | 3.6 3.7 3.8 3.9 |
-| plone-synchronize | 1.0.4 | 3.6 3.7 3.8 3.9 |
-| plone-testing | 8.0.3 | 3.6 3.7 3.8 3.9 |
-| plone-theme | 3.0.7 | 3.6 3.7 3.8 3.9 |
-| plonetheme-barceloneta | 2.1.10 | 3.6 3.7 3.8 3.9 |
 | plone-transformchain | 2.0.2 | 3.6 3.7 3.8 3.9 |
-| plone-uuid | 1.0.6 | 3.6 3.7 3.8 3.9 |
-| plone-z3cform | 2.0.0a1 | 3.6 3.7 3.8 3.9 |
 | plotly | 5.3.1 | 3.6 3.7 3.8 3.9 |
 | plotly-express | 0.4.1 | 3.6 3.7 3.8 3.9 |
-| plotnine | 0.8.0 | 3.7 3.8 3.9 |
-| plover | 3.1.1 | 3.6 3.7 3.8 3.9 |
 | pluggy | 0.13.1 | 3.6 3.7 3.8 3.9 |
 | pluggy | 1.0.0 | 3.6 3.7 3.8 3.9 |
-| plumbum | 1.7.0 | 3.6 3.7 3.8 3.9 |
 | ply | 3.11 | 3.6 3.7 3.8 3.9 |
 | plyplus | 0.7.5 | 3.6 3.7 3.8 3.9 |
 | pockets | 0.9.1 | 3.6 3.7 3.8 3.9 |
-| poetry | 1.1.9 | 3.6 3.7 3.8 3.9 |
-| poetry-core | 1.0.5 | 3.6 3.7 3.8 3.9 |
 | polib | 1.1.1 | 3.6 3.7 3.8 3.9 |
 | pooch | 1.5.1 | 3.6 3.7 3.8 3.9 |
-| portalocker | 1.7.1 | 3.6 3.7 3.8 3.9 |
-| portalocker | 2.3.2 | 3.6 3.7 3.8 3.9 |
 | portend | 2.7.1 | 3.6 3.7 3.8 3.9 |
 | port-for | 0.6.1 | 3.7 3.8 3.9 |
 | pox | 0.3.0 | 3.6 3.7 3.8 3.9 |
 | poyo | 0.5.0 | 3.6 3.7 3.8 3.9 |
 | ppft | 1.6.6.4 | 3.6 3.7 3.8 3.9 |
-| praw | 7.4.0 | 3.6 3.7 3.8 3.9 |
-| prawcore | 2.3.0 | 3.6 3.7 3.8 3.9 |
 | pre-commit | 2.15.0 | 3.7 3.8 3.9 |
 | preshed | 3.0.5 | 3.6 3.7 3.8 3.9 |
 | prestring | 0.9.0 | 3.6 3.7 3.8 3.9 |
@@ -1324,45 +879,23 @@ which points to the latest version of the project.
 | priority | 1.3.0 | 3.6 3.7 3.8 3.9 |
 | prison | 0.2.1 | 3.6 3.7 3.8 3.9 |
 | products-btreefolder2 | 4.3 | 3.6 3.7 3.8 3.9 |
-| products-cmfcore | 2.5.4 | 3.6 3.7 3.8 3.9 |
-| products-cmfdifftool | 3.3.3 | 3.6 3.7 3.8 3.9 |
-| products-cmfdynamicviewfti | 6.0.3 | 3.6 3.7 3.8 3.9 |
-| products-cmfeditions | 3.3.4 | 3.6 3.7 3.8 3.9 |
-| products-cmfformcontroller | 4.1.4 | 3.6 3.7 3.8 3.9 |
-| products-cmfplone | 5.2.5 | 3.6 3.7 3.8 3.9 |
-| products-cmfquickinstallertool | 4.0.4 | 3.6 3.7 3.8 3.9 |
-| products-cmfuid | 3.2.0 | 3.6 3.7 3.8 3.9 |
-| products-daterecurringindex | 3.0.1 | 3.6 3.7 3.8 3.9 |
-| products-dcworkflow | 2.5.0 | 3.6 3.7 3.8 3.9 |
-| products-extendedpathindex | 4.0.1 | 3.6 3.7 3.8 3.9 |
 | products-externalmethod | 4.5 | 3.6 3.7 3.8 3.9 |
-| products-genericsetup | 2.1.4 | 3.6 3.7 3.8 3.9 |
-| products-isurlinportal | 1.2.1 | 3.6 3.7 3.8 3.9 |
 | products-mailhost | 4.11 | 3.6 3.7 3.8 3.9 |
-| products-mimetypesregistry | 2.1.8 | 3.6 3.7 3.8 3.9 |
-| products-plonepas | 6.0.8 | 3.6 3.7 3.8 3.9 |
-| products-pluggableauthservice | 2.6.4 | 3.6 3.7 3.8 3.9 |
-| products-pluginregistry | 1.9 | 3.6 3.7 3.8 3.9 |
-| products-portaltransforms | 3.1.12 | 3.6 3.7 3.8 3.9 |
 | products-pythonscripts | 4.13 | 3.6 3.7 3.8 3.9 |
 | products-sessions | 4.12 | 3.6 3.7 3.8 3.9 |
 | products-siteerrorlog | 5.5 | 3.6 3.7 3.8 3.9 |
 | products-standardcachemanagers | 4.1.1 | 3.6 3.7 3.8 3.9 |
-| products-statusmessages | 5.0.5 | 3.6 3.7 3.8 3.9 |
 | products-temporaryfolder | 6.2 | 3.6 3.7 3.8 3.9 |
 | products-zcatalog | 6.0 | 3.6 3.7 3.8 3.9 |
 | products-zodbmountpoint | 1.2 | 3.6 3.7 3.8 3.9 |
 | products-zopeversioncontrol | 2.0.0 | 3.6 3.7 3.8 3.9 |
 | profanityfilter | 2.0.6 | 3.6 3.7 3.8 3.9 |
-| proglog | 0.1.9 | 3.6 3.7 3.8 3.9 |
 | progress | 1.6 | 3.6 3.7 3.8 3.9 |
 | progressbar | 2.5 | 3.6 3.7 3.8 3.9 |
-| progressbar2 | 3.53.3 | 3.6 3.7 3.8 3.9 |
 | prometheus-client | 0.11.0 | 3.6 3.7 3.8 3.9 |
 | prometheus-flask-exporter | 0.18.2 | 3.6 3.7 3.8 3.9 |
 | promise | 2.3 | 3.6 3.7 3.8 3.9 |
 | prompt-toolkit | 1.0.14 | 3.6 3.7 3.8 3.9 |
-| prompt-toolkit | 2.0.10 | 3.6 3.7 3.8 3.9 |
 | prompt-toolkit | 3.0.20 | 3.7 3.8 3.9 |
 | prompt-toolkit | 3.0.3 | 3.6 |
 | prospector | 1.5.0.1 | 3.7 3.8 3.9 |
@@ -1370,7 +903,6 @@ which points to the latest version of the project.
 | protobuf | 3.17.3 | 3.6 3.7 3.8 3.9 |
 | protobuf | 3.18.0 | 3.6 3.7 3.8 3.9 |
 | protobuf3-to-dict | 0.1.5 | 3.6 3.7 3.8 3.9 |
-| proto-plus | 1.19.0 | 3.6 3.7 3.8 3.9 |
 | psutil | 5.8.0 | 3.6 3.7 3.8 3.9 |
 | psycopg2 | 2.9.1 | 3.6 3.7 3.8 3.9 |
 | psycopg2-binary | 2.9.1 | 3.6 3.7 3.8 3.9 |
@@ -1378,7 +910,6 @@ which points to the latest version of the project.
 | public | 2020.12.3 | 3.6 3.7 3.8 3.9 |
 | publication | 0.0.3 | 3.6 3.7 3.8 3.9 |
 | pulp | 2.5.0 | 3.6 3.7 3.8 3.9 |
-| pulumi | 3.12.0 | 3.6 3.7 3.8 3.9 |
 | purplex | 0.2.4 | 3.6 3.7 3.8 3.9 |
 | py | 1.10.0 | 3.6 3.7 3.8 3.9 |
 | py4j | 0.10.9 | 3.6 3.7 3.8 3.9 |
@@ -1387,13 +918,8 @@ which points to the latest version of the project.
 | pyarrow | 5.0.0 | 3.6 3.7 3.8 3.9 |
 | pyasn1 | 0.4.8 | 3.6 3.7 3.8 3.9 |
 | pyasn1-modules | 0.2.8 | 3.6 3.7 3.8 3.9 |
-| pyaudio | 0.2.11 | 3.6 3.7 3.8 3.9 |
-| pyautogui | 0.9.53 | 3.6 3.7 3.8 3.9 |
-| pybedtools | 0.8.2 | 3.6 3.7 3.8 3.9 |
 | pybind11 | 2.7.1 | 3.6 3.7 3.8 3.9 |
 | pybtex | 0.24.0 | 3.6 3.7 3.8 3.9 |
-| pybtex-docutils | 1.0.1 | 3.6 3.7 3.8 3.9 |
-| pycairo | 1.20.1 | 3.6 3.7 3.8 3.9 |
 | pycalver | 202010.1043 | 3.6 3.7 3.8 3.9 |
 | pycares | 4.0.0 | 3.6 3.7 3.8 3.9 |
 | pycocotools | 2.0.0 | 3.7 3.8 |
@@ -1402,262 +928,68 @@ which points to the latest version of the project.
 | pycparser | 2.20 | 3.6 3.7 3.8 3.9 |
 | py-cpuinfo | 8.0.0 | 3.6 3.7 3.8 3.9 |
 | pycricbuzz | 2.4 | 3.6 3.7 3.8 3.9 |
-| pycrypto | 2.6.1 | 3.6 3.7 3.8 3.9 |
 | pycryptodome | 3.10.1 | 3.6 3.7 3.8 3.9 |
-| pycryptodomex | 3.10.1 | 3.6 3.7 3.8 3.9 |
 | pyct | 0.4.8 | 3.6 3.7 3.8 3.9 |
-| pycurl | 7.44.1 | 3.6 3.7 3.8 3.9 |
 | pydantic | 1.7.4 | 3.6 |
 | pydantic | 1.8.2 | 3.7 3.8 3.9 |
 | pydash | 5.0.2 | 3.6 3.7 3.8 3.9 |
-| pydata-sphinx-theme | 0.6.3 | 3.6 3.7 3.8 3.9 |
-| pydeck | 0.6.2 | 3.6 |
-| pydeck | 0.7.0 | 3.7 3.8 3.9 |
-| pydeprecate | 0.3.1 | 3.7 3.8 3.9 |
 | pydeps | 1.9.14 | 3.6 3.7 3.8 3.9 |
 | pydicom | 2.2.1 | 3.7 3.8 3.9 |
 | pydispatcher | 2.0.5 | 3.6 3.7 3.8 3.9 |
 | pydocstyle | 6.1.1 | 3.6 3.7 3.8 3.9 |
 | pydot | 1.4.2 | 3.6 3.7 3.8 3.9 |
-| pydotplus | 2.0.2 | 3.6 3.7 3.8 3.9 |
 | pydriller | 2.0 | 3.6 3.7 3.8 3.9 |
 | pydub | 0.25.1 | 3.6 3.7 3.8 3.9 |
 | pydyf | 0.1.1 | 3.6 3.7 3.8 3.9 |
-| pyecharts | 1.9.0 | 3.6 3.7 3.8 3.9 |
 | pyee | 8.2.2 | 3.6 3.7 3.8 3.9 |
-| pyelftools | 0.27 | 3.6 3.7 3.8 3.9 |
-| pyenchant | 3.2.1 | 3.6 3.7 3.8 3.9 |
 | pyerfa | 2.0.0 | 3.7 3.8 3.9 |
 | pyexcelerate | 0.10.0 | 3.6 3.7 3.8 3.9 |
-| pyfaidx | 0.6.2 | 3.6 3.7 3.8 3.9 |
-| pyfakefs | 4.5.1 | 3.6 3.7 3.8 3.9 |
 | pyflakes | 2.2.0 | 3.7 3.8 3.9 |
 | pyflakes | 2.3.1 | 3.6 3.7 3.8 3.9 |
 | pyftdi | 0.53.3 | 3.6 3.7 3.8 3.9 |
 | pygame | 2.0.1 | 3.6 3.7 3.8 3.9 |
-| pygetwindow | 0.0.9 | 3.6 3.7 3.8 3.9 |
 | pygit2 | 1.6.1 | 3.7 3.8 3.9 |
-| pygithub | 1.55 | 3.6 3.7 3.8 3.9 |
 | pyglet | 1.5.21 | 3.6 3.7 3.8 3.9 |
 | pygments | 2.10.0 | 3.6 3.7 3.8 3.9 |
-| pygobject | 3.40.1 | 3.6 3.7 3.8 3.9 |
-| pygraphviz | 1.7 | 3.7 3.8 3.9 |
-| pyhamcrest | 2.0.2 | 3.6 3.7 3.8 3.9 |
 | pyhunter | 1.7 | 3.6 3.7 3.8 3.9 |
 | pyinotify | 0.9.6 | 3.6 3.7 3.8 3.9 |
-| pyinquirer | 1.0.3 | 3.6 3.7 3.8 3.9 |
-| pyinstaller | 4.5.1 | 3.6 3.7 3.8 3.9 |
-| pyinstaller-hooks-contrib | 2021.3 | 3.6 3.7 3.8 3.9 |
-| pyjsparser | 2.7.1 | 3.6 3.7 3.8 3.9 |
 | pyjwt | 1.7.1 | 3.6 3.7 3.8 3.9 |
 | pyjwt | 2.1.0 | 3.6 3.7 3.8 3.9 |
-| pykerberos | 1.2.1 | 3.6 3.7 3.8 3.9 |
-| pykka | 3.0.1 | 3.7 3.8 3.9 |
 | pykwalify | 1.8.0 | 3.6 3.7 3.8 3.9 |
 | pylev | 1.4.0 | 3.6 3.7 3.8 3.9 |
-| pylg | 1.3.3 | 3.6 3.7 3.8 3.9 |
 | pylint | 2.10.2 | 3.6 3.7 3.8 3.9 |
 | pylint-celery | 0.3 | 3.7 3.8 3.9 |
 | pylint-django | 2.4.4 | 3.7 3.8 3.9 |
 | pylint-flask | 0.6 | 3.7 3.8 3.9 |
 | pylint-plugin-utils | 0.6 | 3.7 3.8 3.9 |
-| pymatgen | 2022.0.14 | 3.7 3.8 3.9 |
-| pymc3 | 3.11.4 | 3.7 3.8 3.9 |
-| pymdown-extensions | 8.2 | 3.6 3.7 3.8 3.9 |
-| pymeeus | 0.5.11 | 3.6 3.7 3.8 3.9 |
 | pymongo | 3.12.0 | 3.6 3.7 3.8 3.9 |
-| pymsgbox | 1.0.9 | 3.6 3.7 3.8 3.9 |
 | pymssql | 2.2.2 | 3.6 3.7 3.8 3.9 |
 | pymsteams | 0.1.15 | 3.6 3.7 3.8 3.9 |
-| pymupdf | 1.18.19 | 3.6 3.7 3.8 3.9 |
-| pymysql | 0.9.3 | 3.6 3.7 3.8 3.9 |
 | pymysql | 1.0.2 | 3.6 3.7 3.8 3.9 |
 | pynacl | 1.4.0 | 3.6 3.7 3.8 3.9 |
 | pynamodb | 5.1.0 | 3.6 3.7 3.8 3.9 |
-| pynndescent | 0.5.4 | 3.6 3.7 3.8 3.9 |
-| pynput | 1.7.3 | 3.6 3.7 3.8 3.9 |
-| pynvml | 11.0.0 | 3.6 3.7 3.8 3.9 |
-| pyobjc | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-core | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-accessibility | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-accounts | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-addressbook | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-adservices | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-adsupport | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-applescriptkit | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-applescriptobjc | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-applicationservices | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-apptrackingtransparency | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-authenticationservices | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-automaticassessmentconfiguration | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-automator | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-avfoundation | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-avkit | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-businesschat | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-calendarstore | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-callkit | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-cfnetwork | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-classkit | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-cloudkit | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-cocoa | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-collaboration | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-colorsync | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-contacts | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-contactsui | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-coreaudio | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-coreaudiokit | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-corebluetooth | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-coredata | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-corehaptics | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-corelocation | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-coremedia | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-coremediaio | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-coremidi | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-coreml | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-coremotion | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-coreservices | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-corespotlight | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-coretext | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-corewlan | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-cryptotokenkit | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-devicecheck | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-dictionaryservices | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-discrecording | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-discrecordingui | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-diskarbitration | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-dvdplayback | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-eventkit | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-exceptionhandling | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-executionpolicy | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-externalaccessory | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-fileprovider | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-fileproviderui | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-findersync | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-fsevents | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-gamecenter | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-gamecontroller | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-gamekit | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-gameplaykit | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-imagecapturecore | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-imserviceplugin | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-inputmethodkit | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-installerplugins | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-instantmessage | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-intents | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-interfacebuilderkit | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-iosurface | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-ituneslibrary | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-kernelmanagement | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-latentsemanticmapping | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-launchservices | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-libdispatch | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-linkpresentation | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-localauthentication | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-mapkit | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-mediaaccessibility | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-medialibrary | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-mediaplayer | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-mediatoolbox | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-message | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-metal | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-metalkit | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-metalperformanceshaders | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-metalperformanceshadersgraph | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-mlcompute | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-modelio | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-multipeerconnectivity | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-naturallanguage | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-netfs | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-network | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-networkextension | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-notificationcenter | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-opendirectory | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-osakit | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-oslog | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-passkit | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-pencilkit | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-photos | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-photosui | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-preferencepanes | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-pubsub | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-pushkit | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-quartz | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-quicklookthumbnailing | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-replaykit | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-safariservices | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-scenekit | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-screensaver | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-screentime | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-scriptingbridge | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-searchkit | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-security | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-securityfoundation | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-securityinterface | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-servernotification | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-servicemanagement | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-social | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-soundanalysis | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-speech | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-spritekit | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-storekit | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-syncservices | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-systemconfiguration | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-systemextensions | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-uniformtypeidentifiers | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-usernotifications | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-usernotificationsui | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-videosubscriberaccount | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-videotoolbox | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-virtualization | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-vision | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyobjc-framework-webkit | 7.3 | 3.6 3.7 3.8 3.9 |
-| pyodbc | 4.0.32 | 3.6 3.7 3.8 3.9 |
-| pyomo | 6.1.2 | 3.6 3.7 3.8 3.9 |
-| pyopengl | 3.1.5 | 3.6 3.7 3.8 3.9 |
 | pyopenssl | 20.0.1 | 3.6 3.7 3.8 3.9 |
-| pyotp | 2.6.0 | 3.6 3.7 3.8 3.9 |
 | pypandoc | 1.6.3 | 3.6 3.7 3.8 3.9 |
 | pyparsing | 2.4.7 | 3.6 3.7 3.8 3.9 |
-| pypdf2 | 1.26.0 | 3.6 3.7 3.8 3.9 |
 | pypdf4 | 1.27.0 | 3.6 3.7 3.8 3.9 |
 | pyper | 1.1.2 | 3.6 3.7 3.8 3.9 |
 | pyperclip | 1.8.2 | 3.6 3.7 3.8 3.9 |
 | pyphen | 0.11.0 | 3.6 3.7 3.8 3.9 |
-| pypinyin | 0.42.0 | 3.6 3.7 3.8 3.9 |
-| pypiwin32 | 223 | 3.6 3.7 3.8 3.9 |
-| pypng | 0.0.21 | 3.6 3.7 3.8 3.9 |
 | pyppeteer | 0.0.25 | 3.6 |
 | pyppeteer | 0.2.6 | 3.7 3.8 3.9 |
-| pyproj | 3.2.1 | 3.7 3.8 3.9 |
 | pypydispatcher | 2.1.2 | 3.6 3.7 3.8 3.9 |
-| pyqrcode | 1.2.1 | 3.6 3.7 3.8 3.9 |
 | pyqt5 | 5.15.4 | 3.6 3.7 3.8 3.9 |
 | pyqt5-qt5 | 5.15.2 | 3.6 3.7 3.8 3.9 |
 | pyqt5-sip | 12.9.0 | 3.6 3.7 3.8 3.9 |
-| pyqtwebengine | 5.15.4 | 3.6 3.7 3.8 3.9 |
-| pyqtwebengine-qt5 | 5.15.2 | 3.6 3.7 3.8 3.9 |
 | pyquery | 1.4.3 | 3.6 3.7 3.8 3.9 |
 | pyramid | 2.0 | 3.6 3.7 3.8 3.9 |
-| pyreadline | 2.1 | 3.6 3.7 3.8 3.9 |
-| pyreadline3 | 3.3 | 3.8 3.9 |
 | pyrect | 0.1.4 | 3.6 3.7 3.8 3.9 |
 | pyrelic | 0.8.0 | 3.6 3.7 3.8 3.9 |
-| pyrepl | 0.9.0 | 3.6 3.7 3.8 3.9 |
 | pyrfc3339 | 1.1 | 3.6 3.7 3.8 3.9 |
 | pyrsistent | 0.18.0 | 3.6 3.7 3.8 3.9 |
-| pysam | 0.16.0.1 | 3.6 3.7 3.8 3.9 |
-| pyscreeze | 0.1.28 | 3.6 3.7 3.8 3.9 |
-| pyscss | 1.3.7 | 3.6 3.7 3.8 3.9 |
 | pyserial | 3.5 | 3.6 3.7 3.8 3.9 |
-| pysftp | 0.2.9 | 3.6 3.7 3.8 3.9 |
-| pysha3 | 1.0.2 | 3.6 3.7 3.8 3.9 |
-| pyshp | 2.1.3 | 3.7 3.8 3.9 |
-| pyside2 | 5.15.2 | 3.6 3.7 3.8 3.9 |
-| pysimplegui | 4.47.0 | 3.6 3.7 3.8 3.9 |
-| pysocks | 1.7.1 | 3.6 3.7 3.8 3.9 |
 | pyspark | 3.1.2 | 3.6 3.7 3.8 3.9 |
 | pystache | 0.5.4 | 3.6 3.7 3.8 3.9 |
-| pytesseract | 0.3.8 | 3.6 3.7 3.8 3.9 |
 | pytest | 5.4.3 | 3.6 3.7 3.8 3.9 |
 | pytest | 6.2.4 | 3.6 3.7 3.8 3.9 |
 | pytest | 6.2.5 | 3.6 3.7 3.8 3.9 |
@@ -1665,30 +997,18 @@ which points to the latest version of the project.
 | pytest-asyncio | 0.12.0 | 3.6 3.7 3.8 3.9 |
 | pytest-asyncio | 0.15.1 | 3.6 3.7 3.8 3.9 |
 | pytest-benchmark | 3.4.1 | 3.6 3.7 3.8 3.9 |
-| pytest-black | 0.3.12 | 3.6 3.7 3.8 3.9 |
 | pytest-cache | 1.0 | 3.6 3.7 3.8 3.9 |
-| pytest-checkdocs | 2.7.1 | 3.6 3.7 3.8 3.9 |
-| pytest-check-links | 0.5.2 | 3.6 3.7 3.8 3.9 |
 | pytest-cov | 2.12.1 | 3.6 3.7 3.8 3.9 |
-| pytest-datadir | 1.3.1 | 3.6 3.7 3.8 3.9 |
 | pytest-django | 4.4.0 | 3.6 3.7 3.8 3.9 |
 | pytest-flake8 | 1.0.7 | 3.6 3.7 3.8 3.9 |
-| pytest-flask | 1.2.0 | 3.6 3.7 3.8 3.9 |
 | pytest-forked | 1.3.0 | 3.6 3.7 3.8 3.9 |
 | pytest-freezegun | 0.4.2 | 3.6 3.7 3.8 3.9 |
 | pytest-html | 3.1.1 | 3.6 3.7 3.8 3.9 |
-| pytest-invenio | 1.4.2 | 3.6 3.7 3.8 3.9 |
-| pytest-isort | 2.0.0 | 3.6 3.7 3.8 3.9 |
 | pytest-metadata | 1.11.0 | 3.6 3.7 3.8 3.9 |
 | pytest-mock | 3.6.1 | 3.6 3.7 3.8 3.9 |
-| pytest-mpl | 0.13 | 3.6 3.7 3.8 3.9 |
 | pytest-mypy | 0.8.1 | 3.6 3.7 3.8 3.9 |
 | pytest-postgresql | 3.1.1 | 3.7 3.8 3.9 |
-| pytest-pycodestyle | 2.2.0 | 3.6 3.7 3.8 3.9 |
-| pytest-pydocstyle | 2.2.0 | 3.6 3.7 3.8 3.9 |
-| pytest-randomly | 3.10.1 | 3.6 3.7 3.8 3.9 |
 | pytest-random-order | 1.0.4 | 3.6 3.7 3.8 3.9 |
-| pytest-regressions | 2.2.0 | 3.6 3.7 3.8 3.9 |
 | pytest-rerunfailures | 10.1 | 3.6 3.7 3.8 3.9 |
 | pytest-runner | 5.3.1 | 3.6 3.7 3.8 3.9 |
 | pytest-sugar | 0.9.4 | 3.6 3.7 3.8 3.9 |
@@ -1698,103 +1018,49 @@ which points to the latest version of the project.
 | pytest-watch | 4.2.0 | 3.6 3.7 3.8 3.9 |
 | pytest-xdist | 2.3.0 | 3.6 3.7 3.8 3.9 |
 | python3-openid | 3.2.0 | 3.6 3.7 3.8 3.9 |
-| python3-xlib | 0.15 | 3.6 3.7 3.8 3.9 |
 | python-baseconv | 1.2.2 | 3.6 3.7 3.8 3.9 |
-| python-box | 5.4.1 | 3.6 3.7 3.8 3.9 |
-| python-cinderclient | 8.1.0 | 3.8 3.9 |
-| python-constraint | 1.4.0 | 3.6 3.7 3.8 3.9 |
-| python-consul | 1.1.0 | 3.6 3.7 3.8 3.9 |
-| python-coveralls | 2.9.3 | 3.6 3.7 3.8 3.9 |
-| python-crfsuite | 0.9.7 | 3.6 3.7 3.8 3.9 |
-| python-crontab | 2.5.1 | 3.6 3.7 3.8 3.9 |
-| python-daemon | 2.3.0 | 3.6 3.7 3.8 3.9 |
 | python-dateutil | 2.8.2 | 3.6 3.7 3.8 3.9 |
-| python-decouple | 3.4 | 3.6 3.7 3.8 3.9 |
 | python-docx | 0.8.11 | 3.6 3.7 3.8 3.9 |
 | python-dotenv | 0.19.0 | 3.6 3.7 3.8 3.9 |
 | python-editor | 1.0.4 | 3.6 3.7 3.8 3.9 |
-| python-engineio | 4.2.1 | 3.6 3.7 3.8 3.9 |
 | python-gettext | 4.0 | 3.6 3.7 3.8 3.9 |
 | python-git | 2018.2.1 | 3.6 3.7 3.8 3.9 |
 | python-gitlab | 2.10.1 | 3.6 3.7 3.8 3.9 |
-| python-glanceclient | 3.5.0 | 3.6 3.7 3.8 3.9 |
-| python-gnupg | 0.4.7 | 3.6 3.7 3.8 3.9 |
 | python-hcl2 | 3.0.1 | 3.6 3.7 3.8 3.9 |
 | python-hosts | 1.0.1 | 3.6 3.7 3.8 3.9 |
-| python-http-client | 3.3.2 | 3.6 3.7 3.8 3.9 |
-| python-igraph | 0.9.6 | 3.6 3.7 3.8 3.9 |
 | python-jose | 3.3.0 | 3.6 3.7 3.8 3.9 |
-| python-json-logger | 2.0.2 | 3.6 3.7 3.8 3.9 |
-| python-keystoneclient | 4.3.0 | 3.6 3.7 3.8 3.9 |
-| python-ldap | 3.3.1 | 3.6 3.7 3.8 3.9 |
 | python-magic | 0.4.24 | 3.6 3.7 3.8 3.9 |
-| python-memcached | 1.59 | 3.6 3.7 3.8 3.9 |
 | python-multipart | 0.0.5 | 3.6 3.7 3.8 3.9 |
-| python-neutronclient | 7.6.0 | 3.6 3.7 3.8 3.9 |
-| python-novaclient | 17.6.0 | 3.6 3.7 3.8 3.9 |
-| python-openstackclient | 5.6.0 | 3.6 3.7 3.8 3.9 |
-| python-rapidjson | 1.4 | 3.6 3.7 3.8 3.9 |
 | python-slugify | 4.0.1 | 3.6 3.7 3.8 3.9 |
 | python-slugify | 5.0.2 | 3.6 3.7 3.8 3.9 |
-| python-snappy | 0.6.0 | 3.6 3.7 3.8 3.9 |
-| python-socketio | 5.4.0 | 3.6 3.7 3.8 3.9 |
 | python-sql | 1.2.2 | 3.6 3.7 3.8 3.9 |
-| python-sql | 1.3.0 | 3.6 3.7 3.8 3.9 |
-| python-stdnum | 1.16 | 3.6 3.7 3.8 3.9 |
-| python-subunit | 1.4.0 | 3.6 3.7 3.8 3.9 |
-| python-swiftclient | 3.12.0 | 3.6 3.7 3.8 3.9 |
 | python-utils | 2.5.6 | 3.6 3.7 3.8 3.9 |
 | python-whois | 0.7.3 | 3.6 3.7 3.8 3.9 |
-| python-xlib | 0.31 | 3.6 3.7 3.8 3.9 |
-| pytimeparse | 1.1.8 | 3.6 3.7 3.8 3.9 |
 | pytodoist | 2.1.4 | 3.6 3.7 3.8 3.9 |
-| pytoml | 0.1.21 | 3.6 3.7 3.8 3.9 |
-| pytorch-lightning | 1.4.7 | 3.7 3.8 3.9 |
-| pyttsx3 | 2.90 | 3.6 3.7 3.8 3.9 |
-| pytube | 11.0.1 | 3.6 3.7 3.8 3.9 |
 | pytweening | 1.0.3 | 3.6 3.7 3.8 3.9 |
 | pytweening | 1.0.4 | 3.6 3.7 3.8 3.9 |
 | pytz | 2021.1 | 3.6 3.7 3.8 3.9 |
 | pytzdata | 2020.1 | 3.6 3.7 3.8 3.9 |
 | pyusb | 1.2.1 | 3.6 3.7 3.8 3.9 |
-| pyvisa | 1.11.3 | 3.6 3.7 3.8 3.9 |
 | pyviz-comms | 2.1.0 | 3.6 3.7 3.8 3.9 |
 | pyvo | 1.1 | 3.6 3.7 3.8 3.9 |
-| pywavelets | 1.1.1 | 3.6 3.7 3.8 3.9 |
-| pywin32 | 301 | 3.6 3.7 3.8 3.9 |
+| pywavelets | 1.1.1 | 3.7 3.8 3.9 |
 | pywin32-ctypes | 0.2.0 | 3.6 3.7 3.8 3.9 |
-| pywinpty | 1.1.4 | 3.6 3.7 3.8 3.9 |
-| pyxdg | 0.27 | 3.6 3.7 3.8 3.9 |
 | pyyaml | 5.4.1 | 3.6 3.7 3.8 3.9 |
 | pyyaml-env-tag | 0.1 | 3.6 3.7 3.8 3.9 |
 | pyzmq | 22.2.1 | 3.6 3.7 3.8 3.9 |
 | pyzmq | 22.3.0 | 3.6 3.7 3.8 3.9 |
 | qdldl | 0.1.5.post0 | 3.6 3.7 3.8 3.9 |
-| qiskit | 0.30.0 | 3.6 3.7 3.8 3.9 |
-| qiskit-aer | 0.9.0 | 3.6 3.7 3.8 3.9 |
-| qiskit-aqua | 0.9.5 | 3.6 3.7 3.8 3.9 |
-| qiskit-ignis | 0.6.0 | 3.6 3.7 3.8 3.9 |
-| qiskit-terra | 0.18.2 | 3.6 3.7 3.8 3.9 |
 | qrcode | 7.3 | 3.6 3.7 3.8 3.9 |
-| qtconsole | 5.1.1 | 3.6 3.7 3.8 3.9 |
-| qtpy | 1.11.1 | 3.6 3.7 3.8 3.9 |
-| quandl | 3.6.1 | 3.6 3.7 3.8 3.9 |
 | querystring-parser | 1.2.4 | 3.6 3.7 3.8 3.9 |
 | questionary | 1.10.0 | 3.6 3.7 3.8 3.9 |
 | queuelib | 1.6.2 | 3.6 3.7 3.8 3.9 |
 | rad | 0.1.2 | 3.6 3.7 3.8 3.9 |
 | random2 | 1.0.1 | 3.6 3.7 3.8 3.9 |
-| rasterio | 1.2.8 | 3.6 3.7 3.8 3.9 |
-| ratelim | 0.1.6 | 3.8 3.9 |
-| ratelimit | 2.2.1 | 3.6 3.7 3.8 3.9 |
 | ratelimiter | 1.2.0.post0 | 3.6 3.7 3.8 3.9 |
 | raven | 6.10.0 | 3.6 3.7 3.8 3.9 |
 | ray | 1.6.0 | 3.6 3.7 3.8 3.9 |
-| rcssmin | 1.0.6 | 3.6 3.7 3.8 3.9 |
-| rdflib | 5.0.0 | 3.6 |
 | rdflib | 6.0.0 | 3.7 3.8 3.9 |
-| rdflib | 6.0.1 | 3.7 3.8 3.9 |
-| rdflib-jsonld | 0.6.2 | 3.6 3.7 3.8 3.9 |
 | readchar | 2.0.1 | 3.6 3.7 3.8 3.9 |
 | readme-renderer | 29.0 | 3.6 3.7 3.8 3.9 |
 | recommonmark | 0.7.1 | 3.6 3.7 3.8 3.9 |
@@ -1803,11 +1069,8 @@ which points to the latest version of the project.
 | redis-py-cluster | 2.1.3 | 3.6 3.7 3.8 3.9 |
 | regetron | 1.4 | 3.6 3.7 3.8 3.9 |
 | regex | 2021.8.28 | 3.6 3.7 3.8 3.9 |
-| relatorio | 0.10.0 | 3.6 3.7 3.8 3.9 |
 | relatorio | 0.9.3 | 3.6 3.7 3.8 3.9 |
 | reportlab | 3.6.1 | 3.6 3.7 3.8 3.9 |
-| repoze-lru | 0.7 | 3.6 3.7 3.8 3.9 |
-| repoze-xmliter | 0.6 | 3.6 3.7 3.8 3.9 |
 | requests | 2.25.1 | 3.6 3.7 3.8 3.9 |
 | requests | 2.26.0 | 3.6 3.7 3.8 3.9 |
 | requests-cache | 0.8.0 | 3.7 3.8 3.9 |
@@ -1815,9 +1078,7 @@ which points to the latest version of the project.
 | requests-file | 1.5.1 | 3.6 3.7 3.8 3.9 |
 | requests-futures | 1.0.0 | 3.6 3.7 3.8 3.9 |
 | requests-html | 0.10.0 | 3.6 3.7 3.8 3.9 |
-| requests-kerberos | 0.12.0 | 3.6 3.7 3.8 3.9 |
 | requests-mock | 1.9.3 | 3.6 3.7 3.8 3.9 |
-| requests-ntlm | 1.1.0 | 3.6 3.7 3.8 3.9 |
 | requests-oauthlib | 1.3.0 | 3.6 3.7 3.8 3.9 |
 | requests-toolbelt | 0.9.1 | 3.6 3.7 3.8 3.9 |
 | requests-unixsocket | 0.2.0 | 3.7 3.8 3.9 |
@@ -1829,150 +1090,98 @@ which points to the latest version of the project.
 | retry | 0.9.2 | 3.6 3.7 3.8 3.9 |
 | retrying | 1.3.3 | 3.6 3.7 3.8 3.9 |
 | returns | 0.16.0 | 3.7 3.8 3.9 |
-| retworkx | 0.10.2 | 3.6 3.7 3.8 3.9 |
 | rfc3986 | 1.5.0 | 3.6 3.7 3.8 3.9 |
-| rfc3987 | 1.3.8 | 3.6 3.7 3.8 3.9 |
 | rgbxy | 0.5 | 3.6 3.7 3.8 3.9 |
 | rich | 10.9.0 | 3.6 3.7 3.8 3.9 |
-| rjsmin | 1.1.0 | 3.6 3.7 3.8 3.9 |
-| rlp | 2.0.1 | 3.6 3.7 3.8 3.9 |
-| robotframework | 4.1.1 | 3.6 3.7 3.8 3.9 |
 | roman | 3.3 | 3.6 3.7 3.8 3.9 |
 | rope | 0.19.0 | 3.6 3.7 3.8 3.9 |
-| routes | 2.5.1 | 3.6 3.7 3.8 3.9 |
-| rpi-gpio | 0.7.0 | 3.6 3.7 3.8 3.9 |
-| rpy2 | 3.4.5 | 3.6 3.7 3.8 3.9 |
 | rq | 1.9.0 | 3.6 3.7 3.8 3.9 |
 | rsa | 4.7.2 | 3.6 3.7 3.8 3.9 |
-| rst-linker | 2.2.0 | 3.6 3.7 3.8 3.9 |
 | ruamel-yaml | 0.17.16 | 3.6 3.7 3.8 3.9 |
-| ruamel-yaml | 0.17.4 | 3.6 3.7 3.8 |
 | ruamel-yaml-clib | 0.2.6 | 3.6 3.7 3.8 3.9 |
-| rubicon-objc | 0.4.1 | 3.6 3.7 3.8 3.9 |
 | rx | 1.6.1 | 3.6 3.7 3.8 3.9 |
 | s3fs | 2021.8.1 | 3.6 3.7 3.8 3.9 |
 | s3transfer | 0.3.7 | 3.6 3.7 3.8 3.9 |
 | s3transfer | 0.4.2 | 3.6 3.7 3.8 3.9 |
 | s3transfer | 0.5.0 | 3.6 3.7 3.8 3.9 |
 | sacremoses | 0.0.45 | 3.6 3.7 3.8 3.9 |
-| safety | 1.10.3 | 3.6 3.7 3.8 3.9 |
 | sagemaker | 2.56.0 | 3.6 3.7 3.8 3.9 |
 | sanic | 21.6.2 | 3.7 3.8 3.9 |
 | sanic-routing | 0.7.1 | 3.7 3.8 3.9 |
 | scandir | 1.10.0 | 3.6 3.7 3.8 3.9 |
-| scanpy | 1.8.1 | 3.7 3.8 3.9 |
 | scapy | 2.4.5 | 3.6 3.7 3.8 3.9 |
 | schedule | 1.1.0 | 3.6 3.7 3.8 3.9 |
 | schema | 0.7.4 | 3.6 3.7 3.8 3.9 |
-| schematics | 2.1.1 | 3.6 3.7 3.8 3.9 |
-| scikit-image | 0.17.2 | 3.6 |
 | scikit-image | 0.18.3 | 3.7 3.8 3.9 |
 | scikit-learn | 0.24.2 | 3.6 3.7 3.8 3.9 |
-| scikit-optimize | 0.8.1 | 3.6 3.7 3.8 3.9 |
 | scipy | 1.5.4 | 3.6 |
 | scipy | 1.7.1 | 3.7 3.8 3.9 |
 | scp | 0.14.1 | 3.6 3.7 3.8 3.9 |
 | scrapy | 2.5.0 | 3.7 3.8 3.9 |
 | scripttest | 1.3 | 3.6 3.7 3.8 3.9 |
-| scrypt | 0.8.18 | 3.6 3.7 3.8 3.9 |
-| scs | 2.1.4 | 3.6 3.7 3.8 3.9 |
 | seaborn | 0.11.2 | 3.6 3.7 3.8 3.9 |
 | secretstorage | 3.3.1 | 3.6 3.7 3.8 3.9 |
 | selenium | 3.141.0 | 3.6 3.7 3.8 3.9 |
 | semantic-version | 2.8.5 | 3.6 3.7 3.8 3.9 |
 | semver | 2.13.0 | 3.6 3.7 3.8 3.9 |
 | send2trash | 1.8.0 | 3.6 3.7 3.8 3.9 |
-| sendgrid | 6.8.1 | 3.6 3.7 3.8 3.9 |
-| sentencepiece | 0.1.96 | 3.6 3.7 3.8 3.9 |
-| sentence-transformers | 2.0.0 | 3.7 3.8 3.9 |
 | sentry-sdk | 1.3.1 | 3.6 3.7 3.8 3.9 |
 | service-identity | 21.1.0 | 3.6 3.7 3.8 3.9 |
 | setoptconf | 0.2.0 | 3.7 3.8 3.9 |
 | setproctitle | 1.2.2 | 3.6 3.7 3.8 3.9 |
 | setuptools | 57.4.0 | 3.6 3.7 3.8 3.9 |
 | setuptools-rust | 0.12.1 | 3.6 3.7 3.8 3.9 |
-| setuptools-scm | 6.3.2 | 3.6 3.7 3.8 3.9 |
 | sgmllib3k | 1.0.0 | 3.6 3.7 3.8 3.9 |
 | sgqlc | 14.0 | 3.6 3.7 3.8 3.9 |
 | sh | 1.14.2 | 3.6 3.7 3.8 3.9 |
-| shap | 0.39.0 | 3.6 3.7 3.8 3.9 |
 | shapely | 1.7.1 | 3.6 3.7 3.8 3.9 |
 | sharedmem | 0.3.8 | 3.6 3.7 3.8 3.9 |
-| shellingham | 1.4.0 | 3.6 3.7 3.8 3.9 |
-| shiboken2 | 5.15.2 | 3.6 3.7 3.8 3.9 |
 | shortuuid | 1.0.1 | 3.6 3.7 3.8 3.9 |
 | sign | 0.0.2 | 3.6 3.7 3.8 3.9 |
-| simpleeval | 0.9.10 | 3.6 3.7 3.8 3.9 |
 | simplegeneric | 0.8.1 | 3.6 3.7 3.8 3.9 |
-| simpleitk | 2.1.1 | 3.6 3.7 3.8 3.9 |
 | simplejson | 3.11.1 | 3.6 3.7 3.8 3.9 |
 | simplejson | 3.17.5 | 3.6 3.7 3.8 3.9 |
 | sinfo | 0.3.4 | 3.7 3.8 3.9 |
-| singer-python | 5.12.2 | 3.6 3.7 3.8 3.9 |
 | singledispatch | 3.7.0 | 3.6 3.7 3.8 3.9 |
 | six | 1.15.0 | 3.6 3.7 3.8 3.9 |
 | six | 1.16.0 | 3.6 3.7 3.8 3.9 |
 | skills | 0.3.0 | 3.6 3.7 3.8 3.9 |
 | sklearn | 0.0 | 3.6 3.7 3.8 3.9 |
-| sklearn-crfsuite | 0.3.6 | 3.6 3.7 3.8 3.9 |
-| slackclient | 2.9.3 | 3.6 3.7 3.8 3.9 |
-| slacker | 0.14.0 | 3.6 3.7 3.8 3.9 |
 | slicer | 0.0.7 | 3.6 3.7 3.8 3.9 |
 | smart-open | 5.2.1 | 3.6 3.7 3.8 3.9 |
-| smbus2 | 0.4.1 | 3.6 3.7 3.8 3.9 |
 | smdebug-rulesconfig | 1.0.1 | 3.6 3.7 3.8 3.9 |
 | smmap | 4.0.0 | 3.6 3.7 3.8 3.9 |
-| snaptime | 0.2.4 | 3.6 3.7 3.8 3.9 |
 | sniffio | 1.2.0 | 3.6 3.7 3.8 3.9 |
 | snowballstemmer | 2.1.0 | 3.6 3.7 3.8 3.9 |
-| snowflake-connector-python | 2.6.1 | 3.6 3.7 3.8 3.9 |
 | snuggs | 1.4.7 | 3.6 3.7 3.8 3.9 |
-| social-auth-app-django | 5.0.0 | 3.6 3.7 |
 | social-auth-core | 4.1.0 | 3.6 3.7 3.8 3.9 |
 | sockjs | 0.11.0 | 3.6 3.7 3.8 3.9 |
 | sortedcontainers | 2.4.0 | 3.6 3.7 3.8 3.9 |
-| sounddevice | 0.4.2 | 3.6 3.7 3.8 3.9 |
-| soundfile | 0.10.3.post1 | 3.6 3.7 3.8 3.9 |
 | soupsieve | 2.2.1 | 3.6 3.7 3.8 3.9 |
 | south | 1.0.2 | 3.6 3.7 3.8 3.9 |
 | spacy | 3.1.2 | 3.6 3.7 3.8 3.9 |
 | spacy-legacy | 3.0.8 | 3.6 3.7 3.8 3.9 |
-| sparqlwrapper | 1.8.5 | 3.6 3.7 3.8 3.9 |
 | speaklater | 1.3 | 3.6 3.7 3.8 3.9 |
-| speechrecognition | 3.8.1 | 3.6 3.7 3.8 3.9 |
 | spglib | 1.16.2 | 3.7 3.8 3.9 |
 | sphinx | 4.1.2 | 3.6 3.7 3.8 3.9 |
 | sphinx | 4.2.0 | 3.6 3.7 3.8 3.9 |
-| sphinx-argparse | 0.3.1 | 3.6 3.7 3.8 3.9 |
-| sphinx-autoapi | 1.8.4 | 3.6 3.7 3.8 3.9 |
 | sphinx-autobuild | 2021.3.14 | 3.6 3.7 3.8 3.9 |
 | sphinx-autodoc-typehints | 1.12.0 | 3.6 3.7 3.8 3.9 |
-| sphinx-automodapi | 0.13 | 3.6 3.7 3.8 3.9 |
-| sphinx-book-theme | 0.1.3 | 3.6 3.7 3.8 3.9 |
-| sphinx-bootstrap-theme | 0.8.0 | 3.6 3.7 3.8 3.9 |
 | sphinx-click | 3.0.1 | 3.6 3.7 3.8 3.9 |
-| sphinxcontrib-apidoc | 0.3.0 | 3.6 3.7 3.8 3.9 |
 | sphinxcontrib-applehelp | 1.0.2 | 3.6 3.7 3.8 3.9 |
-| sphinxcontrib-bibtex | 2.4.1 | 3.6 3.7 3.8 3.9 |
 | sphinxcontrib-devhelp | 1.0.2 | 3.6 3.7 3.8 3.9 |
 | sphinxcontrib-htmlhelp | 2.0.0 | 3.6 3.7 3.8 3.9 |
 | sphinxcontrib-jsmath | 1.0.1 | 3.6 3.7 3.8 3.9 |
-| sphinxcontrib-napoleon | 0.7 | 3.6 3.7 3.8 3.9 |
-| sphinxcontrib-programoutput | 0.17 | 3.6 3.7 3.8 3.9 |
 | sphinxcontrib-qthelp | 1.0.3 | 3.6 3.7 3.8 3.9 |
 | sphinxcontrib-serializinghtml | 1.1.5 | 3.6 3.7 3.8 3.9 |
-| sphinxcontrib-spelling | 7.2.1 | 3.6 3.7 3.8 3.9 |
-| sphinxcontrib-websupport | 1.2.4 | 3.6 3.7 3.8 3.9 |
 | sphinx-copybutton | 0.4.0 | 3.6 3.7 3.8 3.9 |
 | sphinx-gallery | 0.9.0 | 3.6 3.7 3.8 3.9 |
 | sphinx-rtd-theme | 0.5.2 | 3.6 3.7 3.8 3.9 |
-| spidev | 3.5 | 3.6 3.7 3.8 3.9 |
 | spinners | 0.0.24 | 3.6 3.7 3.8 3.9 |
 | spotipy | 2.19.0 | 3.6 3.7 3.8 3.9 |
 | sqlalchemy | 1.3.24 | 3.6 3.7 3.8 3.9 |
 | sqlalchemy | 1.4.23 | 3.6 3.7 3.8 3.9 |
 | sqlalchemy-jsonfield | 1.0.0 | 3.6 3.7 3.8 3.9 |
-| sqlalchemy-migrate | 0.13.0 | 3.6 3.7 3.8 3.9 |
 | sqlalchemy-mixins | 1.5 | 3.6 3.7 3.8 3.9 |
 | sqlalchemy-utils | 0.37.8 | 3.6 3.7 3.8 3.9 |
 | sqlite-fts4 | 1.0.1 | 3.6 3.7 3.8 3.9 |
@@ -1980,82 +1189,52 @@ which points to the latest version of the project.
 | sqlparse | 0.4.1 | 3.6 3.7 3.8 3.9 |
 | sqlparse | 0.4.2 | 3.6 3.7 3.8 3.9 |
 | srsly | 2.4.1 | 3.6 3.7 3.8 3.9 |
-| sshtunnel | 0.4.0 | 3.6 3.7 3.8 3.9 |
 | stanfordnlp | 0.2.0 | 3.7 3.8 3.9 |
-| starkbank-ecdsa | 1.1.1 | 3.6 3.7 3.8 3.9 |
 | starlette | 0.14.2 | 3.6 3.7 3.8 3.9 |
 | starlette | 0.16.0 | 3.7 3.8 3.9 |
-| statsd | 3.3.0 | 3.6 3.7 3.8 3.9 |
 | statsmodels | 0.12.2 | 3.6 3.7 3.8 3.9 |
 | statsmodels | 0.13.0rc0 | 3.7 3.8 3.9 |
 | stdlib-list | 0.8.0 | 3.6 3.7 3.8 3.9 |
-| stestr | 3.2.0 | 3.6 3.7 3.8 3.9 |
 | stevedore | 3.4.0 | 3.6 3.7 3.8 3.9 |
 | stomper | 0.4.3 | 3.6 3.7 3.8 3.9 |
-| stone | 3.2.1 | 3.6 3.7 3.8 3.9 |
-| streamlit | 0.88.0 | 3.6 3.7 3.8 3.9 |
-| strict-rfc3339 | 0.7 | 3.6 3.7 3.8 3.9 |
 | stringcase | 1.2.0 | 3.6 3.7 3.8 3.9 |
 | stripe | 2.60.0 | 3.6 3.7 3.8 3.9 |
 | structlog | 21.1.0 | 3.6 3.7 3.8 3.9 |
 | subprocess32 | 3.5.4 | 3.6 3.7 3.8 3.9 |
-| suds-jurko | 0.6 | 3.6 3.7 3.8 3.9 |
-| superqt | 0.2.4 | 3.7 3.8 3.9 |
 | supervisor | 4.2.2 | 3.6 3.7 3.8 3.9 |
 | svgwrite | 1.4.1 | 3.7 3.8 3.9 |
 | swagger-ui-bundle | 0.0.8 | 3.6 3.7 3.8 3.9 |
-| symengine | 0.8.1 | 3.6 3.7 3.8 3.9 |
 | sympy | 1.8 | 3.6 3.7 3.8 3.9 |
-| tables | 3.6.1 | 3.6 3.7 3.8 3.9 |
 | tablib | 3.0.0 | 3.6 3.7 3.8 3.9 |
 | tabulate | 0.8.9 | 3.6 3.7 3.8 3.9 |
 | tblib | 1.7.0 | 3.7 3.8 3.9 |
 | telepath | 0.2 | 3.6 3.7 3.8 3.9 |
-| telethon | 1.23.0 | 3.6 3.7 3.8 3.9 |
-| tempest | 29.0.0 | 3.6 3.7 3.8 3.9 |
 | tempita | 0.5.2 | 3.6 3.7 3.8 3.9 |
 | tempora | 4.1.1 | 3.6 3.7 3.8 3.9 |
 | tempstorage | 5.2 | 3.6 3.7 3.8 3.9 |
 | tenacity | 6.2.0 | 3.6 3.7 3.8 3.9 |
-| tenacity | 6.3.1 | 3.7 |
 | tenacity | 8.0.1 | 3.6 3.7 3.8 3.9 |
 | tensorboard | 2.6.0 | 3.6 3.7 3.8 3.9 |
 | tensorboard-data-server | 0.6.1 | 3.6 3.7 3.8 3.9 |
 | tensorboard-plugin-wit | 1.8.0 | 3.6 3.7 3.8 3.9 |
-| tensorboardx | 2.4 | 3.6 3.7 3.8 3.9 |
 | tensorflow | 2.6.0 | 3.7 3.8 3.9 |
-| tensorflow-addons | 0.14.0 | 3.6 3.7 3.8 3.9 |
-| tensorflow-datasets | 4.4.0 | 3.6 3.7 3.8 3.9 |
 | tensorflow-estimator | 2.6.0 | 3.7 3.8 3.9 |
-| tensorflow-gpu | 2.6.0 | 3.6 3.7 3.8 3.9 |
-| tensorflow-hub | 0.12.0 | 3.6 3.7 3.8 3.9 |
-| tensorflow-metadata | 1.2.0 | 3.6 3.7 3.8 3.9 |
 | tensorflow-probability | 0.13.0 | 3.6 3.7 3.8 3.9 |
 | termcolor | 1.1.0 | 3.6 3.7 3.8 3.9 |
-| terminado | 0.12.1 | 3.6 3.7 3.8 3.9 |
 | terminaltables | 3.1.0 | 3.6 3.7 3.8 3.9 |
 | testfixtures | 6.18.1 | 3.6 3.7 3.8 3.9 |
 | testpath | 0.5.0 | 3.6 3.7 3.8 3.9 |
-| testresources | 2.0.1 | 3.6 3.7 3.8 3.9 |
-| testscenarios | 0.5.0 | 3.6 3.7 3.8 3.9 |
-| testtools | 2.5.0 | 3.6 3.7 3.8 3.9 |
-| textblob | 0.15.3 | 3.6 3.7 3.8 3.9 |
-| textfsm | 1.1.2 | 3.6 3.7 3.8 3.9 |
 | textrazor | 1.4.0 | 3.6 3.7 3.8 3.9 |
 | texttable | 1.6.4 | 3.6 3.7 3.8 3.9 |
 | text-unidecode | 1.3 | 3.6 3.7 3.8 3.9 |
-| textwrap3 | 0.9.2 | 3.6 3.7 3.8 3.9 |
 | the | 0.1.5 | 3.6 3.7 3.8 3.9 |
 | theano | 1.0.5 | 3.6 3.7 3.8 3.9 |
-| theano-pymc | 1.1.2 | 3.7 3.8 3.9 |
 | therapist | 2.2.0 | 3.6 3.7 3.8 3.9 |
 | thinc | 8.0.10 | 3.6 3.7 3.8 3.9 |
 | thop | 0.0.31-2005241907 | 3.7 3.8 3.9 |
 | threadpoolctl | 2.2.0 | 3.6 3.7 3.8 3.9 |
 | thrift | 0.13.0 | 3.6 3.7 3.8 3.9 |
-| tifffile | 2020.9.3 | 3.6 |
 | tifffile | 2021.8.30 | 3.7 3.8 3.9 |
-| timeout-decorator | 0.5.0 | 3.6 3.7 3.8 3.9 |
 | timestamp | 0.0.1 | 3.6 3.7 3.8 3.9 |
 | tinycss2 | 1.1.0 | 3.6 3.7 3.8 3.9 |
 | tinydb | 4.5.1 | 3.6 3.7 3.8 3.9 |
@@ -2067,12 +1246,9 @@ which points to the latest version of the project.
 | tomli | 1.2.1 | 3.6 3.7 3.8 3.9 |
 | tomlkit | 0.7.2 | 3.6 3.7 3.8 3.9 |
 | toolz | 0.11.1 | 3.6 3.7 3.8 3.9 |
-| toposort | 1.6 | 3.6 3.7 3.8 3.9 |
 | torch | 1.7.0 | 3.7 3.8 |
 | torch | 1.9.0 | 3.7 3.8 3.9 |
-| torchaudio | 0.9.0 | 3.7 3.8 3.9 |
 | torchmetrics | 0.5.1 | 3.7 3.8 3.9 |
-| torchtext | 0.10.0 | 3.7 3.8 3.9 |
 | torchvision | 0.10.0 | 3.7 3.8 3.9 |
 | torchvision | 0.8.1 | 3.7 3.8 |
 | tornado | 6.1 | 3.6 3.7 3.8 3.9 |
@@ -2080,47 +1256,27 @@ which points to the latest version of the project.
 | towncrier | 21.3.0 | 3.6 3.7 3.8 3.9 |
 | tox | 3.24.3 | 3.6 3.7 3.8 3.9 |
 | tqdm | 4.62.2 | 3.6 3.7 3.8 3.9 |
-| trac | 1.4.3 | 3.6 3.7 3.8 3.9 |
-| traceback2 | 1.4.0 | 3.6 3.7 3.8 3.9 |
 | tracers | 21.8.6876 | 3.7 3.8 3.9 |
 | traitlets | 4.3.3 | 3.6 |
 | traitlets | 5.1.0 | 3.7 3.8 3.9 |
 | trans | 2.1.0 | 3.6 3.7 3.8 3.9 |
-| transaction | 3.0.1 | 3.6 3.7 3.8 3.9 |
+| transaction | 3.0.1 | 3.6 3.7 3.8 |
 | transformers | 4.10.0 | 3.6 3.7 3.8 3.9 |
-| transformers | 4.10.2 | 3.7 3.8 3.9 |
-| transitions | 0.8.9 | 3.6 3.7 3.8 3.9 |
 | translationstring | 1.4 | 3.6 3.7 3.8 3.9 |
 | tree-sitter | 0.19.0 | 3.6 3.7 3.8 3.9 |
-| treq | 21.5.0 | 3.6 3.7 3.8 3.9 |
-| trimesh | 3.9.30 | 3.7 3.8 3.9 |
 | trio | 0.19.0 | 3.6 3.7 3.8 3.9 |
-| troposphere | 3.0.3 | 3.7 3.8 3.9 |
 | trytond | 6.0.6 | 3.6 3.7 3.8 3.9 |
-| trytond | 6.0.7 | 3.6 3.7 3.8 3.9 |
-| trytond-account | 6.0.3 | 3.6 3.7 3.8 3.9 |
-| trytond-company | 6.0.4 | 3.6 3.7 3.8 3.9 |
-| trytond-country | 6.0.1 | 3.6 3.7 3.8 3.9 |
-| trytond-currency | 6.0.1 | 3.6 3.7 3.8 3.9 |
-| trytond-party | 6.0.2 | 3.6 3.7 3.8 3.9 |
-| trytond-product | 6.0.2 | 3.6 3.7 3.8 3.9 |
 | tskit | 0.3.7 | 3.7 3.8 3.9 |
-| tweedledum | 1.1.1 | 3.6 3.7 3.8 3.9 |
-| tweepy | 3.10.0 | 3.6 3.7 3.8 3.9 |
 | twilio | 6.63.1 | 3.6 3.7 3.8 3.9 |
 | twine | 3.4.2 | 3.6 3.7 3.8 3.9 |
 | twisted | 21.2.0 | 3.6 |
 | twisted | 21.7.0 | 3.7 3.8 3.9 |
-| twisted-iocpsupport | 1.0.2 | 3.6 3.7 3.8 3.9 |
 | txaio | 21.2.1 | 3.6 3.7 3.8 3.9 |
 | typed-ast | 1.4.3 | 3.6 3.7 |
 | typeguard | 2.12.1 | 3.6 3.7 3.8 3.9 |
 | typer | 0.3.2 | 3.6 3.7 3.8 3.9 |
 | typer | 0.4.0 | 3.6 3.7 3.8 3.9 |
-| types-pyyaml | 5.4.10 | 3.6 3.7 3.8 3.9 |
-| types-requests | 2.25.6 | 3.6 3.7 3.8 3.9 |
 | typing | 3.7.4.3 | 3.6 |
-| typing-compat | 0.1.0 | 3.6 3.7 3.8 3.9 |
 | typing-extensions | 3.10.0.1 | 3.6 3.7 3.8 3.9 |
 | typing-extensions | 3.10.0.2 | 3.6 3.7 3.8 3.9 |
 | typing-extensions | 3.7.4.3 | 3.6 3.7 3.8 3.9 |
@@ -2129,47 +1285,31 @@ which points to the latest version of the project.
 | tzlocal | 2.1 | 3.6 3.7 3.8 3.9 |
 | tzlocal | 3.0 | 3.6 3.7 3.8 3.9 |
 | ujson | 4.1.0 | 3.6 3.7 3.8 3.9 |
-| umap-learn | 0.5.1 | 3.6 3.7 3.8 3.9 |
-| uncertainties | 3.1.6 | 3.6 3.7 3.8 3.9 |
 | unicodecsv | 0.14.1 | 3.6 3.7 3.8 3.9 |
-| unidecode | 1.1.2 | 3.6 3.7 3.8 3.9 |
 | unidecode | 1.3.1 | 3.6 3.7 3.8 3.9 |
 | unidecode | 1.3.2 | 3.6 3.7 3.8 3.9 |
 | unipath | 1.1 | 3.6 3.7 3.8 3.9 |
-| unittest2 | 1.1.0 | 3.6 3.7 3.8 3.9 |
-| uproot | 4.1.2 | 3.6 3.7 3.8 3.9 |
 | uritemplate | 3.0.1 | 3.6 3.7 3.8 3.9 |
 | urllib3 | 1.25.11 | 3.6 3.7 3.8 3.9 |
 | urllib3 | 1.26.6 | 3.6 3.7 3.8 3.9 |
 | url-normalize | 1.4.3 | 3.7 3.8 3.9 |
 | urwid | 2.1.2 | 3.6 3.7 3.8 3.9 |
-| uuid | 1.30 | 3.6 3.7 3.8 3.9 |
 | uvicorn | 0.15.0 | 3.6 3.7 3.8 3.9 |
 | uvloop | 0.16.0 | 3.7 3.8 3.9 |
-| uwsgi | 2.0.19.1 | 3.6 3.7 3.8 3.9 |
 | validate-docbr | 1.8.2 | 3.6 3.7 3.8 3.9 |
-| validate-email | 1.3 | 3.6 3.7 3.8 3.9 |
 | validators | 0.18.2 | 3.6 3.7 3.8 3.9 |
 | varint | 1.0.2 | 3.8 3.9 |
-| vcrpy | 4.1.1 | 3.6 3.7 3.8 3.9 |
 | venusian | 3.0.0 | 3.6 3.7 3.8 3.9 |
 | versioneer | 0.20 | 3.6 3.7 3.8 3.9 |
-| vine | 1.3.0 | 3.6 3.7 3.8 3.9 |
 | vine | 5.0.0 | 3.6 3.7 3.8 3.9 |
 | virtualenv | 20.7.2 | 3.6 3.7 3.8 3.9 |
-| virtualenv | 20.8.0 | 3.6 3.7 3.8 3.9 |
-| virtualenv-clone | 0.5.7 | 3.6 3.7 3.8 3.9 |
 | visitor | 0.1.3 | 3.6 3.7 3.8 3.9 |
-| vispy | 0.8.1 | 3.7 3.8 3.9 |
 | vobject | 0.9.6.1 | 3.6 3.7 3.8 3.9 |
 | voluptuous | 0.12.1 | 3.6 3.7 3.8 3.9 |
-| vtk | 9.0.3 | 3.6 3.7 3.8 3.9 |
 | w3lib | 1.22.0 | 3.6 3.7 3.8 3.9 |
 | wagtail | 2.14.1 | 3.6 3.7 3.8 3.9 |
 | waitress | 2.0.0 | 3.6 3.7 3.8 3.9 |
 | wand | 0.6.7 | 3.6 3.7 3.8 3.9 |
-| wandb | 0.12.2 | 3.6 3.7 3.8 3.9 |
-| warlock | 1.3.3 | 3.6 3.7 3.8 3.9 |
 | wasabi | 0.8.2 | 3.6 3.7 3.8 3.9 |
 | watchdog | 2.1.5 | 3.6 3.7 3.8 3.9 |
 | watchgod | 0.7 | 3.6 3.7 3.8 3.9 |
@@ -2178,7 +1318,6 @@ which points to the latest version of the project.
 | weasyprint | 53.3 | 3.6 3.7 3.8 3.9 |
 | webargs | 5.5.3 | 3.6 3.7 3.8 3.9 |
 | webassets | 2.0 | 3.6 3.7 3.8 3.9 |
-| webcolors | 1.11.1 | 3.6 3.7 3.8 3.9 |
 | webdriver-manager | 3.4.2 | 3.6 3.7 3.8 3.9 |
 | webencodings | 0.5.1 | 3.6 3.7 3.8 3.9 |
 | webob | 1.8.7 | 3.6 3.7 3.8 3.9 |
@@ -2194,21 +1333,15 @@ which points to the latest version of the project.
 | wget | 3.2 | 3.6 3.7 3.8 3.9 |
 | wheel | 0.37.0 | 3.6 3.7 3.8 3.9 |
 | whitenoise | 5.3.0 | 3.6 3.7 3.8 3.9 |
-| whoosh | 2.7.4 | 3.6 3.7 3.8 3.9 |
-| widgetsnbextension | 3.5.1 | 3.6 3.7 3.8 3.9 |
-| wikipedia | 1.4.0 | 3.6 3.7 3.8 3.9 |
 | willow | 1.4 | 3.6 3.7 3.8 3.9 |
 | win32-setctime | 1.0.3 | 3.6 3.7 3.8 3.9 |
 | win-inet-pton | 1.1.0 | 3.6 3.7 3.8 3.9 |
-| wmctrl | 0.4 | 3.6 3.7 3.8 3.9 |
 | wordcloud | 1.8.1 | 3.6 3.7 3.8 3.9 |
 | wordsegment | 1.3.1 | 3.6 3.7 3.8 3.9 |
 | wrapt | 1.12.1 | 3.6 3.7 3.8 3.9 |
-| ws4py | 0.5.1 | 3.8 3.9 |
 | wsgiproxy2 | 0.5.1 | 3.6 3.7 3.8 3.9 |
 | wslink | 1.0.7 | 3.6 3.7 3.8 3.9 |
 | wtforms | 2.3.3 | 3.6 3.7 3.8 3.9 |
-| wxpython | 4.1.1 | 3.6 3.7 3.8 3.9 |
 | x256 | 0.0.3 | 3.6 3.7 3.8 3.9 |
 | xarray | 0.19.0 | 3.7 3.8 3.9 |
 | xdg | 5.1.1 | 3.6 3.7 3.8 3.9 |
@@ -2223,46 +1356,27 @@ which points to the latest version of the project.
 | xxhash | 2.0.2 | 3.6 3.7 3.8 3.9 |
 | yamllint | 1.26.3 | 3.6 3.7 3.8 3.9 |
 | yapf | 0.31.0 | 3.6 3.7 3.8 3.9 |
-| yappi | 1.3.2 | 3.6 3.7 3.8 3.9 |
 | yarl | 1.6.3 | 3.6 3.7 3.8 3.9 |
 | yaspin | 1.5.0 | 3.6 |
 | yaspin | 2.1.0 | 3.7 3.8 3.9 |
-| yfinance | 0.1.63 | 3.6 3.7 3.8 3.9 |
 | youtube-dl | 2021.6.6 | 3.6 3.7 3.8 3.9 |
-| z3c-autoinclude | 0.4.1 | 3.6 3.7 3.8 3.9 |
-| z3c-caching | 2.2 | 3.6 3.7 3.8 3.9 |
-| z3c-form | 4.2 | 3.6 3.7 3.8 3.9 |
-| z3c-formwidget-query | 0.17 | 3.6 3.7 3.8 3.9 |
-| z3c-jbot | 1.1.1 | 3.6 3.7 3.8 3.9 |
-| z3c-objpath | 1.2 | 3.6 3.7 3.8 3.9 |
 | z3c-pt | 3.3.0 | 3.6 3.7 3.8 3.9 |
-| z3c-relationfield | 0.9.0 | 3.6 3.7 3.8 3.9 |
-| z3c-zcmlhook | 1.1 | 3.6 3.7 3.8 3.9 |
-| zarr | 2.9.5 | 3.7 3.8 3.9 |
-| zc-buildout | 2.13.4 | 3.6 3.7 3.8 3.9 |
 | zc-lockfile | 2.0 | 3.6 3.7 3.8 3.9 |
 | zconfig | 3.6.0 | 3.6 3.7 3.8 3.9 |
-| zc-relation | 1.1.post2 | 3.6 3.7 3.8 3.9 |
 | zdaemon | 4.3 | 3.6 3.7 3.8 3.9 |
 | zeep | 4.1.0 | 3.6 3.7 3.8 3.9 |
 | zenpy | 2.0.24 | 3.6 3.7 3.8 3.9 |
-| zeo | 5.2.3 | 3.6 3.7 3.8 3.9 |
-| zeroconf | 0.36.4 | 3.6 3.7 |
-| zeroconf | 0.36.5 | 3.8 3.9 |
-| zexceptions | 4.1 | 3.6 3.7 3.8 3.9 |
+| zexceptions | 4.1 | 3.6 3.7 3.8 |
 | zict | 2.0.0 | 3.7 3.8 3.9 |
 | zipp | 3.5.0 | 3.6 3.7 3.8 3.9 |
-| zmq | 0.0.0 | 3.6 3.7 3.8 3.9 |
 | zodb | 5.6.0 | 3.6 3.7 3.8 3.9 |
-| zodb3 | 3.11.0 | 3.6 3.7 3.8 3.9 |
 | zodbpickle | 2.0.0 | 3.6 3.7 3.8 3.9 |
 | zope | 5.3 | 3.6 3.7 3.8 3.9 |
-| zope2 | 4.0 | 3.6 3.7 3.8 3.9 |
 | zope-annotation | 4.7.0 | 3.6 3.7 3.8 3.9 |
 | zope-app-locales | 4.1 | 3.6 3.7 3.8 3.9 |
 | zope-browser | 2.3 | 3.6 3.7 3.8 3.9 |
 | zope-browsermenu | 4.4 | 3.6 3.7 3.8 3.9 |
-| zope-browserpage | 4.4.0 | 3.6 3.7 3.8 3.9 |
+| zope-browserpage | 4.4.0 | 3.6 3.7 3.8 |
 | zope-browserresource | 4.4 | 3.6 3.7 3.8 3.9 |
 | zope-cachedescriptors | 4.3.1 | 3.6 3.7 3.8 3.9 |
 | zope-component | 5.0.1 | 3.6 3.7 3.8 3.9 |
@@ -2273,23 +1387,15 @@ which points to the latest version of the project.
 | zope-contenttype | 4.5.0 | 3.6 3.7 3.8 3.9 |
 | zope-copy | 4.2 | 3.6 3.7 3.8 3.9 |
 | zope-datetime | 4.3.0 | 3.6 3.7 3.8 3.9 |
-| zope-deferredimport | 4.3.1 | 3.6 3.7 3.8 3.9 |
 | zope-deprecation | 4.4.0 | 3.6 3.7 3.8 3.9 |
 | zope-dottedname | 4.3 | 3.6 3.7 3.8 3.9 |
 | zope-event | 4.5.0 | 3.6 3.7 3.8 3.9 |
-| zope-exceptions | 4.4 | 3.6 3.7 3.8 3.9 |
 | zope-filerepresentation | 5.0.0 | 3.6 3.7 3.8 3.9 |
 | zope-globalrequest | 1.5 | 3.6 3.7 3.8 3.9 |
 | zope-hookable | 5.1.0 | 3.6 3.7 3.8 3.9 |
-| zope-i18n | 4.8.0 | 3.6 3.7 3.8 3.9 |
-| zope-i18nmessageid | 5.0.1 | 3.6 3.7 3.8 3.9 |
 | zope-interface | 5.4.0 | 3.6 3.7 3.8 3.9 |
-| zope-intid | 4.4.0 | 3.6 3.7 3.8 3.9 |
 | zope-keyreference | 4.2.0 | 3.6 3.7 3.8 3.9 |
-| zope-lifecycleevent | 4.3 | 3.6 3.7 3.8 3.9 |
-| zope-location | 4.2 | 3.6 3.7 3.8 3.9 |
 | zope-pagetemplate | 4.5.0 | 3.6 3.7 3.8 3.9 |
-| zope-processlifetime | 2.3.0 | 3.6 3.7 3.8 3.9 |
 | zope-proxy | 4.4.0 | 3.6 3.7 3.8 3.9 |
 | zope-ptresource | 4.2.0 | 3.6 3.7 3.8 3.9 |
 | zope-publisher | 6.0.2 | 3.6 3.7 3.8 3.9 |
@@ -2300,13 +1406,11 @@ which points to the latest version of the project.
 | zope-sequencesort | 4.1.2 | 3.6 3.7 3.8 3.9 |
 | zope-site | 4.5.0 | 3.6 3.7 3.8 3.9 |
 | zope-size | 4.3 | 3.6 3.7 3.8 3.9 |
-| zope-sqlalchemy | 1.6 | 3.6 3.7 3.8 3.9 |
 | zope-structuredtext | 4.3 | 3.6 3.7 3.8 3.9 |
 | zope-tal | 4.5 | 3.6 3.7 3.8 3.9 |
 | zope-tales | 5.1 | 3.6 3.7 3.8 3.9 |
 | zope-testbrowser | 5.5.1 | 3.6 3.7 3.8 3.9 |
 | zope-testing | 4.9 | 3.6 3.7 3.8 3.9 |
-| zope-testrunner | 5.3.0 | 3.6 3.7 3.8 3.9 |
 | zope-traversing | 4.4.1 | 3.6 3.7 3.8 3.9 |
 | zope-viewlet | 4.2.1 | 3.6 3.7 3.8 3.9 |
 | zopfli | 0.1.8 | 3.6 3.7 3.8 3.9 |
