@@ -1,0 +1,1 @@
+import mkdocs_autorefs
