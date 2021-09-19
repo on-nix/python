@@ -1,0 +1,13 @@
+{
+  "argcomplete": "1.12.3",
+  "backports-entry-points-selectable": "1.1.0",
+  "colorlog": "6.4.1",
+  "distlib": "0.3.2",
+  "filelock": "3.0.12",
+  "packaging": "21.0",
+  "platformdirs": "2.3.0",
+  "py": "1.10.0",
+  "pyparsing": "2.4.7",
+  "six": "1.16.0",
+  "virtualenv": "20.8.0"
+}
