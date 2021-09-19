@@ -1,0 +1,20 @@
+{
+  "torchvision-0.10.0-cp36-cp36m-macosx_10_9_x86_64.whl": "f26c5ba220445ee8e892033234485c9276304874e87ec9d5146779167be3148d",
+  "torchvision-0.10.0-cp36-cp36m-manylinux1_x86_64.whl": "d5c80cf058c0ecb010a97dc71225f5274e45c596bfad7505e0d000abcccb7063",
+  "torchvision-0.10.0-cp36-cp36m-manylinux2014_aarch64.whl": "6d69bf15a6e885e3b8c674a524bc6b53016879cb8b0fd8537327edd2d243cab1",
+  "torchvision-0.10.0-cp36-cp36m-win_amd64.whl": "6b917d4762deaaa4c0cdd106403ea8384a1fdf93de424097bd71f3ebfdc76b41",
+  "torchvision-0.10.0-cp37-cp37m-macosx_10_9_x86_64.whl": "a405d968e7e94c0744870eef31c977635e2123b0b46becc1461a28b7c27d3c0c",
+  "torchvision-0.10.0-cp37-cp37m-manylinux1_x86_64.whl": "9597da592f76d22d9e80a4a072294e093f8c3a06c404f3ff237f359b9225e097",
+  "torchvision-0.10.0-cp37-cp37m-manylinux2014_aarch64.whl": "ce2aae5567522f2a877c6334796721af07c164e94ff75876821fadb3310cfe7e",
+  "torchvision-0.10.0-cp37-cp37m-win_amd64.whl": "576d7b070f25cbfc78a710960fd8fa6d3961d640db05f7ace69d9a3e5bbf754a",
+  "torchvision-0.10.0-cp38-cp38-macosx_10_9_x86_64.whl": "ad24107b2ed0ccc372af92822f1f8f5530907b6fb7520a08195cf0bb07446923",
+  "torchvision-0.10.0-cp38-cp38-macosx_11_0_arm64.whl": "bb04708354fb6d639f6e47d8066b0d546fbe0a3a68685cf8d413a6370c8f63ad",
+  "torchvision-0.10.0-cp38-cp38-manylinux1_x86_64.whl": "aa709fa63896f93e03a03976230a51050fcd5f1b45cf663f62d91b7eaaf8ac09",
+  "torchvision-0.10.0-cp38-cp38-manylinux2014_aarch64.whl": "4796e1fb2995c6e495c5ea4e2b0fe0e4be44bd9416ef4a1349c1a406675cbdee",
+  "torchvision-0.10.0-cp38-cp38-win_amd64.whl": "487bbfd89575a52cd18bca8a33e24c373570e060f801265051c3a0aafc769720",
+  "torchvision-0.10.0-cp39-cp39-macosx_10_9_x86_64.whl": "f68291559a4cf1245c95efc5e47ebe158819aceec4e1f585d2fe133cd2c9d8e8",
+  "torchvision-0.10.0-cp39-cp39-macosx_11_0_arm64.whl": "ae9606cc248de9b3a077710529b11c57315d2914c8ee3099fbd93a62f56a1661",
+  "torchvision-0.10.0-cp39-cp39-manylinux1_x86_64.whl": "20a57ce42fa20c26d800c65d5b88dbaaa115a01f4f5623d41abfb182b854f199",
+  "torchvision-0.10.0-cp39-cp39-manylinux2014_aarch64.whl": "a30466893a5b97073c992859f3645e3e1f41daf2c1b4db6cb2ac8ec7d0e1f6bc",
+  "torchvision-0.10.0-cp39-cp39-win_amd64.whl": "da65af25b51caf43327ecb3ccf550eedfd62d1f73511db44370b4b9522569b8d"
+}
