@@ -1,0 +1,8 @@
+{
+  "cffi": "1.14.6",
+  "extensionclass": "4.5.1",
+  "persistent": "4.7.0",
+  "pycparser": "2.20",
+  "six": "1.16.0",
+  "zope-interface": "5.4.0"
+}
