@@ -1,0 +1,19 @@
+{
+  "mysql-connector-python-8.0.26.tar.gz": "f5fde784da884fe4f6f4734c0c356b6bf8f1a55fe770bc3ee0ded3d111f6123a",
+  "mysql_connector_python-8.0.26-cp36-cp36m-manylinux1_i686.whl": "b8659919b4d6973764de7bdcb8d2d9563fb5d7d5ed6386bc6fce494421455145",
+  "mysql_connector_python-8.0.26-cp36-cp36m-manylinux1_x86_64.whl": "7e053c818dff6dc42c1f40861918a377b2b60aa3987fed7e40587d2467881844",
+  "mysql_connector_python-8.0.26-cp36-cp36m-win_amd64.whl": "3da7a33da3ee28f0175dcac8084900e0e97ab28e2711129711d651acd8eb4241",
+  "mysql_connector_python-8.0.26-cp37-cp37m-macosx_11_0_x86_64.whl": "4de9aab6fddc67ac105e576bf0b5a507795a13ce3bba6959f5c401885119c080",
+  "mysql_connector_python-8.0.26-cp37-cp37m-manylinux1_i686.whl": "62e939c88a1be022b25023e5a4ba21472bfe563d2c3487c3286605d6ecc45214",
+  "mysql_connector_python-8.0.26-cp37-cp37m-manylinux1_x86_64.whl": "1d2be3287689aff582ec58e4b4f053a2fd097a73f3330138330408595824e5e1",
+  "mysql_connector_python-8.0.26-cp37-cp37m-win_amd64.whl": "84008628cfe6aca25eb2d7cef1c255b017dc32ad8b4a78e29089c0f2cd627820",
+  "mysql_connector_python-8.0.26-cp38-cp38-macosx_11_0_x86_64.whl": "d822d0bfe171a7d4aec735f37e8a10dec13338f93ec3f879c90ef4c687c7c699",
+  "mysql_connector_python-8.0.26-cp38-cp38-manylinux1_i686.whl": "a139ecea8fa49df0aa9df71d4bf9c30ae250034b8f1580c7f9ba96d531920a1f",
+  "mysql_connector_python-8.0.26-cp38-cp38-manylinux1_x86_64.whl": "3f85fa406b74517daad49c584f068478941963d5cccc4a7a140d577b17f393fb",
+  "mysql_connector_python-8.0.26-cp38-cp38-win_amd64.whl": "69c4071f3b397e862b7f4c8d7ad0c88417687fbaf308167f9f3e63bcf0f24f25",
+  "mysql_connector_python-8.0.26-cp39-cp39-macosx_11_0_x86_64.whl": "fdbb4d0ecd326952eff557d6e597a1350a4f40c206f669dd2f8f487518ef7d0f",
+  "mysql_connector_python-8.0.26-cp39-cp39-manylinux1_i686.whl": "136630a0a7c52e84851fb8f622dee03b1b7e797b7f5639f3f4965825cdcd6567",
+  "mysql_connector_python-8.0.26-cp39-cp39-manylinux1_x86_64.whl": "547b16542fa7eae657c48bae0b126a5757cda5d1e8356139f4514f1cc6efbde3",
+  "mysql_connector_python-8.0.26-cp39-cp39-win_amd64.whl": "c10e4f47f1ab04a17f6ab50e39dbf99c81c6213b89533b901ccca57c3e78ade6",
+  "mysql_connector_python-8.0.26-py2.py3-none-any.whl": "eaaa4a41e8508bc0eee5c39f5bb4454cc6d091a332535e988d09746ab4428f3e"
+}
