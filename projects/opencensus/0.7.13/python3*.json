@@ -1,0 +1,20 @@
+{
+  "cachetools": "4.2.2",
+  "certifi": "2021.5.30",
+  "charset-normalizer": "2.0.6",
+  "google-api-core": "1.31.2",
+  "google-auth": "1.35.0",
+  "googleapis-common-protos": "1.53.0",
+  "idna": "3.2",
+  "opencensus-context": "0.1.2",
+  "packaging": "21.0",
+  "protobuf": "3.18.0",
+  "pyasn1": "0.4.8",
+  "pyasn1-modules": "0.2.8",
+  "pyparsing": "2.4.7",
+  "pytz": "2021.1",
+  "requests": "2.26.0",
+  "rsa": "4.7.2",
+  "six": "1.16.0",
+  "urllib3": "1.26.6"
+}
