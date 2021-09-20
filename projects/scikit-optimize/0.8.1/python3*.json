@@ -1,0 +1,7 @@
+{
+  "joblib": "1.0.1",
+  "pyaml": "21.8.3",
+  "pyyaml": "5.4.1",
+  "scikit-learn": "0.24.2",
+  "threadpoolctl": "2.2.0"
+}
