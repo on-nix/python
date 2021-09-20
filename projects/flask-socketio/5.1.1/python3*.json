@@ -1,0 +1,12 @@
+{
+  "bidict": "0.21.3",
+  "click": "8.0.1",
+  "colorama": "0.4.4",
+  "flask": "2.0.1",
+  "itsdangerous": "2.0.1",
+  "jinja2": "3.0.1",
+  "markupsafe": "2.0.1",
+  "python-engineio": "4.2.1",
+  "python-socketio": "5.4.0",
+  "werkzeug": "2.0.1"
+}
