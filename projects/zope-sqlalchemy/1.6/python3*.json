@@ -1,0 +1,6 @@
+{
+  "greenlet": "1.1.1",
+  "sqlalchemy": "1.4.23",
+  "transaction": "3.0.1",
+  "zope-interface": "5.4.0"
+}
