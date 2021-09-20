@@ -1,0 +1,15 @@
+{
+  "btrees": "4.9.2",
+  "cffi": "1.14.6",
+  "persistent": "4.7.0",
+  "pycparser": "2.20",
+  "six": "1.16.0",
+  "transaction": "3.0.1",
+  "zc-lockfile": "2.0",
+  "zconfig": "3.6.0",
+  "zdaemon": "4.3",
+  "zeo": "5.2.3",
+  "zodb": "5.6.0",
+  "zodbpickle": "2.0.0",
+  "zope-interface": "5.4.0"
+}
