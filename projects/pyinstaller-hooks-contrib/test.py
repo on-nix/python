@@ -1,0 +1,1 @@
+import _pyinstaller_hooks_contrib
