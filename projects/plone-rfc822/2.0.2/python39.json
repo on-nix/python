@@ -1,0 +1,10 @@
+{
+  "python-dateutil": "2.8.2",
+  "six": "1.16.0",
+  "zope-component": "5.0.1",
+  "zope-deprecation": "4.4.0",
+  "zope-event": "4.5.0",
+  "zope-hookable": "5.1.0",
+  "zope-interface": "5.4.0",
+  "zope-schema": "6.1.0"
+}
