@@ -1,0 +1,19 @@
+{
+  "snowflake-connector-python-2.6.1.tar.gz": "dbe6f7d84debd27b117e17fdb280be27695cf6ae54009c49495584d1b7776d1b",
+  "snowflake_connector_python-2.6.1-cp36-cp36m-macosx_10_14_x86_64.whl": "c5d0a5661c3e7e17195d4dd1d946136c160b533b9afe6038a4c922e1a564debb",
+  "snowflake_connector_python-2.6.1-cp36-cp36m-manylinux2010_x86_64.whl": "428d2cae8f723130d80e31036f3b20d711f8455937b2b3dace8697cced54b83d",
+  "snowflake_connector_python-2.6.1-cp36-cp36m-manylinux2014_x86_64.whl": "7d1a4d10967803b875533ac4793a7273677db5901d05978eb397af33ff1f5bf9",
+  "snowflake_connector_python-2.6.1-cp36-cp36m-win_amd64.whl": "cff31e3a24984683bbe1c351e4151a67dfe57e298c36cac1afde632d43e12f65",
+  "snowflake_connector_python-2.6.1-cp37-cp37m-macosx_10_14_x86_64.whl": "146e52e76ec4de2dc07fa76ceaad51af60592ea5c1c60bd7778b7955502650e4",
+  "snowflake_connector_python-2.6.1-cp37-cp37m-manylinux2010_x86_64.whl": "04d623a1c1099ee1b4f4dbae2249d600b7cc3409688b44c157a67e6bdd6bf348",
+  "snowflake_connector_python-2.6.1-cp37-cp37m-manylinux2014_x86_64.whl": "ad1c78acfa496cb567735410f5289b595657991256a6c4ada2af65fcd6676e65",
+  "snowflake_connector_python-2.6.1-cp37-cp37m-win_amd64.whl": "55fef4b0c25eecb9af315e206e2fd7b9f754ebf9fec99b74d358e60228b508d2",
+  "snowflake_connector_python-2.6.1-cp38-cp38-macosx_10_14_x86_64.whl": "76b632f8db5b6f305297b73b5a0c06cba72ddeb140e6d94a4eb94e2d1827c4fb",
+  "snowflake_connector_python-2.6.1-cp38-cp38-manylinux2010_x86_64.whl": "f5a31cdb14e2f6bcc659bfebd4160d155b3a6620f2af64fde51b62676721a9e7",
+  "snowflake_connector_python-2.6.1-cp38-cp38-manylinux2014_x86_64.whl": "103ca8d2be9a5fcab41dd27827361a6490feaa7984bfcb73d620e16062bab21b",
+  "snowflake_connector_python-2.6.1-cp38-cp38-win_amd64.whl": "9eeebd9e03abb600dee5d25eeba3e6be07ef60dc2afeffb974c95f4655532dea",
+  "snowflake_connector_python-2.6.1-cp39-cp39-macosx_10_14_universal2.whl": "d9f0a6fc896419d9d81d0c4bc2400902d0a69048eb97e5c0a76fe3cb2e2b0f5c",
+  "snowflake_connector_python-2.6.1-cp39-cp39-manylinux2010_x86_64.whl": "6e675b86f563a4ae343fc1eb401fc9158764165a12b14781ed4059a2326fa239",
+  "snowflake_connector_python-2.6.1-cp39-cp39-manylinux2014_x86_64.whl": "8bf73ed4fbf164a6ef7e78f4c3460cd30a128499cb1bfa23fa7e215a5fca8dae",
+  "snowflake_connector_python-2.6.1-cp39-cp39-win_amd64.whl": "e2462afa35fd5df25f68375ff9df607c169f66f89adabaa2ed5500566b287803"
+}
