@@ -1,0 +1,16 @@
+{
+  "cffi": "1.14.6",
+  "persistent": "4.7.0",
+  "plone-memoize": "2.1.1",
+  "pycparser": "2.20",
+  "six": "1.16.0",
+  "zope-annotation": "4.7.0",
+  "zope-component": "5.0.1",
+  "zope-event": "4.5.0",
+  "zope-hookable": "5.1.0",
+  "zope-interface": "5.4.0",
+  "zope-location": "4.2",
+  "zope-proxy": "4.4.0",
+  "zope-ramcache": "2.3",
+  "zope-schema": "6.1.0"
+}
