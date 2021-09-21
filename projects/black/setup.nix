@@ -1,0 +1,3 @@
+{
+  runtimeWants = [ "aiohttp" "aiohttp-cors" ];
+}
