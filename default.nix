@@ -270,6 +270,7 @@ let
       venvContents = makeDerivation {
         builder = ''
           export DETERMINISTIC_BUILD=1
+          export LANG=C.UTF-8
           export PYTHONDONTWRITEBYTECODE=1
           export PYTHONIOENCODING=UTF-8
           export PYTHONPYCACHEPREFIX=$PWD
