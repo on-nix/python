@@ -40,6 +40,7 @@ That can be used with the [Nix][NIX] package manager.
     - [Creating Python environments with Applications and Libraries](#creating-python-environments-with-applications-and-libraries-1)
     - [Compatibility with Nixpkgs](#compatibility-with-nixpkgs-1)
 - [Contributing](#contributing)
+- [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -2228,6 +2229,15 @@ Anything you can think of will be appreciated!
 Also a few dollars are always welcome :grin:
 
 - https://www.patreon.com/kamadorueda
+
+# License
+
+Code on this branch is dedicated to the public domain
+via [The Unlicense](https://unlicense.org/) license.
+
+In other words you can do anything you want with it.
+
+Please enjoy! :rocket:
 
 ---
 
