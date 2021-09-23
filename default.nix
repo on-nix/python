@@ -173,9 +173,7 @@ let
     (builtins.attrValues projectsMeta);
   apps = builtins.mapAttrs
     (project: projectMeta: builtins.mapAttrs
-      (version: _:
-        let latest = projectMeta.versions.${version}.pythonVersions.latest.pythonVersion;
-        in projects.${project}.${version}.${latest}.bin)
+      (version: _: projects.${project}.${version}.latest.bin)
       (projectMeta.versions))
     (projectsMeta);
 
