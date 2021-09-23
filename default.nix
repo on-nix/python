@@ -49,6 +49,8 @@ let
         (buildProjectVersionMeta project)
         (lsDirs (projectsPath + "/${project}"));
 
+      metaPath = projectsPath + "/${project}/meta.json";
+      meta = fromJsonFile metaPath;
       setupPath = projectsPath + "/${project}/setup.nix";
       setup =
         ({
@@ -77,6 +79,7 @@ let
     else {
       name = project;
       value = {
+        inherit meta;
         inherit project;
         inherit setup;
         testPath = projectsPath + "/${project}/test.py";
