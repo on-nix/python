@@ -94,7 +94,7 @@ let
         installersPath = projectsPath + "/${project}/${version}/installers.json";
         pythonVersions =
           let
-            latest = getLatestVersion (builtins.attrNames supported);
+            pythonLatest = getLatestVersion (builtins.attrNames supported);
             supported = mapListToAttrs
               (buildProjectVersionForInterpreterMeta project version)
               (pythonVersions);
@@ -102,7 +102,10 @@ let
           if supported == { }
           then supported
           else supported
-            // { latest = supported.${latest} // { pythonVersion = "latest"; }; };
+            // {
+            pythonLatest = supported.${pythonLatest}
+              // { pythonVersion = "pythonLatest"; };
+          };
         inherit version;
         version' = version;
       };
@@ -173,7 +176,7 @@ let
     (builtins.attrValues projectsMeta);
   apps = builtins.mapAttrs
     (project: projectMeta: builtins.mapAttrs
-      (version: _: projects.${project}.${version}.latest.bin)
+      (version: _: projects.${project}.${version}.pythonLatest.bin)
       (projectMeta.versions))
     (projectsMeta);
 
