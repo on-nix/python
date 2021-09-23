@@ -1,0 +1,5 @@
+{
+  "desc": "CMFFormController provides a form validation mechanism for CMF.",
+  "home": "https://pypi.org/project/Products.CMFFormController",
+  "license": "BSD"
+}

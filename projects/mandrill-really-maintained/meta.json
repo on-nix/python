@@ -1,0 +1,5 @@
+{
+  "desc": "A really maintained CLI client and Python API library for the Mandrill email as a service platform.",
+  "home": "https://bitbucket.org/hadrien/mandrill-really-maintained",
+  "license": "Apache-2.0"
+}

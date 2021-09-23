@@ -1,0 +1,5 @@
+{
+  "desc": "Function decoration for backoff and retry",
+  "home": "https://github.com/litl/backoff",
+  "license": "MIT"
+}

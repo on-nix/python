@@ -1,0 +1,5 @@
+{
+  "desc": "Common protobufs used in Google APIs",
+  "home": "https://github.com/googleapis/python-api-common-protos",
+  "license": "Apache-2.0"
+}

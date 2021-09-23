@@ -1,0 +1,5 @@
+{
+  "desc": "Python subprocess replacement",
+  "home": "https://github.com/amoffat/sh",
+  "license": "MIT"
+}

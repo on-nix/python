@@ -1,0 +1,5 @@
+{
+  "desc": "MinIO Python SDK for Amazon S3 Compatible Cloud Storage",
+  "home": "https://github.com/minio/minio-py",
+  "license": "Apache License 2.0"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Plone integration for the basic plone.uuid package",
+  "home": "http://plone.org",
+  "license": "GPL"
+}

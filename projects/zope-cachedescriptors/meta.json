@@ -1,0 +1,5 @@
+{
+  "desc": "Method and property caching decorators",
+  "home": "http://github.com/zopefoundation/zope.cachedescriptors",
+  "license": "ZPL 2.1"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "AWS SAM Translator is a library that transform SAM templates into AWS CloudFormation templates",
+  "home": "https://github.com/awslabs/serverless-application-model",
+  "license": "Apache License 2.0"
+}

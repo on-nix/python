@@ -1,0 +1,5 @@
+{
+  "desc": "Python bindings and utilities for GeoJSON",
+  "home": "https://github.com/jazzband/geojson",
+  "license": "BSD"
+}

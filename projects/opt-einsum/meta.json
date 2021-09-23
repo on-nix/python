@@ -1,0 +1,5 @@
+{
+  "desc": "Optimizing numpys einsum function",
+  "home": "https://github.com/dgasmith/opt_einsum",
+  "license": "MIT"
+}

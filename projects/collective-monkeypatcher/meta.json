@@ -1,0 +1,5 @@
+{
+  "desc": "Support for applying monkey patches late in the startup cycle by using ZCML configuration actions",
+  "home": "https://github.com/plone/collective.monkeypatcher",
+  "license": "BSD"
+}

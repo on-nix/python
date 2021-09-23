@@ -1,0 +1,5 @@
+{
+  "desc": "Framework for handling LDAP style password hashes.",
+  "home": "https://github.com/zopefoundation/AuthEncoding",
+  "license": "ZPL 2.1"
+}

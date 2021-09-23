@@ -1,0 +1,5 @@
+{
+  "desc": "Automatically mock your HTTP interactions to simplify and speed up testing",
+  "home": "https://github.com/kevin1024/vcrpy",
+  "license": "MIT"
+}

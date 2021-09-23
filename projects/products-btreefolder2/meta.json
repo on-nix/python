@@ -1,0 +1,5 @@
+{
+  "desc": "A BTree based implementation for Zope 2's OFS.",
+  "home": "https://github.com/zopefoundation/Products.BTreeFolder2",
+  "license": "ZPL 2.1"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "The sip module support for PyQt5",
+  "home": "https://www.riverbankcomputing.com/software/sip/",
+  "license": "SIP"
+}

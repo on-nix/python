@@ -1,0 +1,5 @@
+{
+  "desc": "Implementation of the TrueSkill, Glicko and Elo Ranking Algorithms",
+  "home": "http://github.com/McLeopold/PythonSkills/",
+  "license": "BSD"
+}

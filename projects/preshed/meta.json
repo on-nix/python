@@ -1,0 +1,5 @@
+{
+  "desc": "Cython hash table that trusts the keys are pre-hashed",
+  "home": "https://github.com/explosion/preshed",
+  "license": "MIT"
+}

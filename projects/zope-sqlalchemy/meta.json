@@ -1,0 +1,5 @@
+{
+  "desc": "Minimal Zope/SQLAlchemy transaction integration",
+  "home": "https://github.com/zopefoundation/zope.sqlalchemy",
+  "license": "ZPL 2.1"
+}

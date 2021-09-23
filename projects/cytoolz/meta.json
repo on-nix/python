@@ -1,0 +1,5 @@
+{
+  "desc": "Cython implementation of Toolz: High performance functional utilities",
+  "home": "https://github.com/pytoolz/cytoolz",
+  "license": "BSD"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "A loader implementing the PasteDeploy syntax to be used by plaster.",
+  "home": "https://github.com/Pylons/plaster_pastedeploy",
+  "license": ""
+}

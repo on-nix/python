@@ -1,0 +1,5 @@
+{
+  "desc": "A drop-in replacement for argparse that allows options to also be set via config files and/or environment variables.",
+  "home": "https://github.com/bw2/ConfigArgParse",
+  "license": "MIT"
+}

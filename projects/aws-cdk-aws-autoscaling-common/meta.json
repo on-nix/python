@@ -1,0 +1,5 @@
+{
+  "desc": "Common implementation package for @aws-cdk/aws-autoscaling and @aws-cdk/aws-applicationautoscaling",
+  "home": "https://github.com/aws/aws-cdk",
+  "license": "Apache-2.0"
+}

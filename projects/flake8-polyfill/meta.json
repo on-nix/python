@@ -1,0 +1,5 @@
+{
+  "desc": "Polyfill package for Flake8 plugins",
+  "home": "https://gitlab.com/pycqa/flake8-polyfill",
+  "license": "MIT"
+}

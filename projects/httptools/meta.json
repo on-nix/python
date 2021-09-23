@@ -1,0 +1,5 @@
+{
+  "desc": "A collection of framework independent HTTP protocol utils.",
+  "home": "https://github.com/MagicStack/httptools",
+  "license": "MIT"
+}

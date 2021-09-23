@@ -1,0 +1,5 @@
+{
+  "desc": "Python implementation of Jean Meeus astronomical routines",
+  "home": "https://github.com/architest/pymeeus",
+  "license": "LGPLv3"
+}

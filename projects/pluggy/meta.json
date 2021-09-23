@@ -1,0 +1,5 @@
+{
+  "desc": "plugin and hook calling mechanisms for python",
+  "home": "https://github.com/pytest-dev/pluggy",
+  "license": "MIT"
+}

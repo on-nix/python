@@ -1,0 +1,5 @@
+{
+  "desc": "Using SQLAlchemy with Spatial Databases",
+  "home": "https://geoalchemy-2.readthedocs.io/en/latest/",
+  "license": "MIT"
+}

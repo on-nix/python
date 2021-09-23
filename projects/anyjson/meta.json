@@ -1,0 +1,5 @@
+{
+  "desc": "Wraps the best available JSON implementation available in a common interface",
+  "home": "http://bitbucket.org/runeh/anyjson/",
+  "license": "BSD"
+}

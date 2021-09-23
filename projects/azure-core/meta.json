@@ -1,0 +1,5 @@
+{
+  "desc": "Microsoft Azure Core Library for Python",
+  "home": "https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/core/azure-core",
+  "license": "MIT License"
+}

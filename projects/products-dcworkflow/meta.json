@@ -1,0 +1,5 @@
+{
+  "desc": "DCWorkflow product for the Zope Content Management Framework",
+  "home": "https://pypi.org/project/Products.DCWorkflow",
+  "license": "ZPL 2.1"
+}

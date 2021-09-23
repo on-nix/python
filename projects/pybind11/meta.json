@@ -1,0 +1,5 @@
+{
+  "desc": "Seamless operability between C++11 and Python",
+  "home": "https://github.com/pybind/pybind11",
+  "license": "BSD"
+}

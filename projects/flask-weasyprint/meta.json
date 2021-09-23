@@ -1,0 +1,5 @@
+{
+  "desc": "Make PDF in your Flask app with WeasyPrint.",
+  "home": "https://github.com/SimonSapin/Flask-WeasyPrint",
+  "license": "BSD"
+}

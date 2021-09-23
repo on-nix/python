@@ -1,0 +1,5 @@
+{
+  "desc": "A modern/fast Python SOAP client based on lxml / requests",
+  "home": "http://docs.python-zeep.org",
+  "license": "MIT"
+}

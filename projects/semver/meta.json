@@ -1,0 +1,5 @@
+{
+  "desc": "Python helper for Semantic Versioning (http://semver.org/)",
+  "home": "https://github.com/python-semver/python-semver",
+  "license": "BSD"
+}

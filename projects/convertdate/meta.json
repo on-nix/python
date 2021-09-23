@@ -1,0 +1,5 @@
+{
+  "desc": "Converts between Gregorian dates and other calendar systems.Calendars included: Baha'i, French Republican, Hebrew, Indian Civil, Islamic, ISO, Julian, Mayan and Persian.",
+  "home": "https://github.com/fitnr/convertdate",
+  "license": "MIT"
+}

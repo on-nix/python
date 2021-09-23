@@ -1,0 +1,5 @@
+{
+  "desc": "Caching infrastructure for web apps",
+  "home": "https://github.com/zopefoundation/z3c.caching",
+  "license": "ZPL"
+}

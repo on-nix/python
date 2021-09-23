@@ -1,0 +1,5 @@
+{
+  "desc": "N-D labeled arrays and datasets in Python",
+  "home": "https://github.com/pydata/xarray",
+  "license": "Apache"
+}

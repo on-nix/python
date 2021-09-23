@@ -1,0 +1,5 @@
+{
+  "desc": "A backport of fstrings to python<3.6",
+  "home": "https://github.com/asottile/future-fstrings",
+  "license": "MIT"
+}

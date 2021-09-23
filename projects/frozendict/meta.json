@@ -1,0 +1,5 @@
+{
+  "desc": "A simple immutable dictionary",
+  "home": "https://github.com/Marco-Sulla/python-frozendict",
+  "license": "LGPL v3"
+}

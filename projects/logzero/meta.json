@@ -1,0 +1,5 @@
+{
+  "desc": "Robust and effective logging for Python 2 and 3",
+  "home": "https://github.com/metachris/logzero",
+  "license": "MIT license"
+}

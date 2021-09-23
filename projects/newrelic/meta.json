@@ -1,0 +1,5 @@
+{
+  "desc": "New Relic Python Agent",
+  "home": "https://newrelic.com/docs/python/new-relic-for-python",
+  "license": "Apache-2.0"
+}

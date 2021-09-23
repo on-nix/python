@@ -1,0 +1,5 @@
+{
+  "desc": "Tools for managing themes in CMF and Plone sites",
+  "home": "https://pypi.org/project/plone.theme",
+  "license": "GPL version 2"
+}

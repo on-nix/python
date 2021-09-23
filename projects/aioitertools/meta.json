@@ -1,0 +1,5 @@
+{
+  "desc": "itertools and builtins for AsyncIO and mixed iterables",
+  "home": "https://aioitertools.omnilib.dev",
+  "license": ""
+}

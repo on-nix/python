@@ -1,0 +1,5 @@
+{
+  "desc": "An Amazon S3 Transfer Manager",
+  "home": "https://github.com/boto/s3transfer",
+  "license": "Apache License 2.0"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Sphinx extension that automatically documents click applications",
+  "home": "https://github.com/stephenfin/sphinx-click",
+  "license": "MIT License"
+}

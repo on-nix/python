@@ -1,0 +1,5 @@
+{
+  "desc": "SQLAlchemy integration with the marshmallow (de)serialization library",
+  "home": "https://github.com/marshmallow-code/marshmallow-sqlalchemy",
+  "license": "MIT"
+}

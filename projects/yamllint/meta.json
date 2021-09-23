@@ -1,0 +1,5 @@
+{
+  "desc": "A linter for YAML files.",
+  "home": "https://github.com/adrienverge/yamllint",
+  "license": "GPLv3"
+}

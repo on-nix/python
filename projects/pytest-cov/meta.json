@@ -1,0 +1,5 @@
+{
+  "desc": "Pytest plugin for measuring coverage.",
+  "home": "https://github.com/pytest-dev/pytest-cov",
+  "license": "MIT"
+}

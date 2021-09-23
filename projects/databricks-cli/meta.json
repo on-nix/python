@@ -1,0 +1,5 @@
+{
+  "desc": "A command line interface for Databricks",
+  "home": "https://github.com/databricks/databricks-cli",
+  "license": "Apache License 2.0"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Cache managers for Zope",
+  "home": "https://github.com/zopefoundation/Products.StandardCacheManagers",
+  "license": "ZPL 2.1"
+}

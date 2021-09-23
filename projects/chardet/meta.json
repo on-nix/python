@@ -1,0 +1,5 @@
+{
+  "desc": "Universal encoding detector for Python 2 and 3",
+  "home": "https://github.com/chardet/chardet",
+  "license": "LGPL"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Database connections for multi-threaded environments.",
+  "home": "https://webwareforpython.github.io/DBUtils/",
+  "license": "MIT License"
+}

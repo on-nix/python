@@ -1,0 +1,5 @@
+{
+  "desc": "Python bindings for Selenium",
+  "home": "https://github.com/SeleniumHQ/selenium/",
+  "license": "Apache 2.0"
+}

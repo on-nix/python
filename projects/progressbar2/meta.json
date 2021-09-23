@@ -1,0 +1,5 @@
+{
+  "desc": "A Python Progressbar library to provide visual (yet text based) progress to long running operations.",
+  "home": "https://github.com/WoLpH/python-progressbar",
+  "license": "BSD"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Radically simplified static file serving for WSGI applications",
+  "home": "https://whitenoise.evans.io",
+  "license": "MIT"
+}

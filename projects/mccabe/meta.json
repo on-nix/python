@@ -1,0 +1,5 @@
+{
+  "desc": "McCabe checker, plugin for flake8",
+  "home": "https://github.com/pycqa/mccabe",
+  "license": "Expat license"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Thin-wrapper around the mock package for easier use with pytest",
+  "home": "https://github.com/pytest-dev/pytest-mock/",
+  "license": "MIT"
+}

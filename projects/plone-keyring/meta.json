@@ -1,0 +1,5 @@
+{
+  "desc": "Manage secrets",
+  "home": "https://pypi.org/project/plone.keyring",
+  "license": "BSD"
+}

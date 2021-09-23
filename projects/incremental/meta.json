@@ -1,0 +1,5 @@
+{
+  "desc": "A small library that versions your Python projects.",
+  "home": "https://github.com/twisted/incremental",
+  "license": "MIT"
+}

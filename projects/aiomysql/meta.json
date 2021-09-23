@@ -1,0 +1,5 @@
+{
+  "desc": "MySQL driver for asyncio.",
+  "home": "https://github.com/aio-libs/aiomysql",
+  "license": "MIT"
+}

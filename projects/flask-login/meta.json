@@ -1,0 +1,5 @@
+{
+  "desc": "User session management for Flask",
+  "home": "https://github.com/maxcountryman/flask-login",
+  "license": "MIT"
+}

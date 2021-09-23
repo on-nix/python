@@ -1,0 +1,5 @@
+{
+  "desc": "textwrap from Python 3.6 backport (plus a few tweaks)",
+  "home": "https://github.com/jonathaneunice/textwrap3",
+  "license": "Python Software Foundation License"
+}

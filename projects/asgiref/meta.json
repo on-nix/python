@@ -1,0 +1,5 @@
+{
+  "desc": "ASGI specs, helper code, and adapters",
+  "home": "https://github.com/django/asgiref/",
+  "license": "BSD"
+}

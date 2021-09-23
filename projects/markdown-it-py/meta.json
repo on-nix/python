@@ -1,0 +1,5 @@
+{
+  "desc": "Python port of markdown-it. Markdown parsing, done right!",
+  "home": "https://github.com/executablebooks/markdown-it-py",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "A WSGI Proxy with various http client backends",
+  "home": "https://github.com/gawel/WSGIProxy2/",
+  "license": "MIT"
+}

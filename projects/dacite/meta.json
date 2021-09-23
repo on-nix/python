@@ -1,0 +1,5 @@
+{
+  "desc": "Simple creation of data classes from dictionaries.",
+  "home": "https://github.com/konradhalas/dacite",
+  "license": "MIT"
+}

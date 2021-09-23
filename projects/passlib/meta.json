@@ -1,0 +1,5 @@
+{
+  "desc": "comprehensive password hashing framework supporting over 30 schemes",
+  "home": "https://passlib.readthedocs.io",
+  "license": "BSD"
+}

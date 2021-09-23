@@ -1,0 +1,5 @@
+{
+  "desc": "A fast and thorough lazy object proxy.",
+  "home": "https://github.com/ionelmc/python-lazy-object-proxy",
+  "license": "BSD-2-Clause"
+}

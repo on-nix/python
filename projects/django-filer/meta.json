@@ -1,0 +1,5 @@
+{
+  "desc": "A file management application for django that makes handling of files and images a breeze.",
+  "home": "http://github.com/divio/django-filer",
+  "license": "BSD-3-Clause"
+}

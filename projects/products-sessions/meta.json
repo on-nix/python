@@ -1,0 +1,5 @@
+{
+  "desc": "Zope session management.",
+  "home": "https://github.com/zopefoundation/Products.Sessions/",
+  "license": "ZPL 2.1"
+}

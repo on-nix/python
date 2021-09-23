@@ -1,0 +1,5 @@
+{
+  "desc": "A library for automatically generating command line interfaces.",
+  "home": "https://github.com/google/python-fire",
+  "license": "Apache Software License"
+}

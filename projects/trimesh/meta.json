@@ -1,0 +1,5 @@
+{
+  "desc": "Import, export, process, analyze and view triangular meshes.",
+  "home": "https://github.com/mikedh/trimesh",
+  "license": "MIT"
+}

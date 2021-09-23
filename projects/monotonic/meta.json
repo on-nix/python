@@ -1,0 +1,5 @@
+{
+  "desc": "An implementation of time.monotonic() for Python 2 & < 3.3",
+  "home": "https://github.com/atdt/monotonic",
+  "license": "Apache"
+}

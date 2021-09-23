@@ -1,0 +1,5 @@
+{
+  "desc": "Simple python varint implementation",
+  "home": "http://github.com/fmoo/python-varint",
+  "license": "MIT"
+}

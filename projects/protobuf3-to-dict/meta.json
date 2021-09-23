@@ -1,0 +1,5 @@
+{
+  "desc": "Ben Hodgson: A teeny Python library for creating Python dicts from protocol buffers and the reverse. Useful as an intermediate step before serialisation (e.g. to JSON). Kapor: upgrade it to PB3 and PY3, rename it to protobuf3-to-dict",
+  "home": "https://github.com/kaporzhu/protobuf-to-dict",
+  "license": "Public Domain"
+}

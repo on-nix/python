@@ -1,0 +1,5 @@
+{
+  "desc": "SSH2 protocol library",
+  "home": "https://github.com/paramiko/paramiko/",
+  "license": "LGPL"
+}

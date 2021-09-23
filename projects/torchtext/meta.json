@@ -1,0 +1,5 @@
+{
+  "desc": "Text utilities and datasets for PyTorch",
+  "home": "https://github.com/pytorch/text",
+  "license": "BSD"
+}

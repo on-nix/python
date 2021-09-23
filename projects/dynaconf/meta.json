@@ -1,0 +1,5 @@
+{
+  "desc": "The dynamic configurator for your Python Project",
+  "home": "https://github.com/rochacbruno/dynaconf",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "A slick ORM cache with automatic granular event-driven invalidation for Django.",
+  "home": "http://github.com/Suor/django-cacheops",
+  "license": "BSD"
+}

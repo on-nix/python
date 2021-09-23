@@ -1,0 +1,5 @@
+{
+  "desc": "Enables Python programs to dynamically access arbitrary Java objects",
+  "home": "https://www.py4j.org/",
+  "license": "BSD License"
+}

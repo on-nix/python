@@ -1,0 +1,5 @@
+{
+  "desc": "Fast, simple object-to-object and broadcast signaling",
+  "home": "http://pythonhosted.org/blinker/",
+  "license": "MIT License"
+}

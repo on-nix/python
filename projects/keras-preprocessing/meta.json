@@ -1,0 +1,5 @@
+{
+  "desc": "Easy data preprocessing and data augmentation for deep learning models",
+  "home": "https://github.com/keras-team/keras-preprocessing",
+  "license": "MIT"
+}

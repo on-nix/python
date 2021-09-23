@@ -1,0 +1,5 @@
+{
+  "desc": "Common interface for data container classes",
+  "home": "https://github.com/scrapy/itemadapter",
+  "license": "BSD"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "File transport adapter for Requests",
+  "home": "http://github.com/dashea/requests-file",
+  "license": "Apache 2.0"
+}

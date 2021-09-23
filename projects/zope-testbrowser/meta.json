@@ -1,0 +1,5 @@
+{
+  "desc": "Programmable browser for functional black-box tests",
+  "home": "https://github.com/zopefoundation/zope.testbrowser",
+  "license": "ZPL 2.1"
+}

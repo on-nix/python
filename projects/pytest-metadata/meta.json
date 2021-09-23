@@ -1,0 +1,5 @@
+{
+  "desc": "pytest plugin for test session metadata",
+  "home": "https://github.com/pytest-dev/pytest-metadata",
+  "license": "Mozilla Public License 2.0 (MPL 2.0)"
+}

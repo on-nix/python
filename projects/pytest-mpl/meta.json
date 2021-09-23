@@ -1,0 +1,5 @@
+{
+  "desc": "pytest plugin to help with testing figures output from Matplotlib",
+  "home": "https://github.com/matplotlib/pytest-mpl",
+  "license": "BSD"
+}

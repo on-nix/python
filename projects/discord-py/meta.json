@@ -1,0 +1,5 @@
+{
+  "desc": "A Python wrapper for the Discord API",
+  "home": "https://github.com/Rapptz/discord.py",
+  "license": "MIT"
+}

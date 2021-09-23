@@ -1,0 +1,5 @@
+{
+  "desc": "Fixes some problems with Unicode text after the fact",
+  "home": "http://github.com/rspeer/python-ftfy",
+  "license": "MIT"
+}

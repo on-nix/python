@@ -1,0 +1,5 @@
+{
+  "desc": "Query metadatdata from sdists / bdists / installed packages.",
+  "home": "https://code.launchpad.net/~tseaver/pkginfo/trunk",
+  "license": "MIT"
+}

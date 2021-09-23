@@ -1,0 +1,5 @@
+{
+  "desc": "asyncio (PEP 3156) Redis support",
+  "home": "https://github.com/aio-libs/aioredis",
+  "license": "MIT"
+}

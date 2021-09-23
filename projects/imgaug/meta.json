@@ -1,0 +1,5 @@
+{
+  "desc": "Image augmentation library for deep neural networks",
+  "home": "https://github.com/aleju/imgaug",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "A thin, practical wrapper around terminal coloring, styling, and positioning",
+  "home": "https://github.com/erikrose/blessings",
+  "license": "MIT"
+}

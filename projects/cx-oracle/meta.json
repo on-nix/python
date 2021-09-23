@@ -1,0 +1,5 @@
+{
+  "desc": "Python interface to Oracle",
+  "home": "https://oracle.github.io/python-cx_Oracle",
+  "license": "BSD License"
+}

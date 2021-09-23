@@ -1,0 +1,5 @@
+{
+  "desc": "Prometheus metrics exporter for Flask",
+  "home": "https://github.com/rycus86/prometheus_flask_exporter",
+  "license": "MIT"
+}

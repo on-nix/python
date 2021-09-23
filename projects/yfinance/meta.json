@@ -1,0 +1,5 @@
+{
+  "desc": "Yahoo! Finance market data downloader",
+  "home": "https://github.com/ranaroussi/yfinance",
+  "license": "Apache"
+}

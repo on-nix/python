@@ -1,0 +1,5 @@
+{
+  "desc": "Apply JSON-Patches (RFC 6902)",
+  "home": "https://github.com/stefankoegl/python-json-patch",
+  "license": "Modified BSD License"
+}

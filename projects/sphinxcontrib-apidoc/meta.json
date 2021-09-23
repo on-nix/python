@@ -1,0 +1,5 @@
+{
+  "desc": "A Sphinx extension for running 'sphinx-apidoc' on each build",
+  "home": "https://github.com/sphinx-contrib/apidoc",
+  "license": ""
+}

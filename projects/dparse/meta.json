@@ -1,0 +1,5 @@
+{
+  "desc": "A parser for Python dependency files",
+  "home": "https://github.com/pyupio/dparse",
+  "license": "MIT license"
+}

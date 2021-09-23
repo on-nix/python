@@ -1,0 +1,5 @@
+{
+  "desc": "Backport of the standard library zoneinfo module",
+  "home": "https://github.com/pganssle/zoneinfo",
+  "license": "Apache-2.0"
+}

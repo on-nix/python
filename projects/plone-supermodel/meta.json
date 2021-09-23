@@ -1,0 +1,5 @@
+{
+  "desc": "Serialize Zope schema definitions to and from XML",
+  "home": "https://github.com/plone/plone.supermodel",
+  "license": "BSD"
+}

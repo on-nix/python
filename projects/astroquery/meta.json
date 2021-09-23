@@ -1,0 +1,5 @@
+{
+  "desc": "Functions and classes to access online astronomical data resources",
+  "home": "http://astropy.org/astroquery",
+  "license": "BSD"
+}

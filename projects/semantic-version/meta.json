@@ -1,0 +1,5 @@
+{
+  "desc": "A library implementing the 'SemVer' scheme.",
+  "home": "https://github.com/rbarrois/python-semanticversion",
+  "license": "BSD"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Integrates the Diazo theming engine with Plone",
+  "home": "https://pypi.org/project/plone.app.theming",
+  "license": "GPL"
+}

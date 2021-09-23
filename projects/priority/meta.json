@@ -1,0 +1,5 @@
+{
+  "desc": "A pure-Python implementation of the HTTP/2 priority tree",
+  "home": "https://github.com/python-hyper/priority/",
+  "license": "MIT License"
+}

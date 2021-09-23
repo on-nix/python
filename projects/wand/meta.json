@@ -1,0 +1,5 @@
+{
+  "desc": "Ctypes-based simple MagickWand API binding for Python",
+  "home": "http://wand-py.org/",
+  "license": "MIT License"
+}

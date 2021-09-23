@@ -1,0 +1,5 @@
+{
+  "desc": "Sphinx extension to include program output",
+  "home": "https://sphinxcontrib-programoutput.readthedocs.org/",
+  "license": "BSD"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "XLA library for JAX",
+  "home": "https://github.com/google/jax",
+  "license": "Apache-2.0"
+}

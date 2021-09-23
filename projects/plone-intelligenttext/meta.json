@@ -1,0 +1,5 @@
+{
+  "desc": "Provides transforms from text/x-web-intelligent to text/html and vice versa.",
+  "home": "https://pypi.org/project/plone.intelligenttext",
+  "license": "GPL version 2"
+}

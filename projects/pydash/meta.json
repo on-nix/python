@@ -1,0 +1,5 @@
+{
+  "desc": "The kitchen sink of Python utility libraries for doing \"stuff\" in a functional way. Based on the Lo-Dash Javascript library.",
+  "home": "https://github.com/dgilland/pydash",
+  "license": "MIT License"
+}

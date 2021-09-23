@@ -1,0 +1,5 @@
+{
+  "desc": "Python PE parsing module",
+  "home": "https://github.com/erocarrera/pefile",
+  "license": "MIT"
+}

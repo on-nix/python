@@ -1,0 +1,5 @@
+{
+  "desc": "XML bomb protection for Python stdlib modules",
+  "home": "https://github.com/tiran/defusedxml",
+  "license": "PSFL"
+}

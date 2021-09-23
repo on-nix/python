@@ -1,0 +1,5 @@
+{
+  "desc": "Pytest support for asyncio.",
+  "home": "https://github.com/pytest-dev/pytest-asyncio",
+  "license": "Apache 2.0"
+}

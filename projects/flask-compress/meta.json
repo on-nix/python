@@ -1,0 +1,5 @@
+{
+  "desc": "Compress responses in your Flask app with gzip, deflate or brotli.",
+  "home": "https://github.com/colour-science/flask-compress",
+  "license": "MIT"
+}

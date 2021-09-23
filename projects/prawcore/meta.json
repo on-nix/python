@@ -1,0 +1,5 @@
+{
+  "desc": "Low-level communication layer for PRAW 4+.",
+  "home": "https://github.com/praw-dev/prawcore",
+  "license": "Simplified BSD License"
+}

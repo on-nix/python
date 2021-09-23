@@ -1,0 +1,5 @@
+{
+  "desc": "Check MANIFEST.in in a Python source package for completeness",
+  "home": "https://github.com/mgedmin/check-manifest",
+  "license": "MIT"
+}

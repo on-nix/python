@@ -1,0 +1,5 @@
+{
+  "desc": "Multi-vendor library to simplify Paramiko SSH connections to network devices",
+  "home": "https://github.com/ktbyers/netmiko",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Various utility functions for SQLAlchemy.",
+  "home": "https://github.com/kvesteri/sqlalchemy-utils",
+  "license": "BSD"
+}

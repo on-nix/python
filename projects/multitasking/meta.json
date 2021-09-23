@@ -1,0 +1,5 @@
+{
+  "desc": "Non-blocking Python methods using decorators",
+  "home": "https://github.com/ranaroussi/multitasking",
+  "license": "Apache"
+}

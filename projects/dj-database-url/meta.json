@@ -1,0 +1,5 @@
+{
+  "desc": "Use Database URLs in your Django Application.",
+  "home": "https://github.com/kennethreitz/dj-database-url",
+  "license": "BSD"
+}

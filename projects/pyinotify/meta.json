@@ -1,0 +1,5 @@
+{
+  "desc": "Linux filesystem events monitoring",
+  "home": "http://github.com/seb-m/pyinotify",
+  "license": "MIT License"
+}

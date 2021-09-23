@@ -1,0 +1,5 @@
+{
+  "desc": "Enhance the standard unittest package with features for testing asyncio libraries",
+  "home": "https://github.com/Martiusweb/asynctest/",
+  "license": "Apache 2"
+}

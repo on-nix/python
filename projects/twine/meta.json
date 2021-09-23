@@ -1,0 +1,5 @@
+{
+  "desc": "Collection of utilities for publishing packages on PyPI",
+  "home": "https://twine.readthedocs.io/",
+  "license": ""
+}

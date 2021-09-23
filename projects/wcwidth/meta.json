@@ -1,0 +1,5 @@
+{
+  "desc": "Measures the displayed width of unicode strings in a terminal",
+  "home": "https://github.com/jquast/wcwidth",
+  "license": "MIT"
+}

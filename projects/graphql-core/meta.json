@@ -1,0 +1,5 @@
+{
+  "desc": "GraphQL implementation for Python, a port of GraphQL.js, the JavaScript reference implementation for GraphQL.",
+  "home": "https://github.com/graphql-python/graphql-core",
+  "license": "MIT license"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Backported and Experimental Type Hints for Python 3.5+",
+  "home": "https://github.com/python/typing/blob/master/typing_extensions/README.rst",
+  "license": "PSF"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Sphinx extension to support docstrings in Numpy format",
+  "home": "https://numpydoc.readthedocs.io",
+  "license": "BSD"
+}

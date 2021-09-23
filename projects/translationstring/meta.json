@@ -1,0 +1,5 @@
+{
+  "desc": "Utility library for i18n relied on by various Repoze and Pyramid packages",
+  "home": "https://github.com/Pylons/translationstring",
+  "license": "BSD-like (http://repoze.org/license.html)"
+}

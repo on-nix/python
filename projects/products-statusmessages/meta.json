@@ -1,0 +1,5 @@
+{
+  "desc": "statusmessages provides an easy way of handling internationalized status messages managed via an BrowserRequest adapter storing status messages in client-side cookies.",
+  "home": "https://pypi.org/project/Products.statusmessages",
+  "license": "BSD"
+}

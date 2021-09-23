@@ -1,0 +1,5 @@
+{
+  "desc": "A transparent persistent cache for the requests library",
+  "home": "https://github.com/reclosedev/requests-cache",
+  "license": "BSD License"
+}

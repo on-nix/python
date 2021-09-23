@@ -1,0 +1,5 @@
+{
+  "desc": "A bridge between an Objective C runtime environment and Python.",
+  "home": "https://beeware.org/rubicon",
+  "license": "New BSD"
+}

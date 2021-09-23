@@ -1,0 +1,5 @@
+{
+  "desc": "A templating library able to output odt and pdf files",
+  "home": "https://pypi.python.org/pypi/relatorio",
+  "license": "GPL License"
+}

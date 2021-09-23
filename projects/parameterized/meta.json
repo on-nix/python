@@ -1,0 +1,5 @@
+{
+  "desc": "Parameterized testing with any Python test framework",
+  "home": "https://github.com/wolever/parameterized",
+  "license": "FreeBSD"
+}

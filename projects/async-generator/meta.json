@@ -1,0 +1,5 @@
+{
+  "desc": "Async generators and context managers for Python 3.5+",
+  "home": "https://github.com/python-trio/async_generator",
+  "license": "MIT -or- Apache License 2.0"
+}

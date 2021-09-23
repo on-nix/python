@@ -1,0 +1,5 @@
+{
+  "desc": "Ray provides a simple, universal API for building distributed applications.",
+  "home": "https://github.com/ray-project/ray",
+  "license": "Apache 2.0"
+}

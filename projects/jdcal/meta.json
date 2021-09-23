@@ -1,0 +1,5 @@
+{
+  "desc": "Julian dates from proleptic Gregorian and Julian calendars.",
+  "home": "https://github.com/phn/jdcal",
+  "license": "BSD"
+}

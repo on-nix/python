@@ -1,0 +1,5 @@
+{
+  "desc": "Zope temporary folder support.",
+  "home": "https://github.com/zopefoundation/Products.TemporaryFolder",
+  "license": "ZPL 2.1"
+}

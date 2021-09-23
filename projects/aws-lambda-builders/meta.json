@@ -1,0 +1,5 @@
+{
+  "desc": "Python library to compile, build & package AWS Lambda functions for several runtimes & frameworks.",
+  "home": "https://github.com/awslabs/aws-lambda-builders",
+  "license": "Apache License 2.0"
+}

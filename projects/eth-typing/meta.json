@@ -1,0 +1,5 @@
+{
+  "desc": "eth-typing: Common type annotations for ethereum python packages",
+  "home": "https://github.com/ethereum/eth-typing",
+  "license": "MIT"
+}

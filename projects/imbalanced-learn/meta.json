@@ -1,0 +1,5 @@
+{
+  "desc": "Toolbox for imbalanced dataset in machine learning.",
+  "home": "https://github.com/scikit-learn-contrib/imbalanced-learn",
+  "license": "MIT"
+}

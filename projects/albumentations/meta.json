@@ -1,0 +1,5 @@
+{
+  "desc": "Fast image augmentation library and easy to use wrapper around other libraries",
+  "home": "https://github.com/albumentations-team/albumentations",
+  "license": "MIT"
+}

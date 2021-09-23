@@ -1,0 +1,5 @@
+{
+  "desc": "An extended commonmark compliant parser, with bridges to docutils & sphinx.",
+  "home": "https://github.com/executablebooks/MyST-Parser",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Advanced Enumerations (compatible with Python's stdlib Enum), NamedTuples, and NamedConstants",
+  "home": "https://github.com/ethanfurman/aenum",
+  "license": "BSD License"
+}

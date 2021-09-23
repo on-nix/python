@@ -1,0 +1,5 @@
+{
+  "desc": "Deletes old files.",
+  "home": "https://github.com/un1t/django-cleanup",
+  "license": "MIT License"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Zope locale extraction and management utilities",
+  "home": "http://pypi.python.org/pypi/zope.app.locales",
+  "license": "ZPL 2.1"
+}

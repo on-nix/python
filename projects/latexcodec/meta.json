@@ -1,0 +1,5 @@
+{
+  "desc": "A lexer and codec to work with LaTeX code in Python.",
+  "home": "https://github.com/mcmtroffaes/latexcodec",
+  "license": "MIT"
+}

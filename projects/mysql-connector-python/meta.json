@@ -1,0 +1,5 @@
+{
+  "desc": "MySQL driver written in Python",
+  "home": "http://dev.mysql.com/doc/connector-python/en/index.html",
+  "license": "GNU GPLv2 (with FOSS License Exception)"
+}

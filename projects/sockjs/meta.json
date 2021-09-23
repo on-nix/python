@@ -1,0 +1,5 @@
+{
+  "desc": "SockJS server implementation for aiohttp.",
+  "home": "https://github.com/aio-libs/sockjs/",
+  "license": "Apache 2"
+}

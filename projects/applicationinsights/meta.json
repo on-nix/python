@@ -1,0 +1,5 @@
+{
+  "desc": "This project extends the Application Insights API surface to support Python.",
+  "home": "https://github.com/Microsoft/ApplicationInsights-Python",
+  "license": "MIT"
+}

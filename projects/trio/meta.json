@@ -1,0 +1,5 @@
+{
+  "desc": "A friendly Python library for async concurrency and I/O",
+  "home": "https://github.com/python-trio/trio",
+  "license": "MIT -or- Apache License 2.0"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Python library for serializing any arbitrary object graph into JSON",
+  "home": "https://github.com/jsonpickle/jsonpickle",
+  "license": ""
+}

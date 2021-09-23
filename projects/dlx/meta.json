@@ -1,0 +1,5 @@
+{
+  "desc": "Implementation of Donald Knuth's Dancing Links algorithm.",
+  "home": "http://www.site.uottawa.ca/~mraap046",
+  "license": "Apache 2.0"
+}

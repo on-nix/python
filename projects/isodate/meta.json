@@ -1,0 +1,5 @@
+{
+  "desc": "An ISO 8601 date/time/duration parser and formatter",
+  "home": "https://github.com/gweis/isodate/",
+  "license": "BSD"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "A lightweight library for converting complex datatypes to and from native Python datatypes.",
+  "home": "https://github.com/marshmallow-code/marshmallow",
+  "license": "MIT"
+}

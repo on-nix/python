@@ -1,0 +1,5 @@
+{
+  "desc": "A Python port of the YUI CSS compression algorithm.",
+  "home": "http://github.com/zacharyvoase/cssmin",
+  "license": "UNKNOWN"
+}

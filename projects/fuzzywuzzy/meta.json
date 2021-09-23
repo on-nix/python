@@ -1,0 +1,5 @@
+{
+  "desc": "Fuzzy string matching in python",
+  "home": "https://github.com/seatgeek/fuzzywuzzy",
+  "license": "GPLv2"
+}

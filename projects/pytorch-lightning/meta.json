@@ -1,0 +1,5 @@
+{
+  "desc": "PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate.",
+  "home": "https://github.com/PyTorchLightning/pytorch-lightning",
+  "license": "Apache-2.0"
+}

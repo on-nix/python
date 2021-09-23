@@ -1,0 +1,5 @@
+{
+  "desc": "Editable interval tree data structure for Python 2 and 3",
+  "home": "https://github.com/chaimleib/intervaltree",
+  "license": "Apache License, Version 2.0"
+}

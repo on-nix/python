@@ -1,0 +1,5 @@
+{
+  "desc": "Python client for Sentry (https://sentry.io)",
+  "home": "https://github.com/getsentry/sentry-python",
+  "license": "BSD"
+}

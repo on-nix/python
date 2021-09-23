@@ -1,0 +1,5 @@
+{
+  "desc": "Fastest Python implementation of JSON schema",
+  "home": "https://github.com/seznam/python-fastjsonschema",
+  "license": "BSD"
+}

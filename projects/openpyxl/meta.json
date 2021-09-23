@@ -1,0 +1,5 @@
+{
+  "desc": "A Python library to read/write Excel 2010 xlsx/xlsm files",
+  "home": "https://openpyxl.readthedocs.io",
+  "license": "MIT"
+}

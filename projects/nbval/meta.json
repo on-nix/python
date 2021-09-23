@@ -1,0 +1,5 @@
+{
+  "desc": "A py.test plugin to validate Jupyter notebooks",
+  "home": "https://github.com/computationalmodelling/nbval",
+  "license": ""
+}

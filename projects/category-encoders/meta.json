@@ -1,0 +1,5 @@
+{
+  "desc": "A collection sklearn transformers to encode categorical variables as numeric",
+  "home": "https://github.com/scikit-learn-contrib/category_encoders",
+  "license": "BSD"
+}

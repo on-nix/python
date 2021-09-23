@@ -1,0 +1,5 @@
+{
+  "desc": "An extension of zope.viewlet to support dynamic portlets",
+  "home": "https://pypi.org/project/plone.portlets",
+  "license": "GPL version 2"
+}

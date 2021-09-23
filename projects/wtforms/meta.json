@@ -1,0 +1,5 @@
+{
+  "desc": "A flexible forms validation and rendering library for Python web development.",
+  "home": "https://wtforms.readthedocs.io/",
+  "license": "BSD-3-Clause"
+}

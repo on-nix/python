@@ -1,0 +1,5 @@
+{
+  "desc": "lightweight wrapper around basic LLVM functionality",
+  "home": "http://llvmlite.pydata.org",
+  "license": "BSD"
+}

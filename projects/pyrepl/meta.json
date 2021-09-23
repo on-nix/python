@@ -1,0 +1,5 @@
+{
+  "desc": "A library for building flexible command line interfaces",
+  "home": "http://bitbucket.org/pypy/pyrepl/",
+  "license": "MIT X11 style"
+}

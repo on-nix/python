@@ -1,0 +1,5 @@
+{
+  "desc": "Astropy affiliated package for accessing Virtual Observatory data and services",
+  "home": "https://github.com/astropy/pyvo",
+  "license": "BSD"
+}

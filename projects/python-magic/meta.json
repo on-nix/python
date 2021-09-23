@@ -1,0 +1,5 @@
+{
+  "desc": "File type identification using libmagic",
+  "home": "http://github.com/ahupp/python-magic",
+  "license": "MIT"
+}

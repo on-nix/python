@@ -1,0 +1,5 @@
+{
+  "desc": "HTTP library with thread-safe connection pooling, file post, and more.",
+  "home": "https://urllib3.readthedocs.io/",
+  "license": "MIT"
+}

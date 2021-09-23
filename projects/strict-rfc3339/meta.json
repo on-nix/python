@@ -1,0 +1,5 @@
+{
+  "desc": "Strict, simple, lightweight RFC3339 functions",
+  "home": "http://www.danielrichman.co.uk/libraries/strict-rfc3339.html",
+  "license": "GNU General Public License Version 3"
+}

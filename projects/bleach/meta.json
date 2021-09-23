@@ -1,0 +1,5 @@
+{
+  "desc": "An easy safelist-based HTML-sanitizing tool.",
+  "home": "https://github.com/mozilla/bleach",
+  "license": "Apache Software License"
+}

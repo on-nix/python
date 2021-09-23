@@ -1,0 +1,5 @@
+{
+  "desc": "Ordered YAML: drop-in replacement for PyYAML which preserves dict ordering",
+  "home": "https://github.com/wimglenn/oyaml",
+  "license": "MIT"
+}

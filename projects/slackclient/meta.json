@@ -1,0 +1,5 @@
+{
+  "desc": "Slack API clients for Web API and RTM API",
+  "home": "https://github.com/slackapi/python-slackclient",
+  "license": "MIT"
+}

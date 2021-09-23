@@ -1,0 +1,5 @@
+{
+  "desc": "A Python module for creating Excel XLSX files.",
+  "home": "https://github.com/jmcnamara/XlsxWriter",
+  "license": "BSD"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "A database migration tool for SQLAlchemy.",
+  "home": "https://alembic.sqlalchemy.org",
+  "license": "MIT"
+}

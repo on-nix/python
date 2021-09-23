@@ -1,0 +1,5 @@
+{
+  "desc": "The Cython compiler for writing C extensions for the Python language.",
+  "home": "http://cython.org/",
+  "license": "Apache"
+}

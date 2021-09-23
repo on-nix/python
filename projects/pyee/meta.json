@@ -1,0 +1,5 @@
+{
+  "desc": "A port of node.js's EventEmitter to python.",
+  "home": "https://github.com/jfhbrook/pyee",
+  "license": "MIT"
+}

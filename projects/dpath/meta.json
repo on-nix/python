@@ -1,0 +1,5 @@
+{
+  "desc": "Filesystem-like pathing and searching for dictionaries",
+  "home": "https://www.github.com/akesterson/dpath-python",
+  "license": "MIT"
+}

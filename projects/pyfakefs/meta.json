@@ -1,0 +1,5 @@
+{
+  "desc": "pyfakefs implements a fake file system that mocks the Python file system modules.",
+  "home": "http://pyfakefs.org",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0"
+}

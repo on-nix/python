@@ -1,0 +1,5 @@
+{
+  "desc": "A framework for elegantly configuring complex applications",
+  "home": "https://github.com/facebookresearch/hydra",
+  "license": "MIT"
+}

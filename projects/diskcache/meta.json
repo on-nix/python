@@ -1,0 +1,5 @@
+{
+  "desc": "Disk Cache -- Disk and file backed persistent cache.",
+  "home": "http://www.grantjenks.com/docs/diskcache/",
+  "license": "Apache 2.0"
+}

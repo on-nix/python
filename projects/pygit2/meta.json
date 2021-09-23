@@ -1,0 +1,5 @@
+{
+  "desc": "Python bindings for libgit2.",
+  "home": "http://github.com/libgit2/pygit2",
+  "license": "GPLv2 with linking exception"
+}

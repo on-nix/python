@@ -1,0 +1,5 @@
+{
+  "desc": "High performance functions to work with the async IO",
+  "home": "https://fluidattacks.github.io/aioextensions",
+  "license": "MIT"
+}

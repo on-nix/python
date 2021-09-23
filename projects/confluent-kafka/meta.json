@@ -1,0 +1,5 @@
+{
+  "desc": "Confluent's Python client for Apache Kafka",
+  "home": "https://github.com/confluentinc/confluent-kafka-python",
+  "license": ""
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Simple construction, analysis and modification of binary data.",
+  "home": "https://github.com/scott-griffiths/bitstring",
+  "license": "The MIT License: http://www.opensource.org/licenses/mit-license.php"
+}

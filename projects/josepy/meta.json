@@ -1,0 +1,5 @@
+{
+  "desc": "JOSE protocol implementation in Python",
+  "home": "https://github.com/certbot/josepy",
+  "license": "Apache License 2.0"
+}

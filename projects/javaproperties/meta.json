@@ -1,0 +1,5 @@
+{
+  "desc": "Read & write Java .properties files",
+  "home": "https://github.com/jwodder/javaproperties",
+  "license": "MIT"
+}

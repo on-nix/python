@@ -1,0 +1,5 @@
+{
+  "desc": "A sphinx extension which renders display math in HTML via JavaScript",
+  "home": "http://sphinx-doc.org/",
+  "license": "BSD"
+}

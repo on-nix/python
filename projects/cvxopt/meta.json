@@ -1,0 +1,5 @@
+{
+  "desc": "Convex optimization package",
+  "home": "http://cvxopt.org",
+  "license": "GNU GPL version 3"
+}

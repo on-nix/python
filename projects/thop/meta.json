@@ -1,0 +1,5 @@
+{
+  "desc": "A tool to count the FLOPs of PyTorch model.",
+  "home": "https://github.com/Lyken17/pytorch-OpCounter/",
+  "license": "MIT"
+}

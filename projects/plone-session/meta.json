@@ -1,0 +1,5 @@
+{
+  "desc": "Session based auth tkt authentication for Zope",
+  "home": "https://github.com/plone/plone.session/",
+  "license": "BSD"
+}

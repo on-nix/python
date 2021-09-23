@@ -1,0 +1,5 @@
+{
+  "desc": "Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.",
+  "home": "https://lxml.de/",
+  "license": "BSD"
+}

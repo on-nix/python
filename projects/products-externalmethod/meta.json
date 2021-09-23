@@ -1,0 +1,5 @@
+{
+  "desc": "This package provides support for external Python methods within a Zope environment.",
+  "home": "https://github.com/zopefoundation/Products.ExternalMethod",
+  "license": "ZPL 2.1"
+}

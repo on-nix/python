@@ -1,0 +1,5 @@
+{
+  "desc": "A Python image library that sits on top of Pillow, Wand and OpenCV",
+  "home": "",
+  "license": "BSD"
+}

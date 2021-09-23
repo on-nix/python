@@ -1,0 +1,5 @@
+{
+  "desc": "image and video datasets and models for torch deep learning",
+  "home": "https://github.com/pytorch/vision",
+  "license": "BSD"
+}

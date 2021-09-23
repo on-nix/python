@@ -1,0 +1,5 @@
+{
+  "desc": "Show coverage stats online via coveralls.io",
+  "home": "http://github.com/TheKevJames/coveralls-python",
+  "license": "MIT"
+}

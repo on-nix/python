@@ -1,0 +1,5 @@
+{
+  "desc": "Experimental type system extensions for programs checked with the mypy typechecker.",
+  "home": "https://github.com/python/mypy_extensions",
+  "license": "MIT License"
+}

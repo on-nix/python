@@ -1,0 +1,5 @@
+{
+  "desc": "A full-featured Python package for parsing and creating iCalendar and vCard files",
+  "home": "http://eventable.github.io/vobject/",
+  "license": "Apache"
+}

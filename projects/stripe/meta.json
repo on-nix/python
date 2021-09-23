@@ -1,0 +1,5 @@
+{
+  "desc": "Python bindings for the Stripe API",
+  "home": "https://github.com/stripe/stripe-python",
+  "license": "MIT"
+}

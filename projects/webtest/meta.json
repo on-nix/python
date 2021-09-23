@@ -1,0 +1,5 @@
+{
+  "desc": "Helper to test WSGI applications",
+  "home": "https://docs.pylonsproject.org/projects/webtest/en/latest/",
+  "license": "MIT"
+}

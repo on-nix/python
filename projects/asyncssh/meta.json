@@ -1,0 +1,5 @@
+{
+  "desc": "AsyncSSH: Asynchronous SSHv2 client and server library",
+  "home": "http://asyncssh.timeheart.net",
+  "license": "Eclipse Public License v2.0"
+}

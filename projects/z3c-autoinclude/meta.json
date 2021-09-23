@@ -1,0 +1,5 @@
+{
+  "desc": "Automatically include ZCML",
+  "home": "https://pypi.org/project/z3c.autoinclude",
+  "license": "ZPL"
+}

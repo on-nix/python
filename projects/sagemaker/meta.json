@@ -1,0 +1,5 @@
+{
+  "desc": "Open source library for training and deploying models on Amazon SageMaker.",
+  "home": "https://github.com/aws/sagemaker-python-sdk/",
+  "license": "Apache License 2.0"
+}

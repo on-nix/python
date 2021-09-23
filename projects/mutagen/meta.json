@@ -1,0 +1,5 @@
+{
+  "desc": "read and write audio tags for many formats",
+  "home": "https://github.com/quodlibet/mutagen",
+  "license": "GPL-2.0-or-later"
+}

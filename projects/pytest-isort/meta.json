@@ -1,0 +1,5 @@
+{
+  "desc": "py.test plugin to check import ordering using isort",
+  "home": "http://github.com/moccu/pytest-isort/",
+  "license": "BSD"
+}

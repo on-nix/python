@@ -1,0 +1,5 @@
+{
+  "desc": "View colored, incremental diff in a workspace or from stdin, with side by side and auto pager support",
+  "home": "https://github.com/ymattw/cdiff",
+  "license": "BSD-3"
+}

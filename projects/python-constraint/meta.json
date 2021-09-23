@@ -1,0 +1,5 @@
+{
+  "desc": "python-constraint is a module implementing support for handling CSPs (Constraint Solving Problems) over finite domain",
+  "home": "https://github.com/python-constraint/python-constraint",
+  "license": ""
+}

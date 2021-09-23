@@ -1,0 +1,5 @@
+{
+  "desc": "Python interface to coveralls.io API\n",
+  "home": "http://github.com/z4r/python-coveralls",
+  "license": "Apache License 2.0"
+}

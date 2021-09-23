@@ -1,0 +1,5 @@
+{
+  "desc": "Testing infrastructure for Zope and Plone projects.",
+  "home": "https://github.com/plone/plone.testing",
+  "license": "BSD"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "JupyterHub: A multi-user server for Jupyter notebooks",
+  "home": "https://jupyter.org",
+  "license": "BSD"
+}

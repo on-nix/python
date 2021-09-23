@@ -1,0 +1,5 @@
+{
+  "desc": "Sphinx extension for BibTeX style citations.",
+  "home": "https://github.com/mcmtroffaes/sphinxcontrib-bibtex",
+  "license": "BSD"
+}

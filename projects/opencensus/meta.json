@@ -1,0 +1,5 @@
+{
+  "desc": "A stats collection and distributed tracing framework",
+  "home": "https://github.com/census-instrumentation/opencensus-python",
+  "license": "Apache-2.0"
+}

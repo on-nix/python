@@ -1,0 +1,5 @@
+{
+  "desc": "An implementation of the WebSocket Protocol (RFC 6455 & 7692)",
+  "home": "https://github.com/aaugustin/websockets",
+  "license": "BSD"
+}

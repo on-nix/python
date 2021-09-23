@@ -1,0 +1,5 @@
+{
+  "desc": "Chromium HSTS Preload list as a Python package",
+  "home": "https://github.com/sethmlarson/hstspreload",
+  "license": "BSD-3"
+}

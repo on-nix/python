@@ -1,0 +1,5 @@
+{
+  "desc": "Cross-platform network interface and IP address enumeration library",
+  "home": "https://github.com/pydron/ifaddr",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Scan your WiFi and get access point information and signal quality.",
+  "home": "https://github.com/kootenpv/access_points",
+  "license": "MIT"
+}

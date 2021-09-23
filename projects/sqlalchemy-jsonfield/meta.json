@@ -1,0 +1,5 @@
+{
+  "desc": "SQLALchemy JSONField implementation for storing dicts at SQL",
+  "home": "https://github.com/penguinolog/sqlalchemy_jsonfield",
+  "license": "Apache License, Version 2.0"
+}

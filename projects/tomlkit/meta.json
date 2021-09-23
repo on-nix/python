@@ -1,0 +1,5 @@
+{
+  "desc": "Style preserving TOML library",
+  "home": "https://github.com/sdispater/tomlkit",
+  "license": "MIT"
+}

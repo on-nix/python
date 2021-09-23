@@ -1,0 +1,5 @@
+{
+  "desc": "Generate and parse RFC 3339 timestamps",
+  "home": "https://github.com/kurtraschke/pyRFC3339",
+  "license": "MIT"
+}

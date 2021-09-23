@@ -1,0 +1,5 @@
+{
+  "desc": "Apache Spark Python API",
+  "home": "https://github.com/apache/spark/tree/master/python",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0"
+}

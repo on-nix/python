@@ -1,0 +1,5 @@
+{
+  "desc": "Makes working with XML feel like you are working with JSON",
+  "home": "https://github.com/martinblech/xmltodict",
+  "license": "MIT"
+}

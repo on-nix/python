@@ -1,0 +1,5 @@
+{
+  "desc": "An extension module for click to enable registering CLI commands via setuptools entry-points.",
+  "home": "https://github.com/click-contrib/click-plugins",
+  "license": "New BSD"
+}

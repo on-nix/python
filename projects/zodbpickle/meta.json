@@ -1,0 +1,5 @@
+{
+  "desc": "Fork of Python 2 and 3 pickle module.",
+  "home": "https://github.com/zopefoundation/zodbpickle",
+  "license": "PSFL 2 and ZPL 2.1"
+}

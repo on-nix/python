@@ -1,0 +1,5 @@
+{
+  "desc": "Waitress WSGI server",
+  "home": "https://github.com/Pylons/waitress",
+  "license": "ZPL 2.1"
+}

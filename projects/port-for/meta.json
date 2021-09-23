@@ -1,0 +1,5 @@
+{
+  "desc": "Utility that helps with local TCP ports management. It can find an unused TCP localhost port and remember the association.",
+  "home": "https://github.com/kmike/port-for/",
+  "license": "MIT license"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Foreign Function Interface for Python calling C code.",
+  "home": "http://cffi.readthedocs.org",
+  "license": "MIT"
+}

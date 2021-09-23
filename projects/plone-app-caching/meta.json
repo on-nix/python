@@ -1,0 +1,5 @@
+{
+  "desc": "Plone UI and default rules for plone.caching/z3c.caching",
+  "home": "https://pypi.org/project/plone.app.caching",
+  "license": "GPL version 2"
+}

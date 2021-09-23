@@ -1,0 +1,5 @@
+{
+  "desc": "A Sphinx extension that builds an HTML version of any Python script and puts it into an examples gallery.",
+  "home": "https://sphinx-gallery.github.io",
+  "license": "3-clause BSD"
+}

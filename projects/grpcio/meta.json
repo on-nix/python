@@ -1,0 +1,5 @@
+{
+  "desc": "HTTP/2-based RPC framework",
+  "home": "https://grpc.io",
+  "license": "Apache License 2.0"
+}

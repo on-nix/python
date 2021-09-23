@@ -1,0 +1,5 @@
+{
+  "desc": "Headless chrome/chromium automation library (unofficial port of puppeteer)",
+  "home": "https://github.com/pyppeteer/pyppeteer",
+  "license": "MIT"
+}

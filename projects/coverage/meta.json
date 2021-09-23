@@ -1,0 +1,5 @@
+{
+  "desc": "Code coverage measurement for Python",
+  "home": "https://github.com/nedbat/coveragepy",
+  "license": "Apache 2.0"
+}

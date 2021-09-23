@@ -1,0 +1,5 @@
+{
+  "desc": "A Python library for the Docker Engine API.",
+  "home": "https://github.com/docker/docker-py",
+  "license": "Apache License 2.0"
+}

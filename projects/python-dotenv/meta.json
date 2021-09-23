@@ -1,0 +1,5 @@
+{
+  "desc": "Read key-value pairs from a .env file and set them as environment variables",
+  "home": "https://github.com/theskumar/python-dotenv",
+  "license": "BSD-3-Clause"
+}

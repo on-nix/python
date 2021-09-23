@@ -1,0 +1,5 @@
+{
+  "desc": "Infer file type and MIME type of any file/buffer. No external dependencies.",
+  "home": "https://github.com/h2non/filetype.py",
+  "license": "MIT"
+}

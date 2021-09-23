@@ -1,0 +1,5 @@
+{
+  "desc": "Validate configuration and produce human readable error messages.",
+  "home": "https://github.com/asottile/cfgv",
+  "license": "MIT"
+}

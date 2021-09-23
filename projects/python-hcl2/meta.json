@@ -1,0 +1,5 @@
+{
+  "desc": "A parser for HCL2",
+  "home": "https://github.com/amplify-education/python-hcl2",
+  "license": "MIT"
+}

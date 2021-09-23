@@ -1,0 +1,5 @@
+{
+  "desc": "Pure Python library for saving and loading PNG images",
+  "home": "https://github.com/drj11/pypng",
+  "license": "MIT"
+}

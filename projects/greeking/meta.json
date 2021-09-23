@@ -1,0 +1,5 @@
+{
+  "desc": "Django template tools for printing filler, a     technique from the days of hot type known as greeking.",
+  "home": "http://django-greeking.readthedocs.io/",
+  "license": "MIT"
+}

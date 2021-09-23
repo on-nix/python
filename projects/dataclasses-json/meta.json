@@ -1,0 +1,5 @@
+{
+  "desc": "Easily serialize dataclasses to and from JSON",
+  "home": "https://github.com/lidatong/dataclasses-json",
+  "license": "MIT"
+}

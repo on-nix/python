@@ -1,0 +1,5 @@
+{
+  "desc": "webdav locking support",
+  "home": "https://pypi.org/project/plone.locking",
+  "license": "GPL version 2"
+}

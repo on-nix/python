@@ -1,0 +1,5 @@
+{
+  "desc": "passive checker of Python programs",
+  "home": "https://github.com/PyCQA/pyflakes",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "This module is deprecated. All types are now available under the core module",
+  "home": "https://github.com/aws/aws-cdk",
+  "license": "Apache-2.0"
+}

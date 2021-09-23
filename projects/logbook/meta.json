@@ -1,0 +1,5 @@
+{
+  "desc": "A logging replacement for Python",
+  "home": "http://logbook.pocoo.org/",
+  "license": "BSD"
+}

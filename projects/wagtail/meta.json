@@ -1,0 +1,5 @@
+{
+  "desc": "A Django content management system.",
+  "home": "https://wagtail.io/",
+  "license": "BSD"
+}

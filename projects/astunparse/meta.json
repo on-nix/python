@@ -1,0 +1,5 @@
+{
+  "desc": "An AST unparser for Python",
+  "home": "https://github.com/simonpercivall/astunparse",
+  "license": "BSD"
+}

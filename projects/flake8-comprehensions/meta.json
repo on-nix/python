@@ -1,0 +1,5 @@
+{
+  "desc": "A flake8 plugin to help you write better list/set/dict comprehensions.",
+  "home": "https://github.com/adamchainz/flake8-comprehensions",
+  "license": "MIT"
+}

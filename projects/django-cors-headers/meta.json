@@ -1,0 +1,5 @@
+{
+  "desc": "django-cors-headers is a Django application for handling the server headers required for Cross-Origin Resource Sharing (CORS).",
+  "home": "https://github.com/adamchainz/django-cors-headers",
+  "license": "MIT License"
+}

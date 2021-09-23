@@ -1,0 +1,5 @@
+{
+  "desc": "Standard OpenGL bindings for Python",
+  "home": "http://pyopengl.sourceforge.net",
+  "license": "BSD"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Protobuf code generator for gRPC",
+  "home": "https://grpc.io",
+  "license": "Apache License 2.0"
+}

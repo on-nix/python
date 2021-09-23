@@ -1,0 +1,5 @@
+{
+  "desc": "Adds i18n/l10n support to Flask applications",
+  "home": "http://github.com/mrjoes/flask-babelex",
+  "license": "BSD"
+}

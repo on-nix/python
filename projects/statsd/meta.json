@@ -1,0 +1,5 @@
+{
+  "desc": "A simple statsd client.",
+  "home": "https://github.com/jsocol/pystatsd",
+  "license": "MIT"
+}

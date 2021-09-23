@@ -1,0 +1,5 @@
+{
+  "desc": "A pure Python Levenshtein implementation that's not freaking GPL'd.",
+  "home": "http://github.com/toastdriven/pylev",
+  "license": ""
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "A module for monitoring memory usage of a python program",
+  "home": "https://github.com/pythonprofilers/memory_profiler",
+  "license": "BSD"
+}

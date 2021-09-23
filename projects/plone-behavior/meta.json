@@ -1,0 +1,5 @@
+{
+  "desc": "Infrastructure for maintaining a registry of available behaviors",
+  "home": "https://pypi.org/project/plone.behavior",
+  "license": "BSD"
+}

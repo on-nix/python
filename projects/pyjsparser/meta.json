@@ -1,0 +1,5 @@
+{
+  "desc": "Fast javascript parser (based on esprima.js)",
+  "home": "https://github.com/PiotrDabkowski/pyjsparser",
+  "license": "MIT"
+}

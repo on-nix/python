@@ -1,0 +1,5 @@
+{
+  "desc": "Integration of webpack with jinja2",
+  "home": "https://github.com/JDeuce/python-jinja2-webpack",
+  "license": "BSD"
+}

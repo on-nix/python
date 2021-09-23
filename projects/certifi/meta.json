@@ -1,0 +1,5 @@
+{
+  "desc": "Python package for providing Mozilla's CA Bundle.",
+  "home": "https://certifiio.readthedocs.io/en/latest/",
+  "license": "MPL-2.0"
+}

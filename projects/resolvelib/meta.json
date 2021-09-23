@@ -1,0 +1,5 @@
+{
+  "desc": "Resolve abstract dependencies into concrete ones",
+  "home": "https://github.com/sarugaku/resolvelib",
+  "license": "ISC License"
+}

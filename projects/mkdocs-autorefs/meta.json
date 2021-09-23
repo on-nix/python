@@ -1,0 +1,5 @@
+{
+  "desc": "Automatically link across pages in MkDocs.",
+  "home": "https://github.com/mkdocstrings/autorefs",
+  "license": "ISC"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Wrappers to build Python packages using PEP 517 hooks",
+  "home": "https://github.com/pypa/pep517",
+  "license": ""
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "A lightweight and fast pure python ECDSA library",
+  "home": "https://github.com/starkbank/ecdsa-python.git",
+  "license": "MIT License"
+}

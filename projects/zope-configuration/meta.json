@@ -1,0 +1,5 @@
+{
+  "desc": "Zope Configuration Markup Language (ZCML)",
+  "home": "https://github.com/zopefoundation/zope.configuration",
+  "license": "ZPL 2.1"
+}

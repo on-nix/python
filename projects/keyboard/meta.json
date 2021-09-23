@@ -1,0 +1,5 @@
+{
+  "desc": "Hook and simulate keyboard events on Windows and Linux",
+  "home": "https://github.com/boppreh/keyboard",
+  "license": "MIT"
+}

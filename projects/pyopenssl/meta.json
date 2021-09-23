@@ -1,0 +1,5 @@
+{
+  "desc": "Python wrapper module around the OpenSSL library",
+  "home": "https://pyopenssl.org/",
+  "license": "Apache License, Version 2.0"
+}

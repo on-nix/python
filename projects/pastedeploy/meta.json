@@ -1,0 +1,5 @@
+{
+  "desc": "Load, configure, and compose WSGI applications and servers",
+  "home": "https://pylonsproject.org/",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Super-fast, efficiently stored Trie for Python.",
+  "home": "https://github.com/kmike/datrie",
+  "license": "LGPLv2+"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "WSGI HTTP Server for UNIX",
+  "home": "https://gunicorn.org",
+  "license": "MIT"
+}

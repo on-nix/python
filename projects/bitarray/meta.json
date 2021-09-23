@@ -1,0 +1,5 @@
+{
+  "desc": "efficient arrays of booleans -- C extension",
+  "home": "https://github.com/ilanschnell/bitarray",
+  "license": "PSF"
+}

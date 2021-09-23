@@ -1,0 +1,5 @@
+{
+  "desc": "Kubernetes python client",
+  "home": "https://github.com/kubernetes-client/python",
+  "license": "Apache License Version 2.0"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Small library to parse TLS records.",
+  "home": "https://github.com/nabla-c0d3/tls_parser",
+  "license": ""
+}

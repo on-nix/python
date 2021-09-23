@@ -1,0 +1,5 @@
+{
+  "desc": "Amazon DAX Client for Python",
+  "home": "https://aws.amazon.com/dynamodb/dax/",
+  "license": "Apache License 2.0"
+}

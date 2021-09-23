@@ -1,0 +1,5 @@
+{
+  "desc": "Python bindings for the Brotli compression library",
+  "home": "https://github.com/google/brotli",
+  "license": "MIT"
+}

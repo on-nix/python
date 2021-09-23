@@ -1,0 +1,5 @@
+{
+  "desc": "An audio library based on libsndfile, CFFI and NumPy",
+  "home": "https://github.com/bastibe/PySoundFile",
+  "license": "BSD 3-Clause License"
+}

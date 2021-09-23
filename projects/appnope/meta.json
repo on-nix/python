@@ -1,0 +1,5 @@
+{
+  "desc": "Disable App Nap on macOS >= 10.9",
+  "home": "http://github.com/minrk/appnope",
+  "license": "BSD"
+}

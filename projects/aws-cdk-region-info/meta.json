@@ -1,0 +1,5 @@
+{
+  "desc": "AWS region information, such as service principal names",
+  "home": "https://github.com/aws/aws-cdk",
+  "license": "Apache-2.0"
+}

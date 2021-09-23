@@ -1,0 +1,5 @@
+{
+  "desc": "flake8 plugin that integrates isort .",
+  "home": "https://github.com/gforcada/flake8-isort",
+  "license": "GPL version 2"
+}

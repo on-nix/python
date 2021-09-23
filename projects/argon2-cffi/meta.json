@@ -1,0 +1,5 @@
+{
+  "desc": "The secure Argon2 password hashing algorithm.",
+  "home": "https://argon2-cffi.readthedocs.io/",
+  "license": "MIT"
+}

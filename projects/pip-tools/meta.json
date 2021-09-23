@@ -1,0 +1,5 @@
+{
+  "desc": "pip-tools keeps your pinned dependencies fresh.",
+  "home": "https://github.com/jazzband/pip-tools/",
+  "license": "BSD 3 Clause"
+}

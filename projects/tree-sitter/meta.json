@@ -1,0 +1,5 @@
+{
+  "desc": "Python bindings to the Tree-sitter parsing library",
+  "home": "https://github.com/tree-sitter/py-tree-sitter",
+  "license": "MIT"
+}

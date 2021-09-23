@@ -1,0 +1,5 @@
+{
+  "desc": "CORS support for aiohttp",
+  "home": "https://github.com/aio-libs/aiohttp-cors",
+  "license": "Apache License, Version 2.0"
+}

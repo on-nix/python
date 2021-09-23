@@ -1,0 +1,5 @@
+{
+  "desc": "Parsing and validation of URIs (RFC 3986) and IRIs (RFC 3987)",
+  "home": "http://pypi.python.org/pypi/rfc3987",
+  "license": "GNU GPLv3+"
+}

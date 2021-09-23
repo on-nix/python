@@ -1,0 +1,5 @@
+{
+  "desc": "HTTP REST client, simplified for Python",
+  "home": "https://github.com/sendgrid/python-http-client",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Resource for fetching AWS Role credentials from Okta",
+  "home": "https://github.com/godaddy/aws-okta-processor",
+  "license": "MIT"
+}

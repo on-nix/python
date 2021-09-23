@@ -1,0 +1,5 @@
+{
+  "desc": "Safely pass data to untrusted environments and back.",
+  "home": "https://palletsprojects.com/p/itsdangerous/",
+  "license": "BSD-3-Clause"
+}

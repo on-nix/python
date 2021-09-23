@@ -1,0 +1,5 @@
+{
+  "desc": "FTDI device driver (pure Python)",
+  "home": "http://github.com/eblot/pyftdi",
+  "license": "Modified BSD"
+}

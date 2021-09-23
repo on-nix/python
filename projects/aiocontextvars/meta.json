@@ -1,0 +1,5 @@
+{
+  "desc": "Asyncio support for PEP-567 contextvars backport.",
+  "home": "https://github.com/fantix/aiocontextvars",
+  "license": "BSD license"
+}

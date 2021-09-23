@@ -1,0 +1,5 @@
+{
+  "desc": "Parser for multipart/form-data.",
+  "home": "http://github.com/defnull/multipart",
+  "license": "MIT"
+}

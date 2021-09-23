@@ -1,0 +1,5 @@
+{
+  "desc": "Iterative JSON parser with standard Python iterator interfaces",
+  "home": "https://github.com/ICRAR/ijson",
+  "license": "BSD"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "ANSII Color formatting for output in terminal.",
+  "home": "http://pypi.python.org/pypi/termcolor",
+  "license": "MIT"
+}

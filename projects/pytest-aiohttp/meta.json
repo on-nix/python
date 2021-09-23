@@ -1,0 +1,5 @@
+{
+  "desc": "pytest plugin for aiohttp support",
+  "home": "https://github.com/aio-libs/pytest-aiohttp/",
+  "license": "Apache 2"
+}

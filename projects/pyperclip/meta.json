@@ -1,0 +1,5 @@
+{
+  "desc": "A cross-platform clipboard module for Python. (Only handles plain text for now.)",
+  "home": "https://github.com/asweigart/pyperclip",
+  "license": "BSD"
+}

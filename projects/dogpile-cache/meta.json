@@ -1,0 +1,5 @@
+{
+  "desc": "A caching front-end based on the Dogpile lock.",
+  "home": "https://github.com/sqlalchemy/dogpile.cache",
+  "license": "MIT"
+}

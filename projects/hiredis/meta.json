@@ -1,0 +1,5 @@
+{
+  "desc": "Python wrapper for hiredis",
+  "home": "https://github.com/redis/hiredis-py",
+  "license": "BSD"
+}

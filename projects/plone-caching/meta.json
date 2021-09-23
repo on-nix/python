@@ -1,0 +1,5 @@
+{
+  "desc": "Zope 2 integration for z3c.caching",
+  "home": "https://pypi.org/project/plone.caching",
+  "license": "GPL"
+}

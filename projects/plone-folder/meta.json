@@ -1,0 +1,5 @@
+{
+  "desc": "BTree-based folder implementation with order support",
+  "home": "https://pypi.org/project/plone.folder",
+  "license": "GPL version 2"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "aiohttp based GraphQL client with file upload support",
+  "home": "https://github.com/DoctorJohn/aiogqlc",
+  "license": "MIT License"
+}

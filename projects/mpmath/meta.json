@@ -1,0 +1,5 @@
+{
+  "desc": "Python library for arbitrary-precision floating-point arithmetic",
+  "home": "http://mpmath.org/",
+  "license": "BSD"
+}

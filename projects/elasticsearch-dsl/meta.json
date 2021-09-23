@@ -1,0 +1,5 @@
+{
+  "desc": "Python client for Elasticsearch",
+  "home": "https://github.com/elasticsearch/elasticsearch-dsl-py",
+  "license": "Apache-2.0"
+}

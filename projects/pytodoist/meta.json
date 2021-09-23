@@ -1,0 +1,5 @@
+{
+  "desc": "A python wrapper for the Todoist API.",
+  "home": "http://www.github.com/Garee/pytodoist",
+  "license": "MIT"
+}

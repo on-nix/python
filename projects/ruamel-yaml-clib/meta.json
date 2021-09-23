@@ -1,0 +1,5 @@
+{
+  "desc": "C version of reader, parser and emitter for ruamel.yaml derived from libyaml",
+  "home": "https://sourceforge.net/p/ruamel-yaml-clib/code/ci/default/tree",
+  "license": "MIT"
+}

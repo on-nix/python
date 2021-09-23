@@ -1,0 +1,5 @@
+{
+  "desc": "pyfaidx: efficient pythonic random access to fasta subsequences",
+  "home": "http://mattshirley.com",
+  "license": "BSD"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Pure-Python Implementation of the AES block-cipher and common modes of operation",
+  "home": "https://github.com/ricmoo/pyaes",
+  "license": "License :: OSI Approved :: MIT License"
+}

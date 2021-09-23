@@ -1,0 +1,5 @@
+{
+  "desc": "An advanced form and widget framework for Zope 3",
+  "home": "https://github.com/zopefoundation/z3c.form",
+  "license": "ZPL 2.1"
+}

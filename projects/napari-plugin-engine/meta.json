@@ -1,0 +1,5 @@
+{
+  "desc": "napari plugin engine, fork of pluggy",
+  "home": "https://github.com/napari/napari-plugin-engine",
+  "license": "MIT"
+}

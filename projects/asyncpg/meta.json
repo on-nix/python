@@ -1,0 +1,5 @@
+{
+  "desc": "An asyncio PostgreSQL driver",
+  "home": "https://github.com/MagicStack/asyncpg",
+  "license": "Apache License, Version 2.0"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Interfaces and simple adapter that give the size of an object",
+  "home": "http://github.com/zopefoundation/zope.size",
+  "license": "ZPL 2.1"
+}

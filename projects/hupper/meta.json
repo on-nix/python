@@ -1,0 +1,5 @@
+{
+  "desc": "Integrated process monitor for developing and reloading daemons.",
+  "home": "https://github.com/Pylons/hupper",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Python client for the Prometheus monitoring system.",
+  "home": "https://github.com/prometheus/client_python",
+  "license": "Apache Software License 2.0"
+}

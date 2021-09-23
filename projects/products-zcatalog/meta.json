@@ -1,0 +1,5 @@
+{
+  "desc": "Zope's indexing and search solution.",
+  "home": "https://github.com/zopefoundation/Products.ZCatalog",
+  "license": "ZPL 2.1"
+}

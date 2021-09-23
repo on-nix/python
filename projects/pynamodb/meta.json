@@ -1,0 +1,5 @@
+{
+  "desc": "A Pythonic Interface to DynamoDB",
+  "home": "http://jlafon.io/pynamodb.html",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "More routines for operating on iterables, beyond itertools",
+  "home": "https://github.com/more-itertools/more-itertools",
+  "license": "MIT"
+}

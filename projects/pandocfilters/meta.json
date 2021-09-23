@@ -1,0 +1,5 @@
+{
+  "desc": "Utilities for writing pandoc filters in python",
+  "home": "http://github.com/jgm/pandocfilters",
+  "license": "BSD-3-Clause"
+}

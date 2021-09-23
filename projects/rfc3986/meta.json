@@ -1,0 +1,5 @@
+{
+  "desc": "Validating URI References per RFC 3986",
+  "home": "http://rfc3986.readthedocs.io",
+  "license": "Apache 2.0"
+}

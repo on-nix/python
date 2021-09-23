@@ -1,0 +1,5 @@
+{
+  "desc": "An interactive pip requirements upgrader. It also updates the version in your requirements.txt file.",
+  "home": "https://github.com/simion/pip-upgrader",
+  "license": "Apache License 2.0"
+}

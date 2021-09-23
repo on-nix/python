@@ -1,0 +1,5 @@
+{
+  "desc": "Pytest plugin to randomly order tests and control random.seed.",
+  "home": "https://github.com/pytest-dev/pytest-randomly",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Zope 2 date index with support for recurring events.",
+  "home": "https://github.com/collective/Products.DateRecurringIndex",
+  "license": "BSD"
+}

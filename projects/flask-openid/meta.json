@@ -1,0 +1,5 @@
+{
+  "desc": "OpenID support for Flask",
+  "home": "http://github.com/mitsuhiko/flask-openid/",
+  "license": "BSD"
+}

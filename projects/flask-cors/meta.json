@@ -1,0 +1,5 @@
+{
+  "desc": "A Flask extension adding a decorator for CORS support",
+  "home": "https://github.com/corydolphin/flask-cors",
+  "license": "MIT"
+}

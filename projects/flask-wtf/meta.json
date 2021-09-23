@@ -1,0 +1,5 @@
+{
+  "desc": "Simple integration of Flask and WTForms.",
+  "home": "https://github.com/wtforms/flask-wtf",
+  "license": "BSD"
+}

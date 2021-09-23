@@ -1,0 +1,5 @@
+{
+  "desc": "Global way of retrieving the currently active request.",
+  "home": "https://github.com/zopefoundation/zope.globalrequest",
+  "license": "ZPL"
+}

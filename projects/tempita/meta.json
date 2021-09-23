@@ -1,0 +1,5 @@
+{
+  "desc": "A very small text templating language",
+  "home": "http://pythonpaste.org/tempita/",
+  "license": "MIT"
+}

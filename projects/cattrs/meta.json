@@ -1,0 +1,5 @@
+{
+  "desc": "Composable complex class support for attrs and dataclasses.",
+  "home": "https://github.com/Tinche/cattrs",
+  "license": "MIT"
+}

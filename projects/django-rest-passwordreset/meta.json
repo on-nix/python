@@ -1,0 +1,5 @@
+{
+  "desc": "An extension of django rest framework, providing a configurable password reset strategy",
+  "home": "https://github.com/anx-ckreuzberger/django-rest-passwordreset",
+  "license": "BSD License"
+}

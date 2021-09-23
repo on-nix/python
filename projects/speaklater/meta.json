@@ -1,0 +1,5 @@
+{
+  "desc": "implements a lazy string for python useful for use with gettext",
+  "home": "http://github.com/mitsuhiko/speaklater",
+  "license": "UNKNOWN"
+}

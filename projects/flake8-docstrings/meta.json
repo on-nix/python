@@ -1,0 +1,5 @@
+{
+  "desc": "Extension for flake8 which uses pydocstyle to check docstrings",
+  "home": "https://gitlab.com/pycqa/flake8-docstrings",
+  "license": "MIT License"
+}

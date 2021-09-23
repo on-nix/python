@@ -1,0 +1,5 @@
+{
+  "desc": "Jinja2 Extension for Dates and Times",
+  "home": "https://github.com/hackebrot/jinja2-time",
+  "license": "MIT"
+}

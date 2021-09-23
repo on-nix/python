@@ -1,0 +1,5 @@
+{
+  "desc": "Class based template tags for Django",
+  "home": "http://github.com/ojii/django-classy-tags",
+  "license": "BSD"
+}

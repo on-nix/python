@@ -1,0 +1,5 @@
+{
+  "desc": "Click params for commmand line interfaces to GeoJSON",
+  "home": "https://github.com/mapbox/cligj",
+  "license": "BSD"
+}

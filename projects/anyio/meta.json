@@ -1,0 +1,5 @@
+{
+  "desc": "High level compatibility layer for multiple asynchronous event loop implementations",
+  "home": "",
+  "license": "MIT"
+}

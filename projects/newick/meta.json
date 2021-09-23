@@ -1,0 +1,5 @@
+{
+  "desc": "A python module to read and write the Newick format",
+  "home": "https://github.com/dlce-eva/python-newick",
+  "license": "Apache 2"
+}

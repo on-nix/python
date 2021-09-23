@@ -1,0 +1,5 @@
+{
+  "desc": "The Python ensemble sampling toolkit for MCMC",
+  "home": "https://emcee.readthedocs.io",
+  "license": "MIT"
+}

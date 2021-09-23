@@ -1,0 +1,5 @@
+{
+  "desc": "Fast, pure-Python full text indexing, search, and spell checking library.",
+  "home": "http://bitbucket.org/mchaput/whoosh",
+  "license": "Two-clause BSD license"
+}

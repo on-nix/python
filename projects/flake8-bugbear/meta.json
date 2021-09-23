@@ -1,0 +1,5 @@
+{
+  "desc": "A plugin for flake8 finding likely bugs and design problems in your program. Contains warnings that don't belong in pyflakes and pycodestyle.",
+  "home": "https://github.com/PyCQA/flake8-bugbear",
+  "license": "MIT"
+}

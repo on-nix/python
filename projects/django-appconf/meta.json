@@ -1,0 +1,5 @@
+{
+  "desc": "A helper class for handling configuration defaults of packaged apps gracefully.",
+  "home": "https://django-appconf.readthedocs.io/",
+  "license": "BSD"
+}

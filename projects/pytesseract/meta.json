@@ -1,0 +1,5 @@
+{
+  "desc": "Python-tesseract is a python wrapper for Google's Tesseract-OCR",
+  "home": "https://github.com/madmaze/pytesseract",
+  "license": "Apache License 2.0"
+}

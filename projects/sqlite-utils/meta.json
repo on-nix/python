@@ -1,0 +1,5 @@
+{
+  "desc": "CLI tool and Python utility functions for manipulating SQLite databases",
+  "home": "https://github.com/simonw/sqlite-utils",
+  "license": "Apache License, Version 2.0"
+}

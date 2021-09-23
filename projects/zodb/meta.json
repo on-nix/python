@@ -1,0 +1,5 @@
+{
+  "desc": "ZODB, a Python object-oriented database",
+  "home": "http://zodb-docs.readthedocs.io",
+  "license": "ZPL 2.1"
+}

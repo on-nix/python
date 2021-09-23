@@ -1,0 +1,5 @@
+{
+  "desc": "An asynchronous networking framework written in Python",
+  "home": "https://twistedmatrix.com/",
+  "license": "MIT"
+}

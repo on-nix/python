@@ -1,0 +1,5 @@
+{
+  "desc": "Structured Logging for Python",
+  "home": "https://www.structlog.org/",
+  "license": "MIT or Apache License, Version 2.0"
+}

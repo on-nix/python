@@ -1,0 +1,5 @@
+{
+  "desc": "Mypy static type checker plugin for Pytest",
+  "home": "https://github.com/dbader/pytest-mypy",
+  "license": "MIT"
+}

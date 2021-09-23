@@ -1,0 +1,5 @@
+{
+  "desc": "Check links in files",
+  "home": "https://github.com/jupyterlab/pytest-check-links",
+  "license": "BSD-3-Clause"
+}

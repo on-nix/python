@@ -1,0 +1,5 @@
+{
+  "desc": "Type hints (PEP 484) support for the Sphinx autodoc extension",
+  "home": "",
+  "license": "MIT"
+}

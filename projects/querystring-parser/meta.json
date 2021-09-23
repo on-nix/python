@@ -1,0 +1,5 @@
+{
+  "desc": "QueryString parser for Python/Django that correctly handles nested dictionaries",
+  "home": "https://github.com/bernii/querystring-parser",
+  "license": ""
+}

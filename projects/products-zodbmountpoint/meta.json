@@ -1,0 +1,5 @@
+{
+  "desc": "Zope ZODB mount point support.",
+  "home": "https://github.com/zopefoundation/Products.ZODBMountPoint",
+  "license": "ZPL 2.1"
+}

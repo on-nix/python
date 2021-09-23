@@ -1,0 +1,5 @@
+{
+  "desc": "Asyncio DataLoader implementation for Python",
+  "home": "https://github.com/syrusakbary/aiodataloader",
+  "license": "MIT"
+}

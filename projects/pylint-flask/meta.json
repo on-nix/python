@@ -1,0 +1,5 @@
+{
+  "desc": "pylint-flask is a Pylint plugin to aid Pylint in recognizing and understanding errors caused when using Flask",
+  "home": "https://github.com/jschaf/pylint-flask",
+  "license": "GPLv2"
+}

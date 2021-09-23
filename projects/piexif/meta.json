@@ -1,0 +1,5 @@
+{
+  "desc": "To simplify exif manipulations with python. Writing, reading, and more...",
+  "home": "https://github.com/hMatoba/Piexif",
+  "license": "MIT"
+}

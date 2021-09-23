@@ -1,0 +1,5 @@
+{
+  "desc": "Fast and simple WSGI-framework for small web-applications.",
+  "home": "http://bottlepy.org/",
+  "license": "MIT"
+}

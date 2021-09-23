@@ -1,0 +1,5 @@
+{
+  "desc": "Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy",
+  "home": "https://github.com/ijl/orjson",
+  "license": "Apache-2.0 OR MIT"
+}

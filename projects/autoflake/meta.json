@@ -1,0 +1,5 @@
+{
+  "desc": "Removes unused imports and unused variables",
+  "home": "https://github.com/myint/autoflake",
+  "license": "Expat License"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Run a subprocess in a pseudo terminal",
+  "home": "https://github.com/pexpect/ptyprocess",
+  "license": ""
+}

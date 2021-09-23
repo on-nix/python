@@ -1,0 +1,5 @@
+{
+  "desc": "Basic inter-process locks",
+  "home": "https://github.com/zopefoundation/zc.lockfile",
+  "license": "ZPL 2.1"
+}

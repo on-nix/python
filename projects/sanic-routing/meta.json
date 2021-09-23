@@ -1,0 +1,5 @@
+{
+  "desc": "Core routing component for Sanic",
+  "home": "https://github.com/sanic-org/sanic-routing/",
+  "license": "MIT"
+}

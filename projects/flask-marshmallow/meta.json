@@ -1,0 +1,5 @@
+{
+  "desc": "Flask + marshmallow for beautiful APIs",
+  "home": "https://github.com/marshmallow-code/flask-marshmallow",
+  "license": "MIT"
+}

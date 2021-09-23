@@ -1,0 +1,5 @@
+{
+  "desc": "Implementation of Bitcoin BIP-0039",
+  "home": "https://github.com/trezor/python-mnemonic",
+  "license": ""
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "A tiny pythonic visitor implementation.",
+  "home": "http://github.com/mbr/visitor",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Hamcrest framework for matcher objects",
+  "home": "https://github.com/hamcrest/PyHamcrest",
+  "license": "New BSD"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Utility library for gitignore style pattern matching of file paths.",
+  "home": "https://github.com/cpburnz/python-path-specification",
+  "license": "MPL 2.0"
+}

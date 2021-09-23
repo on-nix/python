@@ -1,0 +1,5 @@
+{
+  "desc": "OAuthlib authentication support for Requests.",
+  "home": "https://github.com/requests/requests-oauthlib",
+  "license": "ISC"
+}

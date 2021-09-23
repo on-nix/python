@@ -1,0 +1,5 @@
+{
+  "desc": "Promises/A+ implementation for Python",
+  "home": "https://github.com/syrusakbary/promise",
+  "license": "MIT"
+}

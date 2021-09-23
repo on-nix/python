@@ -1,0 +1,5 @@
+{
+  "desc": "sphinxcontrib-serializinghtml is a sphinx extension which outputs \"serialized\" HTML files (json and pickle).",
+  "home": "http://sphinx-doc.org/",
+  "license": "BSD"
+}

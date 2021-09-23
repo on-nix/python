@@ -1,0 +1,5 @@
+{
+  "desc": "Backport of pathlib-compatible object wrapper for zip files",
+  "home": "https://github.com/jaraco/zipp",
+  "license": ""
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Simple python rate limiting object",
+  "home": "https://github.com/RazerM/ratelimiter",
+  "license": "Apache"
+}

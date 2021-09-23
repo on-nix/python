@@ -1,0 +1,5 @@
+{
+  "desc": "File-based locks for Python for Linux and Windows",
+  "home": "http://github.com/mwilliamson/locket.py",
+  "license": "BSD-2-Clause"
+}

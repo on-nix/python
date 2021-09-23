@@ -1,0 +1,5 @@
+{
+  "desc": "A Python SOCKS client module. See https://github.com/Anorov/PySocks for more information.",
+  "home": "https://github.com/Anorov/PySocks",
+  "license": "BSD"
+}

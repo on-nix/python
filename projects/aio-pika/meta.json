@@ -1,0 +1,5 @@
+{
+  "desc": "Wrapper for the aiormq for asyncio and humans.",
+  "home": "",
+  "license": "Apache Software License"
+}

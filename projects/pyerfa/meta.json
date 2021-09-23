@@ -1,0 +1,5 @@
+{
+  "desc": "Python bindings for ERFA",
+  "home": "https://github.com/liberfa/pyerfa",
+  "license": "BSD 3-Clause License"
+}

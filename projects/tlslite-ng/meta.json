@@ -1,0 +1,5 @@
+{
+  "desc": "Pure python implementation of SSL and TLS.",
+  "home": "https://github.com/tlsfuzzer/tlslite-ng",
+  "license": "LGPLv2"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "This is a transport neutral client implementation of the STOMP protocol.",
+  "home": "https://github.com/oisinmulvihill/stomper",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0"
+}

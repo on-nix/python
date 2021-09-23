@@ -1,0 +1,5 @@
+{
+  "desc": "Easy, practical library for making terminal apps, by providing an elegant, well-documented interface to Colors, Keyboard input, and screen Positioning capabilities.",
+  "home": "https://github.com/jquast/blessed",
+  "license": "MIT"
+}

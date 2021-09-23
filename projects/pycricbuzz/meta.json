@@ -1,0 +1,5 @@
+{
+  "desc": "A library for fetching live cricket scores from cricbuzz",
+  "home": "https://github.com/codophobia/pycricbuzz",
+  "license": "GPLv2"
+}

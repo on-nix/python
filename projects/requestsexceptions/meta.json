@@ -1,0 +1,5 @@
+{
+  "desc": "Import exceptions from potentially bundled packages in requests.",
+  "home": "http://www.openstack.org/",
+  "license": ""
+}

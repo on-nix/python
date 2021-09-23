@@ -1,0 +1,5 @@
+{
+  "desc": "Provides enhanced HTTPS support for httplib and urllib2 using PyOpenSSL",
+  "home": "https://github.com/cedadev/ndg_httpsclient/",
+  "license": "BSD - See ndg/httpsclient/LICENCE file for details"
+}

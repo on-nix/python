@@ -1,0 +1,5 @@
+{
+  "desc": "A queryparser, querybuilder and extra helper tools, to parse stored queries to actual results, used in new style Plone collections",
+  "home": "https://github.com/plone/plone.app.querystring",
+  "license": "GPL version 2"
+}

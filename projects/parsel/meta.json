@@ -1,0 +1,5 @@
+{
+  "desc": "Parsel is a library to extract data from HTML and XML using XPath and CSS selectors",
+  "home": "https://github.com/scrapy/parsel",
+  "license": "BSD"
+}

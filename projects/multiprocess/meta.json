@@ -1,0 +1,5 @@
+{
+  "desc": "better multiprocessing and multithreading in python",
+  "home": "https://github.com/uqfoundation/multiprocess",
+  "license": "BSD"
+}

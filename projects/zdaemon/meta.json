@@ -1,0 +1,5 @@
+{
+  "desc": "Daemon process control library and tools for Unix-based systems",
+  "home": "https://github.com/zopefoundation/zdaemon",
+  "license": "ZPL 2.1"
+}

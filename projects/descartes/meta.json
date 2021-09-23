@@ -1,0 +1,5 @@
+{
+  "desc": "Use geometric objects as matplotlib paths and patches",
+  "home": "http://bitbucket.org/sgillies/descartes/",
+  "license": "BSD"
+}

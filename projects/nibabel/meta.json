@@ -1,0 +1,5 @@
+{
+  "desc": "Access a multitude of neuroimaging data formats",
+  "home": "https://nipy.org/nibabel",
+  "license": "MIT License"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "A source query widget for z3c.form.",
+  "home": "https://pypi.org/project/z3c.formwidget.query",
+  "license": "ZPL 2.1"
+}

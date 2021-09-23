@@ -1,0 +1,5 @@
+{
+  "desc": "A concrete syntax tree with AST-like properties for Python 3.5, 3.6, 3.7 and 3.8 programs.",
+  "home": "https://github.com/Instagram/LibCST",
+  "license": "MIT"
+}

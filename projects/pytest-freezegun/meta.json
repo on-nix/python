@@ -1,0 +1,5 @@
+{
+  "desc": "Wrap tests with fixtures in freeze_time",
+  "home": "https://github.com/ktosiek/pytest-freezegun",
+  "license": "MIT"
+}

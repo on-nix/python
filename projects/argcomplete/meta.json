@@ -1,0 +1,5 @@
+{
+  "desc": "Bash tab completion for argparse",
+  "home": "https://github.com/kislyuk/argcomplete",
+  "license": "Apache Software License"
+}

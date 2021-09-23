@@ -1,0 +1,5 @@
+{
+  "desc": "Converts a Python dictionary or other native data type into a valid XML string.",
+  "home": "https://github.com/quandyfactory/dicttoxml",
+  "license": "LICENCE.txt"
+}

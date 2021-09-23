@@ -1,0 +1,5 @@
+{
+  "desc": "Cython bindings for MurmurHash",
+  "home": "https://github.com/explosion/murmurhash",
+  "license": "MIT"
+}

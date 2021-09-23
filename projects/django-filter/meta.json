@@ -1,0 +1,5 @@
+{
+  "desc": "Django-filter is a reusable Django application for allowing users to filter querysets dynamically.",
+  "home": "https://github.com/carltongibson/django-filter/tree/master",
+  "license": "BSD"
+}

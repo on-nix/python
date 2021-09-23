@@ -1,0 +1,5 @@
+{
+  "desc": "PlonePAS modifies the PluggableAuthService for use by Plone.",
+  "home": "https://github.com/plone/Products.PlonePAS",
+  "license": "ZPL"
+}

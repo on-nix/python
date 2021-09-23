@@ -1,0 +1,5 @@
+{
+  "desc": "pytest plugin to run pydocstyle",
+  "home": "https://github.com/henry0312/pytest-pydocstyle",
+  "license": "MIT"
+}

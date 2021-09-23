@@ -1,0 +1,5 @@
+{
+  "desc": "The little ASGI library that shines.",
+  "home": "https://github.com/encode/starlette",
+  "license": "BSD"
+}

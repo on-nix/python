@@ -1,0 +1,5 @@
+{
+  "desc": "A simple Python library for easily displaying tabular data in a visually appealing ASCII table format",
+  "home": "https://github.com/jazzband/prettytable",
+  "license": "BSD (3 clause)"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Extensions to the standard Python datetime module",
+  "home": "https://github.com/dateutil/dateutil",
+  "license": "Dual License"
+}

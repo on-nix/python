@@ -1,0 +1,5 @@
+{
+  "desc": "Simple, modern file watching and code reload in python.",
+  "home": "https://github.com/samuelcolvin/watchgod",
+  "license": "MIT"
+}

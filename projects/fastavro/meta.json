@@ -1,0 +1,5 @@
+{
+  "desc": "Fast read/write of AVRO files",
+  "home": "https://github.com/fastavro/fastavro",
+  "license": "MIT"
+}

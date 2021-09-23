@@ -1,0 +1,5 @@
+{
+  "desc": "Rebuild Sphinx documentation on changes, with live-reload in the browser.",
+  "home": "https://github.com/executablebooks/sphinx-autobuild",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "A platform independent file lock.",
+  "home": "https://github.com/benediktschmitt/py-filelock",
+  "license": "Public Domain <http://unlicense.org>"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Interact with GitLab API",
+  "home": "https://github.com/python-gitlab/python-gitlab",
+  "license": "LGPLv3"
+}

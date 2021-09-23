@@ -1,0 +1,5 @@
+{
+  "desc": "a heap with decrease-key and increase-key operations",
+  "home": "http://stutzbachenterprises.com/",
+  "license": "BSD"
+}

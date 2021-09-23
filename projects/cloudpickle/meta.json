@@ -1,0 +1,5 @@
+{
+  "desc": "Extended pickling support for Python objects",
+  "home": "https://github.com/cloudpipe/cloudpickle",
+  "license": "BSD 3-Clause License"
+}

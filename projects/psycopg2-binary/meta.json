@@ -1,0 +1,5 @@
+{
+  "desc": "psycopg2 - Python-PostgreSQL Database Adapter",
+  "home": "https://psycopg.org/",
+  "license": "LGPL with exceptions"
+}

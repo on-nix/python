@@ -1,0 +1,5 @@
+{
+  "desc": "django-taggit is a reusable Django application for simple tagging.",
+  "home": "https://github.com/jazzband/django-taggit",
+  "license": "BSD"
+}

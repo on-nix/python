@@ -1,0 +1,5 @@
+{
+  "desc": "Pure python package for DICOM medical file reading and writing",
+  "home": "https://github.com/pydicom/pydicom",
+  "license": "MIT"
+}

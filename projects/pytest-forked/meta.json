@@ -1,0 +1,5 @@
+{
+  "desc": "run tests in isolated forked subprocesses",
+  "home": "https://github.com/pytest-dev/pytest-forked",
+  "license": "MIT"
+}

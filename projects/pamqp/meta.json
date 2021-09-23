@@ -1,0 +1,5 @@
+{
+  "desc": "RabbitMQ Focused AMQP low-level library",
+  "home": "https://github.com/gmr/pamqp",
+  "license": "BSD 3-Clause License"
+}

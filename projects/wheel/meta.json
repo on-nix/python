@@ -1,0 +1,5 @@
+{
+  "desc": "A built-package format for Python",
+  "home": "https://github.com/pypa/wheel",
+  "license": "MIT"
+}

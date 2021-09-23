@@ -1,0 +1,5 @@
+{
+  "desc": "Sentence Embeddings using BERT / RoBERTa / XLM-R",
+  "home": "https://github.com/UKPLab/sentence-transformers",
+  "license": "Apache License 2.0"
+}

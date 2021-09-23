@@ -1,0 +1,5 @@
+{
+  "desc": "JSON/YAML loaders with column and line numbers.",
+  "home": "https://kamadorueda.github.io/metaloaders",
+  "license": "MIT"
+}

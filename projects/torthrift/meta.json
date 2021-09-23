@@ -1,0 +1,5 @@
+{
+  "desc": "Tornado asynchronous thrift server and client",
+  "home": "http://github.com/snower/TorThrift",
+  "license": "MIT"
+}

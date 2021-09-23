@@ -1,0 +1,5 @@
+{
+  "desc": "TensorBoard lets you watch Tensors Flow",
+  "home": "https://github.com/tensorflow/tensorboard",
+  "license": "Apache 2.0"
+}

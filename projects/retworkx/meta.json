@@ -1,0 +1,5 @@
+{
+  "desc": "A python graph library implemented in Rust",
+  "home": "https://github.com/Qiskit/retworkx",
+  "license": "Apache 2.0"
+}

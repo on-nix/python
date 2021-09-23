@@ -1,0 +1,5 @@
+{
+  "desc": "Pure-Python HPACK header compression",
+  "home": "https://github.com/python-hyper/hpack",
+  "license": "MIT License"
+}

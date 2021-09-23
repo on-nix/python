@@ -1,0 +1,5 @@
+{
+  "desc": "script tag with additional attributes for django.forms.Media",
+  "home": "https://github.com/matthiask/django-js-asset/",
+  "license": "BSD License"
+}

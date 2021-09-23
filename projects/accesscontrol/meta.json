@@ -1,0 +1,5 @@
+{
+  "desc": "Security framework for Zope.",
+  "home": "https://github.com/zopefoundation/AccessControl",
+  "license": "ZPL 2.1"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "textwrap, but savvy to ANSI colors and styles",
+  "home": "https://github.com/jonathaneunice/ansiwrap",
+  "license": "Apache License 2.0"
+}

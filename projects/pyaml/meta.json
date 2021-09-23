@@ -1,0 +1,5 @@
+{
+  "desc": "PyYAML-based module to produce pretty and readable YAML-serialized data",
+  "home": "https://github.com/mk-fg/pretty-yaml",
+  "license": "WTFPL"
+}

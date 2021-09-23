@@ -1,0 +1,5 @@
+{
+  "desc": "Cache purging support for Zope 2 applications",
+  "home": "https://pypi.org/project/plone.cachepurging",
+  "license": "GPL version 2"
+}

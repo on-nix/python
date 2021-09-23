@@ -1,0 +1,5 @@
+{
+  "desc": "Probabilistic modeling and statistical inference in TensorFlow",
+  "home": "http://github.com/tensorflow/probability",
+  "license": "Apache 2.0"
+}

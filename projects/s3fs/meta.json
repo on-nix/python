@@ -1,0 +1,5 @@
+{
+  "desc": "Convenient Filesystem interface over S3",
+  "home": "http://github.com/dask/s3fs/",
+  "license": "BSD"
+}

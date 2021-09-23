@@ -1,0 +1,5 @@
+{
+  "desc": "Timeout context manager for asyncio programs",
+  "home": "https://github.com/aio-libs/async_timeout/",
+  "license": "Apache 2"
+}

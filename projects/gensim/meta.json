@@ -1,0 +1,5 @@
+{
+  "desc": "Python framework for fast Vector Space Modelling",
+  "home": "http://radimrehurek.com/gensim",
+  "license": "LGPL-2.1-only"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Simple DNS resolver for asyncio",
+  "home": "https://github.com/saghul/aiodns",
+  "license": "MIT"
+}

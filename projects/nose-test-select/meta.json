@@ -1,0 +1,5 @@
+{
+  "desc": ".gitignore style test selection for nose (file and method name globbing)",
+  "home": "http://github.com/EnigmaCurry/nose-test-select",
+  "license": "MIT"
+}

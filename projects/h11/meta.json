@@ -1,0 +1,5 @@
+{
+  "desc": "A pure-Python, bring-your-own-I/O implementation of HTTP/1.1",
+  "home": "https://github.com/python-hyper/h11",
+  "license": "MIT"
+}

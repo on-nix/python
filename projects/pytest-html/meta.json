@@ -1,0 +1,5 @@
+{
+  "desc": "pytest plugin for generating HTML reports",
+  "home": "https://github.com/pytest-dev/pytest-html",
+  "license": "Mozilla Public License 2.0 (MPL 2.0)"
+}

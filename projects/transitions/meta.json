@@ -1,0 +1,5 @@
+{
+  "desc": "A lightweight, object-oriented Python state machine implementation with many extensions.",
+  "home": "http://github.com/pytransitions/transitions",
+  "license": "MIT"
+}

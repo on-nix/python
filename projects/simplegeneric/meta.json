@@ -1,0 +1,5 @@
+{
+  "desc": "Simple generic functions (similar to Python's own len(), pickle.dump(), etc.)",
+  "home": "http://cheeseshop.python.org/pypi/simplegeneric",
+  "license": "ZPL 2.1"
+}

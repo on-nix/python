@@ -1,0 +1,5 @@
+{
+  "desc": "Library for communicating with Redis Clusters. Built on top of redis-py lib",
+  "home": "http://github.com/grokzen/redis-py-cluster",
+  "license": "MIT"
+}

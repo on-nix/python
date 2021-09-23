@@ -1,0 +1,5 @@
+{
+  "desc": "Zope process lifetime events",
+  "home": "http://github.com/zopefoundation/zope.processlifetime",
+  "license": "ZPL 2.1"
+}

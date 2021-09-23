@@ -1,0 +1,5 @@
+{
+  "desc": "Simple module to parse ISO 8601 dates",
+  "home": "https://github.com/micktwomey/pyiso8601",
+  "license": "MIT"
+}

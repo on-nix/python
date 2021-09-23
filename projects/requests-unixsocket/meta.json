@@ -1,0 +1,5 @@
+{
+  "desc": "Use requests to talk HTTP via a UNIX domain socket",
+  "home": "https://github.com/msabramo/requests-unixsocket",
+  "license": "Apache-2"
+}

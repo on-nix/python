@@ -1,0 +1,5 @@
+{
+  "desc": "Official Mixpanel library for Python",
+  "home": "https://github.com/mixpanel/mixpanel-python",
+  "license": "Apache"
+}

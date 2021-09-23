@@ -1,0 +1,5 @@
+{
+  "desc": "A Python implementation of the JSON5 data format.",
+  "home": "https://github.com/dpranke/pyjson5",
+  "license": "Apache"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Client library to download and publish models on the huggingface.co hub",
+  "home": "https://github.com/huggingface/huggingface_hub",
+  "license": "Apache"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Integrate five.customerize into Plone.",
+  "home": "https://pypi.org/project/plone.app.customerize/",
+  "license": "GPL version 2"
+}

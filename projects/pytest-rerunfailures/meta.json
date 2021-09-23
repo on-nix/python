@@ -1,0 +1,5 @@
+{
+  "desc": "pytest plugin to re-run tests to eliminate flaky failures",
+  "home": "https://github.com/pytest-dev/pytest-rerunfailures",
+  "license": "Mozilla Public License 2.0 (MPL 2.0)"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Python @deprecated decorator to deprecate old python classes, functions or methods.",
+  "home": "https://github.com/tantale/deprecated",
+  "license": "MIT"
+}

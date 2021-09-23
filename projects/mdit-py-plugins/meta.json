@@ -1,0 +1,5 @@
+{
+  "desc": "Collection of plugins for markdown-it-py",
+  "home": "https://github.com/executablebooks/mdit-py-plugins",
+  "license": "MIT"
+}

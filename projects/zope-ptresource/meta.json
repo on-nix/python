@@ -1,0 +1,5 @@
+{
+  "desc": "Page template resource plugin for zope.browserresource",
+  "home": "https://github.com/zopefoundation/zope.ptresource/",
+  "license": "ZPL 2.1"
+}

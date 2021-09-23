@@ -1,0 +1,5 @@
+{
+  "desc": "The fastest markdown parser in pure Python",
+  "home": "https://github.com/lepture/mistune",
+  "license": "BSD"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Zope Content Management Framework core components",
+  "home": "https://github.com/zopefoundation/Products.CMFCore",
+  "license": "ZPL 2.1"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Python function signatures from PEP362 for Python 2.6, 2.7 and 3.2+",
+  "home": "http://funcsigs.readthedocs.org",
+  "license": "ASL"
+}

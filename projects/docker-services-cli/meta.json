@@ -1,0 +1,5 @@
+{
+  "desc": "Python module to ease the creation and management of external services.",
+  "home": "https://github.com/inveniosoftware/docker-services-cli",
+  "license": "MIT"
+}

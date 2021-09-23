@@ -1,0 +1,5 @@
+{
+  "desc": "Publication helps you maintain public-api-friendly modules by preventing unintentional access to private implementation details via introspection.",
+  "home": "https://github.com/glyph/publication",
+  "license": ""
+}

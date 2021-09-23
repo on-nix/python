@@ -1,0 +1,5 @@
+{
+  "desc": "A custom YAML tag for referencing environment variables in YAML files. ",
+  "home": "https://github.com/waylan/pyyaml-env-tag",
+  "license": ""
+}

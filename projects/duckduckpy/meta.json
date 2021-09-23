@@ -1,0 +1,5 @@
+{
+  "desc": "Library for querying the instant answer API of DuckDuckGo search engine.",
+  "home": "https://github.com/ivankliuk/duckduckpy/",
+  "license": "MIT"
+}

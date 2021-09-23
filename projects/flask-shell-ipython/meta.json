@@ -1,0 +1,5 @@
+{
+  "desc": "Replace default `flask shell` command by similar command running IPython.",
+  "home": "http://github.com/ei-grad/flask-shell-ipython",
+  "license": ""
+}

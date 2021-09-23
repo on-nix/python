@@ -1,0 +1,5 @@
+{
+  "desc": "A lint suite runner with Git-aware capabilities and a smart pre-commit hook.",
+  "home": "https://github.com/rehandalal/therapist",
+  "license": "Mozilla Public License Version 2.0"
+}

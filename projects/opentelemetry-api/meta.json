@@ -1,0 +1,5 @@
+{
+  "desc": "OpenTelemetry Python API",
+  "home": "https://github.com/open-telemetry/opentelemetry-python/tree/main/opentelemetry-api",
+  "license": "Apache-2.0"
+}

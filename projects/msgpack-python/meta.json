@@ -1,0 +1,5 @@
+{
+  "desc": "MessagePack (de)serializer.",
+  "home": "http://msgpack.org/",
+  "license": "Apache 2.0"
+}

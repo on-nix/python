@@ -1,0 +1,5 @@
+{
+  "desc": "Fast implementation of asyncio event loop on top of libuv",
+  "home": "http://github.com/MagicStack/uvloop",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "A universal Python library for detecting and/or filtering profane words.",
+  "home": "https://github.com/areebbeigh/profanityfilter",
+  "license": "BSD"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Fast data loading for TensorBoard",
+  "home": "https://github.com/tensorflow/tensorboard/tree/master/tensorboard/data/server",
+  "license": "Apache 2.0"
+}

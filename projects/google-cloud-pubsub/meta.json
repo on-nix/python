@@ -1,0 +1,5 @@
+{
+  "desc": "Google Cloud Pub/Sub API client library",
+  "home": "https://github.com/googleapis/python-pubsub",
+  "license": "Apache 2.0"
+}

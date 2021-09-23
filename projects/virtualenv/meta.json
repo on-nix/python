@@ -1,0 +1,5 @@
+{
+  "desc": "Virtual Python Environment builder",
+  "home": "https://virtualenv.pypa.io/",
+  "license": "MIT"
+}

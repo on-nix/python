@@ -1,0 +1,5 @@
+{
+  "desc": "Extract unique Python exceptions with their traceback from a log file.",
+  "home": "https://github.com/tdhopper/exception",
+  "license": "MIT license"
+}

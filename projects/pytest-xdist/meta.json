@@ -1,0 +1,5 @@
+{
+  "desc": "pytest xdist plugin for distributed testing and loop-on-failing modes",
+  "home": "https://github.com/pytest-dev/pytest-xdist",
+  "license": "MIT"
+}

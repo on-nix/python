@@ -1,0 +1,5 @@
+{
+  "desc": "A code analyzer without caring the C/C++ header files. It works with Java, C/C++, JavaScript, Python, Ruby, Swift, Objective C. Metrics includes cyclomatic complexity number etc.",
+  "home": "http://www.lizard.ws",
+  "license": "MIT"
+}

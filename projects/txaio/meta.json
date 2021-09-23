@@ -1,0 +1,5 @@
+{
+  "desc": "Compatibility API between asyncio/Twisted/Trollius",
+  "home": "https://github.com/crossbario/txaio",
+  "license": "MIT License"
+}

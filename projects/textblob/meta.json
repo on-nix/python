@@ -1,0 +1,5 @@
+{
+  "desc": "Simple, Pythonic text processing. Sentiment analysis, part-of-speech tagging, noun phrase parsing, and more.",
+  "home": "https://github.com/sloria/TextBlob",
+  "license": "MIT"
+}

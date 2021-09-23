@@ -1,0 +1,5 @@
+{
+  "desc": "Backport of functools.lru_cache",
+  "home": "https://github.com/jaraco/backports.functools_lru_cache",
+  "license": ""
+}

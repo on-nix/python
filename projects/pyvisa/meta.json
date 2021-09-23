@@ -1,0 +1,5 @@
+{
+  "desc": "Python VISA bindings for GPIB, RS232, TCPIP and USB instruments",
+  "home": "https://github.com/pyvisa/pyvisa",
+  "license": "MIT License"
+}

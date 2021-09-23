@@ -1,0 +1,5 @@
+{
+  "desc": "Persistent/Functional/Immutable data structures",
+  "home": "http://github.com/tobgu/pyrsistent/",
+  "license": "MIT"
+}

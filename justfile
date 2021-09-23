@@ -38,6 +38,9 @@ new PROJECT:
   m . /create 3.9 {{PROJECT}};
   just optimize
 
+meta PROJECT:
+  bash makes/meta/entrypoint.sh {{PROJECT}}
+
 optimize:
   python3 makes/optimize/entrypoint.py
 

@@ -1,0 +1,5 @@
+{
+  "desc": "The geodesic routines from GeographicLib",
+  "home": "https://geographiclib.sourceforge.io/1.52/python",
+  "license": "MIT"
+}

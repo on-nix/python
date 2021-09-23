@@ -1,0 +1,5 @@
+{
+  "desc": "Easy to use retry decorator.",
+  "home": "https://github.com/invl/retry",
+  "license": "Apache License 2.0"
+}

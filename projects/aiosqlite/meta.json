@@ -1,0 +1,5 @@
+{
+  "desc": "asyncio bridge to the standard sqlite3 module",
+  "home": "https://aiosqlite.omnilib.dev",
+  "license": ""
+}

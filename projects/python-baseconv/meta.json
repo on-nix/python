@@ -1,0 +1,5 @@
+{
+  "desc": "Convert numbers from base 10 integers to base X strings and back again.",
+  "home": "https://github.com/semente/python-baseconv",
+  "license": "Python Software Foundation License"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "AWS CloudFormation creation library",
+  "home": "https://github.com/cloudtools/troposphere",
+  "license": "New BSD license"
+}

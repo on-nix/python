@@ -1,0 +1,5 @@
+{
+  "desc": "A powerful declarative symmetric parser/builder for binary data",
+  "home": "http://construct.readthedocs.org",
+  "license": "MIT"
+}

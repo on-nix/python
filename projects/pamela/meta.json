@@ -1,0 +1,5 @@
+{
+  "desc": "PAM interface using ctypes",
+  "home": "https://github.com/minrk/pamela",
+  "license": "MIT"
+}

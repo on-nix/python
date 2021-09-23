@@ -1,0 +1,5 @@
+{
+  "desc": "TextFSM Templates for Network Devices, and Python wrapper for TextFSM's CliTable.",
+  "home": "https://github.com/networktocode/ntc-templates",
+  "license": "Apache-2.0"
+}

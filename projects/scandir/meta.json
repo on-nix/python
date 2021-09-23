@@ -1,0 +1,5 @@
+{
+  "desc": "scandir, a better directory iterator and faster os.walk()",
+  "home": "https://github.com/benhoyt/scandir",
+  "license": "New BSD License"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Backport functools.singledispatch from Python 3.4 to Python 2.6-3.3.",
+  "home": "https://github.com/jaraco/singledispatch",
+  "license": ""
+}

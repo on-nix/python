@@ -1,0 +1,5 @@
+{
+  "desc": "Wrapper for ``lxml`` trees which serializes to string upon iteration.",
+  "home": "http://www.repoze.org",
+  "license": "BSD-derived (http://www.repoze.org/LICENSE.txt)"
+}

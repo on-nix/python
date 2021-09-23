@@ -1,0 +1,5 @@
+{
+  "desc": "The comprehensive WSGI web application library.",
+  "home": "https://palletsprojects.com/p/werkzeug/",
+  "license": "BSD-3-Clause"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "A backport of the subprocess module from Python 3 for use on 2.x.",
+  "home": "https://github.com/google/python-subprocess32",
+  "license": "PSF license"
+}

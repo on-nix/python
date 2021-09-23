@@ -1,0 +1,5 @@
+{
+  "desc": "scp module for paramiko",
+  "home": "https://github.com/jbardin/scp.py",
+  "license": "LGPL-2.1-or-later"
+}

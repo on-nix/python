@@ -1,0 +1,5 @@
+{
+  "desc": "WSGI middleware to handle HTTP responses using exceptions",
+  "home": "https://github.com/tiddlyweb/httpexceptor",
+  "license": "LICENSE"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "The subset of a Qt installation needed by PyQt5.",
+  "home": "https://www.riverbankcomputing.com/software/pyqt/",
+  "license": "LGPL v3"
+}

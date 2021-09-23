@@ -1,0 +1,5 @@
+{
+  "desc": "Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal",
+  "home": "https://github.com/willmcgugan/rich",
+  "license": "MIT"
+}

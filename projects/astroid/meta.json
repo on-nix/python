@@ -1,0 +1,5 @@
+{
+  "desc": "An abstract syntax tree for Python with inference support.",
+  "home": "https://github.com/PyCQA/astroid",
+  "license": "LGPL-2.1-or-later"
+}

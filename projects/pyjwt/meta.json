@@ -1,0 +1,5 @@
+{
+  "desc": "JSON Web Token implementation in Python",
+  "home": "https://github.com/jpadilla/pyjwt",
+  "license": "MIT"
+}

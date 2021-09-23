@@ -1,0 +1,5 @@
+{
+  "desc": "A Python library to create SVG drawings.",
+  "home": "http://github.com/mozman/svgwrite.git",
+  "license": "MIT License"
+}

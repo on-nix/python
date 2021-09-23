@@ -1,0 +1,5 @@
+{
+  "desc": "Google Authentication Library: httplib2 transport",
+  "home": "https://github.com/GoogleCloudPlatform/google-auth-library-python-httplib2",
+  "license": "Apache 2.0"
+}

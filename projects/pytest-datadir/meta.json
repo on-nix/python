@@ -1,0 +1,5 @@
+{
+  "desc": "pytest plugin for test data directories and files",
+  "home": "http://github.com/gabrielcnr/pytest-datadir",
+  "license": "MIT"
+}

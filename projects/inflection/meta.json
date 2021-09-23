@@ -1,0 +1,5 @@
+{
+  "desc": "A port of Ruby on Rails inflector to Python",
+  "home": "https://github.com/jpvanhal/inflection",
+  "license": "MIT"
+}

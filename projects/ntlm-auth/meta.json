@@ -1,0 +1,5 @@
+{
+  "desc": "Creates NTLM authentication structures",
+  "home": "https://github.com/jborean93/ntlm-auth",
+  "license": "MIT"
+}

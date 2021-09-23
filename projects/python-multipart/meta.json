@@ -1,0 +1,5 @@
+{
+  "desc": "A streaming multipart parser for Python",
+  "home": "http://github.com/andrew-d/python-multipart",
+  "license": "Apache"
+}

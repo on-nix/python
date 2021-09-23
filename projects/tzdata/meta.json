@@ -1,0 +1,5 @@
+{
+  "desc": "Provider of IANA time zone data",
+  "home": "https://github.com/python/tzdata",
+  "license": "Apache-2.0"
+}

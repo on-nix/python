@@ -1,0 +1,5 @@
+{
+  "desc": "Dynamic Time Warping (DTW) algorithm with an O(N) time and memory complexity.",
+  "home": "https://github.com/slaypni/fastdtw",
+  "license": "MIT"
+}

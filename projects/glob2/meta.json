@@ -1,0 +1,5 @@
+{
+  "desc": "Version of the glob module that can capture patterns and supports recursive wildcards",
+  "home": "http://github.com/miracle2k/python-glob2/",
+  "license": "BSD"
+}

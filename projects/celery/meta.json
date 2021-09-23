@@ -1,0 +1,5 @@
+{
+  "desc": "Distributed Task Queue.",
+  "home": "http://celeryproject.org",
+  "license": "BSD"
+}

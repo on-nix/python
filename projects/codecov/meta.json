@@ -1,0 +1,5 @@
+{
+  "desc": "Hosted coverage reports for GitHub, Bitbucket and Gitlab",
+  "home": "https://github.com/codecov/codecov-python",
+  "license": "Apache 2.0"
+}

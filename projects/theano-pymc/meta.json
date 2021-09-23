@@ -1,0 +1,5 @@
+{
+  "desc": "Optimizing compiler for evaluating mathematical expressions on CPUs and GPUs.",
+  "home": "http://deeplearning.net/software/theano/",
+  "license": "BSD"
+}

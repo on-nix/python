@@ -1,0 +1,5 @@
+{
+  "desc": "a library for doing approximate and phonetic matching of strings.",
+  "home": "http://github.com/jamesturk/jellyfish",
+  "license": ""
+}

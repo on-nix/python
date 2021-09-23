@@ -1,0 +1,5 @@
+{
+  "desc": "Checks installed dependencies for known vulnerabilities.",
+  "home": "https://github.com/pyupio/safety",
+  "license": "MIT license"
+}

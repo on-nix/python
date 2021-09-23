@@ -1,0 +1,5 @@
+{
+  "desc": "Native inet_pton and inet_ntop implementation for Python on Windows (with ctypes).",
+  "home": "https://github.com/hickeroar/win_inet_pton",
+  "license": "This software released into the public domain. Anyone is free to copy,"
+}

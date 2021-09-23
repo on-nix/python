@@ -1,0 +1,5 @@
+{
+  "desc": "HTTP/2 State-Machine based protocol implementation",
+  "home": "https://github.com/python-hyper/hyper-h2",
+  "license": "MIT License"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "In-process task scheduler with Cron-like capabilities",
+  "home": "https://github.com/agronholm/apscheduler",
+  "license": "MIT"
+}

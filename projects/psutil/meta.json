@@ -1,0 +1,5 @@
+{
+  "desc": "Cross-platform lib for process and system monitoring in Python.",
+  "home": "https://github.com/giampaolo/psutil",
+  "license": "BSD"
+}

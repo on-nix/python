@@ -1,0 +1,5 @@
+{
+  "desc": "Sphinx extension for auto-generating API documentation for entire modules",
+  "home": "http://astropy.org",
+  "license": "BSD 3-Clause License"
+}

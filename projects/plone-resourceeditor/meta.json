@@ -1,0 +1,5 @@
+{
+  "desc": "Integrates ACE editor into Plone",
+  "home": "https://github.com/plone/plone.resourceeditor",
+  "license": "GPL"
+}

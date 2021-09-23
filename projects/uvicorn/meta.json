@@ -1,0 +1,5 @@
+{
+  "desc": "The lightning-fast ASGI server.",
+  "home": "https://www.uvicorn.org/",
+  "license": "BSD"
+}

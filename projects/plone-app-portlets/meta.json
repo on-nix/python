@@ -1,0 +1,5 @@
+{
+  "desc": "Plone integration for the basic plone.portlets package",
+  "home": "https://pypi.org/project/plone.app.portlets",
+  "license": "GPL version 2"
+}

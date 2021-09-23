@@ -1,0 +1,5 @@
+{
+  "desc": "Python package to parse, read and write Microsoft OLE2 files (Structured Storage or Compound Document, Microsoft Office)",
+  "home": "https://www.decalage.info/python/olefileio",
+  "license": "BSD"
+}

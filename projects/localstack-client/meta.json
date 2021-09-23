@@ -1,0 +1,5 @@
+{
+  "desc": "A lightweight Python client for LocalStack.",
+  "home": "https://github.com/localstack/localstack-python-client",
+  "license": "Apache License 2.0"
+}

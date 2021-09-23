@@ -1,0 +1,5 @@
+{
+  "desc": "Strict separation of settings from code.",
+  "home": "http://github.com/henriquebastos/python-decouple/",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "YAML parser and emitter for Python",
+  "home": "https://pyyaml.org/",
+  "license": "MIT"
+}

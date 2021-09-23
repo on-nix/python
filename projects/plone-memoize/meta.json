@@ -1,0 +1,5 @@
+{
+  "desc": "Decorators for caching the values of functions and methods",
+  "home": "https://pypi.org/project/plone.memoize",
+  "license": "BSD"
+}

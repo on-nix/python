@@ -1,0 +1,5 @@
+{
+  "desc": "Manage calls to calloc/free through Cython",
+  "home": "https://github.com/explosion/cymem",
+  "license": "MIT"
+}

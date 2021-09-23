@@ -1,0 +1,5 @@
+{
+  "desc": "An open source multi-tool for exploring and publishing data",
+  "home": "https://datasette.io/",
+  "license": "Apache License, Version 2.0"
+}

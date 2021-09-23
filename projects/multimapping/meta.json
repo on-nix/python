@@ -1,0 +1,5 @@
+{
+  "desc": "Special MultiMapping objects used in Zope.",
+  "home": "https://github.com/zopefoundation/MultiMapping",
+  "license": "ZPL 2.1"
+}

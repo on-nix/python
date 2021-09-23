@@ -1,0 +1,5 @@
+{
+  "desc": "Python bindings for the PDF toolkit and renderer MuPDF",
+  "home": "https://github.com/pymupdf/PyMuPDF",
+  "license": "GNU AFFERO GPL 3.0"
+}

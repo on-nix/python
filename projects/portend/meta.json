@@ -1,0 +1,5 @@
+{
+  "desc": "TCP port monitoring and discovery",
+  "home": "https://github.com/jaraco/portend",
+  "license": ""
+}

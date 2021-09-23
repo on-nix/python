@@ -1,0 +1,5 @@
+{
+  "desc": "Implements a topological sort algorithm.",
+  "home": "https://gitlab.com/ericvsmith/toposort",
+  "license": "Apache License Version 2.0"
+}

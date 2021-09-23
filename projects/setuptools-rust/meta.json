@@ -1,0 +1,5 @@
+{
+  "desc": "Setuptools Rust extension plugin",
+  "home": "https://github.com/PyO3/setuptools-rust",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Caching mindful of computation/storage costs",
+  "home": "http://github.com/dask/cachey/",
+  "license": "BSD"
+}

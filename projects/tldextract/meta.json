@@ -1,0 +1,5 @@
+{
+  "desc": "Accurately separate the TLD from the registered domain and subdomains of a URL, using the Public Suffix List. By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.",
+  "home": "https://github.com/john-kurkowski/tldextract",
+  "license": "BSD License"
+}

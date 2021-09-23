@@ -1,0 +1,5 @@
+{
+  "desc": "A package for all things users and groups related (specific to plone)",
+  "home": "https://pypi.org/project/plone.app.users",
+  "license": "GPL version 2"
+}

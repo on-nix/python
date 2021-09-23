@@ -1,0 +1,5 @@
+{
+  "desc": "A small Python utility to set file creation time on Windows",
+  "home": "https://github.com/Delgan/win32-setctime",
+  "license": "MIT license"
+}

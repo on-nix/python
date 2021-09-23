@@ -1,0 +1,5 @@
+{
+  "desc": "Rolling backport of unittest.mock for all Pythons",
+  "home": "http://mock.readthedocs.org/en/latest/",
+  "license": ""
+}

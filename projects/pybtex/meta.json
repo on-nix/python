@@ -1,0 +1,5 @@
+{
+  "desc": "A BibTeX-compatible bibliography processor in Python",
+  "home": "https://pybtex.org/",
+  "license": "MIT"
+}

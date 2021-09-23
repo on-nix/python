@@ -1,0 +1,5 @@
+{
+  "desc": "Differentiate, compile, and transform Numpy code.",
+  "home": "https://github.com/google/jax",
+  "license": "Apache-2.0"
+}

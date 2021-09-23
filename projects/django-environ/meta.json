@@ -1,0 +1,5 @@
+{
+  "desc": "A package that allows you to utilize 12factor inspired environment variables to configure your Django application.",
+  "home": "https://django-environ.readthedocs.org",
+  "license": "MIT"
+}

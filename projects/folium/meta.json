@@ -1,0 +1,5 @@
+{
+  "desc": "Make beautiful maps with Leaflet.js & Python",
+  "home": "https://github.com/python-visualization/folium",
+  "license": "MIT"
+}

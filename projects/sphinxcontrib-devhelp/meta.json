@@ -1,0 +1,5 @@
+{
+  "desc": "sphinxcontrib-devhelp is a sphinx extension which outputs Devhelp document.",
+  "home": "http://sphinx-doc.org/",
+  "license": "BSD"
+}

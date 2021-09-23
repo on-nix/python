@@ -1,0 +1,5 @@
+{
+  "desc": "A new kind of Progress Bar, with real time throughput, ETA and very cool animations!",
+  "home": "https://github.com/rsalmei/alive-progress",
+  "license": "MIT"
+}

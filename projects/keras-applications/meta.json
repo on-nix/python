@@ -1,0 +1,5 @@
+{
+  "desc": "Reference implementations of popular deep learning models",
+  "home": "https://github.com/keras-team/keras-applications",
+  "license": "MIT"
+}

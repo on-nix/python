@@ -1,0 +1,5 @@
+{
+  "desc": "Pure python SSH tunnels",
+  "home": "https://github.com/pahaz/sshtunnel",
+  "license": "MIT"
+}

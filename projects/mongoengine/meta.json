@@ -1,0 +1,5 @@
+{
+  "desc": "MongoEngine is a Python Object-Document Mapper for working with MongoDB.",
+  "home": "http://mongoengine.org/",
+  "license": "MIT"
+}

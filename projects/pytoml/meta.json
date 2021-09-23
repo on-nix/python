@@ -1,0 +1,5 @@
+{
+  "desc": "A parser for TOML-0.4.0",
+  "home": "https://github.com/avakar/pytoml",
+  "license": "MIT"
+}

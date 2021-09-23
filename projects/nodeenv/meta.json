@@ -1,0 +1,5 @@
+{
+  "desc": "Node.js virtual environment builder",
+  "home": "https://github.com/ekalinin/nodeenv",
+  "license": "BSD"
+}

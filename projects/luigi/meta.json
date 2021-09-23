@@ -1,0 +1,5 @@
+{
+  "desc": "Workflow mgmgt + task scheduling + dependency resolution.",
+  "home": "https://github.com/spotify/luigi",
+  "license": "Apache License 2.0"
+}

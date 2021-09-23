@@ -1,0 +1,5 @@
+{
+  "desc": "RQ is a simple, lightweight, library for creating background jobs, and processing them.",
+  "home": "https://github.com/nvie/rq/",
+  "license": "BSD"
+}

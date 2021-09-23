@@ -1,0 +1,5 @@
+{
+  "desc": "Tools to construct z3c.form forms",
+  "home": "http://github.com/plone/plone.autoform",
+  "license": "LGPL"
+}

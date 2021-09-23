@@ -1,0 +1,5 @@
+{
+  "desc": "readme_renderer is a library for rendering \"readme\" descriptions for Warehouse",
+  "home": "https://github.com/pypa/readme_renderer",
+  "license": "Apache License, Version 2.0"
+}

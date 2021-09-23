@@ -1,0 +1,5 @@
+{
+  "desc": "zope.deferredimport allows you to perform imports names that will only be resolved when used in the code.",
+  "home": "http://github.com/zopefoundation/zope.deferredimport",
+  "license": "ZPL 2.1"
+}

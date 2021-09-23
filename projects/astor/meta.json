@@ -1,0 +1,5 @@
+{
+  "desc": "Read/rewrite/write Python ASTs",
+  "home": "https://github.com/berkerpeksag/astor",
+  "license": "BSD-3-Clause"
+}

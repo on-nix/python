@@ -1,0 +1,5 @@
+{
+  "desc": "Pluggable Zope authentication / authorization framework",
+  "home": "https://productspluggableauthservice.readthedocs.io",
+  "license": "ZPL 2.1 (http://www.zope.org/Resources/License/ZPL-2.1)"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "GeoJSON <-> WKT/WKB conversion utilities",
+  "home": "https://github.com/geomet/geomet",
+  "license": "Apache 2.0"
+}

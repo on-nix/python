@@ -1,0 +1,5 @@
+{
+  "desc": "A Cython interface to the hidapi from https://github.com/libusb/hidapi",
+  "home": "https://github.com/trezor/cython-hidapi",
+  "license": ""
+}

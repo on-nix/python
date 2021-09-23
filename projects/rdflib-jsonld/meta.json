@@ -1,0 +1,5 @@
+{
+  "desc": "rdflib extension adding JSON-LD parser and serializer",
+  "home": "https://github.com/RDFLib/rdflib-jsonld",
+  "license": "BSD"
+}

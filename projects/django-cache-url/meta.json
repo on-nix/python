@@ -1,0 +1,5 @@
+{
+  "desc": "Use Cache URLs in your Django application.",
+  "home": "https://github.com/epicserve/django-cache-url",
+  "license": "MIT"
+}

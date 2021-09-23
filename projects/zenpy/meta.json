@@ -1,0 +1,5 @@
+{
+  "desc": "Python wrapper for the Zendesk API",
+  "home": "https://github.com/facetoe/zenpy",
+  "license": "GPLv3"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Formatting of dates and times in Flask templates using moment.js.",
+  "home": "https://github.com/miguelgrinberg/flask-moment",
+  "license": ""
+}

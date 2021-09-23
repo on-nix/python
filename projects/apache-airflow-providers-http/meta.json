@@ -1,0 +1,5 @@
+{
+  "desc": "Provider package apache-airflow-providers-http for Apache Airflow",
+  "home": "https://airflow.apache.org/",
+  "license": "Apache License 2.0"
+}

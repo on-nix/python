@@ -1,0 +1,5 @@
+{
+  "desc": "Error log for Zope.",
+  "home": "https://github.com/zopefoundation/Products.SiteErrorLog",
+  "license": "ZPL 2.1"
+}

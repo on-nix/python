@@ -1,0 +1,5 @@
+{
+  "desc": "Implementation of JOSE Web standards",
+  "home": "https://github.com/latchset/jwcrypto",
+  "license": "LGPLv3+"
+}

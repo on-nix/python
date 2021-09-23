@@ -1,0 +1,5 @@
+{
+  "desc": "pathlib.Path subclasses for local and cloud bucket storage",
+  "home": "https://github.com/justindujardin/pathy",
+  "license": "Apache 2.0"
+}

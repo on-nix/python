@@ -1,0 +1,5 @@
+{
+  "desc": "pytest-sugar is a plugin for pytest that changes the default look and feel of pytest (e.g. progressbar, show tests that fail instantly).",
+  "home": "http://pivotfinland.com/pytest-sugar/",
+  "license": "BSD"
+}

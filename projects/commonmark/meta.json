@@ -1,0 +1,5 @@
+{
+  "desc": "Python parser for the CommonMark Markdown spec",
+  "home": "https://github.com/rtfd/commonmark.py",
+  "license": "BSD-3-Clause"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Low-level AMQP client for Python (fork of amqplib).",
+  "home": "http://github.com/celery/py-amqp",
+  "license": "BSD"
+}

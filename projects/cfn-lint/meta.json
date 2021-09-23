@@ -1,0 +1,5 @@
+{
+  "desc": "Checks CloudFormation templates for practices and behaviour that could potentially be improved",
+  "home": "https://github.com/aws-cloudformation/cfn-python-lint",
+  "license": "MIT no attribution"
+}

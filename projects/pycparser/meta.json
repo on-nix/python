@@ -1,0 +1,5 @@
+{
+  "desc": "C parser in Python",
+  "home": "https://github.com/eliben/pycparser",
+  "license": "BSD"
+}

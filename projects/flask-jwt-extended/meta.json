@@ -1,0 +1,5 @@
+{
+  "desc": "Extended JWT integration with Flask",
+  "home": "https://github.com/vimalloc/flask-jwt-extended",
+  "license": "MIT"
+}

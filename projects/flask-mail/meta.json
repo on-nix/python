@@ -1,0 +1,5 @@
+{
+  "desc": "Flask extension for sending email",
+  "home": "https://github.com/rduplain/flask-mail",
+  "license": "BSD"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Sphinx API documentation generator",
+  "home": "http://github.com/readthedocs/sphinx-autoapi",
+  "license": "MIT"
+}

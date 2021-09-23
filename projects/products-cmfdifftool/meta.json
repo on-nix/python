@@ -1,0 +1,5 @@
+{
+  "desc": "Diff tool for Plone",
+  "home": "https://pypi.org/project/Products.CMFDiffTool",
+  "license": "GPL"
+}

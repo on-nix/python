@@ -1,0 +1,5 @@
+{
+  "desc": "Microsoft Azure Blob Storage Client Library for Python",
+  "home": "https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/storage/azure-storage-blob",
+  "license": "MIT License"
+}

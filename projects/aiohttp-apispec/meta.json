@@ -1,0 +1,5 @@
+{
+  "desc": "Build and document REST APIs with aiohttp and apispec",
+  "home": "https://github.com/maximdanilchenko/aiohttp-apispec",
+  "license": "MIT"
+}

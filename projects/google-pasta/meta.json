@@ -1,0 +1,5 @@
+{
+  "desc": "pasta is an AST-based Python refactoring library",
+  "home": "https://github.com/google/pasta",
+  "license": "Apache 2.0"
+}

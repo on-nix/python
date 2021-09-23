@@ -1,0 +1,5 @@
+{
+  "desc": "A Python module to customize the process title",
+  "home": "https://github.com/dvarrazzo/py-setproctitle",
+  "license": "BSD"
+}

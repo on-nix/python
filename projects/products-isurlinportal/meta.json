@@ -1,0 +1,5 @@
+{
+  "desc": "Replacement for isURLInPortal method in Plone",
+  "home": "https://github.org/plone/Products.isurlinportal",
+  "license": "GPL"
+}

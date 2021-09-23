@@ -1,0 +1,5 @@
+{
+  "desc": "sphinxcontrib-qthelp is a sphinx extension which outputs QtHelp document.",
+  "home": "http://sphinx-doc.org/",
+  "license": "BSD"
+}

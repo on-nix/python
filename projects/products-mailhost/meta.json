@@ -1,0 +1,5 @@
+{
+  "desc": "zope.sendmail integration for Zope.",
+  "home": "https://github.com/zopefoundation/Products.MailHost",
+  "license": "ZPL 2.1"
+}

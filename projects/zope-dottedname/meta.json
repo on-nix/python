@@ -1,0 +1,5 @@
+{
+  "desc": "Resolver for Python dotted names.",
+  "home": "http://pypi.python.org/pypi/zope.dottedname",
+  "license": "ZPL 2.1"
+}

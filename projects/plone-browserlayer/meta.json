@@ -1,0 +1,5 @@
+{
+  "desc": "Browser layer management for Zope 2 applications",
+  "home": "https://pypi.org/project/plone.browserlayer",
+  "license": "GPL version 2"
+}

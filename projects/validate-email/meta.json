@@ -1,0 +1,5 @@
+{
+  "desc": "Validate_email verify if an email address is valid and really exists.",
+  "home": "http://github.com/syrusakbary/validate_email",
+  "license": "LGPL"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Tiny 'shelve'-like database with concurrency support",
+  "home": "https://github.com/pickleshare/pickleshare",
+  "license": "MIT"
+}

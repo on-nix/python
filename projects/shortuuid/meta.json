@@ -1,0 +1,5 @@
+{
+  "desc": "A generator library for concise, unambiguous and URL-safe UUIDs.",
+  "home": "https://github.com/stochastic-technologies/shortuuid/",
+  "license": "BSD"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Date parsing library designed to parse dates from HTML pages",
+  "home": "https://github.com/scrapinghub/dateparser",
+  "license": "BSD"
+}

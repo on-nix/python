@@ -1,0 +1,5 @@
+{
+  "desc": "Python package common tasks for users (e.g. copy examples, fetch data, ...)",
+  "home": "https://github.com/pyviz-dev/pyct",
+  "license": "BSD 3-Clause License"
+}

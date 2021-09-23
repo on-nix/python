@@ -1,0 +1,5 @@
+{
+  "desc": "Distributed scheduler for Dask",
+  "home": "https://distributed.dask.org",
+  "license": "BSD"
+}

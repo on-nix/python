@@ -1,0 +1,5 @@
+{
+  "desc": "Coroutine-based network library",
+  "home": "http://www.gevent.org/",
+  "license": "MIT"
+}

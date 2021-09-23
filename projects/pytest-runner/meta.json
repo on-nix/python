@@ -1,0 +1,5 @@
+{
+  "desc": "Invoke py.test as distutils command with dependency resolution",
+  "home": "https://github.com/pytest-dev/pytest-runner/",
+  "license": ""
+}

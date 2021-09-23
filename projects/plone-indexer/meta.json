@@ -1,0 +1,5 @@
+{
+  "desc": "Hooks to facilitate managing custom index values in Zope 2/CMF applications",
+  "home": "https://pypi.org/project/plone.indexer",
+  "license": "BSD"
+}

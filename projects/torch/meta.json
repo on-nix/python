@@ -1,0 +1,5 @@
+{
+  "desc": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+  "home": "https://pytorch.org/",
+  "license": "BSD-3"
+}

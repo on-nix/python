@@ -1,0 +1,5 @@
+{
+  "desc": "Flake8 lint for quotes.",
+  "home": "http://github.com/zheller/flake8-quotes/",
+  "license": "MIT"
+}

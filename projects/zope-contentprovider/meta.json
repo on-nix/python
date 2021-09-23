@@ -1,0 +1,5 @@
+{
+  "desc": "Content Provider Framework for Zope Templates",
+  "home": "https://github.com/zopefoundation/zope.contentprovider",
+  "license": "ZPL 2.1"
+}

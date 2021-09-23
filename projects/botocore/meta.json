@@ -1,0 +1,5 @@
+{
+  "desc": "Low-level, data-driven core of boto 3.",
+  "home": "https://github.com/boto/botocore",
+  "license": "Apache License 2.0"
+}

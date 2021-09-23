@@ -1,0 +1,5 @@
+{
+  "desc": "A library that allows your python tests to easily mock out the boto library",
+  "home": "https://github.com/spulec/moto",
+  "license": "Apache"
+}

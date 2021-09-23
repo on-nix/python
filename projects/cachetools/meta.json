@@ -1,0 +1,5 @@
+{
+  "desc": "Extensible memoizing collections and decorators",
+  "home": "https://github.com/tkem/cachetools/",
+  "license": "MIT"
+}

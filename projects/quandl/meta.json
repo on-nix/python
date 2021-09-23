@@ -1,0 +1,5 @@
+{
+  "desc": "Package for quandl API access",
+  "home": "https://github.com/quandl/quandl-python",
+  "license": "MIT"
+}

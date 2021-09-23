@@ -1,0 +1,5 @@
+{
+  "desc": "Dispatch your trivially parallizable jobs with sharedmem.",
+  "home": "http://github.com/rainwoodman/sharedmem",
+  "license": "GPLv3"
+}

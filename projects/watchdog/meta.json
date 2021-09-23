@@ -1,0 +1,5 @@
+{
+  "desc": "Filesystem events monitoring",
+  "home": "https://github.com/gorakhargosh/watchdog",
+  "license": "Apache License 2.0"
+}

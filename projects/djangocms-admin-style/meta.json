@@ -1,0 +1,5 @@
+{
+  "desc": "Adds pretty CSS styles for the django CMS admin interface.",
+  "home": "https://github.com/divio/djangocms-admin-style",
+  "license": "BSD-3-Clause"
+}

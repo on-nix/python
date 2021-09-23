@@ -1,0 +1,5 @@
+{
+  "desc": "Object-oriented alternative to os/os.path/shutil",
+  "home": "https://github.com/mikeorr/Unipath",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Lightweight Covariance Matrix Adaptation Evolution Strategy (CMA-ES) implementation for Python 3.",
+  "home": "https://github.com/CyberAgent/cmaes",
+  "license": "MIT License"
+}

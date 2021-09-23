@@ -1,0 +1,5 @@
+{
+  "desc": "Base library for scrapy's ItemLoader",
+  "home": "https://github.com/scrapy/itemloaders",
+  "license": "BSD"
+}

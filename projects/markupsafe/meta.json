@@ -1,0 +1,5 @@
+{
+  "desc": "Safely add untrusted strings to HTML/XML markup.",
+  "home": "https://palletsprojects.com/p/markupsafe/",
+  "license": "BSD-3-Clause"
+}

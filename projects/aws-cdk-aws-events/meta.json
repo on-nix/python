@@ -1,0 +1,5 @@
+{
+  "desc": "Amazon EventBridge Construct Library",
+  "home": "https://github.com/aws/aws-cdk",
+  "license": "Apache-2.0"
+}

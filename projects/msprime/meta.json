@@ -1,0 +1,5 @@
+{
+  "desc": "Simulate genealogical trees and genomic sequence data using population genetic models",
+  "home": "https://tskit.dev/msprime",
+  "license": "GNU GPLv3+"
+}

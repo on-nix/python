@@ -1,0 +1,5 @@
+{
+  "desc": "Language detection library ported from Google's language-detection.",
+  "home": "https://github.com/Mimino666/langdetect",
+  "license": "MIT"
+}

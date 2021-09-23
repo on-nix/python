@@ -1,0 +1,5 @@
+{
+  "desc": "A library for converting a token stream into a data structure for use in web form posts",
+  "home": "https://docs.pylonsproject.org/projects/peppercorn/en/latest/",
+  "license": "BSD-derived (http://www.repoze.org/LICENSE.txt)"
+}

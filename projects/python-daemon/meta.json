@@ -1,0 +1,5 @@
+{
+  "desc": "Library to implement a well-behaved Unix daemon process.",
+  "home": "https://pagure.io/python-daemon/",
+  "license": "Apache-2"
+}

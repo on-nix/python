@@ -1,0 +1,5 @@
+{
+  "desc": "Service identity verification for pyOpenSSL & cryptography.",
+  "home": "https://service-identity.readthedocs.io/",
+  "license": "MIT"
+}

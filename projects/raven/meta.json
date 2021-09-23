@@ -1,0 +1,5 @@
+{
+  "desc": "Raven is a client for Sentry (https://getsentry.com)",
+  "home": "https://github.com/getsentry/raven-python",
+  "license": "BSD"
+}

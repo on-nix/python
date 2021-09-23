@@ -1,0 +1,5 @@
+{
+  "desc": "An implementation of JSON Schema validation for Python",
+  "home": "https://github.com/Julian/jsonschema",
+  "license": ""
+}

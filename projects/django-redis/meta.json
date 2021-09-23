@@ -1,0 +1,5 @@
+{
+  "desc": "Full featured redis cache backend for Django.",
+  "home": "https://github.com/jazzband/django-redis",
+  "license": "BSD-3-Clause"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "DataStax Driver for Apache Cassandra",
+  "home": "http://github.com/datastax/python-driver",
+  "license": ""
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "An implementation of lxml.xmlfile for the standard library",
+  "home": "https://foss.heptapod.net/openpyxl/et_xmlfile",
+  "license": "MIT"
+}

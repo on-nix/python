@@ -1,0 +1,5 @@
+{
+  "desc": "MIME type handling for Zope",
+  "home": "https://pypi.org/project/Products.MimetypesRegistry",
+  "license": "GPL"
+}

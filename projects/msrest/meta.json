@@ -1,0 +1,5 @@
+{
+  "desc": "AutoRest swagger generator Python client runtime.",
+  "home": "https://github.com/Azure/msrest-for-python",
+  "license": "MIT License"
+}

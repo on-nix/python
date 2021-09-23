@@ -1,0 +1,5 @@
+{
+  "desc": "A library for exchanging data between Python and JavaScript",
+  "home": "https://github.com/wagtail/telepath",
+  "license": "BSD"
+}

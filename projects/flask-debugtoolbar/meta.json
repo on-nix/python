@@ -1,0 +1,5 @@
+{
+  "desc": "A toolbar overlay for debugging Flask applications.",
+  "home": "https://flask-debugtoolbar.readthedocs.io/",
+  "license": "BSD"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Python functions for working with SQLite FTS4 search",
+  "home": "https://github.com/simonw/sqlite-fts4",
+  "license": "Apache License, Version 2.0"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Jupyter notebooks as Markdown documents, Julia, Python or R scripts",
+  "home": "https://github.com/mwouts/jupytext",
+  "license": "MIT"
+}

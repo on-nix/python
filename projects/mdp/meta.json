@@ -1,0 +1,5 @@
+{
+  "desc": "MDP is a Python library for building complex data processing software by combining widely used machine learning algorithms into pipelines and networks.",
+  "home": "https://mdpdocs.readthedocs.io",
+  "license": "https://raw.githubusercontent.com/mdp-toolkit/mdp-toolkit/master/COPYRIGHT"
+}

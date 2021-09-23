@@ -1,0 +1,5 @@
+{
+  "desc": "multi-library, cross-platform audio decoding",
+  "home": "https://github.com/sampsyo/audioread",
+  "license": "MIT"
+}

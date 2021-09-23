@@ -1,0 +1,5 @@
+{
+  "desc": "HTTP client mock for Python",
+  "home": "https://httpretty.readthedocs.io/en/latest/",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Simple lru_cache for asyncio",
+  "home": "https://github.com/wikibusiness/async_lru",
+  "license": ""
+}

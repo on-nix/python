@@ -1,0 +1,5 @@
+{
+  "desc": "A nested progress with plotting options for fastai",
+  "home": "https://github.com/fastai/fastprogress",
+  "license": "Apache Software License 2.0"
+}

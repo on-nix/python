@@ -1,0 +1,5 @@
+{
+  "desc": "Python client for Redis key-value store",
+  "home": "https://github.com/andymccurdy/redis-py",
+  "license": "MIT"
+}

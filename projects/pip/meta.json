@@ -1,0 +1,5 @@
+{
+  "desc": "The PyPA recommended tool for installing Python packages.",
+  "home": "https://pip.pypa.io/",
+  "license": "MIT"
+}

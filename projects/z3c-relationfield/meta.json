@@ -1,0 +1,5 @@
+{
+  "desc": "A relation field framework for Zope 3.",
+  "home": "https://github.com/zopefoundation/z3c.relationfield",
+  "license": "ZPL 2.1"
+}

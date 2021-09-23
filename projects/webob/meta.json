@@ -1,0 +1,5 @@
+{
+  "desc": "WSGI request and response object",
+  "home": "http://webob.org/",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Read Zope configuration state from profile dirs / tarballs",
+  "home": "https://github.com/zopefoundation/Products.GenericSetup",
+  "license": "ZPL 2.1"
+}

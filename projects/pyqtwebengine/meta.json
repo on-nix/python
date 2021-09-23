@@ -1,0 +1,5 @@
+{
+  "desc": "Python bindings for the Qt WebEngine framework",
+  "home": "https://www.riverbankcomputing.com/software/pyqtwebengine/",
+  "license": "GPL v3"
+}

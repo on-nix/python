@@ -1,0 +1,5 @@
+{
+  "desc": "A pure Python implementation of a sliding window memory map manager",
+  "home": "https://github.com/gitpython-developers/smmap",
+  "license": "BSD"
+}

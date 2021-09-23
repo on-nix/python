@@ -1,0 +1,5 @@
+{
+  "desc": "The ultimate Python library in building OAuth and OpenID Connect servers.",
+  "home": "https://authlib.org/",
+  "license": "BSD-3-Clause"
+}

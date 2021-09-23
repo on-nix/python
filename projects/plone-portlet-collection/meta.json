@@ -1,0 +1,5 @@
+{
+  "desc": "A portlet that fetches results from a collection",
+  "home": "https://pypi.org/project/plone.portlet.collection",
+  "license": "GPL version 2"
+}

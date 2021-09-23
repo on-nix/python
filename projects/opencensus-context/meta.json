@@ -1,0 +1,5 @@
+{
+  "desc": "OpenCensus Runtime Context",
+  "home": "https://github.com/census-instrumentation/opencensus-python/tree/master/context/opencensus-context",
+  "license": "Apache-2.0"
+}

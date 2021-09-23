@@ -1,0 +1,5 @@
+{
+  "desc": "API rate limit decorator",
+  "home": "https://github.com/tomasbasham/ratelimit",
+  "license": "MIT"
+}

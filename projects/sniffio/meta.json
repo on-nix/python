@@ -1,0 +1,5 @@
+{
+  "desc": "Sniff out which async library your code is running under",
+  "home": "https://github.com/python-trio/sniffio",
+  "license": "MIT -or- Apache License 2.0"
+}

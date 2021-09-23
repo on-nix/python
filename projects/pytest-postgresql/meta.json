@@ -1,0 +1,5 @@
+{
+  "desc": "Postgresql fixtures and fixture factories for Pytest.",
+  "home": "https://github.com/ClearcodeHQ/pytest-postgresql",
+  "license": "LGPLv3+"
+}

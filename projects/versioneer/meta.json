@@ -1,0 +1,5 @@
+{
+  "desc": "Easy VCS-based management of project version strings",
+  "home": "https://github.com/python-versioneer/python-versioneer",
+  "license": "public domain"
+}

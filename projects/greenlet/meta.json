@@ -1,0 +1,5 @@
+{
+  "desc": "Lightweight in-process concurrent programming",
+  "home": "https://greenlet.readthedocs.io/",
+  "license": "MIT License"
+}

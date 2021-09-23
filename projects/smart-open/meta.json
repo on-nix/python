@@ -1,0 +1,5 @@
+{
+  "desc": "Utils for streaming large files (S3, HDFS, GCS, Azure Blob Storage, gzip, bz2...)",
+  "home": "https://github.com/piskvorky/smart_open",
+  "license": "MIT"
+}

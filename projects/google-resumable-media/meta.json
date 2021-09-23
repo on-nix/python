@@ -1,0 +1,5 @@
+{
+  "desc": "Utilities for Google Media Downloads and Resumable Uploads",
+  "home": "https://github.com/googleapis/google-resumable-media-python",
+  "license": "Apache 2.0"
+}

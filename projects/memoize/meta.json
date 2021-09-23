@@ -1,0 +1,5 @@
+{
+  "desc": "Create properties that are only computed the first time they are called.",
+  "home": "https://github.com/sionide21/memoize",
+  "license": "MIT"
+}

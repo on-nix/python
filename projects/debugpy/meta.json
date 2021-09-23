@@ -1,0 +1,5 @@
+{
+  "desc": "An implementation of the Debug Adapter Protocol for Python",
+  "home": "https://aka.ms/debugpy",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "A wrapper for the Gnu Privacy Guard (GPG or GnuPG)",
+  "home": "https://docs.red-dove.com/python-gnupg/",
+  "license": "Copyright (C) 2008-2021 by Vinay Sajip. All Rights Reserved. See LICENSE.txt for license."
+}

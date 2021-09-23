@@ -1,0 +1,5 @@
+{
+  "desc": "Alternative regular expression module, to replace re.",
+  "home": "https://bitbucket.org/mrabarnett/mrab-regex",
+  "license": "Apache Software License"
+}

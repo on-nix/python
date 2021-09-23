@@ -1,0 +1,5 @@
+{
+  "desc": "A final implementation of JSONPath for Python that aims to be standard compliant, including arithmetic and binary comparison operators and providing clear AST for metaprogramming.",
+  "home": "https://github.com/h2non/jsonpath-ng",
+  "license": "Apache 2.0"
+}

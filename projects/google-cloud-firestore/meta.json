@@ -1,0 +1,5 @@
+{
+  "desc": "Google Cloud Firestore API client library",
+  "home": "https://github.com/googleapis/python-firestore",
+  "license": "Apache 2.0"
+}

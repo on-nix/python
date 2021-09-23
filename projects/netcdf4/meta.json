@@ -1,0 +1,5 @@
+{
+  "desc": "Provides an object-oriented python interface to the netCDF version 4 library.",
+  "home": "http://github.com/Unidata/netcdf4-python",
+  "license": "License :: OSI Approved :: MIT License"
+}

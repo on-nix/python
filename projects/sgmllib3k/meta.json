@@ -1,0 +1,5 @@
+{
+  "desc": "Py3k port of sgmllib.",
+  "home": "http://hg.hardcoded.net/sgmllib",
+  "license": "BSD License"
+}

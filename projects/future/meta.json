@@ -1,0 +1,5 @@
+{
+  "desc": "Clean single-source support for Python 3 and 2",
+  "home": "https://python-future.org",
+  "license": "MIT"
+}

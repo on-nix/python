@@ -1,0 +1,5 @@
+{
+  "desc": "A hyperparameter optimization framework",
+  "home": "https://optuna.org/",
+  "license": ""
+}

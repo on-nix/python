@@ -1,0 +1,5 @@
+{
+  "desc": "ASGI middleware for protecting against CSRF attacks",
+  "home": "https://github.com/simonw/asgi-csrf",
+  "license": "Apache License, Version 2.0"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Python bindings for FFmpeg - with complex filtering support",
+  "home": "https://github.com/kkroening/ffmpeg-python",
+  "license": ""
+}

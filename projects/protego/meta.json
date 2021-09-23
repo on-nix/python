@@ -1,0 +1,5 @@
+{
+  "desc": "Pure-Python robots.txt parser with support for modern conventions",
+  "home": "",
+  "license": "BSD"
+}

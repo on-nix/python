@@ -1,0 +1,5 @@
+{
+  "desc": "RDFLib is a Python library for working with RDF, a simple yet powerful language for representing information.",
+  "home": "https://github.com/RDFLib/rdflib",
+  "license": "bsd-3-clause"
+}

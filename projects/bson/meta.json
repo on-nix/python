@@ -1,0 +1,5 @@
+{
+  "desc": "BSON codec for Python",
+  "home": "http://github.com/py-bson/bson",
+  "license": "BSD"
+}

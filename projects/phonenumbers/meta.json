@@ -1,0 +1,5 @@
+{
+  "desc": "Python version of Google's common library for parsing, formatting, storing and validating international phone numbers.",
+  "home": "https://github.com/daviddrysdale/python-phonenumbers",
+  "license": "Apache License 2.0"
+}

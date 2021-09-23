@@ -1,0 +1,5 @@
+{
+  "desc": "A decorator for caching properties in classes.",
+  "home": "https://github.com/pydanny/cached-property",
+  "license": "BSD"
+}

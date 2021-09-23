@@ -1,0 +1,5 @@
+{
+  "desc": "A facility for comfortable activation/deactivation of CMF compliant add ons for Zope.",
+  "home": "https://pypi.org/project/Products.CMFQuickInstallerTool",
+  "license": "GPL"
+}

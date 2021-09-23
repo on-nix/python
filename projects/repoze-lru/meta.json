@@ -1,0 +1,5 @@
+{
+  "desc": "A tiny LRU cache implementation and decorator",
+  "home": "http://www.repoze.org",
+  "license": "BSD-derived (http://www.repoze.org/LICENSE.txt)"
+}

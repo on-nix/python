@@ -1,0 +1,5 @@
+{
+  "desc": "OpenTracing API for Python. See documentation at http://opentracing.io",
+  "home": "https://github.com/opentracing/opentracing-python",
+  "license": "Apache License 2.0"
+}

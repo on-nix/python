@@ -1,0 +1,5 @@
+{
+  "desc": "Metaclass for subclassable extension types",
+  "home": "https://github.com/zopefoundation/ExtensionClass",
+  "license": "ZPL 2.1"
+}

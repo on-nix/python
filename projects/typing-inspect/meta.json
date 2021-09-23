@@ -1,0 +1,5 @@
+{
+  "desc": "Runtime inspection utilities for typing module.",
+  "home": "https://github.com/ilevkivskyi/typing_inspect",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "ordered, dynamically-expandable dot-access dictionary",
+  "home": "https://github.com/drgrib/dotmap",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Google Cloud Datastore API client library",
+  "home": "https://github.com/googleapis/python-datastore",
+  "license": "Apache 2.0"
+}

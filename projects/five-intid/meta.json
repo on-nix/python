@@ -1,0 +1,5 @@
+{
+  "desc": "Zope support for zope.intid",
+  "home": "https://github.com/plone/five.intid",
+  "license": "ZPL"
+}

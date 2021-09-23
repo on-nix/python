@@ -1,0 +1,5 @@
+{
+  "desc": "py.test plugin to abort hanging tests",
+  "home": "http://github.com/pytest-dev/pytest-timeout/",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "the modular source code checker: pep8 pyflakes and co",
+  "home": "https://gitlab.com/pycqa/flake8",
+  "license": "MIT"
+}

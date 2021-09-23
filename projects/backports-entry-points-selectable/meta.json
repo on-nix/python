@@ -1,0 +1,5 @@
+{
+  "desc": "Compatibility shim providing selectable entry points for older implementations",
+  "home": "https://github.com/jaraco/backports.entry_points_selectable",
+  "license": ""
+}

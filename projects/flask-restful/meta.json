@@ -1,0 +1,5 @@
+{
+  "desc": "Simple framework for creating REST APIs",
+  "home": "https://www.github.com/flask-restful/flask-restful/",
+  "license": "BSD"
+}

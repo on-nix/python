@@ -1,0 +1,5 @@
+{
+  "desc": "A system for controlling process state under UNIX",
+  "home": "http://supervisord.org/",
+  "license": "BSD-derived (http://www.repoze.org/LICENSE.txt)"
+}

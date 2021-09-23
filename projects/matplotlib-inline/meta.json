@@ -1,0 +1,5 @@
+{
+  "desc": "Inline Matplotlib backend for Jupyter",
+  "home": "https://github.com/ipython/matplotlib-inline",
+  "license": "BSD 3-Clause"
+}

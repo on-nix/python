@@ -1,0 +1,5 @@
+{
+  "desc": "A programming model for software-defined state",
+  "home": "https://github.com/aws/constructs",
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "A set that remembers its order, and allows looking up its items by their index in that order.",
+  "home": "https://github.com/LuminosoInsight/ordered-set",
+  "license": "MIT-LICENSE"
+}

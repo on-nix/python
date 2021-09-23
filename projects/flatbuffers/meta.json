@@ -1,0 +1,5 @@
+{
+  "desc": "The FlatBuffers serialization format for Python",
+  "home": "https://google.github.io/flatbuffers/",
+  "license": "Apache 2.0"
+}

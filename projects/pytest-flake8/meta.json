@@ -1,0 +1,5 @@
+{
+  "desc": "pytest plugin to check FLAKE8 requirements",
+  "home": "https://github.com/tholo/pytest-flake8",
+  "license": "BSD License"
+}

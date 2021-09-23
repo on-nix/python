@@ -1,0 +1,5 @@
+{
+  "desc": "sinfo outputs version information for modules loaded in the current session, Python, and the OS.",
+  "home": "https://gitlab.com/joelostblom/sinfo",
+  "license": "BSD-3"
+}

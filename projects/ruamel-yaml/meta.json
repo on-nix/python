@@ -1,0 +1,5 @@
+{
+  "desc": "ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order",
+  "home": "https://sourceforge.net/p/ruamel-yaml/code/ci/default/tree",
+  "license": "MIT license"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "sphinxcontrib-htmlhelp is a sphinx extension which renders HTML help files",
+  "home": "http://sphinx-doc.org/",
+  "license": "BSD"
+}

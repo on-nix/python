@@ -1,0 +1,5 @@
+{
+  "desc": "Basic and Digest HTTP authentication for Flask routes",
+  "home": "http://github.com/miguelgrinberg/flask-httpauth/",
+  "license": "MIT"
+}

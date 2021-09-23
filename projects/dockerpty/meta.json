@@ -1,0 +1,5 @@
+{
+  "desc": "Python library to use the pseudo-tty of a docker container",
+  "home": "https://github.com/d11wtq/dockerpty",
+  "license": "Apache 2.0"
+}

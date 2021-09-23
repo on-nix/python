@@ -1,0 +1,5 @@
+{
+  "desc": "A library for stubbing in Python",
+  "home": "https://github.com/alex/pretend",
+  "license": "BSD"
+}

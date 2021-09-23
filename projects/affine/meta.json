@@ -1,0 +1,5 @@
+{
+  "desc": "Matrices describing affine transformation of the plane.",
+  "home": "https://github.com/sgillies/affine",
+  "license": "BSD"
+}

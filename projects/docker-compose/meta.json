@@ -1,0 +1,5 @@
+{
+  "desc": "Multi-container orchestration for Docker",
+  "home": "https://www.docker.com/",
+  "license": "Apache License 2.0"
+}

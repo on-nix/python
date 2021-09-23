@@ -1,0 +1,5 @@
+{
+  "desc": "Extends nose.plugins.cover to add Cobertura-style XML reports",
+  "home": "http://github.com/cmheisel/nose-xcover/",
+  "license": "BSD"
+}

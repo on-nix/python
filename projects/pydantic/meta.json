@@ -1,0 +1,5 @@
+{
+  "desc": "Data validation and settings management using python 3.6 type hinting",
+  "home": "https://github.com/samuelcolvin/pydantic",
+  "license": "MIT"
+}

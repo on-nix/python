@@ -1,0 +1,5 @@
+{
+  "desc": "A dict with attribute-style access",
+  "home": "https://github.com/bcj/AttrDict",
+  "license": "MIT License"
+}

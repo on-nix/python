@@ -1,0 +1,5 @@
+{
+  "desc": "Add colours to the output of Python's logging module.",
+  "home": "https://github.com/borntyping/python-colorlog",
+  "license": "MIT License"
+}

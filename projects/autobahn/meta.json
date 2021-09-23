@@ -1,0 +1,5 @@
+{
+  "desc": "WebSocket client & server library, WAMP real-time framework",
+  "home": "http://crossbar.io/autobahn",
+  "license": "MIT License"
+}

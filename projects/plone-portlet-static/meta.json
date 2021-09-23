@@ -1,0 +1,5 @@
+{
+  "desc": "An editable static HTML portlet for Plone.",
+  "home": "https://pypi.org/project/plone.portlet.static",
+  "license": "GPL version 2"
+}

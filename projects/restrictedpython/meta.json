@@ -1,0 +1,5 @@
+{
+  "desc": "RestrictedPython is a defined subset of the Python language which allows to provide a program input into a trusted environment.",
+  "home": "https://github.com/zopefoundation/RestrictedPython",
+  "license": "ZPL 2.1"
+}

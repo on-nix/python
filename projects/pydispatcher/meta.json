@@ -1,0 +1,5 @@
+{
+  "desc": "Multi-producer-multi-consumer signal dispatching mechanism",
+  "home": "http://pydispatcher.sourceforge.net",
+  "license": "BSD"
+}

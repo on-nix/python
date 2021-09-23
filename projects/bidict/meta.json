@@ -1,0 +1,5 @@
+{
+  "desc": "The bidirectional mapping library for Python.",
+  "home": "https://bidict.readthedocs.io",
+  "license": "MPL 2.0"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Python docstring style checker",
+  "home": "https://github.com/PyCQA/pydocstyle/",
+  "license": "MIT"
+}

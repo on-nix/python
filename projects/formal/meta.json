@@ -1,0 +1,5 @@
+{
+  "desc": "JSON-Schema-based ORM for MongoDB and SQLAlchemy",
+  "home": "http://github.com/isomeric/formal",
+  "license": ""
+}

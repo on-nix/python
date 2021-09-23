@@ -1,0 +1,5 @@
+{
+  "desc": "Python implementation of jbenet's multiaddr",
+  "home": "https://github.com/multiformats/py-multiaddr",
+  "license": "MIT License"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Pure Python CBOR (de)serializer with extensive tag support",
+  "home": "",
+  "license": "MIT"
+}

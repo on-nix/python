@@ -1,0 +1,5 @@
+{
+  "desc": "ECDSA cryptographic signature library (pure python)",
+  "home": "http://github.com/tlsfuzzer/python-ecdsa",
+  "license": "MIT"
+}

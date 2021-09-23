@@ -1,0 +1,5 @@
+{
+  "desc": "Zope 2 and Plone  integration for plone.registry",
+  "home": "https://pypi.org/project/plone.app.registry",
+  "license": "GPL"
+}

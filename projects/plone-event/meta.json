@@ -1,0 +1,5 @@
+{
+  "desc": "Event and calendaring related tools not bound to Plone",
+  "home": "https://github.com/plone/plone.event",
+  "license": "GPL"
+}

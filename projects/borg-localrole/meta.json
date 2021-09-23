@@ -1,0 +1,5 @@
+{
+  "desc": "A PAS plugin which can manage local roles via an adapter lookup on the current context",
+  "home": "https://pypi.org/project/borg.localrole",
+  "license": "LGPL"
+}

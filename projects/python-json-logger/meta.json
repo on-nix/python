@@ -1,0 +1,5 @@
+{
+  "desc": "A python library adding a json log formatter",
+  "home": "http://github.com/madzak/python-json-logger",
+  "license": "BSD"
+}

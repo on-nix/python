@@ -1,0 +1,5 @@
+{
+  "desc": "Automatic error monitoring for django, flask, etc.",
+  "home": "https://bugsnag.com/",
+  "license": "MIT"
+}

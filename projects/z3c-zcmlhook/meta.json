@@ -1,0 +1,5 @@
+{
+  "desc": "Easily hook into the ZCML processing machinery",
+  "home": "https://github.com/zopefoundation/z3c.zcmlhook",
+  "license": "ZPL"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Plone specific i18n extensions.",
+  "home": "https://pypi.org/project/plone.app.i18n",
+  "license": "GPL version 2"
+}

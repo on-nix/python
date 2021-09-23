@@ -1,0 +1,5 @@
+{
+  "desc": "Modern high-performance serialization utilities for Python",
+  "home": "https://github.com/explosion/srsly",
+  "license": "MIT"
+}

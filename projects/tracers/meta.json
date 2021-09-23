@@ -1,0 +1,5 @@
+{
+  "desc": "Open-Source APM (Application monitoring) project that offers you minimal overhead wrappers for profiling your code execution flow",
+  "home": "https://github.com/fluidattacks/tracers",
+  "license": "MIT"
+}

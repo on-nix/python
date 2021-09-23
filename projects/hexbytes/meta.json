@@ -1,0 +1,5 @@
+{
+  "desc": "hexbytes: Python `bytes` subclass that decodes hex, with a readable console output",
+  "home": "https://github.com/ethereum/hexbytes",
+  "license": "MIT"
+}

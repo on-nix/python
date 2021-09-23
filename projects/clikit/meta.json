@@ -1,0 +1,5 @@
+{
+  "desc": "CliKit is a group of utilities to build beautiful and testable command line interfaces.",
+  "home": "https://github.com/sdispater/clikit",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Instrumentation Tools & Auto Instrumentation for OpenTelemetry Python",
+  "home": "https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/opentelemetry-instrumentation",
+  "license": "Apache-2.0"
+}

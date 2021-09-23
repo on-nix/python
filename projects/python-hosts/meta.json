@@ -1,0 +1,5 @@
+{
+  "desc": "A hosts file manager library written in python",
+  "home": "https://github.com/jonhadfield/python-hosts",
+  "license": "MIT"
+}

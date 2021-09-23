@@ -1,0 +1,5 @@
+{
+  "desc": "Python Gettext po to mo file compiler.",
+  "home": "http://pypi.python.org/pypi/python-gettext",
+  "license": "BSD"
+}

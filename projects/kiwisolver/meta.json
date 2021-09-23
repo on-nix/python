@@ -1,0 +1,5 @@
+{
+  "desc": "A fast implementation of the Cassowary constraint solver",
+  "home": "https://github.com/nucleic/kiwi",
+  "license": "BSD"
+}

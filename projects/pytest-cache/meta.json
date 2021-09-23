@@ -1,0 +1,5 @@
+{
+  "desc": "pytest plugin with mechanisms for caching across test runs",
+  "home": "http://bitbucket.org/hpk42/pytest-cache/",
+  "license": "MIT License"
+}

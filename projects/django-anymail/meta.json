@@ -1,0 +1,5 @@
+{
+  "desc": "Django email integration for Amazon SES, Mailgun, Mailjet, Postmark, SendGrid, SendinBlue, SparkPost and other transactional ESPs",
+  "home": "https://github.com/anymail/django-anymail",
+  "license": "BSD License"
+}

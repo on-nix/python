@@ -1,0 +1,5 @@
+{
+  "desc": "PyTorch native Metrics",
+  "home": "https://github.com/PyTorchLightning/metrics",
+  "license": "Apache-2.0"
+}

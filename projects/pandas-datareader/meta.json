@@ -1,0 +1,5 @@
+{
+  "desc": "Data readers extracted from the pandas codebase,should be compatible with recent pandas versions",
+  "home": "https://github.com/pydata/pandas-datareader",
+  "license": "BSD License"
+}

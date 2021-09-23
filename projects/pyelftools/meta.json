@@ -1,0 +1,5 @@
+{
+  "desc": "Library for analyzing ELF files and DWARF debugging information",
+  "home": "https://github.com/eliben/pyelftools",
+  "license": "Public domain"
+}

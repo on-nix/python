@@ -1,0 +1,5 @@
+{
+  "desc": "Python bindings for the Apache Thrift RPC system",
+  "home": "https://thrift.apache.org",
+  "license": "Apache Software License, Version 2"
+}

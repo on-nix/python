@@ -1,0 +1,5 @@
+{
+  "desc": "Pure Python, cross platform, single function module with no dependencies for playing sounds.",
+  "home": "https://github.com/TaylorSMarks/playsound",
+  "license": "MIT"
+}

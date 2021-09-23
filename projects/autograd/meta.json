@@ -1,0 +1,5 @@
+{
+  "desc": "Efficiently computes derivatives of numpy code.",
+  "home": "https://github.com/HIPS/autograd",
+  "license": "MIT"
+}

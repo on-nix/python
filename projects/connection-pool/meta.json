@@ -1,0 +1,5 @@
+{
+  "desc": "thread safe connection pool",
+  "home": "https://github.com/zhouyl/ConnectionPool",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Brings async, event-driven capabilities to Django. Django 2.2 and up only.",
+  "home": "http://github.com/django/channels",
+  "license": "BSD"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Async client for aws services using botocore and aiohttp",
+  "home": "https://github.com/aio-libs/aiobotocore",
+  "license": "Apache 2"
+}

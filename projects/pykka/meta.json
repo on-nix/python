@@ -1,0 +1,5 @@
+{
+  "desc": "Pykka is a Python implementation of the actor model",
+  "home": "https://github.com/jodal/pykka",
+  "license": "Apache-2.0"
+}

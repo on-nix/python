@@ -1,0 +1,5 @@
+{
+  "desc": "WebSocket client for Python with low level API options",
+  "home": "https://github.com/websocket-client/websocket-client.git",
+  "license": "Apache-2.0"
+}

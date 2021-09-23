@@ -1,0 +1,5 @@
+{
+  "desc": "Provides support for restricted execution of Python scripts in Zope.",
+  "home": "https://github.com/zopefoundation/Products.PythonScripts",
+  "license": "ZPL 2.1"
+}

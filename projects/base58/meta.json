@@ -1,0 +1,5 @@
+{
+  "desc": "Base58 and Base58Check implementation.",
+  "home": "https://github.com/keis/base58",
+  "license": "MIT"
+}

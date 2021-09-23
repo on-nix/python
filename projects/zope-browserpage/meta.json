@@ -1,0 +1,5 @@
+{
+  "desc": "ZCML directives for configuring browser views for Zope.",
+  "home": "https://github.com/zopefoundation/zope.browserpage",
+  "license": "ZPL 2.1"
+}

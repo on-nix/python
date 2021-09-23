@@ -1,0 +1,5 @@
+{
+  "desc": "A utility library for mocking out the `requests` Python library.",
+  "home": "https://github.com/getsentry/responses",
+  "license": "Apache 2.0"
+}

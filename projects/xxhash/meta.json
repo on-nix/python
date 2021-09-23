@@ -1,0 +1,5 @@
+{
+  "desc": "Python binding for xxHash",
+  "home": "https://github.com/ifduyue/python-xxhash",
+  "license": "BSD"
+}

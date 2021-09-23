@@ -1,0 +1,5 @@
+{
+  "desc": "This package allows for HTTP NTLM authentication using the requests library.",
+  "home": "https://github.com/requests/requests-ntlm",
+  "license": "ISC"
+}

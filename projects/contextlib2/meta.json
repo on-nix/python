@@ -1,0 +1,5 @@
+{
+  "desc": "Backports and enhancements for the contextlib module",
+  "home": "http://contextlib2.readthedocs.org",
+  "license": "PSF License"
+}

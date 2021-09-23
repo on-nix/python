@@ -1,0 +1,5 @@
+{
+  "desc": "Capture the outcome of Python function calls.",
+  "home": "https://github.com/python-trio/outcome",
+  "license": "MIT -or- Apache License 2.0"
+}

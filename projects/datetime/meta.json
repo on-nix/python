@@ -1,0 +1,5 @@
+{
+  "desc": "This package provides a DateTime data type, as known from Zope. Unless you need to communicate with Zope APIs, you're probably better off using Python's built-in datetime module.",
+  "home": "https://github.com/zopefoundation/DateTime",
+  "license": "ZPL 2.1"
+}

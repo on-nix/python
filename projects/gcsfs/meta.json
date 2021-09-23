@@ -1,0 +1,5 @@
+{
+  "desc": "Convenient Filesystem interface over GCS",
+  "home": "https://github.com/dask/gcsfs",
+  "license": "BSD"
+}

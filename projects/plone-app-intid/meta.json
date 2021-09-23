@@ -1,0 +1,5 @@
+{
+  "desc": "Installation and migration support for five.intid within Plone/CMF",
+  "home": "https://github.com/plone/plone.app.intid",
+  "license": "GPL"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "A minimal low-level HTTP client.",
+  "home": "https://github.com/encode/httpcore",
+  "license": "BSD"
+}

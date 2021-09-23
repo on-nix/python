@@ -1,0 +1,5 @@
+{
+  "desc": "Simple, fast, extensible JSON encoder/decoder for Python",
+  "home": "https://github.com/simplejson/simplejson",
+  "license": "MIT License"
+}

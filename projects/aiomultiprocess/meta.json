@@ -1,0 +1,5 @@
+{
+  "desc": "AsyncIO version of the standard multiprocessing module",
+  "home": "https://aiomultiprocess.omnilib.dev",
+  "license": ""
+}

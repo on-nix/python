@@ -1,0 +1,5 @@
+{
+  "desc": "Python wrapper for the GitHub API(http://developer.github.com/v3)",
+  "home": "https://github3.readthedocs.io",
+  "license": "3-clause BSD"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Python/JavaScript library for communicating over WebSocket",
+  "home": "https://github.com/kitware/wslink",
+  "license": "BSD-3-Clause"
+}

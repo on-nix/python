@@ -1,0 +1,5 @@
+{
+  "desc": "Thin wrapper for pandoc.",
+  "home": "https://github.com/bebraw/pypandoc",
+  "license": "MIT"
+}

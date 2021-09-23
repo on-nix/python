@@ -1,0 +1,5 @@
+{
+  "desc": "Plone integration for plone.contentrules",
+  "home": "https://pypi.org/project/plone.app.contentrules",
+  "license": "GPL version 2"
+}

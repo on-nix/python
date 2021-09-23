@@ -1,0 +1,5 @@
+{
+  "desc": "Asynchronous Python HTTP for Humans.",
+  "home": "https://github.com/ross/requests-futures",
+  "license": "Apache License v2"
+}

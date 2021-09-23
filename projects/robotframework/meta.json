@@ -1,0 +1,5 @@
+{
+  "desc": "Generic automation framework for acceptance testing and robotic process automation (RPA)",
+  "home": "http://robotframework.org",
+  "license": "Apache License 2.0"
+}

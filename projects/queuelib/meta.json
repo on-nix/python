@@ -1,0 +1,5 @@
+{
+  "desc": "Collection of persistent (disk-based) and non-persistent (memory-based) queues",
+  "home": "https://github.com/scrapy/queuelib",
+  "license": "BSD"
+}

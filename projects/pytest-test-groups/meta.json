@@ -1,0 +1,5 @@
+{
+  "desc": "A Pytest plugin for running a subset of your tests by splitting them in to equally sized groups.",
+  "home": "https://github.com/mark-adams/pytest-test-groups",
+  "license": ""
+}

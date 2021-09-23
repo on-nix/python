@@ -1,0 +1,5 @@
+{
+  "desc": "DB-API interface to Microsoft SQL Server for Python. (new Cython-based version)",
+  "home": "",
+  "license": "LGPL"
+}

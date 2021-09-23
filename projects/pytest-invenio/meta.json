@@ -1,0 +1,5 @@
+{
+  "desc": "Pytest fixtures for Invenio.",
+  "home": "https://github.com/inveniosoftware/pytest-invenio",
+  "license": "MIT"
+}

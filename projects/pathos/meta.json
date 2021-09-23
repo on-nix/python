@@ -1,0 +1,5 @@
+{
+  "desc": "parallel graph management and execution in heterogeneous computing",
+  "home": "https://github.com/uqfoundation/pathos",
+  "license": "3-clause BSD"
+}

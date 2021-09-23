@@ -1,0 +1,5 @@
+{
+  "desc": "Wrapper package for OpenCV python bindings.",
+  "home": "https://github.com/skvark/opencv-python",
+  "license": "MIT"
+}

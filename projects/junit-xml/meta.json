@@ -1,0 +1,5 @@
+{
+  "desc": "Creates JUnit XML test result documents that can be read by tools such as Jenkins",
+  "home": "https://github.com/kyrus/python-junit-xml",
+  "license": "MIT"
+}

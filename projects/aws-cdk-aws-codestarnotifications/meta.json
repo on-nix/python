@@ -1,0 +1,5 @@
+{
+  "desc": "The CDK Construct Library for AWS::CodeStarNotifications",
+  "home": "https://github.com/aws/aws-cdk",
+  "license": "Apache-2.0"
+}

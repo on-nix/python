@@ -1,0 +1,5 @@
+{
+  "desc": "Reader for the MaxMind DB format",
+  "home": "http://www.maxmind.com/",
+  "license": "Apache License, Version 2.0"
+}

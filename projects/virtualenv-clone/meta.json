@@ -1,0 +1,5 @@
+{
+  "desc": "script to clone virtualenvs.",
+  "home": "https://github.com/edwardgeorge/virtualenv-clone",
+  "license": "MIT"
+}

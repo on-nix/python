@@ -1,0 +1,5 @@
+{
+  "desc": "ZEO - Single-server client-server database server for ZODB",
+  "home": "https://github.com/zopefoundation/ZEO",
+  "license": "ZPL 2.1"
+}

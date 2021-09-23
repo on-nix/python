@@ -1,0 +1,5 @@
+{
+  "desc": "TLS (SSL) sockets, key generation, encryption, decryption, signing, verification and KDFs using the OS crypto libraries. Does not require a compiler, and relies on the OS for patching. Works on Windows, OS X and Linux/BSD.",
+  "home": "https://github.com/wbond/oscrypto",
+  "license": "MIT"
+}

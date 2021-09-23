@@ -1,0 +1,5 @@
+{
+  "desc": "Transformations applied to HTML in Plone text fields as they are rendered",
+  "home": "http://github.com/plone/plone.outputfilters",
+  "license": "GPL"
+}

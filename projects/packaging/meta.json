@@ -1,0 +1,5 @@
+{
+  "desc": "Core utilities for Python packages",
+  "home": "https://github.com/pypa/packaging",
+  "license": "BSD-2-Clause or Apache-2.0"
+}

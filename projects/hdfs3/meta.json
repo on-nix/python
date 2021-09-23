@@ -1,0 +1,5 @@
+{
+  "desc": "Python wrappers for libhdfs3, a native HDFS client",
+  "home": "http://github.com/dask/hdfs3/",
+  "license": "BSD"
+}

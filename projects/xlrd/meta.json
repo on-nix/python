@@ -1,0 +1,5 @@
+{
+  "desc": "Library for developers to extract data from Microsoft Excel (tm) .xls spreadsheet files",
+  "home": "http://www.python-excel.org/",
+  "license": "BSD"
+}

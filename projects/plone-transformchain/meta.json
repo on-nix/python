@@ -1,0 +1,5 @@
+{
+  "desc": "Hook into repoze.zope2 that allows third party packages to register a sequence of hooks that will be allowed to modify the response before it is returned to the browser",
+  "home": "https://pypi.org/project/plone.transformchain",
+  "license": "BSD"
+}

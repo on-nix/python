@@ -1,0 +1,5 @@
+{
+  "desc": "OpenCL cffi bindings and helper classes",
+  "home": "https://github.com/Samsung/opencl4py",
+  "license": "Simplified BSD"
+}

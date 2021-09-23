@@ -1,0 +1,5 @@
+{
+  "desc": "A RAM-based storage for ZODB",
+  "home": "https://github.com/zopefoundation/tempstorage",
+  "license": "ZPL 2.1"
+}

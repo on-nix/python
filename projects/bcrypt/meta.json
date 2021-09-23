@@ -1,0 +1,5 @@
+{
+  "desc": "Modern password hashing for your software and your servers",
+  "home": "https://github.com/pyca/bcrypt/",
+  "license": "Apache License, Version 2.0"
+}

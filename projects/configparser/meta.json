@@ -1,0 +1,5 @@
+{
+  "desc": "Updated configparser from Python 3.8 for Python 2.6+.",
+  "home": "https://github.com/jaraco/configparser/",
+  "license": ""
+}

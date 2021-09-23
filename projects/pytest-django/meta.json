@@ -1,0 +1,5 @@
+{
+  "desc": "A Django plugin for pytest.",
+  "home": "https://pytest-django.readthedocs.io/",
+  "license": "BSD-3-Clause"
+}

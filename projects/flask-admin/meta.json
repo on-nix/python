@@ -1,0 +1,5 @@
+{
+  "desc": "Simple and extensible admin interface framework for Flask",
+  "home": "https://github.com/flask-admin/flask-admin/",
+  "license": "BSD"
+}

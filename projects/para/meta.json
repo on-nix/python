@@ -1,0 +1,5 @@
+{
+  "desc": "a set utilities that ake advantage of python's 'multiprocessing' module to distribute CPU-intensive tasks",
+  "home": "https://github.com/halfak/para",
+  "license": "MIT"
+}

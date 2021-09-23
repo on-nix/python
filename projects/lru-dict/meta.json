@@ -1,0 +1,5 @@
+{
+  "desc": "An Dict like LRU container.",
+  "home": "https://github.com/amitdev/lru-dict",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Seamless polymorphic inheritance for Django models",
+  "home": "https://github.com/django-polymorphic/django-polymorphic",
+  "license": ""
+}

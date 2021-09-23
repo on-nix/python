@@ -1,0 +1,5 @@
+{
+  "desc": "Python binding to the Networking and Cryptography (NaCl) library",
+  "home": "https://github.com/pyca/pynacl/",
+  "license": "Apache License 2.0"
+}

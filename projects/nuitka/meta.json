@@ -1,0 +1,5 @@
+{
+  "desc": "Python compiler with full language support and CPython compatibility",
+  "home": "https://nuitka.net",
+  "license": "Apache License, Version 2.0"
+}

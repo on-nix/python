@@ -1,0 +1,5 @@
+{
+  "desc": "IPv4/IPv6 manipulation library",
+  "home": "https://github.com/phihag/ipaddress",
+  "license": "Python Software Foundation License"
+}

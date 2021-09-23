@@ -1,0 +1,5 @@
+{
+  "desc": "Python tool to find and list requirements of a Python project",
+  "home": "https://github.com/landscapeio/requirements-detector",
+  "license": "MIT"
+}

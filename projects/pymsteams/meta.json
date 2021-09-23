@@ -1,0 +1,5 @@
+{
+  "desc": "Format messages and post to Microsoft Teams.",
+  "home": "https://github.com/rveachkc/pymsteams",
+  "license": "Apache"
+}

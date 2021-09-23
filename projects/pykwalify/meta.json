@@ -1,0 +1,5 @@
+{
+  "desc": "Python lib/cli for JSON/YAML schema validation",
+  "home": "http://github.com/grokzen/pykwalify",
+  "license": "MIT"
+}

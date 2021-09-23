@@ -1,0 +1,5 @@
+{
+  "desc": "Parse human-readable date/time text.",
+  "home": "https://github.com/bear/parsedatetime",
+  "license": "Apache License 2.0"
+}

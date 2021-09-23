@@ -1,0 +1,5 @@
+{
+  "desc": "An (unofficial) Python wrapper for the Hunter.io API",
+  "home": "https://github.com/VonStruddle/PyHunter",
+  "license": "MIT"
+}

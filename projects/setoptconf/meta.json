@@ -1,0 +1,5 @@
+{
+  "desc": "A module for retrieving program settings from various sources in a consistant method.",
+  "home": "https://github.com/jayclassless/setoptconf",
+  "license": "MIT"
+}

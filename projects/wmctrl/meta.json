@@ -1,0 +1,5 @@
+{
+  "desc": "A tool to programmatically control windows inside X",
+  "home": "https://github.com/antocuni/wmctrl",
+  "license": "MIT"
+}

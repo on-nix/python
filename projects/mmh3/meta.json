@@ -1,0 +1,5 @@
+{
+  "desc": "Python wrapper for MurmurHash (MurmurHash3), a set of fast and robust hash functions.",
+  "home": "https://github.com/hajimes/mmh3",
+  "license": "License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "A sphinx extension that automatically documents argparse commands and options",
+  "home": "",
+  "license": "MIT"
+}

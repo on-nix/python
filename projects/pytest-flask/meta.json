@@ -1,0 +1,5 @@
+{
+  "desc": "A set of py.test fixtures to test Flask applications.",
+  "home": "https://github.com/pytest-dev/pytest-flask",
+  "license": "MIT"
+}

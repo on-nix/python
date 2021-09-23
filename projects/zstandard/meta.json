@@ -1,0 +1,5 @@
+{
+  "desc": "Zstandard bindings for Python",
+  "home": "https://github.com/indygreg/python-zstandard",
+  "license": "BSD"
+}

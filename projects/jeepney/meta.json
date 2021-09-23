@@ -1,0 +1,5 @@
+{
+  "desc": "Low-level, pure Python DBus protocol wrapper.",
+  "home": "https://gitlab.com/takluyver/jeepney",
+  "license": ""
+}

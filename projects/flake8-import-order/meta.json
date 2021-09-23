@@ -1,0 +1,5 @@
+{
+  "desc": "Flake8 and pylama plugin that checks the ordering of import statements.",
+  "home": "https://github.com/PyCQA/flake8-import-order",
+  "license": "LGPLv3"
+}

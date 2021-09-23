@@ -1,0 +1,5 @@
+{
+  "desc": "A module provides basic functions for parsing mime-type names and matching them against a list of media-ranges.",
+  "home": "http://code.google.com/p/mimeparse/",
+  "license": "MIT"
+}

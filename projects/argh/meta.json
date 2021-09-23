@@ -1,0 +1,5 @@
+{
+  "desc": "An unobtrusive argparse wrapper with natural syntax",
+  "home": "http://github.com/neithere/argh/",
+  "license": "GNU Lesser General Public License (LGPL), Version 3"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "A library to manipulate gettext files (po and mo files).",
+  "home": "https://github.com/izimobil/polib/",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "A general purpose data downloading library.",
+  "home": "https://github.com/fastai/fastdownload/tree/master/",
+  "license": "Apache Software License 2.0"
+}

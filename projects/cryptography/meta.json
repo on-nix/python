@@ -1,0 +1,5 @@
+{
+  "desc": "cryptography is a package which provides cryptographic recipes and primitives to Python developers.",
+  "home": "https://github.com/pyca/cryptography",
+  "license": "BSD or Apache License, Version 2.0"
+}

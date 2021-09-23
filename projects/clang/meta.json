@@ -1,0 +1,5 @@
+{
+  "desc": "libclang python bindings",
+  "home": "http://clang.llvm.org/",
+  "license": "License :: OSI Approved :: University of Illinois/NCSA Open Source License"
+}

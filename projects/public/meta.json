@@ -1,0 +1,5 @@
+{
+  "desc": "replace __all__ with @public.add decorator",
+  "home": "https://github.com/andrewp-as-is/public.py",
+  "license": "Unlicense"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Parallel PyData with Task Scheduling",
+  "home": "https://github.com/dask/dask/",
+  "license": "BSD"
+}

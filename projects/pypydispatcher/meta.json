@@ -1,0 +1,5 @@
+{
+  "desc": "Multi-producer-multi-consumer signal dispatching mechanism",
+  "home": "https://github.com/scrapy/pypydispatcher",
+  "license": "BSD"
+}

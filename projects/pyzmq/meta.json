@@ -1,0 +1,5 @@
+{
+  "desc": "Python bindings for 0MQ",
+  "home": "https://pyzmq.readthedocs.org",
+  "license": "LGPL+BSD"
+}

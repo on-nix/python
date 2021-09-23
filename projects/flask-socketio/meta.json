@@ -1,0 +1,5 @@
+{
+  "desc": "Socket.IO integration for Flask applications",
+  "home": "https://github.com/miguelgrinberg/flask-socketio",
+  "license": ""
+}

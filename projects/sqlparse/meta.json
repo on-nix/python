@@ -1,0 +1,5 @@
+{
+  "desc": "A non-validating SQL parser.",
+  "home": "https://github.com/andialbrecht/sqlparse",
+  "license": "BSD-3-Clause"
+}

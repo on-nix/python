@@ -1,0 +1,5 @@
+{
+  "desc": "Database Abstraction Library",
+  "home": "https://www.sqlalchemy.org",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Sequential model-based optimization toolbox.",
+  "home": "https://scikit-optimize.github.io/",
+  "license": "BSD 3-clause"
+}

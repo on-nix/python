@@ -1,0 +1,5 @@
+{
+  "desc": "The Blis BLAS-like linear algebra library, as a self-contained C-extension.",
+  "home": "https://github.com/explosion/cython-blis",
+  "license": "BSD"
+}

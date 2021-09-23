@@ -1,0 +1,5 @@
+{
+  "desc": "This package provides 29 stemmers for 28 languages generated from Snowball algorithms.",
+  "home": "https://github.com/snowballstem/snowball",
+  "license": "BSD-3-Clause"
+}

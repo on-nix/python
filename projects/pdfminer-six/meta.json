@@ -1,0 +1,5 @@
+{
+  "desc": "PDF parser and analyzer",
+  "home": "https://github.com/pdfminer/pdfminer.six",
+  "license": "MIT/X"
+}

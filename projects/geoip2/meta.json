@@ -1,0 +1,5 @@
+{
+  "desc": "MaxMind GeoIP2 API",
+  "home": "http://www.maxmind.com/",
+  "license": "Apache License, Version 2.0"
+}

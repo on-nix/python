@@ -1,0 +1,5 @@
+{
+  "desc": "A library for deferring decorator actions",
+  "home": "https://pylonsproject.org/",
+  "license": "BSD-derived (http://www.repoze.org/LICENSE.txt)"
+}

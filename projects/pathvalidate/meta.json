@@ -1,0 +1,5 @@
+{
+  "desc": "pathvalidate is a Python library to sanitize/validate a string such as filenames/file-paths/etc.",
+  "home": "https://github.com/thombashi/pathvalidate",
+  "license": "MIT License"
+}

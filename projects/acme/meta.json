@@ -1,0 +1,5 @@
+{
+  "desc": "ACME protocol implementation in Python",
+  "home": "https://github.com/letsencrypt/letsencrypt",
+  "license": "Apache License 2.0"
+}

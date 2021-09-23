@@ -1,0 +1,5 @@
+{
+  "desc": "A configurable set of panels that display various debug information about the current request/response.",
+  "home": "https://github.com/jazzband/django-debug-toolbar",
+  "license": "BSD"
+}

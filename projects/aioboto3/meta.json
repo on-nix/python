@@ -1,0 +1,5 @@
+{
+  "desc": "Async boto3 wrapper",
+  "home": "https://github.com/terrycain/aioboto3",
+  "license": "Apache-2.0"
+}

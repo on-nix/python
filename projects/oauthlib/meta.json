@@ -1,0 +1,5 @@
+{
+  "desc": "A generic, spec-compliant, thorough implementation of the OAuth request-signing logic",
+  "home": "https://github.com/oauthlib/oauthlib",
+  "license": "BSD"
+}

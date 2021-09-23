@@ -1,0 +1,5 @@
+{
+  "desc": "Python bindings for the docker credentials store API",
+  "home": "https://github.com/shin-/dockerpy-creds",
+  "license": "Apache License 2.0"
+}

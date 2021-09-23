@@ -1,0 +1,5 @@
+{
+  "desc": "RGB conversion tool written in Python for Philips Hue.",
+  "home": "https://github.com/benknight/hue-python-rgb-converter",
+  "license": "MIT"
+}

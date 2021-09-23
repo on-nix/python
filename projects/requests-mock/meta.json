@@ -1,0 +1,5 @@
+{
+  "desc": "Mock out responses from the requests package",
+  "home": "https://requests-mock.readthedocs.io/",
+  "license": "Apache-2"
+}

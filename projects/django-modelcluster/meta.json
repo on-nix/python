@@ -1,0 +1,5 @@
+{
+  "desc": "Django extension to allow working with 'clusters' of models as a single unit, independently of the database",
+  "home": "https://github.com/wagtail/django-modelcluster",
+  "license": "BSD"
+}

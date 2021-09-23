@@ -1,0 +1,5 @@
+{
+  "desc": "Various parsers for ECMA standards.",
+  "home": "https://github.com/calmjs/calmjs.parse",
+  "license": "mit"
+}

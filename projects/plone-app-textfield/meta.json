@@ -1,0 +1,5 @@
+{
+  "desc": "Text field with MIME type support",
+  "home": "https://pypi.org/project/plone.app.textfield",
+  "license": "GPL"
+}

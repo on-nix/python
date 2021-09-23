@@ -1,0 +1,5 @@
+{
+  "desc": "Registry for application settings (like debconf/ about:config)",
+  "home": "https://pypi.org/project/plone.registry",
+  "license": "GPL"
+}

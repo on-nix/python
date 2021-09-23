@@ -1,0 +1,5 @@
+{
+  "desc": "Very basic event publishing system",
+  "home": "https://github.com/zopefoundation/zope.event",
+  "license": "ZPL 2.1"
+}

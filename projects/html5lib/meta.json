@@ -1,0 +1,5 @@
+{
+  "desc": "HTML parser based on the WHATWG HTML specification",
+  "home": "https://github.com/html5lib/html5lib-python",
+  "license": "MIT License"
+}

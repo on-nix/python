@@ -1,0 +1,5 @@
+{
+  "desc": "Type annotations for boto3. Adds code completion in IDEs such as PyCharm.",
+  "home": "https://github.com/alliefitter/boto3_type_annotations",
+  "license": "MIT License"
+}

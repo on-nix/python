@@ -1,0 +1,5 @@
+{
+  "desc": "Efficient tree implementations for Django",
+  "home": "https://github.com/django-treebeard/django-treebeard/",
+  "license": "Apache License 2.0"
+}

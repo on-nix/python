@@ -1,0 +1,5 @@
+{
+  "desc": "The Zope publisher publishes Python objects on the web.",
+  "home": "https://github.com/zopefoundation/zope.publisher",
+  "license": "ZPL 2.1"
+}

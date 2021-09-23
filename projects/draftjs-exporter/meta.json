@@ -1,0 +1,5 @@
+{
+  "desc": "Library to convert rich text from Draft.js raw ContentState to HTML",
+  "home": "https://github.com/springload/draftjs_exporter",
+  "license": "MIT"
+}

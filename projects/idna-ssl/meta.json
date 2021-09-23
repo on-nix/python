@@ -1,0 +1,5 @@
+{
+  "desc": "Patch ssl.match_hostname for Unicode(idna) domains support",
+  "home": "https://github.com/aio-libs/idna-ssl",
+  "license": ""
+}

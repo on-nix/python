@@ -1,0 +1,5 @@
+{
+  "desc": "Module for decorators, wrappers and monkey patching.",
+  "home": "https://github.com/GrahamDumpleton/wrapt",
+  "license": "BSD"
+}

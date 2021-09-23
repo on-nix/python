@@ -1,0 +1,5 @@
+{
+  "desc": "utilities for filesystem exploration and automated builds",
+  "home": "https://github.com/uqfoundation/pox",
+  "license": "3-clause BSD"
+}

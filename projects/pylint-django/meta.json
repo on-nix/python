@@ -1,0 +1,5 @@
+{
+  "desc": "A Pylint plugin to help Pylint understand the Django web framework",
+  "home": "https://github.com/PyCQA/pylint-django",
+  "license": "GPLv2"
+}

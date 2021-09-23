@@ -1,0 +1,5 @@
+{
+  "desc": "Simple decorators to support synchronized methods",
+  "home": "https://pypi.org/project/plone.synchronize",
+  "license": "BSD"
+}

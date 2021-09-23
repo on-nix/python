@@ -1,0 +1,5 @@
+{
+  "desc": "Utilities to read single characters and key-strokes",
+  "home": "https://github.com/magmax/python-readchar",
+  "license": "MIT"
+}

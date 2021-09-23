@@ -1,0 +1,5 @@
+{
+  "desc": "A Python utility / library to sort Python imports.",
+  "home": "https://pycqa.github.io/isort/",
+  "license": "MIT"
+}

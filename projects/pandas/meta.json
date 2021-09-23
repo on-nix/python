@@ -1,0 +1,5 @@
+{
+  "desc": "Powerful data structures for data analysis, time series, and statistics",
+  "home": "https://pandas.pydata.org",
+  "license": "BSD-3-Clause"
+}

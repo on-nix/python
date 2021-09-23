@@ -1,0 +1,5 @@
+{
+  "desc": "pylint-celery is a Pylint plugin to aid Pylint in recognising and understandingerrors caused when using the Celery library",
+  "home": "https://github.com/landscapeio/pylint-celery",
+  "license": "GPLv2"
+}

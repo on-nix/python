@@ -1,0 +1,5 @@
+{
+  "desc": "Python client for the Bluemix Service Discovery service",
+  "home": "https://github.com/IBM-Bluemix/service-discovery-client-python",
+  "license": "Apache-2.0"
+}

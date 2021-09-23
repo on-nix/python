@@ -1,0 +1,5 @@
+{
+  "desc": "RFC822 marshalling for zope.schema fields",
+  "home": "https://pypi.org/project/plone.rfc822",
+  "license": "BSD"
+}

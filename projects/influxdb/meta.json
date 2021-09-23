@@ -1,0 +1,5 @@
+{
+  "desc": "InfluxDB client",
+  "home": "https://github.com/influxdb/influxdb-python",
+  "license": "MIT License"
+}

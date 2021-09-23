@@ -1,0 +1,5 @@
+{
+  "desc": "Read and write HDF5 files from Python",
+  "home": "http://www.h5py.org",
+  "license": "BSD"
+}

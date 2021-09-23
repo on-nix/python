@@ -1,0 +1,5 @@
+{
+  "desc": "Patch asyncio to allow nested event loops",
+  "home": "https://github.com/erdewit/nest_asyncio",
+  "license": "BSD"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Python bindings to FreeDesktop.org Secret Service API",
+  "home": "https://github.com/mitya57/secretstorage",
+  "license": "BSD 3-Clause License"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Generate coverage badges for Coverage.py.",
+  "home": "https://github.com/dbrgn/coverage-badge",
+  "license": "MIT"
+}

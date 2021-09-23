@@ -1,0 +1,5 @@
+{
+  "desc": "Python CFFI bindings to the Brotli library",
+  "home": "https://github.com/python-hyper/brotlicffi",
+  "license": "MIT"
+}

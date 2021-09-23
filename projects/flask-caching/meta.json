@@ -1,0 +1,5 @@
+{
+  "desc": "Adds caching support to your Flask application",
+  "home": "https://github.com/sh4nks/flask-caching",
+  "license": "BSD"
+}

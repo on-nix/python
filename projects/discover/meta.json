@@ -1,0 +1,5 @@
+{
+  "desc": "Test discovery for unittest. Backported from Python 2.7 for Python 2.4+",
+  "home": "http://pypi.python.org/pypi/discover/",
+  "license": "UNKNOWN"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "A Python package for describing statistical models and for building design matrices.",
+  "home": "https://github.com/pydata/patsy",
+  "license": "2-clause BSD"
+}

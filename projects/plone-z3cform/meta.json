@@ -1,0 +1,5 @@
+{
+  "desc": "plone.z3cform is a library that allows use of z3c.form with Zope and the CMF.",
+  "home": "https://github.com/plone/plone.z3cform",
+  "license": "GPL version 2"
+}

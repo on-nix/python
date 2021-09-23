@@ -1,0 +1,5 @@
+{
+  "desc": "Python library providing wrappers to SymEngine",
+  "home": "https://github.com/symengine/symengine.py",
+  "license": "MIT"
+}

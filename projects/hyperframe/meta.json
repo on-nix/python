@@ -1,0 +1,5 @@
+{
+  "desc": "HTTP/2 framing layer for Python",
+  "home": "https://github.com/python-hyper/hyperframe/",
+  "license": "MIT License"
+}

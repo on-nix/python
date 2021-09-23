@@ -1,0 +1,5 @@
+{
+  "desc": "Pluggable object copying mechanism",
+  "home": "http://github.com/zopefoundation/zope.copy",
+  "license": "ZPL 2.1"
+}

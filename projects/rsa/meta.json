@@ -1,0 +1,5 @@
+{
+  "desc": "Pure-Python RSA implementation",
+  "home": "https://stuvel.eu/rsa",
+  "license": "ASL 2"
+}

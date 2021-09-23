@@ -1,0 +1,5 @@
+{
+  "desc": "Python client for Consul (http://www.consul.io/)",
+  "home": "https://github.com/cablehead/python-consul",
+  "license": "MIT"
+}

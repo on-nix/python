@@ -1,0 +1,5 @@
+{
+  "desc": "A web server and web framework that's written to go fast. Build fast. Run fast.",
+  "home": "http://github.com/sanic-org/sanic/",
+  "license": "MIT"
+}

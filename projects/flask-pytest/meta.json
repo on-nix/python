@@ -1,0 +1,5 @@
+{
+  "desc": "Runs pytest in a background process when DEBUG is True.",
+  "home": "http://github.com/joeyespo/flask-pytest",
+  "license": "MIT"
+}

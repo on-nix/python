@@ -1,0 +1,5 @@
+{
+  "desc": "An unofficial extension to Marshmallow to allow for polymorphic fields",
+  "home": "https://github.com/Bachmann1234/marshmallow-polyfield",
+  "license": "Apache 2.0"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "Correctly generate plurals, singular nouns, ordinals, indefinite articles; convert numbers to words",
+  "home": "https://github.com/jaraco/inflect",
+  "license": ""
+}

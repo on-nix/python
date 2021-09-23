@@ -1,0 +1,5 @@
+{
+  "desc": "PEP 567 Backport",
+  "home": "http://github.com/MagicStack/contextvars",
+  "license": "Apache License, Version 2.0"
+}

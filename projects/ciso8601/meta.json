@@ -1,0 +1,5 @@
+{
+  "desc": "Fast ISO8601 date time parser for Python written in C",
+  "home": "https://github.com/closeio/ciso8601",
+  "license": "MIT"
+}
