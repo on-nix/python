@@ -81,6 +81,7 @@ let
       value = {
         inherit meta;
         inherit project;
+        inherit setupPath;
         inherit setup;
         testPath = projectsPath + "/${project}/test.py";
         versions = versions
