@@ -5,7 +5,7 @@ function main {
   local pwd="${PWD}"
 
   echo -n > "projects/${project}/test.py" \
-    && just build "projects.${project}.latest.latest" \
+    && just build "projects.${project}.latest.pythonLatest" \
     && base="$(echo "result-3/${project}/lib/python"*"/site-packages")" \
     && pushd "${base}" \
     && find . -maxdepth 2 -name __init__.py \

@@ -1,7 +1,6 @@
 {
   inputs = {
     makes.url = "github:fluidattacks/makes";
-    makes.flake = false;
     nixpkgs.url = "github:nixos/nixpkgs";
   };
   outputs = { nixpkgs, ... }:
