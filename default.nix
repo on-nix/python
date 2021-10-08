@@ -59,6 +59,7 @@ let
           searchPathsBuild = _: { };
           searchPathsRuntime = _: { };
 
+          buildExtra = "";
           buildGccBin = false;
           buildPostgresqlBin = false;
           buildSetuptools = true;
@@ -291,6 +292,8 @@ let
             --prefix $out \
             --quiet \
             ${project}==${version}
+
+          ${setup.buildExtra}
         '';
         env.envMirror = makePypiMirror name installers;
         name = "${name}-out";
