@@ -1,0 +1,5 @@
+{
+  "dataclasses": "0.8",
+  "decorator": "4.4.2",
+  "networkx": "2.5.1"
+}
