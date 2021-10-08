@@ -703,6 +703,7 @@ which points to the latest version of the project.
 | imbalanced-learn | 0.8.0 | 3.6 3.7 3.8 3.9 |
 | imgaug | 0.4.0 | 3.6 3.7 3.8 3.9 |
 | immutables | 0.16 | 3.6 |
+| importlab | 0.6.1 | 3.6 3.7 3.8 3.9 |
 | importlib-metadata | 1.7.0 | 3.6 3.7 |
 | importlib-metadata | 4.8.1 | 3.6 3.7 3.8 3.9 |
 | importlib-resources | 1.5.0 | 3.6 3.7 3.8 3.9 |
@@ -743,6 +744,7 @@ which points to the latest version of the project.
 | jaraco-packaging | 8.2.1 | 3.6 3.7 3.8 3.9 |
 | jaraco-text | 3.5.1 | 3.6 3.7 3.8 3.9 |
 | javaproperties | 0.8.0 | 3.6 3.7 3.8 3.9 |
+| jax | 0.2.20 | 3.7 3.8 3.9 |
 | jaxlib | 0.1.71 | 3.7 3.8 3.9 |
 | jdcal | 1.4.1 | 3.6 3.7 3.8 3.9 |
 | jedi | 0.18.0 | 3.6 3.7 3.8 3.9 |
@@ -804,6 +806,7 @@ which points to the latest version of the project.
 | lazyutils | 0.3.3 | 3.6 3.7 3.8 3.9 |
 | ldap3 | 2.9.1 | 3.6 3.7 3.8 3.9 |
 | libcst | 0.3.20 | 3.6 3.7 3.8 3.9 |
+| libcst | 0.3.21 | 3.6 3.7 3.8 3.9 |
 | libsass | 0.21.0 | 3.6 3.7 3.8 3.9 |
 | lightgbm | 3.2.1 | 3.6 3.7 3.8 3.9 |
 | linecache2 | 1.0.0 | 3.6 3.7 3.8 3.9 |
@@ -916,6 +919,7 @@ which points to the latest version of the project.
 | newick | 1.3.0 | 3.7 3.8 3.9 |
 | newrelic | 6.8.1.164 | 3.6 3.7 3.8 3.9 |
 | nibabel | 3.2.1 | 3.6 3.7 3.8 3.9 |
+| ninja | 1.10.2.2 | 3.6 3.7 3.8 3.9 |
 | nltk | 3.6.2 | 3.6 3.7 3.8 3.9 |
 | nodeenv | 1.6.0 | 3.7 3.8 3.9 |
 | nose | 1.3.7 | 3.6 3.7 3.8 3.9 |
@@ -1380,6 +1384,7 @@ which points to the latest version of the project.
 | pytube | 11.0.1 | 3.6 3.7 3.8 3.9 |
 | pytweening | 1.0.3 | 3.6 3.7 3.8 3.9 |
 | pytweening | 1.0.4 | 3.6 3.7 3.8 3.9 |
+| pytype | 2021.10.4 | 3.6 3.7 3.8 3.9 |
 | pytz | 2021.1 | 3.6 3.7 3.8 3.9 |
 | pytzdata | 2020.1 | 3.6 3.7 3.8 3.9 |
 | pyusb | 1.2.1 | 3.6 3.7 3.8 3.9 |
@@ -1670,7 +1675,7 @@ which points to the latest version of the project.
 | transformers | 4.10.2 | 3.7 3.8 3.9 |
 | transitions | 0.8.9 | 3.6 3.7 3.8 3.9 |
 | translationstring | 1.4 | 3.6 3.7 3.8 3.9 |
-| tree-sitter | 0.19.0 | 3.6 3.7 3.8 3.9 |
+| tree-sitter | 0.19.0 | 3.6 3.8 3.9 |
 | trimesh | 3.9.30 | 3.7 3.8 3.9 |
 | trio | 0.19.0 | 3.6 3.7 3.8 3.9 |
 | troposphere | 3.0.3 | 3.7 3.8 3.9 |
@@ -1688,7 +1693,7 @@ which points to the latest version of the project.
 | twisted | 21.2.0 | 3.6 |
 | twisted | 21.7.0 | 3.7 3.8 3.9 |
 | txaio | 21.2.1 | 3.6 3.7 3.8 3.9 |
-| typed-ast | 1.4.3 | 3.6 3.7 |
+| typed-ast | 1.4.3 | 3.6 3.7 3.8 3.9 |
 | typeguard | 2.12.1 | 3.6 3.7 3.8 3.9 |
 | typer | 0.3.2 | 3.6 3.7 3.8 3.9 |
 | typer | 0.4.0 | 3.6 3.7 3.8 3.9 |
