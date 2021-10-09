@@ -17,8 +17,7 @@ function main {
     && popd \
     && just build "projects.${project}" \
     && git add "projects/${project}" \
-    && git commit -m "feat(conf): ${project}" \
-    && git push
+    && git commit -m "feat(conf): ${project}"
 }
 
 main "${@}"
