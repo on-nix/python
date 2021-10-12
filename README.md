@@ -172,7 +172,7 @@ which points to the latest version of the project.
 | attrs | 20.3.0 | 3.6 3.7 3.8 3.9 |
 | attrs | 21.2.0 | 3.6 3.7 3.8 3.9 |
 | audioread | 2.1.9 | 3.6 3.7 3.8 3.9 |
-| authencoding | 4.3 | 3.6 3.7 |
+| authencoding | 4.3 | 3.6 3.7 3.8 3.9 |
 | authlib | 0.15.4 | 3.6 3.7 3.8 3.9 |
 | autobahn | 21.2.1 | 3.6 |
 | autobahn | 21.3.1 | 3.7 3.8 3.9 |
@@ -471,6 +471,7 @@ which points to the latest version of the project.
 | docker-services-cli | 0.3.1 | 3.6 3.7 3.8 3.9 |
 | docopt | 0.6.2 | 3.6 3.7 3.8 3.9 |
 | docplex | 2.22.213 | 3.6 3.7 3.8 3.9 |
+| documenttemplate | 4.0 | 3.6 3.7 3.8 3.9 |
 | docutils | 0.15.2 | 3.6 3.7 3.8 3.9 |
 | docutils | 0.16 | 3.6 3.7 3.8 3.9 |
 | docutils | 0.17.1 | 3.6 3.7 3.8 3.9 |
@@ -1386,6 +1387,7 @@ which points to the latest version of the project.
 | pytweening | 1.0.4 | 3.6 3.7 3.8 3.9 |
 | pytype | 2021.10.4 | 3.6 3.7 3.8 3.9 |
 | pytz | 2021.1 | 3.6 3.7 3.8 3.9 |
+| pytz | 2021.3 | 3.6 3.7 3.8 3.9 |
 | pytzdata | 2020.1 | 3.6 3.7 3.8 3.9 |
 | pyusb | 1.2.1 | 3.6 3.7 3.8 3.9 |
 | pyvisa | 1.11.3 | 3.6 3.7 3.8 3.9 |
@@ -1452,6 +1454,7 @@ which points to the latest version of the project.
 | rfc3986 | 1.5.0 | 3.6 3.7 3.8 3.9 |
 | rfc3987 | 1.3.8 | 3.6 3.7 3.8 3.9 |
 | rgbxy | 0.5 | 3.6 3.7 3.8 3.9 |
+| rich | 10.12.0 | 3.7 3.8 3.9 |
 | rich | 10.9.0 | 3.6 3.7 3.8 3.9 |
 | rjsmin | 1.1.0 | 3.6 3.7 3.8 3.9 |
 | robotframework | 4.1.1 | 3.6 3.7 3.8 3.9 |
@@ -1629,6 +1632,7 @@ which points to the latest version of the project.
 | textfsm | 1.1.2 | 3.6 3.7 3.8 3.9 |
 | textrazor | 1.4.0 | 3.6 3.7 3.8 3.9 |
 | texttable | 1.6.4 | 3.6 3.7 3.8 3.9 |
+| textual | 0.1.12 | 3.7 3.8 3.9 |
 | text-unidecode | 1.3 | 3.6 3.7 3.8 3.9 |
 | textwrap3 | 0.9.2 | 3.6 3.7 3.8 3.9 |
 | the | 0.1.5 | 3.6 3.7 3.8 3.9 |
@@ -1670,7 +1674,7 @@ which points to the latest version of the project.
 | traitlets | 4.3.3 | 3.6 |
 | traitlets | 5.1.0 | 3.7 3.8 3.9 |
 | trans | 2.1.0 | 3.6 3.7 3.8 3.9 |
-| transaction | 3.0.1 | 3.6 3.7 3.8 |
+| transaction | 3.0.1 | 3.6 3.7 3.8 3.9 |
 | transformers | 4.10.0 | 3.6 3.7 3.8 3.9 |
 | transformers | 4.10.2 | 3.7 3.8 3.9 |
 | transitions | 0.8.9 | 3.6 3.7 3.8 3.9 |
@@ -1815,14 +1819,16 @@ which points to the latest version of the project.
 | zeep | 4.1.0 | 3.6 3.7 3.8 3.9 |
 | zenpy | 2.0.24 | 3.6 3.7 3.8 3.9 |
 | zeo | 5.2.3 | 3.6 3.7 3.8 3.9 |
-| zexceptions | 4.1 | 3.6 3.7 3.8 |
+| zexceptions | 4.1 | 3.6 3.7 3.8 3.9 |
 | zict | 2.0.0 | 3.7 3.8 3.9 |
 | zipp | 3.5.0 | 3.6 3.7 3.8 3.9 |
 | zmq | 0.0.0 | 3.6 3.7 3.8 3.9 |
 | zodb | 5.6.0 | 3.6 3.7 3.8 3.9 |
 | zodb3 | 3.11.0 | 3.6 3.7 3.8 3.9 |
 | zodbpickle | 2.0.0 | 3.6 3.7 3.8 3.9 |
+| zodbpickle | 2.2.0 | 3.6 3.7 3.8 3.9 |
 | zope | 5.3 | 3.6 3.7 3.8 3.9 |
+| zope2 | 4.0 | 3.6 3.7 3.8 3.9 |
 | zope-annotation | 4.7.0 | 3.6 3.7 3.8 3.9 |
 | zope-app-locales | 4.1 | 3.6 3.7 3.8 3.9 |
 | zope-browser | 2.3 | 3.6 3.7 3.8 3.9 |

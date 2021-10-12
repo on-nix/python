@@ -13,11 +13,14 @@ jobs:
     - run: just build projects.about-time
     - run: just build projects.absl-py
     - run: just build projects.access-points
+    - run: just build projects.accesscontrol
     - run: just build projects.acme
+    - run: just build projects.acquisition
     - run: just build projects.adal
     - run: just build projects.addict
     - run: just build projects.aenum
     - run: just build projects.affine
+    - run: just build projects.aio-pika
     - run: just build projects.aioboto3
     - run: just build projects.aiobotocore
     - run: just build projects.aiocontextvars
@@ -28,18 +31,28 @@ jobs:
     - run: just build projects.aiogqlc
     - run: just build projects.aiohttp
     - run: just build projects.aiohttp-apispec
+    - run: just build projects.aiohttp-cors
     - run: just build projects.aioitertools
     - run: just build projects.aiomultiprocess
+    - run: just build projects.aiomysql
     - run: just build projects.aioredis
+    - run: just build projects.aiormq
+    - run: just build projects.aiosqlite
     - run: just build projects.alabaster
     - run: just build projects.albumentations
     - run: just build projects.alembic
     - run: just build projects.alibabacloud-credentials
+    - run: just build projects.alibabacloud-credentials-py2
     - run: just build projects.alibabacloud-endpoint-util
+    - run: just build projects.alibabacloud-endpoint-util-py2
     - run: just build projects.alibabacloud-openapi-util
     - run: just build projects.alibabacloud-tea
+    - run: just build projects.alibabacloud-tea-openapi
+    - run: just build projects.alibabacloud-tea-py2
     - run: just build projects.alibabacloud-tea-util
+    - run: just build projects.alibabacloud-tea-util-py2
     - run: just build projects.alive-progress
+    - run: just build projects.aliyun-python-sdk-core
     - run: just build projects.alphalens
     - run: just build projects.altair
     - run: just build projects.amazon-dax-client
@@ -48,6 +61,7 @@ jobs:
     - run: just build projects.anndata
     - run: just build projects.ansible
     - run: just build projects.ansible-core
+    - run: just build projects.ansiwrap
     - run: just build projects.antlr4-python3-runtime
     - run: just build projects.anyascii
     - run: just build projects.anyio
@@ -57,14 +71,7 @@ jobs:
     - run: just build projects.apispec
     - run: just build projects.appdirs
     - run: just build projects.appium-python-client
-  build01:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - uses: cachix/install-nix-action@v13
-    - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
-    - run: nix-channel --update
-    - run: nix-env -i just
+    - run: just build projects.applicationinsights
     - run: just build projects.appnope
     - run: just build projects.apscheduler
     - run: just build projects.argcomplete
@@ -74,6 +81,7 @@ jobs:
     - run: just build projects.args
     - run: just build projects.ariadne
     - run: just build projects.arrow
+    - run: just build projects.arviz
     - run: just build projects.asciitree
     - run: just build projects.ase
     - run: just build projects.asgi-csrf
@@ -82,37 +90,9 @@ jobs:
     - run: just build projects.astor
     - run: just build projects.astroid
     - run: just build projects.astropy
+    - run: just build projects.astroquery
     - run: just build projects.astunparse
-    - run: just build projects.async-generator
-    - run: just build projects.async-lru
-    - run: just build projects.async-timeout
-    - run: just build projects.atomicwrites
-    - run: just build projects.attrs
-    - run: just build projects.audioread
-    - run: just build projects.authlib
-    - run: just build projects.autobahn
-    - run: just build projects.autoflake
-    - run: just build projects.automat
-    - run: just build projects.autopage
-    - run: just build projects.autopep8
-    - run: just build projects.aws-cdk-cloud-assembly-schema
-    - run: just build projects.aws-lambda-builders
-    - run: just build projects.aws-okta-processor
-    - run: just build projects.aws-sam-translator
-    - run: just build projects.aws-xray-sdk
-    - run: just build projects.awscli
-    - run: just build projects.babel
-    - run: just build projects.backcall
-    - run: just build projects.backoff
-    - run: just build projects.backports-csv
-    - run: just build projects.backports-entry-points-selectable
-    - run: just build projects.backports-zoneinfo
-    - run: just build projects.base58
-    - run: just build projects.bcrypt
-    - run: just build projects.beautifulsoup4
-    - run: just build projects.bidict
-    - run: just build projects.billiard
-  build02:
+  build01:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -120,6 +100,77 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.async-generator
+    - run: just build projects.async-lru
+    - run: just build projects.async-timeout
+    - run: just build projects.asyncpg
+    - run: just build projects.asyncssh
+    - run: just build projects.asynctest
+    - run: just build projects.atomicwrites
+    - run: just build projects.attrdict
+    - run: just build projects.attrs
+    - run: just build projects.audioread
+    - run: just build projects.authencoding
+    - run: just build projects.authlib
+    - run: just build projects.autobahn
+    - run: just build projects.autoflake
+    - run: just build projects.autograd
+    - run: just build projects.automat
+    - run: just build projects.autopage
+    - run: just build projects.autopep8
+    - run: just build projects.aws-cdk-assets
+    - run: just build projects.aws-cdk-aws-applicationautoscaling
+    - run: just build projects.aws-cdk-aws-autoscaling-common
+    - run: just build projects.aws-cdk-aws-cloudwatch
+    - run: just build projects.aws-cdk-aws-codeguruprofiler
+    - run: just build projects.aws-cdk-aws-codestarnotifications
+    - run: just build projects.aws-cdk-aws-ec2
+    - run: just build projects.aws-cdk-aws-ecr
+    - run: just build projects.aws-cdk-aws-events
+    - run: just build projects.aws-cdk-aws-iam
+    - run: just build projects.aws-cdk-aws-kms
+    - run: just build projects.aws-cdk-aws-logs
+    - run: just build projects.aws-cdk-aws-s3
+    - run: just build projects.aws-cdk-aws-s3-assets
+    - run: just build projects.aws-cdk-aws-signer
+    - run: just build projects.aws-cdk-aws-sns
+    - run: just build projects.aws-cdk-aws-sqs
+    - run: just build projects.aws-cdk-aws-ssm
+    - run: just build projects.aws-cdk-cloud-assembly-schema
+    - run: just build projects.aws-cdk-core
+    - run: just build projects.aws-cdk-cx-api
+    - run: just build projects.aws-cdk-region-info
+    - run: just build projects.aws-lambda-builders
+    - run: just build projects.aws-okta-processor
+    - run: just build projects.aws-sam-translator
+    - run: just build projects.aws-xray-sdk
+    - run: just build projects.awscli
+    - run: just build projects.azure-cli-command-modules-nspkg
+    - run: just build projects.azure-cli-nspkg
+    - run: just build projects.azure-common
+    - run: just build projects.azure-core
+    - run: just build projects.azure-graphrbac
+    - run: just build projects.azure-mgmt-authorization
+    - run: just build projects.azure-mgmt-compute
+    - run: just build projects.azure-mgmt-core
+    - run: just build projects.azure-mgmt-nspkg
+    - run: just build projects.azure-mgmt-resource
+    - run: just build projects.azure-nspkg
+    - run: just build projects.azure-storage-blob
+    - run: just build projects.babel
+    - run: just build projects.backcall
+    - run: just build projects.backoff
+    - run: just build projects.backports-csv
+    - run: just build projects.backports-entry-points-selectable
+    - run: just build projects.backports-functools-lru-cache
+    - run: just build projects.backports-zoneinfo
+    - run: just build projects.base58
+    - run: just build projects.bcrypt
+    - run: just build projects.beautifulsoup4
+    - run: just build projects.behave
+    - run: just build projects.bibtexparser
+    - run: just build projects.bidict
+    - run: just build projects.billiard
     - run: just build projects.binaryornot
     - run: just build projects.biopython
     - run: just build projects.bitarray
@@ -131,9 +182,18 @@ jobs:
     - run: just build projects.blinker
     - run: just build projects.blis
     - run: just build projects.bluemix-service-discovery
+  build02:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: cachix/install-nix-action@v13
+    - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
+    - run: nix-channel --update
+    - run: nix-env -i just
     - run: just build projects.bokeh
     - run: just build projects.boltons
     - run: just build projects.bootstrap-admin
+    - run: just build projects.borg-localrole
     - run: just build projects.boto
     - run: just build projects.boto3
     - run: just build projects.boto3-type-annotations
@@ -143,6 +203,7 @@ jobs:
     - run: just build projects.brotli
     - run: just build projects.brotlicffi
     - run: just build projects.bs4
+    - run: just build projects.bson
     - run: just build projects.btrees
     - run: just build projects.bugsnag
     - run: just build projects.build
@@ -151,13 +212,21 @@ jobs:
     - run: just build projects.cachecontrol
     - run: just build projects.cached-property
     - run: just build projects.cachetools
+    - run: just build projects.cachey
+    - run: just build projects.cachy
+    - run: just build projects.calmjs-parse
     - run: just build projects.capacity
+    - run: just build projects.cassandra-driver
     - run: just build projects.catalogue
+    - run: just build projects.catboost
     - run: just build projects.category-encoders
     - run: just build projects.catkin-pkg
     - run: just build projects.cattrs
+    - run: just build projects.cbor2
+    - run: just build projects.cchardet
     - run: just build projects.cdiff
     - run: just build projects.celery
+    - run: just build projects.certbot
     - run: just build projects.certifi
     - run: just build projects.certipy
     - run: just build projects.cffi
@@ -165,8 +234,44 @@ jobs:
     - run: just build projects.cfn-flip
     - run: just build projects.cfn-lint
     - run: just build projects.cftime
+    - run: just build projects.chameleon
+    - run: just build projects.channels
     - run: just build projects.chardet
     - run: just build projects.charset-normalizer
+    - run: just build projects.check-manifest
+    - run: just build projects.cheroot
+    - run: just build projects.cherrypy
+    - run: just build projects.ciso8601
+    - run: just build projects.clang
+    - run: just build projects.cleo
+    - run: just build projects.cliar
+    - run: just build projects.click
+    - run: just build projects.click-completion
+    - run: just build projects.click-default-group
+    - run: just build projects.click-didyoumean
+    - run: just build projects.click-help-colors
+    - run: just build projects.click-log
+    - run: just build projects.click-plugins
+    - run: just build projects.click-repl
+    - run: just build projects.click-spinner
+    - run: just build projects.clickclick
+    - run: just build projects.cliff
+    - run: just build projects.cligj
+    - run: just build projects.clikit
+    - run: just build projects.clint
+    - run: just build projects.cloudmersive-virus-api-client
+    - run: just build projects.cloudpickle
+    - run: just build projects.cmaes
+    - run: just build projects.cmake
+    - run: just build projects.cmd2
+    - run: just build projects.codecov
+    - run: just build projects.collective-monkeypatcher
+    - run: just build projects.colorama
+    - run: just build projects.colorcet
+    - run: just build projects.colorclass
+    - run: just build projects.colored
+    - run: just build projects.colorlog
+    - run: just build projects.commonmark
   build03:
     runs-on: ubuntu-latest
     steps:
@@ -175,53 +280,88 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
-    - run: just build projects.cheroot
-    - run: just build projects.clang
-    - run: just build projects.cleo
-    - run: just build projects.click
-    - run: just build projects.click-default-group
-    - run: just build projects.click-didyoumean
-    - run: just build projects.click-help-colors
-    - run: just build projects.click-log
-    - run: just build projects.click-plugins
-    - run: just build projects.click-repl
-    - run: just build projects.clickclick
-    - run: just build projects.cligj
-    - run: just build projects.cloudmersive-virus-api-client
-    - run: just build projects.cloudpickle
-    - run: just build projects.cmaes
-    - run: just build projects.codecov
-    - run: just build projects.colorama
-    - run: just build projects.colorclass
-    - run: just build projects.colored
-    - run: just build projects.colorlog
-    - run: just build projects.commonmark
     - run: just build projects.configargparse
     - run: just build projects.configobj
     - run: just build projects.configparser
     - run: just build projects.confluent-kafka
     - run: just build projects.confuse
+    - run: just build projects.connection-pool
     - run: just build projects.constantly
     - run: just build projects.construct
+    - run: just build projects.constructs
     - run: just build projects.contextlib2
     - run: just build projects.contextvars
+    - run: just build projects.convertdate
     - run: just build projects.cookiecutter
     - run: just build projects.copyright
+    - run: just build projects.coreschema
+    - run: just build projects.corner
     - run: just build projects.countrycode
     - run: just build projects.coverage
+    - run: just build projects.coverage-badge
     - run: just build projects.coveralls
+    - run: just build projects.cramjam
+    - run: just build projects.crashtest
     - run: just build projects.crayons
     - run: just build projects.croniter
     - run: just build projects.cryptography
     - run: just build projects.cssmin
     - run: just build projects.cssselect
     - run: just build projects.cssselect2
+    - run: just build projects.cssutils
+    - run: just build projects.cvxopt
+    - run: just build projects.cx-oracle
     - run: just build projects.cycler
     - run: just build projects.cymem
     - run: just build projects.cython
     - run: just build projects.cytoolz
+    - run: just build projects.dacite
     - run: just build projects.dask
     - run: just build projects.databricks-cli
+    - run: just build projects.dataclasses
+    - run: just build projects.dataclasses-json
+    - run: just build projects.datadog
+    - run: just build projects.datasets
+    - run: just build projects.datasette
+    - run: just build projects.dateparser
+    - run: just build projects.datetime
+    - run: just build projects.dateutils
+    - run: just build projects.datrie
+    - run: just build projects.dbutils
+    - run: just build projects.ddt
+    - run: just build projects.debtcollector
+    - run: just build projects.debugpy
+    - run: just build projects.decorator
+    - run: just build projects.deepdiff
+    - run: just build projects.deepmerge
+    - run: just build projects.defusedxml
+    - run: just build projects.delighted
+    - run: just build projects.demands
+    - run: just build projects.demes
+    - run: just build projects.deprecated
+    - run: just build projects.deprecation
+    - run: just build projects.descartes
+    - run: just build projects.diazo
+    - run: just build projects.dictdiffer
+    - run: just build projects.dicttoxml
+    - run: just build projects.dill
+    - run: just build projects.discord
+    - run: just build projects.discord-py
+    - run: just build projects.discover
+    - run: just build projects.diskcache
+    - run: just build projects.distlib
+    - run: just build projects.distributed
+    - run: just build projects.distro
+    - run: just build projects.dj-database-url
+    - run: just build projects.django
+    - run: just build projects.django-allauth
+    - run: just build projects.django-anymail
+    - run: just build projects.django-appconf
+    - run: just build projects.django-cache-url
+    - run: just build projects.django-cacheops
+    - run: just build projects.django-classy-tags
+    - run: just build projects.django-cleanup
+    - run: just build projects.django-cors-headers
   build04:
     runs-on: ubuntu-latest
     steps:
@@ -230,53 +370,88 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
-    - run: just build projects.dataclasses
-    - run: just build projects.dataclasses-json
-    - run: just build projects.datasette
-    - run: just build projects.dateparser
-    - run: just build projects.datetime
-    - run: just build projects.dateutils
-    - run: just build projects.debtcollector
-    - run: just build projects.debugpy
-    - run: just build projects.decorator
-    - run: just build projects.deepdiff
-    - run: just build projects.defusedxml
-    - run: just build projects.delighted
-    - run: just build projects.demands
-    - run: just build projects.demes
-    - run: just build projects.deprecated
-    - run: just build projects.dill
-    - run: just build projects.discover
-    - run: just build projects.distlib
-    - run: just build projects.distributed
-    - run: just build projects.distro
-    - run: just build projects.dj-database-url
-    - run: just build projects.django
-    - run: just build projects.django-allauth
-    - run: just build projects.django-anymail
-    - run: just build projects.django-cache-url
-    - run: just build projects.django-cacheops
-    - run: just build projects.django-cleanup
+    - run: just build projects.django-crispy-forms
+    - run: just build projects.django-debug-toolbar
+    - run: just build projects.django-environ
     - run: just build projects.django-extensions
+    - run: just build projects.django-filer
     - run: just build projects.django-filter
+    - run: just build projects.django-js-asset
     - run: just build projects.django-modelcluster
+    - run: just build projects.django-polymorphic
+    - run: just build projects.django-redis
     - run: just build projects.django-rest-passwordreset
     - run: just build projects.django-taggit
     - run: just build projects.django-treebeard
+    - run: just build projects.djangocms-admin-style
     - run: just build projects.djangorestframework
+    - run: just build projects.dlx
     - run: just build projects.dm-tree
     - run: just build projects.dnslib
     - run: just build projects.dnspython
     - run: just build projects.docker
+    - run: just build projects.docker-compose
+    - run: just build projects.docker-py
+    - run: just build projects.docker-pycreds
+    - run: just build projects.docker-services-cli
+    - run: just build projects.dockerpty
     - run: just build projects.docopt
+    - run: just build projects.docplex
+    - run: just build projects.documenttemplate
     - run: just build projects.docutils
     - run: just build projects.docxcompose
     - run: just build projects.docxtpl
     - run: just build projects.dodgy
+    - run: just build projects.dogpile-cache
     - run: just build projects.dominate
+    - run: just build projects.dotmap
+    - run: just build projects.dparse
     - run: just build projects.dpath
     - run: just build projects.draftjs-exporter
+    - run: just build projects.dropbox
     - run: just build projects.dtw
+    - run: just build projects.duckduckpy
+    - run: just build projects.dulwich
+    - run: just build projects.dynaconf
+    - run: just build projects.easy-thumbnails
+    - run: just build projects.easyprocess
+    - run: just build projects.ecdsa
+    - run: just build projects.einops
+    - run: just build projects.elasticsearch
+    - run: just build projects.elasticsearch-dsl
+    - run: just build projects.email-validator
+    - run: just build projects.emcee
+    - run: just build projects.emoji
+    - run: just build projects.empyrical
+    - run: just build projects.entrypoints
+    - run: just build projects.enum-compat
+    - run: just build projects.enum34
+    - run: just build projects.environs
+    - run: just build projects.et-xmlfile
+    - run: just build projects.eth-hash
+    - run: just build projects.eth-typing
+    - run: just build projects.exception
+    - run: just build projects.execnet
+    - run: just build projects.exponent-server-sdk
+    - run: just build projects.extensionclass
+    - run: just build projects.extras
+    - run: just build projects.fabric
+    - run: just build projects.fake-useragent
+    - run: just build projects.faker
+    - run: just build projects.falcon
+    - run: just build projects.fastai
+    - run: just build projects.fastapi
+    - run: just build projects.fastavro
+    - run: just build projects.fastcore
+    - run: just build projects.fastdownload
+    - run: just build projects.fastdtw
+    - run: just build projects.fastjsonschema
+    - run: just build projects.fastprogress
+    - run: just build projects.fb
+    - run: just build projects.fdk
+    - run: just build projects.feedgenerator
+    - run: just build projects.feedparser
+    - run: just build projects.ffmpeg-python
   build05:
     runs-on: ubuntu-latest
     steps:
@@ -285,44 +460,35 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
-    - run: just build projects.duckduckpy
-    - run: just build projects.dulwich
-    - run: just build projects.dynaconf
-    - run: just build projects.easyprocess
-    - run: just build projects.ecdsa
-    - run: just build projects.elasticsearch
-    - run: just build projects.email-validator
-    - run: just build projects.emoji
-    - run: just build projects.empyrical
-    - run: just build projects.entrypoints
-    - run: just build projects.enum34
-    - run: just build projects.et-xmlfile
-    - run: just build projects.eth-hash
-    - run: just build projects.eth-typing
-    - run: just build projects.exception
-    - run: just build projects.execnet
-    - run: just build projects.exponent-server-sdk
-    - run: just build projects.fake-useragent
-    - run: just build projects.faker
-    - run: just build projects.falcon
-    - run: just build projects.fastapi
-    - run: just build projects.fb
-    - run: just build projects.fdk
-    - run: just build projects.feedparser
     - run: just build projects.filelock
+    - run: just build projects.filetype
     - run: just build projects.fire
+    - run: just build projects.five-customerize
+    - run: just build projects.five-intid
+    - run: just build projects.five-localsitemanager
     - run: just build projects.flake8
+    - run: just build projects.flake8-bugbear
+    - run: just build projects.flake8-comprehensions
     - run: just build projects.flake8-docstrings
     - run: just build projects.flake8-import-order
+    - run: just build projects.flake8-isort
     - run: just build projects.flake8-polyfill
+    - run: just build projects.flake8-print
+    - run: just build projects.flake8-quotes
     - run: just build projects.flask
+    - run: just build projects.flask-admin
     - run: just build projects.flask-appbuilder
     - run: just build projects.flask-babel
+    - run: just build projects.flask-babelex
     - run: just build projects.flask-caching
+    - run: just build projects.flask-compress
     - run: just build projects.flask-cors
     - run: just build projects.flask-debugtoolbar
+    - run: just build projects.flask-httpauth
     - run: just build projects.flask-jwt-extended
     - run: just build projects.flask-login
+    - run: just build projects.flask-mail
+    - run: just build projects.flask-marshmallow
     - run: just build projects.flask-moment
     - run: just build projects.flask-openid
     - run: just build projects.flask-pytest
@@ -330,8 +496,52 @@ jobs:
     - run: just build projects.flask-restful
     - run: just build projects.flask-reverse-proxy
     - run: just build projects.flask-shell-ipython
+    - run: just build projects.flask-socketio
     - run: just build projects.flask-sqlalchemy
     - run: just build projects.flask-weasyprint
+    - run: just build projects.flask-wtf
+    - run: just build projects.flatbuffers
+    - run: just build projects.folium
+    - run: just build projects.fonttools
+    - run: just build projects.formal
+    - run: just build projects.fpdf
+    - run: just build projects.freetype-py
+    - run: just build projects.freezegun
+    - run: just build projects.frozendict
+    - run: just build projects.fsspec
+    - run: just build projects.ftfy
+    - run: just build projects.funcsigs
+    - run: just build projects.funcy
+    - run: just build projects.furl
+    - run: just build projects.furo
+    - run: just build projects.future
+    - run: just build projects.future-fstrings
+    - run: just build projects.futurist
+    - run: just build projects.fuzzywuzzy
+    - run: just build projects.gast
+    - run: just build projects.gcsfs
+    - run: just build projects.genshi
+    - run: just build projects.gensim
+    - run: just build projects.geoalchemy2
+    - run: just build projects.geocoder
+    - run: just build projects.geographiclib
+    - run: just build projects.geoip2
+    - run: just build projects.geojson
+    - run: just build projects.geomet
+    - run: just build projects.getdist
+    - run: just build projects.gevent
+    - run: just build projects.gg
+    - run: just build projects.ghp-import
+    - run: just build projects.gitdb
+    - run: just build projects.gitdb2
+    - run: just build projects.github3-py
+    - run: just build projects.gitpython
+    - run: just build projects.glob2
+    - run: just build projects.google
+    - run: just build projects.google-api-core
+    - run: just build projects.google-api-python-client
+    - run: just build projects.google-auth
+    - run: just build projects.google-auth-httplib2
   build06:
     runs-on: ubuntu-latest
     steps:
@@ -340,62 +550,48 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
-    - run: just build projects.flask-wtf
-    - run: just build projects.flatbuffers
-    - run: just build projects.fonttools
-    - run: just build projects.formal
-    - run: just build projects.fpdf
-    - run: just build projects.freezegun
-    - run: just build projects.frozendict
-    - run: just build projects.fsspec
-    - run: just build projects.funcy
-    - run: just build projects.future
-    - run: just build projects.fuzzywuzzy
-    - run: just build projects.gast
-    - run: just build projects.genshi
-    - run: just build projects.gensim
-    - run: just build projects.geographiclib
-    - run: just build projects.geoip2
-    - run: just build projects.getdist
-    - run: just build projects.gevent
-    - run: just build projects.gg
-    - run: just build projects.ghp-import
-    - run: just build projects.gitdb
-    - run: just build projects.gitpython
-    - run: just build projects.glob2
-    - run: just build projects.google-api-core
-    - run: just build projects.google-api-python-client
-    - run: just build projects.google-auth
-    - run: just build projects.google-auth-httplib2
     - run: just build projects.google-auth-oauthlib
+    - run: just build projects.google-cloud
+    - run: just build projects.google-cloud-appengine-logging
+    - run: just build projects.google-cloud-bigquery
+    - run: just build projects.google-cloud-core
+    - run: just build projects.google-cloud-datastore
+    - run: just build projects.google-cloud-firestore
+    - run: just build projects.google-cloud-pubsub
     - run: just build projects.google-crc32c
     - run: just build projects.google-pasta
+    - run: just build projects.google-resumable-media
     - run: just build projects.googleapis-common-protos
     - run: just build projects.gql
     - run: just build projects.grapheme
+    - run: just build projects.graphene
     - run: just build projects.graphql-core
+    - run: just build projects.graphql-relay
     - run: just build projects.graphviz
     - run: just build projects.greeking
     - run: just build projects.greenlet
+    - run: just build projects.grequests
+    - run: just build projects.grpc-google-iam-v1
     - run: just build projects.grpcio
+    - run: just build projects.grpcio-health-checking
+    - run: just build projects.grpcio-tools
+    - run: just build projects.gspread
+    - run: just build projects.gtts
     - run: just build projects.gunicorn
     - run: just build projects.gym
     - run: just build projects.h11
     - run: just build projects.h2
     - run: just build projects.h5py
+    - run: just build projects.halo
     - run: just build projects.hdfs3
+    - run: just build projects.healpy
     - run: just build projects.heapdict
     - run: just build projects.hexbytes
+    - run: just build projects.hidapi
     - run: just build projects.hiredis
-  build07:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - uses: cachix/install-nix-action@v13
-    - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
-    - run: nix-channel --update
-    - run: nix-env -i just
     - run: just build projects.hpack
+    - run: just build projects.hsluv
+    - run: just build projects.hstspreload
     - run: just build projects.html2text
     - run: just build projects.html5lib
     - run: just build projects.httpcore
@@ -404,28 +600,50 @@ jobs:
     - run: just build projects.httpretty
     - run: just build projects.httptools
     - run: just build projects.httpx
+    - run: just build projects.huaweicloudsdkcore
     - run: just build projects.huggingface-hub
     - run: just build projects.hupper
+    - run: just build projects.hvac
+    - run: just build projects.hydra-core
     - run: just build projects.hyperframe
     - run: just build projects.hyperlink
     - run: just build projects.hypothesis
     - run: just build projects.identify
     - run: just build projects.idna
     - run: just build projects.idna-ssl
+    - run: just build projects.ifaddr
+    - run: just build projects.ijson
     - run: just build projects.imageio
     - run: just build projects.imagesize
     - run: just build projects.imapclient
+    - run: just build projects.imbalanced-learn
+    - run: just build projects.imgaug
     - run: just build projects.immutables
+    - run: just build projects.importlab
     - run: just build projects.importlib-metadata
     - run: just build projects.importlib-resources
+    - run: just build projects.in-place
     - run: just build projects.incremental
+    - run: just build projects.inflect
     - run: just build projects.inflection
+    - run: just build projects.influxdb
     - run: just build projects.iniconfig
     - run: just build projects.int-date
+    - run: just build projects.intake
+    - run: just build projects.intervaltree
     - run: just build projects.invoke
+  build07:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: cachix/install-nix-action@v13
+    - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
+    - run: nix-channel --update
+    - run: nix-env -i just
     - run: just build projects.ipaddress
     - run: just build projects.ipdb
     - run: just build projects.ipfshttpclient
+    - run: just build projects.ipy
     - run: just build projects.ipython
     - run: just build projects.ipython-genutils
     - run: just build projects.iso8601
@@ -435,13 +653,75 @@ jobs:
     - run: just build projects.itemadapter
     - run: just build projects.itemloaders
     - run: just build projects.itsdangerous
+    - run: just build projects.itypes
     - run: just build projects.janus
+    - run: just build projects.jaraco-classes
+    - run: just build projects.jaraco-collections
     - run: just build projects.jaraco-functools
+    - run: just build projects.jaraco-packaging
+    - run: just build projects.jaraco-text
     - run: just build projects.javaproperties
+    - run: just build projects.jax
+    - run: just build projects.jaxlib
     - run: just build projects.jdcal
     - run: just build projects.jedi
     - run: just build projects.jeepney
+    - run: just build projects.jellyfish
     - run: just build projects.jieba
+    - run: just build projects.jinja2
+    - run: just build projects.jinja2-time
+    - run: just build projects.jinja2-webpack
+    - run: just build projects.jinxed
+    - run: just build projects.jmespath
+    - run: just build projects.joblib
+    - run: just build projects.josepy
+    - run: just build projects.js2py
+    - run: just build projects.jsii
+    - run: just build projects.jsmin
+    - run: just build projects.json5
+    - run: just build projects.jsondiff
+    - run: just build projects.jsonfield
+    - run: just build projects.jsonpatch
+    - run: just build projects.jsonpath-ng
+    - run: just build projects.jsonpath-rw
+    - run: just build projects.jsonpickle
+    - run: just build projects.jsonpointer
+    - run: just build projects.jsonschema
+    - run: just build projects.junit-xml
+    - run: just build projects.jupyter-alabaster-theme
+    - run: just build projects.jupyter-telemetry
+    - run: just build projects.jupyterhub
+    - run: just build projects.jupyterlab-pygments
+    - run: just build projects.jupyterlab-widgets
+    - run: just build projects.jupytext
+    - run: just build projects.jwcrypto
+    - run: just build projects.kazoo
+    - run: just build projects.keras
+    - run: just build projects.keras-applications
+    - run: just build projects.keras-preprocessing
+    - run: just build projects.keyboard
+    - run: just build projects.keyring
+    - run: just build projects.keyrings-alt
+    - run: just build projects.kiwisolver
+    - run: just build projects.knack
+    - run: just build projects.kombu
+    - run: just build projects.kubernetes
+    - run: just build projects.l18n
+    - run: just build projects.langdetect
+    - run: just build projects.lark-parser
+    - run: just build projects.latexcodec
+    - run: just build projects.lazy-object-proxy
+    - run: just build projects.lazyutils
+    - run: just build projects.ldap3
+    - run: just build projects.libcst
+    - run: just build projects.libsass
+    - run: just build projects.lightgbm
+    - run: just build projects.linecache2
+    - run: just build projects.livereload
+    - run: just build projects.lizard
+    - run: just build projects.llvmlite
+    - run: just build projects.lmdb
+    - run: just build projects.lob
   build08:
     runs-on: ubuntu-latest
     steps:
@@ -450,63 +730,26 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
-    - run: just build projects.jinja2
-    - run: just build projects.jinja2-time
-    - run: just build projects.jinja2-webpack
-    - run: just build projects.jinxed
-    - run: just build projects.jmespath
-    - run: just build projects.joblib
-    - run: just build projects.josepy
-    - run: just build projects.jsii
-    - run: just build projects.jsmin
-    - run: just build projects.json5
-    - run: just build projects.jsondiff
-    - run: just build projects.jsonfield
-    - run: just build projects.jsonpatch
-    - run: just build projects.jsonpickle
-    - run: just build projects.jsonpointer
-    - run: just build projects.jsonschema
-    - run: just build projects.junit-xml
-    - run: just build projects.jupyter-alabaster-theme
-    - run: just build projects.jupyterlab-pygments
-    - run: just build projects.jupyterlab-widgets
-    - run: just build projects.jwcrypto
-    - run: just build projects.keras
-    - run: just build projects.keras-preprocessing
-    - run: just build projects.keyring
-    - run: just build projects.kiwisolver
-    - run: just build projects.kombu
-    - run: just build projects.kubernetes
-    - run: just build projects.l18n
-    - run: just build projects.lark-parser
-    - run: just build projects.lazy-object-proxy
-    - run: just build projects.lazyutils
-    - run: just build projects.lightgbm
-    - run: just build projects.livereload
-    - run: just build projects.lizard
-    - run: just build projects.llvmlite
-    - run: just build projects.lob
     - run: just build projects.localstack-client
     - run: just build projects.locket
     - run: just build projects.lockfile
+    - run: just build projects.log-symbols
     - run: just build projects.logbook
     - run: just build projects.loguru
     - run: just build projects.logzero
     - run: just build projects.lru-dict
+    - run: just build projects.luigi
     - run: just build projects.lxml
+    - run: just build projects.lz4
+    - run: just build projects.m2r
+    - run: just build projects.m2r2
+    - run: just build projects.m9s-trytond
     - run: just build projects.mailchimp-marketing
     - run: just build projects.mako
     - run: just build projects.mandrill-really-maintained
-  build09:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - uses: cachix/install-nix-action@v13
-    - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
-    - run: nix-channel --update
-    - run: nix-env -i just
     - run: just build projects.markdown
     - run: just build projects.markdown-checklist
+    - run: just build projects.markdown-it-py
     - run: just build projects.markdown2
     - run: just build projects.markupsafe
     - run: just build projects.marshmallow
@@ -517,41 +760,148 @@ jobs:
     - run: just build projects.masonite-cli
     - run: just build projects.matplotlib
     - run: just build projects.matplotlib-inline
+    - run: just build projects.maturin
     - run: just build projects.maxminddb
     - run: just build projects.mccabe
+    - run: just build projects.mdit-py-plugins
     - run: just build projects.mdp
     - run: just build projects.mechanicalsoup
     - run: just build projects.memoize
+    - run: just build projects.memory-profiler
     - run: just build projects.mergedeep
+    - run: just build projects.meshio
     - run: just build projects.metaloaders
+    - run: just build projects.mimeparse
+    - run: just build projects.minio
     - run: just build projects.mirakuru
+    - run: just build projects.missing
     - run: just build projects.mistune
     - run: just build projects.mixpanel
     - run: just build projects.mkdocs
+    - run: just build projects.mkdocs-autorefs
+    - run: just build projects.mmh3
+    - run: just build projects.mne
+    - run: just build projects.mnemonic
     - run: just build projects.mock
+    - run: just build projects.mockup
+    - run: just build projects.mongoengine
+    - run: just build projects.monotonic
+    - run: just build projects.monty
     - run: just build projects.more-itertools
     - run: just build projects.moto
+    - run: just build projects.motor
     - run: just build projects.mpmath
     - run: just build projects.mrcfile
+    - run: just build projects.msal
     - run: just build projects.msgpack
+    - run: just build projects.msgpack-python
     - run: just build projects.msprime
     - run: just build projects.msrest
+    - run: just build projects.msrestazure
     - run: just build projects.multiaddr
     - run: just build projects.multidict
+    - run: just build projects.multimapping
+    - run: just build projects.multipart
+    - run: just build projects.multipledispatch
     - run: just build projects.multiprocess
+    - run: just build projects.multitasking
     - run: just build projects.murmurhash
     - run: just build projects.mutagen
     - run: just build projects.mypy
     - run: just build projects.mypy-extensions
+    - run: just build projects.mysql-connector-python
+    - run: just build projects.myst-parser
+    - run: just build projects.napari-plugin-engine
+  build09:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: cachix/install-nix-action@v13
+    - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
+    - run: nix-channel --update
+    - run: nix-env -i just
     - run: just build projects.natsort
+    - run: just build projects.nbval
+    - run: just build projects.ndg-httpsclient
     - run: just build projects.nest-asyncio
     - run: just build projects.netaddr
+    - run: just build projects.netcdf4
     - run: just build projects.netifaces
+    - run: just build projects.netmiko
+    - run: just build projects.netron
     - run: just build projects.networkx
     - run: just build projects.newick
     - run: just build projects.newrelic
     - run: just build projects.nibabel
+    - run: just build projects.ninja
     - run: just build projects.nltk
+    - run: just build projects.nodeenv
+    - run: just build projects.nose
+    - run: just build projects.nose-test-select
+    - run: just build projects.nose2
+    - run: just build projects.nosexcover
+    - run: just build projects.nox
+    - run: just build projects.ntc-templates
+    - run: just build projects.ntlm-auth
+    - run: just build projects.nuitka
+    - run: just build projects.numpy
+    - run: just build projects.numpydoc
+    - run: just build projects.nvidia-ml-py3
+    - run: just build projects.oauth2client
+    - run: just build projects.oauthlib
+    - run: just build projects.olefile
+    - run: just build projects.omegaconf
+    - run: just build projects.on-http-redfish-1-0
+    - run: just build projects.openapi-schema-validator
+    - run: just build projects.opencensus
+    - run: just build projects.opencensus-context
+    - run: just build projects.opencl4py
+    - run: just build projects.opencv-python
+    - run: just build projects.opencv-python-headless
+    - run: just build projects.openpyxl
+    - run: just build projects.opentelemetry-api
+    - run: just build projects.opentelemetry-instrumentation
+    - run: just build projects.opentracing
+    - run: just build projects.opt-einsum
+    - run: just build projects.optuna
+    - run: just build projects.ordered-set
+    - run: just build projects.ordereddict
+    - run: just build projects.orderedmultidict
+    - run: just build projects.orjson
+    - run: just build projects.oscrypto
+    - run: just build projects.oslo-cache
+    - run: just build projects.oslo-concurrency
+    - run: just build projects.oslo-config
+    - run: just build projects.oslo-context
+    - run: just build projects.oslo-i18n
+    - run: just build projects.oslo-log
+    - run: just build projects.oslo-metrics
+    - run: just build projects.oslo-policy
+    - run: just build projects.oslo-serialization
+    - run: just build projects.oslo-utils
+    - run: just build projects.oslosphinx
+    - run: just build projects.outcome
+    - run: just build projects.oyaml
+    - run: just build projects.packaging
+    - run: just build projects.paho-mqtt
+    - run: just build projects.pamela
+    - run: just build projects.pamqp
+    - run: just build projects.pandas
+    - run: just build projects.pandas-datareader
+    - run: just build projects.pandocfilters
+    - run: just build projects.panel
+    - run: just build projects.para
+    - run: just build projects.param
+    - run: just build projects.parameterized
+    - run: just build projects.paramiko
+    - run: just build projects.parse
+    - run: just build projects.parse-type
+    - run: just build projects.parsedatetime
+    - run: just build projects.parsel
+    - run: just build projects.parsimonious
+    - run: just build projects.parso
+    - run: just build projects.partd
+    - run: just build projects.passlib
   build10:
     runs-on: ubuntu-latest
     steps:
@@ -560,53 +910,88 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
-    - run: just build projects.nodeenv
-    - run: just build projects.nose
-    - run: just build projects.nose-test-select
-    - run: just build projects.nosexcover
-    - run: just build projects.nuitka
-    - run: just build projects.numpy
-    - run: just build projects.numpydoc
-    - run: just build projects.oauth2client
-    - run: just build projects.oauthlib
-    - run: just build projects.olefile
-    - run: just build projects.on-http-redfish-1-0
-    - run: just build projects.openapi-schema-validator
-    - run: just build projects.opencl4py
-    - run: just build projects.opencv-python
-    - run: just build projects.opencv-python-headless
-    - run: just build projects.openpyxl
-    - run: just build projects.opt-einsum
-    - run: just build projects.ordered-set
-    - run: just build projects.orjson
-    - run: just build projects.oslo-config
-    - run: just build projects.oslo-context
-    - run: just build projects.oslo-i18n
-    - run: just build projects.oslo-log
-    - run: just build projects.oslo-serialization
-    - run: just build projects.oslo-utils
-    - run: just build projects.oslosphinx
-    - run: just build projects.oyaml
-    - run: just build projects.packaging
-    - run: just build projects.pandas
-    - run: just build projects.pandas-datareader
-    - run: just build projects.pandocfilters
-    - run: just build projects.para
-    - run: just build projects.paramiko
-    - run: just build projects.parsel
-    - run: just build projects.parsimonious
-    - run: just build projects.parso
-    - run: just build projects.partd
-    - run: just build projects.passlib
     - run: just build projects.paste
     - run: just build projects.pastedeploy
     - run: just build projects.pastel
     - run: just build projects.path
+    - run: just build projects.path-py
     - run: just build projects.pathlib
     - run: just build projects.pathlib2
     - run: just build projects.pathos
     - run: just build projects.pathspec
     - run: just build projects.pathtools
+    - run: just build projects.pathvalidate
+    - run: just build projects.pathy
+    - run: just build projects.patsy
+    - run: just build projects.pbr
+    - run: just build projects.pdf2image
+    - run: just build projects.pdfminer-six
+    - run: just build projects.peewee
+    - run: just build projects.pefile
+    - run: just build projects.pendulum
+    - run: just build projects.pep517
+    - run: just build projects.pep562
+    - run: just build projects.pep8
+    - run: just build projects.pep8-naming
+    - run: just build projects.peppercorn
+    - run: just build projects.persistence
+    - run: just build projects.persistent
+    - run: just build projects.pexpect
+    - run: just build projects.phonenumbers
+    - run: just build projects.pickleshare
+    - run: just build projects.piexif
+    - run: just build projects.pika
+    - run: just build projects.pillow
+    - run: just build projects.pint
+    - run: just build projects.pip
+    - run: just build projects.pip-check
+    - run: just build projects.pip-check-reqs
+    - run: just build projects.pip-tools
+    - run: just build projects.pip-upgrader
+    - run: just build projects.pipenv
+    - run: just build projects.pkginfo
+    - run: just build projects.plac
+    - run: just build projects.plantweb
+    - run: just build projects.plaster
+    - run: just build projects.plaster-pastedeploy
+    - run: just build projects.platformdirs
+    - run: just build projects.playsound
+    - run: just build projects.plexauth
+    - run: just build projects.plone-alterego
+    - run: just build projects.plone-app-caching
+    - run: just build projects.plone-app-contentlisting
+    - run: just build projects.plone-app-contentmenu
+    - run: just build projects.plone-app-contentrules
+    - run: just build projects.plone-app-customerize
+    - run: just build projects.plone-app-i18n
+    - run: just build projects.plone-app-intid
+    - run: just build projects.plone-app-layout
+    - run: just build projects.plone-app-locales
+    - run: just build projects.plone-app-portlets
+    - run: just build projects.plone-app-querystring
+    - run: just build projects.plone-app-redirector
+    - run: just build projects.plone-app-registry
+    - run: just build projects.plone-app-textfield
+    - run: just build projects.plone-app-theming
+    - run: just build projects.plone-app-users
+    - run: just build projects.plone-app-uuid
+    - run: just build projects.plone-app-viewletmanager
+    - run: just build projects.plone-app-vocabularies
+    - run: just build projects.plone-app-widgets
+    - run: just build projects.plone-autoform
+    - run: just build projects.plone-batching
+    - run: just build projects.plone-behavior
+    - run: just build projects.plone-browserlayer
+    - run: just build projects.plone-cachepurging
+    - run: just build projects.plone-caching
+    - run: just build projects.plone-contentrules
+    - run: just build projects.plone-event
+    - run: just build projects.plone-folder
+    - run: just build projects.plone-formwidget-recurrence
+    - run: just build projects.plone-i18n
+    - run: just build projects.plone-indexer
+    - run: just build projects.plone-intelligenttext
+    - run: just build projects.plone-keyring
   build11:
     runs-on: ubuntu-latest
     steps:
@@ -615,46 +1000,47 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
-    - run: just build projects.pathy
-    - run: just build projects.patsy
-    - run: just build projects.pbr
-    - run: just build projects.peewee
-    - run: just build projects.pendulum
-    - run: just build projects.pep517
-    - run: just build projects.pep562
-    - run: just build projects.pep8
-    - run: just build projects.pep8-naming
-    - run: just build projects.peppercorn
-    - run: just build projects.persistent
-    - run: just build projects.pexpect
-    - run: just build projects.phonenumbers
-    - run: just build projects.pickleshare
-    - run: just build projects.pika
-    - run: just build projects.pillow
-    - run: just build projects.pint
-    - run: just build projects.pip
-    - run: just build projects.pip-check
-    - run: just build projects.pip-check-reqs
-    - run: just build projects.pip-upgrader
-    - run: just build projects.pkginfo
-    - run: just build projects.plac
-    - run: just build projects.plantweb
-    - run: just build projects.plaster
-    - run: just build projects.plaster-pastedeploy
-    - run: just build projects.platformdirs
-    - run: just build projects.plexauth
+    - run: just build projects.plone-locking
+    - run: just build projects.plone-memoize
+    - run: just build projects.plone-outputfilters
+    - run: just build projects.plone-portlet-collection
+    - run: just build projects.plone-portlet-static
+    - run: just build projects.plone-portlets
+    - run: just build projects.plone-protect
+    - run: just build projects.plone-registry
+    - run: just build projects.plone-resource
+    - run: just build projects.plone-resourceeditor
+    - run: just build projects.plone-rfc822
+    - run: just build projects.plone-scale
+    - run: just build projects.plone-session
+    - run: just build projects.plone-staticresources
+    - run: just build projects.plone-stringinterp
+    - run: just build projects.plone-subrequest
+    - run: just build projects.plone-supermodel
+    - run: just build projects.plone-synchronize
+    - run: just build projects.plone-testing
+    - run: just build projects.plone-theme
+    - run: just build projects.plone-transformchain
+    - run: just build projects.plone-uuid
+    - run: just build projects.plone-z3cform
+    - run: just build projects.plonetheme-barceloneta
     - run: just build projects.plotly
     - run: just build projects.plotly-express
+    - run: just build projects.plover
     - run: just build projects.pluggy
     - run: just build projects.ply
     - run: just build projects.plyplus
     - run: just build projects.pockets
+    - run: just build projects.poetry
+    - run: just build projects.poetry-core
     - run: just build projects.polib
     - run: just build projects.pooch
     - run: just build projects.port-for
+    - run: just build projects.portend
     - run: just build projects.pox
     - run: just build projects.poyo
     - run: just build projects.ppft
+    - run: just build projects.prawcore
     - run: just build projects.pre-commit
     - run: just build projects.preshed
     - run: just build projects.prestring
@@ -662,6 +1048,40 @@ jobs:
     - run: just build projects.prettytable
     - run: just build projects.priority
     - run: just build projects.prison
+    - run: just build projects.products-btreefolder2
+    - run: just build projects.products-cmfcore
+    - run: just build projects.products-cmfdifftool
+    - run: just build projects.products-cmfdynamicviewfti
+    - run: just build projects.products-cmfformcontroller
+    - run: just build projects.products-cmfquickinstallertool
+    - run: just build projects.products-cmfuid
+    - run: just build projects.products-daterecurringindex
+    - run: just build projects.products-dcworkflow
+    - run: just build projects.products-extendedpathindex
+    - run: just build projects.products-externalmethod
+    - run: just build projects.products-genericsetup
+    - run: just build projects.products-isurlinportal
+    - run: just build projects.products-mailhost
+    - run: just build projects.products-mimetypesregistry
+    - run: just build projects.products-plonepas
+    - run: just build projects.products-pluggableauthservice
+    - run: just build projects.products-pluginregistry
+    - run: just build projects.products-portaltransforms
+    - run: just build projects.products-pythonscripts
+    - run: just build projects.products-sessions
+    - run: just build projects.products-siteerrorlog
+    - run: just build projects.products-standardcachemanagers
+    - run: just build projects.products-statusmessages
+    - run: just build projects.products-temporaryfolder
+    - run: just build projects.products-zcatalog
+    - run: just build projects.products-zodbmountpoint
+    - run: just build projects.products-zopeversioncontrol
+    - run: just build projects.profanityfilter
+    - run: just build projects.proglog
+    - run: just build projects.progress
+    - run: just build projects.progressbar
+    - run: just build projects.progressbar2
+    - run: just build projects.prometheus-client
   build12:
     runs-on: ubuntu-latest
     steps:
@@ -670,13 +1090,12 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
-    - run: just build projects.profanityfilter
-    - run: just build projects.progress
-    - run: just build projects.prometheus-client
+    - run: just build projects.prometheus-flask-exporter
     - run: just build projects.promise
     - run: just build projects.prompt-toolkit
     - run: just build projects.prospector
     - run: just build projects.protego
+    - run: just build projects.proto-plus
     - run: just build projects.protobuf
     - run: just build projects.protobuf3-to-dict
     - run: just build projects.psutil
@@ -685,6 +1104,8 @@ jobs:
     - run: just build projects.ptyprocess
     - run: just build projects.public
     - run: just build projects.publication
+    - run: just build projects.pulp
+    - run: just build projects.pulumi
     - run: just build projects.purplex
     - run: just build projects.py
     - run: just build projects.py-cpuinfo
@@ -695,28 +1116,62 @@ jobs:
     - run: just build projects.pyasn1
     - run: just build projects.pyasn1-modules
     - run: just build projects.pybind11
+    - run: just build projects.pybtex
     - run: just build projects.pycalver
     - run: just build projects.pycares
     - run: just build projects.pycocotools
     - run: just build projects.pycodestyle
+    - run: just build projects.pycountry
     - run: just build projects.pycparser
     - run: just build projects.pycricbuzz
     - run: just build projects.pycryptodome
+    - run: just build projects.pycryptodomex
+    - run: just build projects.pyct
     - run: just build projects.pydantic
+    - run: just build projects.pydash
+    - run: just build projects.pydata-sphinx-theme
+    - run: just build projects.pydeprecate
     - run: just build projects.pydeps
     - run: just build projects.pydicom
+    - run: just build projects.pydispatcher
     - run: just build projects.pydocstyle
     - run: just build projects.pydot
+    - run: just build projects.pydotplus
     - run: just build projects.pydriller
+    - run: just build projects.pydub
     - run: just build projects.pydyf
+    - run: just build projects.pyecharts
+    - run: just build projects.pyee
+    - run: just build projects.pyelftools
     - run: just build projects.pyerfa
     - run: just build projects.pyexcelerate
+    - run: just build projects.pyfaidx
+    - run: just build projects.pyfakefs
     - run: just build projects.pyflakes
     - run: just build projects.pyftdi
     - run: just build projects.pygame
     - run: just build projects.pygit2
+    - run: just build projects.pygithub
+    - run: just build projects.pyglet
     - run: just build projects.pygments
+    - run: just build projects.pyhamcrest
     - run: just build projects.pyhunter
+    - run: just build projects.pyinotify
+    - run: just build projects.pyinstaller-hooks-contrib
+    - run: just build projects.pyjsparser
+    - run: just build projects.pyjwt
+    - run: just build projects.pykka
+    - run: just build projects.pykwalify
+    - run: just build projects.pylev
+    - run: just build projects.pylg
+    - run: just build projects.pylint
+    - run: just build projects.pylint-celery
+    - run: just build projects.pylint-django
+    - run: just build projects.pylint-flask
+    - run: just build projects.pylint-plugin-utils
+    - run: just build projects.pymc3
+    - run: just build projects.pymdown-extensions
+    - run: just build projects.pymeeus
   build13:
     runs-on: ubuntu-latest
     steps:
@@ -725,53 +1180,88 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
-    - run: just build projects.pyinotify
-    - run: just build projects.pyjwt
-    - run: just build projects.pykwalify
-    - run: just build projects.pylev
-    - run: just build projects.pylint
-    - run: just build projects.pylint-celery
-    - run: just build projects.pylint-django
-    - run: just build projects.pylint-flask
-    - run: just build projects.pylint-plugin-utils
     - run: just build projects.pymongo
+    - run: just build projects.pymssql
     - run: just build projects.pymsteams
+    - run: just build projects.pymupdf
     - run: just build projects.pymysql
     - run: just build projects.pynacl
     - run: just build projects.pynamodb
+    - run: just build projects.pynvml
+    - run: just build projects.pyomo
+    - run: just build projects.pyopengl
     - run: just build projects.pyopenssl
+    - run: just build projects.pyotp
     - run: just build projects.pypandoc
     - run: just build projects.pyparsing
+    - run: just build projects.pypdf2
     - run: just build projects.pypdf4
     - run: just build projects.pyper
     - run: just build projects.pyperclip
     - run: just build projects.pyphen
+    - run: just build projects.pypinyin
+    - run: just build projects.pypng
+    - run: just build projects.pyppeteer
+    - run: just build projects.pypydispatcher
+    - run: just build projects.pyqrcode
     - run: just build projects.pyqt5
     - run: just build projects.pyqt5-qt5
     - run: just build projects.pyqt5-sip
+    - run: just build projects.pyqtwebengine
+    - run: just build projects.pyqtwebengine-qt5
     - run: just build projects.pyquery
     - run: just build projects.pyramid
     - run: just build projects.pyrect
     - run: just build projects.pyrelic
+    - run: just build projects.pyrepl
     - run: just build projects.pyrfc3339
     - run: just build projects.pyrsistent
     - run: just build projects.pyserial
+    - run: just build projects.pysftp
+    - run: just build projects.pyshp
+    - run: just build projects.pysocks
+    - run: just build projects.pyspark
     - run: just build projects.pystache
+    - run: just build projects.pytesseract
     - run: just build projects.pytest
+    - run: just build projects.pytest-aiohttp
     - run: just build projects.pytest-asyncio
     - run: just build projects.pytest-benchmark
     - run: just build projects.pytest-cache
+    - run: just build projects.pytest-check-links
     - run: just build projects.pytest-cov
+    - run: just build projects.pytest-datadir
     - run: just build projects.pytest-django
     - run: just build projects.pytest-flake8
+    - run: just build projects.pytest-flask
     - run: just build projects.pytest-forked
     - run: just build projects.pytest-freezegun
+    - run: just build projects.pytest-html
+    - run: just build projects.pytest-invenio
+    - run: just build projects.pytest-isort
+    - run: just build projects.pytest-metadata
     - run: just build projects.pytest-mock
+    - run: just build projects.pytest-mpl
+    - run: just build projects.pytest-mypy
     - run: just build projects.pytest-postgresql
+    - run: just build projects.pytest-pycodestyle
+    - run: just build projects.pytest-pydocstyle
     - run: just build projects.pytest-random-order
+    - run: just build projects.pytest-randomly
     - run: just build projects.pytest-rerunfailures
+    - run: just build projects.pytest-runner
     - run: just build projects.pytest-sugar
     - run: just build projects.pytest-test-groups
+    - run: just build projects.pytest-timeout
+    - run: just build projects.pytest-toolbox
+    - run: just build projects.pytest-watch
+    - run: just build projects.pytest-xdist
+    - run: just build projects.python-baseconv
+    - run: just build projects.python-box
+    - run: just build projects.python-constraint
+    - run: just build projects.python-consul
+    - run: just build projects.python-coveralls
+    - run: just build projects.python-crontab
   build14:
     runs-on: ubuntu-latest
     steps:
@@ -780,53 +1270,88 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
-    - run: just build projects.pytest-timeout
-    - run: just build projects.pytest-toolbox
-    - run: just build projects.pytest-xdist
-    - run: just build projects.python-baseconv
+    - run: just build projects.python-daemon
     - run: just build projects.python-dateutil
+    - run: just build projects.python-decouple
     - run: just build projects.python-docx
     - run: just build projects.python-dotenv
     - run: just build projects.python-editor
+    - run: just build projects.python-engineio
+    - run: just build projects.python-gettext
     - run: just build projects.python-git
     - run: just build projects.python-gitlab
+    - run: just build projects.python-gnupg
     - run: just build projects.python-hcl2
     - run: just build projects.python-hosts
+    - run: just build projects.python-http-client
     - run: just build projects.python-jose
+    - run: just build projects.python-json-logger
     - run: just build projects.python-magic
+    - run: just build projects.python-memcached
     - run: just build projects.python-multipart
+    - run: just build projects.python-rapidjson
     - run: just build projects.python-slugify
+    - run: just build projects.python-socketio
     - run: just build projects.python-sql
+    - run: just build projects.python-stdnum
     - run: just build projects.python-utils
     - run: just build projects.python-whois
+    - run: just build projects.python-xlib
     - run: just build projects.python3-openid
+    - run: just build projects.python3-xlib
+    - run: just build projects.pytimeparse
     - run: just build projects.pytodoist
+    - run: just build projects.pytoml
+    - run: just build projects.pytorch-lightning
+    - run: just build projects.pytube
     - run: just build projects.pytweening
+    - run: just build projects.pytype
     - run: just build projects.pytz
     - run: just build projects.pytzdata
     - run: just build projects.pyusb
+    - run: just build projects.pyvisa
+    - run: just build projects.pyviz-comms
+    - run: just build projects.pyvo
     - run: just build projects.pywavelets
     - run: just build projects.pywin32-ctypes
+    - run: just build projects.pyxdg
     - run: just build projects.pyyaml
     - run: just build projects.pyyaml-env-tag
     - run: just build projects.pyzmq
+    - run: just build projects.qdldl
     - run: just build projects.qrcode
+    - run: just build projects.quandl
+    - run: just build projects.querystring-parser
+    - run: just build projects.questionary
     - run: just build projects.queuelib
     - run: just build projects.rad
     - run: just build projects.random2
+    - run: just build projects.ratelim
+    - run: just build projects.ratelimit
     - run: just build projects.ratelimiter
     - run: just build projects.raven
+    - run: just build projects.ray
     - run: just build projects.rdflib
+    - run: just build projects.rdflib-jsonld
+    - run: just build projects.readchar
     - run: just build projects.readme-renderer
     - run: just build projects.recommonmark
+    - run: just build projects.record
     - run: just build projects.redis
     - run: just build projects.redis-py-cluster
     - run: just build projects.regetron
     - run: just build projects.regex
     - run: just build projects.relatorio
     - run: just build projects.reportlab
+    - run: just build projects.repoze-lru
+    - run: just build projects.repoze-xmliter
     - run: just build projects.requests
     - run: just build projects.requests-cache
+    - run: just build projects.requests-file
+    - run: just build projects.requests-futures
+    - run: just build projects.requests-html
+    - run: just build projects.requests-mock
+    - run: just build projects.requests-ntlm
   build15:
     runs-on: ubuntu-latest
     steps:
@@ -835,45 +1360,62 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
-    - run: just build projects.requests-file
-    - run: just build projects.requests-mock
     - run: just build projects.requests-oauthlib
     - run: just build projects.requests-toolbelt
     - run: just build projects.requests-unixsocket
+    - run: just build projects.requestsexceptions
     - run: just build projects.requirements-detector
     - run: just build projects.resolvelib
     - run: just build projects.responses
+    - run: just build projects.restrictedpython
+    - run: just build projects.restructuredtext-lint
     - run: just build projects.retry
     - run: just build projects.retrying
     - run: just build projects.returns
+    - run: just build projects.retworkx
     - run: just build projects.rfc3986
+    - run: just build projects.rfc3987
     - run: just build projects.rgbxy
     - run: just build projects.rich
+    - run: just build projects.rjsmin
+    - run: just build projects.robotframework
+    - run: just build projects.roman
     - run: just build projects.rope
+    - run: just build projects.routes
     - run: just build projects.rq
     - run: just build projects.rsa
+    - run: just build projects.rst-linker
     - run: just build projects.ruamel-yaml
     - run: just build projects.ruamel-yaml-clib
+    - run: just build projects.rubicon-objc
     - run: just build projects.rx
     - run: just build projects.s3fs
     - run: just build projects.s3transfer
     - run: just build projects.sacremoses
+    - run: just build projects.safety
     - run: just build projects.sagemaker
     - run: just build projects.sanic
     - run: just build projects.sanic-routing
     - run: just build projects.scandir
+    - run: just build projects.scapy
     - run: just build projects.schedule
     - run: just build projects.schema
+    - run: just build projects.schematics
     - run: just build projects.scikit-image
     - run: just build projects.scikit-learn
+    - run: just build projects.scikit-optimize
     - run: just build projects.scipy
+    - run: just build projects.scp
+    - run: just build projects.scrapy
     - run: just build projects.scripttest
+    - run: just build projects.scrypt
     - run: just build projects.seaborn
     - run: just build projects.secretstorage
     - run: just build projects.selenium
     - run: just build projects.semantic-version
     - run: just build projects.semver
     - run: just build projects.send2trash
+    - run: just build projects.sentence-transformers
     - run: just build projects.sentry-sdk
     - run: just build projects.service-identity
     - run: just build projects.setoptconf
@@ -882,6 +1424,24 @@ jobs:
     - run: just build projects.setuptools-rust
     - run: just build projects.sgmllib3k
     - run: just build projects.sgqlc
+    - run: just build projects.sh
+    - run: just build projects.shapely
+    - run: just build projects.sharedmem
+    - run: just build projects.shellingham
+    - run: just build projects.shortuuid
+    - run: just build projects.sign
+    - run: just build projects.simpleeval
+    - run: just build projects.simplegeneric
+    - run: just build projects.simplejson
+    - run: just build projects.sinfo
+    - run: just build projects.singledispatch
+    - run: just build projects.six
+    - run: just build projects.skills
+    - run: just build projects.sklearn
+    - run: just build projects.slackclient
+    - run: just build projects.slacker
+    - run: just build projects.slicer
+    - run: just build projects.smart-open
   build16:
     runs-on: ubuntu-latest
     steps:
@@ -890,53 +1450,88 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
-    - run: just build projects.sh
-    - run: just build projects.shapely
-    - run: just build projects.sharedmem
-    - run: just build projects.sign
-    - run: just build projects.simplegeneric
-    - run: just build projects.simplejson
-    - run: just build projects.singledispatch
-    - run: just build projects.six
-    - run: just build projects.skills
-    - run: just build projects.sklearn
-    - run: just build projects.smart-open
+    - run: just build projects.smbus2
     - run: just build projects.smdebug-rulesconfig
     - run: just build projects.smmap
+    - run: just build projects.snaptime
     - run: just build projects.sniffio
     - run: just build projects.snowballstemmer
+    - run: just build projects.snowflake-connector-python
     - run: just build projects.snuggs
     - run: just build projects.social-auth-core
     - run: just build projects.sockjs
     - run: just build projects.sortedcontainers
+    - run: just build projects.sounddevice
+    - run: just build projects.soundfile
     - run: just build projects.soupsieve
     - run: just build projects.south
     - run: just build projects.spacy
     - run: just build projects.spacy-legacy
     - run: just build projects.speaklater
+    - run: just build projects.speechrecognition
+    - run: just build projects.spglib
     - run: just build projects.sphinx
+    - run: just build projects.sphinx-argparse
+    - run: just build projects.sphinx-autoapi
     - run: just build projects.sphinx-autobuild
     - run: just build projects.sphinx-autodoc-typehints
+    - run: just build projects.sphinx-automodapi
+    - run: just build projects.sphinx-bootstrap-theme
+    - run: just build projects.sphinx-click
     - run: just build projects.sphinx-copybutton
     - run: just build projects.sphinx-gallery
     - run: just build projects.sphinx-rtd-theme
+    - run: just build projects.sphinxcontrib-apidoc
     - run: just build projects.sphinxcontrib-applehelp
+    - run: just build projects.sphinxcontrib-bibtex
     - run: just build projects.sphinxcontrib-devhelp
     - run: just build projects.sphinxcontrib-htmlhelp
     - run: just build projects.sphinxcontrib-jsmath
+    - run: just build projects.sphinxcontrib-napoleon
+    - run: just build projects.sphinxcontrib-programoutput
     - run: just build projects.sphinxcontrib-qthelp
     - run: just build projects.sphinxcontrib-serializinghtml
+    - run: just build projects.sphinxcontrib-websupport
+    - run: just build projects.spinners
+    - run: just build projects.spotipy
     - run: just build projects.sqlalchemy
     - run: just build projects.sqlalchemy-jsonfield
     - run: just build projects.sqlalchemy-mixins
     - run: just build projects.sqlalchemy-utils
+    - run: just build projects.sqlite-fts4
+    - run: just build projects.sqlite-utils
     - run: just build projects.sqlparse
     - run: just build projects.srsly
+    - run: just build projects.sshtunnel
     - run: just build projects.stanfordnlp
+    - run: just build projects.starkbank-ecdsa
     - run: just build projects.starlette
+    - run: just build projects.statsd
     - run: just build projects.statsmodels
     - run: just build projects.stdlib-list
     - run: just build projects.stevedore
+    - run: just build projects.stomper
+    - run: just build projects.stone
+    - run: just build projects.strict-rfc3339
+    - run: just build projects.stringcase
+    - run: just build projects.stripe
+    - run: just build projects.structlog
+    - run: just build projects.subprocess32
+    - run: just build projects.suds-jurko
+    - run: just build projects.supervisor
+    - run: just build projects.svgwrite
+    - run: just build projects.swagger-ui-bundle
+    - run: just build projects.symengine
+    - run: just build projects.sympy
+    - run: just build projects.tablib
+    - run: just build projects.tabulate
+    - run: just build projects.tblib
+    - run: just build projects.telepath
+    - run: just build projects.telethon
+    - run: just build projects.tempita
+    - run: just build projects.tempora
+    - run: just build projects.tempstorage
+    - run: just build projects.tenacity
   build17:
     runs-on: ubuntu-latest
     steps:
@@ -945,40 +1540,34 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
-    - run: just build projects.stomper
-    - run: just build projects.stripe
-    - run: just build projects.structlog
-    - run: just build projects.subprocess32
-    - run: just build projects.supervisor
-    - run: just build projects.svgwrite
-    - run: just build projects.swagger-ui-bundle
-    - run: just build projects.sympy
-    - run: just build projects.tablib
-    - run: just build projects.tabulate
-    - run: just build projects.tblib
-    - run: just build projects.telepath
-    - run: just build projects.tempita
-    - run: just build projects.tenacity
     - run: just build projects.tensorboard
     - run: just build projects.tensorboard-data-server
     - run: just build projects.tensorboard-plugin-wit
     - run: just build projects.tensorflow
     - run: just build projects.tensorflow-estimator
+    - run: just build projects.tensorflow-metadata
     - run: just build projects.tensorflow-probability
     - run: just build projects.termcolor
     - run: just build projects.terminaltables
+    - run: just build projects.testfixtures
     - run: just build projects.testpath
     - run: just build projects.text-unidecode
+    - run: just build projects.textblob
+    - run: just build projects.textfsm
     - run: just build projects.textrazor
     - run: just build projects.texttable
+    - run: just build projects.textual
+    - run: just build projects.textwrap3
     - run: just build projects.the
     - run: just build projects.theano
+    - run: just build projects.theano-pymc
     - run: just build projects.therapist
     - run: just build projects.thinc
     - run: just build projects.thop
     - run: just build projects.threadpoolctl
     - run: just build projects.thrift
     - run: just build projects.tifffile
+    - run: just build projects.timeout-decorator
     - run: just build projects.timestamp
     - run: just build projects.tinycss2
     - run: just build projects.tinydb
@@ -990,8 +1579,49 @@ jobs:
     - run: just build projects.tomli
     - run: just build projects.tomlkit
     - run: just build projects.toolz
+    - run: just build projects.toposort
     - run: just build projects.torch
+    - run: just build projects.torchaudio
+    - run: just build projects.torchmetrics
+    - run: just build projects.torchtext
     - run: just build projects.torchvision
+    - run: just build projects.tornado
+    - run: just build projects.torthrift
+    - run: just build projects.towncrier
+    - run: just build projects.tox
+    - run: just build projects.tqdm
+    - run: just build projects.tracers
+    - run: just build projects.traitlets
+    - run: just build projects.trans
+    - run: just build projects.transaction
+    - run: just build projects.transformers
+    - run: just build projects.transitions
+    - run: just build projects.translationstring
+    - run: just build projects.tree-sitter
+    - run: just build projects.trimesh
+    - run: just build projects.trio
+    - run: just build projects.troposphere
+    - run: just build projects.trytond
+    - run: just build projects.trytond-account
+    - run: just build projects.trytond-company
+    - run: just build projects.trytond-country
+    - run: just build projects.trytond-currency
+    - run: just build projects.trytond-party
+    - run: just build projects.tskit
+    - run: just build projects.tweepy
+    - run: just build projects.twilio
+    - run: just build projects.twine
+    - run: just build projects.twisted
+    - run: just build projects.txaio
+    - run: just build projects.typed-ast
+    - run: just build projects.typeguard
+    - run: just build projects.typer
+    - run: just build projects.types-pyyaml
+    - run: just build projects.types-requests
+    - run: just build projects.typing
+    - run: just build projects.typing-compat
+    - run: just build projects.typing-extensions
+    - run: just build projects.typing-inspect
   build18:
     runs-on: ubuntu-latest
     steps:
@@ -1000,27 +1630,6 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
-    - run: just build projects.tornado
-    - run: just build projects.torthrift
-    - run: just build projects.tox
-    - run: just build projects.tqdm
-    - run: just build projects.tracers
-    - run: just build projects.traitlets
-    - run: just build projects.trans
-    - run: just build projects.transformers
-    - run: just build projects.translationstring
-    - run: just build projects.tree-sitter
-    - run: just build projects.trytond
-    - run: just build projects.tskit
-    - run: just build projects.twilio
-    - run: just build projects.twine
-    - run: just build projects.txaio
-    - run: just build projects.typed-ast
-    - run: just build projects.typeguard
-    - run: just build projects.typer
-    - run: just build projects.typing
-    - run: just build projects.typing-extensions
-    - run: just build projects.typing-inspect
     - run: just build projects.tzdata
     - run: just build projects.tzlocal
     - run: just build projects.ujson
@@ -1031,36 +1640,37 @@ jobs:
     - run: just build projects.url-normalize
     - run: just build projects.urllib3
     - run: just build projects.urwid
+    - run: just build projects.uuid
     - run: just build projects.uvicorn
     - run: just build projects.uvloop
     - run: just build projects.validate-docbr
+    - run: just build projects.validate-email
     - run: just build projects.validators
     - run: just build projects.varint
+    - run: just build projects.vcrpy
     - run: just build projects.venusian
+    - run: just build projects.versioneer
     - run: just build projects.vine
     - run: just build projects.virtualenv
+    - run: just build projects.virtualenv-clone
     - run: just build projects.visitor
     - run: just build projects.vobject
     - run: just build projects.voluptuous
     - run: just build projects.w3lib
     - run: just build projects.wagtail
     - run: just build projects.waitress
+    - run: just build projects.wand
+    - run: just build projects.warlock
     - run: just build projects.wasabi
     - run: just build projects.watchdog
-  build19:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - uses: cachix/install-nix-action@v13
-    - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
-    - run: nix-channel --update
-    - run: nix-env -i just
     - run: just build projects.watchgod
     - run: just build projects.watchtower
     - run: just build projects.wcwidth
     - run: just build projects.weasyprint
     - run: just build projects.webargs
     - run: just build projects.webassets
+    - run: just build projects.webcolors
+    - run: just build projects.webdriver-manager
     - run: just build projects.webencodings
     - run: just build projects.webob
     - run: just build projects.websocket-client
@@ -1071,34 +1681,122 @@ jobs:
     - run: just build projects.wget
     - run: just build projects.wheel
     - run: just build projects.whitenoise
+    - run: just build projects.whoosh
+    - run: just build projects.wikipedia
     - run: just build projects.willow
     - run: just build projects.win-inet-pton
     - run: just build projects.win32-setctime
+    - run: just build projects.wmctrl
+    - run: just build projects.wordcloud
     - run: just build projects.wordsegment
     - run: just build projects.wrapt
+    - run: just build projects.ws4py
+    - run: just build projects.wsgiproxy2
+    - run: just build projects.wslink
     - run: just build projects.wtforms
     - run: just build projects.x256
     - run: just build projects.xarray
+    - run: just build projects.xdg
     - run: just build projects.xgboost
     - run: just build projects.xlrd
     - run: just build projects.xlsxwriter
     - run: just build projects.xlwt
     - run: just build projects.xmlrpc2
     - run: just build projects.xmltodict
+    - run: just build projects.xxhash
+    - run: just build projects.yamllint
     - run: just build projects.yapf
     - run: just build projects.yarl
+    - run: just build projects.yaspin
+    - run: just build projects.yfinance
     - run: just build projects.youtube-dl
+    - run: just build projects.z3c-autoinclude
+    - run: just build projects.z3c-caching
+  build19:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: cachix/install-nix-action@v13
+    - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
+    - run: nix-channel --update
+    - run: nix-env -i just
+    - run: just build projects.z3c-form
+    - run: just build projects.z3c-formwidget-query
+    - run: just build projects.z3c-jbot
+    - run: just build projects.z3c-objpath
+    - run: just build projects.z3c-pt
+    - run: just build projects.z3c-relationfield
+    - run: just build projects.z3c-zcmlhook
+    - run: just build projects.zc-buildout
+    - run: just build projects.zc-lockfile
+    - run: just build projects.zc-relation
+    - run: just build projects.zconfig
+    - run: just build projects.zdaemon
     - run: just build projects.zeep
     - run: just build projects.zenpy
+    - run: just build projects.zeo
+    - run: just build projects.zexceptions
     - run: just build projects.zict
     - run: just build projects.zipp
+    - run: just build projects.zmq
+    - run: just build projects.zodb
+    - run: just build projects.zodb3
+    - run: just build projects.zodbpickle
+    - run: just build projects.zope
+    - run: just build projects.zope-annotation
+    - run: just build projects.zope-app-locales
+    - run: just build projects.zope-browser
+    - run: just build projects.zope-browsermenu
+    - run: just build projects.zope-browserpage
+    - run: just build projects.zope-browserresource
+    - run: just build projects.zope-cachedescriptors
     - run: just build projects.zope-component
+    - run: just build projects.zope-componentvocabulary
+    - run: just build projects.zope-configuration
+    - run: just build projects.zope-container
+    - run: just build projects.zope-contentprovider
+    - run: just build projects.zope-contenttype
+    - run: just build projects.zope-copy
+    - run: just build projects.zope-datetime
+    - run: just build projects.zope-deferredimport
     - run: just build projects.zope-deprecation
+    - run: just build projects.zope-dottedname
     - run: just build projects.zope-event
+    - run: just build projects.zope-exceptions
+    - run: just build projects.zope-filerepresentation
+    - run: just build projects.zope-globalrequest
     - run: just build projects.zope-hookable
+    - run: just build projects.zope-i18n
+    - run: just build projects.zope-i18nmessageid
     - run: just build projects.zope-interface
+    - run: just build projects.zope-intid
+    - run: just build projects.zope-keyreference
+    - run: just build projects.zope-lifecycleevent
+    - run: just build projects.zope-location
+    - run: just build projects.zope-pagetemplate
+    - run: just build projects.zope-processlifetime
+    - run: just build projects.zope-proxy
+    - run: just build projects.zope-ptresource
+    - run: just build projects.zope-publisher
+    - run: just build projects.zope-ramcache
     - run: just build projects.zope-schema
+    - run: just build projects.zope-security
+    - run: just build projects.zope-sendmail
+    - run: just build projects.zope-sequencesort
+    - run: just build projects.zope-site
+    - run: just build projects.zope-size
+    - run: just build projects.zope-sqlalchemy
+    - run: just build projects.zope-structuredtext
+    - run: just build projects.zope-tal
+    - run: just build projects.zope-tales
+    - run: just build projects.zope-testbrowser
+    - run: just build projects.zope-testing
+    - run: just build projects.zope-testrunner
+    - run: just build projects.zope-traversing
+    - run: just build projects.zope-viewlet
+    - run: just build projects.zope2
     - run: just build projects.zopfli
+    - run: just build projects.zstandard
 name: ci
 'on':
 - pull_request
