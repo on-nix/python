@@ -1,7 +1,10 @@
 let
   nixpkgs = import <nixpkgs> { };
 
-  pythonOnNix = import ../default.nix;
+  pythonOnNix = import (builtins.fetchGit {
+    ref = "main";
+    url = ./..;
+  });
 
   env = pythonOnNix.python39Env {
     name = "example";

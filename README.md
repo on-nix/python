@@ -7,7 +7,8 @@ That can be used with the [Nix][NIX] package manager.
 
 - Scope:
   - :heavy_check_mark:
-    All [active Python releases][PYTHON_RELEASES] (`3.6`, `3.7`, `3.8`, `3.9`)
+    All [active Python releases][PYTHON_RELEASES]
+    (`3.6`, `3.7`, `3.8`, `3.9`, `3.10`)
   - :heavy_check_mark: 1600+ [projects][PROJECTS] already packaged,
     prioritized by their popularity
     according to [libraries.io](https://libraries.io/PyPI)
@@ -19,14 +20,23 @@ That can be used with the [Nix][NIX] package manager.
   - :heavy_check_mark: Linux x86-64
   - :construction: MacOS x86-64
 - Performance:
-  - :heavy_check_mark: We **always** pick [Wheels][PYTHON_WHEELS]
+  - :heavy_check_mark: Every project is built with a minimal closure and size
   - :heavy_check_mark: A highly granular cache
+
+Why?
+
+To make using [Nix][NIX] on [Python][PYTHON] projects
+as simple as possible!
+
+Just:
+1. Copy and paste the examples,
+2. Select the [Python][PYTHON] projects of your choice,
+3. Enjoy! :rocket:
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 # Contents
 
-- [Why](#why)
 - [List of available projects](#list-of-available-projects)
 - [Applications vs Libraries](#applications-vs-libraries)
 - [Using with Nix stable](#using-with-nix-stable)
@@ -43,16 +53,6 @@ That can be used with the [Nix][NIX] package manager.
 - [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# Why
-
-To make using [Nix][NIX] on [Python][PYTHON] projects
-as simple as possible!
-
-Just:
-1. Copy and paste the examples,
-2. Select the [Python][PYTHON] projects of your choice,
-3. Enjoy! :rocket:
 
 # List of available projects
 
@@ -2056,9 +2056,7 @@ For example:
 # /path/to/my/env.nix
 
 let
-  nixpkgs = import <nixpkgs> { };
-
-  pythonOnNix = import (nixpkgs.fetchFromGitHub {
+  pythonOnNix = builtins.fetchgit {
     owner = "kamadorueda";
     repo = "python-on-nix";
     # Pick a commit from this list:
