@@ -36,6 +36,7 @@ new PROJECT:
   m . /create 3.7 {{PROJECT}}; just optimize \
   m . /create 3.8 {{PROJECT}}; just optimize \
   m . /create 3.9 {{PROJECT}}; just optimize \
+  m . /create 3.10 {{PROJECT}}; just optimize \
 
 new-version PROJECT VERSION:
   set +e; \

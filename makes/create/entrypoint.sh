@@ -39,6 +39,7 @@ function main {
       3.7) python=__argPy37__/bin/python && python_code=python37 ;;
       3.8) python=__argPy38__/bin/python && python_code=python38 ;;
       3.9) python=__argPy39__/bin/python && python_code=python39 ;;
+      3.10) python=__argPy310__/bin/python && python_code=python310 ;;
       *) critical Python version not supported: "${python_version}" ;;
     esac \
     && project="$(to_pep503 "${project}")" \
