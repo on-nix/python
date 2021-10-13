@@ -209,19 +209,105 @@ which points to the latest version of the project.
 | aws-okta-processor | 1.7.0 | 3.6 3.7 3.8 3.9 |
 | aws-sam-translator | 1.38.0 | 3.6 3.7 3.8 3.9 |
 | aws-xray-sdk | 2.8.0 | 3.6 3.7 3.8 3.9 |
+| azure-appconfiguration | 1.1.1 | 3.6 3.7 3.8 3.9 |
+| azure-batch | 11.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-cli | 2.29.0 | 3.6 3.7 3.8 3.9 |
 | azure-cli-command-modules-nspkg | 2.0.3 | 3.6 3.7 3.8 3.9 |
+| azure-cli-core | 2.29.0 | 3.6 3.7 3.8 3.9 |
 | azure-cli-nspkg | 3.0.4 | 3.6 3.7 3.8 3.9 |
+| azure-cli-telemetry | 1.0.6 | 3.6 3.7 3.8 3.9 |
 | azure-common | 1.1.27 | 3.6 3.7 3.8 3.9 |
 | azure-core | 1.18.0 | 3.6 3.7 3.8 3.9 |
+| azure-core | 1.19.0 | 3.6 3.7 3.8 3.9 |
+| azure-cosmos | 3.2.0 | 3.6 3.7 3.8 3.9 |
+| azure-datalake-store | 0.0.52 | 3.6 3.7 3.8 3.9 |
+| azure-functions-devops-build | 0.0.22 | 3.6 3.7 3.8 3.9 |
+| azure-graphrbac | 0.60.0 | 3.6 3.7 3.8 3.9 |
 | azure-graphrbac | 0.61.1 | 3.6 3.7 3.8 |
-| azure-mgmt-authorization | 0.61.0 | 3.6 3.7 3.8 |
+| azure-identity | 1.6.1 | 3.6 3.7 3.8 3.9 |
+| azure-keyvault | 1.1.0 | 3.6 3.7 3.8 3.9 |
+| azure-keyvault-administration | 4.0.0b3 | 3.6 3.7 3.8 3.9 |
+| azure-keyvault-keys | 4.4.0 | 3.6 3.7 3.8 3.9 |
+| azure-loganalytics | 0.1.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-advisor | 9.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-apimanagement | 0.2.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-appconfiguration | 2.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-applicationinsights | 1.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-authorization | 0.61.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-batch | 16.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-batchai | 7.0.0b1 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-billing | 6.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-botservice | 0.3.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-cdn | 11.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-cognitiveservices | 12.0.0 | 3.6 3.7 3.8 3.9 |
 | azure-mgmt-compute | 23.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-consumption | 2.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-containerinstance | 9.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-containerregistry | 8.1.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-containerservice | 16.1.0 | 3.6 3.7 3.8 3.9 |
 | azure-mgmt-core | 1.2.2 | 3.6 3.7 3.8 3.9 |
 | azure-mgmt-core | 1.3.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-cosmosdb | 6.4.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-databoxedge | 1.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-datalake-analytics | 0.2.1 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-datalake-nspkg | 3.0.1 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-datalake-store | 0.5.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-datamigration | 9.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-deploymentmanager | 0.2.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-devtestlabs | 4.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-dns | 8.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-eventgrid | 9.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-eventhub | 9.1.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-extendedlocation | 1.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-hdinsight | 8.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-imagebuilder | 0.4.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-iotcentral | 9.0.0b1 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-iothub | 2.1.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-iothubprovisioningservices | 0.3.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-keyvault | 9.1.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-kusto | 0.3.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-loganalytics | 11.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-managedservices | 1.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-managementgroups | 0.2.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-maps | 2.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-marketplaceordering | 1.1.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-media | 7.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-monitor | 2.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-msi | 0.2.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-netapp | 4.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-network | 19.0.0 | 3.6 3.7 3.8 3.9 |
 | azure-mgmt-nspkg | 3.0.2 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-policyinsights | 1.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-privatedns | 1.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-rdbms | 9.1.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-recoveryservices | 2.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-recoveryservicesbackup | 0.15.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-redhatopenshift | 1.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-redis | 13.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-relay | 0.1.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-reservations | 0.6.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-resource | 19.0.0 | 3.6 3.7 3.8 3.9 |
 | azure-mgmt-resource | 20.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-search | 8.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-security | 2.0.0b1 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-servicebus | 6.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-servicefabric | 1.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-servicefabricmanagedclusters | 1.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-signalr | 1.0.0b2 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-sql | 3.0.1 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-sqlvirtualmachine | 1.0.0b1 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-storage | 19.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-synapse | 2.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-trafficmanager | 0.51.0 | 3.6 3.7 3.8 3.9 |
+| azure-mgmt-web | 4.0.0 | 3.6 3.7 3.8 3.9 |
+| azure-multiapi-storage | 0.6.2 | 3.6 3.7 3.8 3.9 |
 | azure-nspkg | 3.0.2 | 3.6 3.7 3.8 3.9 |
 | azure-storage-blob | 12.8.1 | 3.6 3.7 3.8 3.9 |
+| azure-storage-common | 1.4.2 | 3.6 3.7 3.8 3.9 |
+| azure-synapse-accesscontrol | 0.5.0 | 3.6 3.7 3.8 3.9 |
+| azure-synapse-artifacts | 0.8.0 | 3.6 3.7 3.8 3.9 |
+| azure-synapse-managedprivateendpoints | 0.3.0 | 3.6 3.7 3.8 3.9 |
+| azure-synapse-spark | 0.2.0 | 3.6 3.7 3.8 3.9 |
 | babel | 2.9.1 | 3.6 3.7 3.8 3.9 |
 | backcall | 0.2.0 | 3.6 3.7 3.8 3.9 |
 | backoff | 1.11.1 | 3.6 3.7 3.8 3.9 |
@@ -303,6 +389,7 @@ which points to the latest version of the project.
 | cdiff | 1.0 | 3.6 3.7 3.8 3.9 |
 | celery | 5.1.2 | 3.6 3.7 3.8 3.9 |
 | certbot | 1.19.0 | 3.6 3.7 3.8 3.9 |
+| certifi | 2021.10.8 | 3.6 3.7 3.8 3.9 |
 | certifi | 2021.5.30 | 3.6 3.7 3.8 3.9 |
 | certipy | 0.1.3 | 3.6 3.7 3.8 3.9 |
 | cffi | 1.14.6 | 3.6 3.7 3.8 3.9 |
@@ -316,6 +403,7 @@ which points to the latest version of the project.
 | chardet | 4.0.0 | 3.6 3.7 3.8 3.9 |
 | charset-normalizer | 2.0.4 | 3.6 3.7 3.8 3.9 |
 | charset-normalizer | 2.0.6 | 3.6 3.7 3.8 3.9 |
+| charset-normalizer | 2.0.7 | 3.6 3.7 3.8 3.9 |
 | check-manifest | 0.46 | 3.6 3.7 3.8 3.9 |
 | cheroot | 8.5.2 | 3.6 3.7 3.8 3.9 |
 | cherrypy | 18.6.1 | 3.6 3.7 3.8 3.9 |
@@ -381,6 +469,7 @@ which points to the latest version of the project.
 | croniter | 1.0.15 | 3.6 3.7 3.8 3.9 |
 | cryptography | 3.3.2 | 3.6 3.7 3.8 3.9 |
 | cryptography | 3.4.8 | 3.6 3.7 3.8 3.9 |
+| cryptography | 35.0.0 | 3.6 3.7 3.8 3.9 |
 | cssmin | 0.2.0 | 3.6 3.7 3.8 3.9 |
 | cssselect | 1.1.0 | 3.6 3.7 3.8 3.9 |
 | cssselect2 | 0.4.1 | 3.6 3.7 3.8 3.9 |
@@ -686,6 +775,7 @@ which points to the latest version of the project.
 | huaweicloudsdkcore | 3.0.60 | 3.6 3.7 3.8 3.9 |
 | huggingface-hub | 0.0.16 | 3.6 3.7 3.8 3.9 |
 | huggingface-hub | 0.0.17 | 3.6 3.7 3.8 3.9 |
+| humanfriendly | 9.2 | 3.6 3.7 3.8 3.9 |
 | hupper | 1.10.3 | 3.6 3.7 3.8 3.9 |
 | hvac | 0.11.0 | 3.6 3.7 3.8 3.9 |
 | hydra-core | 1.1.1 | 3.6 3.7 3.8 3.9 |
@@ -695,6 +785,7 @@ which points to the latest version of the project.
 | identify | 2.2.14 | 3.7 3.8 3.9 |
 | idna | 2.10 | 3.6 3.7 3.8 3.9 |
 | idna | 3.2 | 3.6 3.7 3.8 3.9 |
+| idna | 3.3 | 3.6 3.7 3.8 3.9 |
 | idna-ssl | 1.1.0 | 3.6 |
 | ifaddr | 0.1.7 | 3.6 3.7 3.8 3.9 |
 | ijson | 3.1.4 | 3.6 3.7 3.8 3.9 |
@@ -744,6 +835,7 @@ which points to the latest version of the project.
 | jaraco-functools | 3.3.0 | 3.6 3.7 3.8 3.9 |
 | jaraco-packaging | 8.2.1 | 3.6 3.7 3.8 3.9 |
 | jaraco-text | 3.5.1 | 3.6 3.7 3.8 3.9 |
+| javaproperties | 0.5.2 | 3.6 3.7 3.8 3.9 |
 | javaproperties | 0.8.0 | 3.6 3.7 3.8 3.9 |
 | jax | 0.2.20 | 3.7 3.8 3.9 |
 | jaxlib | 0.1.71 | 3.7 3.8 3.9 |
@@ -754,6 +846,7 @@ which points to the latest version of the project.
 | jieba | 0.42.1 | 3.6 3.7 3.8 3.9 |
 | jinja2 | 2.11.3 | 3.6 3.7 3.8 3.9 |
 | jinja2 | 3.0.1 | 3.6 3.7 3.8 3.9 |
+| jinja2 | 3.0.2 | 3.6 3.7 3.8 3.9 |
 | jinja2-time | 0.2.0 | 3.6 3.7 3.8 3.9 |
 | jinja2-webpack | 0.2.0 | 3.6 3.7 3.8 3.9 |
 | jinxed | 1.1.0 | 3.6 3.7 3.8 3.9 |
@@ -765,6 +858,7 @@ which points to the latest version of the project.
 | jsii | 1.34.0 | 3.6 3.7 3.8 3.9 |
 | jsmin | 2.2.2 | 3.6 3.7 3.8 3.9 |
 | json5 | 0.9.6 | 3.7 3.8 3.9 |
+| jsondiff | 1.2.0 | 3.6 3.7 3.8 3.9 |
 | jsondiff | 1.3.0 | 3.6 3.7 3.8 3.9 |
 | jsonfield | 3.1.0 | 3.6 3.7 3.8 3.9 |
 | jsonpatch | 1.32 | 3.6 3.7 3.8 3.9 |
@@ -886,6 +980,8 @@ which points to the latest version of the project.
 | mpmath | 1.2.1 | 3.6 3.7 3.8 3.9 |
 | mrcfile | 1.3.0 | 3.6 3.7 3.8 3.9 |
 | msal | 1.14.0 | 3.6 3.7 3.8 3.9 |
+| msal | 1.15.0 | 3.6 3.7 3.8 3.9 |
+| msal-extensions | 0.3.0 | 3.6 3.7 3.8 3.9 |
 | msgpack | 1.0.2 | 3.6 3.7 3.8 3.9 |
 | msgpack-python | 0.5.6 | 3.6 3.7 3.8 3.9 |
 | msprime | 1.0.2 | 3.7 3.8 3.9 |
@@ -991,6 +1087,7 @@ which points to the latest version of the project.
 | param | 1.11.1 | 3.6 3.7 3.8 3.9 |
 | parameterized | 0.8.1 | 3.6 3.7 3.8 3.9 |
 | paramiko | 2.7.2 | 3.6 3.7 3.8 3.9 |
+| paramiko | 2.8.0 | 3.6 3.7 3.8 3.9 |
 | parse | 1.19.0 | 3.6 3.7 3.8 3.9 |
 | parsedatetime | 2.6 | 3.6 3.7 3.8 3.9 |
 | parsel | 1.6.0 | 3.6 3.7 3.8 3.9 |
@@ -1124,6 +1221,8 @@ which points to the latest version of the project.
 | poetry-core | 1.0.5 | 3.6 3.7 3.8 3.9 |
 | polib | 1.1.1 | 3.6 3.7 3.8 3.9 |
 | pooch | 1.5.1 | 3.6 3.7 3.8 3.9 |
+| portalocker | 1.7.1 | 3.6 3.7 3.8 3.9 |
+| portalocker | 2.3.2 | 3.6 3.7 3.8 3.9 |
 | portend | 2.7.1 | 3.6 3.7 3.8 3.9 |
 | port-for | 0.6.1 | 3.7 3.8 3.9 |
 | pox | 0.3.0 | 3.6 3.7 3.8 3.9 |
@@ -1248,6 +1347,7 @@ which points to the latest version of the project.
 | pyjsparser | 2.7.1 | 3.6 3.7 3.8 3.9 |
 | pyjwt | 1.7.1 | 3.6 3.7 3.8 3.9 |
 | pyjwt | 2.1.0 | 3.6 3.7 3.8 3.9 |
+| pyjwt | 2.2.0 | 3.6 3.7 3.8 3.9 |
 | pykka | 3.0.1 | 3.7 3.8 3.9 |
 | pykwalify | 1.8.0 | 3.6 3.7 3.8 3.9 |
 | pylev | 1.4.0 | 3.6 3.7 3.8 3.9 |
@@ -1272,6 +1372,7 @@ which points to the latest version of the project.
 | pyomo | 6.1.2 | 3.6 3.7 3.8 3.9 |
 | pyopengl | 3.1.5 | 3.6 3.7 3.8 3.9 |
 | pyopenssl | 20.0.1 | 3.6 3.7 3.8 3.9 |
+| pyopenssl | 21.0.0 | 3.6 3.7 3.8 3.9 |
 | pyotp | 2.6.0 | 3.6 3.7 3.8 3.9 |
 | pypandoc | 1.6.3 | 3.6 3.7 3.8 3.9 |
 | pyparsing | 2.4.7 | 3.6 3.7 3.8 3.9 |
@@ -1386,6 +1487,7 @@ which points to the latest version of the project.
 | pytweening | 1.0.3 | 3.6 3.7 3.8 3.9 |
 | pytweening | 1.0.4 | 3.6 3.7 3.8 3.9 |
 | pytype | 2021.10.4 | 3.6 3.7 3.8 3.9 |
+| pytz | 2019.1 | 3.6 3.7 3.8 3.9 |
 | pytz | 2021.1 | 3.6 3.7 3.8 3.9 |
 | pytz | 2021.3 | 3.6 3.7 3.8 3.9 |
 | pytzdata | 2020.1 | 3.6 3.7 3.8 3.9 |
@@ -1489,6 +1591,7 @@ which points to the latest version of the project.
 | scikit-optimize | 0.8.1 | 3.6 3.7 3.8 3.9 |
 | scipy | 1.5.4 | 3.6 |
 | scipy | 1.7.1 | 3.7 3.8 3.9 |
+| scp | 0.13.6 | 3.6 3.7 3.8 3.9 |
 | scp | 0.14.1 | 3.6 3.7 3.8 3.9 |
 | scrapy | 2.5.0 | 3.7 3.8 3.9 |
 | scripttest | 1.3 | 3.6 3.7 3.8 3.9 |
@@ -1583,6 +1686,7 @@ which points to the latest version of the project.
 | sqlparse | 0.4.1 | 3.6 3.7 3.8 3.9 |
 | sqlparse | 0.4.2 | 3.6 3.7 3.8 3.9 |
 | srsly | 2.4.1 | 3.6 3.7 3.8 3.9 |
+| sshtunnel | 0.1.5 | 3.6 3.7 3.8 3.9 |
 | sshtunnel | 0.4.0 | 3.6 3.7 3.8 3.9 |
 | stanfordnlp | 0.2.0 | 3.7 3.8 3.9 |
 | starkbank-ecdsa | 1.1.1 | 3.6 3.7 3.8 3.9 |
@@ -1721,6 +1825,7 @@ which points to the latest version of the project.
 | uritemplate | 3.0.1 | 3.6 3.7 3.8 3.9 |
 | urllib3 | 1.25.11 | 3.6 3.7 3.8 3.9 |
 | urllib3 | 1.26.6 | 3.6 3.7 3.8 3.9 |
+| urllib3 | 1.26.7 | 3.6 3.7 3.8 3.9 |
 | url-normalize | 1.4.3 | 3.7 3.8 3.9 |
 | urwid | 2.1.2 | 3.6 3.7 3.8 3.9 |
 | uuid | 1.30 | 3.6 3.7 3.8 3.9 |
@@ -1741,6 +1846,7 @@ which points to the latest version of the project.
 | visitor | 0.1.3 | 3.6 3.7 3.8 3.9 |
 | vobject | 0.9.6.1 | 3.6 3.7 3.8 3.9 |
 | voluptuous | 0.12.1 | 3.6 3.7 3.8 3.9 |
+| vsts | 0.1.25 | 3.6 3.7 3.8 3.9 |
 | w3lib | 1.22.0 | 3.6 3.7 3.8 3.9 |
 | wagtail | 2.14.1 | 3.6 3.7 3.8 3.9 |
 | waitress | 2.0.0 | 3.6 3.7 3.8 3.9 |
@@ -1758,6 +1864,7 @@ which points to the latest version of the project.
 | webdriver-manager | 3.4.2 | 3.6 3.7 3.8 3.9 |
 | webencodings | 0.5.1 | 3.6 3.7 3.8 3.9 |
 | webob | 1.8.7 | 3.6 3.7 3.8 3.9 |
+| websocket-client | 0.56.0 | 3.6 3.7 3.8 3.9 |
 | websocket-client | 0.59.0 | 3.6 3.7 3.8 3.9 |
 | websocket-client | 1.2.1 | 3.6 3.7 3.8 3.9 |
 | websockets | 10.0 | 3.7 3.8 3.9 |
@@ -1779,6 +1886,8 @@ which points to the latest version of the project.
 | wordcloud | 1.8.1 | 3.6 3.7 3.8 3.9 |
 | wordsegment | 1.3.1 | 3.6 3.7 3.8 3.9 |
 | wrapt | 1.12.1 | 3.6 3.7 3.8 3.9 |
+| wrapt | 1.13.1 | 3.6 3.7 3.8 3.9 |
+| wrapt | 1.13.2 | 3.6 3.7 3.8 3.9 |
 | ws4py | 0.5.1 | 3.8 3.9 |
 | wsgiproxy2 | 0.5.1 | 3.6 3.7 3.8 3.9 |
 | wslink | 1.0.7 | 3.6 3.7 3.8 3.9 |
@@ -1822,6 +1931,7 @@ which points to the latest version of the project.
 | zexceptions | 4.1 | 3.6 3.7 3.8 3.9 |
 | zict | 2.0.0 | 3.7 3.8 3.9 |
 | zipp | 3.5.0 | 3.6 3.7 3.8 3.9 |
+| zipp | 3.6.0 | 3.6 3.7 3.8 3.9 |
 | zmq | 0.0.0 | 3.6 3.7 3.8 3.9 |
 | zodb | 5.6.0 | 3.6 3.7 3.8 3.9 |
 | zodb3 | 3.11.0 | 3.6 3.7 3.8 3.9 |
