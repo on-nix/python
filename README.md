@@ -2056,14 +2056,11 @@ For example:
 # /path/to/my/env.nix
 
 let
-  pythonOnNix = builtins.fetchgit {
-    owner = "kamadorueda";
-    repo = "python-on-nix";
-    # Pick a commit from this list:
+  pythonOnNix = import (builtins.fetchGit {
+    # Use `main` branch or a commit from this list:
     # https://github.com/kamadorueda/python-on-nix/commits/main
-    rev = "0000000000000000000000000000000000000000";
-    # Update this manually
-    sha256 = "0000000000000000000000000000000000000000000000000000";
+    ref = "main";
+    url = "https://github.com/kamadorueda/python-on-nix";
   });
 in
 # Keep reading for more information
