@@ -299,7 +299,7 @@ let
         name = "${name}-out";
         searchPaths = {
           bin = [ python ];
-          export = [ [ "PYTHONPATH" pip python.sitePackages ] ];
+          export = [ [ "PYTHONPATH" pip "/${python.sitePackages}" ] ];
           source = [ (makeSearchPaths searchPathsBuild) ];
         };
       };
@@ -314,7 +314,7 @@ let
         '';
         env.envWrapped = makeSearchPaths {
           bin = [ python venvContents ];
-          export = [ [ "PYTHONPATH" venvContents python.sitePackages ] ];
+          export = [ [ "PYTHONPATH" venvContents "/${python.sitePackages}" ] ];
           source = [ (makeSearchPaths searchPathsRuntime) ];
         };
         name = "${name}-dev";
