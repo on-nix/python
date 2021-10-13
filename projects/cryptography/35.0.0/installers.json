@@ -1,0 +1,22 @@
+{
+  "cryptography-35.0.0-cp36-abi3-macosx_10_10_x86_64.whl": "d57e0cdc1b44b6cdf8af1d01807db06886f10177469312fbde8f44ccbb284bc9",
+  "cryptography-35.0.0-cp36-abi3-macosx_11_0_arm64.whl": "ced40344e811d6abba00295ced98c01aecf0c2de39481792d87af4fa58b7b4d6",
+  "cryptography-35.0.0-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "54b2605e5475944e2213258e0ab8696f4f357a31371e538ef21e8d61c843c28d",
+  "cryptography-35.0.0-cp36-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.manylinux_2_24_aarch64.whl": "7b7ceeff114c31f285528ba8b390d3e9cfa2da17b56f11d366769a807f17cbaa",
+  "cryptography-35.0.0-cp36-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl": "2d69645f535f4b2c722cfb07a8eab916265545b3475fdb34e0be2f4ee8b0b15e",
+  "cryptography-35.0.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "4a2d0e0acc20ede0f06ef7aa58546eee96d2592c00f450c9acb89c5879b61992",
+  "cryptography-35.0.0-cp36-abi3-manylinux_2_24_x86_64.whl": "07bb7fbfb5de0980590ddfc7f13081520def06dc9ed214000ad4372fb4e3c7f6",
+  "cryptography-35.0.0-cp36-abi3-musllinux_1_1_aarch64.whl": "7eba2cebca600a7806b893cb1d541a6e910afa87e97acf2021a22b32da1df52d",
+  "cryptography-35.0.0-cp36-abi3-musllinux_1_1_x86_64.whl": "18d90f4711bf63e2fb21e8c8e51ed8189438e6b35a6d996201ebd98a26abbbe6",
+  "cryptography-35.0.0-cp36-abi3-win32.whl": "c10c797ac89c746e488d2ee92bd4abd593615694ee17b2500578b63cad6b93a8",
+  "cryptography-35.0.0-cp36-abi3-win_amd64.whl": "7075b304cd567694dc692ffc9747f3e9cb393cc4aa4fb7b9f3abd6f5c4e43588",
+  "cryptography-35.0.0-pp36-pypy36_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "a688ebcd08250eab5bb5bca318cc05a8c66de5e4171a65ca51db6bd753ff8953",
+  "cryptography-35.0.0-pp36-pypy36_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "d99915d6ab265c22873f1b4d6ea5ef462ef797b4140be4c9d8b179915e0985c6",
+  "cryptography-35.0.0-pp36-pypy36_pp73-manylinux_2_24_x86_64.whl": "928185a6d1ccdb816e883f56ebe92e975a262d31cc536429041921f8cb5a62fd",
+  "cryptography-35.0.0-pp37-pypy37_pp73-macosx_10_10_x86_64.whl": "ebeddd119f526bcf323a89f853afb12e225902a24d29b55fe18dd6fcb2838a76",
+  "cryptography-35.0.0-pp37-pypy37_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": "22a38e96118a4ce3b97509443feace1d1011d0571fae81fc3ad35f25ba3ea999",
+  "cryptography-35.0.0-pp37-pypy37_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "eb80e8a1f91e4b7ef8b33041591e6d89b2b8e122d787e87eeb2b08da71bb16ad",
+  "cryptography-35.0.0-pp37-pypy37_pp73-manylinux_2_24_x86_64.whl": "abb5a361d2585bb95012a19ed9b2c8f412c5d723a9836418fab7aaa0243e67d2",
+  "cryptography-35.0.0-pp37-pypy37_pp73-win_amd64.whl": "1ed82abf16df40a60942a8c211251ae72858b25b7421ce2497c2eb7a1cee817c",
+  "cryptography-35.0.0.tar.gz": "9933f28f70d0517686bd7de36166dda42094eac49415459d9bdf5e7df3e0086d"
+}
