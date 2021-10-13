@@ -1,0 +1,5 @@
+{
+  "applicationinsights": "0.11.10",
+  "portalocker": "1.7.1",
+  "pywin32": "302"
+}
