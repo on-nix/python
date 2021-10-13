@@ -32,7 +32,7 @@ let
   inherit (nixpkgs.lib.lists) optionals;
   inherit (nixpkgs.lib.strings) splitString;
 
-  pythonVersions = [ "python36" "python37" "python38" "python39" ];
+  pythonVersions = [ "python36" "python37" "python38" "python39" "python310" ];
   pythons = builtins.map
     (pythonVersion: nixpkgs.${pythonVersion})
     (pythonVersions);
@@ -299,10 +299,7 @@ let
         name = "${name}-out";
         searchPaths = {
           bin = [ python ];
-          pythonPackage36 = optional (pythonVersion == "python36") pip;
-          pythonPackage37 = optional (pythonVersion == "python37") pip;
-          pythonPackage38 = optional (pythonVersion == "python38") pip;
-          pythonPackage39 = optional (pythonVersion == "python39") pip;
+          export = [ [ "PYTHONPATH" pip python.sitePackages ] ];
           source = [ (makeSearchPaths searchPathsBuild) ];
         };
       };
@@ -317,10 +314,7 @@ let
         '';
         env.envWrapped = makeSearchPaths {
           bin = [ python venvContents ];
-          pythonPackage36 = optional (pythonVersion == "python36") venvContents;
-          pythonPackage37 = optional (pythonVersion == "python37") venvContents;
-          pythonPackage38 = optional (pythonVersion == "python38") venvContents;
-          pythonPackage39 = optional (pythonVersion == "python39") venvContents;
+          export = [ [ "PYTHONPATH" venvContents python.sitePackages ] ];
           source = [ (makeSearchPaths searchPathsRuntime) ];
         };
         name = "${name}-dev";
@@ -353,6 +347,7 @@ let
       "python37" = [ "none" "abi3" "cp37" "cp37m" ];
       "python38" = [ "none" "abi3" "cp38" "cp38m" ];
       "python39" = [ "none" "abi3" "cp39" "cp39m" ];
+      "python310" = [ "none" "abi3" "cp310" "cp10m" ];
     };
   supportedPythonImplementations =
     {
@@ -360,6 +355,7 @@ let
       "python37" = [ "any" "cp37" "py3" "py37" "3.7" ];
       "python38" = [ "any" "cp38" "py3" "py38" "3.8" ];
       "python39" = [ "any" "cp39" "py3" "py39" "3.9" ];
+      "python310" = [ "any" "cp310" "py3" "py310" "3.10" ];
     };
   isSupported = required: supported:
     builtins.any (elem: builtins.elem elem supported) required;
