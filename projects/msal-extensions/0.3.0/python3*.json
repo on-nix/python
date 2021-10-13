@@ -1,0 +1,14 @@
+{
+  "certifi": "2021.10.8",
+  "cffi": "1.14.6",
+  "charset-normalizer": "2.0.7",
+  "cryptography": "35.0.0",
+  "idna": "3.3",
+  "msal": "1.15.0",
+  "portalocker": "1.7.1",
+  "pycparser": "2.20",
+  "pyjwt": "2.2.0",
+  "pywin32": "302",
+  "requests": "2.26.0",
+  "urllib3": "1.26.7"
+}
