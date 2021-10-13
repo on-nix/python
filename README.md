@@ -2073,6 +2073,7 @@ Please pick the Python version of your choice:
 - `python37Env`: Python 3.7
 - `python38Env`: Python 3.8
 - `python39Env`: Python 3.9
+- `python310Env`: Python 3.10
 
 For example:
 
