@@ -1,7 +1,7 @@
 # Notes
 
-Some projects are only meant to be used on windows:
-These projects are windows only. Do not try to package them:
+Some projects are only meant to be used on windows.
+Do not try to package them:
 
 ```nix
 {

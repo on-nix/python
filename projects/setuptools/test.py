@@ -1,1 +1,3 @@
+import _distutils_hack
+import pkg_resources
 import setuptools
