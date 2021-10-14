@@ -40,7 +40,7 @@ def main() -> None:
             ],
         }
 
-    with open(f".github/workflows/ci.yml", "w") as file:
+    with open(".github/workflows/ci.yml", "w", encoding="utf-8") as file:
         yaml.dump(data, file, indent=2, sort_keys=True)
 
 
