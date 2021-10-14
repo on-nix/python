@@ -9,7 +9,7 @@ That can be used with the [Nix][NIX] package manager.
   - :heavy_check_mark:
     All [active Python releases][PYTHON_RELEASES]
     (`3.6`, `3.7`, `3.8`, `3.9`, `3.10`)
-  - :heavy_check_mark: 1600+ [projects][PROJECTS] already packaged,
+  - :heavy_check_mark: 1700+ [projects][PROJECTS] already packaged,
     prioritized by their popularity
     according to [libraries.io](https://libraries.io/PyPI)
 - Quality:
