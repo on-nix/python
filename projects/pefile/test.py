@@ -1,1 +1,1 @@
-import pefile
+import ordlookup
