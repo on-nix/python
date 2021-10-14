@@ -1,3 +1,1 @@
-{
-  buildSetuptools = false;
-}
+{ }

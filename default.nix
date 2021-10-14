@@ -62,7 +62,6 @@ let
           buildExtra = "";
           buildGccBin = false;
           buildPostgresqlBin = false;
-          buildSetuptools = true;
           buildSetuptools_57_5_0 = false;
           buildWheel = false;
           runtimeFileBin = false;
@@ -235,7 +234,6 @@ let
           ];
           source = builtins.concatLists [
             (attrsGet searchPaths "source" [ ])
-            (listOptional setup.buildSetuptools projects.setuptools.latest.${pythonVersion}.dev)
             (listOptional setup.buildSetuptools_57_5_0 projects.setuptools."57.5.0".${pythonVersion}.dev)
             (listOptional setup.buildWheel projects.wheel.latest.${pythonVersion}.dev)
           ];
