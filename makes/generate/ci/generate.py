@@ -22,7 +22,7 @@ def main() -> None:
     for index, jobs_chunk in enumerate(
         more_itertools.chunked(
             jobs,
-            len(jobs) // 20 + 1,
+            len(jobs) // 100 + 1,
         )
     ):
         index = str(index).zfill(2)
