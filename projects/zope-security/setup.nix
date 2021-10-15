@@ -1,4 +1,5 @@
 {
+  buildSetuptools_57_5_0 = true;
   buildWheel = true;
   searchPathsBuild = { pythonOnNix, pythonVersion, ... }: {
     source = [
