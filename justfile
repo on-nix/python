@@ -15,6 +15,7 @@ build ATTR:
     --option cores 1 \
     --option max-jobs auto \
     --option sandbox true \
+    --quiet \
     --show-trace \
     default.nix
 
