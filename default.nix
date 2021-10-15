@@ -589,7 +589,7 @@ let
                 -mindepth 1 \
                 -type d
             fi
-            popd
+            popd > /dev/null
             echo
 
             source $envClosureSearchPaths/setup
