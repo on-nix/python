@@ -5,8 +5,7 @@ of [Python][PYTHON] projects
 from the [Python Packaging Index][PYPI].
 That can be used with the [Nix][NIX] package manager.
 
-Check out the examples
-at the [website](https://kamadorueda.github.io/python-on-nix/)!
+Check out the examples at [python.on-nix.com](https://python.on-nix.com/)!
 
 - Scope:
   - :heavy_check_mark:
