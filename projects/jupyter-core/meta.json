@@ -1,0 +1,5 @@
+{
+  "desc": "Jupyter core package. A base package on which Jupyter projects rely.",
+  "home": "https://jupyter.org",
+  "license": "BSD-3-Clause"
+}

@@ -1,0 +1,5 @@
+{
+  "desc": "A python package that provides useful locks.",
+  "home": "https://github.com/harlowja/fasteners",
+  "license": "ASL 2.0"
+}

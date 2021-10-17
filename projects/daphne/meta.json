@@ -1,0 +1,5 @@
+{
+  "desc": "Django ASGI (HTTP/WebSocket) server",
+  "home": "https://github.com/django/daphne",
+  "license": "BSD"
+}

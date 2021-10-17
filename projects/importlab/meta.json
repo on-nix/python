@@ -1,0 +1,5 @@
+{
+  "desc": "A library to calculate python dependency graphs.",
+  "home": "https://github.com/google/importlab",
+  "license": "Apache 2.0"
+}

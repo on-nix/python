@@ -1,0 +1,5 @@
+{
+  "desc": "SentencePiece python wrapper",
+  "home": "https://github.com/google/sentencepiece",
+  "license": "Apache"
+}

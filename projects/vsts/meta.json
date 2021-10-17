@@ -1,0 +1,5 @@
+{
+  "desc": "Python wrapper around the VSTS APIs",
+  "home": "https://github.com/Microsoft/vsts-python-api",
+  "license": "MIT"
+}

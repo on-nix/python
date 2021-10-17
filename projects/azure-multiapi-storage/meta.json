@@ -1,0 +1,5 @@
+{
+  "desc": "Microsoft Azure Storage Client Library for Python with multi API version support.",
+  "home": "https://github.com/Azure/azure-multiapi-storage-python",
+  "license": "MIT"
+}

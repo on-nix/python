@@ -1,0 +1,5 @@
+{
+  "desc": "Microsoft Azure Key Vault Administration Client Library for Python",
+  "home": "https://github.com/Azure/azure-sdk-for-python/tree/master/sdk/keyvault/azure-keyvault-administration",
+  "license": "MIT License"
+}

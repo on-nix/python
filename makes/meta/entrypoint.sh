@@ -8,7 +8,7 @@ function fetch {
     || curl -L "https://pypi.org/pypi/${project}/json"
 }
 
-function main {
+function generate {
   local project="${1}"
 
   fetch "${project}" | jq -erS '{
@@ -16,6 +16,16 @@ function main {
     home: .info.home_page,
     license: .info.license
   }' > "projects/${project}/meta.json"
+}
+
+function main {
+  for project in projects/*; do
+    echo Generating meta for: "${project}" \
+      && project="$(basename "${project}")" \
+      && if ! test -e "projects/${project}/meta.json"; then
+        generate "${project}"
+      fi
+  done
 }
 
 main "${@}"

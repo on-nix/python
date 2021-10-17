@@ -1,0 +1,5 @@
+{
+  "desc": "Microsoft App Configuration Data Library for Python",
+  "home": "https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/appconfiguration/azure-appconfiguration",
+  "license": "MIT License"
+}

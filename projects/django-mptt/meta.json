@@ -1,0 +1,5 @@
+{
+  "desc": "Utilities for implementing Modified Preorder Tree Traversal with your Django Models and working with trees of Model instances.",
+  "home": "https://github.com/django-mptt/django-mptt/",
+  "license": "MIT-License"
+}

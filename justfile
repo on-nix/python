@@ -47,8 +47,8 @@ new-version PROJECT VERSION:
   m . /create 3.9 {{PROJECT}} {{VERSION}}; just optimize; \
   m . /create 3.10 {{PROJECT}} {{VERSION}}; just optimize; \
 
-meta PROJECT:
-  bash makes/meta/entrypoint.sh {{PROJECT}}
+meta:
+  bash makes/meta/entrypoint.sh
 
 optimize:
   python3 makes/optimize/entrypoint.py

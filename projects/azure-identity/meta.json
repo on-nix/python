@@ -1,0 +1,5 @@
+{
+  "desc": "Microsoft Azure Identity Library for Python",
+  "home": "https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/identity/azure-identity",
+  "license": "MIT License"
+}

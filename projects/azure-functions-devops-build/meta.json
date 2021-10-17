@@ -1,0 +1,5 @@
+{
+  "desc": "Python package for integrating Azure Functions with Azure DevOps. Specifically made for the Azure CLI",
+  "home": "https://github.com/Azure/azure-functions-devops-build",
+  "license": "MIT"
+}
