@@ -393,6 +393,7 @@ which points to the latest version of the project.
 | certifi | 2021.5.30 | 3.6 3.7 3.8 3.9 |
 | certipy | 0.1.3 | 3.6 3.7 3.8 3.9 |
 | cffi | 1.14.6 | 3.6 3.7 3.8 3.9 |
+| cffi | 1.15.0 | 3.6 3.7 3.8 3.9 |
 | cfgv | 3.3.1 | 3.7 3.8 3.9 |
 | cfn-flip | 1.2.3 | 3.6 3.7 3.8 3.9 |
 | cfn-lint | 0.53.0 | 3.6 3.7 3.8 3.9 |
@@ -407,7 +408,8 @@ which points to the latest version of the project.
 | check-manifest | 0.46 | 3.6 3.7 3.8 3.9 |
 | cheroot | 8.5.2 | 3.6 3.7 3.8 3.9 |
 | cherrypy | 18.6.1 | 3.6 3.7 3.8 3.9 |
-| ciso8601 | 2.2.0 | 3.6 3.7 3.8 3.9 |
+| circuits | 3.2.1 | 3.6 3.7 3.8 3.9 |
+| ciso8601 | 2.2.0 | 3.6 3.8 3.9 |
 | clang | 5.0 | 3.6 3.7 3.8 3.9 |
 | cleo | 0.6.8 | 3.6 3.7 3.8 3.9 |
 | cleo | 0.8.1 | 3.6 3.7 3.8 3.9 |
@@ -481,6 +483,7 @@ which points to the latest version of the project.
 | cython | 0.29.24 | 3.6 3.7 3.8 3.9 |
 | cytoolz | 0.11.0 | 3.6 3.7 3.8 3.9 |
 | dacite | 1.6.0 | 3.6 3.7 3.8 3.9 |
+| daphne | 3.0.2 | 3.6 3.7 3.8 3.9 |
 | dask | 2021.9.0 | 3.7 3.8 3.9 |
 | databricks-cli | 0.15.0 | 3.6 3.7 3.8 3.9 |
 | dataclasses | 0.6 | 3.7 3.8 3.9 |
@@ -539,6 +542,8 @@ which points to the latest version of the project.
 | django-filter | 2.4.0 | 3.6 3.7 3.8 3.9 |
 | django-js-asset | 1.2.2 | 3.6 3.7 3.8 3.9 |
 | django-modelcluster | 5.1 | 3.6 3.7 3.8 3.9 |
+| django-mptt | 0.13.3 | 3.6 3.7 3.8 3.9 |
+| django-mptt | 0.13.4 | 3.6 3.7 3.8 3.9 |
 | django-polymorphic | 3.0.0 | 3.6 3.7 3.8 3.9 |
 | django-redis | 5.0.0 | 3.6 3.7 3.8 3.9 |
 | djangorestframework | 3.12.4 | 3.6 3.7 3.8 3.9 |
@@ -611,6 +616,7 @@ which points to the latest version of the project.
 | fastcore | 1.3.26 | 3.6 3.7 3.8 3.9 |
 | fastdownload | 0.0.5 | 3.7 3.8 3.9 |
 | fastdtw | 0.3.4 | 3.6 3.7 3.8 3.9 |
+| fasteners | 0.16.3 | 3.6 3.7 3.8 3.9 |
 | fastjsonschema | 2.15.1 | 3.6 3.7 3.8 3.9 |
 | fastprogress | 1.0.0 | 3.7 3.8 3.9 |
 | fb | 0.4.0 | 3.6 3.7 3.8 3.9 |
@@ -870,6 +876,7 @@ which points to the latest version of the project.
 | jsonschema | 3.2.0 | 3.6 3.7 3.8 3.9 |
 | junit-xml | 1.9 | 3.6 3.7 3.8 3.9 |
 | jupyter-alabaster-theme | 0.4.0 | 3.6 3.7 3.8 3.9 |
+| jupyter-core | 4.8.1 | 3.6 3.7 3.8 3.9 |
 | jupyterhub | 1.4.2 | 3.6 3.7 3.8 3.9 |
 | jupyterlab-pygments | 0.1.2 | 3.6 3.7 3.8 3.9 |
 | jupyterlab-widgets | 1.0.1 | 3.6 3.7 3.8 3.9 |
@@ -1499,6 +1506,7 @@ which points to the latest version of the project.
 | pywin32-ctypes | 0.2.0 | 3.6 3.7 3.8 3.9 |
 | pyxdg | 0.27 | 3.6 3.7 3.8 3.9 |
 | pyyaml | 5.4.1 | 3.6 3.7 3.8 3.9 |
+| pyyaml | 6.0 | 3.6 3.7 3.8 3.9 |
 | pyyaml-env-tag | 0.1 | 3.6 3.7 3.8 3.9 |
 | pyzmq | 22.2.1 | 3.6 3.7 3.8 3.9 |
 | pyzmq | 22.3.0 | 3.6 3.7 3.8 3.9 |
@@ -1602,12 +1610,15 @@ which points to the latest version of the project.
 | semantic-version | 2.8.5 | 3.6 3.7 3.8 3.9 |
 | semver | 2.13.0 | 3.6 3.7 3.8 3.9 |
 | send2trash | 1.8.0 | 3.6 3.7 3.8 3.9 |
+| sentencepiece | 0.1.96 | 3.6 3.7 3.8 3.9 |
 | sentence-transformers | 2.0.0 | 3.7 3.8 3.9 |
 | sentry-sdk | 1.3.1 | 3.6 3.7 3.8 3.9 |
 | service-identity | 21.1.0 | 3.6 3.7 3.8 3.9 |
 | setoptconf | 0.2.0 | 3.7 3.8 3.9 |
 | setproctitle | 1.2.2 | 3.6 3.7 3.8 3.9 |
 | setuptools | 57.4.0 | 3.6 3.7 3.8 3.9 |
+| setuptools | 57.5.0 | 3.6 3.7 3.8 3.9 |
+| setuptools | 58.2.0 | 3.6 3.7 3.8 3.9 |
 | setuptools-rust | 0.12.1 | 3.6 3.7 3.8 3.9 |
 | sgmllib3k | 1.0.0 | 3.6 3.7 3.8 3.9 |
 | sgqlc | 14.0 | 3.6 3.7 3.8 3.9 |
