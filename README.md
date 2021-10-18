@@ -2356,10 +2356,6 @@ Now just `$ nix -L build .#something` ! :rocket:
 
 Anything you can think of will be appreciated!
 
-Also a few dollars are always welcome :grin:
-
-- https://www.patreon.com/kamadorueda
-
 # License
 
 Code on this branch is dedicated to the public domain

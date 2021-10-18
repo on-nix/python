@@ -664,7 +664,7 @@ let
       Found a bug? Are we missing a feature?
       Let us know in the issues section.
 
-      Please consider starring, funding or contributing to the project!
+      Please consider starring or contributing to the project!
 
   '';
 in
