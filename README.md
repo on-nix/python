@@ -2034,16 +2034,16 @@ On Python, projects can offer two types of components:
 Simply run the following magic from a terminal.
 
 ```bash
-$ nix-env -iA 'apps."<project>"."<version>"' -f https://github.com/kamadorueda/python-on-nix/tarball/main
+$ nix-env -iA 'apps."<project>"."<version>"' -f https://github.com/on-nix/python/tarball/main
 ```
 
 For example:
 
 - ```bash
-  $ nix-env -iA 'apps."awscli"."1.20.31"' -f https://github.com/kamadorueda/python-on-nix/tarball/main
+  $ nix-env -iA 'apps."awscli"."1.20.31"' -f https://github.com/on-nix/python/tarball/main
   ```
 - ```bash
-  $ nix-env -iA 'apps."pytest"."latest"' -f https://github.com/kamadorueda/python-on-nix/tarball/main
+  $ nix-env -iA 'apps."pytest"."latest"' -f https://github.com/on-nix/python/tarball/main
   ```
 
 After the process have completed,
@@ -2071,9 +2071,9 @@ For example:
 let
   pythonOnNix = import (builtins.fetchGit {
     # Use `main` branch or a commit from this list:
-    # https://github.com/kamadorueda/python-on-nix/commits/main
+    # https://github.com/on-nix/python/commits/main
     ref = "main";
-    url = "https://github.com/kamadorueda/python-on-nix";
+    url = "https://github.com/on-nix/python";
   });
 in
 # Keep reading for more information
@@ -2213,18 +2213,18 @@ an **unstable** release of Nix.
 ## List of available projects
 
 ```bash
-$ nix flake show github:kamadorueda/python-on-nix
+$ nix flake show github:on-nix/python
 ```
 
 ## Trying out Applications without installing them
 
-- `$ nix shell 'github:kamadorueda/python-on-nix#"awscli-1.20.31-latest-bin"'`
-- `$ nix shell 'github:kamadorueda/python-on-nix#"pytest-latest-python37-bin"'`
+- `$ nix shell 'github:on-nix/python#"awscli-1.20.31-latest-bin"'`
+- `$ nix shell 'github:on-nix/python#"pytest-latest-python37-bin"'`
 
 ## Installing Applications
 
-- `$ nix profile install 'github:kamadorueda/python-on-nix#"awscli-1.20.31-latest-bin"'`
-- `$ nix profile install 'github:kamadorueda/python-on-nix#"pytest-latest-python37-bin"'`
+- `$ nix profile install 'github:on-nix/python#"awscli-1.20.31-latest-bin"'`
+- `$ nix profile install 'github:on-nix/python#"pytest-latest-python37-bin"'`
 
 ## Creating Python environments with Applications and Libraries
 
@@ -2234,7 +2234,7 @@ $ nix flake show github:kamadorueda/python-on-nix
   inputs = {
     # Import projects
     nixpkgs.url = "github:nixos/nixpkgs";
-    pythonOnNix.url = "github:kamadorueda/python-on-nix";
+    pythonOnNix.url = "github:on-nix/python";
   };
   outputs = { nixpkgs, pythonOnNix, ... }: {
     packages.x86_64-linux = {
@@ -2296,7 +2296,7 @@ For example:
 {
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs";
-    pythonOnNix.url = "github:kamadorueda/python-on-nix";
+    pythonOnNix.url = "github:on-nix/python";
   };
   outputs = { nixpkgs, pythonOnNix, self, ... }: {
     packages.x86_64-linux = {

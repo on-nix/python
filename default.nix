@@ -659,7 +659,7 @@ let
 
     $ You are using Python on Nix!
 
-      https://github.com/kamadorueda/python-on-nix
+      https://github.com/on-nix/python
 
       Found a bug? Are we missing a feature?
       Let us know in the issues section.
