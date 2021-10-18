@@ -62,6 +62,8 @@ Additionally to the versions below,
 there is a meta-version called `latest`
 which points to the latest version of the project.
 
+##
+
 | Project | Version | Python Versions |
 | ------- | :-----: | :-------------: |
 | about-time | 3.1.1 | 3.6 3.7 3.8 3.9 |
@@ -2069,12 +2071,18 @@ For example:
 # /path/to/my/env.nix
 
 let
-  pythonOnNix = import (builtins.fetchGit {
-    # Use `main` branch or a commit from this list:
-    # https://github.com/on-nix/python/commits/main
-    ref = "main";
-    url = "https://github.com/on-nix/python";
-  });
+  pythonOnNix = import
+    (builtins.fetchGit {
+      # Use `main` branch or a commit from this list:
+      # https://github.com/on-nix/python/commits/main
+      ref = "main";
+      url = "https://github.com/on-nix/python";
+    })
+    {
+      # You can override `nixpkgs` here,
+      # or set to `null` to use one bundled with Python on Nix
+      nixpkgs = null;
+    };
 in
 # Keep reading for more information
 ```
@@ -2146,10 +2154,15 @@ For example:
 
 let
   # import projects as explained in previous sections
-  nixpkgs = import { ... };
-  pythonOnNix = import { ... };
+  nixpkgs = import <nixpkgs> { };
+  pythonOnNix = import
+    (builtins.fetchGit {
+      ref = "main";
+      url = "https://github.com/on-nix/python";
+    })
+    { inherit nixpkgs; };
 
-  # Create a Python on Nix environment as explained in previous sections
+  # Create a Python on Nix environment
   env = pythonOnNix.python39Env {
     name = "example";
     projects = {
@@ -2218,39 +2231,52 @@ $ nix flake show github:on-nix/python
 
 ## Trying out Applications without installing them
 
-- `$ nix shell 'github:on-nix/python#"awscli-1.20.31-latest-bin"'`
+- `$ nix shell 'github:on-nix/python#"awscli-1.20.31-python39-bin"'`
 - `$ nix shell 'github:on-nix/python#"pytest-latest-python37-bin"'`
 
 ## Installing Applications
 
-- `$ nix profile install 'github:on-nix/python#"awscli-1.20.31-latest-bin"'`
+- `$ nix profile install 'github:on-nix/python#"awscli-1.20.31-python39-bin"'`
 - `$ nix profile install 'github:on-nix/python#"pytest-latest-python37-bin"'`
 
 ## Creating Python environments with Applications and Libraries
 
 ```nix
 # /path/to/my/project/flake.nix
+
 {
   inputs = {
-    # Import projects
+    flakeUtils.url = "github:numtide/flake-utils";
     nixpkgs.url = "github:nixos/nixpkgs";
     pythonOnNix.url = "github:on-nix/python";
   };
-  outputs = { nixpkgs, pythonOnNix, ... }: {
-    packages.x86_64-linux = {
-
-      example = pythonOnNix.lib.python39Env {
-        name = "example";
-        projects = {
-          awscli = "1.20.31";
-          numpy = "latest";
-          requests = "latest";
-          torch = "1.9.0";
+  outputs = { self, ... } @ inputs:
+    inputs.flakeUtils.lib.eachSystem [ "x86_64-linux" ] (system:
+      let
+        nixpkgs = inputs.nixpkgs.legacyPackages.${system};
+        pythonOnNix = inputs.pythonOnNix.lib {
+          # You can also omit this parameter
+          # in order to use a default `nixpkgs` bundled with Python on Nix
+          inherit nixpkgs;
+          inherit system;
         };
-      };
+      in
+      {
+        packages = rec {
 
-    };
-  };
+          example = (pythonOnNix.python39Env {
+            name = "example";
+            projects = {
+              awscli = "1.20.31";
+              numpy = "latest";
+              requests = "latest";
+              torch = "1.9.0";
+            };
+          }).dev;
+
+        };
+      }
+    );
 }
 ```
 
@@ -2293,45 +2319,60 @@ For example:
 
 ```nix
 # /path/to/my/project/flake.nix
+
 {
   inputs = {
+    flakeUtils.url = "github:numtide/flake-utils";
     nixpkgs.url = "github:nixos/nixpkgs";
-    pythonOnNix.url = "github:on-nix/python";
+    pythonOnNix.url = "github/on-nix/python";
   };
-  outputs = { nixpkgs, pythonOnNix, self, ... }: {
-    packages.x86_64-linux = {
-
-      example = pythonOnNix.lib.python39Env {
-        name = "example";
-        projects = {
-          awscli = "1.20.31";
-          numpy = "latest";
-          requests = "latest";
-          torch = "1.9.0";
+  outputs = { self, ... } @ inputs:
+    inputs.flakeUtils.lib.eachSystem [ "x86_64-linux" ] (system:
+      let
+        nixpkgs = inputs.nixpkgs.legacyPackages.${system};
+        pythonOnNix = inputs.pythonOnNix.lib {
+          # You can also omit this parameter
+          # in order to use a default `nixpkgs` bundled with Python on Nix
+          inherit nixpkgs;
+          inherit system;
         };
-      };
+      in
+      {
+        packages = rec {
 
-      something = nixpkgs.legacyPackages.x86_64-linux.stdenv.mkDerivation {
-        buildInputs = [ self.packages.x86_64-linux.example ];
-        builder = builtins.toFile "builder.sh" ''
-          source $stdenv/setup
+          example = (pythonOnNix.python39Env {
+            name = "example";
+            projects = {
+              awscli = "1.20.31";
+              numpy = "latest";
+              requests = "latest";
+              torch = "1.9.0";
+            };
+          }).dev;
 
-          set -x
+          something = nixpkgs.stdenv.mkDerivation {
+            buildInputs = [ example ];
+            builder = builtins.toFile "builder.sh" ''
+              source $stdenv/setup
 
-          python --version
-          aws --version
-          python -c 'import numpy; print(numpy.__version__)'
-          python -c 'import requests; print(requests.__version__)'
-          python -c 'import torch; print(torch.__version__)'
+              set -x
 
-          touch $out
+              python --version
+              aws --version
+              python -c 'import numpy; print(numpy.__version__)'
+              python -c 'import requests; print(requests.__version__)'
+              python -c 'import torch; print(torch.__version__)'
 
-          set +x
-        '';
-        name = "example";
-      };
-    };
-  };
+              touch $out
+
+              set +x
+            '';
+            name = "something";
+          };
+
+        };
+      }
+    );
 }
 ```
 

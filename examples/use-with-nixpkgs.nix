@@ -1,11 +1,15 @@
 let
+  # import projects as explained in previous sections
   nixpkgs = import <nixpkgs> { };
+  pythonOnNix = import
+    (builtins.fetchGit {
+      ref = "main";
+      # url = "https://github.com/on-nix/python";
+      url = ../.;
+    })
+    { inherit nixpkgs; };
 
-  pythonOnNix = import (builtins.fetchGit {
-    ref = "main";
-    url = ./..;
-  });
-
+  # Create a Python on Nix environment
   env = pythonOnNix.python39Env {
     name = "example";
     projects = {
@@ -17,7 +21,8 @@ let
   };
 in
 nixpkgs.stdenv.mkDerivation {
-  builder = builtins.toFile "test" ''
+  buildInputs = [ env ];
+  builder = builtins.toFile "builder.sh" ''
     source $stdenv/setup
 
     set -x
@@ -33,5 +38,4 @@ nixpkgs.stdenv.mkDerivation {
     set +x
   '';
   name = "example";
-  buildInputs = [ env ];
 }

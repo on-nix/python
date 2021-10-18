@@ -1,19 +1,37 @@
+{ nixpkgs ? null
+, system ? null
+, ...
+} @ evalConfig:
 let
   lock = builtins.fromJSON (builtins.readFile ./flake.lock);
-  system = "x86_64-linux";
 
-  makes = import "${makesSrc}/src/args/agnostic.nix" { inherit system; };
-  makesSrc = with lock.nodes.makes.locked;
-    builtins.fetchTarball {
-      url = "https://github.com/${owner}/${repo}/archive/${rev}.tar.gz";
-      sha256 = narHash;
-    };
-  nixpkgs = import nixpkgsSrc { inherit system; };
-  nixpkgsSrc = with lock.nodes.nixpkgs.locked;
-    builtins.fetchTarball {
-      url = "https://github.com/${owner}/${repo}/archive/${rev}.tar.gz";
-      sha256 = narHash;
-    };
+  system =
+    if (builtins.hasAttr "system" evalConfig) && evalConfig.system != null
+    then evalConfig.system
+    else builtins.currentSystem;
+
+  makes =
+    with lock.nodes.makes.locked;
+    let
+      src = builtins.fetchTarball {
+        url = "https://github.com/${owner}/${repo}/archive/${rev}.tar.gz";
+        sha256 = narHash;
+      };
+    in
+    import "${src}/src/args/agnostic.nix" { inherit system; };
+
+  nixpkgs =
+    if (builtins.hasAttr "nixpkgs" evalConfig) && evalConfig.nixpkgs != null
+    then evalConfig.nixpkgs
+    else
+      with lock.nodes.nixpkgs.locked;
+      let
+        src = builtins.fetchTarball {
+          url = "https://github.com/${owner}/${repo}/archive/${rev}.tar.gz";
+          sha256 = narHash;
+        };
+      in
+      import src { inherit system; };
 
   #
 
@@ -647,10 +665,8 @@ let
 
   self = makeEnvs // {
     inherit apps;
-    inherit mapListToAttrs;
     inherit projects;
     inherit projectsForFlake;
-    inherit projectsMeta;
     inherit pythonVersions;
   };
 
