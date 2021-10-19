@@ -2154,6 +2154,7 @@ For example:
 
 let
   # import projects
+  nixpkgs = import <nixpkgs> { };
   pythonOnNix = import
     (builtins.fetchGit {
       # Use `main` branch or a commit from this list:
