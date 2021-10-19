@@ -2153,14 +2153,19 @@ For example:
 # /path/to/my/expression.nix
 
 let
-  # import projects as explained in previous sections
-  nixpkgs = import <nixpkgs> { };
+  # import projects
   pythonOnNix = import
     (builtins.fetchGit {
+      # Use `main` branch or a commit from this list:
+      # https://github.com/on-nix/python/commits/main
       ref = "main";
       url = "https://github.com/on-nix/python";
     })
-    { inherit nixpkgs; };
+    {
+      # You can override `nixpkgs` here,
+      # or set to `null` to use one bundled with Python on Nix
+      inherit nixpkgs;
+    };
 
   # Create a Python on Nix environment
   env = pythonOnNix.python39Env {
