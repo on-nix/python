@@ -2081,7 +2081,7 @@ let
     {
       # You can override `nixpkgs` here,
       # or set to `null` to use one bundled with Python on Nix
-      nixpkgs = null;
+      # nixpkgs = import <nixpkgs> { };
     };
 in
 # Keep reading for more information
@@ -2109,7 +2109,7 @@ pythonOnNix.python39Env {
     requests = "latest";
     torch = "1.9.0";
   };
-};
+}
 ```
 
 The output of this function

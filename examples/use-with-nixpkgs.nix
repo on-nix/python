@@ -11,7 +11,7 @@ let
     })
     {
       # You can override `nixpkgs` here,
-      # or set to `null` to use one bundled with Python on Nix
+      # or set to `null` to use the one bundled with Python on Nix
       inherit nixpkgs;
     };
 
