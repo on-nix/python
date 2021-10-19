@@ -667,6 +667,7 @@ let
     inherit apps;
     inherit projects;
     inherit projectsForFlake;
+    inherit projectsMeta;
     inherit pythonVersions;
   };
 
