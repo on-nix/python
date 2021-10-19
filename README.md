@@ -2163,8 +2163,6 @@ let
       url = "https://github.com/on-nix/python";
     })
     {
-      # You can override `nixpkgs` here,
-      # or set to `null` to use one bundled with Python on Nix
       inherit nixpkgs;
     };
 
