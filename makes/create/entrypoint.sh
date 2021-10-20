@@ -69,7 +69,9 @@ function main {
     && popd \
     && out="${PWD}/projects/${project}/${version}" \
     && mkdir -p "${out}" \
-    && echo {} > "${out}/python3*.json" \
+    && if ! test -e "${out}/python3*.json"; then
+      echo {} > "${out}/python3*.json"
+    fi \
     && copy "${tmp}/closure.json" "${out}/${python_code}.json" \
     && pushd "${tmp}" \
     && jq -er 'to_entries[].key' \
