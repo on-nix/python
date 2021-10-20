@@ -5,6 +5,6 @@
     targets = [ "/README.md" ];
   };
   inputs = {
-    pythonOnNix = import ./default.nix;
+    pythonOnNix = import ./default.nix { };
   };
 }
