@@ -153,7 +153,7 @@ For example:
 ```nix
 # /path/to/my/env.nix (continuation)
 
-pythonOnNix.python39Env {
+(pythonOnNix.python39Env {
   name = "example";
   projects = {
     awscli = "1.20.31";
@@ -161,7 +161,7 @@ pythonOnNix.python39Env {
     requests = "latest";
     torch = "1.9.0";
   };
-}
+}).dev
 ```
 
 The output of this function
