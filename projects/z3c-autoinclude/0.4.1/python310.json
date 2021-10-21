@@ -1,0 +1,9 @@
+{
+  "six": "1.16.0",
+  "zope-configuration": "4.4.0",
+  "zope-dottedname": "4.3",
+  "zope-event": "4.5.0",
+  "zope-i18nmessageid": "5.0.1",
+  "zope-interface": "5.4.0",
+  "zope-schema": "6.2.0"
+}
