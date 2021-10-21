@@ -1,0 +1,14 @@
+{
+  "beautifulsoup4": "4.10.0",
+  "pytz": "2021.3",
+  "six": "1.16.0",
+  "soupsieve": "2.2.1",
+  "waitress": "2.0.0",
+  "webob": "1.8.7",
+  "webtest": "3.0.0",
+  "wsgiproxy2": "0.5.1",
+  "zope-cachedescriptors": "4.3.1",
+  "zope-event": "4.5.0",
+  "zope-interface": "5.4.0",
+  "zope-schema": "6.2.0"
+}
