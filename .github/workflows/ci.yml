@@ -1051,6 +1051,7 @@ jobs:
     - run: nix-channel --update
     - run: nix-env -i just
     - run: just build projects.jwcrypto
+    - run: just build projects.kaleido
     - run: just build projects.kazoo
     - run: just build projects.keras
     - run: just build projects.keras-applications
@@ -1067,7 +1068,6 @@ jobs:
     - run: just build projects.lark-parser
     - run: just build projects.latexcodec
     - run: just build projects.lazy-object-proxy
-    - run: just build projects.lazyutils
   build41:
     runs-on: ubuntu-latest
     steps:
@@ -1076,6 +1076,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.lazyutils
     - run: just build projects.ldap3
     - run: just build projects.libcst
     - run: just build projects.libsass
@@ -1093,7 +1094,6 @@ jobs:
     - run: just build projects.logbook
     - run: just build projects.loguru
     - run: just build projects.logzero
-    - run: just build projects.lru-dict
   build42:
     runs-on: ubuntu-latest
     steps:
@@ -1102,6 +1102,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.lru-dict
     - run: just build projects.luigi
     - run: just build projects.lxml
     - run: just build projects.lz4
@@ -1119,7 +1120,6 @@ jobs:
     - run: just build projects.marshmallow
     - run: just build projects.marshmallow-enum
     - run: just build projects.marshmallow-oneofschema
-    - run: just build projects.marshmallow-polyfield
   build43:
     runs-on: ubuntu-latest
     steps:
@@ -1128,6 +1128,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.marshmallow-polyfield
     - run: just build projects.marshmallow-sqlalchemy
     - run: just build projects.masonite-cli
     - run: just build projects.matplotlib
@@ -1145,7 +1146,6 @@ jobs:
     - run: just build projects.metaloaders
     - run: just build projects.mimeparse
     - run: just build projects.minio
-    - run: just build projects.mirakuru
   build44:
     runs-on: ubuntu-latest
     steps:
@@ -1154,6 +1154,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.mirakuru
     - run: just build projects.missing
     - run: just build projects.mistune
     - run: just build projects.mixpanel
@@ -1171,7 +1172,6 @@ jobs:
     - run: just build projects.moto
     - run: just build projects.motor
     - run: just build projects.mpmath
-    - run: just build projects.mrcfile
   build45:
     runs-on: ubuntu-latest
     steps:
@@ -1180,6 +1180,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.mrcfile
     - run: just build projects.msal
     - run: just build projects.msal-extensions
     - run: just build projects.msgpack
@@ -1197,7 +1198,6 @@ jobs:
     - run: just build projects.murmurhash
     - run: just build projects.mutagen
     - run: just build projects.mypy
-    - run: just build projects.mypy-extensions
   build46:
     runs-on: ubuntu-latest
     steps:
@@ -1206,6 +1206,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.mypy-extensions
     - run: just build projects.mysql-connector-python
     - run: just build projects.myst-parser
     - run: just build projects.napari-plugin-engine
@@ -1223,7 +1224,6 @@ jobs:
     - run: just build projects.newick
     - run: just build projects.newrelic
     - run: just build projects.nibabel
-    - run: just build projects.ninja
   build47:
     runs-on: ubuntu-latest
     steps:
@@ -1232,6 +1232,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.ninja
     - run: just build projects.nltk
     - run: just build projects.nodeenv
     - run: just build projects.nose
@@ -1249,7 +1250,6 @@ jobs:
     - run: just build projects.oauthlib
     - run: just build projects.olefile
     - run: just build projects.omegaconf
-    - run: just build projects.on-http-redfish-1-0
   build48:
     runs-on: ubuntu-latest
     steps:
@@ -1258,6 +1258,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.on-http-redfish-1-0
     - run: just build projects.openapi-schema-validator
     - run: just build projects.opencensus
     - run: just build projects.opencensus-context
@@ -1275,7 +1276,6 @@ jobs:
     - run: just build projects.orderedmultidict
     - run: just build projects.orjson
     - run: just build projects.oscrypto
-    - run: just build projects.oslo-cache
   build49:
     runs-on: ubuntu-latest
     steps:
@@ -1284,6 +1284,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.oslo-cache
     - run: just build projects.oslo-concurrency
     - run: just build projects.oslo-config
     - run: just build projects.oslo-context
@@ -1301,7 +1302,6 @@ jobs:
     - run: just build projects.pamela
     - run: just build projects.pamqp
     - run: just build projects.pandas
-    - run: just build projects.pandas-datareader
   build50:
     runs-on: ubuntu-latest
     steps:
@@ -1310,6 +1310,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.pandas-datareader
     - run: just build projects.pandocfilters
     - run: just build projects.panel
     - run: just build projects.para
@@ -1327,7 +1328,6 @@ jobs:
     - run: just build projects.paste
     - run: just build projects.pastedeploy
     - run: just build projects.pastel
-    - run: just build projects.path
   build51:
     runs-on: ubuntu-latest
     steps:
@@ -1336,6 +1336,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.path
     - run: just build projects.path-py
     - run: just build projects.pathlib
     - run: just build projects.pathlib2
@@ -1353,7 +1354,6 @@ jobs:
     - run: just build projects.pendulum
     - run: just build projects.pep517
     - run: just build projects.pep562
-    - run: just build projects.pep8
   build52:
     runs-on: ubuntu-latest
     steps:
@@ -1362,6 +1362,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.pep8
     - run: just build projects.pep8-naming
     - run: just build projects.peppercorn
     - run: just build projects.persistence
@@ -1379,7 +1380,6 @@ jobs:
     - run: just build projects.pip-tools
     - run: just build projects.pip-upgrader
     - run: just build projects.pipenv
-    - run: just build projects.pkginfo
   build53:
     runs-on: ubuntu-latest
     steps:
@@ -1388,6 +1388,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.pkginfo
     - run: just build projects.plac
     - run: just build projects.plantweb
     - run: just build projects.plaster
@@ -1405,7 +1406,6 @@ jobs:
     - run: just build projects.plone-app-intid
     - run: just build projects.plone-app-layout
     - run: just build projects.plone-app-locales
-    - run: just build projects.plone-app-portlets
   build54:
     runs-on: ubuntu-latest
     steps:
@@ -1414,6 +1414,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.plone-app-portlets
     - run: just build projects.plone-app-querystring
     - run: just build projects.plone-app-redirector
     - run: just build projects.plone-app-registry
@@ -1431,7 +1432,6 @@ jobs:
     - run: just build projects.plone-cachepurging
     - run: just build projects.plone-caching
     - run: just build projects.plone-contentrules
-    - run: just build projects.plone-event
   build55:
     runs-on: ubuntu-latest
     steps:
@@ -1440,6 +1440,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.plone-event
     - run: just build projects.plone-folder
     - run: just build projects.plone-formwidget-recurrence
     - run: just build projects.plone-i18n
@@ -1457,7 +1458,6 @@ jobs:
     - run: just build projects.plone-resource
     - run: just build projects.plone-resourceeditor
     - run: just build projects.plone-rfc822
-    - run: just build projects.plone-scale
   build56:
     runs-on: ubuntu-latest
     steps:
@@ -1466,6 +1466,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.plone-scale
     - run: just build projects.plone-session
     - run: just build projects.plone-staticresources
     - run: just build projects.plone-stringinterp
@@ -1483,7 +1484,6 @@ jobs:
     - run: just build projects.plover
     - run: just build projects.pluggy
     - run: just build projects.ply
-    - run: just build projects.plyplus
   build57:
     runs-on: ubuntu-latest
     steps:
@@ -1492,6 +1492,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.plyplus
     - run: just build projects.pockets
     - run: just build projects.poetry
     - run: just build projects.poetry-core
@@ -1509,7 +1510,6 @@ jobs:
     - run: just build projects.prestring
     - run: just build projects.pretend
     - run: just build projects.prettytable
-    - run: just build projects.priority
   build58:
     runs-on: ubuntu-latest
     steps:
@@ -1518,6 +1518,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.priority
     - run: just build projects.prison
     - run: just build projects.products-btreefolder2
     - run: just build projects.products-cmfcore
@@ -1535,7 +1536,6 @@ jobs:
     - run: just build projects.products-mailhost
     - run: just build projects.products-mimetypesregistry
     - run: just build projects.products-plonepas
-    - run: just build projects.products-pluggableauthservice
   build59:
     runs-on: ubuntu-latest
     steps:
@@ -1544,6 +1544,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.products-pluggableauthservice
     - run: just build projects.products-pluginregistry
     - run: just build projects.products-portaltransforms
     - run: just build projects.products-pythonscripts
@@ -1561,7 +1562,6 @@ jobs:
     - run: just build projects.progressbar
     - run: just build projects.progressbar2
     - run: just build projects.prometheus-client
-    - run: just build projects.prometheus-flask-exporter
   build60:
     runs-on: ubuntu-latest
     steps:
@@ -1570,6 +1570,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.prometheus-flask-exporter
     - run: just build projects.promise
     - run: just build projects.prompt-toolkit
     - run: just build projects.prospector
@@ -1587,7 +1588,6 @@ jobs:
     - run: just build projects.pulumi
     - run: just build projects.purplex
     - run: just build projects.py
-    - run: just build projects.py-cpuinfo
   build61:
     runs-on: ubuntu-latest
     steps:
@@ -1596,6 +1596,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.py-cpuinfo
     - run: just build projects.py4j
     - run: just build projects.pyaes
     - run: just build projects.pyaml
@@ -1613,7 +1614,6 @@ jobs:
     - run: just build projects.pycricbuzz
     - run: just build projects.pycryptodome
     - run: just build projects.pycryptodomex
-    - run: just build projects.pyct
   build62:
     runs-on: ubuntu-latest
     steps:
@@ -1622,6 +1622,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.pyct
     - run: just build projects.pydantic
     - run: just build projects.pydash
     - run: just build projects.pydata-sphinx-theme
@@ -1639,7 +1640,6 @@ jobs:
     - run: just build projects.pyee
     - run: just build projects.pyelftools
     - run: just build projects.pyerfa
-    - run: just build projects.pyexcelerate
   build63:
     runs-on: ubuntu-latest
     steps:
@@ -1648,6 +1648,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.pyexcelerate
     - run: just build projects.pyfaidx
     - run: just build projects.pyfakefs
     - run: just build projects.pyflakes
@@ -1665,7 +1666,6 @@ jobs:
     - run: just build projects.pyjwt
     - run: just build projects.pykka
     - run: just build projects.pykwalify
-    - run: just build projects.pylev
   build64:
     runs-on: ubuntu-latest
     steps:
@@ -1674,6 +1674,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.pylev
     - run: just build projects.pylg
     - run: just build projects.pylint
     - run: just build projects.pylint-celery
@@ -1691,7 +1692,6 @@ jobs:
     - run: just build projects.pynacl
     - run: just build projects.pynamodb
     - run: just build projects.pynvml
-    - run: just build projects.pyomo
   build65:
     runs-on: ubuntu-latest
     steps:
@@ -1700,6 +1700,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.pyomo
     - run: just build projects.pyopengl
     - run: just build projects.pyopenssl
     - run: just build projects.pyotp
@@ -1717,7 +1718,6 @@ jobs:
     - run: just build projects.pyqrcode
     - run: just build projects.pyqt5
     - run: just build projects.pyqt5-qt5
-    - run: just build projects.pyqt5-sip
   build66:
     runs-on: ubuntu-latest
     steps:
@@ -1726,6 +1726,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.pyqt5-sip
     - run: just build projects.pyqtwebengine
     - run: just build projects.pyqtwebengine-qt5
     - run: just build projects.pyquery
@@ -1743,7 +1744,6 @@ jobs:
     - run: just build projects.pyspark
     - run: just build projects.pystache
     - run: just build projects.pytesseract
-    - run: just build projects.pytest
   build67:
     runs-on: ubuntu-latest
     steps:
@@ -1752,6 +1752,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.pytest
     - run: just build projects.pytest-aiohttp
     - run: just build projects.pytest-asyncio
     - run: just build projects.pytest-benchmark
@@ -1769,7 +1770,6 @@ jobs:
     - run: just build projects.pytest-isort
     - run: just build projects.pytest-metadata
     - run: just build projects.pytest-mock
-    - run: just build projects.pytest-mpl
   build68:
     runs-on: ubuntu-latest
     steps:
@@ -1778,6 +1778,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.pytest-mpl
     - run: just build projects.pytest-mypy
     - run: just build projects.pytest-postgresql
     - run: just build projects.pytest-pycodestyle
@@ -1795,7 +1796,6 @@ jobs:
     - run: just build projects.python-baseconv
     - run: just build projects.python-box
     - run: just build projects.python-constraint
-    - run: just build projects.python-consul
   build69:
     runs-on: ubuntu-latest
     steps:
@@ -1804,6 +1804,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.python-consul
     - run: just build projects.python-coveralls
     - run: just build projects.python-crontab
     - run: just build projects.python-daemon
@@ -1821,7 +1822,6 @@ jobs:
     - run: just build projects.python-hosts
     - run: just build projects.python-http-client
     - run: just build projects.python-jose
-    - run: just build projects.python-json-logger
   build70:
     runs-on: ubuntu-latest
     steps:
@@ -1830,6 +1830,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.python-json-logger
     - run: just build projects.python-magic
     - run: just build projects.python-memcached
     - run: just build projects.python-multipart
@@ -1847,7 +1848,6 @@ jobs:
     - run: just build projects.pytodoist
     - run: just build projects.pytoml
     - run: just build projects.pytorch-lightning
-    - run: just build projects.pytube
   build71:
     runs-on: ubuntu-latest
     steps:
@@ -1856,6 +1856,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.pytube
     - run: just build projects.pytweening
     - run: just build projects.pytype
     - run: just build projects.pytz
@@ -1873,7 +1874,6 @@ jobs:
     - run: just build projects.qdldl
     - run: just build projects.qrcode
     - run: just build projects.quandl
-    - run: just build projects.querystring-parser
   build72:
     runs-on: ubuntu-latest
     steps:
@@ -1882,6 +1882,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.querystring-parser
     - run: just build projects.questionary
     - run: just build projects.queuelib
     - run: just build projects.rad
@@ -1899,7 +1900,6 @@ jobs:
     - run: just build projects.record
     - run: just build projects.redis
     - run: just build projects.redis-py-cluster
-    - run: just build projects.regetron
   build73:
     runs-on: ubuntu-latest
     steps:
@@ -1908,6 +1908,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.regetron
     - run: just build projects.regex
     - run: just build projects.relatorio
     - run: just build projects.reportlab
@@ -1925,7 +1926,6 @@ jobs:
     - run: just build projects.requests-unixsocket
     - run: just build projects.requestsexceptions
     - run: just build projects.requirements-detector
-    - run: just build projects.resolvelib
   build74:
     runs-on: ubuntu-latest
     steps:
@@ -1934,6 +1934,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.resolvelib
     - run: just build projects.responses
     - run: just build projects.restrictedpython
     - run: just build projects.restructuredtext-lint
@@ -1951,7 +1952,6 @@ jobs:
     - run: just build projects.rope
     - run: just build projects.routes
     - run: just build projects.rq
-    - run: just build projects.rsa
   build75:
     runs-on: ubuntu-latest
     steps:
@@ -1960,6 +1960,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.rsa
     - run: just build projects.rst-linker
     - run: just build projects.ruamel-yaml
     - run: just build projects.ruamel-yaml-clib
@@ -1977,7 +1978,6 @@ jobs:
     - run: just build projects.schedule
     - run: just build projects.schema
     - run: just build projects.schematics
-    - run: just build projects.scikit-image
   build76:
     runs-on: ubuntu-latest
     steps:
@@ -1986,6 +1986,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.scikit-image
     - run: just build projects.scikit-learn
     - run: just build projects.scikit-optimize
     - run: just build projects.scipy
@@ -2003,7 +2004,6 @@ jobs:
     - run: just build projects.sentencepiece
     - run: just build projects.sentry-sdk
     - run: just build projects.service-identity
-    - run: just build projects.setoptconf
   build77:
     runs-on: ubuntu-latest
     steps:
@@ -2012,6 +2012,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.setoptconf
     - run: just build projects.setproctitle
     - run: just build projects.setuptools
     - run: just build projects.setuptools-rust
@@ -2029,7 +2030,6 @@ jobs:
     - run: just build projects.sinfo
     - run: just build projects.singledispatch
     - run: just build projects.six
-    - run: just build projects.skills
   build78:
     runs-on: ubuntu-latest
     steps:
@@ -2038,6 +2038,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.skills
     - run: just build projects.sklearn
     - run: just build projects.slackclient
     - run: just build projects.slacker
@@ -2055,7 +2056,6 @@ jobs:
     - run: just build projects.sockjs
     - run: just build projects.sortedcontainers
     - run: just build projects.sounddevice
-    - run: just build projects.soundfile
   build79:
     runs-on: ubuntu-latest
     steps:
@@ -2064,6 +2064,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.soundfile
     - run: just build projects.soupsieve
     - run: just build projects.south
     - run: just build projects.spacy
@@ -2081,7 +2082,6 @@ jobs:
     - run: just build projects.sphinx-click
     - run: just build projects.sphinx-copybutton
     - run: just build projects.sphinx-gallery
-    - run: just build projects.sphinx-rtd-theme
   build80:
     runs-on: ubuntu-latest
     steps:
@@ -2090,6 +2090,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.sphinx-rtd-theme
     - run: just build projects.sphinxcontrib-apidoc
     - run: just build projects.sphinxcontrib-applehelp
     - run: just build projects.sphinxcontrib-bibtex
@@ -2107,7 +2108,6 @@ jobs:
     - run: just build projects.sqlalchemy-jsonfield
     - run: just build projects.sqlalchemy-mixins
     - run: just build projects.sqlalchemy-utils
-    - run: just build projects.sqlite-fts4
   build81:
     runs-on: ubuntu-latest
     steps:
@@ -2116,6 +2116,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.sqlite-fts4
     - run: just build projects.sqlite-utils
     - run: just build projects.sqlparse
     - run: just build projects.srsly
@@ -2133,7 +2134,6 @@ jobs:
     - run: just build projects.stringcase
     - run: just build projects.stripe
     - run: just build projects.structlog
-    - run: just build projects.subprocess32
   build82:
     runs-on: ubuntu-latest
     steps:
@@ -2142,6 +2142,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.subprocess32
     - run: just build projects.suds-jurko
     - run: just build projects.supervisor
     - run: just build projects.svgwrite
@@ -2159,7 +2160,6 @@ jobs:
     - run: just build projects.tenacity
     - run: just build projects.tensorboard
     - run: just build projects.tensorboard-data-server
-    - run: just build projects.tensorboard-plugin-wit
   build83:
     runs-on: ubuntu-latest
     steps:
@@ -2168,6 +2168,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.tensorboard-plugin-wit
     - run: just build projects.tensorflow
     - run: just build projects.tensorflow-estimator
     - run: just build projects.tensorflow-metadata
@@ -2185,7 +2186,6 @@ jobs:
     - run: just build projects.textwrap3
     - run: just build projects.the
     - run: just build projects.theano
-    - run: just build projects.theano-pymc
   build84:
     runs-on: ubuntu-latest
     steps:
@@ -2194,6 +2194,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.theano-pymc
     - run: just build projects.therapist
     - run: just build projects.thinc
     - run: just build projects.thop
@@ -2211,7 +2212,6 @@ jobs:
     - run: just build projects.toml
     - run: just build projects.tomli
     - run: just build projects.tomlkit
-    - run: just build projects.toolz
   build85:
     runs-on: ubuntu-latest
     steps:
@@ -2220,6 +2220,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.toolz
     - run: just build projects.toposort
     - run: just build projects.torch
     - run: just build projects.torchaudio
@@ -2237,7 +2238,6 @@ jobs:
     - run: just build projects.transaction
     - run: just build projects.transformers
     - run: just build projects.transitions
-    - run: just build projects.translationstring
   build86:
     runs-on: ubuntu-latest
     steps:
@@ -2246,6 +2246,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.translationstring
     - run: just build projects.tree-sitter
     - run: just build projects.trimesh
     - run: just build projects.trio
@@ -2263,7 +2264,6 @@ jobs:
     - run: just build projects.twisted
     - run: just build projects.txaio
     - run: just build projects.typed-ast
-    - run: just build projects.typeguard
   build87:
     runs-on: ubuntu-latest
     steps:
@@ -2272,6 +2272,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.typeguard
     - run: just build projects.typer
     - run: just build projects.types-pyyaml
     - run: just build projects.types-requests
@@ -2289,7 +2290,6 @@ jobs:
     - run: just build projects.url-normalize
     - run: just build projects.urllib3
     - run: just build projects.urwid
-    - run: just build projects.uuid
   build88:
     runs-on: ubuntu-latest
     steps:
@@ -2298,6 +2298,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.uuid
     - run: just build projects.uvicorn
     - run: just build projects.uvloop
     - run: just build projects.validate-docbr
@@ -2315,7 +2316,6 @@ jobs:
     - run: just build projects.voluptuous
     - run: just build projects.vsts
     - run: just build projects.w3lib
-    - run: just build projects.wagtail
   build89:
     runs-on: ubuntu-latest
     steps:
@@ -2324,6 +2324,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.wagtail
     - run: just build projects.waitress
     - run: just build projects.wand
     - run: just build projects.warlock
@@ -2341,7 +2342,6 @@ jobs:
     - run: just build projects.webob
     - run: just build projects.websocket-client
     - run: just build projects.websockets
-    - run: just build projects.webstack-django-sorting
   build90:
     runs-on: ubuntu-latest
     steps:
@@ -2350,6 +2350,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.webstack-django-sorting
     - run: just build projects.webtest
     - run: just build projects.werkzeug
     - run: just build projects.wget
@@ -2367,7 +2368,6 @@ jobs:
     - run: just build projects.ws4py
     - run: just build projects.wsgiproxy2
     - run: just build projects.wslink
-    - run: just build projects.wtforms
   build91:
     runs-on: ubuntu-latest
     steps:
@@ -2376,6 +2376,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.wtforms
     - run: just build projects.x256
     - run: just build projects.xarray
     - run: just build projects.xdg
@@ -2393,7 +2394,6 @@ jobs:
     - run: just build projects.yfinance
     - run: just build projects.youtube-dl
     - run: just build projects.z3c-autoinclude
-    - run: just build projects.z3c-caching
   build92:
     runs-on: ubuntu-latest
     steps:
@@ -2402,6 +2402,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.z3c-caching
     - run: just build projects.z3c-form
     - run: just build projects.z3c-formwidget-query
     - run: just build projects.z3c-jbot
@@ -2419,7 +2420,6 @@ jobs:
     - run: just build projects.zeo
     - run: just build projects.zexceptions
     - run: just build projects.zict
-    - run: just build projects.zipp
   build93:
     runs-on: ubuntu-latest
     steps:
@@ -2428,6 +2428,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.zipp
     - run: just build projects.zmq
     - run: just build projects.zodb
     - run: just build projects.zodb3
@@ -2445,7 +2446,6 @@ jobs:
     - run: just build projects.zope-configuration
     - run: just build projects.zope-container
     - run: just build projects.zope-contentprovider
-    - run: just build projects.zope-contenttype
   build94:
     runs-on: ubuntu-latest
     steps:
@@ -2454,6 +2454,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.zope-contenttype
     - run: just build projects.zope-copy
     - run: just build projects.zope-datetime
     - run: just build projects.zope-deferredimport
@@ -2471,7 +2472,6 @@ jobs:
     - run: just build projects.zope-keyreference
     - run: just build projects.zope-lifecycleevent
     - run: just build projects.zope-location
-    - run: just build projects.zope-pagetemplate
   build95:
     runs-on: ubuntu-latest
     steps:
@@ -2480,6 +2480,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.zope-pagetemplate
     - run: just build projects.zope-processlifetime
     - run: just build projects.zope-proxy
     - run: just build projects.zope-ptresource
@@ -2497,7 +2498,6 @@ jobs:
     - run: just build projects.zope-tales
     - run: just build projects.zope-testbrowser
     - run: just build projects.zope-testing
-    - run: just build projects.zope-testrunner
   build96:
     runs-on: ubuntu-latest
     steps:
@@ -2506,6 +2506,7 @@ jobs:
     - run: nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
     - run: nix-channel --update
     - run: nix-env -i just
+    - run: just build projects.zope-testrunner
     - run: just build projects.zope-traversing
     - run: just build projects.zope-viewlet
     - run: just build projects.zope2

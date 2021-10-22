@@ -284,6 +284,7 @@ let
       ];
 
       searchPathsArgs = {
+        inherit makes;
         inherit nixpkgs;
         pythonOnNix = self;
         inherit pythonVersion;
