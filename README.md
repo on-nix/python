@@ -97,7 +97,7 @@ For example:
 
 ```bash
 $ nix-shell \
-  -A 'projects.awscli."1.20.31".python39.dev' \
+  -A 'projects."awscli"."1.20.31".python39.dev' \
   https://github.com/on-nix/python/tarball/main
 ```
 
