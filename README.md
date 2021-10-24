@@ -48,7 +48,6 @@ Just:
     - [Creating Python environments with many applications and libraries](#creating-python-environments-with-many-applications-and-libraries)
         - [Compatibility with Nixpkgs](#compatibility-with-nixpkgs)
 - [Using with Nix unstable (Nix Flakes)](#using-with-nix-unstable-nix-flakes)
-    - [List of available projects](#list-of-available-projects-1)
     - [Trying single projects](#trying-single-projects)
     - [Installing applications in your system](#installing-applications-in-your-system-1)
     - [Creating Python environments with many applications and libraries](#creating-python-environments-with-many-applications-and-libraries-1)
@@ -322,8 +321,6 @@ This project is also offered as a Nix Flake.
 You can skip its content
 as Nix Flakes is currently
 an **unstable** release of Nix.
-
-## List of available projects
 
 ```bash
 $ nix flake show github:on-nix/python
