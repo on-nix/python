@@ -182,18 +182,33 @@ let
         outputs // { outPath = attrsToLinkFarm name outputs; };
     in
     outputs // { outPath = attrsToLinkFarm "python-on-nix" outputs; };
-  projectsForFlake = builtins.foldl'
-    (all: project: all // (builtins.foldl'
-      (all: version: all // (builtins.foldl'
-        (all: pythonVersion: all // (mapListToAttrs
-          (output: { name = output.name; value = output; })
-          (builtins.attrValues projects.${project.project}.${version.version}.${pythonVersion})))
+  projectsForFlake = {
+    devShells = builtins.foldl'
+      (all: project: all // (builtins.foldl'
+        (all: version: all // (builtins.foldl'
+          (all: pythonVersion: all // {
+            "${project.project}-${version.version}-${pythonVersion}" =
+              projects.${project.project}.${version.version}.${pythonVersion}.dev;
+          })
+          { }
+          (builtins.attrNames version.pythonVersions)))
         { }
-        (builtins.attrNames version.pythonVersions)))
+        (builtins.attrValues project.versions)))
       { }
-      (builtins.attrValues project.versions)))
-    { }
-    (builtins.attrValues projectsMeta);
+      (builtins.attrValues projectsMeta);
+    packages = builtins.foldl'
+      (all: project: all // (builtins.foldl'
+        (all: version: all // (builtins.foldl'
+          (all: pythonVersion: all // (mapListToAttrs
+            (output: { name = output.name; value = output; })
+            (builtins.attrValues projects.${project.project}.${version.version}.${pythonVersion})))
+          { }
+          (builtins.attrNames version.pythonVersions)))
+        { }
+        (builtins.attrValues project.versions)))
+      { }
+      (builtins.attrValues projectsMeta);
+  };
   apps = builtins.mapAttrs
     (project: projectMeta: builtins.mapAttrs
       (version: _: projects.${project}.${version}.pythonLatest.bin)

@@ -10,7 +10,7 @@
       systemOutputs = system:
         let pythonOnNix = import ./default.nix { inherit system; };
         in
-        { packages = pythonOnNix.projectsForFlake; };
+        pythonOnNix.projectsForFlake;
     in
     { lib = import ./default.nix; } //
     (flakeUtils.lib.eachSystem systems systemOutputs);

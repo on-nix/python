@@ -49,10 +49,10 @@ Just:
         - [Compatibility with Nixpkgs](#compatibility-with-nixpkgs)
 - [Using with Nix unstable (Nix Flakes)](#using-with-nix-unstable-nix-flakes)
     - [List of available projects](#list-of-available-projects-1)
-    - [Trying out Applications without installing them](#trying-out-applications-without-installing-them)
-    - [Installing Applications](#installing-applications)
-    - [Creating Python environments with Applications and Libraries](#creating-python-environments-with-applications-and-libraries)
-    - [Compatibility with Nixpkgs](#compatibility-with-nixpkgs-1)
+    - [Trying single projects](#trying-single-projects)
+    - [Installing applications in your system](#installing-applications-in-your-system-1)
+    - [Creating Python environments with many applications and libraries](#creating-python-environments-with-many-applications-and-libraries-1)
+        - [Compatibility with Nixpkgs](#compatibility-with-nixpkgs-1)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -329,17 +329,17 @@ an **unstable** release of Nix.
 $ nix flake show github:on-nix/python
 ```
 
-## Trying out Applications without installing them
+## Trying single projects
 
-- `$ nix shell 'github:on-nix/python#"awscli-1.20.31-python39-bin"'`
-- `$ nix shell 'github:on-nix/python#"pytest-latest-python37-bin"'`
+- `$ nix develop 'github:on-nix/python#"awscli-1.20.31-python39"'`
+- `$ nix develop 'github:on-nix/python#"pytest-latest-python37"'`
 
-## Installing Applications
+## Installing applications in your system
 
 - `$ nix profile install 'github:on-nix/python#"awscli-1.20.31-python39-bin"'`
 - `$ nix profile install 'github:on-nix/python#"pytest-latest-python37-bin"'`
 
-## Creating Python environments with Applications and Libraries
+## Creating Python environments with many applications and libraries
 
 ```nix
 # /path/to/my/project/flake.nix
@@ -354,25 +354,32 @@ $ nix flake show github:on-nix/python
     inputs.flakeUtils.lib.eachSystem [ "x86_64-linux" ] (system:
       let
         nixpkgs = inputs.nixpkgs.legacyPackages.${system};
-        pythonOnNix = inputs.pythonOnNix.lib {
-          # You can also omit this parameter
-          # in order to use a default `nixpkgs` bundled with Python on Nix
-          inherit nixpkgs;
-          inherit system;
+        pythonOnNix = inputs.pythonOnNix.lib { inherit nixpkgs system; };
+
+        # Pick the Python version of your choice:
+        # - `python36Env`: Python 3.6
+        # - `python37Env`: Python 3.7
+        # - `python38Env`: Python 3.8
+        # - `python39Env`: Python 3.9
+        # - `python310Env`: Python 3.10
+        env = pythonOnNix.python39Env {
+          name = "example";
+          projects = {
+            awscli = "1.20.31";
+            numpy = "latest";
+            requests = "latest";
+            torch = "1.9.0";
+          };
         };
+        # `env` has two attributes:
+        # - `dev`: The activation script for the Python on Nix environment
+        # - `out`: The raw contents fo the Python site-packages
       in
       {
-        packages = rec {
+        devShells = {
 
-          example = (pythonOnNix.python39Env {
-            name = "example";
-            projects = {
-              awscli = "1.20.31";
-              numpy = "latest";
-              requests = "latest";
-              torch = "1.9.0";
-            };
-          }).dev;
+          # The activation script can be used as dev-shell
+          example = env.dev;
 
         };
       }
@@ -380,16 +387,10 @@ $ nix flake show github:on-nix/python
 }
 ```
 
-The output of this function
-contains a setup script
-that you can `source`:
+You can now launch the environment!
 
 ```bash
-# Build your environment
-$ nix build '.#example'
-
-# Source it's output
-$ source ./result/setup
+$ nix develop '.#example'
 ```
 
 After doing this,
@@ -411,7 +412,7 @@ $ python -c 'import torch; print(torch.__version__)'
   1.9.0+cu102
 ```
 
-## Compatibility with Nixpkgs
+### Compatibility with Nixpkgs
 
 You can use `Python on Nix` and `Nixpkgs` together.
 
@@ -424,39 +425,46 @@ For example:
   inputs = {
     flakeUtils.url = "github:numtide/flake-utils";
     nixpkgs.url = "github:nixos/nixpkgs";
-    pythonOnNix.url = "github/on-nix/python";
+    pythonOnNix.url = "github:on-nix/python";
   };
   outputs = { self, ... } @ inputs:
     inputs.flakeUtils.lib.eachSystem [ "x86_64-linux" ] (system:
       let
         nixpkgs = inputs.nixpkgs.legacyPackages.${system};
-        pythonOnNix = inputs.pythonOnNix.lib {
-          # You can also omit this parameter
-          # in order to use a default `nixpkgs` bundled with Python on Nix
-          inherit nixpkgs;
-          inherit system;
+        pythonOnNix = inputs.pythonOnNix.lib { inherit nixpkgs system; };
+
+        # Pick the Python version of your choice:
+        # - `python36Env`: Python 3.6
+        # - `python37Env`: Python 3.7
+        # - `python38Env`: Python 3.8
+        # - `python39Env`: Python 3.9
+        # - `python310Env`: Python 3.10
+        env = pythonOnNix.python39Env {
+          name = "example";
+          projects = {
+            awscli = "1.20.31";
+            numpy = "latest";
+            requests = "latest";
+            torch = "1.9.0";
+          };
         };
+        # `env` has two attributes:
+        # - `dev`: The activation script for the Python on Nix environment
+        # - `out`: The raw contents fo the Python site-packages
       in
       {
         packages = rec {
 
-          example = (pythonOnNix.python39Env {
-            name = "example";
-            projects = {
-              awscli = "1.20.31";
-              numpy = "latest";
-              requests = "latest";
-              torch = "1.9.0";
-            };
-          }).dev;
-
           something = nixpkgs.stdenv.mkDerivation {
-            buildInputs = [ example ];
+            buildInputs = [ env.dev ];
+            virtualEnvironment = env.out;
+
             builder = builtins.toFile "builder.sh" ''
               source $stdenv/setup
 
               set -x
 
+              ls $virtualEnvironment
               python --version
               aws --version
               python -c 'import numpy; print(numpy.__version__)'
@@ -479,6 +487,11 @@ For example:
 Now just `$ nix -L build .#something` ! :rocket:
 
 ```bash
++ ls /nix/store/...-example-out
+  awscli              colorama  numpy            requests    torch
+  botocore            docutils  pyasn1           rsa         typing-extensions
+  certifi             idna      python-dateutil  s3transfer  urllib3
+  charset-normalizer  jmespath  pyyaml           six
 + python --version
   Python 3.9.6
 + aws --version

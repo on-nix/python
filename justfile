@@ -26,10 +26,11 @@ crawl:
   bash makes/crawl/entrypoint.sh
 
 examples:
-  nix-build --option sandbox true examples/use-with-nixpkgs.nix
-  rm -rf ./examples/use-with-flakes-and-nixpkgs/flake.lock
-  nix-shell -p nixUnstable --run 'nix --experimental-features "flakes nix-command" build ./examples/use-with-flakes-and-nixpkgs#something'
-  rm -rf ./examples/use-with-flakes-and-nixpkgs/flake.lock
+  nix-build examples/stable/shell.nix
+  nix-build examples/stable/nixpkgs.nix
+  rm -rf ./examples/unstable/flake.lock
+  nix-shell -p nixUnstable --run 'nix --experimental-features "flakes nix-command" -L build ./examples/unstable#something'
+  rm -rf ./examples/unstable/flake.lock
 
 new PROJECT:
   set +e; \
