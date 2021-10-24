@@ -322,22 +322,36 @@ let
           source = [ (makeSearchPaths searchPathsBuild) ];
         };
       };
-      venvSearchPaths = makeDerivation {
-        builder = ''
-          mkdir $out
-          mkdir $out/nix-support
+      venvSearchPaths =
+        let
+          wrapped = makeSearchPaths {
+            bin = [ python venvContents ];
+            export = [ [ "PYTHONPATH" venvContents "/${python.sitePackages}" ] ];
+            source = [ (makeSearchPaths searchPathsRuntime) ];
+          };
+        in
+        nixpkgs.stdenv.mkDerivation {
+          builder = builtins.toFile "builder.sh" ''
+            source $stdenv/setup
 
-          ln -s $envWrapped/template $out/setup
-          ln -s $envWrapped/template $out/template
-          ln -s $envWrapped/template $out/nix-support/setup-hook
-        '';
-        env.envWrapped = makeSearchPaths {
-          bin = [ python venvContents ];
-          export = [ [ "PYTHONPATH" venvContents "/${python.sitePackages}" ] ];
-          source = [ (makeSearchPaths searchPathsRuntime) ];
+            mkdir $out
+            mkdir $out/nix-support
+
+            ln -s $envWrapped/template $out/setup
+            ln -s $envWrapped/template $out/template
+            ln -s $envWrapped/template $out/nix-support/setup-hook
+          '';
+          envWrapped = wrapped;
+          name = "${name}-dev";
+          shellHook = ''
+            echo ---
+            echo Activating Python on Nix environment: ${name}
+            echo
+            echo Enjoy!
+            echo ---
+            source ${wrapped}/template
+          '';
         };
-        name = "${name}-dev";
-      };
     in
     {
       out = venvContents;
@@ -574,19 +588,32 @@ let
       closureContents = attrsToLinkFarm "${name}-out" (builtins.mapAttrs
         (project: outputs: outputs.out)
         (closureBuilt));
-      closureSearchPaths = makeDerivation {
-        builder = ''
-          mkdir $out
-          mkdir $out/nix-support
-          ln -s $envDev/template $out/setup
-          ln -s $envDev/template $out/template
-          ln -s $envDev/template $out/nix-support/setup-hook
-        '';
-        env.envDev = makeSearchPaths {
-          source = mapAttrsToList (_: outputs: outputs.dev) closureBuilt;
+      closureSearchPaths =
+        let
+          dev = makeSearchPaths {
+            source = mapAttrsToList (_: outputs: outputs.dev) closureBuilt;
+          };
+        in
+        nixpkgs.stdenv.mkDerivation {
+          builder = builtins.toFile "builder.sh" ''
+            source $stdenv/setup
+            mkdir $out
+            mkdir $out/nix-support
+            ln -s $envDev/template $out/setup
+            ln -s $envDev/template $out/template
+            ln -s $envDev/template $out/nix-support/setup-hook
+          '';
+          envDev = dev;
+          name = "${name}-dev";
+          shellHook = ''
+            echo ---
+            echo Activating Python on Nix environment: ${name}
+            echo
+            echo Enjoy!
+            echo ---
+            source ${dev}/template
+          '';
         };
-        name = "${name}-dev";
-      };
 
       closureTests = attrsToLinkFarm "${name}-test" (builtins.mapAttrs
         (project: outputs: makeDerivation {

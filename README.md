@@ -40,16 +40,18 @@ Just:
 # Contents
 
 - [List of available projects](#list-of-available-projects)
-- [Applications vs Libraries](#applications-vs-libraries)
+- [Concepts](#concepts)
+    - [Applications and Libraries](#applications-and-libraries)
 - [Using with Nix stable](#using-with-nix-stable)
-    - [Installing Applications](#installing-applications)
-    - [Creating Python environments with Applications and Libraries](#creating-python-environments-with-applications-and-libraries)
+    - [Trying out single projects](#trying-out-single-projects)
+    - [Installing applications in your system](#installing-applications-in-your-system)
+    - [Creating Python environments with many applications and libraries](#creating-python-environments-with-many-applications-and-libraries)
         - [Compatibility with Nixpkgs](#compatibility-with-nixpkgs)
 - [Using with Nix unstable (Nix Flakes)](#using-with-nix-unstable-nix-flakes)
     - [List of available projects](#list-of-available-projects-1)
     - [Trying out Applications without installing them](#trying-out-applications-without-installing-them)
-    - [Installing Applications](#installing-applications-1)
-    - [Creating Python environments with Applications and Libraries](#creating-python-environments-with-applications-and-libraries-1)
+    - [Installing Applications](#installing-applications)
+    - [Creating Python environments with Applications and Libraries](#creating-python-environments-with-applications-and-libraries)
     - [Compatibility with Nixpkgs](#compatibility-with-nixpkgs-1)
 - [Contributing](#contributing)
 - [License](#license)
@@ -60,120 +62,136 @@ Just:
 
 Checkout [python.on-nix.com](https://python.on-nix.com)
 
-# Applications vs Libraries
+# Concepts
 
-On Python, projects can offer two types of components:
+## Applications and Libraries
 
-- **Applications**: Binaries that you can run from the command line:
+On Python, projects can be used in two ways:
+
+- As applications: Commands that you can run from the command line:
 
   - [AWS CLI](https://pypi.org/project/awscli/): `$ aws`
   - [Bandit](https://pypi.org/project/bandit/): `$ bandit`
+  - [PyTest](https://pypi.org/project/pytest/): `$ pytest`
   - ...
 
-- **Libraries**: Packages and modules that you can import in your Python projects:
+- As libraries: Python modules that you can import in your project:
 
   - [Boto3](https://pypi.org/project/boto3/): `>>> import boto3`
   - [Django](https://pypi.org/project/django/): `>>> from django import *`
+  - [PyTest](https://pypi.org/project/pytest/): `>>> import pytest`
   - ...
 
-- **Both**: They work either as an Application and/or as a Library:
-
-  - [PyTest](https://pypi.org/project/pytest/): `$ pytest`, or `>>> import pytest`
-  - ...
+Some projects (like PyTest) can be used in both ways
+while others can only be used as an application or as a library,
+but not both
 
 # Using with Nix stable
 
-## Installing Applications
+## Trying out single projects
 
-Simply run the following magic from a terminal.
-
-```bash
-$ nix-env -iA 'apps."<project>"."<version>"' -f https://github.com/on-nix/python/tarball/main
-```
+You can launch an ephemeral environment where
+the applications and libraries provided by a project are available.
 
 For example:
 
-- ```bash
-  $ nix-env -iA 'apps."awscli"."1.20.31"' -f https://github.com/on-nix/python/tarball/main
-  ```
-- ```bash
-  $ nix-env -iA 'apps."pytest"."latest"' -f https://github.com/on-nix/python/tarball/main
-  ```
+```bash
+$ nix-shell \
+  -A 'projects.awscli."1.20.31".python39.dev' \
+  https://github.com/on-nix/python/tarball/main
+```
 
-After the process have completed,
-you will be able to use the project's binaries:
+In general the format is: `'projects."<project>"."<version>".<pythonVersion>.dev'`
+
+Now enjoy!
 
 ```bash
+[nix-shell] $ aws --version
+              aws-cli/1.20.31 Python/3.9.6 Linux/5.10.62 botocore/1.21.31
+[nix-shell] $ python -c 'import awscli; print(awscli)'
+              # ...
+[nix-shell] $ exit
+```
 
+## Installing applications in your system
+
+You can permanently install the applications of a project in your system.
+
+For example:
+
+```bash
+$ nix-env \
+  -iA 'apps."awscli"."1.20.31"' \
+  -f https://github.com/on-nix/python/tarball/main
+
+$ nix-env \
+  -iA 'apps."pytest"."latest"' \
+  -f https://github.com/on-nix/python/tarball/main
+```
+
+In general the format is: `'apps."<project>"."<version>"'`
+
+Now enjoy!
+
+```bash
 $ aws --version
   aws-cli/1.20.31 Python/3.9.6 Linux/5.10.62 botocore/1.21.31
+
 $ pytest --version
   pytest 6.2.5
 ```
 
-## Creating Python environments with Applications and Libraries
+## Creating Python environments with many applications and libraries
 
-First,
-you need to import `Python on Nix`
-into your project.
+For a more complex use case where you are using many projects it's
+a good idea to describe a Python environment.
 
 For example:
 
 ```nix
-# /path/to/my/env.nix
-
 let
+  # Import Python on Nix
   pythonOnNix = import
     (builtins.fetchGit {
       # Use `main` branch or a commit from this list:
       # https://github.com/on-nix/python/commits/main
+      # We recommend using a commit for maximum reproducibility
       ref = "main";
       url = "https://github.com/on-nix/python";
     })
     {
-      # You can override `nixpkgs` here,
-      # or set to `null` to use one bundled with Python on Nix
+      # (optional) You can override `nixpkgs` here
       # nixpkgs = import <nixpkgs> { };
     };
-in
-# Keep reading for more information
-```
 
-This repository offers you
-the following functions.
-Please pick the Python version of your choice:
-- `python36Env`: Python 3.6
-- `python37Env`: Python 3.7
-- `python38Env`: Python 3.8
-- `python39Env`: Python 3.9
-- `python310Env`: Python 3.10
-
-For example:
-
-```nix
-# /path/to/my/env.nix (continuation)
-
-(pythonOnNix.python39Env {
-  name = "example";
-  projects = {
-    awscli = "1.20.31";
-    numpy = "latest";
-    requests = "latest";
-    torch = "1.9.0";
+  # Pick the Python version of your choice:
+  # - `python36Env`: Python 3.6
+  # - `python37Env`: Python 3.7
+  # - `python38Env`: Python 3.8
+  # - `python39Env`: Python 3.9
+  # - `python310Env`: Python 3.10
+  env = pythonOnNix.python39Env {
+    name = "example";
+    projects = {
+      awscli = "1.20.31";
+      numpy = "latest";
+      requests = "latest";
+      torch = "1.9.0";
+    };
   };
-}).dev
+
+  # `env` has two attributes:
+  # - `dev`: The activation script for the Python on Nix environment
+  # - `out`: The raw contents fo the Python site-packages
+in
+# Let's use the activation script:
+env.dev
 ```
 
-The output of this function
-contains a setup script
-that you can `source`:
+You can now launch the environment!
 
 ```bash
-# Build your environment
-$ nix-build /path/to/my/env.nix
-
-# Source it's output
-$ source ./result/setup
+$ nix-shell /path/to/my/env.nix
 ```
 
 After doing this,
@@ -202,23 +220,30 @@ You can use `Python On Nix` and `Nixpkgs` together.
 For example:
 
 ```nix
-# /path/to/my/expression.nix
-
 let
-  # import projects
+  # Import Nixpkgs
   nixpkgs = import <nixpkgs> { };
+
+  # Import Python on Nix
   pythonOnNix = import
     (builtins.fetchGit {
       # Use `main` branch or a commit from this list:
       # https://github.com/on-nix/python/commits/main
+      # We recommend using a commit for maximum reproducibility
       ref = "main";
       url = "https://github.com/on-nix/python";
     })
     {
+      # (optional) You can override `nixpkgs` here
       inherit nixpkgs;
     };
 
-  # Create a Python on Nix environment
+  # Pick the Python version of your choice:
+  # - `python36Env`: Python 3.6
+  # - `python37Env`: Python 3.7
+  # - `python38Env`: Python 3.8
+  # - `python39Env`: Python 3.9
+  # - `python310Env`: Python 3.10
   env = pythonOnNix.python39Env {
     name = "example";
     projects = {
@@ -228,14 +253,22 @@ let
       torch = "1.9.0";
     };
   };
+
+  # `env` has two attributes:
+  # - `dev`: The activation script for the Python on Nix environment
+  # - `out`: The raw contents of the Python virtual environment
 in
 nixpkgs.stdenv.mkDerivation {
-  buildInputs = [ env ];
+  # Let's use the activation script as build input:
+  buildInputs = [ env.dev ];
+  virtualEnvironment = env.out;
+
   builder = builtins.toFile "builder.sh" ''
     source $stdenv/setup
 
     set -x
 
+    ls $virtualEnvironment
     python --version
     aws --version
     python -c 'import numpy; print(numpy.__version__)'
@@ -258,6 +291,11 @@ these derivations will be built:
 
 building '/nix/store/4l51x7983ggxc8z5fmb5wzhvvx8kvn01-example.drv'...
 
++ ls /nix/store/...-example-out
+  awscli              colorama  numpy            requests    torch
+  botocore            docutils  pyasn1           rsa         typing-extensions
+  certifi             idna      python-dateutil  s3transfer  urllib3
+  charset-normalizer  jmespath  pyyaml           six
 + python --version
   Python 3.9.6
 + aws --version
@@ -270,6 +308,7 @@ building '/nix/store/4l51x7983ggxc8z5fmb5wzhvvx8kvn01-example.drv'...
   1.9.0+cu102
 + touch /nix/store/9cckx5zpbiakx507g253fv08hykf8msv-example
 ```
+
 # Using with Nix unstable (Nix Flakes)
 
 This project is also offered as a Nix Flake.
