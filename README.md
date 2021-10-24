@@ -143,8 +143,8 @@ $ pytest --version
 
 ## Creating Python environments with many applications and libraries
 
-For a more complex use case where you are using many projects it's
-a good idea to describe a Python environment.
+For more complex use cases where you are using many projects it's
+a good idea to describe a Python environment with Nix.
 
 For example:
 
