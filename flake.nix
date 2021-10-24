@@ -2,7 +2,7 @@
   inputs = {
     flakeUtils.url = "github:numtide/flake-utils";
     makes.url = "github:fluidattacks/makes";
-    nixpkgs.url = "github:nixos/nixpkgs";
+    nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
   };
   outputs = { flakeUtils, nixpkgs, ... }:
     let
