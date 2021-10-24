@@ -320,7 +320,7 @@ This project is also offered as a Nix Flake.
 
 :warning: This section is for advanced Nix users.
 You can skip its content
-as Nix Flakes are currently
+as Nix Flakes is currently
 an **unstable** release of Nix.
 
 ## List of available projects

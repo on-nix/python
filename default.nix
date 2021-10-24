@@ -704,12 +704,15 @@ let
 
     $ You are using Python on Nix!
 
-      https://github.com/on-nix/python
+      Repo: https://github.com/on-nix/python
+      Home: https://python.on-nix.com
+      Funding: https://ko-fi.com/kamadorueda
 
       Found a bug? Are we missing a feature?
+      Want us to package a new project or version?
       Let us know in the issues section.
 
-      Please consider starring or contributing to the project!
+      Please consider starring, funding, or contributing to the project!
 
   '';
 in
