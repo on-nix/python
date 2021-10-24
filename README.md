@@ -234,7 +234,8 @@ let
       url = "https://github.com/on-nix/python";
     })
     {
-      # (optional) You can override `nixpkgs` here
+      # Make Python on Nix use the same version of `nixpkgs`
+      # for maximum compatibility
       inherit nixpkgs;
     };
 
