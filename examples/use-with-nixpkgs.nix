@@ -1,3 +1,5 @@
+# /path/to/my/expression.nix
+
 let
   # Import Nixpkgs
   nixpkgs = import <nixpkgs> { };

@@ -1,3 +1,5 @@
+# /path/to/my/env.nix
+
 let
   # Import Python on Nix
   pythonOnNix = import

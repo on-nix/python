@@ -149,6 +149,8 @@ a good idea to describe a Python environment with Nix.
 For example:
 
 ```nix
+# /path/to/my/env.nix
+
 let
   # Import Python on Nix
   pythonOnNix = import
@@ -220,6 +222,8 @@ You can use `Python On Nix` and `Nixpkgs` together.
 For example:
 
 ```nix
+# /path/to/my/expression.nix
+
 let
   # Import Nixpkgs
   nixpkgs = import <nixpkgs> { };
