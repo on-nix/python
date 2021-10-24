@@ -48,7 +48,7 @@ Just:
     - [Creating Python environments with many applications and libraries](#creating-python-environments-with-many-applications-and-libraries)
         - [Compatibility with Nixpkgs](#compatibility-with-nixpkgs)
 - [Using with Nix unstable (Nix Flakes)](#using-with-nix-unstable-nix-flakes)
-    - [Trying single projects](#trying-single-projects)
+    - [Trying out single projects](#trying-out-single-projects-1)
     - [Installing applications in your system](#installing-applications-in-your-system-1)
     - [Creating Python environments with many applications and libraries](#creating-python-environments-with-many-applications-and-libraries-1)
         - [Compatibility with Nixpkgs](#compatibility-with-nixpkgs-1)
@@ -326,7 +326,7 @@ an **unstable** release of Nix.
 $ nix flake show github:on-nix/python
 ```
 
-## Trying single projects
+## Trying out single projects
 
 - `$ nix develop 'github:on-nix/python#"awscli-1.20.31-python39"'`
 - `$ nix develop 'github:on-nix/python#"pytest-latest-python37"'`
