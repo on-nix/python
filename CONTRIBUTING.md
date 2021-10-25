@@ -7,6 +7,7 @@ Do not try to package them:
 {
   patchClosure = closure: builtins.removeAttrs closure [
     "pywin32"
+    "pywinpty"
     "twisted-iocpsupport"
   ];
 }
