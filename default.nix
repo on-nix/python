@@ -547,7 +547,79 @@ let
             (closure: { name, value }:
               closure
               // { "${name}" = value; }
-              // projectsMeta.${name}.versions.${value}.pythonVersions.${pythonVersion}.closure)
+              // (
+                let
+                  projectData =
+                    if builtins.hasAttr name projectsMeta
+                    then projectsMeta.${name}
+                    else
+                      builtins.abort ''
+
+
+                        Ups! Project "${name}" is not On Nix already.
+
+                        A few tips that may help:
+
+                        - Please check that you typed the project name correctly
+                          and that it exists on PyPI:
+                          https://pypi.org/project/${name}
+
+                        - Please create an issue
+                          requesting the adition of ${name}, here:
+                          https://github.com/on-nix/python/issues
+
+                        Thanks!
+
+                      '';
+                  versionData =
+                    if builtins.hasAttr value projectData.versions
+                    then projectData.versions.${value}
+                    else
+                      builtins.abort ''
+
+
+                        Ups! Version "${value}" is not available for ${name} already.
+
+                        A few tips that may help:
+
+                        - Please check that you typed the version correctly
+                          and that it exists on PyPI:
+                          https://pypi.org/project/${name}/#history
+
+                        - Please create an issue
+                          requesting the adition of ${name} (${value}), here:
+                          https://github.com/on-nix/python/issues
+
+                        Thanks!
+
+                      '';
+
+                  pythonVersionData =
+                    if builtins.hasAttr pythonVersion versionData.pythonVersions
+                    then versionData.pythonVersions.${pythonVersion}
+                    else
+                      builtins.abort ''
+
+
+                        Ups! ${name} (${value}) is not available for ${pythonVersion}.
+
+                        Certain projects do not support ${pythonVersion}
+                        and therefore we cannot support them On Nix.
+
+                        If you believe this is not the case
+                        and the project does support ${pythonVersion};
+                        Please create an issue
+                        requesting the adition of ${pythonVersion} support
+                        to ${name} (${value}), here:
+                        https://github.com/on-nix/python/issues
+
+                        Thanks!
+
+                      '';
+
+                in
+                pythonVersionData.closure
+              ))
             { }
             (attrsToList projects);
 
