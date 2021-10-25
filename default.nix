@@ -31,9 +31,7 @@ let
           sha256 = narHash;
         };
       in
-      builtins.trace src (
-        import src { inherit system; }
-      );
+      import src { inherit system; };
 
   #
 
