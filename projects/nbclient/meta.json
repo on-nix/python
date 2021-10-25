@@ -1,0 +1,5 @@
+{
+  "desc": "A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor.",
+  "home": "https://jupyter.org",
+  "license": "BSD"
+}
