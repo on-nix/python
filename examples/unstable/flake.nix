@@ -5,12 +5,13 @@
     # Import Python on Nix
     # pythonOnNix.url = "github:on-nix/python";
     pythonOnNix.url = "/data/github/on-nix/python";
+    pythonOnNix.inputs.nixpkgs.follows = "nixpkgs";
   };
   outputs = { self, ... } @ inputs:
     inputs.flakeUtils.lib.eachSystem [ "x86_64-linux" ] (system:
       let
         nixpkgs = inputs.nixpkgs.legacyPackages.${system};
-        pythonOnNix = inputs.pythonOnNix.lib { inherit nixpkgs system; };
+        pythonOnNix = inputs.pythonOnNix.lib.${system};
 
         # Pick the Python version of your choice:
         # - `python36Env`: Python 3.6

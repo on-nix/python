@@ -352,7 +352,7 @@ $ nix flake show github:on-nix/python
     inputs.flakeUtils.lib.eachSystem [ "x86_64-linux" ] (system:
       let
         nixpkgs = inputs.nixpkgs.legacyPackages.${system};
-        pythonOnNix = inputs.pythonOnNix.lib { inherit nixpkgs system; };
+        pythonOnNix = inputs.pythonOnNix.lib.${system};
 
         # Pick the Python version of your choice:
         # - `python36Env`: Python 3.6
@@ -430,7 +430,7 @@ For example:
     inputs.flakeUtils.lib.eachSystem [ "x86_64-linux" ] (system:
       let
         nixpkgs = inputs.nixpkgs.legacyPackages.${system};
-        pythonOnNix = inputs.pythonOnNix.lib { inherit nixpkgs system; };
+        pythonOnNix = inputs.pythonOnNix.lib.${system};
 
         # Pick the Python version of your choice:
         # - `python36Env`: Python 3.6

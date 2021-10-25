@@ -9,10 +9,12 @@
     let
       systems = [ "x86_64-linux" ];
       systemOutputs = system:
-        let pythonOnNix = import ./default.nix { inherit system; };
-        in
-        pythonOnNix.projectsForFlake;
+        let pythonOnNix = import ./default.nix {
+          nixpkgs = nixpkgs.legacyPackages.${system};
+          nixpkgsSrc = nixpkgs.sourceInfo.outPath;
+          inherit system;
+        };
+        in pythonOnNix.flakeOutputs;
     in
-    { lib = import ./default.nix; } //
     (flakeUtils.lib.eachSystem systems systemOutputs);
 }

@@ -182,7 +182,7 @@ let
         outputs // { outPath = attrsToLinkFarm name outputs; };
     in
     outputs // { outPath = attrsToLinkFarm "python-on-nix" outputs; };
-  projectsForFlake = {
+  flakeOutputs = {
     devShells = builtins.foldl'
       (all: project: all // (builtins.foldl'
         (all: version: all // (builtins.foldl'
@@ -196,6 +196,7 @@ let
         (builtins.attrValues project.versions)))
       { }
       (builtins.attrValues projectsMeta);
+    lib = makeEnvs;
     packages = builtins.foldl'
       (all: project: all // (builtins.foldl'
         (all: version: all // (builtins.foldl'
@@ -708,8 +709,8 @@ let
 
   self = makeEnvs // {
     inherit apps;
+    inherit flakeOutputs;
     inherit projects;
-    inherit projectsForFlake;
     inherit projectsMeta;
     inherit pythonVersions;
   };
