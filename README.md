@@ -346,6 +346,7 @@ $ nix flake show github:on-nix/python
     flakeUtils.url = "github:numtide/flake-utils";
     nixpkgs.url = "github:nixos/nixpkgs";
     pythonOnNix.url = "github:on-nix/python";
+    pythonOnNix.inputs.nixpkgs.follows = "nixpkgs";
   };
   outputs = { self, ... } @ inputs:
     inputs.flakeUtils.lib.eachSystem [ "x86_64-linux" ] (system:
@@ -423,6 +424,7 @@ For example:
     flakeUtils.url = "github:numtide/flake-utils";
     nixpkgs.url = "github:nixos/nixpkgs";
     pythonOnNix.url = "github:on-nix/python";
+    pythonOnNix.inputs.nixpkgs.follows = "nixpkgs";
   };
   outputs = { self, ... } @ inputs:
     inputs.flakeUtils.lib.eachSystem [ "x86_64-linux" ] (system:
