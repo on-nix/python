@@ -91,6 +91,7 @@ let
           runtimePangoRpath = false;
           runtimeLibstdcppRpath = false;
           runtimeWants = [ ];
+          runtimeZlibRpath = false;
         }) // (if builtins.pathExists setupPath then import setupPath else { });
     in
     if versions == { }
@@ -289,6 +290,7 @@ let
             (listOptional setup.runtimeGlibRpath nixpkgs.glib.out)
             (listOptional setup.runtimePangoRpath nixpkgs.pango.out)
             (listOptional setup.runtimeLibstdcppRpath nixpkgs.gcc.cc.lib)
+            (listOptional setup.runtimeZlibRpath nixpkgs.zlib.out)
           ];
         };
 
