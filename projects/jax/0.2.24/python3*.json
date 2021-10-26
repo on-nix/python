@@ -1,0 +1,8 @@
+{
+  "absl-py": "0.15.0",
+  "numpy": "1.21.3",
+  "opt-einsum": "3.3.0",
+  "scipy": "1.7.1",
+  "six": "1.16.0",
+  "typing-extensions": "3.10.0.2"
+}
