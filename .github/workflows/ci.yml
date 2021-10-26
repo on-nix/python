@@ -2516,5 +2516,4 @@ jobs:
     - run: just build projects.zstandard
 name: ci
 'on':
-- pull_request
 - push

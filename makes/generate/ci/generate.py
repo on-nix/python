@@ -10,7 +10,7 @@ def main() -> None:
             "group": "${{ github.actor }}",
         },
         "name": "ci",
-        "on": ["pull_request", "push"],
+        "on": ["push"],
         "jobs": {},
     }
 
