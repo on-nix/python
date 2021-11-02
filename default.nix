@@ -796,7 +796,7 @@ let
 
       Repo: https://github.com/on-nix/python
       Home: https://python.on-nix.com
-      Funding: https://ko-fi.com/kamadorueda
+      Funding: https://patreon.com/kamadorueda
 
       Found a bug? Are we missing a feature?
       Want us to package a new project or version?
