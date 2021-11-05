@@ -1,9 +1,0 @@
-{
-  "decorator": "5.1.0",
-  "importlib-metadata": "4.8.1",
-  "importlib-resources": "5.2.2",
-  "ipython-genutils": "0.2.0",
-  "traitlets": "4.3.3",
-  "typing-extensions": "3.10.0.2",
-  "zipp": "3.5.0"
-}

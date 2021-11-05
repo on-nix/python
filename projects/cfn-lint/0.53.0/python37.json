@@ -1,8 +1,5 @@
 {
-  "boto3": "1.18.31",
-  "botocore": "1.21.31",
   "importlib-metadata": "4.8.1",
-  "networkx": "2.6.2",
   "typing-extensions": "3.10.0.1",
   "zipp": "3.5.0"
 }

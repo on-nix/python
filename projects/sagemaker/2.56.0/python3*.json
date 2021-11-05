@@ -7,6 +7,7 @@
   "importlib-metadata": "4.8.1",
   "jmespath": "0.10.0",
   "multiprocess": "0.70.12.2",
+  "numpy": "1.21.2",
   "packaging": "21.0",
   "pathos": "0.2.8",
   "pox": "0.3.0",

@@ -13,6 +13,7 @@
   "idna": "3.2",
   "multidict": "5.1.0",
   "multiprocess": "0.70.12.2",
+  "numpy": "1.21.2",
   "packaging": "21.0",
   "pyarrow": "5.0.0",
   "pyparsing": "2.4.7",

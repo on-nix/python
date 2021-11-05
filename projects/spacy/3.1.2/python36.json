@@ -1,8 +1,0 @@
-{
-  "contextvars": "2.4",
-  "dataclasses": "0.8",
-  "immutables": "0.16",
-  "numpy": "1.19.5",
-  "pydantic": "1.7.4",
-  "zipp": "3.5.0"
-}

@@ -1,7 +1,0 @@
-{
-  "contextvars": "2.4",
-  "immutables": "0.16",
-  "importlib-metadata": "4.8.1",
-  "typing-extensions": "3.10.0.2",
-  "zipp": "3.5.0"
-}

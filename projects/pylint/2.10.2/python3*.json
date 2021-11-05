@@ -1,6 +1,7 @@
 {
   "astroid": "2.7.3",
   "colorama": "0.4.4",
+  "isort": "5.9.3",
   "lazy-object-proxy": "1.6.0",
   "mccabe": "0.6.1",
   "platformdirs": "2.3.0",

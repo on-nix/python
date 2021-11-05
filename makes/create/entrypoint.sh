@@ -35,7 +35,6 @@ function main {
 
   : \
     && case "${python_version}" in
-      3.6) python=__argPy36__/bin/python && python_code=python36 ;;
       3.7) python=__argPy37__/bin/python && python_code=python37 ;;
       3.8) python=__argPy38__/bin/python && python_code=python38 ;;
       3.9) python=__argPy39__/bin/python && python_code=python39 ;;

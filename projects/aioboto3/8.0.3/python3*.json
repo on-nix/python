@@ -14,6 +14,7 @@
   "python-dateutil": "2.8.2",
   "s3transfer": "0.3.7",
   "six": "1.16.0",
+  "typing-extensions": "3.10.0.1",
   "urllib3": "1.25.11",
   "wrapt": "1.12.1",
   "yarl": "1.6.3"

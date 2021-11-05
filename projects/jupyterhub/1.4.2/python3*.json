@@ -29,5 +29,6 @@
   "six": "1.16.0",
   "sqlalchemy": "1.4.23",
   "tornado": "6.1",
+  "traitlets": "5.1.0",
   "urllib3": "1.26.6"
 }

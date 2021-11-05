@@ -1,5 +1,4 @@
 {
-  "numpy": "1.21.2",
   "pandas": "1.1.5",
   "typing-extensions": "3.10.0.1"
 }

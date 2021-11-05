@@ -5,6 +5,7 @@
   "filelock": "3.0.12",
   "grpcio": "1.40.0",
   "msgpack": "1.0.2",
+  "numpy": "1.21.2",
   "protobuf": "3.18.0",
   "pyyaml": "5.4.1",
   "redis": "3.5.3",

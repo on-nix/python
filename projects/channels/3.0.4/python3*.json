@@ -1,6 +1,7 @@
 {
   "asgiref": "3.4.1",
   "attrs": "21.2.0",
+  "autobahn": "21.3.1",
   "automat": "20.2.0",
   "cffi": "1.14.6",
   "constantly": "15.1.0",
@@ -18,6 +19,7 @@
   "service-identity": "21.1.0",
   "six": "1.16.0",
   "sqlparse": "0.4.2",
+  "twisted": "21.7.0",
   "twisted-iocpsupport": "1.0.2",
   "txaio": "21.2.1",
   "typing-extensions": "3.10.0.2",

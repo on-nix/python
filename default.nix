@@ -52,7 +52,7 @@ let
 
   pythonVersions = builtins.filter
     (pythonVersion: builtins.hasAttr pythonVersion nixpkgs)
-    [ "python36" "python37" "python38" "python39" "python310" ];
+    [ "python37" "python38" "python39" "python310" ];
   pythons = builtins.map
     (pythonVersion: nixpkgs.${pythonVersion})
     (pythonVersions);
@@ -400,7 +400,6 @@ let
     ++ (optional (isLinux && isi686) "manylinux2014_i686");
   supportedAbis =
     {
-      "python36" = [ "none" "abi3" "cp36" "cp36m" ];
       "python37" = [ "none" "abi3" "cp37" "cp37m" ];
       "python38" = [ "none" "abi3" "cp38" "cp38m" ];
       "python39" = [ "none" "abi3" "cp39" "cp39m" ];
@@ -408,7 +407,6 @@ let
     };
   supportedPythonImplementations =
     {
-      "python36" = [ "any" "cp36" "py3" "py36" "3.6" ];
       "python37" = [ "any" "cp37" "py3" "py37" "3.7" ];
       "python38" = [ "any" "cp38" "py3" "py38" "3.8" ];
       "python39" = [ "any" "cp39" "py3" "py39" "3.9" ];

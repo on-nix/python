@@ -1,6 +1,4 @@
 {
   "importlib-metadata": "4.8.1",
-  "networkx": "2.6.2",
-  "prompt-toolkit": "3.0.20",
   "zipp": "3.5.0"
 }

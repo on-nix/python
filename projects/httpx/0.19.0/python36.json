@@ -1,7 +1,0 @@
-{
-  "async-generator": "1.10",
-  "contextvars": "2.4",
-  "httpcore": "0.13.3",
-  "immutables": "0.16",
-  "typing-extensions": "3.10.0.1"
-}

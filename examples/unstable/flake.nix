@@ -14,7 +14,6 @@
         pythonOnNix = inputs.pythonOnNix.lib.${system};
 
         # Pick the Python version of your choice:
-        # - `python36Env`: Python 3.6
         # - `python37Env`: Python 3.7
         # - `python38Env`: Python 3.8
         # - `python39Env`: Python 3.9

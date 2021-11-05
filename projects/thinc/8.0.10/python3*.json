@@ -3,7 +3,9 @@
   "catalogue": "2.0.6",
   "cymem": "2.0.5",
   "murmurhash": "1.0.5",
+  "numpy": "1.21.2",
   "preshed": "3.0.5",
+  "pydantic": "1.8.2",
   "srsly": "2.4.1",
   "typing-extensions": "3.10.0.2",
   "wasabi": "0.8.2"

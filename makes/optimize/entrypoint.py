@@ -31,7 +31,7 @@ def main() -> None:
 
                 py = {
                     py_version: set(load_json(py_path).items()) | py_common
-                    for py_version in ["36", "37", "38", "39", "310"]
+                    for py_version in ["37", "38", "39", "310"]
                     for py_path in [
                         os.path.join(
                             version_path,

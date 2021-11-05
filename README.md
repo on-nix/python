@@ -10,7 +10,7 @@ Check out the examples at [python.on-nix.com](https://python.on-nix.com/)!
 - Scope:
   - :heavy_check_mark:
     All [active Python releases][PYTHON_RELEASES]
-    (`3.6`, `3.7`, `3.8`, `3.9`, `3.10`)
+    (`3.7`, `3.8`, `3.9`, `3.10`)
   - :heavy_check_mark: 1700+ [projects][PROJECTS] already packaged,
     prioritized by their popularity
     according to [libraries.io](https://libraries.io/PyPI)
@@ -166,7 +166,6 @@ let
     };
 
   # Pick the Python version of your choice:
-  # - `python36Env`: Python 3.6
   # - `python37Env`: Python 3.7
   # - `python38Env`: Python 3.8
   # - `python39Env`: Python 3.9
@@ -243,7 +242,6 @@ let
     };
 
   # Pick the Python version of your choice:
-  # - `python36Env`: Python 3.6
   # - `python37Env`: Python 3.7
   # - `python38Env`: Python 3.8
   # - `python39Env`: Python 3.9
@@ -355,7 +353,6 @@ $ nix flake show github:on-nix/python
         pythonOnNix = inputs.pythonOnNix.lib.${system};
 
         # Pick the Python version of your choice:
-        # - `python36Env`: Python 3.6
         # - `python37Env`: Python 3.7
         # - `python38Env`: Python 3.8
         # - `python39Env`: Python 3.9
@@ -433,7 +430,6 @@ For example:
         pythonOnNix = inputs.pythonOnNix.lib.${system};
 
         # Pick the Python version of your choice:
-        # - `python36Env`: Python 3.6
         # - `python37Env`: Python 3.7
         # - `python38Env`: Python 3.8
         # - `python39Env`: Python 3.9

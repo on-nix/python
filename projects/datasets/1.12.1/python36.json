@@ -1,8 +1,0 @@
-{
-  "dataclasses": "0.8",
-  "idna-ssl": "1.1.0",
-  "importlib-metadata": "4.8.1",
-  "numpy": "1.19.5",
-  "pandas": "0.25.3",
-  "zipp": "3.5.0"
-}

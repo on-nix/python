@@ -1,7 +1,6 @@
 {
   "cached-property": "1.5.2",
   "importlib-metadata": "4.8.1",
-  "prompt-toolkit": "3.0.20",
   "typing-extensions": "3.10.0.2",
   "zipp": "3.5.0"
 }

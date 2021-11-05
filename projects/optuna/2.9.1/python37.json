@@ -1,8 +1,6 @@
 {
   "importlib-metadata": "4.8.1",
   "importlib-resources": "5.2.2",
-  "numpy": "1.21.2",
-  "scipy": "1.7.1",
   "typing-extensions": "3.10.0.2",
   "zipp": "3.5.0"
 }

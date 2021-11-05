@@ -5,5 +5,6 @@
   "python-json-logger": "2.0.2",
   "ruamel-yaml": "0.17.16",
   "ruamel-yaml-clib": "0.2.6",
-  "six": "1.16.0"
+  "six": "1.16.0",
+  "traitlets": "5.1.0"
 }

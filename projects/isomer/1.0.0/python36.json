@@ -1,7 +1,0 @@
-{
-  "decorator": "4.4.2",
-  "importlib-metadata": "4.8.1",
-  "networkx": "2.5.1",
-  "prompt-toolkit": "3.0.3",
-  "zipp": "3.5.0"
-}
