@@ -50,7 +50,9 @@ let
   inherit (nixpkgs.lib.lists) optionals;
   inherit (nixpkgs.lib.strings) splitString;
 
-  pythonVersions = [ "python36" "python37" "python38" "python39" "python310" ];
+  pythonVersions = builtins.filter
+    (pythonVersion: builtins.hasAttr pythonVersion nixpkgs)
+    [ "python36" "python37" "python38" "python39" "python310" ];
   pythons = builtins.map
     (pythonVersion: nixpkgs.${pythonVersion})
     (pythonVersions);
