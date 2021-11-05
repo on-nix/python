@@ -1,0 +1,5 @@
+{
+  "desc": "Tornado websocket backend for the Xterm.js Javascript terminal emulator library.",
+  "home": "https://github.com/jupyter/terminado",
+  "license": ""
+}
