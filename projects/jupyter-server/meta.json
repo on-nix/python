@@ -1,0 +1,5 @@
+{
+  "desc": "The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications.",
+  "home": "https://jupyter.org",
+  "license": ""
+}
