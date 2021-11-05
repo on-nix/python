@@ -457,7 +457,7 @@ let
       base = "https://files.pythonhosted.org/packages";
       impls = [ meta.impl ]
         ++ (builtins.map (py: py.pythonVersion) pythons)
-        ++ [ "py2.py3" "3.5" "2.7" ];
+        ++ [ "py2.py3" "py3" "3.6" "3.5" "2.7" ];
     in
     meta // {
       inherit name;
