@@ -1,0 +1,3 @@
+{
+  runtimeWants = [ "setuptools" ];
+}
