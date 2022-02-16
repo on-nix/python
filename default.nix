@@ -776,11 +776,47 @@ let
         };
         name = "${name}-bin";
       };
-      closureContents = attrsToLinkFarm "${name}-out" (
-        builtins.mapAttrs
-        (project: outputs: outputs.out)
-        (closureBuilt)
-      );
+      closureContents = nixpkgs.symlinkJoin {
+        name = "${name}-out";
+        paths =
+          (
+            builtins.attrValues (
+              builtins.mapAttrs
+              (project: outputs: outputs.out)
+              (closureBuilt)
+            )
+          )
+          ++ [
+            (
+              makeDerivation {
+                builder = ''
+                  shopt -s nullglob
+                  mkdir $out
+                  mkdir $out/bin
+                  for bin in $envPython/bin/python $envPython/bin/python3.*; do
+                    bin_basename="$(basename "$bin")"
+                    {
+                      echo "#! $envBash/bin/bash"
+                      echo
+                      echo source $envClosureSearchPaths/setup
+                      echo
+                      echo "'$bin' \"\$@\""
+                    } > "$out/bin/$bin_basename"
+                    if test -x "$bin"; then
+                      chmod +x "$out/bin/$bin_basename"
+                    fi
+                  done
+                '';
+                env = {
+                  envBash = nixpkgs.bash;
+                  envPython = nixpkgs.${pythonVersion};
+                  envClosureSearchPaths = closureSearchPaths;
+                };
+                name = "${name}-out-python";
+              }
+            )
+          ];
+      };
       closureSearchPaths =
         let
           dev = makeSearchPaths {
