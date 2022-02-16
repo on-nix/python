@@ -311,6 +311,76 @@ building '/nix/store/4l51x7983ggxc8z5fmb5wzhvvx8kvn01-example.drv'...
 + touch /nix/store/9cckx5zpbiakx507g253fv08hykf8msv-example
 ```
 
+### Customization of and integration into existing development environments
+
+Given an existing definition of a development environment using e.g. `mkShell` instead of `mkDerivation`:
+
+```nix
+let
+  nixpkgs = builtins.fetchTarball {
+    # nixpkgs-unstable (2021-10-28)
+    url = "https://github.com/NixOS/nixpkgs/archive/22a500a3f87bbce73bd8d777ef920b43a636f018.tar.gz";
+    sha256 = "1rqp9nf45m03mfh4x972whw2gsaz5x44l3dy6p639ib565g24rmh";
+  };
+in
+{ pkgs ? import nixpkgs { } }:
+
+pkgs.mkShell {
+  nativeBuildInputs = with pkgs; [
+    cmake
+    gdb
+    ninja
+    qemu
+  ] ++ (with llvmPackages_13; [
+    clang
+    clang-unwrapped
+    lld
+    llvm
+  ]);
+
+  hardeningDisable = [ "all" ];
+}
+```
+
+you can integrate the `Python On Nix` development environment seamlessly via e.g.
+
+```nix
+let
+  nixpkgs = builtins.fetchTarball {
+    # nixpkgs-unstable (2021-10-28)
+    url = "https://github.com/NixOS/nixpkgs/archive/22a500a3f87bbce73bd8d777ef920b43a636f018.tar.gz";
+    sha256 = "1rqp9nf45m03mfh4x972whw2gsaz5x44l3dy6p639ib565g24rmh";
+  };
+in
+{ pkgs ? import nixpkgs { } }:
+let
+  pythonOnNix = import (
+    builtins.fetchGit {
+      ref = "main";
+      rev = "2e735762c73651cffc027ca850b2a58d87d54b49";
+      url = "https://github.com/on-nix/python";
+    }
+  ) { nixpkgs = pkgs; };
+  env = pythonOnNix.python39Env {
+    name = "example";
+    projects = {
+      "awscli" = "latest";
+      # You can add more projects here as you need
+      # "a" = "1.0";
+      # "b" = "2.0";
+      # ...
+    };
+  };
+in
+pkgs.mkShell {
+  nativeBuildInputs =
+    [ env.dev ]
+    ++ (with pkgs; [ cmake gdb ninja qemu ])
+    ++ (with pkgs; with llvmPackages_13; [ clang clang-unwrapped lld llvm ]);
+  hardeningDisable = [ "all" ];
+}
+```
+
 # Using with Nix unstable (Nix Flakes)
 
 This project is also offered as a Nix Flake.
