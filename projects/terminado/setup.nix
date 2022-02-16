@@ -1,5 +1,6 @@
 {
-  patchClosure = closure: builtins.removeAttrs closure [
-    "pywinpty"
-  ];
+  patchClosure = closure:
+    builtins.removeAttrs closure [
+      "pywinpty"
+    ];
 }

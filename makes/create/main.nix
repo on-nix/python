@@ -1,8 +1,9 @@
-{ __nixpkgs__
-, makePythonPypiEnvironment
-, makeScript
-, outputs
-, ...
+{
+  __nixpkgs__,
+  makePythonPypiEnvironment,
+  makeScript,
+  outputs,
+  ...
 }:
 makeScript {
   entrypoint = ./entrypoint.sh;

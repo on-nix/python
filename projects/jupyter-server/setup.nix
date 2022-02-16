@@ -1,6 +1,7 @@
 {
-  patchClosure = closure: builtins.removeAttrs closure [
-    "pywin32"
-    "pywinpty"
-  ];
+  patchClosure = closure:
+    builtins.removeAttrs closure [
+      "pywin32"
+      "pywinpty"
+    ];
 }

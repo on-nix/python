@@ -1,7 +1,8 @@
-{ inputs
-, makeScript
-, projectPath
-, ...
+{
+  inputs,
+  makeScript,
+  projectPath,
+  ...
 }:
 let
   env = inputs.pythonOnNix.python39Env {
