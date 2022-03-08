@@ -1,0 +1,5 @@
+{
+
+  runtimeZlibRpath = true;
+  runtimeLibstdcppRpath = true;
+}
