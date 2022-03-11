@@ -1,0 +1,5 @@
+{
+  "desc": "For serializing Python objects to JSON (dicts) and back",
+  "home": "https://github.com/ramonhagenaars/jsons",
+  "license": "MIT"
+}
