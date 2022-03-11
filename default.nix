@@ -486,10 +486,10 @@ let
   isSupportedSrc = installer: installer.type == "src";
 
   enrichInstaller = pythonVersion: project: version: name: sha256: let
-    egg = builtins.match "(.*)-(.*?)-(.*).egg" name;
-    exe = builtins.match "(.*?)-(.*).(.*?).exe" name;
-    src = builtins.match "(.*)-(.*?).(tar.bz2|tar.gz|zip)" name;
-    whl = builtins.match "(.*?)-(.*)-(.*?)-(.*?)-(.*?).whl" name;
+    egg = builtins.match "(.*)-(.*)-(.*).egg" name;
+    exe = builtins.match "(.*)-(.*).(.*).exe" name;
+    src = builtins.match "(.*)-(.*).(tar.bz2|tar.gz|zip)" name;
+    whl = builtins.match "(.*)-(.*)-(.*)-(.*)-(.*).whl" name;
     meta =
       if whl != null
       then
