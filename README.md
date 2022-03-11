@@ -1,17 +1,17 @@
 # Python on Nix
 
 Extensive collection
-of [Python][PYTHON] projects
-from the [Python Packaging Index][PYPI].
-That can be used with the [Nix][NIX] package manager.
+of [Python][python] projects
+from the [Python Packaging Index][pypi].
+That can be used with the [Nix][nix] package manager.
 
 Check out the examples at [python.on-nix.com](https://python.on-nix.com/)!
 
 - Scope:
   - :heavy_check_mark:
-    All [active Python releases][PYTHON_RELEASES]
+    All [active Python releases][python_releases]
     (`3.7`, `3.8`, `3.9`, `3.10`)
-  - :heavy_check_mark: 1700+ [projects][PROJECTS] already packaged,
+  - :heavy_check_mark: 1700+ [projects][projects] already packaged,
     prioritized by their popularity
     according to [libraries.io](https://libraries.io/PyPI)
 - Quality:
@@ -27,31 +27,33 @@ Check out the examples at [python.on-nix.com](https://python.on-nix.com/)!
 
 Why?
 
-To make using [Nix][NIX] on [Python][PYTHON] projects
+To make using [Nix][nix] on [Python][python] projects
 as simple as possible!
 
 Just:
+
 1. Copy and paste the examples,
-2. Select the [Python][PYTHON] projects of your choice,
+2. Select the [Python][python] projects of your choice,
 3. Enjoy! :rocket:
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 # Contents
 
 - [List of available projects](#list-of-available-projects)
 - [Concepts](#concepts)
-    - [Applications and Libraries](#applications-and-libraries)
+  - [Applications and Libraries](#applications-and-libraries)
 - [Using with Nix stable](#using-with-nix-stable)
-    - [Trying out single projects](#trying-out-single-projects)
-    - [Installing applications in your system](#installing-applications-in-your-system)
-    - [Creating Python environments with many applications and libraries](#creating-python-environments-with-many-applications-and-libraries)
-        - [Compatibility with Nixpkgs](#compatibility-with-nixpkgs)
+  - [Trying out single projects](#trying-out-single-projects)
+  - [Installing applications in your system](#installing-applications-in-your-system)
+  - [Creating Python environments with many applications and libraries](#creating-python-environments-with-many-applications-and-libraries)
+    - [Compatibility with Nixpkgs](#compatibility-with-nixpkgs)
 - [Using with Nix unstable (Nix Flakes)](#using-with-nix-unstable-nix-flakes)
-    - [Trying out single projects](#trying-out-single-projects-1)
-    - [Installing applications in your system](#installing-applications-in-your-system-1)
-    - [Creating Python environments with many applications and libraries](#creating-python-environments-with-many-applications-and-libraries-1)
-        - [Compatibility with Nixpkgs](#compatibility-with-nixpkgs-1)
+  - [Trying out single projects](#trying-out-single-projects-1)
+  - [Installing applications in your system](#installing-applications-in-your-system-1)
+  - [Creating Python environments with many applications and libraries](#creating-python-environments-with-many-applications-and-libraries-1)
+    - [Compatibility with Nixpkgs](#compatibility-with-nixpkgs-1)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -586,9 +588,9 @@ Please enjoy! :rocket:
 
 ---
 
-[NIX]: https://nixos.org/
-[PROJECTS]: #list-of-available-projects
-[PYPI]: https://pypi.org/
-[PYTHON]: https://www.python.org/
-[PYTHON_RELEASES]: https://www.python.org/downloads/
-[PYTHON_WHEELS]: https://pythonwheels.com/
+[nix]: https://nixos.org/
+[projects]: #list-of-available-projects
+[pypi]: https://pypi.org/
+[python]: https://www.python.org/
+[python_releases]: https://www.python.org/downloads/
+[python_wheels]: https://pythonwheels.com/
