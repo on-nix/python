@@ -1,3 +1,3 @@
 {
-  runtimeWants = [ "flask" "weasyprint" ];
+  runtimeWants = ["flask" "weasyprint"];
 }

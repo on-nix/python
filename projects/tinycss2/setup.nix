@@ -1,3 +1,3 @@
 {
-  runtimeWants = [ "webencodings" ];
+  runtimeWants = ["webencodings"];
 }

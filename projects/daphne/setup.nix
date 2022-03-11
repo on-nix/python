@@ -1,4 +1,4 @@
 {
-  patchClosure = closure: builtins.removeAttrs closure [ "twisted-iocpsupport" ];
-  runtimeWants = [ "incremental" ];
+  patchClosure = closure: builtins.removeAttrs closure ["twisted-iocpsupport"];
+  runtimeWants = ["incremental"];
 }

@@ -9,7 +9,7 @@ let
   #   ref = "main";
   #   url = "https://github.com/on-nix/python";
   # })
-  (../../.)
+  ../../.
   {
     # (optional) You can override `nixpkgs` here
     # nixpkgs = import <nixpkgs> { };
@@ -33,5 +33,5 @@ let
   # - `dev`: The activation script for the Python on Nix environment
   # - `out`: The raw contents fo the Python site-packages
 in
-# Let's use the activation script:
-env.dev
+  # Let's use the activation script:
+  env.dev

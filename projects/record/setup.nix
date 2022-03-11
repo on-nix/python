@@ -1,3 +1,3 @@
 {
-  runtimeWants = [ "extensionclass" ];
+  runtimeWants = ["extensionclass"];
 }

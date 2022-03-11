@@ -1,10 +1,10 @@
 {
   formatMarkdown = {
     enable = true;
-    doctocArgs = [ "--title" "# Contents" ];
-    targets = [ "/README.md" ];
+    doctocArgs = ["--title" "# Contents"];
+    targets = ["/README.md"];
   };
   inputs = {
-    pythonOnNix = import ./default.nix { };
+    pythonOnNix = import ./default.nix {};
   };
 }

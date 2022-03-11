@@ -1,3 +1,3 @@
 {
-  runtimeWants = [ "six" "sqlalchemy" ];
+  runtimeWants = ["six" "sqlalchemy"];
 }

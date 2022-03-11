@@ -1,3 +1,3 @@
 {
-  runtimeWants = [ "webob" ];
+  runtimeWants = ["webob"];
 }

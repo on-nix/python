@@ -1,3 +1,3 @@
 {
-  runtimeWants = [ "ruamel-yaml" ];
+  runtimeWants = ["ruamel-yaml"];
 }

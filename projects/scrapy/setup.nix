@@ -1,3 +1,3 @@
 {
-  patchClosure = closure: builtins.removeAttrs closure [ "twisted-iocpsupport" ];
+  patchClosure = closure: builtins.removeAttrs closure ["twisted-iocpsupport"];
 }

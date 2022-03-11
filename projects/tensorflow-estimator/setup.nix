@@ -1,3 +1,3 @@
 {
-  runtimeWants = [ "six" "tensorflow" ];
+  runtimeWants = ["six" "tensorflow"];
 }

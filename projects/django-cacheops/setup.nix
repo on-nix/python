@@ -1,3 +1,3 @@
 {
-  runtimeWants = [ "django" ];
+  runtimeWants = ["django"];
 }

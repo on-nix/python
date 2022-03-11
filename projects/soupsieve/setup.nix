@@ -1,3 +1,3 @@
 {
-  runtimeWants = [ "beautifulsoup4" ];
+  runtimeWants = ["beautifulsoup4"];
 }

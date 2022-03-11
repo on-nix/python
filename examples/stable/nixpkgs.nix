@@ -1,7 +1,7 @@
 # /path/to/my/expression.nix
 let
   # Import Nixpkgs
-  nixpkgs = import <nixpkgs> { };
+  nixpkgs = import <nixpkgs> {};
 
   # Import Python on Nix
   pythonOnNix = import
@@ -12,7 +12,7 @@ let
   #   ref = "main";
   #   url = "https://github.com/on-nix/python";
   # })
-  (../../.)
+  ../../.
   {
     # (optional) You can override `nixpkgs` here
     inherit nixpkgs;
@@ -36,26 +36,26 @@ let
   # - `dev`: The activation script for the Python on Nix environment
   # - `out`: The raw contents of the Python virtual environment
 in
-# Let's use the activation script:
-nixpkgs.stdenv.mkDerivation {
-  buildInputs = [ env.dev ];
-  virtualEnvironment = env.out;
+  # Let's use the activation script:
+  nixpkgs.stdenv.mkDerivation {
+    buildInputs = [env.dev];
+    virtualEnvironment = env.out;
 
-  builder = builtins.toFile "builder.sh" ''
-    source $stdenv/setup
+    builder = builtins.toFile "builder.sh" ''
+      source $stdenv/setup
 
-    set -x
+      set -x
 
-    ls $virtualEnvironment
-    python --version
-    aws --version
-    python -c 'import numpy; print(numpy.__version__)'
-    python -c 'import requests; print(requests.__version__)'
-    python -c 'import torch; print(torch.__version__)'
+      ls $virtualEnvironment
+      python --version
+      aws --version
+      python -c 'import numpy; print(numpy.__version__)'
+      python -c 'import requests; print(requests.__version__)'
+      python -c 'import torch; print(torch.__version__)'
 
-    touch $out
+      touch $out
 
-    set +x
-  '';
-  name = "example";
-}
+      set +x
+    '';
+    name = "example";
+  }

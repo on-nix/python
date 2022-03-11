@@ -1,3 +1,3 @@
 {
-  runtimeWants = [ "docutils" "sphinx" ];
+  runtimeWants = ["docutils" "sphinx"];
 }

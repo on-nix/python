@@ -1,3 +1,3 @@
 {
-  runtimeWants = [ "six" ];
+  runtimeWants = ["six"];
 }

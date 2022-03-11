@@ -1,3 +1,3 @@
 {
-  runtimeWants = [ "numpy" ];
+  runtimeWants = ["numpy"];
 }

@@ -1,3 +1,3 @@
 {
-  runtimeWants = [ "attrs" ];
+  runtimeWants = ["attrs"];
 }

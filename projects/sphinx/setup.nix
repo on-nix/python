@@ -1,3 +1,3 @@
 {
-  runtimeWants = [ "setuptools" ];
+  runtimeWants = ["setuptools"];
 }

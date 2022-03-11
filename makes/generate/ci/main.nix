@@ -3,8 +3,7 @@
   makeScript,
   projectPath,
   ...
-}:
-let
+}: let
   env = inputs.pythonOnNix.python39Env {
     name = "makes-generate-ci";
     projects = {
@@ -13,11 +12,11 @@ let
     };
   };
 in
-makeScript {
-  name = "makes-generate-ci";
-  replace = {
-    __argGenerate__ = projectPath "/makes/generate/ci/generate.py";
-  };
-  entrypoint = "python __argGenerate__";
-  searchPaths.source = [ env ];
-}
+  makeScript {
+    name = "makes-generate-ci";
+    replace = {
+      __argGenerate__ = projectPath "/makes/generate/ci/generate.py";
+    };
+    entrypoint = "python __argGenerate__";
+    searchPaths.source = [env];
+  }

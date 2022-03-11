@@ -1,3 +1,3 @@
 {
-  runtimeWants = [ "sphinx" ];
+  runtimeWants = ["sphinx"];
 }
