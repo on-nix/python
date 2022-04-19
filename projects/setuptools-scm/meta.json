@@ -1,0 +1,5 @@
+{
+  "desc": "the blessed package to manage your versions by scm tags",
+  "home": "https://github.com/pypa/setuptools_scm/",
+  "license": "MIT"
+}
