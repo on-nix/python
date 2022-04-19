@@ -6,9 +6,9 @@ function main {
 
   echo -n > "projects/${project}/test.py" \
     && just build "projects.${project}.latest.pythonLatest" \
-    && base="$(echo "result-3/${project}/lib/python"*"/site-packages")" \
+    && base="$(echo "result-3/lib/python"*"/site-packages")" \
     && pushd "${base}" \
-    && find . -maxdepth 2 -name __init__.py \
+    && find . -maxdepth 2 -wholename "*/${project}*/__init__.py" \
     | while read -r path; do
       path="$(dirname "${path}")" \
         && path="${path//\//.}" \
