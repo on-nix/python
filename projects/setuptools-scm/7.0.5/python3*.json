@@ -1,0 +1,6 @@
+{
+  "packaging": "21.3",
+  "pyparsing": "3.0.9",
+  "tomli": "2.0.1",
+  "typing-extensions": "4.4.0"
+}
