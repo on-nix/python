@@ -1,0 +1,5 @@
+{
+  "desc": "Python library for calculating contours of 2D quadrilateral grids",
+  "home": "https://github.com/contourpy/contourpy",
+  "license": "BSD-3-Clause"
+}
