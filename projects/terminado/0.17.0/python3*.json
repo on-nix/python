@@ -1,0 +1,5 @@
+{
+  "ptyprocess": "0.7.0",
+  "pywinpty": "2.0.9",
+  "tornado": "6.2"
+}
