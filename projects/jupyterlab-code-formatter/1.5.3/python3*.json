@@ -36,6 +36,14 @@
   "jupyterlab-server": "2.16.2",
   "markupsafe": "2.1.1",
   "matplotlib-inline": "0.1.6",
+  "matplotlib": "3.6.2",
+  "contourpy": "1.0.6",
+  "cycler": "0.11.0",
+  "fonttools": "4.38.0",
+  "kiwisolver": "1.4.4",
+  "numpy": "1.23.4",
+  "pillow": "9.3.0",
+  "typing-extensions": "4.4.0",
   "mistune": "2.0.4",
   "nbclassic": "0.4.8",
   "nbclient": "0.7.0",
@@ -79,5 +87,6 @@
   "wcwidth": "0.2.5",
   "webencodings": "0.5.1",
   "websocket-client": "1.4.2",
-  "zipp": "3.10.0"
+  "zipp": "3.10.0",
+  "setuptools": "57.5.0"
 }
